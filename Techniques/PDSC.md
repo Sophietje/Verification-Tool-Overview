@@ -1,0 +1,1 @@
+Algorithm for inferring a property directed self composition.

@@ -1,0 +1,1 @@
+Solver for Constrained Horn Clauses (CHC), implemented in [[Z3]]

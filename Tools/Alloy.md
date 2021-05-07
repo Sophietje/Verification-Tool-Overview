@@ -1,0 +1,1 @@
+Can be used to check that an asseriton holds on all instances in which the sizes of the signatures are within some specified bounds

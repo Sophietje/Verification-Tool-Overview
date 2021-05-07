@@ -1,0 +1,1 @@
+Tool to analyse bifurcations in asynchronous parametrised Boolean networks

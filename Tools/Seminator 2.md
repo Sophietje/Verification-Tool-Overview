@@ -1,0 +1,1 @@
+Transforms transition-based generalized Büchi automata (TGBAs) into equivalent semi-deterministic automata

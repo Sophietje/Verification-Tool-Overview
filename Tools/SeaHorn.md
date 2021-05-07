@@ -1,0 +1,1 @@
+Verification platform that represents programs as Constrained Horn Clauses (CHC)

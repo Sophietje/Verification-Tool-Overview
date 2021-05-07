@@ -1,0 +1,1 @@
+Tool that encodes access policies as logical formulas and uses SMT solvers to answer questions about these policies.

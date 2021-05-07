@@ -1,0 +1,1 @@
+Algorithm & tool, called Sequential Iterative Scheme for solving a BMI (bilinear matrix inequality)

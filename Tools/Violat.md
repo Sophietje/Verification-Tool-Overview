@@ -1,0 +1,1 @@
+Tool to generate tests that witness violations to atomicity or weaker consistency properties in concurrent objects.
