@@ -1,0 +1,1 @@
+SAT-based minimizer for Mealy machines

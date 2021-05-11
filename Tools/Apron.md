@@ -1,0 +1,1 @@
+"Library dedicated to the static analysis of the numerical variables of programs by abstract interpretation"

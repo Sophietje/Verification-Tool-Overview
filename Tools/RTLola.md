@@ -1,1 +1,1 @@
-stream-based specification language for real-time properties
+Stream-based specification language for real-time properties

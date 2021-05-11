@@ -1,1 +1,1 @@
-Model checker that uses [[Boolector 3.0]]
+Bounded model checker that uses [[Boolector 3.0]]
