@@ -1,3 +1,3 @@
 Network reachability reasoning tool
 
-Includes other tools such as [[Soufflé]], [[MonoSAT]] and [[Vampire]].
+Uses [[Soufflé]], [[MonoSAT]] and [[Vampire]].

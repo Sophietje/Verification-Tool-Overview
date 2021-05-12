@@ -1,0 +1,1 @@
+Tool to write meta-level programs, automating some kinds of class definitions.

@@ -1,0 +1,1 @@
+Library to manipulate DBMs (difference bounded matrices) in UPPAAL

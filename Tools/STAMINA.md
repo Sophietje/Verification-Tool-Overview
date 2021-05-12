@@ -1,1 +1,3 @@
-Infinite-state CTMC (Continuous-time Markove Chain) model checker
+Infinite-state CTMC (Continuous-time Markov Chain) model checker
+
+Uses [[PRISM]]
