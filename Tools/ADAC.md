@@ -19,7 +19,6 @@ Framework to design approximate arithmetic circuits
 #### Expected input format:
 - Circuit in Verilog format
 - Error metric, threshold on error metric and time limit seem to be specified in a configuration file (.conf)
-- 
 
 #### Expected output:
 Approximate circuit satisfying the error threshold and with minimal estimated chip area (in gate-level Verilog format).
