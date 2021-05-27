@@ -20,7 +20,8 @@ One of the following three options:
 - (Flow-)LTL formula which should be checked can be passed as a string when calling the model checker
 
 #### Expected output:
-SAT or UNSAT (counterexample visualized with DOT/Graphviz)
+SAT or UNSAT
+If it is UNSAT, then a counterexample is visualized with DOT/Graphviz)
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Model checker for Petri nets with transits against Flow-LTL
