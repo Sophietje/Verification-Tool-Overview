@@ -1,0 +1,2 @@
+This folder contains tool pages for tools that are considered metatools. Metatools are tools that are supposed to be used in combination with other tools. 
+Some examples of metatools are tools that select which algorithm to be used in another tool, or for example The Axiom Profiler which is a tool used to detect matching loops in SMT solvers such as Z3. 
