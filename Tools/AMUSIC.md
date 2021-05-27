@@ -19,7 +19,7 @@ https://github.com/jar-ben/amusic
 Estimate of the amount of MUSes guaranteed to be within (1+ε)-multiplicative factor of the exact count with confidence at least 1-δ
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Tool for approximate counting of minimal unsatisfiable subets of a given Boolean formula in CNF
+Tool for approximate counting of minimal unsatisfiable subsets of a given Boolean formula in CNF
 
 Uses [[CAQE]], [[CADET]], [[QRATPre+]], [[muser2]], [[UWrMaxSat]], [[pysat]]
 
