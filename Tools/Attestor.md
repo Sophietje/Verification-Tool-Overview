@@ -18,7 +18,7 @@ Model checker
 - Java or Java Bytecode program
 - LTL formula is passed via a command-line option (`--model-checking`)
 - Graph grammar is specified as a JSON-array of rules
-- *Optionally*: options given via the command-line
+- *Options*: given via the command-line
 
 #### Expected output:
 1. Computed abstract state space
