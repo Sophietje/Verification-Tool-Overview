@@ -21,7 +21,7 @@ One of the following three options:
 
 #### Expected output:
 SAT or UNSAT
-If it is UNSAT, then a counterexample is visualized with DOT/Graphviz)
+If it is UNSAT, then a counterexample is visualized with DOT/Graphviz
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Model checker for Petri nets with transits against Flow-LTL
