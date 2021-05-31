@@ -2,4 +2,4 @@ Tool to synthesize a set of implementation decisions ensuring that a desired pro
 
 https://github.com/eskang/MappingSynthesisTool
 
-Uses [[Alloy]]
+Uses [[Alloy]] and [[Alloy Analyzer]]

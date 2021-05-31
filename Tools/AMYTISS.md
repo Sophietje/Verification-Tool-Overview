@@ -1,1 +1,42 @@
+#### Name:
+AMYTISS: 
+
+#### Application domain/field:
+Stochastic systems
+Discrete-time stochastic systems
+
+#### Type of tool (e.g. model checker, test generator):
+Synthesis tool
+
+#### Expected input thing:
+Configuration file that describes a stochastic system (Markov Decision Process) with difference equations.
+
+#### Expected input format:
+Plaintext file (the configuration options are described on Github)
+
+#### Expected output:
+Controller that adheres to safety, reachability or reach-avoid specifications.
+
+#### Internals (tools used, frameworks, techniques, paradigms, ...):
+Uses [[pFaces]]
+
+#### Comments:
 Tool for designing correct-by-construction controllers for large-scale discrete-time stochastic systems
+
+#### URIs (github, websites, etc.):
+https://github.com/mkhaled87/pFaces-AMYTISS
+
+#### Last commit date:
+17 May 2021
+
+#### Last publication date:
+14 July 2020
+
+#### List of related papers:
+https://doi.org/10.1007/978-3-030-53291-8_24
+https://arxiv.org/abs/2005.06191 (extended version of CAV paper)
+https://doi.org/10.1145/3365365.3383469
+
+#### Related tools (tools mentioned or compared to in the paper):
+FAUST2
+StocHy

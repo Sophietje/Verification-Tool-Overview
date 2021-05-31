@@ -8,14 +8,17 @@ Pointer programs
 #### Type of tool (e.g. model checker, test generator):
 Model checker
 
-#### URIs (github, websites, etc.):
-https://moves-rwth.github.io/attestor/
-
-#### Expected input:
+#### Expected input thing:
 - Java or Java Bytecode program
 - LTL formulae (specifications to be checked)
 - Declaration of the graph grammar that guides abstraction
 - *Optionally*: options such as defining the initial heap configuration, control granularity of abstraction, control garbage collection behaviour, allow re-use of results.
+
+#### Expected input format:
+- Java or Java Bytecode program
+- LTL formula is passed via a command-line option (`--model-checking`)
+- Graph grammar is specified as a JSON-array of rules
+- *Optionally*: options given via the command-line
 
 #### Expected output:
 1. Computed abstract state space
@@ -26,8 +29,23 @@ https://moves-rwth.github.io/attestor/
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Symbolic execution is used to construct an abstract state space
 
+#### Comments:
+The Github repository has an extensive [wiki](https://github.com/moves-rwth/attestor/wiki) which describes things such as the graph grammar syntax.
+
+It is possible to use a settings file (.attestor) that is a collection of command-line options which can then be imported with the tool.
+
+#### URIs (github, websites, etc.):
+https://moves-rwth.github.io/attestor/
+Examples: https://github.com/moves-rwth/attestor-examples
+
+#### Last commit date:
+7 September 2020
+
 #### Last publication date:
-2018
+18 July 2018
 
 #### List of related papers:
 https://doi.org/10.1007/978-3-319-96142-2_1
+
+#### Related tools (tools mentioned or compared to in the paper):
+[[Forester]], [[Groove]], [[Infer]], [[HIP/SLEEK]], [[Korat]], [[Juggernaut]], [[Tvla]]
