@@ -35,7 +35,7 @@ Artifact: https://zenodo.org/record/3749474
 14 July 2020
 
 #### List of related papers:
-https://doi.org/https://doi.org/10.1007/978-3-030-53291-8_16
+https://doi.org/10.1007/978-3-030-53291-8_16
 
 #### Related tools (tools mentioned or compared to in the paper):
 

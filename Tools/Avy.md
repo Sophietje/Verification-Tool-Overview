@@ -34,7 +34,7 @@ https://bitbucket.org/arieg/extavy/src/master/
 12 July 2019
 
 #### List of related papers:
-https://doi.org/https://doi.org/10.1007/978-3-030-25543-5_21
+https://doi.org/10.1007/978-3-030-25543-5_21
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[ABC]]
