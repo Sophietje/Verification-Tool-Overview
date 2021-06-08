@@ -8,7 +8,7 @@ SMT solving
 SMT solver
 
 #### Expected input thing:
-SMT query
+SMT formula
 
 #### Expected input format:
 One of the following:
