@@ -1,36 +1,31 @@
 #### Name:
-cvc4sy
+cvc5
 
 #### Application domain/field:
-Syntax-guided synthesis (SyGuS) solver
 SMT solving
 
 #### Type of tool (e.g. model checker, test generator):
-SyGuS solver
+SMT solver
 
 #### Expected input thing:
-SyGuS problem
 
 #### Expected input format:
-SyGuS input format
 
 #### Expected output:
-?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-cvc4sy is integrated in [[CVC4]].
-cvc4sy is based on counterexample-guided inductive synthesis (CEGIS).
 
 #### Comments:
-This solver specifically aims to prove unsatisfiability of formulas like: $\forall f \exists \bar{x}. \neg P[f,\bar{x}]$
 
 #### URIs (github, websites, etc.):
+Repository: https://github.com/cvc5/cvc5
+Project page: https://cvc5.github.io/
 
 #### Last commit date:
+8 June 2021
 
 #### Last publication date:
 
 #### List of related papers:
 
 #### Related tools (tools mentioned or compared to in the paper):
-Other SyGuS solver: [[EUSolver]]

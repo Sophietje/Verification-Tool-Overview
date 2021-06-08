@@ -2,7 +2,7 @@
 CIVL
 
 #### Application domain/field:
-Concurrency
+Concurrent programs
 
 #### Type of tool (e.g. model checker, test generator):
 
@@ -10,6 +10,7 @@ Concurrency
 Annotated layered concurrent program
 
 #### Expected input format:
+Boogie program?
 
 #### Expected output:
 - Error for any properties that are violated, including error traces.
@@ -24,6 +25,7 @@ Part of [[Boogie]]
 Code (part of [[Boogie]]): https://github.com/boogie-org/boogie
 
 #### Last commit date:
+4 June 2021 (31 March 2021 if only looking at boogie/Source/Concurrency where CIVL is located)
 
 #### Last publication date:
 14 July 2020

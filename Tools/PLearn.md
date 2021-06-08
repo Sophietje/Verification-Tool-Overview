@@ -1,1 +1,1 @@
-Black-box framework that runs multiple parallel instances of a [[SyGuS]] tool with different grammars
+Black-box framework that runs multiple parallel instances of a SyGuS (syntax-guided synthesis) tool with different grammars
