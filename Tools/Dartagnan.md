@@ -1,4 +1,44 @@
-Bounded model checker for concurrent programs under weak memory models.
-Requires: the program (annotated with an assertion over the final states), and the memory model.
+#### Name:
+Dartagnan
 
-Uses [[Z3]]
+#### Application domain/field:
+Concurrent programs
+Weak memory models
+Model checking
+
+#### Type of tool (e.g. model checker, test generator):
+Model checker
+
+#### Expected input thing:
+Program (annotated with an assertion over the final states), and the memory model.
+
+#### Expected input format:
+- Program: PPC, x86, AArch64 assembly, subset of C11, or own .pts format (all limited to the subsets supported by Herd's .litmus format)
+- Assertion in program should be written with the SVCOMP command: `__VERIFIER_assert`
+- Memory model: CAT
+
+#### Expected output:
+Whether the written assertion holds for the program under the specified memory model
+
+#### Internals (tools used, frameworks, techniques, paradigms, ...):
+Dartagnan is a bounded model checker for concurrent programs under weak memory models.
+Uses [[Z3]].
+
+#### Comments:
+*Note: repository only mentions that it supports programs written in the .litmus or .bpl (Boogie) formats. However, for .bpl files you have to specify the architecture as `none`, `tso`, `power`, `arm` or `arm8`.*
+
+#### URIs (github, websites, etc.):
+Repository (also contains another tool): https://github.com/hernanponcedeleon/Dat3M
+
+#### Last commit date:
+31 March 2021
+
+#### Last publication date:
+23 March 2021
+
+#### List of related papers:
+https://doi.org/10.1007/978-3-030-25540-4_19
+https://doi.org/10.1007/978-3-030-72013-1_26
+
+#### Related tools (tools mentioned or compared to in the paper):
+Other bounded model checkers: [[CBMC]], [[Nidhugg]]
