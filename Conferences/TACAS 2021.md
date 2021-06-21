@@ -1,0 +1,23 @@
+## Tools and Algorithms for the Construction and Analysis of Systems: 27th TACAS@ETAPS, 2021
+### Tool Papers
+- [🔓](https://doi.org/10.1007/978-3-030-72013-1_11) An SMT-Based Approach for Verifying Binarized Neural Networks.
+[Guy Amir](https://dblp.org/pid/277/9596.html), [Haoze Wu](https://dblp.org/pid/195/8725-1.html), [Clark W. Barrett](https://dblp.org/pid/b/ClarkWBarrett.html), [Guy Katz](https://dblp.org/pid/23/10321.html)
+✅ Integrated into [[Marabou]]
+- [🔓](https://doi.org/10.1007/978-3-030-72013-1_12) cake\_lpr: Verified Propagation Redundancy Checking in CakeML.
+[Yong Kiam Tan](https://dblp.org/pid/156/7492.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0001-7033-2463"), [Marijn J. H. Heule](https://dblp.org/pid/h/MarijnHeule.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-5587-8801"), [Magnus O. Myreen](https://dblp.org/pid/92/2955.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-9504-4107")
+✅ Uses [[cake_lpr]], compares to: [[ACL2]], [[Coq]], [[GRATchks]]
+- [🔓](https://doi.org/10.1007/978-3-030-72013-1_13) Deductive Verification of Floating-Point Java Programs in KeY
+[Rosa Abbasi](https://dblp.org/pid/284/0754.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0003-1495-3470"), [Jonas Schiffl](https://dblp.org/pid/210/8488.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-9882-8177"), [Eva Darulova](https://dblp.org/pid/75/10322.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-6848-3163"), [Mattias Ulbrich](https://dblp.org/pid/73/9580.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-2350-1831"), [Wolfgang Ahrendt](https://dblp.org/pid/91/1275.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-5671-2555")
+✅ Uses [[KeY]], compares to [[Z3]], [[CVC4]], [[MathSAT]]
+- [🔓](https://doi.org/10.1007/978-3-030-72013-1_14) Helmholtz: A Verifier for Tezos Smart Contracts Based on Refinement Types
+[Yuki Nishida](https://dblp.org/pid/36/10522-1.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0001-5941-6770"), [Hiromasa Saito](https://dblp.org/pid/288/1291.html), [Ran Chen](https://dblp.org/pid/95/6235.html), [Akira Kawata](https://dblp.org/pid/246/5108.html), [Jun Furuse](https://dblp.org/pid/95/2452.html), [Kohei Suenaga](https://dblp.org/pid/82/6723.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-7466-8789"), [Atsushi Igarashi](https://dblp.org/pid/34/589.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-5143-9764")
+✅ [[Helmholtz]]
+- [🔓](https://doi.org/10.1007/978-3-030-72013-1_15) SyReNN: A Tool for Analyzing Deep Neural Networks
+[Matthew Sotoudeh](https://dblp.org/pid/215/4310.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0003-2060-1009"), [Aditya V. Thakur](https://dblp.org/pid/68/1945.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0003-3166-1517")
+✅ [[SyReNN]]
+- [🔓](https://doi.org/10.1007/978-3-030-72013-1_16) MachSMT: A Machine Learning-based Algorithm Selector for SMT Solvers
+[Joseph Scott](https://dblp.org/pid/13/10056.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-4145-1612"), [Aina Niemetz](https://dblp.org/pid/115/4373.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0003-2600-5283"), [Mathias Preiner](https://dblp.org/pid/115/4371.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-7142-6258"), [Saeed Nejati](https://dblp.org/pid/185/0665.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-1473-3630"), [Vijay Ganesh](https://dblp.org/pid/g/VijayGanesh.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-6029-2047")
+✅ [[MachSMT]]
+- [🔓](https://doi.org/10.1007/978-3-030-72013-1_17) dtControl 2.0: Explainable Strategy Representation via Decision Tree Learning Steered by Experts. 
+[Pranav Ashok](https://dblp.org/pid/200/8227.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-1083-4741"), [Mathias Jackermeier](https://dblp.org/pid/258/4958.html), [Jan Kretínský](https://dblp.org/pid/95/6511.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-8122-2881"), [Christoph Weinhuber](https://dblp.org/pid/283/5774.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-1600-4933"), [Maximilian Weininger](https://dblp.org/pid/194/2910.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-0163-2152"), [Mayank Yadav](https://dblp.org/pid/190/8997.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0003-0302-8108")
+✅ [[dtControl]]
