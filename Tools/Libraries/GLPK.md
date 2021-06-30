@@ -1,38 +1,37 @@
 #### Name:
-Glucose
+GLPK: GNU Linear Programming Kit
 
 #### Application domain/field:
-SAT solving
+Linear programming
+Mixed integer programming
 
 #### Type of tool (e.g. model checker, test generator):
-SAT solver
+Solver for LP and MIP problems
 
 #### Expected input thing:
-CNF file
+?
 
 #### Expected input format:
-Dimacs format
+? (GNU MathProg modeling language?)
 
 #### Expected output:
-`UNSAT` or `SAT`. 
-In case the output is `SAT`, you can also print the solution.
+?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Heavily based on [[MiniSat]]
+Package for solving large-scale linear programming (LP), mixed integer programming (MIP) and other related problems.
 
 #### Comments:
 
 #### URIs (github, websites, etc.):
-Project page: https://www.labri.fr/perso/lsimon/glucose/
+Project page: https://www.gnu.org/software/glpk/
 
 #### Last commit date:
-2016
+16 December 2020 (Last available download)
 
 #### Last publication date:
-2014
+-
 
 #### List of related papers:
-https://www.aaai.org/ocs/index.php/IJCAI/IJCAI-09/paper/view/536/675
-https://doi.org/10.1007/978-3-319-09284-3_15
+-
 
 #### Related tools (tools mentioned or compared to in the paper):
