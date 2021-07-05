@@ -1,4 +1,5 @@
 ## Tools and Algorithms for the Construction and Analysis of Systems: 27th TACAS@ETAPS, 2021
+---
 ### Tool Papers
 - [🔓](https://doi.org/10.1007/978-3-030-72013-1_11) An SMT-Based Approach for Verifying Binarized Neural Networks.
 [Guy Amir](https://dblp.org/pid/277/9596.html), [Haoze Wu](https://dblp.org/pid/195/8725-1.html), [Clark W. Barrett](https://dblp.org/pid/b/ClarkWBarrett.html), [Guy Katz](https://dblp.org/pid/23/10321.html)
@@ -18,6 +19,6 @@
 - [🔓](https://doi.org/10.1007/978-3-030-72013-1_16) MachSMT: A Machine Learning-based Algorithm Selector for SMT Solvers
 [Joseph Scott](https://dblp.org/pid/13/10056.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-4145-1612"), [Aina Niemetz](https://dblp.org/pid/115/4373.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0003-2600-5283"), [Mathias Preiner](https://dblp.org/pid/115/4371.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-7142-6258"), [Saeed Nejati](https://dblp.org/pid/185/0665.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-1473-3630"), [Vijay Ganesh](https://dblp.org/pid/g/VijayGanesh.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-6029-2047")
 ✅ [[MachSMT]]
-- [🔓](https://doi.org/10.1007/978-3-030-72013-1_17) dtControl 2.0: Explainable Strategy Representation via Decision Tree Learning Steered by Experts. 
+- [🔓](https://doi.org/10.1007/978-3-030-72013-1_17) dtControl 2.0: Explainable Strategy Representation via Decision Tree Learning Steered by Experts.
 [Pranav Ashok](https://dblp.org/pid/200/8227.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-1083-4741"), [Mathias Jackermeier](https://dblp.org/pid/258/4958.html), [Jan Kretínský](https://dblp.org/pid/95/6511.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-8122-2881"), [Christoph Weinhuber](https://dblp.org/pid/283/5774.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-1600-4933"), [Maximilian Weininger](https://dblp.org/pid/194/2910.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-0163-2152"), [Mayank Yadav](https://dblp.org/pid/190/8997.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0003-0302-8108")
 ✅ [[dtControl]]

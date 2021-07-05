@@ -19,10 +19,24 @@ def warning(msg):
 def info(msg):
 	print(message(blue('INFO'), msg))
 
+class Item(object):
+	# -   [![](https://dblp.uni-trier.de/img/paper-oa.dark.hollow.16x16.png)](https://doi.org/10.1007/978-3-030-53288-8_30) Reachability Analysis Using Message Passing over Tree Decompositions.
+	# [Sriram Sankaranarayanan](https://dblp.uni-trier.de/pid/82/1542.html)
+	# Implementation of prototype has no name
+	# --->
+	# - [🔓](https://doi.org/10.1007/978-3-030-72013-1_12) cake\_lpr: Verified Propagation Redundancy Checking in CakeML.
+	# [Yong Kiam Tan](https://dblp.org/pid/156/7492.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0001-7033-2463"), [Marijn J. H. Heule](https://dblp.org/pid/h/MarijnHeule.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-5587-8801"), [Magnus O. Myreen](https://dblp.org/pid/92/2955.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-9504-4107")
+	# ✅ Uses [[cake_lpr]], compares to: [[ACL2]], [[Coq]], [[GRATchks]]
+	def __init__(self, arg):
+		super(Item, self).__init__()
+		self.arg = arg
+		
+
 class Conference(object):
 	def __init__(self, name):
 		super(Conference, self).__init__()
 		self.sections = OrderedDict()
+		self.tags = []
 		self.title = ''
 		seen_title = False
 		cur_subtitle = ''
@@ -32,7 +46,9 @@ class Conference(object):
 				line = line.strip()
 				if not line:
 					continue
-				if line.startswith('## '):
+				if len(line) > 2 and line[0] == '#' and line[1] not in ('#', ' '):
+					self.tags.append(line)
+				elif line.startswith('## '):
 					if seen_title:
 						warning('Duplicate title in ' + name)
 					seen_title = True
@@ -54,6 +70,8 @@ class Conference(object):
 	def dump_to(self, name):
 		with open(name, 'w', encoding='utf-8') as file:
 			file.write(f'## {self.title}\n')
+			for tag in self.tags:
+				file.write(tag + '\n')
 			file.write('---\n')
 			for section in self.sections.keys():
 				if section:
