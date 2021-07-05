@@ -55,14 +55,22 @@ class Item(object):
 				line = line[1:].strip()
 			if line.find('doi.org') > -1:
 				if self.title:
-					warning(f'Duplcate title: "{self.title}" vs "{line}"')
+					warning(f'Duplicate title: "{self.title}" vs "{line}"')
 				self.title = line
 			elif line.find('/pid/') > -1:
 				if self.authors:
-					warning(f'Duplcate authors: "{self.authors}" vs "{line}"')
+					warning(f'Duplicate authors: "{self.authors}" vs "{line}"')
 				self.authors = line
 			else:
 				self.lines.append(line)
+		if not self.title:
+			warning('No title!')
+		else:
+			self.title = self.title.replace('[![](https://dblp.uni-trier.de/img/paper-oa.dark.hollow.16x16.png)]', '[🔓]')
+		if not self.authors:
+			warning('No authors!')
+		else:
+			self.authors = self.authors.replace('dblp.uni-trier.de', 'dblp.org')
 	def dump_to(self, file):
 		file.write(f'-\t{self.title}\n')
 		file.write(f'\t{self.authors}\n')
