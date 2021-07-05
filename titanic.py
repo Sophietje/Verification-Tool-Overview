@@ -65,7 +65,7 @@ class Item(object):
 					warning(f'Duplicate authors: "{self.authors}" vs "{line}"')
 				self.authors = line
 			else:
-				# TODO: double check if indexing works with unicode/emojis
+				# NB: looks overengineerd, but is not simplifiable if we want unicode support
 				line = cleanup(line, '✅')
 				line = cleanup(line, '⚙️')
 				line = cleanup(line, '❌')
@@ -80,6 +80,11 @@ class Item(object):
 			warning('No authors!')
 		else:
 			self.authors = self.authors.replace('dblp.uni-trier.de', 'dblp.org')
+			while self.authors.find('![](https://dblp.org/img/orcid-mark.12x12.png') > -1:
+				# ![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-5143-9764")
+				start = self.authors.index('![](https://dblp.org/img/orcid-mark.12x12.png')
+				end = self.authors.index('")', start) + 2
+				self.authors = self.authors[:start] + self.authors[end:]
 	def dump_to(self, file):
 		file.write(f'-\t{self.title}\n')
 		file.write(f'\t{self.authors}\n')
