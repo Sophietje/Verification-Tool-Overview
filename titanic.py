@@ -2,6 +2,9 @@
 import os
 from collections import OrderedDict
 
+def cleanup(s,c):
+	return s[len(c):].strip() if s.startswith(c) else s
+
 def red(x):
 	return f'[\033[31m{x}\033[39m]'
 def green(x):
@@ -62,6 +65,12 @@ class Item(object):
 					warning(f'Duplicate authors: "{self.authors}" vs "{line}"')
 				self.authors = line
 			else:
+				# TODO: double check if indexing works with unicode/emojis
+				line = cleanup(line, '✅')
+				line = cleanup(line, '⚙️')
+				line = cleanup(line, '❌')
+				if not line:
+					continue
 				self.lines.append(line)
 		if not self.title:
 			warning('No title!')
@@ -74,8 +83,14 @@ class Item(object):
 	def dump_to(self, file):
 		file.write(f'-\t{self.title}\n')
 		file.write(f'\t{self.authors}\n')
-		for line in self.lines:
-			file.write(f'\t{line}\n')
+		if self.lines:
+			for line in self.lines:
+				if line == 'None':
+					file.write(f'\t❌ {line}\n')
+				else:
+					file.write(f'\t✅ {line}\n')
+		else:
+			file.write(f'\t⚙️\n')
 
 class Conference(object):
 	def __init__(self, name):
