@@ -19,6 +19,25 @@ def warning(msg):
 def info(msg):
 	print(message(blue('INFO'), msg))
 
+class Items(object):
+	def __init__(self, lines):
+		super(Items, self).__init__()
+		self.items = []
+		i = 0
+		item_lines = []
+		while i < len(lines):
+			if lines[i].startswith('-'):
+				if item_lines:
+					self.items.append(Item(item_lines))
+					item_lines = []
+			item_lines.append(lines[i])
+			i += 1
+		if item_lines:
+			self.items.append(Item(item_lines))
+	def dump_to(self, file):
+		for item in self.items:
+			item.dump_to(file)
+
 class Item(object):
 	# -   [![](https://dblp.uni-trier.de/img/paper-oa.dark.hollow.16x16.png)](https://doi.org/10.1007/978-3-030-53288-8_30) Reachability Analysis Using Message Passing over Tree Decompositions.
 	# [Sriram Sankaranarayanan](https://dblp.uni-trier.de/pid/82/1542.html)
@@ -27,10 +46,28 @@ class Item(object):
 	# - [🔓](https://doi.org/10.1007/978-3-030-72013-1_12) cake\_lpr: Verified Propagation Redundancy Checking in CakeML.
 	# [Yong Kiam Tan](https://dblp.org/pid/156/7492.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0001-7033-2463"), [Marijn J. H. Heule](https://dblp.org/pid/h/MarijnHeule.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-5587-8801"), [Magnus O. Myreen](https://dblp.org/pid/92/2955.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-9504-4107")
 	# ✅ Uses [[cake_lpr]], compares to: [[ACL2]], [[Coq]], [[GRATchks]]
-	def __init__(self, arg):
+	def __init__(self, lines):
 		super(Item, self).__init__()
-		self.arg = arg
-		
+		self.title = self.authors = ''
+		self.lines = []
+		for line in lines:
+			if line.startswith('-'):
+				line = line[1:].strip()
+			if line.find('doi.org') > -1:
+				if self.title:
+					warning(f'Duplcate title: "{self.title}" vs "{line}"')
+				self.title = line
+			elif line.find('/pid/') > -1:
+				if self.authors:
+					warning(f'Duplcate authors: "{self.authors}" vs "{line}"')
+				self.authors = line
+			else:
+				self.lines.append(line)
+	def dump_to(self, file):
+		file.write(f'-\t{self.title}\n')
+		file.write(f'\t{self.authors}\n')
+		for line in self.lines:
+			file.write(f'\t{line}\n')
 
 class Conference(object):
 	def __init__(self, name):
@@ -44,7 +81,7 @@ class Conference(object):
 		with open(name, 'r', encoding='utf-8') as file:
 			for line in file.readlines():
 				line = line.strip()
-				if not line:
+				if not line or line == '---':
 					continue
 				if len(line) > 2 and line[0] == '#' and line[1] not in ('#', ' '):
 					self.tags.append(line)
@@ -67,6 +104,9 @@ class Conference(object):
 					self.sections[cur_subtitle].append(line)
 					cx_lines += 1
 		info(f'{name} titled "{self.title}"; {cx_subsections} sections; {cx_lines} lines')
+		# NB: type elevation
+		for section in self.sections.keys():
+			self.sections[section] = Items(self.sections[section])
 	def dump_to(self, name):
 		with open(name, 'w', encoding='utf-8') as file:
 			file.write(f'## {self.title}\n')
@@ -76,8 +116,7 @@ class Conference(object):
 			for section in self.sections.keys():
 				if section:
 					file.write(f'### {section}\n')
-				for line in self.sections[section]:
-					file.write(line + '\n')
+				self.sections[section].dump_to(file)
 		info(f'{name} dumped')
 
 # https://dblp.org/img/orcid-mark.12x12.png
