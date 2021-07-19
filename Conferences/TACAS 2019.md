@@ -77,7 +77,7 @@
 	⚙️
 -	[🔓](https://doi.org/10.1007/978-3-030-17502-3_17) JBMC: Bounded Model Checking for Java Bytecode - (Competition Contribution)
 	[Lucas C. Cordeiro](https://dblp.org/pid/42/4311.html), [Daniel Kroening](https://dblp.org/pid/k/DanielKroening.html), [Peter Schrammel](https://dblp.org/pid/23/8898.html):
-	✅ [[JBMC]]
+	✅ Introduces [[JBMC]]
 -	[🔓](https://doi.org/10.1007/978-3-030-17502-3_18) Java Pathfinder at SV-COMP 2019 (Competition Contribution)
 	[Cyrille Artho](https://dblp.org/pid/21/6330.html), [Willem Visser](https://dblp.org/pid/54/5019.html):
 	⚙️

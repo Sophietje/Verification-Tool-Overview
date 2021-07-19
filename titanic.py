@@ -92,6 +92,9 @@ class Item(object):
 			for line in self.lines:
 				if line == 'None':
 					file.write(f'\t❌ {line}\n')
+				elif (line.startswith('[[') and line.endswith(']]') and line.find(' ') < 0) \
+				  or (line.startswith('Tool: [[') and line.endswith(']]') and line.find(' ', 5) < 0):
+					file.write(f'\t✅ Introduces {line}\n')
 				else:
 					file.write(f'\t✅ {line}\n')
 		else:
