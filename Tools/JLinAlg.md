@@ -1,1 +1,0 @@
-Linear algebra library for solving linear equations

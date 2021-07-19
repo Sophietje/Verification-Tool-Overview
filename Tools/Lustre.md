@@ -1,1 +1,0 @@
-Synchronous data-flow language
