@@ -1,1 +1,1 @@
-SMT solver
+See [[MathSAT 5]]

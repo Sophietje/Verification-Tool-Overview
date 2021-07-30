@@ -1,5 +1,41 @@
-Stochastic Protocol Analyzer
-Java-based tool for analyzing randomized security protocols
-https://github.com/bauer-matthews/SPAN
+"... [A] formal verification engine for model checking indistinguishability (trace equivalence) and state-based safety properties of randomized security protocols in the symbolic model."
 
-Uses [[Kiss]], [[Akiss]], [[Maude]], [[Apfloat]]
+#### Name:
+SPAN: Stochastic Protocol Analyzer
+
+#### Application domain/field:
+Randomized security protocols
+Model checking
+Security protocols
+
+#### Type of tool (e.g. model checker, test generator):
+Model checker
+
+#### Expected input thing:
+- Protocol P
+- Protocol P'
+
+#### Expected input format:
+?
+
+#### Expected output:
+`true` or `false` indicating whether two randomized security protocols are indistinguishable.
+
+#### Internals (tools used, frameworks, techniques, paradigms, ...):
+Uses [[KISS]], [[AKISS]], [[Maude]], [[Apfloat]]
+
+#### Comments:
+
+#### URIs (github, websites, etc.):
+Repository: https://github.com/bauer-matthews/SPAN
+
+#### Last commit date:
+20 April 2018
+
+#### Last publication date:
+18 July 2018
+
+#### List of related papers:
+https://doi.org/10.1007/978-3-319-96142-2_10
+
+#### Related tools (tools mentioned or compared to in the paper):
