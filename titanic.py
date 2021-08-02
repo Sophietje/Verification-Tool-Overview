@@ -47,7 +47,7 @@ class Item(object):
 	# Implementation of prototype has no name
 	# --->
 	# - [🔓](https://doi.org/10.1007/978-3-030-72013-1_12) cake\_lpr: Verified Propagation Redundancy Checking in CakeML.
-	# [Yong Kiam Tan](https://dblp.org/pid/156/7492.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0001-7033-2463"), [Marijn J. H. Heule](https://dblp.org/pid/h/MarijnHeule.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-5587-8801"), [Magnus O. Myreen](https://dblp.org/pid/92/2955.html)![](https://dblp.org/img/orcid-mark.12x12.png "0000-0002-9504-4107")
+	# [Yong Kiam Tan](https://dblp.org/pid/156/7492.html), [Marijn J. H. Heule](https://dblp.org/pid/h/MarijnHeule.html), [Magnus O. Myreen](https://dblp.org/pid/92/2955.html)
 	# ✅ Uses [[cake_lpr]], compares to: [[ACL2]], [[Coq]], [[GRATchks]]
 	def __init__(self, lines):
 		super(Item, self).__init__()
@@ -55,7 +55,7 @@ class Item(object):
 		self.lines = []
 		for line in lines:
 			if line.startswith('-'):
-				line = line[1:].strip()
+				line = line[1:].strip().replace('dblp.uni-trier.de', 'dblp.org')
 			if line.find('doi.org') > -1:
 				if self.title:
 					warning(f'Duplicate title: "{self.title}" vs "{line}"')
@@ -65,7 +65,7 @@ class Item(object):
 					warning(f'Duplicate authors: "{self.authors}" vs "{line}"')
 				self.authors = line
 			else:
-				# NB: looks overengineerd, but is not simplifiable if we want unicode support
+				# NB: looks overengineered, but is not simplifiable if we want unicode support
 				line = cleanup(line, '✅')
 				line = cleanup(line, '⚙️')
 				line = cleanup(line, '❌')
@@ -75,7 +75,8 @@ class Item(object):
 		if not self.title:
 			warning('No title!')
 		else:
-			self.title = self.title.replace('[![](https://dblp.uni-trier.de/img/paper-oa.dark.hollow.16x16.png)]', '[🔓]')
+			self.title = self.title.replace('[![](https://dblp.org/img/paper-oa.dark.hollow.16x16.png)]', '[🔓]')
+			self.title = self.title.replace('[![](https://dblp.org/img/paper.dark.hollow.16x16.png)]', '[🔓]')
 		if not self.authors:
 			warning('No authors!')
 		else:
@@ -94,7 +95,9 @@ class Item(object):
 					file.write(f'\t❌ {line}\n')
 				elif (line.startswith('[[') and line.endswith(']]') and line.find(' ') < 0) \
 				  or (line.startswith('Tool: [[') and line.endswith(']]') and line.find(' ', 5) < 0):
-					file.write(f'\t✅ Introduces {line}\n')
+					file.write(f'\t✅ Presents {line}\n')
+				elif line.startswith('Introduces '):
+					file.write(f"\t✅ {line.replace('Introduces', 'Presents')}\n")
 				else:
 					file.write(f'\t✅ {line}\n')
 		else:
