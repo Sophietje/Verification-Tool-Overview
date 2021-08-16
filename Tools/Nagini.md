@@ -1,4 +1,46 @@
-Automated verifier for statically-typed, concurrent Python3 programs
-https://github.com/marcoeilers/nagini
+#### Name:
+Nagini
 
-Uses [[Viper]], [[Mypy]]
+#### Application domain/field:
+Program verification
+Dynamic languages
+Deductive verification
+Concurrent programs
+
+#### Type of tool (e.g. model checker, test generator):
+Static verifier/deductive verifier
+
+#### Expected input thing:
+Source code (statically-typed) with specifications (pre-/postconditions/loop invariants/etc.)
+
+#### Expected input format:
+Python file
+
+#### Expected output:
+Verified (i.e. specification holds) or an error
+
+#### Internals (tools used, frameworks, techniques, paradigms, ...):
+Automated verifier for statically-typed, concurrent Python 3 programs. The Python program is encoded into a Viper program. The program can then be verified using either symbolic execution or verification condition generation.
+
+"Nagini can verify memory safety, functional properties, termination, deadlock freedom, and input/output behavior."
+
+Uses [[Viper]], [[Mypy]], [[Boogie]]
+
+#### Comments:
+-
+
+#### URIs (github, websites, etc.):
+Code repository: https://github.com/marcoeilers/nagini
+Information about the specification language: https://github.com/marcoeilers/nagini/wiki
+
+#### Last commit date:
+18 May 2021
+
+#### Last publication date:
+18 July 2018
+
+#### List of related papers:
+https://doi.org/10.1007/978-3-319-96145-3_33
+
+#### Related tools (tools mentioned or compared to in the paper):
+Tools that also use Viper as a back end for verification: [[Gobra]], [[Prusti]] and [[VerCors]].
