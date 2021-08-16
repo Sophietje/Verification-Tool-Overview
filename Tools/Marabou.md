@@ -36,7 +36,7 @@ Uses [[GLPK]]
 -
 
 #### URIs (github, websites, etc.):
-Code repository: https://github.com/guykatzz/Marabou/
+Repository: https://github.com/guykatzz/Marabou/
 Project page: https://neuralnetworkverification.github.io/
 
 #### Last commit date:

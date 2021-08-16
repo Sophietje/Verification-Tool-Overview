@@ -30,7 +30,7 @@ Uses [[Viper]], [[Mypy]], [[Boogie]]
 -
 
 #### URIs (github, websites, etc.):
-Code repository: https://github.com/marcoeilers/nagini
+Repository: https://github.com/marcoeilers/nagini
 Information about the specification language: https://github.com/marcoeilers/nagini/wiki
 
 #### Last commit date:

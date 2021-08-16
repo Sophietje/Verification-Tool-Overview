@@ -34,7 +34,7 @@ Uses [[MPT]], [[CORA]], [[NNMT]], [[HyST]], [[YALMIP]], [[MatConvNet]]
 The repository calls it a "Matlab Toolbox for Neural Network Verification". It requires the user to install Matlab and use it from within Matlab.
 
 #### URIs (github, websites, etc.):
-Code repository: https://github.com/verivital/nnv
+Repository: https://github.com/verivital/nnv
 
 #### Last commit date:
 20 July 2021
