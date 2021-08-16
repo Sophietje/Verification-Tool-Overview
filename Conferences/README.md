@@ -3,7 +3,17 @@ Each page in this directory contains a table of contents for the proceedings of 
 A file contains #classified if it has been completely categorized.
 
 For each paper, we check whether it contains a reference to a tool. We use the following words based on what/how it introduces a tool:
-- ❌ None: This paper does not introduce or extend any tool.
-- ✅ Presents: This paper introduces a new tool that did not exist before.
-- ✅ Extends: This paper introduces a new tool that either has a new name or is an extension of an existing tool. This is also used for papers that discuss configurations of tools in competitions. These papers tend to be written by the tool builders.
-- ✅ Expands: This paper presents a new tool that is an extension of an existing tool, e.g. [[PRISM-games]] and [[PRISM]].
+Claims on the paper level:
+* ❌ None
+	* paper reviewed and removed from the corpus — no new tool introduced, no significant expansion, etc
+* ✅ Presents X
+	* a new tool is introduced and/or published about for the first time
+* ✅ Extends X
+	* an existing tool gains new functionality that can be assumed to be available in the same tool from that date
+* ✅ Expands X
+	* an existing tool is used as a basis for building another tool or making a library, a new front-end, an IDE, etc
+* ✅ Compares to X
+	* the paper contains a comparison of whatever tool it uses to other tools
+* (there can be other ✅-claims)
+* ⚙️
+	* work in progress (the paper is still under review or not coded)
