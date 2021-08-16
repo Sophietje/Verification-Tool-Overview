@@ -3,7 +3,6 @@ Each page in this directory contains a table of contents for the proceedings of 
 A file contains #classified if it has been completely categorized.
 
 For each paper, we check whether it contains a reference to a tool. We use the following words based on what/how it introduces a tool:
-Claims on the paper level:
 * ❌ None
 	* paper reviewed and removed from the corpus — no new tool introduced, no significant expansion, etc
 * ✅ Presents X
