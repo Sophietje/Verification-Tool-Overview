@@ -29,7 +29,7 @@ Peregrine has several options for analysing a protocol, including:
 - Detection of incorrect executions through simulation
 - Formal verification (only for silent protocols): This proves correctness for all of the infinitely many initial configurations. It verifies that a population protocol computes a given predicate. This predicate needs to be specified by the user in quantifier-free Presburger arithmetic
 
-Uses [[Z3]] to check satisfiability of Presburger arithmetic formulas.
+Uses [Z3](Z3.md) to check satisfiability of Presburger arithmetic formulas.
 
 #### Comments:
 On scalability of Peregrine (from the CAV 2018 paper): "Currently, Peregrine can verify protocols with up to a hundred states and a few thousands transitions. The bottleneck is the size of the constraint system."

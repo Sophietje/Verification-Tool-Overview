@@ -13,7 +13,7 @@ Nonlinear ordinary differential equations
 
 #### Expected input thing:
 - Dynamics of the system `M`
-- Initial set `X_0``
+- Initial set `X_0`
 - Length of piecewise barrier tube `N`
 - ?
 
