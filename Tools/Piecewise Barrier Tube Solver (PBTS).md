@@ -1,5 +1,47 @@
 Tool to compute Piecewise barrier tubes (PBTs) automatically
-PBTs are used to over-approximate the flowpipe of nonlinear systems
 
+#### Name:
+PBTS: Piecewise Barrier Tube Solver
 
-Uses [[Gurobi]]
+#### Application domain/field:
+Nonlinear continuous systems
+Hybrid systems
+Nonlinear ordinary differential equations
+
+#### Type of tool (e.g. model checker, test generator):
+?
+
+#### Expected input thing:
+- Dynamics of the system `M`
+- Initial set `X_0``
+- Length of piecewise barrier tube `N`
+- ?
+
+#### Expected input format:
+?
+
+#### Expected output:
+?
+
+#### Internals (tools used, frameworks, techniques, paradigms, ...):
+PBTs (Piecewise barrier tubers) are used to over-approximate the flowpipe of nonlinear systems. These are used for safety verification of hybrid systems.
+
+Uses [Gurobi](Gurobi.md) (linear programming solver)
+
+#### Comments:
+-
+
+#### URIs (github, websites, etc.):
+?
+
+#### Last commit date:
+?
+
+#### Last publication date:
+18 July 2018
+
+#### List of related papers:
+https://doi.org/10.1007/978-3-319-96145-3_24
+
+#### Related tools (tools mentioned or compared to in the paper):
+[CORA](CORA), [Flow*](Flow*)
