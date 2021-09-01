@@ -1,3 +1,47 @@
-BCV-based solver for DS-inclusion
+BCV-based solver for DS-inclusion.
 
-Uses [[RABIT]], [[Reduce]]
+#### Name:
+QuIP
+
+#### Application domain/field:
+Quantitative inclusion
+Automata
+Discounted-sum inclusion
+Weighted automata
+
+#### Type of tool (e.g. model checker, test generator):
+Property checker (DS-inclusion)
+
+#### Expected input thing:
+- Weighted automata P, Q
+- Discounted-factor $d$
+
+#### Expected input format:
+?
+
+#### Expected output:
+Whether $P \subseteq_d Q$
+
+#### Internals (tools used, frameworks, techniques, paradigms, ...):
+BCV is an algorithm for solving DS-inclusion. The name BCV is derived from the name of the authors.
+DS-inclusion is about determining the quantitative inclusion for nondeterministic discounted-sum (DS) automata.
+
+Uses [[RABIT]] to check language inclusion and [[Reduce]] for minimizing Büchi automata.
+
+#### Comments:
+-
+
+#### URIs (github, websites, etc.):
+Possibly the following repository from the first author's github: https://github.com/suguman/QIP/ (*not linked in the paper or on the first author's website*)
+
+#### Last commit date:
+26 September 2018
+
+#### Last publication date:
+18 July 2018
+
+#### List of related papers:
+https://doi.org/10.1007/978-3-319-96142-2_9
+
+#### Related tools (tools mentioned or compared to in the paper):
+[DetLP](DetLP.md)
