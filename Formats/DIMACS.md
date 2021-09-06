@@ -1,0 +1,1 @@
+Format to represent Boolean formulae in conjunctive normal form. It is used to interact with SAT solvers.

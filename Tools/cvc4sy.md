@@ -12,7 +12,7 @@ SyGuS solver
 SyGuS problem
 
 #### Expected input format:
-SyGuS input format
+[SyGuS](SyGuS.md) input format
 
 #### Expected output:
 ?

@@ -16,7 +16,7 @@ Synthesis tool/Loop invariant generator
 SyGuS problem
 
 #### Expected input format:
-.sl file ([[SyGuS Language]])
+.sl file ([SyGuS](SyGuS.md) format)
 
 #### Expected output:
 A loop invariant such that we can prove that program's assertions will never fail.

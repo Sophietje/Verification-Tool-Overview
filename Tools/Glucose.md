@@ -11,7 +11,7 @@ SAT solver
 CNF file
 
 #### Expected input format:
-Dimacs format
+[DIMACS](DIMACS) format
 
 #### Expected output:
 `UNSAT` or `SAT`. 
