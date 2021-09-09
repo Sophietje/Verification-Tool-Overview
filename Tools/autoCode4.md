@@ -1,0 +1,1 @@
+autoCode4 synthesizes structured reactive controllers from realizable specifications in the GXW subset of linear temporal logic (LTL)

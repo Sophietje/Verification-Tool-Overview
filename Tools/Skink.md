@@ -1,0 +1,1 @@
+Skink is a static analysis tool that analyses the LLVM intermediate representation (LLVM-IR) of a program source code

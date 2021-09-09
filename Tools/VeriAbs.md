@@ -1,0 +1,1 @@
+VeriAbs verifies C programs by transforming them to abstract programs

@@ -1,0 +1,1 @@
+**HQSpre**, a state-of-the-art tool for simplifying quantified Boolean formulas (QBFs) and the first available preprocessor for dependency quantified Boolean formulas (DQBFs)
