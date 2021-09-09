@@ -156,6 +156,8 @@ class Conference(object):
 # https://dblp.org/img/orcid-mark.12x12.png
 files = {}
 for filename in os.listdir('Conferences.old'):
+	if filename.startswith('README'):
+		continue
 	if filename.endswith(".md"): 
 		files[filename] = Conference(os.path.join('Conferences.old', filename))
 		files[filename].dump_to(os.path.join('Conferences', filename))
