@@ -1,1 +1,0 @@
-See [[MathSAT 5]]

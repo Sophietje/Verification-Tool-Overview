@@ -1,0 +1,1 @@
+This folder contains tool pages for frameworks, platforms and ecosystems

@@ -82,7 +82,7 @@
 	✅ Presents [[JBMC]]
 -	[🔓](https://doi.org/10.1007/978-3-030-17502-3_18) Java Pathfinder at SV-COMP 2019 (Competition Contribution)
 	[Cyrille Artho](https://dblp.org/pid/21/6330.html), [Willem Visser](https://dblp.org/pid/54/5019.html):
-	✅ Expands [[Java Pathfinder]]
+	✅ Expands [[JPF]]
 -	[🔓](https://doi.org/10.1007/978-3-030-17502-3_19) PeSCo: Predicting Sequential Combinations of Verifiers - (Competition Contribution)
 	[Cedric Richter](https://dblp.org/pid/238/3001.html), [Heike Wehrheim](https://dblp.org/pid/w/HeikeWehrheim.html):
 	✅ Presents [[PeSCo]]

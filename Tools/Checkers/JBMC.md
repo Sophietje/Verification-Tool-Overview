@@ -25,7 +25,7 @@ Bounded model checker for Java bytecode.
 It checks runtime exceptions (e.g. nullpointer exceptions) and user-defined assertions
 
 Uses SAT/SMT solver (no specific one mentioned).
-Built on top of [[CPROVER]].
+Built on top of [[CProver]].
 Tool paper calls it an extension to [[CBMC]].
 
 It is possible to configure JBMC by passing arguments when calling JBMC. For example one can choose to disable certain checks (e.g. division by zero checks). For more information on the configurations, see: https://www.cprover.org/jbmc/command_line_options.html
