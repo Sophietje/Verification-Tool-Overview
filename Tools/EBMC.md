@@ -1,0 +1,2 @@
+EBMC is a Model Checker for hardware designs. It includes both bounded and unbounded analysis, i.e., it can both discover bugs and is also able to prove the absence of bugs. It can read Netlists (ISCAS89 format), Verilog, System Verilog and SMV files. Properties can be given in LTL or a fragment of System Verilog Assertions.
+http://www.cprover.org/ebmc/

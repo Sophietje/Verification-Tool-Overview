@@ -1,0 +1,1 @@
+InterpChecker is a tool for verifying safety properties of C programs
