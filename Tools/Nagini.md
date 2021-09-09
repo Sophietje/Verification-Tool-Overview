@@ -32,6 +32,7 @@ Uses [[Viper]], [[Mypy]], [[Boogie]]
 #### URIs (github, websites, etc.):
 Repository: https://github.com/marcoeilers/nagini
 Information about the specification language: https://github.com/marcoeilers/nagini/wiki
+Artifact of CAV 2021 paper: https://zenodo.org/record/4724854
 
 #### Last commit date:
 18 May 2021
@@ -40,7 +41,8 @@ Information about the specification language: https://github.com/marcoeilers/nag
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96145-3_33
+https://doi.org/10.1007/978-3-319-96145-3_33 (CAV 2018)
+https://doi.org/10.1007/978-3-030-81685-8_34 (CAV 2021)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Tools that also use Viper as a back end for verification: [[Gobra]], [[Prusti]] and [[VerCors]].
