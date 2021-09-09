@@ -1,0 +1,2 @@
+The ACL2 Sedan theorem prover (ACL2s) is an Eclipse plug-in that provides a modern IDE, supports several modes of interaction, provides a powerful termination analysis engine, includes a rich support for "types" and seamlessly integrates semi-automated bug-finding methods with interactive theorem proving.
+http://acl2s.ccs.neu.edu/acl2s/doc/
