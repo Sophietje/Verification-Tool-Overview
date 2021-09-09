@@ -1,0 +1,1 @@
+VeriFuzz is a coverage driven automated test-input generation tool based on grey-box fuzzing

@@ -4,7 +4,7 @@
 -	[🔓](https://doi.org/10.1007/978-3-319-89963-3_24) 2LS: Memory Safety and Non-termination - (Competition Contribution)
 	[Viktor Malík](https://dblp.org/pid/217/4849.html), [Stefan Marticek](https://dblp.org/pid/217/4868.html), [Peter Schrammel](https://dblp.org/pid/23/8898.html), [Mandayam K. Srivas](https://dblp.org/pid/50/1962.html), [Tomás Vojnar](https://dblp.org/pid/51/533.html), [Johanan Wahlang](https://dblp.org/pid/217/4873.html):
 	✅ Presents [[2LS]]
-	✅ Expands [[CPROVER]]
+	✅ Expands [[CProver]]
 -	[🔓](https://doi.org/10.1007/978-3-319-89963-3_25) YOGAR-CBMC: CBMC with Scheduling Constraint Based Abstraction Refinement - (Competition Contribution)
 	[Liangze Yin](https://dblp.org/pid/23/10811.html), [Wei Dong](https://dblp.org/pid/92/748-6.html), [Wanwei Liu](https://dblp.org/pid/04/5600.html), [Yunchou Li](https://dblp.org/pid/217/4853.html), [Ji Wang](https://dblp.org/pid/64/856-1.html):
 	✅ Presents [[Yogar-CBMC]]

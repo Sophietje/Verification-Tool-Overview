@@ -1,0 +1,1 @@
+Pinaka extends symbolic execution with incremental solving coupled with eager infeasibility checks

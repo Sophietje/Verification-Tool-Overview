@@ -1,0 +1,1 @@
+DIVINE is an LLVM-based verification tool focusing on analysis of real-world C and C++ programs
