@@ -13,13 +13,13 @@ Model checker
 ?
 
 #### Expected input format:
-[[Modest Toolset]] format or [[JANI]] format.
+[[Modest]] Toolset format or [[JANI]] format.
 
 #### Expected output:
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-This is part of the [[Modest Toolset]]. It is described on the project page as a "disk-based explicit-state model checker for STA (stochastic timed automata), PTA (probabilistic timed automata) and MDP (Markov decision processes)."
+This is part of the [[Modest]] Toolset. It is described on the project page as a "disk-based explicit-state model checker for STA (stochastic timed automata), PTA (probabilistic timed automata) and MDP (Markov decision processes)."
 
 #### Comments:
 -
