@@ -1,0 +1,1 @@
+SMT solver for QF_BV (quantifier-free bit-vector) logic.
