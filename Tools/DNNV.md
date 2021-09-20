@@ -8,4 +8,4 @@ Compared to: [[VNNLIB]] and [[SOCRATES]]
 Repository: https://github.com/dlshriver/DNNV
 Documentation: https://dnnv.readthedocs.io/
 
-Supports the following verifiers: [Reluplex](Reluplex), [[planet]], [[MIPVerify.jl]], [Neurify](Neurify), [[ERAN]], [[PLNN]], [Marabou](Marabou.md), [nnenum](nnenum.md), [[verinet]]
+Supports the following verifiers: [Reluplex](Reluplex.md), [[planet]], [[MIPVerify.jl]], [Neurify](Neurify), [[ERAN]], [[PLNN]], [Marabou](Marabou.md), [nnenum](nnenum.md), [[verinet]]
