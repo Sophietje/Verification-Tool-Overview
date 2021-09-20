@@ -7,6 +7,7 @@ AGREE: Assume Guarantee Reasoning Environment
 Model checker
 
 #### URIs (github, websites, etc.):
+http://loonwerks.com/tools/agree.html
 
 #### Expected input:
 
