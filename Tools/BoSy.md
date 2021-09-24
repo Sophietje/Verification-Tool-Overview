@@ -37,8 +37,8 @@ Online interface: https://www.react.uni-saarland.de/tools/online/BoSy/
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_4
-https://doi.org/10.1007/978-3-319-63390-9_17
-https://doi.org/10.1007/978-3-662-54577-5_20
+https://doi.org/10.1007/978-3-030-53291-8_4 (CAV '20)
+https://doi.org/10.1007/978-3-319-63390-9_17 (CAV '17)
+https://doi.org/10.1007/978-3-662-54577-5_20 (TACAS '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
