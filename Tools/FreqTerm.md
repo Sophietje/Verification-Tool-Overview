@@ -19,7 +19,7 @@ Program encoded as a system of linear constrained Horn clauses (CHCs).
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Tool to prove program termination and non-termination using syntax-guided synthesis.
-Uses [[Spacer3]], [[μZ]] [[AE-VAL]], [[Z3]]. It is developed on top of [[FreqHorn]].
+Uses [[Spacer3]], [µZ](µZ.md) [[AE-VAL]], [[Z3]]. It is developed on top of [[FreqHorn]].
 
 #### Comments:
 
