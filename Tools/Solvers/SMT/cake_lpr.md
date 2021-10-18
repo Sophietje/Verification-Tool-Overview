@@ -17,7 +17,7 @@ A proof in LPR (Linear Propagation Redundancy)
 SAT? or VERIFIED UNSAT or resource exhaustion error
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Built on top of [[CakeML]]; [[HOL4]]
+Built on top of [[CakeML]]; [[HOL]]4
 The same paper has a tool to convert PR to LPR
 
 

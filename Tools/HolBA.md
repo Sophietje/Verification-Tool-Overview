@@ -17,7 +17,7 @@ Binary analysis
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Tool for binary analysis in [[HOL4]]
+Tool for binary analysis in [[HOL]]4
 
 #### Comments:
 
