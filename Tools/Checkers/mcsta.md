@@ -10,7 +10,13 @@ Reachability properties
 Model checker
 
 #### Expected input thing:
-?
+One of the following types of models:
+- STA (stochastic timed automaton)
+- PTA (probabilistic timed automaton)
+- MDP (Markov decision process)
+- DTMC (discrete-time Markov chain)
+
+And properties that should be checked (LTL or CTL)
 
 #### Expected input format:
 [[Modest]] Toolset format or [[JANI]] format.
@@ -28,12 +34,12 @@ This is part of the [[Modest]] Toolset. It is described on the project page as a
 Project page (of the Modest Toolset): https://www.modestchecker.net/
 
 #### Last commit date:
-?
+27 August 2021 (last build in changelog)
 
 #### Last publication date:
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_26
+https://doi.org/10.1007/978-3-030-53291-8_26 (CAV '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
