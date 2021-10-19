@@ -17,14 +17,17 @@ Alloy language
 Counterexample or "assertion may be valid"
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
+The Alloy Analyzer translates the given problem into a boolean formula which is then handed to a SAT solver. When the SAT solver is done, the solution is translated back into the language of the original model. The user needs to specify a scope that bounds the size of the domains thereby making the problem finite and thus reducible to a boolean formula.
 Uses SAT solvers to refute a formula.
+
+It uses [Sat4j](Sat4j.md), [MiniSat](MiniSat.md), [plingeling](plingeling.md) and [Glucose](Glucose.md) for SAT solving.
 
 #### Comments:
 Domains (in the model) are bound by the user, resulting in a finite problem.
 
 #### URIs (github, websites, etc.):
-https://alloytools.org/
-https://github.com/AlloyTools/org.alloytools.alloy
+Project page: https://alloytools.org/
+Repository: https://github.com/AlloyTools/org.alloytools.alloy
 
 #### Last commit date:
 24 February 2021
