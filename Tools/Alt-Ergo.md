@@ -25,7 +25,7 @@ One of the following:
 `unsat`, `sat` or `unknown` if the user used the [SMT-LIB](SMT-LIB.md) 2 input format (i.e. `.psmt2` or `.smt2` files)
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Alt-Ergo is used by [Frama-C](Frama-C), [SPARK](SPARK.md), [Why3](Why3.md), [[Atelier-B]] and [[Caveat]].
+Alt-Ergo is used by [Frama-C](Frama-C.md), [SPARK](SPARK.md), [Why3](Why3.md), [[Atelier-B]] and [[Caveat]].
 
 #### Comments:
 -
