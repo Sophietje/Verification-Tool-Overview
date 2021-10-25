@@ -1,7 +1,43 @@
-exact minimal unsatisfiable subset (MUS) counter that does not rely on exhaustive enumeration.
+Exact minimal unsatisfiable subset (MUS) counter that does not rely on exhaustive enumeration.
 
-Compared to: [AMUSIC](AMUSIC.md)
+#### Name:
+CountMUST
 
-Uses [[GANAK]]
+#### Application domain/field:
+Minimal Unsatisfiable Subsets (MUSes)
+MUS counting
 
+#### Type of tool (e.g. model checker, test generator):
+MUS counter
+
+#### Expected input thing:
+Unsatisfiable set F of Boolean clauses (i.e. a Boolean formula in CNF)
+
+#### Expected input format:
+If it is a "Plain" MUS then [DIMACS](DIMACS.md) `.cnf` format
+If it is a "group" MUS then a `.gcnf` file for a "group DIMACS format". 
+More detail about the input format is available in the README of the repository.
+
+#### Expected output:
+Number of Minimal Unsatisfiable Subsets (MUSes) of F.
+
+#### Internals (tools used, frameworks, techniques, paradigms, ...):
+Uses [[GANAK]], [[RIME]] and [UWrMaxSat](UWrMaxSat.md)
+
+#### Comments:
+-
+
+#### URIs (github, websites, etc.):
 Repository: https://github.com/jar-ben/exactMUSCounter
+
+#### Last commit date:
+26 April 2021
+
+#### Last publication date:
+15 July 2021
+
+#### List of related papers:
+https://doi.org/10.1007/978-3-030-81688-9_15 (CAV '21)
+
+#### Related tools (tools mentioned or compared to in the paper):
+Compared to: [AMUSIC](AMUSIC.md)
