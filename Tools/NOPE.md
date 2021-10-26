@@ -8,7 +8,7 @@ Program synthesis
 Syntax-guided synthesis (SyGuS)
 
 #### Type of tool (e.g. model checker, test generator):
-SyGuS tool/synthesis tool? Property checker?
+Property checker?
 
 #### Expected input thing:
 SyGuS problem

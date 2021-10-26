@@ -9,6 +9,7 @@ Program synthesis
 Controller synthesis
 
 #### Type of tool (e.g. model checker, test generator):
+Reactive controller synthesizer
 
 #### Expected input thing:
 - Specification in the GXW subset of LTL.

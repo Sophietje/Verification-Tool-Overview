@@ -8,7 +8,7 @@ Syntax-guided synthesis (SyGuS)
 Counterexample-guided inductive synthesis (CEGIS)
 
 #### Type of tool (e.g. model checker, test generator):
-?
+? Synthesis tool? Metatool?
 
 #### Expected input thing:
 - Synthesis tool
