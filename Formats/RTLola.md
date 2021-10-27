@@ -28,6 +28,8 @@ RTLola is a stream specification language. In a specification, input streams col
 -
 
 #### URIs (github, websites, etc.):
+Project page: https://www.react.uni-saarland.de/tools/rtlola/
+RTLola reference: https://www.react.uni-saarland.de/tools/rtlola/tutorial.html#rtlola-reference
 
 #### Last commit date:
 -
