@@ -24,7 +24,7 @@ Java bytecode (it supports Java class files, Jar archives, or Android apk)
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Uses [[Eldarica]], [Spacer](Spacer.md) as back-end solvers and [[Soot]] to translate Java bytecode to simplified Jimple three-address format.
 
-JayHorn can also infer some program annotations automatically for NullPointerExceptions, ArrayIndexOutOfBoudnsExceptions and ClassCastExceptions.
+JayHorn can also infer some program annotations automatically for NullPointerExceptions, ArrayIndexOutOfBoundsExceptions and ClassCastExceptions.
 
 #### Comments:
 JayHorn does not support strings, enums, bounded integer data-types, floating-point data-types, reflection, dynamic loading, and concurrency

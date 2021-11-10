@@ -1,8 +1,5 @@
 Model checking tool for consensus algorithms formulated in the ConsL language
 
-Project page: https://infsec.ethz.ch/research/software/consl-verifier.html
-https://doi.org/10.1007/978-3-319-63390-9_12
-
 #### Name:
 Consensus Verifier
 
