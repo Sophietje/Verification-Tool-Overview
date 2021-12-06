@@ -40,4 +40,4 @@ Repository: https://github.com/mklokocka/seminator
 https://doi.org/10.1007/978-3-030-53291-8_2 (CAV 2020)
 
 #### Related tools (tools mentioned or compared to in the paper):
-[Owl](Owl)
+[Owl](Owl.md)
