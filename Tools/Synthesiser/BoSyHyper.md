@@ -19,8 +19,8 @@ JSON based format
 Whether a specification is realizable. If realizable, then a solution can be given.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Implementation based on [[BoSy]] LTL synthesis tool.
-Uses [[Z3]]
+Implementation based on [BoSy](BoSy.md) LTL synthesis tool.
+Uses [Z3](../Solvers/SMT/Z3.md)
 
 #### Comments:
 Synthesis tool for universal HyperLTL based on a bounded synthesis algorithm

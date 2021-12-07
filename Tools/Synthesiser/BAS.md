@@ -21,7 +21,7 @@ LTL formula φ
 - `UNREALIZABLE`  if PR(¬φ) (Pnueli-Rosner closure of ¬φ) is not synchronously realizable.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[LTL3BA]], [[BoSy]], [[Acacia+]]
+Uses [[LTL3BA]], [BoSy](BoSy.md), [[Acacia+]]
 Uses BDDs (Binary Decision Diagrams).
 Given an LTL specification, they use that *asynchronous* synthesis can be reduced to checking whether a specification is *synchronously* synthesizable.
 

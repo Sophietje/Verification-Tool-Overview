@@ -20,7 +20,7 @@ Synthesis tool
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Replicas are often used for fault-tolerance, availability, responsiveness and scalability. We need some kind of coordination between replicated objects, e.g. using consensus protocols, to keep all objects up-to-date/synchronised. This tool provides a correct-by-construction replicated object that guarantees (1) integrity, (2) convergence, and (3) recency. This replicated object is automatically synthesized based on a given sequential object with the declaration of its integrity and recency requirements.
 
-Uses [[CVC4]].
+Uses [CVC4](../Solvers/SMT/CVC4.md).
 
 #### Comments:
 

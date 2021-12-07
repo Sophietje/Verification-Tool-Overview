@@ -29,7 +29,7 @@ If realizable, PARTY outputs a Mealy or Moore machine in dot or NuSMV format.
 
 ##### star.py
 `unknown` or `realizable`?
-If realizable, then an automaton in dot or [[AIGER]] format.
+If realizable, then an automaton in dot or [AIGER](../../Formats/AIGER.md) format.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 This tool uses **bounded synthesis**. In bounded synthesis an LTL property is translated to Büchi automata, and the verification of LTL properties can be reduced to deciding emptiness of the product of this automaton and a Kripke structure representing an implementation.

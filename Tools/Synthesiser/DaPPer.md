@@ -19,7 +19,7 @@ Probabilistic program synthesizer
 - *Causal order hypothesis*: ?
 
 #### Expected output:
-PPL program in a subset of the [[BLOG]] language.
+PPL program in a subset of the [BLOG](../../Formats/BLOG.md) language.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 It uses simulated annealing (SA) to synthesize PPL (probabilistic programming language) programs from relational datasets.

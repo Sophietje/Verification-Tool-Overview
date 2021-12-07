@@ -22,7 +22,7 @@ This consists of a description of the library and a template of a straight-line 
 Program meeting the specification/sketch of the desired program.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [Yices](../Solvers/SMT/Yices.md) or [Z3](Z3.md)
+Uses [Yices](../Solvers/SMT/Yices.md) or [Z3](../Solvers/SMT/Z3.md).
 
 SYNUDIC converts the input file into a (EF-)Yices formula or an exists SMT formula. It then calls an SMT solver.
 

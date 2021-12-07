@@ -26,7 +26,7 @@ Synthesis tool
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Implemented on top of [[Synquid]], uses [Z3](Z3.md).
+Implemented on top of [[Synquid]], uses [Z3](../Solvers/SMT/Z3.md).
 It uses a type-directed synthesis algorithm.
 
 #### Comments:

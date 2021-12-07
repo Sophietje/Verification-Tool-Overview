@@ -16,7 +16,7 @@ Synthesis tool
 - Set of accepting states $T$
 
 #### Expected input format:
-- *CMDP*: either as a [[PRISM]] model, [[Storm]] model, or it can be constructed in Python.
+- *CMDP*: either as a [PRISM](../Checkers/PRISM.md) model, [Storm](../Checkers/Storm.md) model, or it can be constructed in Python.
 - $cap$: passed as an argument when calling the algorithm in Python
 - $T$: passed as an argument when calling the algorithm in Python
 

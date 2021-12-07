@@ -28,7 +28,7 @@ If successful, it outputs optimized EVM bytecode to transform the source into th
 "**Super-optimization** is a technique that tries to find the best translation of a block of code by trying all possible sequences of instructions that produce the same result."
 In the case of smart contracts, one tries to optimize the gas usage. **Gas** is the fee required to successfully conduct a transaction or execute a smart contract.
 
-It supports the following Max-SMT solvers: [Z3](Z3.md), [Barcelogic](Barcelogic.md) and [[OptiMathSAT]].
+It supports the following Max-SMT solvers: [Z3](../Solvers/SMT/Z3.md), [Barcelogic](../Solvers/SMT/Barcelogic.md) and [OptiMathSAT](../Solvers/OptiMathSAT.md).
 It uses [[EthIR]] to generate control flow graphs of the analyzed contracts.
 
 #### Comments:

@@ -32,7 +32,7 @@ RealSyn synthesizes provably correct controllers for linear systems with reach-a
 
 *Reach-avoid specifications*: Specifications that require the system to reach a goal G while avoiding unsafe states or obstacles O.
 
-Uses [[Z3]], [[CVC4]], [Yices](../Solvers/SMT/Yices.md)
+Uses [Z3](../Solvers/SMT/Z3.md), [CVC4](../Solvers/SMT/CVC4.md), [Yices](../Solvers/SMT/Yices.md)
 
 #### Comments:
 -

@@ -23,7 +23,7 @@ Constraint-solving
 The tool uses bounded synthesis, this means that it results in a minimal implementation. 
 
 #### Comments:
-[[BoSyHyper]] is from the same team but for synthesis of HyperLTL.
+[BoSyHyper](BoSyHyper.md) is from the same team but for synthesis of HyperLTL.
 
 #### URIs (github, websites, etc.):
 Project page: https://www.react.uni-saarland.de/tools/bosy/

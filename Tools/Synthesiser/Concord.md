@@ -20,7 +20,7 @@ A program that satisfies the specification
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Synthesis algorithm based on reinforcement learning tightly coupled with statistical and deductive reasoning.
 It focuses on syntax-guided synthesis: given a domain-specific language (DSL) and a specification, they try to find a program that satisfies the specification.
-Uses [[Z3]].
+Uses [Z3](../Solvers/SMT/Z3.md).
 
 #### Comments:
 

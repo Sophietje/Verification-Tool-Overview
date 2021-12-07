@@ -17,19 +17,19 @@ LTL synthesis tool
 LTL formula(s)
 
 #### Expected input format:
-[Owl](Owl.md) format (https://gitlab.lrz.de/i7/owl/blob/master/doc/FORMATS.md)
+[Owl](../Owl.md) format (https://gitlab.lrz.de/i7/owl/blob/master/doc/FORMATS.md)
 
 #### Expected output:
 `REALIZABLE` or `UNREALIZABLE`.
 
 If realizable, then it also outputs a controller in one of the following formats: 
-- Mealy/Moore machine ([HOA](HOA.md) format)
-- [AIGER](AIGER.md) circuit
-- BDD (dot format with [CUDD](CUDD.md) interpretation)
+- Mealy/Moore machine ([HOA](../../Formats/HOA.md) format)
+- [AIGER](../../Formats/AIGER.md) circuit
+- BDD (dot format with [CUDD](../Libraries/CUDD.md) interpretation)
 - Parity game ([[PGSolver]] format)
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[Speculoos]], [[MeMin]], [[ABC]]
+Uses [Speculoos](../Speculoos.md), [MeMin](../MeMin.md), [ABC](../Frameworks/ABC.md).
 
 Given an LTL formula, it synthesizes a controller. I.e. it tries to find a matching implementation, e.g. a Mealy machine, for an LTL formula.
 To achieve this, it takes the following steps:
