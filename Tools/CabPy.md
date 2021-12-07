@@ -30,7 +30,7 @@ The connectives -> (Implies), <-> (Iff), | (or), & (and), ! (not), < (less than)
 Which player ('REACH' or 'SAFE') wins the game.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [PySMT](PySMT.md), [MathSAT](MathSAT.md) 5 amd [Z3](Z3.md)
+Uses [PySMT](Libraries/PySMT.md), [MathSAT](Solvers/SMT/MathSAT.md) 5 and [Z3](Solvers/SMT/Z3.md).
 
 #### Comments:
 License: MIT License

@@ -23,11 +23,11 @@ Viper program
 Program annotated with permission pre- and postconditions
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Sample infers permission pre- and postconditions for [Viper](Viper.md) programs.
+Sample infers permission pre- and postconditions for [Viper](Frameworks/Viper.md) programs.
 
 The tool first performs a forward numerical analysis to infer over-approximate loop invariants. Then, the tool performs inference and maximum elimination. Finally, it adds the annotations to the input program.
 
-Uses [Apron](Apron.md) for numerical analysis.
+Uses [Apron](Libraries/Apron.md) for numerical analysis.
 
 #### Comments:
 -

@@ -23,7 +23,7 @@ If the process is automated with the `-s` option, then it will report either `SA
 Otherwise, it generates a file `output.als` which can be analyzed with the Electrum Analyzer.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-The tool takes a Cervino specification as input and generates Electrum models which are given to the [[Electrum Analyzer]], which calls a complete procedure in [nuXmv](nuXmv.md).
+The tool takes a Cervino specification as input and generates Electrum models which are given to the [Electrum Analyzer](Checkers/Electrum%20Analyzer.md), which calls a complete procedure in [nuXmv](Checkers/nuXmv.md).
 
 #### Comments:
 Cervino seems to be both a name for the modelling language and for the tool.

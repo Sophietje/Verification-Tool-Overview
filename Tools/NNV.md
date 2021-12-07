@@ -28,7 +28,7 @@ It is possible for the tool to report `UNK` in case the result is unknown.
 NNV consists of a set of reachability algorithms that can be used to reason about deep neural networks (DNNs), specifically for *sequential* FFNNs (feed forward neural networks) and CNNs (convolutional neural networks), as well as NNCS (neural network control systems) with FFNN controllers. 
 These reachability algorithms can be used to compute exact and over-approximate reachable sets of DNNs and neural network control systems (NNCSs).
 
-Uses [[MPT]], [[CORA]], [[NNMT]], [[HyST]], [[YALMIP]], [[MatConvNet]]
+Uses [MPT](MPT.md), [[CORA]], [NNMT](NNMT.md), [[HyST]], [[YALMIP]], [[MatConvNet]]
 
 #### Comments:
 The repository calls it a "Matlab Toolbox for Neural Network Verification". It requires the user to install Matlab and use it from within Matlab.
@@ -47,4 +47,4 @@ https://doi.org/10.1007/978-3-030-53288-8_2
 https://doi.org/10.1007/978-3-030-53288-8_1
 
 #### Related tools (tools mentioned or compared to in the paper):
-Other tools for neural network verification: [[Reluplex]], [[Marabou]] and [[ReluVal]].
+Other tools for neural network verification: [Reluplex](Solvers/SMT/Reluplex.md), [Marabou](Marabou.md) and [ReluVal](ReluVal).

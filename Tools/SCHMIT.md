@@ -26,7 +26,7 @@ Security verification
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [Gurobi](Gurobi.md), [[Javassist]], [[Scipy]]
+Uses [Gurobi](Solvers/Gurobi.md), [[Javassist]], [[Scipy]]
 
 #### Comments:
 -

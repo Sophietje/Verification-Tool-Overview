@@ -23,10 +23,10 @@ Benchmark generator/test generator
 Arguments are all numbers passed as parameters to a Python script.
 
 #### Expected output:
-Transition system in [AIGER](AIGER.md)] format.
+Transition system in [AIGER](../Formats/AIGER.md) format.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [ABC](ABC.md), [AIGER](AIGER.md)
+Uses [ABC](Frameworks/ABC.md), [AIGER](../Formats/AIGER.md)
 
 #### Comments:
 -

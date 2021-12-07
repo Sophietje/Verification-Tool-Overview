@@ -21,7 +21,7 @@ Weighted automata
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [RABIT](RABIT.md)
+Uses [RABIT](RABIT.md).
 
 #### Comments:
 It is called a *prototype tool* in the paper.
@@ -39,5 +39,5 @@ Repository: *Not linked in paper or on first author's webpage*
 https://doi.org/10.1007/978-3-030-25540-4_4 (CAV 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
-Probably related to [QuIP](QuIP.md) by the same authors.
+Probably related to [QuIP](Checkers/QuIP.md) by the same authors.
 Also compared to [DetLP](DetLP.md) in the CAV 2019 paper.

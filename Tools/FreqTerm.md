@@ -12,14 +12,14 @@ Termination prover
 Program encoded as a system of linear constrained Horn clauses (CHCs).
 
 #### Expected input format:
-? (Looks like [[SMT-LIB]] v2)
+? (Looks like [SMT-LIB](../Formats/SMT-LIB.md) v2)
 
 #### Expected output:
 `terminates` or `unknown`
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Tool to prove program termination and non-termination using syntax-guided synthesis.
-Uses [[Spacer]]3, [µZ](µZ.md) [[AE-VAL]], [[Z3]]. It is developed on top of [[FreqHorn]].
+Uses [Spacer](Solvers/Spacer.md)]3, [µZ](Solvers/µZ.md) [[AE-VAL]], [Z3](Solvers/SMT/Z3.md). It is developed on top of [FreqHorn](Solvers/FreqHorn.md).
 
 #### Comments:
 

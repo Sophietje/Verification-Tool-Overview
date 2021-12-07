@@ -3,4 +3,4 @@ Tool for the systematic validation of Signal Temporal Logic (STL) specifications
 License: Apache License 2.0
 Repository: https://github.com/STLInspector/STLInspector (last commit: 30 September 2019)
 
-Uses [ANTLR](ANTLR.md), [Z3](Z3.md)
+Uses [ANTLR](Not-verifiers/ANTLR.md), [Z3](Solvers/SMT/Z3.md).

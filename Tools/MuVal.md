@@ -1,5 +1,5 @@
 Termination analyzer?
 
-Uses [Z3](Z3.md)
+Uses [Z3](Solvers/SMT/Z3.md)
 
-Repository?: https://github.com/hiroshi-unno/coar (should include MuVal and [PCSat](PCSat.md))
+Repository?: https://github.com/hiroshi-unno/coar (should include [MuVal](MuVal.md) and [PCSat](Solvers/PCSat.md))

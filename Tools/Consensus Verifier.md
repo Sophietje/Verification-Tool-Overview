@@ -20,7 +20,7 @@ ConsL (own) language
 PROMELA/Spin model
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-The tool automatically translates a ConsL algorithm into appropriate [[PROMELA]] models and LTL properties for the [[SPIN]] model checker.
+The tool automatically translates a ConsL algorithm into appropriate [PROMELA](../Formats/PROMELA.md) models and LTL properties for the [SPIN](SPIN.md) model checker.
 
 #### Comments:
 -

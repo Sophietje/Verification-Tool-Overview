@@ -20,7 +20,7 @@ The tolerance and confidence parameter can be set with arguments given to the sc
 Estimate of the amount of MUSes guaranteed to be within (1+ε)-multiplicative factor of the exact count with confidence at least 1-δ
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[CAQE]], [[CADET]], [[QRATPre+]], [[muser2]], [[UWrMaxSat]], [[pysat]]
+Uses [CAQE](Solvers/CAQE.md), [CADET](Solvers/CADET.md), [[QRATPre+]], [[muser2]], [UWrMaxSat](Solvers/UWrMaxSat.md), [[pysat]]
 
 #### Comments: 
 Tool for approximate counting of minimal unsatisfiable subsets of a given Boolean formula in CNF

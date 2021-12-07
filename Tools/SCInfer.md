@@ -26,7 +26,7 @@ Cryptographic algorithms
 The map indicates per node (in the data dependency graph (DDG) of the program) whether it is perfectly masked (SID), not perfectly masked (NPM) or unknown (UKD).
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[Z3]]
+Uses [Z3](Solvers/SMT/Z3.md).
 
 #### Comments:
 -

@@ -14,7 +14,7 @@ DNNV: Deep Neural Network Verification
 
 #### Expected input format:
 - *Prroperties*: specified in their own property DSL (`.prop` file) called DNNP
-- *Neural network*: Can be defined in the `.prop` file, in the [ONNX](ONNX.md) format
+- *Neural network*: Can be defined in the `.prop` file, in the [ONNX](../Formats/ONNX.md) format
 - *Verifier to be used*: defined as a parameter when calling the DNNV tool
 
 #### Expected output:
@@ -23,7 +23,7 @@ DNNV: Deep Neural Network Verification
 If the result was `sat`, indicating that a violation of the property was found, then DNNV also returns a counterexample.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Supports the following verifiers: [Reluplex](Reluplex.md), [[planet]], [[MIPVerify.jl]], [Neurify](Neurify), [[ERAN]], [[PLNN]], [Marabou](Marabou.md), [nnenum](nnenum.md), [[verinet]]
+Supports the following verifiers: [Reluplex](Solvers/SMT/Reluplex.md), [[planet]], [[MIPVerify.jl]], [[Neurify]], [ERAN](ERAN.md), [[PLNN]], [Marabou](Marabou.md), [nnenum](nnenum.md), [[verinet]]
 
 #### Comments:
 License: MIT

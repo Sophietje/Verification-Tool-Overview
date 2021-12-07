@@ -16,14 +16,14 @@ Synthesis tool/Loop invariant generator
 SyGuS problem
 
 #### Expected input format:
-.sl file ([SyGuS](SyGuS.md) format)
+.sl file ([SyGuS](../Formats/SyGuS.md) format)
 
 #### Expected output:
 A loop invariant such that we can prove that program's assertions will never fail.
 (I'm unsure about the format in which it presents the results)
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[Escher]], [[Z3]]
+Uses [Escher](Synthesiser/Escher.md), [Z3](Solvers/SMT/Z3.md)
 
 #### Comments:
 -

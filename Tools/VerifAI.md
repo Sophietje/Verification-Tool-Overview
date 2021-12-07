@@ -8,4 +8,4 @@ Offers the following analyses:
 6. model parameter synthesis
 
 
-Uses [[py-metric-temporal-logic]]
+Uses [py-metric-temporal-logic](Libraries/py-metric-temporal-logic.md).

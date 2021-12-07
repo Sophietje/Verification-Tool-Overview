@@ -22,7 +22,7 @@ Single C/C++ file or a compiled program that is linked to DIVINE's runtime libra
 Whether it could verify the assertions in the program. If not then it will produce an error trace (output of the program until the point of the error).
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [Z3](Z3.md)
+Uses [Z3](Solvers/SMT/Z3.md).
 
 Aside from verifying the program, DIVINE also has some an option to visualize the state space and to simulate a program run interactively.
 
@@ -46,4 +46,4 @@ https://doi.org/10.1007/978-3-319-68167-2_14 (ATVA '17)
 https://doi.org/10.1007/978-3-662-49674-9_60 (TACAS  '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
-Tool that is now integrated in DIVINE: [SymDIVINE](SymDIVINE.md)
+Tool that is now integrated in DIVINE: [SymDIVINE](Checkers/SymDIVINE.md)

@@ -38,7 +38,7 @@ Optimized program in Scala or C.
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Framework for verifying and optimizing numerical programs.
 Given a program it provides an efficient implementation for floating-point programs with elementary function calls.
-Uses [[Z3]], [[dReal]], [[MPFR]], [[Metalibm]]
+Uses [Z3](Solvers/SMT/Z3.md), [dReal](Solvers/SMT/dReal.md), [MPFR](Libraries/MPFR.md), [Metalibm](Metalibm.md)
 
 #### Comments:
 

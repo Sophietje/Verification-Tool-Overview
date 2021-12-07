@@ -21,7 +21,7 @@ Program repair/synthesis tool
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [Z3](Z3.md)
+Uses [Z3](Solvers/SMT/Z3.md).
 
 #### Comments:
 License: MIT

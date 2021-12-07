@@ -21,10 +21,10 @@ Concurrent programs
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-The exploration strategy in this tool is based on [POET](POET.md). 
+The exploration strategy in this tool is based on [POET](Checkers/POET.md). 
 
 #### Comments:
-Note that the author calls "APOET" the second version of "[POET](POET.md)".
+Note that the author calls "APOET" the second version of "[POET](Checkers/POET.md)".
 
 #### URIs (github, websites, etc.):
 Repository (CAV '17 release): https://github.com/marcelosousa/poet/tree/RELEASE-CAV-2017

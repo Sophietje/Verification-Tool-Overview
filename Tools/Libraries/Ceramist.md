@@ -18,10 +18,10 @@ Library
 -
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[Coq]], [[MathComp]], [[Infotheo]]
+Uses [Coq](../Provers/Coq.md), [[MathComp]], [[Infotheo]]
 
 #### Comments:
-Coq-based mechanised framework, specialised for reasoning about Approximate Membership Query structures (AMQs), implemented as a [[Coq]] library
+Coq-based mechanised framework, specialised for reasoning about Approximate Membership Query structures (AMQs), implemented as a [Coq](../Provers/Coq.md) library
 AMQs -> probabilistic data structures that compactly implement (multi-)sets via hashing
 
 #### URIs (github, websites, etc.):

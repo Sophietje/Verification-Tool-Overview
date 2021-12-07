@@ -21,7 +21,7 @@ TRUE (safe) / FALSE (counterexample produced) / UNKNOWN (otherwise)
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 C is translated to a set of first order axioms
 [[SymPy]] is used as an algebraic simplifier
-[[Z3]] as a theorem prover tries to prove postconditions
+[Z3](Solvers/SMT/Z3.md) as a theorem prover tries to prove postconditions
 
 #### Comments:
 -

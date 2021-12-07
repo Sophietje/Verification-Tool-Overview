@@ -30,7 +30,7 @@ The property/query that should be checked can be one of two types:
 - *Reachability queries*: if the input is in a given range, the output will be guaranteed to be in some, typically safe, range.
 - *Robustness queries*: test whether there exist adversarial points around a given input point that change the output of the network.
 
-Uses [[GLPK]]
+Uses [GLPK](Libraries/GLPK.md)
 
 #### Comments:
 -

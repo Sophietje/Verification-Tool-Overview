@@ -25,7 +25,7 @@ Linear-programming based DS-inclusion
 DS-inclusion: quantitative inclusion for discounted-sum weighted automata
 Quantitative inclusion: comparing quantitative dimensions between systems such as energy consumption and worst-case execution time.
 
-Uses [[GLPSOL]], [[Reduce]]
+Uses [GLPSOL](Solvers/GLPSOL.md), [Reduce](Reduce.md).
 
 #### Comments:
 

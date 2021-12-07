@@ -37,7 +37,7 @@ It includes the following tools:
 - Translation validation plugins for clang and LLVM's `opt`
 - Standalone translation validation tool: `alive-tv`
 
-Uses [Z3](Z3.md)
+Uses [Z3](Solvers/SMT/Z3.md).
 
 #### Comments:
 -

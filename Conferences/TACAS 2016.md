@@ -6,7 +6,7 @@
 	✅ Presents [[MOVEC]]
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_18) Coqoon - An IDE for Interactive Proof Development in Coq. 316-331
 	[Alexander John Faithfull](https://dblp.org/pid/178/4079.html), [Jesper Bengtson](https://dblp.org/pid/65/1245.html), [Enrico Tassi](https://dblp.org/pid/35/4153.html), [Carst Tankink](https://dblp.org/pid/82/1008.html):
-	✅ IDE for [[Coq]]
+	✅ IDE for [Coq](../Tools/Provers/Coq.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_19) Multi-core Symbolic Bisimulation Minimisation. 332-348
 	[Tom van Dijk](https://dblp.org/pid/126/8210.html), [Jaco van de Pol](https://dblp.org/pid/p/JvdPol.html):
 	✅ Extends [[Sylvan]]

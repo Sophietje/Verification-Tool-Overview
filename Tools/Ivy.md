@@ -30,7 +30,7 @@ Some things it can do:
 - Compositional specification-based testing and bounded model checking
 - Extract executable distributed programs by translation to efficient C++ code
 
-Uses [[ABC]], [[Z3]].
+Uses [ABC](Frameworks/ABC.md), [Z3](Solvers/SMT/Z3.md).
 
 #### Comments:
 

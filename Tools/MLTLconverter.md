@@ -22,7 +22,7 @@ The converter flag indicates whether it should be translated to LTL, $LTL_f$, SM
 Reports whether the MLTL formula is satisfiable or not.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[aalta]] (LTL solver), [[aaltaf]] ($LTL_f$ solver), [[nuXmv]] (SMV model checker), [[Z3]] (SMT solver). These tools are used to check the satisfiability of the input MLTL formula and their encodings.
+Uses [[aalta]] (LTL solver), [[aaltaf]] ($LTL_f$ solver), [nuXmv](Checkers/nuXmv.md) (SMV model checker), [Z3](Solvers/SMT/Z3.md) (SMT solver). These tools are used to check the satisfiability of the input MLTL formula and their encodings.
 
 #### Comments:
 They tested the different translations and it seemed that the SMT-based approach tends to perform best for satisfiability checking.

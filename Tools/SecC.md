@@ -24,10 +24,10 @@ C file
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 An automatic verifier (for a subset of C) for SecCSL. 
 SecCSL (Security Concurrent Separation Logic) is used to specify data-dependent information flow security properties of low-level programs.
-SecC reasons about a program using symbolic execution, similar to [Verifast](Verifast.md) and [Viper](Viper.md).
+SecC reasons about a program using symbolic execution, similar to [Verifast](Verifast.md) and [Viper](Frameworks/Viper.md).
 
 #### Comments:
-The underlying logic, SecCSL, has been proven sound with [Isabelle/HOL](Isabelle-HOL.md).
+The underlying logic, SecCSL, has been proven sound with [Isabelle/HOL](Provers/Isabelle-HOL.md).
 
 #### URIs (github, websites, etc.):
 Project page: https://covern.org/secc/

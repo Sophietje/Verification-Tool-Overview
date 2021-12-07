@@ -40,4 +40,4 @@ Repository: https://github.com/stanleybak/nnenum
 https://doi.org/10.1007/978-3-030-53288-8_4
 
 #### Related tools (tools mentioned or compared to in the paper):
-Other tools for the verification of neural networks: [[Marabou]], [[Neurify]], [[NNV]].
+Other tools for the verification of neural networks: [Marabou](Marabou.md), [[Neurify]], [NNV](NNV.md).

@@ -17,7 +17,7 @@ Automata translator
 LTL formula
 
 #### Expected input format:
-Same format as [[Owl]], described in detail here: https://gitlab.lrz.de/i7/owl/blob/master/doc/FORMATS.md
+Same format as [Owl](Owl.md), described in detail here: https://gitlab.lrz.de/i7/owl/blob/master/doc/FORMATS.md
 
 #### Expected output:
 Automata that corresponds to the LTL formula.
@@ -31,10 +31,10 @@ As of Rabinizer 4, it can translate an LTL formula into one of the following typ
 - LDBA: limit-deterministic Büchi automata
 - Or it can translate the frequency extension of LTL to a deterministic generalized mean-payoff Rabin automata (DGRMA)
 
-It is also linked to [PRISM](PRISM.md) to allow for probabilistic verification of some automata.
+It is also linked to [PRISM](Checkers/PRISM.md) to allow for probabilistic verification of some automata.
 
 #### Comments:
-Bundled with [[Owl]], a tool collection and library for Omega-words, 𝜔-automata and Linear Temporal Logic (LTL). https://owl.model.in.tum.de/
+Bundled with [Owl](Owl.md), a tool collection and library for Omega-words, 𝜔-automata and Linear Temporal Logic (LTL). https://owl.model.in.tum.de/
 
 #### URIs (github, websites, etc.):
 Project page Rabinizer 4: https://rabinizer.model.in.tum.de/

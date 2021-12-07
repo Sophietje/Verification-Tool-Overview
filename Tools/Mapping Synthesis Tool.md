@@ -22,7 +22,7 @@ Alloy model (.als file)?
 If it exists, a maximal set of mappings that ensures that the resulting platform implementation preserves the given property.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[Alloy]] and [[Alloy Analyzer]]
+Uses [Alloy](Alloy.md) and [Alloy Analyzer](Solvers/Alloy%20Analyzer.md)
 
 #### Comments:
 Note the authors themselves call this a "prototype implementation" and it doesn't seem to have been updated since the paper was published.

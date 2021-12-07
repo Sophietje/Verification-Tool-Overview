@@ -1,1 +1,1 @@
-Endicheck is a dynamic analysis tool for detecting endianness bugs, based on [[Valgrind]]
+Endicheck is a dynamic analysis tool for detecting endianness bugs, based on [Valgrind](Frameworks/Valgrind.md)

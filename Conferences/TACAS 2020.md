@@ -17,7 +17,7 @@
 -	[🔓](https://doi.org/10.1007/978-3-030-45237-7_17) EMTST: Engineering the Meta-theory of Session Types
 	[David Castro-Perez](https://dblp.org/pid/259/3482.html), [Francisco Ferreira](https://dblp.org/pid/99/5922-1.html), [Nobuko Yoshida](https://dblp.org/pid/29/3650.html):
 	✅ Presents [[EMTST]]
-	✅ Expands [[Coq]]
+	✅ Expands [Coq](../Tools/Provers/Coq.md)
 ### SV-COMP 2020
 -	[🔓](https://doi.org/10.1007/978-3-030-45237-7_21) Advances in Automatic Software Verification: SV-COMP 2020
 	[Dirk Beyer](https://dblp.org/pid/b/DirkBeyer1.html):

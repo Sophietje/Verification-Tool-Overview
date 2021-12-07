@@ -23,7 +23,7 @@ Mealy machine
 This tool focuses on minimizing *incompletely specified* Mealy machines (where one or mote outputs or next states might not be specified). 
 When it minimized a Mealy machine M, it looks for a machine M' with the minimal number of states with the same input/output behavior on all input sequences for which the behavior of M is defined. M' might be defined on additional input on which M is not defined.
 
-Uses [[MiniSat]].
+Uses [MiniSat](Solvers/SAT/MiniSat.md).
 
 #### Comments:
 **Not published at CAV or TACAS but mentioned in a "Uses" clause of another tool.**

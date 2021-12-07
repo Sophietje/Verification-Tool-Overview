@@ -16,7 +16,7 @@ Automata translator
 Transition-based generalized Büchi automata (TGBA), Transition-based Büchi automata (TBA) or Büchi automata (BA)
 
 #### Expected input format:
-[HOA](HOA.md) format
+[HOA](../Formats/HOA.md) format
 
 #### Expected output:
 Semi-deterministic TGBA/TBA/BA (type of automata that is produced depends on configuration/options).

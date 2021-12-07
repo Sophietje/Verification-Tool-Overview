@@ -24,7 +24,7 @@ Per witness it reports whether it is confirmed (true/false) and the time it took
 It also presents a summary of statistics (number of correct, incorrect and unknown witnesses).
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[CPAchecker]].
+Uses [CPAchecker](Checkers/CPAchecker.md).
 
 #### Comments:
 A witness is a counterexample that can be used to observe a certain bug/error. This can be useful for debugging, generating tests, and more.

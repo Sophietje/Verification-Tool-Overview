@@ -26,7 +26,7 @@ Nonlinear ordinary differential equations
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 PBTs (Piecewise barrier tubers) are used to over-approximate the flowpipe of nonlinear systems. These are used for safety verification of hybrid systems.
 
-Uses [Gurobi](Gurobi.md) (linear programming solver)
+Uses [Gurobi](Solvers/Gurobi.md) (linear programming solver).
 
 #### Comments:
 -
@@ -44,4 +44,4 @@ Uses [Gurobi](Gurobi.md) (linear programming solver)
 https://doi.org/10.1007/978-3-319-96145-3_24
 
 #### Related tools (tools mentioned or compared to in the paper):
-[CORA](CORA), [Flow*](Flow*)
+[[CORA]], [[Flow*]]

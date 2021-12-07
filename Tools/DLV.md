@@ -25,7 +25,7 @@ Everything seems to be defined within a python file.
 The network is verified (i.e. no misclassifications were found for all layers) or it is falsified (i.e. the tool found an adversarial example )
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [Z3](Z3.md), [[Keras]] (neural network library), [[Theano]] (deep learning package).
+Uses [Z3](Solvers/SMT/Z3.md), [[Keras]] (neural network library), [[Theano]] (deep learning package).
 
 #### Comments:
 License: GNU General Public License v3.0

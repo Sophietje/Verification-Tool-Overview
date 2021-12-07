@@ -7,7 +7,7 @@
 -	[🔓](https://doi.org/10.1007/978-3-030-72013-1_12) cake\_lpr: Verified Propagation Redundancy Checking in CakeML.
 	[Yong Kiam Tan](https://dblp.org/pid/156/7492.html), [Marijn J. H. Heule](https://dblp.org/pid/h/MarijnHeule.html), [Magnus O. Myreen](https://dblp.org/pid/92/2955.html)
 	✅ Uses [[cake_lpr]]
-	✅ Compares to [[ACL2]], [[Coq]], [[GRATchks]]
+	✅ Compares to [[ACL2]], [Coq](../Tools/Provers/Coq.md), [[GRATchks]]
 -	[🔓](https://doi.org/10.1007/978-3-030-72013-1_13) Deductive Verification of Floating-Point Java Programs in KeY
 	[Rosa Abbasi](https://dblp.org/pid/284/0754.html), [Jonas Schiffl](https://dblp.org/pid/210/8488.html), [Eva Darulova](https://dblp.org/pid/75/10322.html), [Mattias Ulbrich](https://dblp.org/pid/73/9580.html), [Wolfgang Ahrendt](https://dblp.org/pid/91/1275.html)
 	✅ Uses [[KeY]]

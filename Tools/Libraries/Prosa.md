@@ -1,1 +1,1 @@
-[[Coq]] library of models and analyses for real-time systems.
+[Coq](../Provers/Coq.md) library of models and analyses for real-time systems.

@@ -25,7 +25,7 @@ It is also possible that a time out occurs.
 
 Given an unrealizability problem of the form `sy = (ψ, G)`, it returns **unrealizable** if no expression-tree in L(G) satisfies ψ. If it returns **realizable**, some e ∈ L(G) satisfies ψ. 
 
-Uses [[SeaHorn]], [[ESolver]], [[Z3]]
+Uses [SeaHorn](Checkers/SeaHorn.md), [[ESolver]], [Z3](Solvers/SMT/Z3.md).
 
 #### Comments:
 There exist SyGuS problems for which the algorithm cannot prove unrealizability (i.e. the algorithm is incomplete) but the authors argue that it works for many SyGuS instances.

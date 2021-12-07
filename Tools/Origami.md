@@ -23,7 +23,7 @@ Origami can be used to verify reachability in networks in the presence of faults
 
 Origami first computes a small abstract network that satisfies certain SPPF (Stable Path Problems with Faults) effective approximation conditions. If this abstraction satisfies the desired property then the verification terminates successfully. If it could not be verified, then it checks whether the returned counterexample is an actual counterexample. If not, then a new abstraction is computed.
 
-Uses [[Batfish]], [Z3](Z3.md)
+Uses [Batfish](Batfish.md), [Z3](Solvers/SMT/Z3.md).
 
 #### Comments:
 The goal of Origami is **scalability**, they want to be able to analyze large networks (e.g. 1000s of routers).

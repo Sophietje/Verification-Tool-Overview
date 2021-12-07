@@ -23,7 +23,7 @@ Symbolic execution engine
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Built on top of [[BINSEC]]
+Built on top of [BINSEC](BINSEC.md)
 
 #### Comments:
 -

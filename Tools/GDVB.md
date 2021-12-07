@@ -23,7 +23,7 @@ A benchmark of DNN verification problems
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 GDVB generates benchmarks for the verification of neural networks. The benchmarks that it generates seeks to cover variations that influence verifier performance.
-Uses [[R4V]] and [[DNNV]]. 
+Uses [[R4V]] and [DNNV](DNNV.md). 
 
 #### Comments:
 

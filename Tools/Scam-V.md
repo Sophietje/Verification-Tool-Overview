@@ -21,7 +21,7 @@ HOL?
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-It has been implemented in the [HOL](HOL.md)4 theorem prover. It is embedded in [HolBA](HolBA.md).
+It has been implemented in the [HOL](Provers/HOL.md)4 theorem prover. It is embedded in [HolBA](HolBA.md).
 Scam-V attempts to construct pairs of initial states such that runs of the binary from these states are indistinguishable at the level of the hardware, but distinguishable on the real hardware.
 
 According to the repository, Scam-V:

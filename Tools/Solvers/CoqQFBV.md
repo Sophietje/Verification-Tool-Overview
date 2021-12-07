@@ -21,7 +21,7 @@ Boolean formula such that the query is satisfiable if and only if the Boolean fo
 Output is generated in the [DIMACS](../../Formats/DIMACS.md) format.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-This is a certified SMT solver for quantifier-free bit-vector (QF_BV) formulas. It has been specified and verified in the proof assistant [[Coq]].
+This is a certified SMT solver for quantifier-free bit-vector (QF_BV) formulas. It has been specified and verified in the proof assistant [Coq](../Provers/Coq.md).
 
 It takes a QF_BV query in [SMT-LIB](../../Formats/SMT-LIB.md) format. This is converted into a formal QF_BV expression. Then a CNF formula is constructed. Then it uses [Kissat](SAT/Kissat.md) to solve the CNF formula. If the result is unsat with a certificate, then the certificate is verified with [GRAT](../GRAT.md). If the results is sat with assignments, then this is translated back to SMT assignments and the tool will verify whether these assignments satisfy the QF_BV expression.
 

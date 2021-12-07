@@ -21,7 +21,7 @@ Move source code annotated with specifications (pre-/postconditions).
 Whether the specification holds or some kind of source-level diagnosis/error.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-The Move Prover translates annotated Move source code to the [[Boogie]] intermediate language. [[Boogie]] then generates an SMT formula which can be checked using an SMT solver such as [[Z3]] or [[CVC4]].
+The Move Prover translates annotated Move source code to the [Boogie](Frameworks/Boogie.md) intermediate language. [Boogie](Frameworks/Boogie.md) then generates an SMT formula which can be checked using an SMT solver such as [Z3](Solvers/SMT/Z3.md) or [CVC4](Solvers/SMT/CVC4.md).
 
 "Move" is a language for implementing transactions, i.e. smart contracts, on the Libra blockchain.
 

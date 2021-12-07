@@ -25,7 +25,7 @@ Rewriter/translator
 Round-based synchronous protocol (C file) that is the counterpart of the input (the asynchronous version)
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[Verifast]]
+Uses [Verifast](Verifast.md)
 
 #### Comments
 Reduces the verification of asynchronous fault-tolerant protocols to the verification of round-based synchronous protocols.

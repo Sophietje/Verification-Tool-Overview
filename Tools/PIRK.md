@@ -27,7 +27,7 @@ The README of the repository describes the expected syntax for each of these fil
 `.raw` file which contains the reach pipe of the system
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses the acceleration system [pFaces](pFaces).
+Uses the acceleration system [[pFaces]].
 
 #### Comments:
 There is a **Matlab-interface** so that users can load/use files generated from PIRK.
@@ -47,4 +47,4 @@ https://github.com/mkhaled87/pFaces-PIRK
 https://doi.org/10.1007/978-3-030-53288-8_27
 
 #### Related tools (tools mentioned or compared to in the paper):
-Other reachability analysis tools: [C2E2](C2E2), [CORA](CORA), [Flow*](Flow*), [Isabelle](Isabelle), [SpaceEx](SpaceEx), [SymReach](SymReach)
+Other reachability analysis tools: [[C2E2]], [[CORA]], [[Flow*]], [[Isabelle]], [[SpaceEx]], [[SymReach]].

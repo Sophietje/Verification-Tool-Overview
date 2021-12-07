@@ -23,7 +23,7 @@ Java bytecode?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 This tool combines concolic execution and fuzzing analysis.
-Uses [Z3](Z3.md)
+Uses [Z3](Solvers/SMT/Z3.md).
 
 #### Comments:
 -

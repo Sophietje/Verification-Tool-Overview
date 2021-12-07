@@ -1,4 +1,4 @@
-2LS is a C program analyser built upon the [[CPROVER]] infrastructure
+2LS is a C program analyser built upon the [CProver](Frameworks/CProver.md) infrastructure
 
 #### Name:
 2LS

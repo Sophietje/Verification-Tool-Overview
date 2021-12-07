@@ -22,7 +22,7 @@ Whether the compiler optimization is correct
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Has been verified/implemented with the [[Lean]] theorem prover.
-Uses a verification condition (VC) generator. The VCs are discharged using an SMT solver ([[Z3]]).
+Uses a verification condition (VC) generator. The VCs are discharged using an SMT solver ([Z3](Solvers/SMT/Z3.md)).
 
 The correctness of the optimization is checked by the following 3 things:
 1. The target is defined when the source is defined

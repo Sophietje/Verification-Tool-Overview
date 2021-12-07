@@ -23,7 +23,7 @@ The tool tries to translate a Why3 error back to the OCaml program if the input 
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Cameleer takes a GOSPEL-annotated OCaml program and translates it into WhyML.
-Uses [Why3](Why3.md), [Alt-Ergo](Alt-Ergo.md), [CVC4](CVC4.md), [Z3](Z3.md) and [[GOSPEL]].
+Uses [Why3](Frameworks/Why3.md), [Alt-Ergo](Solvers/SMT/Alt-Ergo.md), [CVC4](Solvers/SMT/CVC4.md), [Z3](Solvers/SMT/Z3.md) and [GOSPEL](../Formats/GOSPEL.md).
 
 #### Comments:
 It does not support the complete OCaml language yet. Some things that are not supported include Generalized Algebraic Data Types (GADTs) and polymorphic variants.

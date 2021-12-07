@@ -3,9 +3,9 @@ An algorithm for efficiently and formally verifying the input/output behavior or
 Sound and complete 'search and optimization' neural network verifier
 
 
-Compared to: [[Neurify]], [[Venus]], [[nnenum]], [[Marabou]]
+Compared to: [[Neurify]], [[Venus]], [nnenum](nnenum.md), [Marabou](Marabou.md)
 
-Uses [Gurobi](Gurobi.md) 9.1 convex optimizer for solving linear programs, [[Volesti]] to sample from the input polytope for the sampling inference block
+Uses [Gurobi](Solvers/Gurobi.md) 9.1 convex optimizer for solving linear programs, [[Volesti]] to sample from the input polytope for the sampling inference block
 
 https://github.com/rcpsl/PeregriNN
 

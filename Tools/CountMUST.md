@@ -14,7 +14,7 @@ MUS counter
 Unsatisfiable set F of Boolean clauses (i.e. a Boolean formula in CNF)
 
 #### Expected input format:
-If it is a "Plain" MUS then [DIMACS](DIMACS.md) `.cnf` format
+If it is a "Plain" MUS then [DIMACS](../Formats/DIMACS.md) `.cnf` format
 If it is a "group" MUS then a `.gcnf` file for a "group DIMACS format". 
 More detail about the input format is available in the README of the repository.
 
@@ -22,7 +22,7 @@ More detail about the input format is available in the README of the repository.
 Number of Minimal Unsatisfiable Subsets (MUSes) of F.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[GANAK]], [[RIME]] and [UWrMaxSat](UWrMaxSat.md)
+Uses [[GANAK]], [RIME](RIME.md) and [UWrMaxSat](Solvers/UWrMaxSat.md).
 
 #### Comments:
 -

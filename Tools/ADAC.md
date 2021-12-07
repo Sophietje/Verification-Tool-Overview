@@ -24,8 +24,8 @@ Framework to design approximate arithmetic circuits
 Approximate circuit satisfying the error threshold and with minimal estimated chip area (in gate-level Verilog format).
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Implemented as a module of [[ABC]].
-Uses [[Yosys]], [[iprove]], [[MiniSat]].
+Implemented as a module of [ABC](Frameworks/ABC.md).
+Uses [[Yosys]], [[iprove]], [MiniSat](Solvers/SAT/MiniSat.md).
 
 #### Comments:
 

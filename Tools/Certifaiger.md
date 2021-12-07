@@ -16,7 +16,7 @@ Proof certifier/checker
 - Value $k$ provided by a k-induction-based model checker which outputs a positive model checking result.
 
 #### Expected input format:
-[AIGER](AIGER.md)
+[AIGER](../Formats/AIGER.md)
 Note: they extended the reset logic definition of the existing AIGER format to enable reset functions.
 
 #### Expected output:
@@ -24,7 +24,7 @@ Note: they extended the reset logic definition of the existing AIGER format to e
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Certifaiger reduces the certification problem to pure SAT checks and checking a simple quantified Boolean formula (QBF) with one quantifier alternation.
-Uses the SAT solver [[Kissat]] for checking validity of the formulas. Uses the QBF solver [[QuAbS]]
+Uses the SAT solver [Kissat](Solvers/SAT/Kissat.md) for checking validity of the formulas. Uses the QBF solver [QuAbS](Solvers/QuAbS.md)
 
 #### Comments:
 -
