@@ -41,7 +41,7 @@ Depends on the property. It can give the probability of a certain outcome, but a
 It will also give information about the model such as the number of states and transitions.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-It uses the following solvers: [[Eigen]], [[gmm++]], [CUDD](../Libraries/CUDD.md), [Sylvan](Sylvan), [Gurobi](../Solvers/Gurobi.md), [GLPK](../Libraries/GLPK.md), [Z3](../Solvers/SMT/Z3.md), [MathSAT](../Solvers/SMT/MathSAT.md), [SMT-LIB](../../Formats/SMT-LIB.md)
+It uses the following solvers: [[Eigen]], [[gmm++]], [CUDD](../Libraries/CUDD.md), [Sylvan](../Sylvan.md), [Gurobi](../Solvers/Gurobi.md), [GLPK](../Libraries/GLPK.md), [Z3](../Solvers/SMT/Z3.md), [MathSAT](../Solvers/SMT/MathSAT.md), [SMT-LIB](../../Formats/SMT-LIB.md)
 
 #### Comments:
 There is also a fuzzer that is called [STORM](https://practical-formal-methods.github.io/storm/).

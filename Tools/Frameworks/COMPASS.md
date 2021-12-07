@@ -29,7 +29,7 @@ The provided model is internally converted into a symbolic model and to a Markov
 - [[OCRA]] for contract-based analysis
 - [[IMCA]] and [[MRMC]] for performance analysis by probabilistic model checking
 - [[slimsim]] for statistical model checking
-- [[xSAP]] for safety analysis
+- [[../xSAP]] for safety analysis
 
 #### Comments:
 -

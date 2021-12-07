@@ -25,7 +25,7 @@
 	✅ Presents [[DepthK]]
 -	[🔓](https://doi.org/10.1007/978-3-662-54580-5_24) Forester: From Heap Shapes to Automata Predicates - (Competition Contribution)
 	[Lukás Holík](https://dblp.org/pid/64/6177.html), [Martin Hruska](https://dblp.org/pid/15/7989.html), [Ondrej Lengál](https://dblp.org/pid/47/7646.html), [Adam Rogalewicz](https://dblp.org/pid/87/2946.html), [Jirí Simácek](https://dblp.org/pid/10/9861.html), [Tomás Vojnar](https://dblp.org/pid/51/533.html):
-	✅ Extends [[Forester]]
+	✅ Extends [[../Tools/Forester]]
 -	[🔓](https://doi.org/10.1007/978-3-662-54580-5_25) HipTNT+: A Termination and Non-termination Analyzer by Second-Order Abduction - (Competition Contribution)
 	[Ton Chanh Le](https://dblp.org/pid/135/6224.html), [Quang-Trung Ta](https://dblp.org/pid/134/3046.html), [Wei-Ngan Chin](https://dblp.org/pid/c/WeiNganChin.html):
 	✅ Presents [[HipTNT+]]

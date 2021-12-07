@@ -57,4 +57,4 @@ https://doi.org/10.1007/978-3-642-22110-1_47 (CAV '11)
 https://doi.org/10.1007/978-3-662-49674-9_20 (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
-[PRISM-PSY](PRISM-PSY), [PRISM-games](PRISM-games.md)
+[PRISM-PSY](../PRISM-PSY.md), [PRISM-games](PRISM-games.md)

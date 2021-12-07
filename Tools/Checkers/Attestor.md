@@ -48,4 +48,4 @@ Examples: https://github.com/moves-rwth/attestor-examples
 https://doi.org/10.1007/978-3-319-96142-2_1
 
 #### Related tools (tools mentioned or compared to in the paper):
-[[Forester]], [[Groove]], [[Infer]], [[HIP/SLEEK]], [[Korat]], [[Juggernaut]], [[Tvla]]
+[[../Forester]], [[Groove]], [[Infer]], [[HIP/SLEEK]], [[Korat]], [[Juggernaut]], [[Tvla]]
