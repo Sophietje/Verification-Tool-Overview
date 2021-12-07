@@ -20,7 +20,7 @@ Initial set of exercises
 - Grade overview for the teacher
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[Automata]] (.NET library for automata)
+Uses [Automata](../Libraries/Automata.md) (.NET library for automata)
 
 #### Comments:
 Tool for helping teachers and students in large courses on automata and formal languages. It can automatically generate and grade exercises, including providing feedback to the students.

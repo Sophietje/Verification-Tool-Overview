@@ -19,7 +19,7 @@ ACL2s/Lisp file
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [ACL2](ACL2)
+Uses [[ACL2]]
 
 #### Comments:
 ACL2s has been developed because ACL2 had a steep learning curve. The idea being that ACL2s should be easier to use for new users.

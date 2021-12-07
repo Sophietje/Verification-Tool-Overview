@@ -22,7 +22,7 @@ Abstract domain in the form of predicate templates and abstract transformers for
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Tree interpolation, data-driven constraint solving
 
-Uses [[Z3]], [[JLinAlg]]
+Uses [Z3](../Solvers/SMT/Z3.md)], [[JLinAlg]]
 
 #### Comments:
 "a novel technique for automatically learning domain-specific abstractions that are useful for instantiating an example-guided synthesis framework in a new domain"

@@ -28,10 +28,10 @@ It also generates visualizations of the program (e.g. abstract reachability tree
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 PeSCO uses machine learning to learn a ranking of verifiers on verification tasks. This ordering of verifiers is based on the SV-COMP scoring schema.
-It uses [CPAchecker](CPAchecker.md) (with different configurations) as base verifiers.
-It uses [MathSAT](MathSAT.md) 5.
+It uses [CPAchecker](../Checkers/CPAchecker.md) (with different configurations) as base verifiers.
+It uses [MathSAT](../Solvers/SMT/MathSAT.md) 5.
 
-PeSCo is integrated in [CPAchecker](CPAchecker.md).
+PeSCo is integrated in [CPAchecker](../Checkers/CPAchecker.md).
 
 #### Comments:
 -

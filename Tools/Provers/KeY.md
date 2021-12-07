@@ -17,14 +17,14 @@ Semi-interactive verifier
 Annotated source code
 
 #### Expected input format:
-(Sequential) [[Java]] or [[Java Card]] 2.2.X program annotated with properties specified in [[JML]] or Java Dynamic Logic ([[JavaDL]]).
+(Sequential) Java or Java Card 2.2.X program annotated with properties specified in [JML](../../Formats/JML.md) or Java Dynamic Logic ([[JavaDL]]).
 
 #### Expected output:
 Whether the specified properties can be proven  correct.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 translates source code to [[JavaDL]].
-can translate to the [[SMT-LIB]] format and call an external SMT solver.
+can translate to the [SMT-LIB](../../Formats/SMT-LIB.md) format and call an external SMT solver.
 
 The user can choose to use the tool in an automatic or interactive fashion. Typically the user would first try to let the prover find a proof automatically, if it then does not succeed, the user can get involved in the proving process.
 

@@ -23,7 +23,7 @@ Reason for termination (refutation was found, time/memory limit was reached, sat
 It also prints some statistics about the proof attempt.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [MiniSat](MiniSat.md), [Z3](Z3.md)
+Uses [MiniSat](../Solvers/SAT/MiniSat.md), [Z3](../Solvers/SMT/Z3.md).
 
 #### Comments:
 License: BSD 3-Clause license

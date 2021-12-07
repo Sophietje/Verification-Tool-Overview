@@ -15,7 +15,10 @@ Debugger for SMT solvers
 - Input: SMT problem which can be used to trigger the problem
 
 #### Expected input format:
-One of the following: [SMT-LIB](SMT-LIB.md), [SyGuS](SyGuS.md), the separation logic extension for [SMT-LIB](SMT-LIB.md).
+One of the following: 
+- [SMT-LIB](../../Formats/SMT-LIB.md)
+- [SyGuS](../../Formats/SyGuS.md)
+- the separation logic extension for [SMT-LIB](../../Formats/SMT-LIB.md).
 
 #### Expected output:
 Minimal working example, i.e. an input that is as small as possible but still triggers the original faulty behavior of the executed command.
