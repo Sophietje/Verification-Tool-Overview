@@ -30,8 +30,8 @@ Flow-LTL is a temporal logic to specify local flow of data and global behavior o
 
 Note that it can be used to visualize Petri nets with transits (in DOT or pdf file), or a software-defined network (converted to a Petri net with transits, also in DOT or pdf file).
 
-Uses [[ABC]], [[MCHyper]], [[Aigertools]]
-Based on [[Adam]]
+Uses [ABC](../Frameworks/ABC.md), [MCHyper](MCHyper.md), [[Aigertools]]
+Based on [Adam](../Frameworks/Adam.md)
 
 #### Comments:
 
