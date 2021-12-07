@@ -24,4 +24,4 @@
 	✅ Compares to [[SATzilla]]
 -	[🔓](https://doi.org/10.1007/978-3-030-72013-1_17) dtControl 2.0: Explainable Strategy Representation via Decision Tree Learning Steered by Experts.
 	[Pranav Ashok](https://dblp.org/pid/200/8227.html), [Mathias Jackermeier](https://dblp.org/pid/258/4958.html), [Jan Kretínský](https://dblp.org/pid/95/6511.html), [Christoph Weinhuber](https://dblp.org/pid/283/5774.html), [Maximilian Weininger](https://dblp.org/pid/194/2910.html), [Mayank Yadav](https://dblp.org/pid/190/8997.html)
-	✅ Presents [[../Tools/dtControl]]
+	✅ Presents [dtControl](../Tools/dtControl.md)

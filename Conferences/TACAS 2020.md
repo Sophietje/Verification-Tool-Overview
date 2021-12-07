@@ -56,7 +56,7 @@
 	✅ Extends [[PredatorHP]]
 -	[🔓](https://doi.org/10.1007/978-3-030-45237-7_31) Symbiotic 7: Integration of Predator and More - (Competition Contribution)
 	[Marek Chalupa](https://dblp.org/pid/178/3862.html), [Tomás Jasek](https://dblp.org/pid/263/1666.html), [Lukás Tomovic](https://dblp.org/pid/263/1099.html), [Martin Hruska](https://dblp.org/pid/15/7989.html), [Veronika Soková](https://dblp.org/pid/178/3927.html), [Paulína Ayaziová](https://dblp.org/pid/263/1478.html), [Jan Strejcek](https://dblp.org/pid/37/1716.html), [Tomás Vojnar](https://dblp.org/pid/51/533.html):
-	✅ Extends [[../Tools/Symbotic]]
+	✅ Extends [Symbiotic](../Tools/Symbiotic.md)
 -	[🔓](https://doi.org/10.1007/978-3-030-45237-7_32) Ultimate Taipan with Symbolic Interpretation and Fluid Abstractions - (Competition Contribution)
 	[Daniel Dietsch](https://dblp.org/pid/59/9798.html), [Matthias Heizmann](https://dblp.org/pid/52/7224.html), [Alexander Nutz](https://dblp.org/pid/117/2587.html), [Claus Schätzle](https://dblp.org/pid/178/4054.html), [Frank Schüssele](https://dblp.org/pid/197/9556.html):
 	✅ Extends [[Ultimate Taipan]]

@@ -9,54 +9,54 @@
 	✅ IDE for [Coq](../Tools/Provers/Coq.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_19) Multi-core Symbolic Bisimulation Minimisation. 332-348
 	[Tom van Dijk](https://dblp.org/pid/126/8210.html), [Jaco van de Pol](https://dblp.org/pid/p/JvdPol.html):
-	✅ Extends [[../Tools/Sylvan]]
+	✅ Extends [Sylvan](../Tools/Sylvan.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_20) Advances in Symbolic Probabilistic Model Checking with PRISM. 349-366
 	[Joachim Klein](https://dblp.org/pid/k/JoachimKlein1.html), [Christel Baier](https://dblp.org/pid/b/ChristelBaier.html), [Philipp Chrszon](https://dblp.org/pid/177/2504.html), [Marcus Daum](https://dblp.org/pid/118/9187.html), [Clemens Dubslaff](https://dblp.org/pid/28/11061.html), [Sascha Klüppelholz](https://dblp.org/pid/50/2079.html), [Steffen Märcker](https://dblp.org/pid/69/10395.html), [David Müller](https://dblp.org/pid/139/8389-1.html):
 	✅ Extends [[PRISM]]
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_21) PRISM-PSY: Precise GPU-Accelerated Parameter Synthesis for Stochastic Systems. 367-384
 	[Milan Ceska](https://dblp.org/pid/213/3728.html), [Petr Pilar](https://dblp.org/pid/178/4032.html), [Nicola Paoletti](https://dblp.org/pid/15/10263.html), [Lubos Brim](https://dblp.org/pid/92/3060.html), [Marta Z. Kwiatkowska](https://dblp.org/pid/k/MartaZKwiatkowska.html):
-	✅ Presents [[../Tools/PRISM-PSY]]
+	✅ Presents [PRISM-PSY](../Tools/PRISM-PSY.md)
 ### Tool Papers II
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_22) T2: Temporal Property Verification. 387-393
 	[Marc Brockschmidt](https://dblp.org/pid/80/8292.html), [Byron Cook](https://dblp.org/pid/36/113.html), [Samin Ishtiaq](https://dblp.org/pid/49/5100.html), [Heidy Khlaaf](https://dblp.org/pid/156/3577.html), [Nir Piterman](https://dblp.org/pid/p/NPiterman.html):
-	✅ Presents [[../Tools/T2]]
+	✅ Presents [T2](../Tools/T2.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_23) RTD-Finder: A Tool for Compositional Verification of Real-Time Component-Based Systems. 394-406
 	[Souha Ben Rayana](https://dblp.org/pid/143/2673.html), [Marius Bozga](https://dblp.org/pid/05/178.html), [Saddek Bensalem](https://dblp.org/pid/01/5624.html), [Jacques Combaz](https://dblp.org/pid/39/3748.html):
-	✅ Presents [[../Tools/RTD-Finder]]
+	✅ Presents [RTD-Finder](../Tools/RTD-Finder.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_24) TcT: Tyrolean Complexity Tool. 407-423
 	[Martin Avanzini](https://dblp.org/pid/63/5617.html), [Georg Moser](https://dblp.org/pid/32/2607.html), [Michael Schaper](https://dblp.org/pid/90/11267.html):
 	✅ Presents [TcT](../Tools/TcT.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_25) Integrated Environment for Diagnosing Verification Errors. 424-441
 	[Maria Christakis](https://dblp.org/pid/05/7730.html), [K. Rustan M. Leino](https://dblp.org/pid/l/KRMLeino.html), [Peter Müller](https://dblp.org/pid/m/PMuller1.html), [Valentin Wüstholz](https://dblp.org/pid/28/9798.html):
-	✅ Expands [[../Tools/Dafny]]
+	✅ Expands [Dafny](../Tools/Dafny.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_26) JDart: A Dynamic Symbolic Analysis Framework. 442-459
 	[Kasper Søe Luckow](https://dblp.org/pid/13/11526.html), [Marko Dimjasevic](https://dblp.org/pid/158/1033.html), [Dimitra Giannakopoulou](https://dblp.org/pid/39/117.html), [Falk Howar](https://dblp.org/pid/12/8669.html), [Malte Isberner](https://dblp.org/pid/54/1436.html), [Temesghen Kahsai](https://dblp.org/pid/02/6790.html), [Zvonimir Rakamaric](https://dblp.org/pid/31/4458.html), [Vishwanath Raman](https://dblp.org/pid/64/3364.html):
 	✅ Presents [[JDart]]
 ### Tool Demos
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_31) The xSAP Safety Analysis Platform. 533-539
 	[Benjamin Bittner](https://dblp.org/pid/117/4994.html), [Marco Bozzano](https://dblp.org/pid/66/3003.html), [Roberto Cavada](https://dblp.org/pid/96/4147.html), [Alessandro Cimatti](https://dblp.org/pid/13/5961.html), [Marco Gario](https://dblp.org/pid/138/5577.html), [Alberto Griggio](https://dblp.org/pid/19/3686.html), [Cristian Mattarei](https://dblp.org/pid/67/7880.html), [Andrea Micheli](https://dblp.org/pid/84/7880.html), [Gianni Zampedri](https://dblp.org/pid/162/0229.html):
-	✅ Presents [[../Tools/xSAP]]
+	✅ Presents [xSAP](../Tools/xSAP.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_32) FACT: A Probabilistic Model Checker for Formal Verification with Confidence Intervals. 540-546
 	[Radu Calinescu](https://dblp.org/pid/15/2194.html), [Kenneth Johnson](https://dblp.org/pid/03/5135.html), [Colin Paterson](https://dblp.org/pid/27/8933.html):
-	✅ Presents [[../Tools/FACT]]
+	✅ Presents [FACT](../Tools/FACT.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_33) PrDK: Protocol Programming with Automata. 547-552
 	[Sung-Shik T. Q. Jongmans](https://dblp.org/pid/91/8340.html), [Farhad Arbab](https://dblp.org/pid/25/3518.html):
-	✅ Presents [[../Tools/PrDK]]
+	✅ Presents [PrDK](../Tools/PrDK.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_34) DLC: Compiling a Concurrent System Formal Specification to a Distributed Implementation. 553-559
 	[Hugues Evrard](https://dblp.org/pid/130/3643.html):
-	✅ Presents [[../Tools/DLC]]
+	✅ Presents [DLC](../Tools/DLC.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_35) PRISM-Games 2.0: A Tool for Multi-objective Strategy Synthesis for Stochastic Games. 560-566
 	[Marta Kwiatkowska](https://dblp.org/pid/k/MartaZKwiatkowska.html), [David Parker](https://dblp.org/pid/33/3095.html), [Clemens Wiltsche](https://dblp.org/pid/120/7602.html):
-	✅ Extends [[PRISM-games]]
+	✅ Extends [PRISM-games](../Tools/Checkers/PRISM-games.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_36) Cerberus: Automated Synthesis of Enforcement Mechanisms for Security-Sensitive Business Processes. 567-572
 	[Luca Compagna](https://dblp.org/pid/c/LucaCompagna.html), [Daniel Ricardo dos Santos](https://dblp.org/pid/201/0224.html), [Serena Elisa Ponta](https://dblp.org/pid/74/7424.html), [Silvio Ranise](https://dblp.org/pid/r/SilvioRanise.html):
-	✅ Presents [[../Tools/Cerberus]]
+	✅ Presents [Cerberus](../Tools/Cerberus.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_37) Developing and Debugging Proof Strategies by Tinkering. 573-579
 	[Yuhui Lin](https://dblp.org/pid/24/11140.html), [Pierre Le Bras](https://dblp.org/pid/178/3984.html), [Gudmund Grov](https://dblp.org/pid/43/4457.html):
-	✅ Extends [[../Tools/Tinker]]
+	✅ Extends [Tinker](../Tools/Tinker.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_38) v2c - A Verilog to C Translator. 580-586
 	[Rajdeep Mukherjee](https://dblp.org/pid/124/3803.html), [Michael Tautschnig](https://dblp.org/pid/18/1323.html), [Daniel Kroening](https://dblp.org/pid/k/DanielKroening.html):
-	✅ Presents [[../Tools/v2c]]
+	✅ Presents [v2c](../Tools/v2c.md)
 ### Competition on Software Verification: SV-COMP
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_55) Reliable and Reproducible Competition Results with BenchExec and Witnesses (Report on SV-COMP 2016). 887-904
 	[Dirk Beyer](https://dblp.org/pid/b/DirkBeyer1.html):
@@ -79,10 +79,10 @@
 	✅ Presents [[DIVINE]]
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_61) Run Forester, Run Backwards! - (Competition Contribution). 923-926
 	[Lukás Holík](https://dblp.org/pid/64/6177.html), [Martin Hruska](https://dblp.org/pid/15/7989.html), [Ondrej Lengál](https://dblp.org/pid/47/7646.html), [Adam Rogalewicz](https://dblp.org/pid/87/2946.html), [Jirí Simácek](https://dblp.org/pid/10/9861.html), [Tomás Vojnar](https://dblp.org/pid/51/533.html):
-	✅ Presents [[../Tools/Forester]]
+	✅ Presents [Forester](../Tools/Forester.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_62) LCTD: Tests-Guided Proofs for C Programs on LLVM - (Competition Contribution). 927-929
 	[Olli Saarikivi](https://dblp.org/pid/117/9611.html), [Keijo Heljanko](https://dblp.org/pid/h/KeijoHeljanko.html):
-	✅ Presents [[../Tools/LCTD]]
+	✅ Presents [LCTD](../Tools/LCTD.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_63) LPI: Software Verification with Local Policy Iteration - (Competition Contribution). 930-933
 	[Egor George Karpenkov](https://dblp.org/pid/168/8680.html):
 	✅ Extends [[CPAchecker]]
@@ -91,7 +91,7 @@
 	✅ Presents [[Map2Check]]
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_65) MU-CSeq 0.4: Individual Memory Location Unwindings - (Competition Contribution). 938-941
 	[Ermenegildo Tomasco](https://dblp.org/pid/143/2711.html), [Truc L. Nguyen](https://dblp.org/pid/147/4379.html), [Omar Inverso](https://dblp.org/pid/125/8727.html), [Bernd Fischer](https://dblp.org/pid/27/3809-2.html), [Salvatore La Torre](https://dblp.org/pid/33/5041.html), [Gennaro Parlato](https://dblp.org/pid/11/1029.html):
-	✅ Presents [[../Tools/MU-CSeq]]
+	✅ Presents [MU-CSeq](../Tools/MU-CSeq.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_66) Optimized PredatorHP and the SV-COMP Heap and Memory Safety Benchmark - (Competition Contribution). 942-945
 	[Michal Kotoun](https://dblp.org/pid/178/3865.html), [Petr Peringer](https://dblp.org/pid/12/9861.html), [Veronika Soková](https://dblp.org/pid/178/3927.html), [Tomás Vojnar](https://dblp.org/pid/51/533.html):
 	✅ Presents [[PredatorHP]]
@@ -105,4 +105,4 @@
 	✅ [[Ultimate Automizer]]
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_69) Vienna Verification Tool: IC3 for Parallel Software - (Competition Contribution). 954-957
 	[Henning Günther](https://dblp.org/pid/67/6092.html), [Alfons Laarman](https://dblp.org/pid/05/7913.html), [Georg Weissenbacher](https://dblp.org/pid/15/3636.html):
-	✅ Presents [[../Tools/VVT]]
+	✅ Presents [VVT](../Tools/VVT.md)
