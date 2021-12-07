@@ -24,7 +24,7 @@ Equivalence checker/symbolic execution engine?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Open-source symbolic analysis engine developed by [[Galois]]. It uses symbolic execution to reason about a program. It can be used for bug finding and equivalence checking.
-Uses [ABC](ABC), [Yices](Yices), [Z3](Z3.md)
+Uses [ABC](ABC), [Yices](Solvers/SMT/Yices.md), [Z3](Z3.md)
 
 "SAW was designed with cryptographic implementations in mind, but also supports general purpose imperative programs."
 

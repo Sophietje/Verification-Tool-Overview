@@ -1,1 +1,1 @@
-CProver = [[CBMC]] + [[JBMC]] + [[EBMC]] + [[VCEGAR]] + [[Scoot]]
+CProver = [CBMC](../Checkers/CBMC.md) + [JBMC](../Checkers/JBMC.md) + [EBMC](../Checkers/EBMC.md) + [VCEGAR](../VCEGAR.md) + [Scoot](../Scoot.md)

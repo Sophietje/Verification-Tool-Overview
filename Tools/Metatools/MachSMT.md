@@ -23,7 +23,7 @@ Ranking of solvers that are expected to have the lowest runtime
 It uses empirical hardness models (EHMs) and pairwise ranking comparators (PWCs) to perform algorithm selection.
 To do this, it uses frequencies of grammatical constructs from the [SMT-LIB](SMT-LIB.md) language, an some other syntactical metrics.
 
-Uses [[Bitwuzla]], [[COLIBRI]], [[CVC4]], [[MathSAT5]], [[Q3B]], [[SPASS-SATT]], [[Vampire]], [[Yices]], [[Z3]]
+Uses [[Bitwuzla]], [[COLIBRI]], [[CVC4]], [[MathSAT5]], [[Q3B]], [[SPASS-SATT]], [[Vampire]], [Yices](../Solvers/SMT/Yices.md), [[Z3]]
 
 #### Comments:
 There are in total 3 'tools' that are part of MachSMT, our description above focuses on the primary interface of MachSMT. There is also a tool for building MachSMT's database (`machsmt_build`), and a tool to evaluate the results of `machsmt_build` under k-fold cross validation (`machtsmt_eval`)

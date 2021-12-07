@@ -32,10 +32,10 @@ FACTEST synthesizes a controller for non-linear systems with reach-avoid require
 *Non-linear systems/vehicles* are vehicles such as cards, drones, and underwater vehicles.
 The *reach-avoid requirement* states that a certain goal set should be reached while avoiding any obstacles in the trajectory.
 
-Uses [[Pypoman]], [[Yices]], [[SciPy]], [[NumPy]]
+Uses [[Pypoman]], [Yices](../Solvers/SMT/Yices.md), [[SciPy]], [[NumPy]]
 
 #### Comments:
-Note, the paper that introduced [[RealSyn]] is mentioned as previous work on the project page.
+Note, the paper that introduced [RealSyn](RealSyn.md) is mentioned as previous work on the project page.
 
 #### URIs (github, websites, etc.):
 Project page: https://kmmille.github.io/FACTEST/index.html

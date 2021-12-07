@@ -14,10 +14,10 @@ Framework
 
 #### Expected input thing:
 - C program
-- Specifications (as [ACSL](ACSL.md) annotations)
+- Specifications (as [ACSL](../../Formats/ACSL.md) annotations)
 
 #### Expected input format:
-`.c` file with [ACSL](ACSL.md) annotations.
+`.c` file with [ACSL](../../Formats/ACSL.md) annotations.
 
 #### Expected output:
 Depends on the plugin that is used.
@@ -25,7 +25,7 @@ Depends on the plugin that is used.
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 It has many different types of plugins that do different kind of analyses such as WP (deductive verification), E-ACSL (runtime verification), PathCrawler (test case generator) and EVA (value analysis based on abstract interpretation).
 
-It uses the specification language [ACSL](ACSL.md). Some plugins support a subset of [ACSL](ACSL.md).
+It uses the specification language [ACSL](../../Formats/ACSL.md). Some plugins support a subset of [ACSL](../../Formats/ACSL.md).
 
 #### Comments:
 It can be run from the command-line or via its graphical user interface. Some plugins are meant to be used via the command-line, not via the GUI.

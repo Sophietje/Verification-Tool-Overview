@@ -25,11 +25,11 @@ Depends on the tool/back-end that is used to analyze the model.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 The provided model is internally converted into a symbolic model and to a Markov chain. Properties are automatically translated into temporal logic formulas. COMPASS then provides many different ways to analyse these model/properties such as:
-- [nuXmv](nuXmv.md) for correctness checking
+- [nuXmv](../Checkers/nuXmv.md) for correctness checking
 - [[OCRA]] for contract-based analysis
-- [[IMCA]] and [MRMC](MRMC) for performance analysis by probabilistic model checking
+- [[IMCA]] and [[MRMC]] for performance analysis by probabilistic model checking
 - [[slimsim]] for statistical model checking
-- [xSAP](xSAP) for safety analysis
+- [[xSAP]] for safety analysis
 
 #### Comments:
 -

@@ -17,18 +17,18 @@ Combination of several tools include model checkers and translators.
 ?
 
 #### Expected input format:
-[[Modest Toolset]] format or [[JANI]] format.
+Modest toolset (own) format or [JANI](../../Formats/JANI.md) format.
 
 #### Expected output:
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 The tool consists of the following tools:
-- [[mcsta]]: disk-based explicit-state model checker for STA, PTA and MDP
+- [mcsta](../Checkers/mcsta.md): disk-based explicit-state model checker for STA, PTA and MDP
 - [[modes]]: statistical model checker for SHA, STA, PTA and MDP
 - [[prohver]]: safety model checker for SHA
 - [[mosta]]: generates a graphical representation of a SHA
-- [[moconv]]: converts models between Modest's input language to the [[JANI]] format and back
+- [[moconv]]: converts models between Modest's input language to the [JANI](../../Formats/JANI.md) format and back
 
 #### Comments:
 STA: Stochastic Timed Automata
@@ -51,4 +51,4 @@ https://doi.org/10.1007/978-3-642-54862-8_51
 https://doi.org/10.1007/978-3-030-53291-8_26
 
 #### Related tools (tools mentioned or compared to in the paper):
-This toolset includes the model checker [[mcsta]].
+This toolset includes the model checker [mcsta](../Checkers/mcsta.md).
