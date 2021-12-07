@@ -11,14 +11,14 @@ SAT solver
 CNF file
 
 #### Expected input format:
-[DIMACS](DIMACS) format
+[DIMACS](../../../Formats/DIMACS.md) format
 
 #### Expected output:
 `UNSAT` or `SAT`. 
 In case the output is `SAT`, you can also print the solution.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Heavily based on [[MiniSat]]
+Heavily based on [MiniSat](MiniSat.md)
 
 #### Comments:
 

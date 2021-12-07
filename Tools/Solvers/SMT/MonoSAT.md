@@ -19,7 +19,7 @@ SAT problem
 One of several options:
 - It can be used via the Python 3 library
 - It can be used via the Java library
-- It can be used via the commandline, then it requires a `.gnf` file (this is an extension of the [DIMACS](DIMACS.md) format with e.g. bitvector support)
+- It can be used via the commandline, then it requires a `.gnf` file (this is an extension of the [DIMACS](../../../Formats/DIMACS.md) format with e.g. bitvector support)
 
 #### Expected output:
 `SAT` or `UNSAT`
@@ -46,4 +46,4 @@ https://ojs.aaai.org/index.php/AAAI/article/view/9755 (AAAI Conference on Artifi
 https://www.cs.ubc.ca/labs/isd/Projects/monosat/sam_bayless_thesis_2017.pdf (thesis '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
-[MiniSat](MiniSat.md), [[CLASP]]
+[MiniSat](../SAT/MiniSat.md), [[CLASP]]

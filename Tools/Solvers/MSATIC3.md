@@ -14,7 +14,7 @@ MSATIC3
 #### Expected output:
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-It is used as a back-end of [nuXmv](nuXmv.md) alongside [MathSAT](MathSAT.md).
+It is used as a back-end of [nuXmv](../Checkers/nuXmv.md) alongside [MathSAT](SMT/MathSAT.md).
 The IC3 most likely refers to an incremental model checking algorithm  for invariance properties.
 
 #### Comments:

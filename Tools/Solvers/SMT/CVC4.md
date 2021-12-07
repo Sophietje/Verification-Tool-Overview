@@ -13,7 +13,7 @@ SMT formula
 #### Expected input format:
 One of the following:
 - CVC4 native input language
-- [[SMT-LIB]] (v2)
+- [SMT-LIB](../../../Formats/SMT-LIB.md) (v2)
 - SyGuS-IF
 - TPTP
 
@@ -23,7 +23,7 @@ One of the following:
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 
 #### Comments:
-CVC4 is now **succeeded by [[cvc5]]**.
+CVC4 is now **succeeded by [cvc5](cvc5.md)**.
 
 #### URIs (github, websites, etc.):
 Repository: https://github.com/CVC4/CVC4-archived
@@ -42,4 +42,4 @@ https://doi.org/10.1007/978-3-319-63390-9_24 (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Predecessors: [[CVC]], [[CVC Lite]], [[CVC3]].
-Successor: [[cvc5]]
+Successor: [cvc5](cvc5.md)

@@ -21,7 +21,7 @@ Quantified bit-vector formula
 `sat` or `unsat` indicating whether the quantified bit-vector formula was satisfiable or not.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[CUDD]], [[ANTLR]], [[SMT-LIB]], [[Z3]]
+Uses [CUDD](../../Libraries/CUDD.md), [ANTLR](../../Not-verifiers/ANTLR.md), [SMT-LIB](../../../Formats/SMT-LIB.md), [Z3](Z3.md)
 
 #### Comments:
 -

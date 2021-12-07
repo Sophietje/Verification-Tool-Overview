@@ -1,35 +1,40 @@
-Solver for Constrained Horn Clauses (CHC), implemented in [Z3](SMT/Z3.md)
-
 #### Name:
-Spacer
+PicoSAT
 
 #### Application domain/field:
-Constrained Horn Clauses
-CHC solver
+SAT solving
 
 #### Type of tool (e.g. model checker, test generator):
-CHC solver
+SAT solver
+Boolean Satisfiability problem
 
 #### Expected input thing:
+SAT problem
 
 #### Expected input format:
+?
 
 #### Expected output:
+?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
+-
 
 #### Comments:
-Integrated in [Z3](SMT/Z3.md).
+-
 
 #### URIs (github, websites, etc.):
+Project page: http://fmv.jku.at/picosat/
 
 #### Last commit date:
+-
 
 #### Last publication date:
+2008
 
 #### List of related papers:
-https://doi.org/10.1007/s10703-016-0249-4 (Formal Methods in System Design '16)
-https://doi.org/10.1007/978-3-319-08867-9_2 (CAV '14)
+https://doi.org/10.1109/FMCAD.2008.ECP.32 (FMCAD '08)
+https://doi.org/10.3233/SAT190039 (Journal on Satisfiability, Boolean Modeling and Computation '08)
 
 #### Related tools (tools mentioned or compared to in the paper):
-[GSpacer](GSpacer.md): Extension of Spacer
+[zChaff](Tools/Solvers/SAT/zChaff.md), [MiniSat](Tools/Solvers/SAT/MiniSat.md)

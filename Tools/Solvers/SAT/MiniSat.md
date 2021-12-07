@@ -14,7 +14,7 @@ SAT solver
 SAT problem
 
 #### Expected input format:
-[DIMACS](DIMACS.md)
+[DIMACS](../../../Formats/DIMACS.md)
 
 #### Expected output:
 `SATISFIABLE`, `UNSATISFIABLE` or `INDETERMINATE` indicating whether the SAT problem is satisfiable, unsatisfiable or it could not be determined.
@@ -39,4 +39,4 @@ https://minisat.se/downloads/MiniSat_v1.13_short.pdf (SAT Competition '05)
 https://minisat.se/downloads/MiniSat.pdf (SAT '03)
 
 #### Related tools (tools mentioned or compared to in the paper):
-[MiniSat+](MiniSat+.md): Extension of MiniSat so it could participate in new categories of the SAT competition
+[MiniSat+](../MiniSat+.md): Extension of MiniSat so it could participate in new categories of the SAT competition

@@ -20,7 +20,7 @@ Either an invariant or false if no invariant exists
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 FreqHorn is a satisfiability solver for constrained Horn clauses (CHCs).
-Uses [[Z3]], based on [[SeaHorn]].
+Uses [Z3](SMT/Z3.md), based on [SeaHorn](../Checkers/SeaHorn.md).
 
 #### Comments:
 

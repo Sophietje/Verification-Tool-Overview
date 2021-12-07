@@ -35,7 +35,7 @@ Uses [Z3](Z3.md)
 Note: the authors sometimes call PCSat a (second-order) constraint solver
 
 #### URIs (github, websites, etc.):
-Repository (contains [[MuVal]] and [[PCSat]]): https://github.com/hiroshi-unno/coar
+Repository (contains [MuVal](../MuVal.md) and PCSat): https://github.com/hiroshi-unno/coar
 
 #### Last commit date:
 11 May 2021

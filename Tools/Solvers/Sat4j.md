@@ -16,7 +16,7 @@ Java library that provides access to SAT-related technologies.
 ?
 
 #### Expected input format:
-[DIMACS](DIMACS.md), or Aralia formula?
+[DIMACS](../../Formats/DIMACS.md), or Aralia formula?
 
 #### Expected output:
 `UNSATISFIABLE` if it is unsatisfiable

@@ -15,14 +15,14 @@ QBF (quantified boolean formulas) solver
 quantified Boolean formula (QBF) in prenex conjunctive normal (prenex CNF) form
 
 #### Expected input format:
-[[QDIMACS]] file format
+[QDIMACS](../../Formats/QDIMACS.md) file format
 
 #### Expected output:
 Result code `10` for satisfiable and `20` for unsatisfiable instances. 
-It can also output in the [QDIMACS](QDIMACS.md) format which has partial assignments to variables.
+It can also output in the [QDIMACS](../../Formats/QDIMACS.md) format which has partial assignments to variables.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [PicoSAT](PicoSAT), [MiniSat](MiniSat.md), [[CryptoMiniSat]] and [Lingeling](Lingeling.md) as underlying SAT solver.
+Uses [PicoSAT](SAT/PicoSAT.md), [MiniSat](SAT/MiniSat.md), [CryptoMiniSat](SAT/CryptoMiniSat.md) and [Lingeling](SAT/Lingeling.md) as underlying SAT solver.
 
 #### Comments:
 -

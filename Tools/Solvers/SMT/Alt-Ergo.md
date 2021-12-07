@@ -17,15 +17,15 @@ One of the following:
 - `.ae` file for its native input language
 - `.why`: deprecated but still accepted
 - `.mlw`: deprecated but still accepted
-- `.psmt2`: polymorphic extension of the [SMT-LIB](SMT-LIB.md) 2 format
-- `.smt2`: [SMT-LIB](SMT-LIB.md) 2 format
+- `.psmt2`: polymorphic extension of the [SMT-LIB](../../../Formats/SMT-LIB.md) 2 format
+- `.smt2`: [SMT-LIB](../../../Formats/SMT-LIB.md) 2 format
 
 #### Expected output:
 `Valid`, `Invalid` or `I don't know` if the user used its native input language (`.ae` files). It can also output in the SMT-LIB 2 form if asked.
-`unsat`, `sat` or `unknown` if the user used the [SMT-LIB](SMT-LIB.md) 2 input format (i.e. `.psmt2` or `.smt2` files)
+`unsat`, `sat` or `unknown` if the user used the [SMT-LIB](../../../Formats/SMT-LIB.md) 2 input format (i.e. `.psmt2` or `.smt2` files)
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Alt-Ergo is used by [Frama-C](Frama-C.md), [SPARK](SPARK.md), [Why3](Why3.md), [[Atelier-B]] and [[Caveat]].
+Alt-Ergo is used by [Frama-C](../../Frameworks/Frama-C.md), [SPARK](../../SPARK.md), [Why3](../../Frameworks/Why3.md), [[Atelier-B]] and [[Caveat]].
 
 #### Comments:
 -

@@ -1,4 +1,4 @@
-Parallel front-end of [[Lingeling]]
+Parallel front-end of [Lingeling](Lingeling.md)
 SAT solver
 
 #### Name:
@@ -15,7 +15,7 @@ SAT solver
 SAT problem
 
 #### Expected input format:
-[DIMACS](DIMACS.md)
+[DIMACS](../../../Formats/DIMACS.md)
 
 #### Expected output:
 `SATISFIABLE`, `UNSATISFIABLE` or `UNKNOWN` indicating whether the SAT problem is satisfiable, unsatisfiable or it could not be determined.
@@ -42,4 +42,4 @@ http://fmv.jku.at/papers/Biere-SAT-Competition-2018-solvers.pdf (SAT Competition
 http://fmv.jku.at/papers/Biere-SAT-Competition-2017-solvers.pdf (SAT Competition '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
-[Lingeling](Lingeling.md), [Treengeling](Treengeling)
+[Lingeling](Lingeling.md), [[Treengeling]]

@@ -11,7 +11,7 @@ SMT solver
 SMT formula
 
 #### Expected input format:
-[[SMT-LIB]] v2
+[SMT-LIB](../../../Formats/SMT-LIB.md) v2
 
 #### Expected output:
 "unsat" or "$\delta$-sat"
@@ -20,7 +20,7 @@ SMT formula
 dReal focuses on formulas over *real* numbers. "Its special strength is in handling problems that involve a wide range of nonlinear real functions." ([Source](https://dreal.github.io/))
 It can handle $\exists\forall$-formulas with most standard elementary, trigonometric and hyberbolic functions (e.g. power, exp, log, root, sin, cos, tan, arcsin, arccos, arctan, sinh, cosh, tanh), etc. 
 
-It uses [[IBEX-lib]], [[CLP]], [[NLopt]], [[PicoSAT]] and [[capd]]
+It uses [[IBEX-lib]], [[CLP]], [[NLopt]], [PicoSAT](../SAT/PicoSAT.md) and [[capd]]
 
 #### Comments:
 

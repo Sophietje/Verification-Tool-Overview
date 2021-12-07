@@ -22,7 +22,7 @@ Optimization solver
 .sol file describing the solution as standard text
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-This is a stand-alone solver for LP (linear programming) and MIP (mixed integer programming) that is part of [[GLPK]].
+This is a stand-alone solver for LP (linear programming) and MIP (mixed integer programming) that is part of [GLPK](../Libraries/GLPK.md).
 
 #### Comments:
 

@@ -20,7 +20,7 @@ SAT problem
 SATzilla runs the algorithm with the best predicated runtime until the instance is solved or the allotted time is used up.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Candidate SAT solvers that are included: [[March_dl04]], [[March_pl]], [MiniSat](../Solvers/SAT/MiniSat.md), [[Vallst]], [zChaff](../Solvers/SAT/zChaff.md), [[Kcnfs04]], [[TTS]], [PicoSAT](PicoSAT), [[MXC08]], [[Rsat]].
+Candidate SAT solvers that are included: [[March_dl04]], [[March_pl]], [MiniSat](../Solvers/SAT/MiniSat.md), [[Vallst]], [zChaff](../Solvers/SAT/zChaff.md), [[Kcnfs04]], [[TTS]], [PicoSAT](../Solvers/SAT/PicoSAT.md), [[MXC08]], [[Rsat]].
 
 #### Comments:
 -

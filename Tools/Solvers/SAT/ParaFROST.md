@@ -20,10 +20,10 @@ SAT solver
 `SATISFIABLE`, `UNSATISFIABLE` or an error indicating e.g. out of memory or a timeout.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Based on [[CaDiCaL]], interfaces with [CBMC](CBMC.md)
+Based on [[CaDiCaL]], interfaces with [CBMC](../../Checkers/CBMC.md)
 
 #### Comments:
-**NOTE**: Although ParaFROST is presented as a parallel SAT solver, it only seems to be available combined with [CBMC](CBMC.md) and thus it is unclear whether it can be used individually without [CBMC](CBMC.md)!
+**NOTE**: Although ParaFROST is presented as a parallel SAT solver, it only seems to be available combined with [CBMC](../../Checkers/CBMC.md) and thus it is unclear whether it can be used individually without [CBMC](../../Checkers/CBMC.md)!
 
 License: GPL-3.0
 
@@ -41,4 +41,4 @@ Repository: https://github.com/muhos/gpu4bmc
 https://doi.org/10.1007/978-3-030-81688-9_21 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
-Compared to (in CAV '21 paper): [MiniSat](MiniSat.md), [Glucose](Glucose.md), [CaDiCaL](CaDiCaL).
+Compared to (in CAV '21 paper): [MiniSat](MiniSat.md), [Glucose](Glucose.md), [[CaDiCaL]]

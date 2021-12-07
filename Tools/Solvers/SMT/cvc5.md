@@ -33,4 +33,4 @@ Project page: https://cvc5.github.io/
 #### List of related papers:
 
 #### Related tools (tools mentioned or compared to in the paper):
-From the same 'family' of tools: [[CVC]], [[CVC Lite]], [[CVC3]], [[CVC4]]
+From the same 'family' of tools: [[CVC]], [[CVC Lite]], [[CVC3]], [CVC4](CVC4.md)

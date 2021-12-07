@@ -14,7 +14,7 @@ SAT solver
 Boolean formula in conjunctive normal form (CNF)
 
 #### Expected input format:
-[DIMACS](DIMACS.md) format with the extension of XOR clauses.
+[DIMACS](../../../Formats/DIMACS.md) format with the extension of XOR clauses.
 
 #### Expected output:
 `SATISFIABLE`, `UNSATISFIABLE` or `UNKNOWN`

@@ -15,7 +15,7 @@ SMT solver
 SMT problem
 
 #### Expected input format:
-[SMT-LIB](SMT-LIB.md) 2.0 or [DIMACS](DIMACS.md)
+[SMT-LIB](../../../Formats/SMT-LIB.md) 2.0 or [DIMACS](../../../Formats/DIMACS.md)
 
 #### Expected output:
 `unsat`, `sat` or an error (in case of e.g. a timeout)
@@ -45,4 +45,4 @@ https://doi.org/10.1007/978-3-662-54580-5_13 (TACAS '17)
 https://doi.org/10.1007/978-3-642-02959-2_12 (CADE '09)
 
 #### Related tools (tools mentioned or compared to in the paper):
-Other solvers: [CVC3](CVC3), [Z3](Z3.md)
+Other solvers: [[CVC3]], [Z3](Z3.md)

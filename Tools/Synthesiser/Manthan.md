@@ -21,7 +21,7 @@ Boolean function $\Psi$ such that $\exists F(X,Y) = F(X, \Psi(X))$.
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 "In the context of applications, the sets $X$ and $Y$ are viewed as inputs and outputs, and the formula $F(X,Y)$ is viewed as the functional specification capturing the relation between $X$ and $Y$".
 
-It uses [[ABC]], [[PicoSAT]], [[Open-WBO]] and [[Scikit-Learn]].
+It uses [[ABC]], [[../Solvers/SAT/PicoSAT]], [[Open-WBO]] and [[Scikit-Learn]].
 
 #### Comments:
 -

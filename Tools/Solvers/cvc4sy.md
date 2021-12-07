@@ -12,13 +12,13 @@ SyGuS solver
 SyGuS problem
 
 #### Expected input format:
-[SyGuS](SyGuS.md) input format
+[SyGuS](../../Formats/SyGuS.md) input format
 
 #### Expected output:
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-cvc4sy is integrated in [[CVC4]].
+cvc4sy is integrated in [CVC4](SMT/CVC4.md).
 cvc4sy is based on counterexample-guided inductive synthesis (CEGIS).
 
 #### Comments:

@@ -12,7 +12,7 @@ SAT solver
 SAT problem
 
 #### Expected input format:
-[DIMACS](DIMACS.md)
+[DIMACS](../../../Formats/DIMACS.md)
 
 #### Expected output:
 `SATISFIABLE` or `UNSATISFIABLE` indicating whether the SAT problem is unsatisfiable or not.
@@ -21,7 +21,7 @@ SAT problem
 -
 
 #### Comments:
-Kissat is an improved reimplementation of [CaDiCaL](CaDiCaL).
+Kissat is an improved reimplementation of [[CaDiCaL]].
 Kissat has an MIT license.
 
 #### URIs (github, websites, etc.):
@@ -41,5 +41,5 @@ http://fmv.jku.at/papers/BiereFleury-POS20.pdf (POS '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [Glucose](Glucose.md)
-[SPASS-SATT](SPASS-SATT)
-[CaDiCaL](CaDiCaL)
+[[SPASS-SATT]]
+[[CaDiCaL]]

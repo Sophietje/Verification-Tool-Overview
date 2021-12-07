@@ -13,7 +13,7 @@ SMT formula
 #### Expected input format:
 One of the following:
 - BTOR (it's own format)
-- [[SMT-LIB]] (version 1.2 or 2.0)
+- [SMT-LIB](../../../Formats/SMT-LIB.md) (version 1.2 or 2.0)
 
 #### Expected output:
 - If `satisfiable` then it can print a model (if model generation is enabled) or query assignments of bit vector and array variables or uninterpreted functions.

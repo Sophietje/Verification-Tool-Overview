@@ -12,7 +12,7 @@ SMT solver
 SMT formula
 
 #### Expected input format:
-[SMT-LIB](Formats/SMT-LIB.md) (version 1.2 and 2.0), or its own specification language.
+[SMT-LIB](../../../Formats/SMT-LIB.md)(version 1.2 and 2.0), or its own specification language.
 
 It also has a C API and bindings for Java, Python, Go and OCaml.
 

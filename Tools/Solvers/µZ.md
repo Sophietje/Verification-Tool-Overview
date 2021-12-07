@@ -27,10 +27,10 @@ It computes fixed points with constraints.
 -
 
 #### Comments:
-Part of [Z3](Z3.md)
+Part of [Z3](SMT/Z3.md)
 
 #### URIs (github, websites, etc.):
-Repository of [Z3](Z3.md) (µZ is part of this tool): https://github.com/Z3Prover/z3
+Repository of [Z3](SMT/Z3.md) (µZ is part of this tool): https://github.com/Z3Prover/z3
 
 #### Last commit date:
 -

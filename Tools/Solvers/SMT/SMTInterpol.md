@@ -13,7 +13,7 @@ SMT solver
 SMT formula
 
 #### Expected input format:
-[SMT-LIB](SMT-LIB.md) v2.6
+[SMT-LIB](../../../Formats/SMT-LIB.md) v2.6
 It supports Craig interpolation via an extension of the SMT-LIB format.
 
 #### Expected output:

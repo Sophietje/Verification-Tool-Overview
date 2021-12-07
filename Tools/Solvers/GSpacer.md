@@ -18,7 +18,7 @@ CHC solver
 `safe` (and an inductive invariant so that the system can be proven to be safe) or `unsafe`
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Extension of [[Spacer]], a CHC (Constrained Horn Clause) solver in [[Z3]], with global guidance (to tackle limitations of locality).
+Extension of [Spacer](Spacer.md), a CHC (Constrained Horn Clause) solver in [Z3](SMT/Z3.md), with global guidance (to tackle limitations of locality).
 
 #### Comments:
 

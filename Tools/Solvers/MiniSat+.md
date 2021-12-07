@@ -1,1 +1,1 @@
-Extension of [MiniSat](MiniSat.md) which adds support for Pseudo-Boolean constraints.
+Extension of [MiniSat](SAT/MiniSat.md) which adds support for Pseudo-Boolean constraints.

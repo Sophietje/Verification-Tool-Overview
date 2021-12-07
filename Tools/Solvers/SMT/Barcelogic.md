@@ -11,7 +11,7 @@ SMT solver
 SMT formula
 
 #### Expected input format:
-[[SMT-LIB]] format
+[SMT-LIB](../../../Formats/SMT-LIB.md) format
 
 #### Expected output:
 If satisfiable, then a model (in SMT-LIB format) which describes the truth value for each Boolean variable, a concrete integer or real for each numeric variable and a partial mapping for each uninterpreted function symbol in the formula

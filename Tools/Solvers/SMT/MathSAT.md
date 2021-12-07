@@ -1,5 +1,5 @@
 #### Name:
-MathSAT 5
+MathSAT
 
 #### Application domain/field:
 SMT solving
@@ -12,7 +12,7 @@ SMT solver
 SMT formula
 
 #### Expected input format:
-[[SMT-LIB]] v2, [[SMT-LIB]] v1.2 or [[DIMACS]].
+[SMT-LIB](../../../Formats/SMT-LIB.md) v2, [SMT-LIB](../../../Formats/SMT-LIB.md) v1.2 or [DIMACS](../../../Formats/DIMACS.md).
 
 #### Expected output:
 `SAT` or `UNSAT` indicating whether the formula is satisfiable or not.
@@ -23,7 +23,7 @@ When the formula is unsatisfiable, it can produce a proof.
 -
 
 #### Comments:
--
+Current version: MathSAT 5
 
 #### URIs (github, websites, etc.):
 Download page: https://mathsat.fbk.eu/download.html
@@ -39,4 +39,4 @@ Project page: https://mathsat.fbk.eu/index.html
 https://doi.org/10.1007/978-3-642-36742-7_7
 
 #### Related tools (tools mentioned or compared to in the paper):
-Successor of [[MathSAT 4]]
+Successor of MathSAT 4

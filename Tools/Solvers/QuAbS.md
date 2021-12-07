@@ -27,7 +27,7 @@ Quantified boolean formula
 #### Comments:
 There is also a prototype that has been parallelized, which is referred to as PQUABS in the SAT '16 paper.
 
-They provide a conversion from QCIR to [[QAIGER]]
+They provide a conversion from QCIR to [QAIGER](../../Formats/QAIGER.md)
 
 #### URIs (github, websites, etc.):
 Project page: https://www.react.uni-saarland.de/tools/quabs/

@@ -19,14 +19,14 @@ Optimization solver?
 
 #### Expected input format:
 One of the following two:
-- [SMT-LIB](SMT-LIB.md) v2, enriched with language extensions for dealing with optimization capabilities
+- [SMT-LIB](../../Formats/SMT-LIB.md) v2, enriched with language extensions for dealing with optimization capabilities
 - [[FlatZinc]] 1.6 language format
 
 #### Expected output:
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Extension of [MathSAT](MathSAT.md) 5. 
+Extension of [MathSAT](SMT/MathSAT.md) 5. 
 OMT is an extension of SMT to find models that optimize objection functions
 
 #### Comments:
