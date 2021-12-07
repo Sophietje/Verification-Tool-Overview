@@ -28,7 +28,7 @@ If the tool returns `false`, it will provide a *possible* counterexample. This c
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Extension of [[IC3]], for quantitative reachability in MDPs.
-Uses efficient data structures from [Storm](Storm.md) and uses [Z3](Z3.md)
+Uses efficient data structures from [Storm](Storm.md) and uses [Z3](../Solvers/SMT/Z3.md).
 
 #### Comments:
 It is called a 'prototypical implementation' in the CAV '20 paper.

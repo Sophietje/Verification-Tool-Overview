@@ -25,7 +25,7 @@ Model checker
 Lower and upper bound probabilities for which the property holds.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[PRISM]]
+Uses [PRISM](PRISM.md)
 
 #### Comments:
 -

@@ -22,7 +22,7 @@ UPPAAL XML format extended with lattice features
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[pyuppaal]]
+Uses [pyuppaal](../Libraries/pyuppaal.md).
 
 #### Comments:
 -

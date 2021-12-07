@@ -32,7 +32,7 @@ Some techniques that are implemented/available in CPAChecker include:
 - Interpolation-based refinement
 - Adjustable-block encoding
 
-Uses [MathSAT](MathSAT.md), [[CSIsat]], [CBMC](CBMC.md), [[JavaBDD]].
+Uses [MathSAT](../Solvers/SMT/MathSAT.md), [[CSIsat]], [CBMC](CBMC.md), [[JavaBDD]].
 
 #### Comments:
 License: Apache 2.0 License
@@ -55,4 +55,4 @@ https://doi.org/10.1007/978-3-662-46681-0_34 (TACAS '15)
 https://doi.org/10.1007/978-3-642-22110-1_16 (CAV '11)
 
 #### Related tools (tools mentioned or compared to in the paper):
-[[BLAST]], 
+[[BLAST]]

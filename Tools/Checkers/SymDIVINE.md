@@ -23,10 +23,10 @@ Model checker
 `TIMEOUT`, `true` or `false` indicating whether it could prove the assertion/LTL property.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [Z3](Z3.md)
+Uses [Z3](../Solvers/SMT/Z3.md)
 
 #### Comments:
-The repo is archived and no longer maintained. It is now integrated into [DIVINE](DIVINE.md)]].
+The repo is archived and no longer maintained. It is now integrated into [DIVINE](../DIVINE.md).
 
 #### URIs (github, websites, etc.):
 Repository: https://github.com/paradise-fi/SymDIVINE

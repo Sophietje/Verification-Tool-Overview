@@ -22,7 +22,7 @@ Java bytecode (it supports Java class files, Jar archives, or Android apk)
 `SAFE`, `UNSAFE` or `UNKNOWN`
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[Eldarica]], [Spacer](Spacer.md) as back-end solvers and [[Soot]] to translate Java bytecode to simplified Jimple three-address format.
+Uses [[Eldarica]], [Spacer](../Solvers/Spacer.md) as back-end solvers and [[Soot]] to translate Java bytecode to simplified Jimple three-address format.
 
 JayHorn can also infer some program annotations automatically for NullPointerExceptions, ArrayIndexOutOfBoundsExceptions and ClassCastExceptions.
 

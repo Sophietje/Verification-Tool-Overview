@@ -29,7 +29,7 @@ Whether the property could be proven, if not then a counterexample is provided.
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 It performs in parallel latticed k-induction and BMC (bounded model checking) to fully automatically verify upper bounds on expected values of `{pGCL}` programs. It can also reason about expected values, e.g. expected runtimes, of such programs.
 
-Uses [Z3](Z3.md), [[PySMT]]
+Uses[Z3](../Solvers/SMT/Z3.md), [PySMT](../Libraries/PySMT.md)
 
 #### Comments:
 License: Apache-2.0 license

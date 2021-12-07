@@ -19,7 +19,7 @@ Yes or no (whether the First Order Alternating Data Automata is empty)
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Tool for emptiness checking for First Order Alternating Data Automata
-Uses [[Z3]], [[JavaSMT]]
+Uses [Z3](Tools/Solvers/SMT/Z3.md), [JavaSMT](Tools/Libraries/JavaSMT.md)
 
 #### Comments:
 

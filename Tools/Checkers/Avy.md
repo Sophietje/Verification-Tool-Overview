@@ -12,7 +12,7 @@ Model checker
 Transition system (initial state, transition relation and bad states)
 
 #### Expected input format:
-[[AIGER]] format
+[AIGER](../../Formats/AIGER.md) format
 
 #### Expected output:
 SAT or UNSAT
@@ -37,6 +37,6 @@ https://bitbucket.org/arieg/extavy/src/master/
 https://doi.org/10.1007/978-3-030-25543-5_21
 
 #### Related tools (tools mentioned or compared to in the paper):
-[[ABC]]
+[ABC](../Frameworks/ABC.md)
 
 

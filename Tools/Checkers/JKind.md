@@ -29,7 +29,7 @@ The JKind architecture consists of 5 separate 'engines':
 4. Property Directed Reachability (PDR) engine to do property directed reachability.
 5. Advice engine to generate invariants based on previous JKind runs.
 
-Uses [[SMTInterpol]] as an SMT-solver to prove/falsify properties.
+Uses [SMTInterpol](../Solvers/SMT/SMTInterpol.md) as an SMT-solver to prove/falsify properties.
 
 #### Comments:
 There exists an Eclipse plug-in with syntax highlighting and static analysis for Lustre code which also runs JKind and reports the results graphically.
@@ -48,6 +48,6 @@ Project page: https://loonwerks.com/tools/jkind.html
 https://doi.org/10.1007/978-3-319-96142-2_3
 
 #### Related tools (tools mentioned or compared to in the paper):
-Compared to [[Kind 2]], [[Zustre]], [[Z3]] (generalized PDR) and [[nuXmv]] (IC3) in the paper.
+Compared to [[Kind 2]], [[Zustre]], [Z3](../Solvers/SMT/Z3.md) (generalized PDR) and [nuXmv](nuXmv.md) (IC3) in the paper.
 
-It is used as a back-end in [[SpeAR]], [[AGREE]] and [[SIMPAL]].
+It is used as a back-end in [[SpeAR]], [AGREE](AGREE.md) and [[SIMPAL]].

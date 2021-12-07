@@ -22,7 +22,7 @@ C-program with annotations that indicate which variables are secret and the loca
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Procedure for bounded verification of secure information flow.
 
-Implemented on top of [[SeaHorn]], uses [[Z3]].
+Implemented on top of [SeaHorn](SeaHorn.md), uses[Z3](../Solvers/SMT/Z3.md).
  Note that the paper calls this a 'prototype implementation'.
 
 #### Comments:
@@ -40,4 +40,4 @@ Benchmark files: http://www.cs.princeton.edu/~aartig/benchmarks/ifc_bench.zip
 https://doi.org/10.1007/978-3-319-96142-2_11
 
 #### Related tools (tools mentioned or compared to in the paper):
-[[IFC-CEGAR]]
+[IFC-CEGAR](IFC-CEGAR.md)

@@ -36,5 +36,5 @@ Repository: https://github.com/cesaro/dpu
 https://doi.org/10.1007/978-3-319-96142-2_22
 
 #### Related tools (tools mentioned or compared to in the paper):
-Mentioned in the README of the repository: [[POET]], [[Nidhugg]], [[CHESS]], and [[Maple]]
+Mentioned in the README of the repository: [POET](POET.md), [Nidhugg](../Nidhugg.md), [[CHESS]], and [[Maple]]
 

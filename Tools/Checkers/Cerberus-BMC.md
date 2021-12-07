@@ -22,7 +22,7 @@ C program
 Tool to explore allowed behaviours of C test programs that takes into account the concurrency memory model, the memory object model and the thread-local sequential semantics.
 
 Loop unwinding
-Uses [[Z3]]
+Uses [Z3](../Solvers/SMT/Z3.md)
 
 #### Comments:
 -

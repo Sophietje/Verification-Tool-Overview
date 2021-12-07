@@ -42,4 +42,4 @@ Repository: https://github.com/bergfi/llmc
 https://doi.org/10.1007/978-3-030-81688-9_32  (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
-Compared to: [DIVINE](DIVINE.md), [Nidhugg](Nidhugg)
+Compared to: [DIVINE](../DIVINE.md), [Nidhugg](../Nidhugg.md)

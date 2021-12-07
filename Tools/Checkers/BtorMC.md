@@ -22,13 +22,13 @@ BtorMC is a bounded model checker.
 It can check safety properties for models with registers and memories.
 It also produces witnesses for satisfiable properties.
 
-Uses [[Boolector]] 3.0
+Uses [Boolector](../Solvers/SMT/Boolector.md) 3.0
 
 #### Comments:
 It is called a 'reference' bounded model checker in the paper.
 
 #### URIs (github, websites, etc.):
-Seems to be included in the [[Boolector]] repository: https://github.com/Boolector/boolector/tree/ad16fd1b47fdce57cc55ca5f1b2f4f7c95b2f631
+Seems to be included in the [Boolector](../Solvers/SMT/Boolector.md) repository: https://github.com/Boolector/boolector/tree/ad16fd1b47fdce57cc55ca5f1b2f4f7c95b2f631
 
 #### Last commit date:
 27 May 2021
@@ -40,4 +40,4 @@ Seems to be included in the [[Boolector]] repository: https://github.com/Boolect
 https://doi.org/10.1007/978-3-319-96145-3_32
 
 #### Related tools (tools mentioned or compared to in the paper):
-Compared to: [[Boolector]], [[Yices]]
+Compared to: [Boolector](../Solvers/SMT/Boolector.md), [[Yices]]

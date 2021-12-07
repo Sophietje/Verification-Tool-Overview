@@ -22,7 +22,7 @@ Electrum language
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Electrum is an extension of [Alloy](Alloy) that enriches its relational logic with LTL operators.
+Electrum is an extension of [Alloy](../Alloy.md) that enriches its relational logic with LTL operators.
 The Electrum Analyzer can do bounded model checking (encoded into SAT) and unbounded model checking (encoding into SMV)
 
 There are two main commands to analyse Electrum models:

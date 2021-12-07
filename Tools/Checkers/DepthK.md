@@ -26,8 +26,8 @@ The witness is stored as a `.graphml` file.
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Uses bounded model checking (BMC) or k-induction, combined with invariant inference and witness checking.
 
-Extends [ESBMC](ESBMC.md) to falsify or prove correctness of a given (safety) property for any depth without manual annotation of loops with invariants.
-Uses [CPAchecker](CPAchecker.md), [Ultimate Automizer](Ultimate%20Automizer.md), [[PAGAI]], [[PIPS]]
+Extends [ESBMC](../ESBMC.md) to falsify or prove correctness of a given (safety) property for any depth without manual annotation of loops with invariants.
+Uses [CPAchecker](CPAchecker.md), [Ultimate Automizer](../Ultimate%20Automizer.md), [[PAGAI]], [[PIPS]]
 
 #### Comments:
 -

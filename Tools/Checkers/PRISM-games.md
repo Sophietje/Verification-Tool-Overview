@@ -23,7 +23,7 @@ Own format which is an extension of the [PRISM](PRISM.md) format.
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Extension of [[PRISM]].
+Extension of [PRISM](PRISM.md).
 
 PRISM-games supports several stochastic multi-player game models, including:
 - Turn-based stochastic multi-player games (SMGs or TSGs)

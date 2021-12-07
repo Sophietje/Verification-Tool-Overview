@@ -22,7 +22,7 @@ Whether the written assertion holds for the program under the specified memory m
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Dartagnan is a bounded model checker for concurrent programs under weak memory models.
-Uses [[Z3]].
+Uses [Z3](../Solvers/SMT/Z3.md).
 
 #### Comments:
 *Note: repository only mentions that it supports programs written in the .litmus or .bpl (Boogie) formats. However, for .bpl files you have to specify the architecture as `none`, `tso`, `power`, `arm` or `arm8`.*
@@ -41,4 +41,4 @@ https://doi.org/10.1007/978-3-030-25540-4_19
 https://doi.org/10.1007/978-3-030-72013-1_26
 
 #### Related tools (tools mentioned or compared to in the paper):
-Other bounded model checkers: [[CBMC]], [[Nidhugg]]
+Other bounded model checkers: [CBMC](CBMC.md), [Nidhugg](../Nidhugg.md)

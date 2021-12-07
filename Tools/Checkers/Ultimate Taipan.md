@@ -31,7 +31,7 @@ If passed the argument `--validate` then it will validate the provided witness.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Implemented on top of the program analysis framework [Ultimate](https://doi.org/10.1007/978-3-662-54580-5_31). 
-Uses [Z3](Z3.md) and [CVC4](CVC4.md)
+Uses [Z3](../Solvers/SMT/Z3.md) and [CVC4](../Solvers/SMT/CVC4.md)
 
 #### Comments:
 License: LGPLv3

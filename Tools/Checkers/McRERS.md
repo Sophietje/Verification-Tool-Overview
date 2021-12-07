@@ -28,7 +28,7 @@ The tool seems to have a 'property analyzer' which can be used to determine whet
 
 This tool uses the same semantics for LTSs, LTL, and satisfiability as the RERS (verification competition/challenge).
 
-It uses the [[Spot]] library to determine equivalence of LTL formulas, determine language equivalence of BAs (Büchi automata), and to convert LTL formula to BA.
+It uses the [Spot](../Frameworks/Spot.md) library to determine equivalence of LTL formulas, determine language equivalence of BAs (Büchi automata), and to convert LTL formula to BA.
 
 #### Comments:
 

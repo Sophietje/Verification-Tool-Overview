@@ -30,7 +30,7 @@ SAT solving
 It can verify array bounds (buffer overflows), pointer safety, exceptions and user-specified assertions. Note that for some of these checks you need to pass specific options when executing cbmc.
 
 #### Comments:
-It is part of [[CProver]] 
+It is part of [CProver](../Frameworks/CProver.md)
 
 #### URIs (github, websites, etc.):
 Repository: https://github.com/diffblue/cbmc

@@ -20,7 +20,7 @@ Whether the tests pass or fail
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 fault is an embedded domain-specific language that allows the user to *construct test generators*. 
 It has been designed to support [[magma]], which is an embedded hardware construction language.
-It has several different backend targets including [[Verilog]], [[SPICE]], [[Verilog-AMS]] for simulation and [[CoSA]] for model checking.
+It has several different backend targets including [[../Formats/Verilog]], [[SPICE]], [[Verilog-AMS]] for simulation and [[CoSA]] for model checking.
 
 #### Comments:
 

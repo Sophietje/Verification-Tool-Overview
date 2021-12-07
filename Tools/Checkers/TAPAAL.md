@@ -23,10 +23,10 @@ Framework/model checking for timed-arc petri nets
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[verifydtapn]]
+Uses [verifydtapn](../verifydtapn.md)
 
 #### Comments:
-TAPAAL models can be automatically translated into [UPPAAL](UPPAAL.md) models.  So the user can choose to translate a TAPAAL model and use UPPAAL as a verification engine instead of TAPAAL.
+TAPAAL models can be automatically translated into [UPPAAL](../Frameworks/UPPAAL.md) models.  So the user can choose to translate a TAPAAL model and use UPPAAL as a verification engine instead of TAPAAL.
 
 #### URIs (github, websites, etc.):
 Project page: www.tapaal.net

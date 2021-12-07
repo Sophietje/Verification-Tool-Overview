@@ -19,13 +19,13 @@ One of the following types of models:
 And properties that should be checked (LTL or CTL)
 
 #### Expected input format:
-[[Modest]] Toolset format or [[JANI]] format.
+[Modest](../Frameworks/Modest.md) Toolset format or [JANI](../../Formats/JANI.md) format.
 
 #### Expected output:
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-This is part of the [[Modest]] Toolset. It is described on the project page as a "disk-based explicit-state model checker for STA (stochastic timed automata), PTA (probabilistic timed automata) and MDP (Markov decision processes)."
+This is part of the [Modest](../Frameworks/Modest.md) Toolset. It is described on the project page as a "disk-based explicit-state model checker for STA (stochastic timed automata), PTA (probabilistic timed automata) and MDP (Markov decision processes)."
 
 #### Comments:
 -

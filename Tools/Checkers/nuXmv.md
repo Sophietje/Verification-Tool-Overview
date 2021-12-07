@@ -25,9 +25,9 @@ A typical use case would be model checking (i.e. checking whether a property hol
 Symbolic model checker for finite- and infinite-state transition systems and temporal logics.
 
 nuXmv has commands for model checking, model simulation, computing reachable states, predicate abstraction, model transformation, and model exploration.
-Moreover, it also supports the conversion of the nuXmv format into [[AIGER]] 1.9.4 and [[VMT]] (extension of [[SMT-LIB]] for symbolic transition systems).
+Moreover, it also supports the conversion of the nuXmv format into [AIGER](../../Formats/AIGER.md) 1.9.4 and [[VMT]] (extension of [SMT-LIB](../../Formats/SMT-LIB.md) for symbolic transition systems).
 
-Uses [[MathSAT 5]], [[CUDD]], [[MiniSat]], [[MSATIC3]]
+Uses [MathSAT](../Solvers/SMT/MathSAT.md) 5, [CUDD](../Libraries/CUDD.md), [MiniSat](../Solvers/SAT/MiniSat.md), [MSATIC3](../Solvers/MSATIC3.md).
 
 #### Comments:
 -

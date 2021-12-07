@@ -25,7 +25,7 @@ Can analyze systems with real-valued variables.
 
 Translates an AADL model and the corresponding contracts into Lustre, then uses JKind for the back-end analysis.
 
-Uses [[Z3]], [[JKind]].
+Uses [Z3](../Solvers/SMT/Z3.md), [JKind](JKind.md)
 
 #### Comments:
 

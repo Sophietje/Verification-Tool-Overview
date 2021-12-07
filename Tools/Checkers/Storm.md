@@ -27,7 +27,7 @@ Probabilistic model checker
 Storm supports many different input formats:
 - *Input model*: 
 	- [PRISM](PRISM.md) for DTMCs, CTMCs and MDPs
-	- [JANI](JANI.md) for DTMCs, CTMCs and MDPs
+	- [JANI](../../Formats/JANI.md) for DTMCs, CTMCs and MDPs
 	- [[PNML]] or [[GreatSPN]] for GSPNs
 	- [[Galileo]] format for DFTs
 	- [[cpGCL]]
@@ -41,7 +41,7 @@ Depends on the property. It can give the probability of a certain outcome, but a
 It will also give information about the model such as the number of states and transitions.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-It uses the following solvers: [[Eigen]], [[gmm++]], [CUDD](CUDD.md), [Sylvan](Sylvan), [Gurobi](Gurobi.md), [GLPK](GLPK.md), [Z3](Z3.md), [MathSAT](MathSAT.md), [SMT-LIB](SMT-LIB.md)
+It uses the following solvers: [[Eigen]], [[gmm++]], [CUDD](../Libraries/CUDD.md), [Sylvan](Sylvan), [Gurobi](../Solvers/Gurobi.md), [GLPK](../Libraries/GLPK.md), [Z3](../Solvers/SMT/Z3.md), [MathSAT](../Solvers/SMT/MathSAT.md), [SMT-LIB](../../Formats/SMT-LIB.md)
 
 #### Comments:
 There is also a fuzzer that is called [STORM](https://practical-formal-methods.github.io/storm/).

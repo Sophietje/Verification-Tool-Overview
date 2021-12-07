@@ -21,7 +21,7 @@ Model checker
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Implemented in [[UPPAAL]].
+Implemented in [UPPAAL](../Frameworks/UPPAAL.md).
 It uses partial order reduction.
 
 #### Comments:

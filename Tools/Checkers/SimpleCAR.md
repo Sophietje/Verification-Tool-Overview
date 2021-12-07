@@ -16,14 +16,14 @@ Hardware model checker
 Hardware circuit model expressed as And-Inverter Graphs containing a single safety property
 
 #### Expected input format:
-[AIGER](AIGER.md) 1.9
+[AIGER](../../Formats/AIGER.md) 1.9
 
 #### Expected output:
 0 (`SAFE`), 1(`UNSAFE`)
 SimpleCar can also generate a counterexample if run with the option `-e`.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[Glucose]] as underlying SAT solver, [[AIGER]] for parsing and error checking.
+Uses [Glucose](../Solvers/SAT/Glucose.md) as underlying SAT solver, [AIGER](../../Formats/AIGER.md) for parsing and error checking.
 
 #### Comments:
 -

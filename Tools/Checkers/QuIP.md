@@ -26,7 +26,7 @@ Whether $P \subseteq_d Q$
 BCV is an algorithm for solving DS-inclusion. The name BCV is derived from the name of the authors.
 DS-inclusion is about determining the quantitative inclusion for nondeterministic discounted-sum (DS) automata.
 
-Uses [[RABIT]] to check language inclusion and [[Reduce]] for minimizing Büchi automata.
+Uses [RABIT](../RABIT.md) to check language inclusion and [Reduce](../Reduce.md) for minimizing Büchi automata.
 
 #### Comments:
 -
@@ -44,4 +44,4 @@ Possibly the following repository from the first author's github: https://github
 https://doi.org/10.1007/978-3-319-96142-2_9
 
 #### Related tools (tools mentioned or compared to in the paper):
-[DetLP](DetLP.md)
+[DetLP](../DetLP.md)
