@@ -20,7 +20,7 @@ One of the following
 - Manually built transition system (can use the API to do this)
 - [[BTOR2]] format
 - (subset of) [nuXmv](nuXmv.md)'s SMT-based theory extension of SMV
-- [CoreIR](../CoreIR.md)
+- [CoreIR](../Not-verifiers/CoreIR.md)
 
 The authors note that you could also use Verilog, by first using a tool to translate from Verilog to BTOR2 or SMV.
 

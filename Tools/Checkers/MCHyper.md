@@ -28,7 +28,7 @@ MCHyper is a model checker for synchronous HyperLTL properties. It can handle up
 HyperLTL allows the user to specify temporal properties that relate multiple computation traces, also called hyperproperties. Therefore, the user can check a.o. information-flow properties and noninterference between two traces.
 
 It uses [ABC](../Frameworks/ABC.md) as the backend for checking the reachability of a violation.
-If given a Verilog system as input, it will be converted into an Aiger circuit using [[Yosys]].
+If given a Verilog system as input, it will be converted into an Aiger circuit using [[../Yosys]].
 
 #### Comments:
 
