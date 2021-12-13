@@ -4,8 +4,11 @@ Framework that standardizes input and output formats, includes a DSL for specify
 DNNV: Deep Neural Network Verification
 
 #### Application domain/field:
+Deep neural network (DNN)
+DNN verification
 
 #### Type of tool (e.g. model checker, test generator):
+Framework?
 
 #### Expected input thing:
 - Properties
