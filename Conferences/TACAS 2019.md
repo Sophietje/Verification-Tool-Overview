@@ -73,7 +73,7 @@
 	✅ Expands [[DIVINE]]
 -	[🔓](https://doi.org/10.1007/978-3-030-17502-3_15) ESBMC v6.0: Verifying C Programs Using k-Induction and Invariant Inference - (Competition Contribution)
 	[Mikhail Y. R. Gadelha](https://dblp.org/pid/127/1726.html), [Felipe R. Monteiro](https://dblp.org/pid/185/1029.html), [Lucas C. Cordeiro](https://dblp.org/pid/42/4311.html), [Denis A. Nicole](https://dblp.org/pid/04/2787.html):
-	✅ Expands [[ESBMC]]
+	✅ Expands [ESBMC](../Tools/ESBMC.md)
 -	[🔓](https://doi.org/10.1007/978-3-030-17502-3_16) JayHorn: A Java Model Checker - (Competition Contribution)
 	[Temesghen Kahsai](https://dblp.org/pid/02/6790.html), [Philipp Rümmer](https://dblp.org/pid/79/5611.html), [Martin Schäf](https://dblp.org/pid/41/7506.html):
 	✅ Presents [[JayHorn]]

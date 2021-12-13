@@ -10,13 +10,13 @@
 	✅ Expands [[Why3]]
 -	[🔓](https://doi.org/10.1007/978-3-030-45237-7_15) Endicheck: Dynamic Analysis for Detecting Endianness Bugs
 	[Roman Kápl](https://dblp.org/pid/263/1554.html), [Pavel Parízek](https://dblp.org/pid/60/3424.html):
-	✅ Presents [[Endicheck]]
+	✅ Presents [Endicheck](../Tools/Endicheck.md)
 -	[🔓](https://doi.org/10.1007/978-3-030-45237-7_16) Describing and Simulating Concurrent Quantum Systems
 	[Richard Bornat](https://dblp.org/pid/49/5280.html), [Jaap Boender](https://dblp.org/pid/43/6316.html), [Florian Kammueller](https://dblp.org/pid/47/6815.html), [Guillaume Poly](https://dblp.org/pid/263/1326.html), [Rajagopal Nagarajan](https://dblp.org/pid/08/3521.html):
 	✅ Presents [[qtpi]]
 -	[🔓](https://doi.org/10.1007/978-3-030-45237-7_17) EMTST: Engineering the Meta-theory of Session Types
 	[David Castro-Perez](https://dblp.org/pid/259/3482.html), [Francisco Ferreira](https://dblp.org/pid/99/5922-1.html), [Nobuko Yoshida](https://dblp.org/pid/29/3650.html):
-	✅ Presents [[EMTST]]
+	✅ Presents [EMTST](../Tools/Libraries/EMTST.md)
 	✅ Expands [Coq](../Tools/Provers/Coq.md)
 ### SV-COMP 2020
 -	[🔓](https://doi.org/10.1007/978-3-030-45237-7_21) Advances in Automatic Software Verification: SV-COMP 2020
