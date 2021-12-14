@@ -36,8 +36,8 @@
 	✅ Extends [[VeriAbs]]
 -	[🔓](https://doi.org/10.1007/978-3-030-45237-7_26) GACAL: Conjecture-Based Verification - (Competition Contribution)
 	[Benjamin Quiring](https://dblp.org/pid/254/1039.html), [Panagiotis Manolios](https://dblp.org/pid/40/4888.html):
-	✅ Presents [[GACAL]]
-	✅ Expands [[ACL2s]]
+	✅ Presents [GACAL](../Tools/GACAL.md)
+	✅ Expands [ACL2s](../Tools/Provers/ACL2s.md)
 -	[🔓](https://doi.org/10.1007/978-3-030-45237-7_27) Java Ranger at SV-COMP 2020 (Competition Contribution)
 	[Vaibhav Sharma](https://dblp.org/pid/01/3680.html), [Soha Hussein](https://dblp.org/pid/136/2621.html), [Michael W. Whalen](https://dblp.org/pid/70/5189.html), [Stephen McCamant](https://dblp.org/pid/29/4899.html), [Willem Visser](https://dblp.org/pid/54/5019.html):
 	✅ Presents [[Java Ranger]]
