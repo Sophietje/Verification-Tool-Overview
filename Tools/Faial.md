@@ -1,3 +1,5 @@
+Tool to detect data-races in kernels.
+
 #### Name:
 Faial
 
@@ -17,7 +19,7 @@ CUDA kernel
 ?
 
 #### Expected output:
-Whether the kernel is data-race free. If note, then it will list specific dta-races.
+Whether the kernel is data-race free. If note, then it will list specific data-races.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 -
