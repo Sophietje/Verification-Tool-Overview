@@ -14,7 +14,7 @@
 	✅ Compares to [[Z3]], [[CVC4]], [[MathSAT]]
 -	[🔓](https://doi.org/10.1007/978-3-030-72013-1_14) Helmholtz: A Verifier for Tezos Smart Contracts Based on Refinement Types
 	[Yuki Nishida](https://dblp.org/pid/36/10522-1.html), [Hiromasa Saito](https://dblp.org/pid/288/1291.html), [Ran Chen](https://dblp.org/pid/95/6235.html), [Akira Kawata](https://dblp.org/pid/246/5108.html), [Jun Furuse](https://dblp.org/pid/95/2452.html), [Kohei Suenaga](https://dblp.org/pid/82/6723.html), [Atsushi Igarashi](https://dblp.org/pid/34/589.html)
-	✅ Presents [[Helmholtz]]
+	✅ Presents [Helmholtz](../Tools/Helmholtz.md)
 -	[🔓](https://doi.org/10.1007/978-3-030-72013-1_15) SyReNN: A Tool for Analyzing Deep Neural Networks
 	[Matthew Sotoudeh](https://dblp.org/pid/215/4310.html), [Aditya V. Thakur](https://dblp.org/pid/68/1945.html)
 	✅ Presents [[SyReNN]]

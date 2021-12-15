@@ -1,14 +1,19 @@
+Framework/set of tools for binary analysis in HOL.
+
 #### Name:
 HolBA
 
 #### Application domain/field:
 Binary analysis
+Binary code
+Machine checkable proofs
+Binary Intermediate Representation (BIR)
 
 #### Type of tool (e.g. model checker, test generator):
-Binary analysis
+Binary analysis framework
 
 #### Expected input thing:
-?
+Depends on the subtool that is used.
 
 #### Expected input format:
 ?
@@ -17,9 +22,20 @@ Binary analysis
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Tool for binary analysis in [HOL](Provers/HOL.md)4
+Tool for binary analysis in [HOL](Provers/HOL.md)4.
+
+It has the following tools:
+- backlifter: gets ISA-level contracts from BIR contracts
+- cfg: Control Flow Graph utilities
+- comp: Composition of contracts
+- exec: Concrete execution
+- lifter: Transpiler from binary to BIR
+- pass: Passification utility
+- scamv: Abstract side channel model validation framework
+- wp: Weakest precondition propagation
 
 #### Comments:
+-
 
 #### URIs (github, websites, etc.):
 Repository: https://github.com/kth-step/HolBA
@@ -31,7 +47,7 @@ Repository: https://github.com/kth-step/HolBA
 8 September 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_12
-https://doi.org/10.1007/978-3-030-58768-0_11
+https://doi.org/10.1016/j.scico.2019.01.001 (Science of Computer Programming '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
+[Scam-V](Scam-V.md)
