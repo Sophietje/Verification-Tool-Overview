@@ -31,7 +31,7 @@
 	✅ Expands [Dafny](../Tools/Dafny.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_26) JDart: A Dynamic Symbolic Analysis Framework. 442-459
 	[Kasper Søe Luckow](https://dblp.org/pid/13/11526.html), [Marko Dimjasevic](https://dblp.org/pid/158/1033.html), [Dimitra Giannakopoulou](https://dblp.org/pid/39/117.html), [Falk Howar](https://dblp.org/pid/12/8669.html), [Malte Isberner](https://dblp.org/pid/54/1436.html), [Temesghen Kahsai](https://dblp.org/pid/02/6790.html), [Zvonimir Rakamaric](https://dblp.org/pid/31/4458.html), [Vishwanath Raman](https://dblp.org/pid/64/3364.html):
-	✅ Presents [[JDart]]
+	✅ Presents [JDart](../Tools/JDart.md)
 ### Tool Demos
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_31) The xSAP Safety Analysis Platform. 533-539
 	[Benjamin Bittner](https://dblp.org/pid/117/4994.html), [Marco Bozzano](https://dblp.org/pid/66/3003.html), [Roberto Cavada](https://dblp.org/pid/96/4147.html), [Alessandro Cimatti](https://dblp.org/pid/13/5961.html), [Marco Gario](https://dblp.org/pid/138/5577.html), [Alberto Griggio](https://dblp.org/pid/19/3686.html), [Cristian Mattarei](https://dblp.org/pid/67/7880.html), [Andrea Micheli](https://dblp.org/pid/84/7880.html), [Gianni Zampedri](https://dblp.org/pid/162/0229.html):

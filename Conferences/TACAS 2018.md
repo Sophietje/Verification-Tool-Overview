@@ -14,7 +14,7 @@
 	✅ Expands [[Frama-C]]
 -	[🔓](https://doi.org/10.1007/978-3-319-89963-3_27) InterpChecker: Reducing State Space via Interpolations - (Competition Contribution)
 	[Zhao Duan](https://dblp.org/pid/95/3691.html), [Cong Tian](https://dblp.org/pid/00/5365.html), [Zhenhua Duan](https://dblp.org/pid/39/6857.html), [C.-H. Luke Ong](https://dblp.org/pid/o/CHLukeOng.html):
-	✅ Presents [[InterpChecker]]
+	✅ Presents [InterpChecker](../Tools/InterpChecker.md)
 -	[🔓](https://doi.org/10.1007/978-3-319-89963-3_28) Map2Check Using LLVM and KLEE - (Competition Contribution)
 	[Rafael Menezes](https://dblp.org/pid/217/4869.html), [Herbert Rocha](https://dblp.org/pid/116/5376.html), [Lucas C. Cordeiro](https://dblp.org/pid/42/4311.html), [Raimundo S. Barreto](https://dblp.org/pid/04/562.html):
 	✅ Extends [[Map2Check]]

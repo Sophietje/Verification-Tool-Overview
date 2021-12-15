@@ -44,7 +44,7 @@
 	✅ Expands [[SPF]]
 -	[🔓](https://doi.org/10.1007/978-3-030-45237-7_28) JDart: Dynamic Symbolic Execution for Java Bytecode (Competition Contribution)
 	[Malte Mues](https://dblp.org/pid/193/3337.html), [Falk Howar](https://dblp.org/pid/12/8669.html):
-	✅ Presents [[JDart]]
+	✅ Presents [JDart](../Tools/JDart.md)
 	✅ Expands [JPF](JPF.md)
 	✅ Expands [[JConstraints]]
 -	[🔓](https://doi.org/10.1007/978-3-030-45237-7_29) Map2Check: Using Symbolic Execution and Fuzzing - (Competition Contribution)

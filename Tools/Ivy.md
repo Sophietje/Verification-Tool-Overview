@@ -33,6 +33,7 @@ Some things it can do:
 Uses [ABC](Frameworks/ABC.md), [Z3](Solvers/SMT/Z3.md).
 
 #### Comments:
+License: MIT
 
 #### URIs (github, websites, etc.):
 Project page: https://microsoft.github.io/ivy/
@@ -40,7 +41,7 @@ Repository (linked on project page): https://github.com/kenmcmil/ivy
 Old repository (the original, now archived repository, links to the repository above as the new one): https://github.com/microsoft/ivy
 
 #### Last commit date:
-28 May 2021
+10 December 2021
 
 #### Last publication date:
 14 July 2020
