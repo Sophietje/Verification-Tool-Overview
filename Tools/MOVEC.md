@@ -3,6 +3,7 @@ MOVEC: MOnitoring, VErification and Control
 
 #### Application domain/field:
 Runtime verification
+Aspect-oriented Programming (AOP)
 
 #### Type of tool (e.g. model checker, test generator):
 source to source transformer/compiler based on aspect weaving
@@ -20,19 +21,22 @@ instrumented header + source files
 aspect oriented programming, aspect weaving
 
 #### Comments:
+-
 
 #### URIs (github, websites, etc.):
-https://drzchen.github.io/projects/movec/
-https://github.com/drzchen/movec
+Project page: https://drzchen.github.io/projects/movec/
+Repository: https://github.com/drzchen/movec
 
 #### Last commit date:
-8 July 2021
+10 December 2021
 
 #### Last publication date:
-July 2021 (ISSTA)
+11 July 2021
 
 #### List of related papers:
-
+https://doi.org/10.1145/3460319.3464807 (ISSTA '21)
+https://doi.org/10.1145/3293882.3330581 (ISSTA '19)
+https://doi.org/10.1007/978-3-662-49674-9_17 (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[AspectJ]]

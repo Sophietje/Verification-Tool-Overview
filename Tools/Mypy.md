@@ -1,1 +1,0 @@
-Type checker for Python

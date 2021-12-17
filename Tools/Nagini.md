@@ -24,7 +24,7 @@ Automated verifier for statically-typed, concurrent Python 3 programs. The Pytho
 
 "Nagini can verify memory safety, functional properties, termination, deadlock freedom, and input/output behavior."
 
-Uses [Viper](Frameworks/Viper.md), [Mypy](Mypy.md), [Boogie](Frameworks/Boogie.md)
+Uses [Viper](Frameworks/Viper.md), [[mypy]], [Boogie](Frameworks/Boogie.md)
 
 #### Comments:
 -
