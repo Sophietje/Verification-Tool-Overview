@@ -41,7 +41,7 @@
 	✅ Presents [FACT](../Tools/FACT.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_33) PrDK: Protocol Programming with Automata. 547-552
 	[Sung-Shik T. Q. Jongmans](https://dblp.org/pid/91/8340.html), [Farhad Arbab](https://dblp.org/pid/25/3518.html):
-	✅ Presents [PrDK](../Tools/PrDK.md)
+	✅ Presents [PrDK](../Tools/Not-verifiers/PrDK.md)
 -	[🔓](https://doi.org/10.1007/978-3-662-49674-9_34) DLC: Compiling a Concurrent System Formal Specification to a Distributed Implementation. 553-559
 	[Hugues Evrard](https://dblp.org/pid/130/3643.html):
 	✅ Presents [DLC](../Tools/DLC.md)

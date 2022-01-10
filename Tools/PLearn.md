@@ -28,7 +28,7 @@ The idea behind the tool is that SyGuS tools are sensitive to the choice of gram
 -
 
 #### URIs (github, websites, etc.):
--
+Artifact of CAV '19 paper: https://github.com/SaswatPadhi/2019_CAV_Artifact_100
 
 #### Last commit date:
 -
@@ -37,6 +37,6 @@ The idea behind the tool is that SyGuS tools are sensitive to the choice of gram
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_17
+https://doi.org/10.1007/978-3-030-25540-4_17 (CAV '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
