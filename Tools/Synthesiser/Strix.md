@@ -17,7 +17,7 @@ LTL synthesis tool
 LTL formula(s)
 
 #### Expected input format:
-[Owl](../Owl.md) format (https://gitlab.lrz.de/i7/owl/blob/master/doc/FORMATS.md)
+[Owl](../Libraries/Owl.md) format (https://gitlab.lrz.de/i7/owl/blob/master/doc/FORMATS.md)
 
 #### Expected output:
 `REALIZABLE` or `UNREALIZABLE`.
