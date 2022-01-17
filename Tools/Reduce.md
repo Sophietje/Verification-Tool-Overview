@@ -23,7 +23,7 @@ Minimized automaton?
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Reduce can be invoked with *one* of the following options:
 - `-light`  to use the Light-k method
-- `-nojump`to use the Heavy-k method
+- `-nojump` to use the Heavy-k method
 - `-pebble` uses a 2-pebble simulation (tends to be slow in practice)
 - `-sat` might create an automaton with fewer states, possibly with more transitions
 

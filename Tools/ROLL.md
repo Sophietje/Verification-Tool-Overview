@@ -1,1 +1,0 @@
-ROLL 1.0 is an 𝜔-regular language learning library with command line tools to learn and complement Büchi automata

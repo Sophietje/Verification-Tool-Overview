@@ -22,7 +22,7 @@ More detail about the input format is available in the README of the repository.
 Number of Minimal Unsatisfiable Subsets (MUSes) of F.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[GANAK]], [RIME](RIME.md) and [UWrMaxSat](Solvers/UWrMaxSat.md).
+Uses [[GANAK]], [[RIME]] and [UWrMaxSat](Solvers/UWrMaxSat.md).
 
 #### Comments:
 -
