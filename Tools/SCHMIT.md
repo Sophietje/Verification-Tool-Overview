@@ -35,13 +35,13 @@ Uses [Gurobi](Solvers/Gurobi.md), [[Javassist]], [[Scipy]]
 Repository: https://github.com/cuplv/Schmit
 
 #### Last commit date:
-9 July 2019
+12 November 2021
 
 #### Last publication date:
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_8
+https://doi.org/10.1007/978-3-030-25540-4_8 (CAV '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

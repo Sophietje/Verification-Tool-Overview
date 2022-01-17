@@ -32,7 +32,7 @@ Uses [Z3](Solvers/SMT/Z3.md).
 -
 
 #### URIs (github, websites, etc.):
-Authors webpage with link to the VM and source code: https://faculty.sist.shanghaitech.edu.cn/faculty/songfu/
+Author's webpage with link to the VM and source code: https://faculty.sist.shanghaitech.edu.cn/faculty/songfu/
 
 #### Last commit date:
 ?
