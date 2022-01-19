@@ -1,6 +1,8 @@
 #!/Users/grammarware/opt/anaconda3/bin/python
 import os
 from collections import OrderedDict
+from pathlib import Path
+import proverb
 
 def cleanup(s,c):
 	return s[len(c):].strip() if s.startswith(c) else s
@@ -59,8 +61,38 @@ class Item(object):
 		self.sections = OrderedDict()
 		self.tags = []
 		self.title = ''
+		self.name = Path(name).stem
 		cx_subsections = cx_lines = 0
-		return
+		with open(name, 'r', encoding='utf-8') as file:
+			cur_section = 'General'
+			self.sections[cur_section] = []
+			for line in file.readlines():
+				line = line.strip()
+				if line.startswith('#### '):
+					cur_section = line[5:].strip()
+					if cur_section.endswith(':'):
+						cur_section = cur_section[:-1]
+					if cur_section in self.sections.keys():
+						error(f'Duplicate section titled {cur_section}')
+					self.sections[cur_section] = []
+					continue
+				self.sections[cur_section].append(line.strip())
+		for key in list(self.sections.keys()):
+			if not self.sections[key]:
+				del self.sections[key]
+		if 'Name' not in self.sections:
+			# error(f'I find the lack of name disturbing')
+			self.sections['Name'] = [self.name]
+		# info(f'{name} titled "{self.title}"; {cx_subsections} sections; {cx_lines} lines')
+		# NB: type elevation
+		# for section in self.sections.keys():
+		# 	self.sections[section] = Items(self.sections[section])
+	def dump_to(self, filename):
+		# info(f'{filename} with {self.sections.keys()} being dumped...')
+		with open(filename, 'w', encoding='utf-8') as file:
+			p = proverb.ToolPage(self.name, self.sections['Name'][0], 'TEST', 'TEST2')
+			file.write(p.dump())
+		info(f'{self.name} dumped')
 
 def traverse_dir(d, fls):
 	for filename in os.listdir(d):
@@ -87,3 +119,11 @@ def traverse_dir(d, fls):
 
 files = {}
 traverse_dir('Tools', files)
+
+full_list = []
+for f in files:
+	files[f].dump_to(os.path.join('www', f + '.html'))
+	full_list.append(f'<a href="{f}.html">{files[f].name}</a>')
+
+with open(os.path.join('www', 'index.html'), 'w', encoding='utf-8') as file:
+	file.write(proverb.IndexPage('<ul>' + '\n'.join([f'<li>{item}</li>' for item in full_list]) + '</ul>').dump())
