@@ -50,7 +50,7 @@ TEMPLATE = '''
 
 			<p>
 				<a href="index.html">Top</a><br/>
-				<a href="index.html">Tags</a><br/>
+				<a href="tags.html">Tags</a><br/>
 				<a href="index.html">Search</a><br/>
 				<br/>
 				<a href="index.html">Frameworks</a><br/>
@@ -83,19 +83,17 @@ TEMPLATE = '''
 '''
 
 # TODO
-TAGS = '''
-				<div>
-					<span class="tag"><a href="petrinets.html">Petri Nets</a></span>
-					<span class="tag"><a href="flowltl.html">Flow-LTL</a></span>
-				</div>
-'''
-
-# TODO
 EDITLINK = '''
 				<ul>
 					<li><a href="https://github.com/Sophietje/Verification-Tool-Overview/">View/edit source</a> (Markdown)</li>
 				</ul>
 '''
+
+def ahref(where, who, whatabout):
+	if whatabout:
+		return f'<a href="{where}.html" title="{whatabout}">{who}</a>'
+	else:
+		return f'<a href="{where}.html">{who}</a>'
 
 class Page(object):
 	def __init__(self, t):
@@ -109,17 +107,21 @@ class Page(object):
 		return TEMPLATE.format(title=self.title, tabs=tabber)
 
 class ToolPage(Page):
-	def __init__(self, t, ft, st, rank, c1, c2):
+	def __init__(self, t, ft, st, rank, tags, c1, c2):
 		super(ToolPage, self).__init__(t)
+		# construct the title
 		FULL_TITLE = f'<h1 class="fbs"><span class="pv"><a href="pv{rank}.html">PV{rank}</a> ⊧</span> {ft}'
 		if st:
 			FULL_TITLE += f'<span class="subtitle">{st}</span>'
 		FULL_TITLE += '</h1>'
+		# construct tag links
+		TAGS = '<div>' + '\n'.join([f'<span class="tag">{ahref(t, tags[t][0], tags[t][1])}</span>'\
+				for t in tags]) + '</div>'
 		self.tabs['Tool'] = TAGS + FULL_TITLE + c1
 		self.tabs['Meta'] = TAGS + c2 + EDITLINK
 
 class IndexPage(Page):
-	def __init__(self, lst):
+	def __init__(self, cat, lst):
 		super(IndexPage, self).__init__('Index')
-		FULL_TITLE = '<h1 class="fbs">All tools in ProVerB</h1>'
+		FULL_TITLE = f'<h1 class="fbs">{cat} in ProVerB</h1>'
 		self.tabs['Index'] = FULL_TITLE + lst

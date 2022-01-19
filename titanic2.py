@@ -59,7 +59,7 @@ class Item(object):
 	def __init__(self, name):
 		super(Item, self).__init__()
 		self.sections = OrderedDict()
-		self.tags = []
+		self.tags = {}
 		self.title = ''
 		self.subtitle = ''
 		self.name = Path(name).stem
@@ -89,11 +89,18 @@ class Item(object):
 		# NB: type elevation
 		# for section in self.sections.keys():
 		# 	self.sections[section] = Items(self.sections[section])
+	def add_tag(self, key, tag, desc):
+		self.tags[key] = (tag, desc)
 	def dump_to(self, filename):
 		# info(f'{filename} with {self.sections.keys()} being dumped...')
 		with open(filename, 'w', encoding='utf-8') as file:
-			p = proverb.ToolPage(self.name, self.sections['Name'][0], self.subtitle, self.rank,\
-								'TEST', 'TEST2')
+			p = proverb.ToolPage(\
+					self.name, \
+					self.sections['Name'][0], \
+					self.subtitle, \
+					self.rank, \
+					self.tags, \
+					'TEST', 'TEST2')
 			file.write(p.dump())
 		# info(f'{self.name} dumped')
 
@@ -121,34 +128,59 @@ def traverse_dir(d, by_key, by_name):
 			warning('Not traversed ' + filename)
 			continue
 
+def make_link(where, what, why=''):
+	s = f'<a href="{where}.html">{what}</a>'
+	if why:
+		s += f' ({why})'
+	return s
+
 item_by_key = {}
 item_by_name = {}
 traverse_dir('Tools', item_by_key, item_by_name)
 
-PV = [[],[],[],[],[],[]]
-explanations = {} # overengineered?
+indices = {}
+name_by_index = {}
+
+indices['index'] = []
+name_by_index['index'] = 'All tools'
+indices['tags'] = []
+name_by_index['tags'] = 'All tags'
+
+cx = 0
 with open('facts.lst', 'r', encoding='utf-8') as file:
 	for line in file.readlines():
-		if line.find('|=') > -1:
-			name = line[line.index('|=')+2:line.index('{')].strip()
-			rank = int(line[2])
-			tmp = line.split('{')
-			xpln = tmp[1].split('}')[0].strip()
-			# expressway
-			item_by_name[name].rank = rank
-			item_by_name[name].subtitle = xpln
-			# long term overengineered storage
-			PV[rank].append(name)
-			explanations[tmp[0].strip()] = xpln
+		triple = [part.strip() for part in line.split('::')]
+		if len(triple) == 3:
+			name, tag, desc = triple
+		elif len(triple) == 2:
+			name, tag = triple
+			desc = ''
 		else:
 			warning(f'Skipped fact {line}')
-info(f'{len(explanations)} facts are known!')
+			continue
+		cx += 1
+		# deal with all kinds of tags
+		if tag.startswith('PV'):
+			rank = int(tag[2])
+			item_by_name[name].rank = rank
+			item_by_name[name].subtitle = desc
+			continue
+		tag_key = get_key(tag)
+		item_by_name[name].add_tag(tag_key, tag, desc)
+		if tag_key not in indices:
+			indices[tag_key] = []
+			name_by_index[tag_key] = tag
+			indices['tags'].append(make_link(tag_key, tag))
+		indices[tag_key].append(make_link(get_key(name), name, desc))
 
-full_list = []
+info(f'{cx} facts are known!')
+
 for f in item_by_key:
 	item_by_key[f].dump_to(os.path.join('www', f + '.html'))
-	full_list.append(f'<a href="{f}.html">{item_by_key[f].name}</a>')
+	indices['index'].append(make_link(f, item_by_key[f].name))
 
-with open(os.path.join('www', 'index.html'), 'w', encoding='utf-8') as file:
-	lst = [f'<li>{item}</li>' for item in sorted(full_list)]
-	file.write(proverb.IndexPage('<ul>' + '\n'.join(lst) + '</ul>').dump())
+for index in indices:
+	with open(os.path.join('www', index + '.html'), 'w', encoding='utf-8') as file:
+		lst = [f'<li>{item}</li>' for item in sorted(indices[index])]
+		file.write(proverb.IndexPage(name_by_index[index], '<ul>' + '\n'.join(lst) + '</ul>').dump())
+info(f'{len(indices)} indices generated!')
