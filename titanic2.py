@@ -61,7 +61,9 @@ class Item(object):
 		self.sections = OrderedDict()
 		self.tags = []
 		self.title = ''
+		self.subtitle = ''
 		self.name = Path(name).stem
+		self.rank = 0 # default, rewrite with a fact
 		cx_subsections = cx_lines = 0
 		with open(name, 'r', encoding='utf-8') as file:
 			cur_section = 'General'
@@ -90,40 +92,63 @@ class Item(object):
 	def dump_to(self, filename):
 		# info(f'{filename} with {self.sections.keys()} being dumped...')
 		with open(filename, 'w', encoding='utf-8') as file:
-			p = proverb.ToolPage(self.name, self.sections['Name'][0], 'TEST', 'TEST2')
+			p = proverb.ToolPage(self.name, self.sections['Name'][0], self.subtitle, self.rank,\
+								'TEST', 'TEST2')
 			file.write(p.dump())
-		info(f'{self.name} dumped')
+		# info(f'{self.name} dumped')
 
-def traverse_dir(d, fls):
+def traverse_dir(d, by_key, by_name):
 	for filename in os.listdir(d):
 		if filename.startswith('README') or filename.startswith('.DS_Store'):
 			continue
 		if filename.endswith(".md"):
 			key = get_key(filename)
-			if key in fls.keys():
+			if key in by_key.keys():
 				# NB: only works with duplicates, but not with 'triplicates' etc
-				fls[key + '1'] = fls[key]
-				del fls[key]
+				by_key[key + '1'] = by_key[key]
+				del by_key[key]
 				key = key + '2'
 				error(f'Key {key} forked')
-			fls[key] = Item(os.path.join(d, filename))
+			by_key[key] = Item(os.path.join(d, filename))
+			by_name[by_key[key].name] = by_key[key]
 			info(f'Processed {key} from {filename}')
 			continue
 		elif os.path.isdir(os.path.join(d, filename)):
-			warning(f'^-_ Descend into {filename}')
-			traverse_dir(os.path.join(d, filename), fls)
-			warning(f'_-^ Back from {filename}')
+			warning(f'--> Descend into {filename}')
+			traverse_dir(os.path.join(d, filename), by_key, by_name)
+			warning(f'<-- Back from {filename}')
 		else:
 			warning('Not traversed ' + filename)
 			continue
 
-files = {}
-traverse_dir('Tools', files)
+item_by_key = {}
+item_by_name = {}
+traverse_dir('Tools', item_by_key, item_by_name)
+
+PV = [[],[],[],[],[],[]]
+explanations = {} # overengineered?
+with open('facts.lst', 'r', encoding='utf-8') as file:
+	for line in file.readlines():
+		if line.find('|=') > -1:
+			name = line[line.index('|=')+2:line.index('{')].strip()
+			rank = int(line[2])
+			tmp = line.split('{')
+			xpln = tmp[1].split('}')[0].strip()
+			# expressway
+			item_by_name[name].rank = rank
+			item_by_name[name].subtitle = xpln
+			# long term overengineered storage
+			PV[rank].append(name)
+			explanations[tmp[0].strip()] = xpln
+		else:
+			warning(f'Skipped fact {line}')
+info(f'{len(explanations)} facts are known!')
 
 full_list = []
-for f in files:
-	files[f].dump_to(os.path.join('www', f + '.html'))
-	full_list.append(f'<a href="{f}.html">{files[f].name}</a>')
+for f in item_by_key:
+	item_by_key[f].dump_to(os.path.join('www', f + '.html'))
+	full_list.append(f'<a href="{f}.html">{item_by_key[f].name}</a>')
 
 with open(os.path.join('www', 'index.html'), 'w', encoding='utf-8') as file:
-	file.write(proverb.IndexPage('<ul>' + '\n'.join([f'<li>{item}</li>' for item in full_list]) + '</ul>').dump())
+	lst = [f'<li>{item}</li>' for item in sorted(full_list)]
+	file.write(proverb.IndexPage('<ul>' + '\n'.join(lst) + '</ul>').dump())

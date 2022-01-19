@@ -91,13 +91,6 @@ TAGS = '''
 '''
 
 # TODO
-FULL_TITLE = '''<h1 class="fbs">
-						<span class="pv"><a href="pv2.html">PV2</a> ⊧</span>
-						{full_title}
-					<span class="subtitle">verifies user-specified properties of Petri nets</span>
-					</h1>'''
-
-# TODO
 EDITLINK = '''
 				<ul>
 					<li><a href="https://github.com/Sophietje/Verification-Tool-Overview/">View/edit source</a> (Markdown)</li>
@@ -116,12 +109,17 @@ class Page(object):
 		return TEMPLATE.format(title=self.title, tabs=tabber)
 
 class ToolPage(Page):
-	def __init__(self, t, ft, c1, c2):
+	def __init__(self, t, ft, st, rank, c1, c2):
 		super(ToolPage, self).__init__(t)
-		self.tabs['Tool'] = TAGS + FULL_TITLE.format(full_title=ft) + c1
+		FULL_TITLE = f'<h1 class="fbs"><span class="pv"><a href="pv{rank}.html">PV{rank}</a> ⊧</span> {ft}'
+		if st:
+			FULL_TITLE += f'<span class="subtitle">{st}</span>'
+		FULL_TITLE += '</h1>'
+		self.tabs['Tool'] = TAGS + FULL_TITLE + c1
 		self.tabs['Meta'] = TAGS + c2 + EDITLINK
 
 class IndexPage(Page):
 	def __init__(self, lst):
 		super(IndexPage, self).__init__('Index')
-		self.tabs['Index'] = FULL_TITLE.format(full_title='All tools in ProVerB') + lst
+		FULL_TITLE = '<h1 class="fbs">All tools in ProVerB</h1>'
+		self.tabs['Index'] = FULL_TITLE + lst
