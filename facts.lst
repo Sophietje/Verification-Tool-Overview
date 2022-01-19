@@ -1,1 +1,3 @@
-PV2 |= AdamMC {verifies user-specified properties of Petri nets}
+AdamMC :: PV2  :: verifies user-specified properties of Petri nets
+AdamMC :: Petri Nets :: also software-defined networks
+AdamMC :: Flow-LTL

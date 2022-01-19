@@ -50,7 +50,7 @@ def get_key(fn):
 	fn = fn.lower()
 	for c in ' _-':
 		fn = fn.replace(c, '')
-	for p in {'τ':'tau', 'é':'e', '+':'plus', '*':'star'}.items():
+	for p in {'τ':'tau', 'µ':'mu', 'é':'e', '+':'plus', '*':'star'}.items():
 		fn = fn.replace(p[0], p[1])
 	fn = fn.replace('τ', 'tau').replace('é', 'e')
 	return fn
@@ -145,6 +145,9 @@ indices['index'] = []
 name_by_index['index'] = 'All tools'
 indices['tags'] = []
 name_by_index['tags'] = 'All tags'
+for i in range(0,6):
+	indices[f'pv{i}'] = []
+	name_by_index[f'pv{i}'] = f'PV{i} tools'
 
 cx = 0
 with open('facts.lst', 'r', encoding='utf-8') as file:
@@ -164,6 +167,7 @@ with open('facts.lst', 'r', encoding='utf-8') as file:
 			rank = int(tag[2])
 			item_by_name[name].rank = rank
 			item_by_name[name].subtitle = desc
+			indices[tag.lower()].append(make_link(get_key(name), name, desc))
 			continue
 		tag_key = get_key(tag)
 		item_by_name[name].add_tag(tag_key, tag, desc)
