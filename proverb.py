@@ -1,6 +1,7 @@
 #!/Users/grammarware/opt/anaconda3/bin/python
 
 from collections import OrderedDict
+from hyper import *
 
 TEMPLATE = '''
 <?xml version="1.0" encoding="UTF-8"?>
@@ -89,12 +90,6 @@ EDITLINK = '''
 				</ul>
 '''
 
-def ahref(where, who, whatabout):
-	if whatabout:
-		return f'<a href="{where}.html" title="{whatabout}">{who}</a>'
-	else:
-		return f'<a href="{where}.html">{who}</a>'
-
 class Page(object):
 	def __init__(self, t):
 		super(Page, self).__init__()
@@ -115,7 +110,7 @@ class ToolPage(Page):
 			FULL_TITLE += f'<span class="subtitle">{st}</span>'
 		FULL_TITLE += '</h1>'
 		# construct tag links
-		TAGS = '<div>' + '\n'.join([f'<span class="tag">{ahref(t, tags[t][0], tags[t][1])}</span>'\
+		TAGS = '<div>' + '\n'.join([f'<span class="tag">{make_link(t, tags[t][0], hover=tags[t][1])}</span>'\
 				for t in tags]) + '</div>'
 		self.tabs['Tool'] = TAGS + FULL_TITLE + c1
 		self.tabs['Meta'] = TAGS + c2 + EDITLINK

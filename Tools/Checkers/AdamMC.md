@@ -10,6 +10,7 @@ Model checker
 
 #### Expected input thing:
 One of the following three options:
+
 1. Software-defined network (up to 82 switches) and a Flow-LTL formula
 2. Petri net with transits and a Flow-LTL formula
 3. Petri net and a LTL formula
@@ -24,14 +25,12 @@ SAT or UNSAT
 If it is UNSAT, then a counterexample is visualized with DOT/Graphviz
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Model checker for Petri nets with transits against Flow-LTL
-Transit relations are used to follow the flow induced by tokens.
-Flow-LTL is a temporal logic to specify local flow of data and global behavior or markings.
-
-Note that it can be used to visualize Petri nets with transits (in DOT or pdf file), or a software-defined network (converted to a Petri net with transits, also in DOT or pdf file).
-
-Uses [ABC](../Frameworks/ABC.md), [MCHyper](MCHyper.md), [[Aigertools]]
-Based on [Adam](../Frameworks/Adam.md)
+- Model checker for Petri nets with transits against Flow-LTL
+- Transit relations are used to follow the flow induced by tokens.
+- Flow-LTL is a temporal logic to specify local flow of data and global behavior or markings.
+- Note that it can be used to visualize Petri nets with transits (in DOT or pdf file), or a software-defined network (converted to a Petri net with transits, also in DOT or pdf file).
+- Uses [ABC](../Frameworks/ABC.md), [MCHyper](MCHyper.md), [[Aigertools]]
+- Based on [Adam](../Frameworks/Adam.md)
 
 #### Comments:
 

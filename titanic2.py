@@ -3,38 +3,14 @@ import os
 from collections import OrderedDict
 from pathlib import Path
 import proverb
-import markdown2
+from hyper import *
 
-def clickable(http):
-	if http.find('http') > -1:
-		before = http[:http.index('http')]
-		after = http[http.index('http'):]
-		link = after.split(' ')[0]
-		rest = after[len(link):].strip()
-		if rest.startswith('(') and rest.endswith(')'):
-			rest = rest[1:-1]
-		return before + make_link(link, f'<code>{link}</code>', rest)
-	else:
-		return http
-
-def h3(x):
-	return f'<h3>{x}</h3>'
-
-def li(x):
-	return f'<li>{clickable(x)}</li>'
-
-def ul(items):
-	if not items:
-		return ''
-	cuis = [i.strip() for i in items if i]
-	if len(cuis) == 1:
-		return clickable(cuis[0])
-	if all([i.startswith('- ') for i in cuis]):
-		cuis = [i[1:].strip() for i in cuis]
-	return '<ul>' + '\n'.join([li(i) for i in cuis]) + '</ul>'
-
-def md2html(md_lines):
-	return markdown2.markdown('\n'.join(md_lines))
+def check_for(sections, section_name):
+	return section_name in sections \
+		and len(sections[section_name]) > 0 \
+		and sections[section_name][0]!='?' \
+		and sections[section_name][0]!='-' \
+		and sections[section_name][0]!=''
 
 SECTION_GEN = 'General'
 SECTION_ADF = 'Application domain/field'
@@ -83,13 +59,6 @@ def markdown_to_html1(sections):
 		lines.append(md2html(sections[SECTION_COM]))
 	return '\n'.join(lines)
 
-def check_for(sections, section_name):
-	return section_name in sections \
-		and len(sections[section_name]) > 0 \
-		and sections[section_name][0]!='?' \
-		and sections[section_name][0]!='-' \
-		and sections[section_name][0]!=''
-
 def markdown_to_html2(sections):
 	lines = []
 	if check_for(sections, SECTION_URI):
@@ -109,22 +78,6 @@ def markdown_to_html2(sections):
 		lines.append(ul(sections[SECTION_RTT]))
 	lines.append(h3('ProVerB specific'))
 	return '\n'.join(lines)
-
-STD_SECTIONS = (\
-	'Name', \
-	'Application domain/field', \
-	'Type of tool (e.g. model checker, test generator)', \
-	'Expected input thing', \
-	'Expected input format', \
-	'Expected output', \
-	'Internals (tools used, frameworks, techniques, paradigms, ...)', \
-	'Comments', \
-	'URIs (github, websites, etc.)', \
-	'Last commit date', \
-	'Last publication date', \
-	'List of related papers', \
-	'Related tools (tools mentioned or compared to in the paper):', \
-	)
 
 def cleanup(s,c):
 	return s[len(c):].strip() if s.startswith(c) else s
@@ -207,25 +160,11 @@ class Item(object):
 		if 'Name' not in self.sections:
 			# error(f'I find the lack of name disturbing')
 			self.sections['Name'] = [self.name]
-		# info(f'{name} titled "{self.title}"; {cx_subsections} sections; {cx_lines} lines')
-		# NB: type elevation
-		# for section in self.sections.keys():
-		# 	self.sections[section] = Items(self.sections[section])
 	def add_tag(self, key, tag, desc):
 		self.tags[key] = (tag, desc)
 	def dump_to(self, filename):
 		# info(f'{filename} with {self.sections.keys()} being dumped...')
 		with open(filename, 'w', encoding='utf-8') as file:
-			main_text = ''
-			for s in STD_SECTIONS:
-				if s not in self.sections:
-					# warning(f'Lacking section {s}')
-					continue
-				main_text += f'<h3>{s}</h3>' + '\n'.join(self.sections[s])
-			for s in self.sections:
-				if s in STD_SECTIONS:
-					continue
-				main_text += f'<h3>ALSO: {s}</h3>' + '\n'.join(self.sections[s])
 			p = proverb.ToolPage(\
 					self.name, \
 					self.sections['Name'][0], \
@@ -261,12 +200,6 @@ def traverse_dir(d, by_key, by_name):
 			warning('Not traversed ' + filename)
 			continue
 
-def make_link(where, what, why=''):
-	s = f'<a href="{where}.html">{what}</a>'
-	if why:
-		s += f' ({why})'
-	return s
-
 item_by_key = {}
 item_by_name = {}
 traverse_dir('Tools', item_by_key, item_by_name)
@@ -300,7 +233,7 @@ with open('facts.lst', 'r', encoding='utf-8') as file:
 			rank = int(tag[2])
 			item_by_name[name].rank = rank
 			item_by_name[name].subtitle = desc
-			indices[tag.lower()].append(make_link(get_key(name), name, desc))
+			indices[tag.lower()].append(make_link(get_key(name), name, why=desc))
 			continue
 		tag_key = get_key(tag)
 		item_by_name[name].add_tag(tag_key, tag, desc)
@@ -308,7 +241,7 @@ with open('facts.lst', 'r', encoding='utf-8') as file:
 			indices[tag_key] = []
 			name_by_index[tag_key] = tag
 			indices['tags'].append(make_link(tag_key, tag))
-		indices[tag_key].append(make_link(get_key(name), name, desc))
+		indices[tag_key].append(make_link(get_key(name), name, why=desc))
 
 info(f'{cx} facts are known!')
 
