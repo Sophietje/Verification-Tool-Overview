@@ -29,6 +29,8 @@ def ul(items):
 	cuis = [i.strip() for i in items if i]
 	if len(cuis) == 1:
 		return clickable(cuis[0])
+	if all([i.startswith('- ') for i in cuis]):
+		cuis = [i[1:].strip() for i in cuis]
 	return '<ul>' + '\n'.join([li(i) for i in cuis]) + '</ul>'
 
 def md2html(md_lines):
@@ -54,48 +56,55 @@ SECTION_RTT = 'Related tools (tools mentioned or compared to in the paper)'
 SECTION_RT_ = 'Related tools'
 def markdown_to_html1(sections):
 	lines = []
-	if SECTION_GEN in sections:
+	if check_for(sections, SECTION_GEN):
 		# usually the only one, for unfilled templates
 		lines.append(ul(sections[SECTION_GEN]))
-	if SECTION_ADF in sections:
+	if check_for(sections, SECTION_ADF):
 		lines.append(h3(SECTION_ADF))
 		lines.append(ul(sections[SECTION_ADF]))
-	if SECTION_TOT in sections:
+	if check_for(sections, SECTION_TOT):
 		lines.append(h3(SECTION_TOT_))
 		lines.append(ul(sections[SECTION_TOT]))
-	if SECTION_EIT in sections or SECTION_EIF in sections:
+	if check_for(sections, SECTION_EIT) or check_for(sections, SECTION_EIF):
 		lines.append(h3(SECTION_EI_))
-		if SECTION_EIT in sections:
+		if check_for(sections, SECTION_EIT):
 			lines.append(md2html(sections[SECTION_EIT]))
-		if SECTION_EIF in sections:
+		if check_for(sections, SECTION_EIF):
 			lines.append('Format:')
 			lines.append(md2html(sections[SECTION_EIF]))
-	if SECTION_EO_ in sections:
+	if check_for(sections, SECTION_EO_):
 		lines.append(h3(SECTION_EO_))
 		lines.append(ul(sections[SECTION_EO_]))
-	if SECTION_ITU in sections:
+	if check_for(sections, SECTION_ITU):
 		lines.append(h3(SECTION_I__))
 		lines.append(md2html(sections[SECTION_ITU]))
-	if SECTION_COM in sections and len(sections[SECTION_COM]) > 0 and sections[SECTION_COM][0]!='-':
+	if check_for(sections, SECTION_COM):
 		lines.append(h3(SECTION_COM))
 		lines.append(md2html(sections[SECTION_COM]))
 	return '\n'.join(lines)
 
+def check_for(sections, section_name):
+	return section_name in sections \
+		and len(sections[section_name]) > 0 \
+		and sections[section_name][0]!='?' \
+		and sections[section_name][0]!='-' \
+		and sections[section_name][0]!=''
+
 def markdown_to_html2(sections):
 	lines = []
-	if SECTION_URI in sections:
+	if check_for(sections, SECTION_URI):
 		lines.append(h3(SECTION_URI_))
 		lines.append(ul(sections[SECTION_URI]))
-	if SECTION_LCD in sections:
+	if check_for(sections, SECTION_LCD):
 		lines.append(h3(SECTION_LCD))
 		lines.append(ul(sections[SECTION_LCD]))
-	if SECTION_LPD in sections:
+	if check_for(sections, SECTION_LPD):
 		lines.append(h3(SECTION_LPD))
 		lines.append(ul(sections[SECTION_LPD]))
-	if SECTION_LRP in sections:
+	if check_for(sections, SECTION_LRP):
 		lines.append(h3(SECTION_LRP))
 		lines.append(ul(sections[SECTION_LRP]))
-	if SECTION_RTT in sections:
+	if check_for(sections, SECTION_RTT):
 		lines.append(h3(SECTION_RT_))
 		lines.append(ul(sections[SECTION_RTT]))
 	lines.append(h3('ProVerB specific'))
