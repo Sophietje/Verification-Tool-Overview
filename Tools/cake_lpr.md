@@ -19,9 +19,6 @@ SAT? or VERIFIED UNSAT or resource exhaustion error
 Built on top of [[CakeML]]; [HOL](Provers/HOL.md)4
 The same paper has a tool to convert PR to LPR
 
-#### Comments:
--
-
 #### URIs (github, websites, etc.):
 Repository: https://github.com/tanyongkiam/cake_lpr
 
