@@ -3,6 +3,119 @@ import os
 from collections import OrderedDict
 from pathlib import Path
 import proverb
+import markdown2
+
+def clickable(http):
+	if http.find('http') > -1:
+		before = http[:http.index('http')]
+		after = http[http.index('http'):]
+		link = after.split(' ')[0]
+		rest = after[len(link):].strip()
+		if rest.startswith('(') and rest.endswith(')'):
+			rest = rest[1:-1]
+		return before + make_link(link, f'<code>{link}</code>', rest)
+	else:
+		return http
+
+def h3(x):
+	return f'<h3>{x}</h3>'
+
+def li(x):
+	return f'<li>{clickable(x)}</li>'
+
+def ul(items):
+	if not items:
+		return ''
+	cuis = [i.strip() for i in items if i]
+	if len(cuis) == 1:
+		return clickable(cuis[0])
+	return '<ul>' + '\n'.join([li(i) for i in cuis]) + '</ul>'
+
+def md2html(md_lines):
+	return markdown2.markdown('\n'.join(md_lines))
+
+SECTION_GEN = 'General'
+SECTION_ADF = 'Application domain/field'
+SECTION_TOT = 'Type of tool (e.g. model checker, test generator)'
+SECTION_TOT_= 'Type of tool'
+SECTION_EIT = 'Expected input thing'
+SECTION_EIF = 'Expected input format'
+SECTION_EI_ = 'Expected input'
+SECTION_EO_ = 'Expected output'
+SECTION_ITU = 'Internals (tools used, frameworks, techniques, paradigms, ...)'
+SECTION_I__ = 'Internals'
+SECTION_COM = 'Comments'
+SECTION_URI = 'URIs (github, websites, etc.)'
+SECTION_URI_= 'Links'
+SECTION_LCD = 'Last commit date'
+SECTION_LPD = 'Last publication date'
+SECTION_LRP = 'List of related papers'
+SECTION_RTT = 'Related tools (tools mentioned or compared to in the paper)'
+SECTION_RT_ = 'Related tools'
+def markdown_to_html1(sections):
+	lines = []
+	if SECTION_GEN in sections:
+		# usually the only one, for unfilled templates
+		lines.append(ul(sections[SECTION_GEN]))
+	if SECTION_ADF in sections:
+		lines.append(h3(SECTION_ADF))
+		lines.append(ul(sections[SECTION_ADF]))
+	if SECTION_TOT in sections:
+		lines.append(h3(SECTION_TOT_))
+		lines.append(ul(sections[SECTION_TOT]))
+	if SECTION_EIT in sections or SECTION_EIF in sections:
+		lines.append(h3(SECTION_EI_))
+		if SECTION_EIT in sections:
+			lines.append(md2html(sections[SECTION_EIT]))
+		if SECTION_EIF in sections:
+			lines.append('Format:')
+			lines.append(md2html(sections[SECTION_EIF]))
+	if SECTION_EO_ in sections:
+		lines.append(h3(SECTION_EO_))
+		lines.append(ul(sections[SECTION_EO_]))
+	if SECTION_ITU in sections:
+		lines.append(h3(SECTION_I__))
+		lines.append(md2html(sections[SECTION_ITU]))
+	if SECTION_COM in sections and len(sections[SECTION_COM]) > 0 and sections[SECTION_COM][0]!='-':
+		lines.append(h3(SECTION_COM))
+		lines.append(md2html(sections[SECTION_COM]))
+	return '\n'.join(lines)
+
+def markdown_to_html2(sections):
+	lines = []
+	if SECTION_URI in sections:
+		lines.append(h3(SECTION_URI_))
+		lines.append(ul(sections[SECTION_URI]))
+	if SECTION_LCD in sections:
+		lines.append(h3(SECTION_LCD))
+		lines.append(ul(sections[SECTION_LCD]))
+	if SECTION_LPD in sections:
+		lines.append(h3(SECTION_LPD))
+		lines.append(ul(sections[SECTION_LPD]))
+	if SECTION_LRP in sections:
+		lines.append(h3(SECTION_LRP))
+		lines.append(ul(sections[SECTION_LRP]))
+	if SECTION_RTT in sections:
+		lines.append(h3(SECTION_RT_))
+		lines.append(ul(sections[SECTION_RTT]))
+	lines.append(h3('ProVerB specific'))
+	return '\n'.join(lines)
+
+STD_SECTIONS = (\
+	'Name', \
+	'Application domain/field', \
+	'Type of tool (e.g. model checker, test generator)', \
+	'Expected input thing', \
+	'Expected input format', \
+	'Expected output', \
+	'Internals (tools used, frameworks, techniques, paradigms, ...)', \
+	'Comments', \
+	'URIs (github, websites, etc.)', \
+	'Last commit date', \
+	'Last publication date', \
+	'List of related papers', \
+	'Related tools (tools mentioned or compared to in the paper):', \
+	)
 
 def cleanup(s,c):
 	return s[len(c):].strip() if s.startswith(c) else s
@@ -66,7 +179,7 @@ class Item(object):
 		self.rank = 0 # default, rewrite with a fact
 		cx_subsections = cx_lines = 0
 		with open(name, 'r', encoding='utf-8') as file:
-			cur_section = 'General'
+			cur_section = SECTION_GEN
 			self.sections[cur_section] = []
 			for line in file.readlines():
 				line = line.strip()
@@ -94,13 +207,24 @@ class Item(object):
 	def dump_to(self, filename):
 		# info(f'{filename} with {self.sections.keys()} being dumped...')
 		with open(filename, 'w', encoding='utf-8') as file:
+			main_text = ''
+			for s in STD_SECTIONS:
+				if s not in self.sections:
+					# warning(f'Lacking section {s}')
+					continue
+				main_text += f'<h3>{s}</h3>' + '\n'.join(self.sections[s])
+			for s in self.sections:
+				if s in STD_SECTIONS:
+					continue
+				main_text += f'<h3>ALSO: {s}</h3>' + '\n'.join(self.sections[s])
 			p = proverb.ToolPage(\
 					self.name, \
 					self.sections['Name'][0], \
 					self.subtitle, \
 					self.rank, \
 					self.tags, \
-					'TEST', 'TEST2')
+					markdown_to_html1(self.sections), \
+					markdown_to_html2(self.sections))
 			file.write(p.dump())
 		# info(f'{self.name} dumped')
 
