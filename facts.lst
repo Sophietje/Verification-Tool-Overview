@@ -60,5 +60,7 @@ TAPAAL       :: Petri Nets
 TAPAAL       :: PV2           :: performs queries on Petri nets
 UPPAAL       :: Framework
 Valgrind     :: Framework
+VeriAbs      :: C
+VeriAbs      :: PV1           :: performs several predefined analyses on C programs to make them compatible with a bounded model checker
 Viper        :: Framework
 Why3         :: Framework
