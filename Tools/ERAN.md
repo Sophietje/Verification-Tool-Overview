@@ -24,7 +24,7 @@ Safety properties
 Depends on the analysis that is run.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
--
+- Has its own [ERAN language](../Formats/ERAN%20language.md)
 
 #### Comments:
 License: Apache-2.0
