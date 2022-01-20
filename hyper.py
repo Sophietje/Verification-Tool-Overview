@@ -35,9 +35,9 @@ def md2html(md_lines):
 
 def make_link(where, what, hover='', why=''):
 	if hover:
-		s = f'<a href="{where}.html" title="{hover}">{what}</a>'
+		s = f'<a href="{where}" title="{hover}">{what}</a>'
 	else:
-		s = f'<a href="{where}.html">{what}</a>'
+		s = f'<a href="{where}">{what}</a>'
 	if why:
 		s += f' ({why})'
 	return s

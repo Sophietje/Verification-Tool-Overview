@@ -233,21 +233,23 @@ with open('facts.lst', 'r', encoding='utf-8') as file:
 			rank = int(tag[2])
 			item_by_name[name].rank = rank
 			item_by_name[name].subtitle = desc
-			indices[tag.lower()].append(make_link(get_key(name), name, why=desc))
+			indices[tag.lower()].append(make_link(get_key(name)+'.html', name, why=desc))
 			continue
 		tag_key = get_key(tag)
 		item_by_name[name].add_tag(tag_key, tag, desc)
 		if tag_key not in indices:
 			indices[tag_key] = []
 			name_by_index[tag_key] = tag
-			indices['tags'].append(make_link(tag_key, tag))
-		indices[tag_key].append(make_link(get_key(name), name, why=desc))
+			indices['tags'].append(make_link(tag_key+'.html', tag))
+		indices[tag_key].append(make_link(get_key(name)+'.html', name, why=desc))
 
 info(f'{cx} facts are known!')
 
 for f in item_by_key:
 	item_by_key[f].dump_to(os.path.join('www', f + '.html'))
-	indices['index'].append(make_link(f, item_by_key[f].name))
+	indices['index'].append(make_link(f+'.html', item_by_key[f].name))
+	if item_by_key[f].rank == 0:
+		indices['pv0'].append(make_link(f+'.html', item_by_key[f].name))
 
 for index in indices:
 	with open(os.path.join('www', index + '.html'), 'w', encoding='utf-8') as file:

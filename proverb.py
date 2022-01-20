@@ -35,12 +35,12 @@ TEMPLATE = '''
 		<div class="top">
 			<div class="pvs">
 				<h1>
-					<span class="tag"><a href="pv0.html">PV0</a></span>
-					<span class="tag"><a href="pv1.html">PV1</a></span>
-					<span class="tag"><a href="pv2.html">PV2</a></span>
-					<span class="tag"><a href="pv3.html">PV3</a></span>
-					<span class="tag"><a href="pv4.html">PV4</a></span>
-					<span class="tag"><a href="pv5.html">PV5</a></span>
+					<span class="tag"><a href="pv0.html" title="unprocessed">PV0</a></span>
+					<span class="tag"><a href="pv1.html" title="solvers/linters">PV1</a></span>
+					<span class="tag"><a href="pv2.html" title="property checkers">PV2</a></span>
+					<span class="tag"><a href="pv3.html" title="monoverifiers">PV3</a></span>
+					<span class="tag"><a href="pv4.html" title="spec compilers">PV4</a></span>
+					<span class="tag"><a href="pv5.html" title="proof assistants">PV5</a></span>
 				</h1>
 			</div>
 		</div>
@@ -110,7 +110,7 @@ class ToolPage(Page):
 			FULL_TITLE += f'<span class="subtitle">{st}</span>'
 		FULL_TITLE += '</h1>'
 		# construct tag links
-		TAGS = '<div>' + '\n'.join([f'<span class="tag">{make_link(t, tags[t][0], hover=tags[t][1])}</span>'\
+		TAGS = '<div>' + '\n'.join([f'<span class="tag">{make_link(t+".html", tags[t][0], hover=tags[t][1])}</span>'\
 				for t in tags]) + '</div>'
 		self.tabs['Tool'] = TAGS + FULL_TITLE + c1
 		self.tabs['Meta'] = TAGS + c2 + EDITLINK
