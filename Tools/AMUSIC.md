@@ -10,7 +10,7 @@ Counting tool?
 #### Expected input thing:
 - Boolean formula in CNF
 - Tolerance parameter ε > 0
-- Confidence parameter δ ∈(0,1\]
+- Confidence parameter δ ∈(0,1]
 
 #### Expected input format:
 A .gcnf or .cnf file for the boolean formula.

@@ -20,12 +20,10 @@ AADL model
 Per property it indicates whether it could be verified in the GUI. If it could not be verified there the user can view a counterexample that demonstrates the failure.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Infinite-state model checker.
-Can analyze systems with real-valued variables.
-
-Translates an AADL model and the corresponding contracts into Lustre, then uses JKind for the back-end analysis.
-
-Uses [Z3](../Solvers/SMT/Z3.md), [JKind](JKind.md)
+- Infinite-state model checker.
+- Can analyse systems with real-valued variables.
+- Translates an AADL model and the corresponding contracts into Lustre, then uses JKind for the back-end analysis.
+- Uses [Z3](../Solvers/SMT/Z3.md), [JKind](JKind.md)
 
 #### Comments:
 

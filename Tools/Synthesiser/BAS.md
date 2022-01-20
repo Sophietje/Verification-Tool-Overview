@@ -10,15 +10,15 @@ Asynchronous synthesis
 Synthesis tool
 
 #### Expected input thing:
-LTL formula φ
+LTL formula $φ$
 
 #### Expected input format:
 ? (probably LTL3BA format)
 
 #### Expected output:
 - `UNREALIZABLE` if the LTL specification is synchronously unrealizable
-- `REALIZABLE` and implementation if PR(φ) (Pnueli-Rosner closure of φ) is synchronously realizable.
-- `UNREALIZABLE`  if PR(¬φ) (Pnueli-Rosner closure of ¬φ) is not synchronously realizable.
+- `REALIZABLE` and implementation if $PR(φ)$ (Pnueli-Rosner closure of $φ$) is synchronously realizable.
+- `UNREALIZABLE`  if $PR(¬φ)$ (Pnueli-Rosner closure of $¬φ$) is not synchronously realizable.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Uses [[LTL3BA]], [BoSy](BoSy.md), [[Acacia+]]

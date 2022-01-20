@@ -25,11 +25,9 @@ Model checker?? / Program analyser
 `PASS`, `FAIL` or `UNKNOWN`?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-The name seems to be derived from the fact that it takes program analysis problems expressed in second order logic. So, it reduces (an existential fragment of) 2nd order logic to quantifier elimination in first order logic.
-
-2LS can verify array bounds (buffer overflows), pointer safety, exceptions, user-specified assertions, and (non-)termination properties.
-
-There are many different options to specify the kind of analyses that you want to do. Some analyses that it supports include: bounded model checking, k-induction, non-termination analysis and function-modular termination analysis.
+- The name seems to be derived from the fact that it takes program analysis problems expressed in second order logic. So, it reduces (an existential fragment of) 2nd order logic to quantifier elimination in first order logic.
+- 2LS can verify array bounds (buffer overflows), pointer safety, exceptions, user-specified assertions, and (non-)termination properties.
+- There are many different options to specify the kind of analyses that you want to do. Some analyses that it supports include: bounded model checking, k-induction, non-termination analysis and function-modular termination analysis.
 
 #### Comments:
 -

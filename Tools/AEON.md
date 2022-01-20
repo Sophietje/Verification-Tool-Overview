@@ -1,3 +1,5 @@
+Tool to analyse bifurcations (significant change in structure and quality of attractors) in asynchronous parametrised Boolean networks
+
 #### Name:
 AEON
 
@@ -26,7 +28,6 @@ Parametrised Boolean network can either be edited using their interface/editor. 
 - TSCC (temporal strongly connected components) detection algorithm
 
 #### Comments:
-Tool to analyse bifurcations (significant change in structure and quality of attractors) in asynchronous parametrised Boolean networks
 
 #### URIs (github, websites, etc.):
 Online client: https://biodivine.fi.muni.cz/aeon/
