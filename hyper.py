@@ -7,7 +7,7 @@ def md2html(md_lines):
 	return markdown2.markdown('\n'.join(md_lines))
 
 def my_md_converter(x):
-	return backticks2code(clickable(link2link(x)))
+	return matched2code(clickable(link2link(x)))
 
 def get_key(fn):
 	if fn.endswith('.md'):
@@ -74,11 +74,16 @@ def make_link(where, what, hover='', why=''):
 		s += f' ({why})'
 	return s
 
-def backticks2code(x):
-	if x.find('`') < 0:
+def matched2code(x):
+	for pair in (('`','code'), ('**','strong'), ('__','strong'), ('*','em'), ('_','em')):
+		x = matched2tag(pair[0], pair[1], x) 
+	return x
+
+def matched2tag(symbol, tag, x):
+	if x.find(symbol) < 0:
 		# no need to go through the trouble
 		return x
-	xs = x.split('`')
+	xs = x.split(symbol)
 	if len(xs) == 2:
 		# we consider this too few
 		return x
@@ -86,8 +91,8 @@ def backticks2code(x):
 		xs.append('')
 	r = ''
 	for i in range(0, len(xs) // 2):
-		r += f'{xs[2*i]}<code>{xs[2*i+1]}</code>'
-	return r.replace('<code></code>', '').replace('</code><code>', '')
+		r += f'{xs[2*i]}<{tag}>{xs[2*i+1]}</{tag}>'
+	return r.replace(f'<{tag}></{tag}>', '').replace(f'</{tag}><{tag}>', '')
 
 LINK_PARSER_NORMAL = 1
 LINK_PARSER_PERHAPS_LINK = 2
