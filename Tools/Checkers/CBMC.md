@@ -13,7 +13,7 @@ Model checker
 - *Optionally*: Loop bound
 
 #### Expected input format:
-- *Program*: C, C++ or Java program
+- *Program*: C or C++ program
 - *Loop bound*: Passed as an option when executing cbmc
 
 #### Expected output:

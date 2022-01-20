@@ -13,6 +13,7 @@ Batfish      :: Networks
 Batfish      :: PV2           :: checks properties of networks
 Boogie       :: PV3           :: infers invariants and generates verification conditions to pass to Z3
 CBMC         :: C
+CBMC         :: C++
 CBMC         :: PV2           :: verifies given/parameterised properties of C code
 Cerberus-BMC :: Concurrency
 Cerberus-BMC :: PV1           :: checks a C program against a predefined concurrency model
