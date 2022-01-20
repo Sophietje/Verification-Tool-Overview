@@ -178,6 +178,7 @@ def traverse_dir(d, by_key, by_name):
 item_by_key = {}
 item_by_name = {}
 traverse_dir('Tools', item_by_key, item_by_name)
+traverse_dir('Formats', item_by_key, item_by_name)
 
 indices = {}
 name_by_index = {}
@@ -223,7 +224,7 @@ info(f'{cx} facts are known!')
 for f in item_by_key:
 	item_by_key[f].dump_to(os.path.join(sys.argv[1], f + '.html'))
 	indices['index'].append(make_link(f+'.html', item_by_key[f].name))
-	if item_by_key[f].rank == 0 and 'plugin' not in item_by_key[f].tags:
+	if item_by_key[f].rank == 0 and 'plugin' not in item_by_key[f].tags and 'format' not in item_by_key[f].tags:
 		indices['pv0'].append(make_link(f+'.html', item_by_key[f].name))
 
 for index in indices:

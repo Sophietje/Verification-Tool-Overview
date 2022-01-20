@@ -56,6 +56,7 @@ TEMPLATE = '''
 				<a href="index.html">Search</a><br/>
 				<br/>
 				<a href="framework.html">Frameworks</a><br/>
+				<a href="format.html">Formats</a><br/>
 				<br/>
 				<a href="https://github.com/Sophietje/Verification-Tool-Overview/">Backend repo</a><br/>
 				<a href="https://github.com/slebok/slebok.github.io/tree/master/proverb">Frontend repo</a><br/>
@@ -93,7 +94,7 @@ class ToolPage(Page):
 		super(ToolPage, self).__init__(t)
 		self.filename = fn
 		# construct the title
-		if rank == 0 and 'plugin' in tags:
+		if rank == 0 and ('plugin' in tags or 'format' in tags):
 			FULL_TITLE = f'<h1 class="fbs">{ft}'
 		else:
 			FULL_TITLE = f'<h1 class="fbs"><span class="pv"><a href="pv{rank}.html">PV{rank}</a> ⊧</span> {ft}'
