@@ -2,9 +2,11 @@
 
 import markdown2
 
-def md2html(md_lines):
-	# return my_md_converter('\n'.join(md_lines))
+def md2html_generic(md_lines):
 	return markdown2.markdown('\n'.join(md_lines))
+
+def md2html(md_lines):
+	return my_md_converter('\n'.join(md_lines))
 
 def my_md_converter(x):
 	return matched2code(clickable(link2link(x)))

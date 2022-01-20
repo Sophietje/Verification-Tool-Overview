@@ -54,9 +54,7 @@ TEMPLATE = '''
 				<a href="tags.html">Tags</a><br/>
 				<a href="index.html">Search</a><br/>
 				<br/>
-				<a href="index.html">Frameworks</a><br/>
-				<a href="index.html">Checkers</a><br/>
-				<a href="index.html">Provers</a><br/>
+				<a href="framework.html">Frameworks</a><br/>
 				<br/>
 				<a href="https://github.com/Sophietje/Verification-Tool-Overview/">Backend repo</a><br/>
 				<a href="https://github.com/slebok/slebok.github.io/tree/master/proverb">Frontend repo</a><br/>

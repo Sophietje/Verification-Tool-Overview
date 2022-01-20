@@ -82,6 +82,10 @@ class TestConverter(unittest.TestCase):
         self.assertEqual(hyper.link2link(\
             '[STMC can] statically verify'),
             '[STMC can] statically verify')
+    def test_internal_link_tail(self):
+        self.assertEqual(hyper.link2link(\
+            'It is part of [CProver](../Frameworks/CProver.md)'),
+            'It is part of <a href="cprover.html">CProver</a>')
         
 
 if __name__ == '__main__':
