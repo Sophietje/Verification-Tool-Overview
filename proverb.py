@@ -45,7 +45,7 @@ TEMPLATE = '''
 			</div>
 		</div>
 		<div class="left">
-			<img src="proverb.png" alt="ProVerB"/>
+			<a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
 			<h1>ProVerB:</h1>
 			<h2>Program<br/>Verification<br/>Book</h2>
 
