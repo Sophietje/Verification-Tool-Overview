@@ -66,5 +66,23 @@ class TestConverter(unittest.TestCase):
     def test_backticks2code_3_aaaa(self):
         self.assertEqual(hyper.backticks2code('a`b`c`d'), 'a<code>b</code>c<code>d</code>')
 
+    def test_internal_link_expl(self):
+        self.assertEqual(hyper.link2link(\
+            '2LS is a C program analyser built upon the [CProver](Frameworks/CProver.md) infrastructure'),
+            '2LS is a C program analyser built upon the <a href="cprover.html">CProver</a> infrastructure')
+    def test_internal_link_impl(self):
+        self.assertEqual(hyper.link2link(\
+            '[[BA]] format'),
+            '<a href="ba.html">BA</a> format')
+    def test_internal_link_both(self):
+        self.assertEqual(hyper.link2link(\
+            'Built on top of [[CakeML]]; [HOL](Provers/HOL.md)4'),
+            'Built on top of <a href="cakeml.html">CakeML</a>; <a href="hol.html">HOL</a>4')
+    def test_internal_link_none(self):
+        self.assertEqual(hyper.link2link(\
+            '[STMC can] statically verify'),
+            '[STMC can] statically verify')
+        
+
 if __name__ == '__main__':
     unittest.main()

@@ -102,34 +102,6 @@ def info(msg):
 def error(msg):
 	print(message(red('FAIL'), msg))
 
-def get_key(fn):
-	if fn.endswith('.md'):
-		fn = fn[:-3]
-	if fn.find('(') > -1 and fn.find(')') > -1:
-		before = fn[0:fn.index('(')].strip()
-		after = fn[fn.index('(')+1 : fn.index(')')].strip()
-		if len(before) < 2 or len(after) < 2:
-			fn = before + after
-		elif len(before) > len(after) > 1:
-			fn = after
-		elif len(after) > len(before) > 1:
-			fn = before
-	if len(fn) > 20:
-		fn2 = ''.join(cap for cap in fn if cap.isupper())
-		if fn2:
-			fn = fn2
-		else:
-			fn2 = ''.join(word[0] for word in fn.replace('-', ' ').split())
-			if fn2:
-				fn = fn2
-	fn = fn.lower()
-	for c in ' _-':
-		fn = fn.replace(c, '')
-	for p in {'τ':'tau', 'µ':'mu', 'é':'e', '+':'plus', '*':'star'}.items():
-		fn = fn.replace(p[0], p[1])
-	fn = fn.replace('τ', 'tau').replace('é', 'e')
-	return fn
-
 class Item(object):
 	def __init__(self, name):
 		super(Item, self).__init__()
