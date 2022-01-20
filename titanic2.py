@@ -110,6 +110,7 @@ class Item(object):
 		self.title = ''
 		self.subtitle = ''
 		self.name = Path(name).stem
+		self.filename = name
 		self.rank = 0 # default, rewrite with a fact
 		cx_subsections = cx_lines = 0
 		with open(name, 'r', encoding='utf-8') as file:
@@ -138,6 +139,7 @@ class Item(object):
 		# info(f'{filename} with {self.sections.keys()} being dumped...')
 		with open(filename, 'w', encoding='utf-8') as file:
 			p = proverb.ToolPage(\
+					self.filename,
 					self.name, \
 					self.sections['Name'][0], \
 					self.subtitle, \

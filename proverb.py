@@ -58,9 +58,8 @@ TEMPLATE = '''
 				<a href="index.html">Checkers</a><br/>
 				<a href="index.html">Provers</a><br/>
 				<br/>
-				<a href="index.html">Related</a><br/>
-				<a href="index.html">Links here</a><br/>
-				<a href="index.html">Edit source</a><br/>
+				<a href="https://github.com/Sophietje/Verification-Tool-Overview/">Backend repo</a><br/>
+				<a href="https://github.com/slebok/slebok.github.io/tree/master/proverb">Frontend repo</a><br/>
 				<br/>
 				<a href="help.html">Help</a><br/>
 			</p>
@@ -79,13 +78,6 @@ TEMPLATE = '''
 </html>
 '''
 
-# TODO
-EDITLINK = '''
-				<ul>
-					<li><a href="https://github.com/Sophietje/Verification-Tool-Overview/">View/edit source</a> (Markdown)</li>
-				</ul>
-'''
-
 class Page(object):
 	def __init__(self, t):
 		super(Page, self).__init__()
@@ -98,8 +90,9 @@ class Page(object):
 		return TEMPLATE.format(title=self.title, tabs=tabber)
 
 class ToolPage(Page):
-	def __init__(self, t, ft, st, rank, tags, c1, c2):
+	def __init__(self, fn, t, ft, st, rank, tags, c1, c2):
 		super(ToolPage, self).__init__(t)
+		self.filename = fn
 		# construct the title
 		FULL_TITLE = f'<h1 class="fbs"><span class="pv"><a href="pv{rank}.html">PV{rank}</a> ⊧</span> {ft}'
 		if st:
@@ -108,6 +101,7 @@ class ToolPage(Page):
 		# construct tag links
 		TAGS = '<div>' + '\n'.join([f'<span class="tag">{make_link(t+".html", tags[t][0], hover=tags[t][1])}</span>'\
 				for t in sorted(tags)]) + '</div>'
+		EDITLINK = '<ul><li>' + make_link('https://github.com/Sophietje/Verification-Tool-Overview/blob/main/'+self.filename, 'View/edit source', why='Markdown')+'</li></ul>'
 		self.tabs['Tool'] = TAGS + FULL_TITLE + c1
 		self.tabs['Meta'] = TAGS + c2 + EDITLINK
 
