@@ -2,6 +2,7 @@
 
 from collections import OrderedDict
 from hyper import *
+import datetime
 
 TEMPLATE = '''
 <?xml version="1.0" encoding="UTF-8"?>
@@ -69,7 +70,7 @@ TEMPLATE = '''
 		<br/><hr/>
 		<div class="f">
 			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
-			Last updated: <strong>January 2022</strong>.
+			Last updated: <strong>{last_updated}</strong>.
 		</div>
 	</div>
 	</body>
@@ -85,7 +86,7 @@ class Page(object):
 		tabber = ''
 		for tab in self.tabs:
 			tabber += f'<div class="tabbertab"><h2>{tab}</h2>{self.tabs[tab]}</div>'
-		return TEMPLATE.format(title=self.title, tabs=tabber)
+		return TEMPLATE.format(title=self.title, tabs=tabber, last_updated=datetime.datetime.now().strftime('%B %Y'))
 
 class ToolPage(Page):
 	def __init__(self, fn, t, ft, st, rank, tags, c1, c2):
