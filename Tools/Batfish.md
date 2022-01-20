@@ -29,6 +29,7 @@ Uses Network Optimized Datalog ([[NoD]])
 Tool to detect network configuration errors
 
 The tool checks for some default properties such as:
+
 - Absence of black holes and loops
 - Multipath consistency: all packets with the same header should be treated identically in terms of being accepted or dropped, regardless of the path taken through the network
 - Failure consistency: Consider a network E. If a package is accepted by network E, then it should also be accepted in an identical network E' where some nodes/links are considered failed. (This is for testing the fault tolerance of a network)
