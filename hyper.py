@@ -2,6 +2,9 @@
 
 import markdown2
 
+def my_md_converter(x):
+	return backticks2code(clickable(x))
+
 def clickable(http):
 	if http.find('http') > -1:
 		before = http[:http.index('http')]
@@ -18,14 +21,14 @@ def h3(x):
 	return f'<h3>{x}</h3>'
 
 def li(x):
-	return f'<li>{clickable(x)}</li>'
+	return f'<li>{my_md_converter(x)}</li>'
 
 def ul(items):
 	if not items:
 		return ''
 	cuis = [i.strip() for i in items if i]
 	if len(cuis) == 1:
-		return clickable(cuis[0])
+		return my_md_converter(cuis[0])
 	if all([i.startswith('- ') for i in cuis]):
 		cuis = [i[1:].strip() for i in cuis]
 	return '<ul>' + '\n'.join([li(i) for i in cuis]) + '</ul>'
@@ -41,3 +44,14 @@ def make_link(where, what, hover='', why=''):
 	if why:
 		s += f' ({why})'
 	return s
+
+def backticks2code(x):
+	if x.find('`') < 0:
+		return x
+	xs = x.split('`')
+	if len(xs) % 2 != 0:
+		xs.append('')
+	r = ''
+	for i in range(0, len(xs) // 2):
+		r += f'{xs[2*i]}<code>{xs[2*i+1]}</code>'
+	return r.replace('<code></code>', '').replace('</code><code>', '')
