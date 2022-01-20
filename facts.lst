@@ -12,6 +12,8 @@ Batfish      :: Datalog
 Batfish      :: Networks
 Batfish      :: PV2           :: checks properties of networks
 Boogie       :: PV3           :: infers invariants and generates verification conditions to pass to Z3
+CBMC         :: C
+CBMC         :: PV2           :: verifies given/parameterised properties of C code
 Cerberus-BMC :: Concurrency
 Cerberus-BMC :: PV1           :: checks a C program against a predefined concurrency model
 DaPPer       :: Probabilistic
@@ -19,8 +21,18 @@ DaPPer       :: PV4           :: synthesises probabilistic programs from relatio
 DaPPer       :: Synthesis
 Dartagnan    :: C
 Dartagnan    :: PV2           :: checks assertions in a C program
+DLC          :: Concurrency
+DLC          :: PV3           :: compiles a formal specification of a concurrent system to a program
+DPU          :: C
+DPU          :: Concurrency
+DPU          :: PV1           :: borderline PV2 (relies on user-driven assertions) but mostly works with assumed properties
+EBMC         :: Hardware
+EBMC         :: LTL           :: also can work with SystemVerilog assertions
+EBMC         :: PV2           :: checks assertions/properties against a Verilog/Netlists/… spec
 FOADA        :: Automata
 FOADA        :: PV1           :: checks whether the given automaton is empty
+JBMC         :: Java
+JBMC         :: PV2           :: checks user-defined assertions in runtime exceptions in Java code
 JPF          :: Java
 JPF          :: PV2           :: checks properties of annotated Java code
 KMC          :: Automata
