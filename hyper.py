@@ -5,24 +5,65 @@ import markdown2
 def md2html_generic(md_lines):
 	return markdown2.markdown('\n'.join(md_lines))
 
+def is_ul_item(line):
+	return line.startswith('- ') or line.startswith('* ')
+
+def is_ol_item(line):
+	return len(line) > 3 and line[0].isdigit() and line[1] == '.' and line[2] == ' '
+
+IN_NO_LIST = 0
+IN_UL_LIST = 1
+IN_OL_LIST = 2
 def md2html(md_lines):
 	ret_lines = []
-	IN_LIST = False
-	for line in md_lines:
-		if IN_LIST:
-			if line.startswith('- ') or line.startswith('* '):
-				ret_lines.append(li(line[2:].strip()))
-			else:
-				ret_lines.append('</ul>')
-				ret_lines.append(my_md_converter(line.strip()))
-				IN_LIST = False
-		else:
-			if line.startswith('- ') or line.startswith('* '):
+	stack = [IN_NO_LIST]
+	i = 0
+	while i < len(md_lines):
+		line = md_lines[i]
+		if stack[-1] == IN_NO_LIST:
+			if is_ul_item(line):
 				ret_lines.append('<ul>')
 				ret_lines.append(li(line[2:].strip()))
-				IN_LIST = True
+				stack.append(IN_UL_LIST)
+			elif is_ol_item(line):
+				ret_lines.append('<ol>')
+				ret_lines.append(li(line[2:].strip()))
+				stack.append(IN_OL_LIST)
 			else:
 				ret_lines.append(my_md_converter(line.strip()))
+		elif stack[-1] == IN_UL_LIST:
+			if is_ul_item(line):
+				ret_lines.append(li(line[2:].strip()))
+			elif is_ol_item(line):
+				ret_lines.append('<ol>')
+				ret_lines.append(li(line[2:].strip()))
+				stack.append(IN_OL_LIST)
+			else:
+				ret_lines.append('</ul>')
+				stack.pop()
+				continue
+		elif stack[-1] == IN_OL_LIST:
+			if is_ol_item(line):
+				ret_lines.append(li(line[3:].strip()))
+			elif is_ul_item(line):
+				ret_lines.append('<ul>')
+				ret_lines.append(li(line[2:].strip()))
+				stack.append(IN_UL_LIST)
+			else:
+				ret_lines.append('</ol>')
+				stack.pop()
+				continue
+		else:
+			# cannot happen
+			pass
+		i += 1
+	while len(stack)>1:
+		if stack[-1] == IN_UL_LIST:
+			ret_lines.append('</ul>')
+			stack.pop()
+		if stack[-1] == IN_OL_LIST:
+			ret_lines.append('</ol>')
+			stack.pop()
 	return '\n'.join(ret_lines)
 
 def my_md_converter(x):
