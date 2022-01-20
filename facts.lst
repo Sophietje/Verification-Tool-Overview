@@ -5,14 +5,24 @@ ABC          :: PV4           :: versatile verification and synthesis arsenal
 ABC          :: Synthesis
 ACL2         :: LISP
 ACL2         :: PV5           :: a full-fledged language to write specs and prove their properties
+ACL2s        :: Plugin
+ACSL         :: Format
 Adam         :: Framework
 AdamMC       :: Flow-LTL
 AdamMC       :: Petri Nets    :: also software-defined networks
 AdamMC       :: PV2           :: verifies user-specified properties of Petri nets
+AEON         :: BDD
+AEON         :: PV1           :: analyses bifurcations of a parametrised Boolean network
+AGREE        :: AADL
+AGREE        :: PV2           :: checks properties against an AADL model
+AIGER        :: Format
+Alloy        :: Framework
+ANTLR        :: PV0           :: works with grammars which are relatively strictly structured
 APOET        :: C
 Batfish      :: Datalog
 Batfish      :: Networks
 Batfish      :: PV2           :: checks properties of networks
+BLOG         :: Format
 Boogie       :: Framework
 Boogie       :: PV3           :: infers invariants and generates verification conditions to pass to Z3
 CBMC         :: C
@@ -27,6 +37,7 @@ DaPPer       :: PV4           :: synthesises probabilistic programs from relatio
 DaPPer       :: Synthesis
 Dartagnan    :: C
 Dartagnan    :: PV2           :: checks assertions in a C program
+DIMACS       :: Format
 DLC          :: Concurrency
 DLC          :: PV3           :: compiles a formal specification of a concurrent system to a program
 DPU          :: C
@@ -35,32 +46,45 @@ DPU          :: PV1           :: borderline PV2 (relies on user-driven assertion
 EBMC         :: Hardware
 EBMC         :: LTL           :: also can work with SystemVerilog assertions
 EBMC         :: PV2           :: checks assertions/properties against a Verilog/Netlists/… spec
+ERAN language:: Format
 FOADA        :: Automata
 FOADA        :: PV1           :: checks whether the given automaton is empty
 Frama-C      :: Framework
+GOSPEL       :: Format
+HOA          :: Format
 ILAng        :: Framework
+JANI         :: Format
 JBMC         :: Java
 JBMC         :: PV2           :: checks user-defined assertions in runtime exceptions in Java code
+JML          :: Format
 JPF          :: Java
 JPF          :: PV2           :: checks properties of annotated Java code
 KMC          :: Automata
 KMC          :: PV1           :: checks compatibility of communicating automata
 Maude        :: Framework
 Modest       :: Framework
+ONNX         :: Format
 POET         :: C
+PROMELA      :: Format
+QAIGER       :: Format
+QDIMACS      :: Format
 QuIP         :: Automata
 QuIP         :: PV1           :: comparator of two weighted automata
+RTLola       :: Format
+SMT-LIB      :: Format
 SPAN         :: PV1           :: computes whether two protocols are indistinguishable
 SPAN         :: Security
 SPARK        :: Ada
 Spot         :: Framework
 Storm        :: Probabilistic
 Storm        :: PV4           :: computes how a given property is related to a given specification
+SyGuS        :: Format
 TAPAAL       :: Petri Nets
 TAPAAL       :: PV2           :: performs queries on Petri nets
 UPPAAL       :: Framework
 Valgrind     :: Framework
 VeriAbs      :: C
 VeriAbs      :: PV1           :: performs several predefined analyses on C programs to make them compatible with a bounded model checker
+Verilog      :: Format
 Viper        :: Framework
 Why3         :: Framework
