@@ -61,6 +61,9 @@ def get_key(fn):
 def clickable(http):
 	if http.find('http') > -1:
 		before = http[:http.index('http')]
+		if before.endswith('"'):
+			# we're messing with an already HTML-ified URI!
+			return http
 		after = http[http.index('http'):]
 		link = after.split(' ')[0]
 		rest = after[len(link):].strip()
@@ -122,6 +125,10 @@ LINK_PARSER_IMPLICIT_PRIME = 4
 LINK_PARSER_EXPLICIT = 5
 LINK_PARSER_EXPLICIT_PRIME = 6
 LINK_PARSER_TARGET = 7
+LINK_PARSER_FIG_HOPE = 8
+LINK_PARSER_FIG_ALMOST = 9
+LINK_PARSER_FIG = 10
+LINK_PARSER_FIG_PRIME = 11
 def link2link(x):
 	r = ''
 	i = 0
@@ -130,6 +137,8 @@ def link2link(x):
 		if state == LINK_PARSER_NORMAL:
 			if x[i] == '[':
 				state = LINK_PARSER_PERHAPS_LINK
+			elif x[i] == '!':
+				state = LINK_PARSER_FIG_HOPE
 			else:
 				r += x[i]
 		elif state == LINK_PARSER_PERHAPS_LINK:
@@ -170,6 +179,31 @@ def link2link(x):
 			else:
 				# theoretically we could collect targets for verification, but we don't need this data
 				pass
+		elif state == LINK_PARSER_FIG_HOPE:
+			if x[i] == '[':
+				state = LINK_PARSER_FIG_ALMOST
+			else:
+				r += '!' + x[i]
+				state = LINK_PARSER_NORMAL
+		elif state == LINK_PARSER_FIG_ALMOST:
+			if x[i] == '[':
+				where = ''
+				state = LINK_PARSER_FIG
+			else:
+				r += '![' + x[i]
+				state = LINK_PARSER_NORMAL
+		elif state == LINK_PARSER_FIG:
+			if x[i] == ']':
+				state = LINK_PARSER_FIG_PRIME
+			else:
+				where += x[i]
+		elif state == LINK_PARSER_FIG_PRIME:
+			if x[i] == ']':
+				r += f'<br/><img src="{where}" alt="{where}"/><br/>'
+				state = LINK_PARSER_NORMAL
+			else:
+				r += f'![[{where}]' + x[i]
+				state = LINK_PARSER_NORMAL
 		else:
 				print(f'ERROR IN LINK: {x} --- lost parser state')
 				return x

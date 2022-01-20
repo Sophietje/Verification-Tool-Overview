@@ -47,11 +47,11 @@ def markdown_to_html1(sections):
 		if check_for(sections, SECTION_EIT):
 			lines.append(md2html(sections[SECTION_EIT]))
 		if check_for(sections, SECTION_EIF):
-			lines.append('Format:')
+			lines.append('<p>Format:</p>')
 			lines.append(md2html(sections[SECTION_EIF]))
 	if check_for(sections, SECTION_EO_):
 		lines.append(h3(SECTION_EO_))
-		lines.append(ul(sections[SECTION_EO_]))
+		lines.append(md2html(sections[SECTION_EO_]))
 	if check_for(sections, SECTION_ITU):
 		lines.append(h3(SECTION_I__))
 		lines.append(md2html(sections[SECTION_ITU]))
