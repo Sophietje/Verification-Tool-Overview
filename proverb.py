@@ -111,12 +111,12 @@ class ToolPage(Page):
 		FULL_TITLE += '</h1>'
 		# construct tag links
 		TAGS = '<div>' + '\n'.join([f'<span class="tag">{make_link(t+".html", tags[t][0], hover=tags[t][1])}</span>'\
-				for t in tags]) + '</div>'
+				for t in sorted(tags)]) + '</div>'
 		self.tabs['Tool'] = TAGS + FULL_TITLE + c1
 		self.tabs['Meta'] = TAGS + c2 + EDITLINK
 
 class IndexPage(Page):
-	def __init__(self, cat, lst):
+	def __init__(self, cat, size, lst):
 		super(IndexPage, self).__init__('Index')
 		FULL_TITLE = f'<h1 class="fbs">{cat} in ProVerB</h1>'
-		self.tabs['Index'] = FULL_TITLE + lst
+		self.tabs['Index'] = FULL_TITLE + lst + f'<p>{size} tools in this list.</p>'

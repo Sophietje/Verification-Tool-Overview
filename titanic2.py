@@ -254,5 +254,5 @@ for f in item_by_key:
 for index in indices:
 	with open(os.path.join('www', index + '.html'), 'w', encoding='utf-8') as file:
 		lst = [f'<li>{item}</li>' for item in sorted(indices[index])]
-		file.write(proverb.IndexPage(name_by_index[index], '<ul>' + '\n'.join(lst) + '</ul>').dump())
+		file.write(proverb.IndexPage(name_by_index[index], len(lst), '<ul>' + '\n'.join(lst) + '</ul>').dump())
 info(f'{len(indices)} indices generated!')
