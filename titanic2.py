@@ -4,6 +4,7 @@ from collections import OrderedDict
 from pathlib import Path
 import proverb
 from hyper import *
+import sys
 
 def check_for(sections, section_name):
 	return section_name in sections \
@@ -220,13 +221,13 @@ with open('facts.lst', 'r', encoding='utf-8') as file:
 info(f'{cx} facts are known!')
 
 for f in item_by_key:
-	item_by_key[f].dump_to(os.path.join('www', f + '.html'))
+	item_by_key[f].dump_to(os.path.join(sys.argv[1], f + '.html'))
 	indices['index'].append(make_link(f+'.html', item_by_key[f].name))
 	if item_by_key[f].rank == 0:
 		indices['pv0'].append(make_link(f+'.html', item_by_key[f].name))
 
 for index in indices:
-	with open(os.path.join('www', index + '.html'), 'w', encoding='utf-8') as file:
+	with open(os.path.join(sys.argv[1], index + '.html'), 'w', encoding='utf-8') as file:
 		lst = [f'<li>{item}</li>' for item in sorted(indices[index])]
 		file.write(proverb.IndexPage(name_by_index[index], len(lst), '<ul>' + '\n'.join(lst) + '</ul>').dump())
 info(f'{len(indices)} indices generated!')
