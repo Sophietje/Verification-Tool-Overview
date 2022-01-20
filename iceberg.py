@@ -8,13 +8,13 @@ class TestConverter(unittest.TestCase):
         self.assertEqual(hyper.backticks2code('a'), 'a')
 
     def test_backticks2code_1_ee(self):
-        self.assertEqual(hyper.backticks2code('`'), '')
+        self.assertEqual(hyper.backticks2code('`'), '`')
     def test_backticks2code_1_ea(self):
-        self.assertEqual(hyper.backticks2code('`a'), '<code>a</code>')
+        self.assertEqual(hyper.backticks2code('`a'), '`a')
     def test_backticks2code_1_ae(self):
-        self.assertEqual(hyper.backticks2code('a`'), 'a')
+        self.assertEqual(hyper.backticks2code('a`'), 'a`')
     def test_backticks2code_1_aa(self):
-        self.assertEqual(hyper.backticks2code('a`b'), 'a<code>b</code>')
+        self.assertEqual(hyper.backticks2code('a`b'), 'a`b')
 
     def test_backticks2code_2_eee(self):
         self.assertEqual(hyper.backticks2code('``'), '')

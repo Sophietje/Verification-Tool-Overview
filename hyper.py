@@ -2,6 +2,10 @@
 
 import markdown2
 
+def md2html(md_lines):
+	# return my_md_converter('\n'.join(md_lines))
+	return markdown2.markdown('\n'.join(md_lines))
+
 def my_md_converter(x):
 	return backticks2code(clickable(link2link(x)))
 
@@ -61,9 +65,6 @@ def ul(items):
 		cuis = [i[1:].strip() for i in cuis]
 	return '<ul>' + '\n'.join([li(i) for i in cuis]) + '</ul>'
 
-def md2html(md_lines):
-	return markdown2.markdown('\n'.join(md_lines))
-
 def make_link(where, what, hover='', why=''):
 	if hover:
 		s = f'<a href="{where}" title="{hover}">{what}</a>'
@@ -75,8 +76,12 @@ def make_link(where, what, hover='', why=''):
 
 def backticks2code(x):
 	if x.find('`') < 0:
+		# no need to go through the trouble
 		return x
 	xs = x.split('`')
+	if len(xs) == 2:
+		# we consider this too few
+		return x
 	if len(xs) % 2 != 0:
 		xs.append('')
 	r = ''
