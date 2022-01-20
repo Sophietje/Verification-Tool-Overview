@@ -127,10 +127,17 @@ def latex2mathml(x):
 	if x.endswith('$'):
 		x = x + ' '
 	xs = x.split('$')
-	if len(xs) != 3:
+	if len(xs) == 3:
+		return f'{xs[0]}<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>{xs[1]}</mi></mrow></math>{xs[2]}'.strip()
+	elif len(xs) == 5:
+		return f'''{xs[0]}
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>{xs[1]}</mi></mrow></math>
+		{xs[2]}
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>{xs[3]}</mi></mrow></math>
+		{xs[4]}'''.strip()
+	else:
 		# too complex
 		return x
-	return f'{xs[0]}<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>{xs[1]}</mi></mrow></math>{xs[2]}'.strip()
 
 
 LINK_PARSER_NORMAL = 1
