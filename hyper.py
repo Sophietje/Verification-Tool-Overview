@@ -101,7 +101,7 @@ def make_link(where, what, hover='', why=''):
 def matched2code(x):
 	for pair in (('`','code'), ('**','strong'), ('__','strong'), ('*','em'), ('_','em')):
 		x = matched2tag(pair[0], pair[1], x) 
-	return x
+	return latex2mathml(x)
 
 def matched2tag(symbol, tag, x):
 	if x.find(symbol) < 0:
@@ -117,6 +117,21 @@ def matched2tag(symbol, tag, x):
 	for i in range(0, len(xs) // 2):
 		r += f'{xs[2*i]}<{tag}>{xs[2*i+1]}</{tag}>'
 	return r.replace(f'<{tag}></{tag}>', '').replace(f'</{tag}><{tag}>', '')
+
+def latex2mathml(x):
+	if x.find('$') < 0:
+		# no need to go through the trouble
+		return x
+	if x.startswith('$'):
+		x = ' ' + x
+	if x.endswith('$'):
+		x = x + ' '
+	xs = x.split('$')
+	if len(xs) != 3:
+		# too complex
+		return x
+	return f'{xs[0]}<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>{xs[1]}</mi></mrow></math>{xs[2]}'.strip()
+
 
 LINK_PARSER_NORMAL = 1
 LINK_PARSER_PERHAPS_LINK = 2
