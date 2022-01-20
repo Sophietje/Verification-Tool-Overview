@@ -6,7 +6,24 @@ def md2html_generic(md_lines):
 	return markdown2.markdown('\n'.join(md_lines))
 
 def md2html(md_lines):
-	return my_md_converter('\n'.join(md_lines))
+	ret_lines = []
+	IN_LIST = False
+	for line in md_lines:
+		if IN_LIST:
+			if line.startswith('- ') or line.startswith('* '):
+				ret_lines.append(li(line[2:].strip()))
+			else:
+				ret_lines.append('</ul>')
+				ret_lines.append(my_md_converter(line.strip()))
+				IN_LIST = False
+		else:
+			if line.startswith('- ') or line.startswith('* '):
+				ret_lines.append('<ul>')
+				ret_lines.append(li(line[2:].strip()))
+				IN_LIST = True
+			else:
+				ret_lines.append(my_md_converter(line.strip()))
+	return '\n'.join(ret_lines)
 
 def my_md_converter(x):
 	return matched2code(clickable(link2link(x)))
