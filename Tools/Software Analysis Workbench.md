@@ -10,7 +10,7 @@ Equivalence checker/symbolic execution engine?
 
 #### Expected input thing:
 - Program
-- *Optional*: A specification, consisting of three components: 
+- *Optional*: A specification, consisting of three components:
 	1. A specification of the initial state before execution of the function
 	2. A description of how to call the function within that state
 	3. A specification of the expected final value of the program state.
