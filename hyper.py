@@ -26,6 +26,8 @@ def md2html(md_lines):
 	return '\n'.join(ret_lines)
 
 def my_md_converter(x):
+	# if not x:
+	# 	return '<br/>'
 	return matched2code(clickable(link2link(x)))
 
 def get_key(fn):

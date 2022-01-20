@@ -93,7 +93,10 @@ class ToolPage(Page):
 		super(ToolPage, self).__init__(t)
 		self.filename = fn
 		# construct the title
-		FULL_TITLE = f'<h1 class="fbs"><span class="pv"><a href="pv{rank}.html">PV{rank}</a> ⊧</span> {ft}'
+		if rank == 0 and 'plugin' in tags:
+			FULL_TITLE = f'<h1 class="fbs">{ft}'
+		else:
+			FULL_TITLE = f'<h1 class="fbs"><span class="pv"><a href="pv{rank}.html">PV{rank}</a> ⊧</span> {ft}'
 		if st:
 			FULL_TITLE += f'<span class="subtitle">{st}</span>'
 		FULL_TITLE += '</h1>'

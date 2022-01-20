@@ -45,16 +45,16 @@ def markdown_to_html1(sections):
 	if check_for(sections, SECTION_EIT) or check_for(sections, SECTION_EIF):
 		lines.append(h3(SECTION_EI_))
 		if check_for(sections, SECTION_EIT):
-			lines.append(md2html_generic(sections[SECTION_EIT]))
+			lines.append(md2html(sections[SECTION_EIT]))
 		if check_for(sections, SECTION_EIF):
 			lines.append('Format:')
-			lines.append(md2html_generic(sections[SECTION_EIF]))
+			lines.append(md2html(sections[SECTION_EIF]))
 	if check_for(sections, SECTION_EO_):
 		lines.append(h3(SECTION_EO_))
 		lines.append(ul(sections[SECTION_EO_]))
 	if check_for(sections, SECTION_ITU):
 		lines.append(h3(SECTION_I__))
-		lines.append(md2html_generic(sections[SECTION_ITU]))
+		lines.append(md2html(sections[SECTION_ITU]))
 	if check_for(sections, SECTION_COM):
 		lines.append(h3(SECTION_COM))
 		lines.append(md2html(sections[SECTION_COM]))
@@ -223,7 +223,7 @@ info(f'{cx} facts are known!')
 for f in item_by_key:
 	item_by_key[f].dump_to(os.path.join(sys.argv[1], f + '.html'))
 	indices['index'].append(make_link(f+'.html', item_by_key[f].name))
-	if item_by_key[f].rank == 0:
+	if item_by_key[f].rank == 0 and 'plugin' not in item_by_key[f].tags:
 		indices['pv0'].append(make_link(f+'.html', item_by_key[f].name))
 
 for index in indices:
