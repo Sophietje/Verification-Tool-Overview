@@ -62,7 +62,7 @@ TEMPLATE = '''
 				<a href="index.html">Links here</a><br/>
 				<a href="index.html">Edit source</a><br/>
 				<br/>
-				<a href="index.html">Help</a><br/>
+				<a href="help.html">Help</a><br/>
 			</p>
 		</div>
 		<div class="main">
@@ -71,11 +71,7 @@ TEMPLATE = '''
 		</div>
 		<br/><hr/>
 		<div class="f">
-			<!-- FMT logo? -->
-			The page is maintained by <a href="http://grammarware.github.io/">Dr. Vadim Zaytsev</a> a.k.a. @<a href="http://grammarware.net">grammarware</a> from University of Twente.<br/>
-			The tabber code used on this page, is derivative from <a href="http://www.kean.edu/~gkolodiy/5223/tabber.html">the one made by Patrick Fitzgerald</a> and distributed under <a href="https://opensource.org/licenses/mit-license.php">the MIT license</a>.<br/>
-			The open book logo is by <a href="https://commons.wikimedia.org/wiki/File:Open_Book_icon.svg">Icon Lauk</a> from the <a href="https://thenounproject.com/icon/open-book-2238057/">Noun Project</a>, CC-BY 2018.<br/>
-			All other referenced works of art, science and engineering, are subject to their own individual copyrights.<br/>
+			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
 			Last updated: <strong>January 2022</strong>.
 		</div>
 	</div>
