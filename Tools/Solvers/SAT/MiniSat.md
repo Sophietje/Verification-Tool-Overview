@@ -40,3 +40,7 @@ https://minisat.se/downloads/MiniSat.pdf (SAT '03)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [MiniSat+](../MiniSat+.md): Extension of MiniSat so it could participate in new categories of the SAT competition
+
+#### Meta
+:: SAT
+:: PV4 :: produces a satisfiability result for a formula

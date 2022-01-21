@@ -34,3 +34,7 @@ Project page: https://cvc5.github.io/
 
 #### Related tools (tools mentioned or compared to in the paper):
 From the same 'family' of tools: [[CVC]], [[CVC Lite]], [[CVC3]], [CVC4](CVC4.md)
+
+#### Meta
+:: SMT
+:: PV4 :: produces a satisfiability result for a formula

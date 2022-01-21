@@ -39,3 +39,7 @@ Collection of related repositories: https://github.com/dreal/
 https://doi.org/10.1007/978-3-319-96142-2_15
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: SMT
+:: PV4 :: produces a satisfiability result for a formula

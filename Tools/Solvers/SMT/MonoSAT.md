@@ -47,3 +47,7 @@ https://www.cs.ubc.ca/labs/isd/Projects/monosat/sam_bayless_thesis_2017.pdf (the
 
 #### Related tools (tools mentioned or compared to in the paper):
 [MiniSat](../SAT/MiniSat.md), [[CLASP]]
+
+#### Meta
+:: SMT
+:: PV4 :: produces a satisfiability result for a formula

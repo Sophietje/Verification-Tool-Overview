@@ -38,3 +38,7 @@ https://doi.org/10.3233/SAT190039 (Journal on Satisfiability, Boolean Modeling a
 
 #### Related tools (tools mentioned or compared to in the paper):
 [zChaff](Tools/Solvers/SAT/zChaff.md), [MiniSat](Tools/Solvers/SAT/MiniSat.md)
+
+#### Meta
+:: SAT
+:: PV4 :: produces a satisfiability result for a formula

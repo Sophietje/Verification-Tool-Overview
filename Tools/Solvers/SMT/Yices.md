@@ -40,3 +40,7 @@ Repository: https://github.com/SRI-CSL/yices2
 https://doi.org/10.1007/978-3-030-81688-9_13 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: SMT
+:: PV4 :: produces a satisfiability result for a formula

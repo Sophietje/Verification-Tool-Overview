@@ -43,3 +43,7 @@ https://doi.org/10.1613/jair.4694 (JAIR '15)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [plingeling](plingeling.md): Parallel front-end
+
+#### Meta
+:: SAT
+:: PV4 :: produces a satisfiability result for a formula

@@ -38,3 +38,7 @@ Last release mentioned on the project page is from 12 March 2007.
 https://doi.org/10.1007/11527695_27 (SAT '04)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: SAT
+:: PV4 :: produces a satisfiability result for a formula in CNF

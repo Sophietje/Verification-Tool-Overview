@@ -12,7 +12,7 @@ SMT formula
 
 #### Expected input format:
 One of the following:
-- BTOR (it's own format)
+- BTOR (its own format)
 - [SMT-LIB](../../../Formats/SMT-LIB.md) (version 1.2 or 2.0)
 
 #### Expected output:
@@ -43,3 +43,7 @@ https://doi.org/10.35011/fmvtr.2016-1
 https://doi.org/10.3233/SAT190101
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: SMT
+:: PV4 :: produces a satisfiability result for a formula

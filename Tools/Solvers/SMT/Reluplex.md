@@ -45,3 +45,8 @@ https://doi.org/10.1007/978-3-319-63387-9_5 (CAV '17)
 Other solvers: [CVC4](CVC4.md), [Z3](Z3.md), [Yices](Yices.md), [MathSAT](MathSAT.md), [Gurobi](../Gurobi.md).
 
 Other tools that focus on the verification of neural networks: [NNV](../../NNV.md), [Marabou](../../Marabou.md), [[ReluVal]]
+
+#### Meta
+:: SMT
+:: DNN
+:: PV4 :: produces a satisfiability result for a formula

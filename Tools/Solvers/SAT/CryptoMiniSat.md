@@ -40,4 +40,6 @@ https://doi.org/10.1007/978-3-642-02777-2_24 (SAT '09)
 
 #### Related tools (tools mentioned or compared to in the paper):
 
-
+#### Meta
+:: SAT
+:: PV4 :: produces a satisfiability result for a formula in CNF

@@ -40,3 +40,7 @@ https://doi.org/10.1007/978-3-642-36742-7_7
 
 #### Related tools (tools mentioned or compared to in the paper):
 Successor of MathSAT 4
+
+#### Meta
+:: SMT
+:: PV4 :: produces a satisfiability result for a formula

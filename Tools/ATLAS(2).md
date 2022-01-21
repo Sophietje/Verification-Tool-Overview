@@ -39,3 +39,8 @@ Repository: https://github.com/lorenzleutgeb/atlas/
 https://doi.org/10.1007/978-3-030-81688-9_5 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
+uses [[Z3]]
+
+#### Meta
+:: Complexity
+:: PV1 :: checks or infers types by static analysis

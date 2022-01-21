@@ -42,3 +42,12 @@ https://doi.org/10.1016/j.jlamp.2018.02.004 (Journal of Logical and Algebraic Me
 https://doi.org/10.1007/978-3-319-66845-1_6 (IFM '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Complexity
+:: Termination
+:: C
+:: Haskell
+:: Java
+:: Prolog
+:: PV1 :: analyses programs for termination

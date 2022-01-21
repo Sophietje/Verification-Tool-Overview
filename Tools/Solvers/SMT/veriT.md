@@ -46,3 +46,7 @@ https://doi.org/10.1007/978-3-642-02959-2_12 (CADE '09)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other solvers: [[CVC3]], [Z3](Z3.md)
+
+#### Meta
+:: SMT
+:: PV5 :: produces a proof for satisfiability of a formula

@@ -43,3 +43,7 @@ https://doi.org/10.1007/978-3-319-63390-9_24 (CAV '17)
 #### Related tools (tools mentioned or compared to in the paper):
 Predecessors: [[CVC]], [[CVC Lite]], [[CVC3]].
 Successor: [cvc5](cvc5.md)
+
+#### Meta
+:: SMT
+:: PV4 :: produces a satisfiability result for a formula

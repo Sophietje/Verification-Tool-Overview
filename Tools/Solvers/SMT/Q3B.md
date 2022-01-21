@@ -40,3 +40,8 @@ https://doi.org/10.1007/978-3-030-25543-5_4
 
 #### Related tools (tools mentioned or compared to in the paper):
 -
+
+#### Meta
+:: SMT
+:: BDD
+:: PV4 :: produces a satisfiability result for a formula

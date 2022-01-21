@@ -43,3 +43,7 @@ http://fmv.jku.at/papers/BiereFleury-POS20.pdf (POS '20)
 [Glucose](Glucose.md)
 [[SPASS-SATT]]
 [[CaDiCaL]]
+
+#### Meta
+:: SAT
+:: PV4 :: produces a satisfiability result for a formula

@@ -42,3 +42,7 @@ https://doi.org/10.1007/978-3-030-81688-9_21 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to (in CAV '21 paper): [MiniSat](MiniSat.md), [Glucose](Glucose.md), [[CaDiCaL]]
+
+#### Meta
+:: SAT
+:: PV4 :: produces a satisfiability result for a formula

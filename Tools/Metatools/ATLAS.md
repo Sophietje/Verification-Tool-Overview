@@ -1,5 +1,5 @@
 #### Name:
-ATLAS: Automated Learning of Abstractions
+ATLAS: AuTomated Learning of AbStractions
 
 #### Application domain/field:
 Program synthesis
@@ -22,7 +22,7 @@ Abstract domain in the form of predicate templates and abstract transformers for
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Tree interpolation, data-driven constraint solving
 
-Uses [Z3](../Solvers/SMT/Z3.md)], [[JLinAlg]]
+Uses [Z3](../Solvers/SMT/Z3.md), [[JLinAlg]]
 
 #### Comments:
 "a novel technique for automatically learning domain-specific abstractions that are useful for instantiating an example-guided synthesis framework in a new domain"
@@ -41,4 +41,8 @@ https://doi.org/10.1007/978-3-319-96145-3_22
 https://arxiv.org/abs/1804.04152 (Extended version of CAV paper)
 
 #### Related tools (tools mentioned or compared to in the paper):
-[[Blaze]]
+compared to [[Blaze]]
+
+#### Meta
+:: Synthesis
+:: PV2 :: learns abstractions and transformers from a language and a set of synthesis problems

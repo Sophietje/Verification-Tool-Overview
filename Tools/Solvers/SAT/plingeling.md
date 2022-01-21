@@ -43,3 +43,7 @@ http://fmv.jku.at/papers/Biere-SAT-Competition-2017-solvers.pdf (SAT Competition
 
 #### Related tools (tools mentioned or compared to in the paper):
 [Lingeling](Lingeling.md), [[Treengeling]]
+
+#### Meta
+:: SAT
+:: PV4 :: produces a satisfiability result for a formula
