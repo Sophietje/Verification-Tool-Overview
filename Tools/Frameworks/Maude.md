@@ -1,1 +1,4 @@
 Specification and programming language in rewriting logic
+
+#### Meta
+:: Framework

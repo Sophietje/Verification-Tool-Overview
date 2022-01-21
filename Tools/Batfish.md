@@ -49,3 +49,8 @@ https://github.com/batfish/batfish
 https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-fogel.pdf
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Datalog
+:: Networks
+:: PV2           :: checks properties of networks

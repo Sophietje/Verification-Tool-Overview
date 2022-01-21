@@ -41,3 +41,8 @@ https://doi.org/10.1007/978-3-319-63387-9_14 (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[PSketch]]: given a sketch of a nearly complete PPL program and a dataset, it will synthesize expressions to complete the program.
+
+#### Meta
+:: Probabilistic
+:: PV4           :: synthesises probabilistic programs from relational datasets
+:: Synthesis

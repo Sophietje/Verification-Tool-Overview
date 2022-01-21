@@ -47,3 +47,7 @@ https://doi.org/10.1007/978-3-319-96145-3_28 (CAV '18)
 https://doi.org/10.1007/978-3-642-28756-5_36 (TACAS '12)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Petri Nets
+:: PV2           :: performs queries on Petri nets

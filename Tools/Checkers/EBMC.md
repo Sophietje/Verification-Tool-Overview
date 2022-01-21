@@ -44,3 +44,8 @@ https://doi.org/10.1007/978-3-540-78163-9_10 (VMCAI '08)
 https://doi.org/10.1016/j.entcs.2005.07.021 (Electronic Notes in Theoretical Computer Science '06)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Hardware
+:: LTL           :: also can work with SystemVerilog assertions
+:: PV2           :: checks assertions/properties against a Verilog/Netlists/… spec

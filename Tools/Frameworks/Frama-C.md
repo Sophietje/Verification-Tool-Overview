@@ -46,3 +46,6 @@ https://doi.org/10.1007/978-3-662-54577-5_22 (TACAS '17)
 https://doi.org/10.1007/s10009-011-0192-z (STTT '11
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Framework

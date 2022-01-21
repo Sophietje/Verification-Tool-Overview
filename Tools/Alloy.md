@@ -8,3 +8,6 @@ Repository: https://github.com/AlloyTools/org.alloytools.alloy
 
 #### Last commit date:
 3 November 2021
+
+#### Meta
+:: Framework

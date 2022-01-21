@@ -34,3 +34,6 @@ Repository: https://github.com/antlr/antlr4
 #### List of related papers:
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: PV0           :: works with grammars which are relatively strictly structured

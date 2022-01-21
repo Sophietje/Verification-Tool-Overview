@@ -44,3 +44,7 @@ https://doi.org/10.1007/978-3-030-45093-9_58
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[SALSA]], [[SASIMI]] are mentioned as general-purpose methods for approximating circuits independently of their structure.
+
+#### Meta
+:: Hardware
+:: PV1           :: synthesises an approximate circuit from a given one and a set of constraints

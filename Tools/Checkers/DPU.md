@@ -38,3 +38,7 @@ https://doi.org/10.1007/978-3-319-96142-2_22
 #### Related tools (tools mentioned or compared to in the paper):
 Mentioned in the README of the repository: [POET](POET.md), [Nidhugg](../Nidhugg.md), [[CHESS]], and [[Maple]]
 
+#### Meta
+:: C
+:: Concurrency
+:: PV1           :: borderline PV2 (relies on user-driven assertions) but mostly works with assumed properties

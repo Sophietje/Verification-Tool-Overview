@@ -50,3 +50,8 @@ https://figshare.com/articles/code/AdamMC_A_Model_Checker_for_Petri_Nets_with_Tr
 https://doi.org/10.1007/978-3-030-53291-8_5
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Flow-LTL
+:: Petri Nets    :: also software-defined networks
+:: PV2           :: verifies user-specified properties of Petri nets

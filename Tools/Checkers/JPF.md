@@ -47,3 +47,7 @@ https://doi.org/10.1007/978-3-030-17502-3_18
 
 #### Related tools (tools mentioned or compared to in the paper):
 The wiki contains a list of tools that use JPF: https://github.com/javapathfinder/jpf-core/wiki/Projects
+
+#### Meta
+:: Java
+:: PV2           :: checks properties of annotated Java code

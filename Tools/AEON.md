@@ -47,3 +47,7 @@ https://doi.org/10.1007/978-3-030-53288-8_28
 Tools for non-parametrised BNs: ATLANTIS, Bio Model Analyzer (BMA), BoolNet, PyBoolNet, Inet, The Cell Collective, CellNetAnalyzer, ASSA-PBN.
 Tools for parameter synthesis for parametrised BNs: GRNMC, GINsim, TREMPPI.
 Tool to control cell behaviour through BNs: ViSiBooL.
+
+#### Meta
+:: BDD
+:: PV1           :: analyses bifurcations of a parametrised Boolean network

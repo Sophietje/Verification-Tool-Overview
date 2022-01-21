@@ -6,6 +6,8 @@ import proverb
 from hyper import *
 import sys
 
+cx = 0
+
 def check_for(sections, section_name):
 	return section_name in sections \
 		and len(sections[section_name]) > 0 \
@@ -13,6 +15,7 @@ def check_for(sections, section_name):
 		and sections[section_name][0]!='-' \
 		and sections[section_name][0]!=''
 
+SECTION_MET = 'Meta'
 SECTION_GEN = 'General'
 SECTION_ADF = 'Application domain/field'
 SECTION_TOT = 'Type of tool (e.g. model checker, test generator)'
@@ -105,6 +108,7 @@ def error(msg):
 
 class Item(object):
 	def __init__(self, name):
+		global cx
 		super(Item, self).__init__()
 		self.sections = OrderedDict()
 		self.tags = {}
@@ -125,7 +129,39 @@ class Item(object):
 						cur_section = cur_section[:-1]
 					if cur_section in self.sections.keys():
 						error(f'Duplicate section titled {cur_section}')
-					self.sections[cur_section] = []
+					if cur_section != SECTION_MET:
+						self.sections[cur_section] = []
+					continue
+				if cur_section == SECTION_MET:
+					tmp = line.split('::')
+					if len(tmp) == 2:
+						tag = tmp[1].strip()
+						desc = ''
+					elif len(tmp) == 3:
+						tag = tmp[1].strip()
+						desc = tmp[2].strip()
+					else:
+						error(f'Unintelligible meta entry {line}')
+					# deal with all kinds of tags
+					cx += 1
+					if tag.lower() == 'no pv':
+						# beyond PV-classification
+						self.rank = -1
+						continue
+					if tag.startswith('PV'):
+						# PV level
+						self.rank = int(tag[2])
+						self.subtitle = desc
+						indices[tag.lower()].append(make_link(get_key(self.name)+'.html', self.name, why=desc))
+						continue
+					# other tags
+					tag_key = get_key(tag)
+					self.add_tag(tag_key, tag, desc)
+					if tag_key not in indices:
+						indices[tag_key] = []
+						name_by_index[tag_key] = tag
+						indices['tags'].append(make_link(tag_key+'.html', tag))
+					indices[tag_key].append(make_link(get_key(self.name)+'.html', self.name, why=desc))
 					continue
 				self.sections[cur_section].append(line.strip())
 		for key in list(self.sections.keys()):
@@ -177,9 +213,6 @@ def traverse_dir(d, by_key, by_name):
 
 item_by_key = {}
 item_by_name = {}
-traverse_dir('Tools', item_by_key, item_by_name)
-traverse_dir('Formats', item_by_key, item_by_name)
-
 indices = {}
 name_by_index = {}
 
@@ -191,40 +224,15 @@ for i in range(0,6):
 	indices[f'pv{i}'] = []
 	name_by_index[f'pv{i}'] = f'PV{i} tools'
 
-cx = 0
-with open('facts.lst', 'r', encoding='utf-8') as file:
-	for line in file.readlines():
-		triple = [part.strip() for part in line.split('::')]
-		if len(triple) == 3:
-			name, tag, desc = triple
-		elif len(triple) == 2:
-			name, tag = triple
-			desc = ''
-		else:
-			warning(f'Skipped fact {line}')
-			continue
-		cx += 1
-		# deal with all kinds of tags
-		if tag.startswith('PV'):
-			rank = int(tag[2])
-			item_by_name[name].rank = rank
-			item_by_name[name].subtitle = desc
-			indices[tag.lower()].append(make_link(get_key(name)+'.html', name, why=desc))
-			continue
-		tag_key = get_key(tag)
-		item_by_name[name].add_tag(tag_key, tag, desc)
-		if tag_key not in indices:
-			indices[tag_key] = []
-			name_by_index[tag_key] = tag
-			indices['tags'].append(make_link(tag_key+'.html', tag))
-		indices[tag_key].append(make_link(get_key(name)+'.html', name, why=desc))
+traverse_dir('Tools', item_by_key, item_by_name)
+traverse_dir('Formats', item_by_key, item_by_name)
 
 info(f'{cx} facts are known!')
 
 for f in item_by_key:
 	item_by_key[f].dump_to(os.path.join(sys.argv[1], f + '.html'))
 	indices['index'].append(make_link(f+'.html', item_by_key[f].name))
-	if item_by_key[f].rank == 0 and 'plugin' not in item_by_key[f].tags and 'format' not in item_by_key[f].tags:
+	if item_by_key[f].rank == 0:
 		indices['pv0'].append(make_link(f+'.html', item_by_key[f].name))
 
 for index in indices:
