@@ -56,7 +56,7 @@ TEMPLATE = '''
 				<a href="index.html">Search</a><br/>
 				<br/>
 				<a href="framework.html">Frameworks</a><br/>
-				<a href="format.html">Formats</a><br/>
+				<a href="language.html">Languages</a><br/>
 				<br/>
 				<a href="https://github.com/Sophietje/Verification-Tool-Overview/">Backend repo</a><br/>
 				<a href="https://github.com/slebok/slebok.github.io/tree/master/proverb">Frontend repo</a><br/>
@@ -112,4 +112,4 @@ class IndexPage(Page):
 	def __init__(self, cat, size, lst):
 		super(IndexPage, self).__init__('Index')
 		FULL_TITLE = f'<h1 class="fbs">{cat} in ProVerB</h1>'
-		self.tabs['Index'] = FULL_TITLE + lst + f'<p>{size} tools in this list.</p>'
+		self.tabs['Index'] = FULL_TITLE + lst + f'<p>{size} items on this list.</p>'

@@ -38,7 +38,7 @@ def markdown_to_html1(sections):
 	lines = []
 	if check_for(sections, SECTION_GEN):
 		# usually the only one, for unfilled templates
-		lines.append(ul(sections[SECTION_GEN]))
+		lines.append(md2html(sections[SECTION_GEN]))
 	if check_for(sections, SECTION_ADF):
 		lines.append(h3(SECTION_ADF))
 		lines.append(ul(sections[SECTION_ADF]))
@@ -232,7 +232,7 @@ info(f'{cx} facts are known!')
 for f in item_by_key:
 	item_by_key[f].dump_to(os.path.join(sys.argv[1], f + '.html'))
 	indices['index'].append(make_link(f+'.html', item_by_key[f].name))
-	if item_by_key[f].rank == 0:
+	if item_by_key[f].rank == 0 and not item_by_key[f].subtitle:
 		indices['pv0'].append(make_link(f+'.html', item_by_key[f].name))
 
 for index in indices:

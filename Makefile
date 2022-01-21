@@ -6,3 +6,6 @@ all:
 test:
 	./iceberg.py
 
+clean:
+	rm ../slebok/frontend/proverb/*.html
+
