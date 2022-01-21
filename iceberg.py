@@ -86,6 +86,58 @@ class TestConverter(unittest.TestCase):
         self.assertEqual(hyper.link2link(\
             'It is part of [CProver](../Frameworks/CProver.md)'),
             'It is part of <a href="cprover.html">CProver</a>')
+    def test_internal_link_inter(self):
+        self.assertEqual(hyper.link2link(\
+            'I never finish ['),
+            'I never finish [')
+    def test_internal_link_inter_expl1(self):
+        self.assertEqual(hyper.link2link(\
+            'I never finish [AnyTh'),
+            'I never finish [AnyTh')
+    def test_internal_link_inter_expl2(self):
+        self.assertEqual(hyper.link2link(\
+            'I never finish [AnyThing]'),
+            'I never finish [AnyThing]')
+    def test_internal_link_inter_expl3(self):
+        self.assertEqual(hyper.link2link(\
+            'I never finish [AnyThing](any'),
+            'I never finish [AnyThing](any')
+    def test_internal_link_inter_impl1(self):
+        self.assertEqual(hyper.link2link(\
+            'I never finish [['),
+            'I never finish [[')
+    def test_internal_link_inter_impl2(self):
+        self.assertEqual(hyper.link2link(\
+            'I never finish [[AnyTh'),
+            'I never finish [[AnyTh')
+    def test_internal_link_inter_impl3(self):
+        self.assertEqual(hyper.link2link(\
+            'I never finish [[AnyThing]'),
+            'I never finish [[AnyThing]')
+    def test_internal_link_inter_impl4(self):
+        self.assertEqual(hyper.link2link(\
+            'I never finish [[AnyThing] and it remains unmatched'),
+            'I never finish [[AnyThing] and it remains unmatched')
+    def test_internal_link_inter_fig1(self):
+        self.assertEqual(hyper.link2link(\
+            'I never finish !'),
+            'I never finish !')
+    def test_internal_link_inter_fig2(self):
+        self.assertEqual(hyper.link2link(\
+            'I never finish !['),
+            'I never finish ![')
+    def test_internal_link_inter_fig3(self):
+        self.assertEqual(hyper.link2link(\
+            'I never finish ![['),
+            'I never finish ![[')
+    def test_internal_link_inter_fig4(self):
+        self.assertEqual(hyper.link2link(\
+            'I never finish ![[Any'),
+            'I never finish ![[Any')
+    def test_internal_link_inter_fig5(self):
+        self.assertEqual(hyper.link2link(\
+            'I never finish ![[AnyThing]'),
+            'I never finish ![[AnyThing]')
 
     def test_text2text_ee(self):
         self.assertEqual(hyper.my_md_converter('_'), '_')

@@ -213,16 +213,17 @@ def link2link(x):
 				state = LINK_PARSER_EXPLICIT
 		elif state == LINK_PARSER_IMPLICIT:
 			if x[i] == ']':
-				r += f'<a href="{get_key(where)}.html">{where}</a>'
 				state = LINK_PARSER_IMPLICIT_PRIME
 			else:
 				where += x[i]
 		elif state == LINK_PARSER_IMPLICIT_PRIME:
 			if x[i] == ']':
+				r += f'<a href="{get_key(where)}.html">{where}</a>'
 				state = LINK_PARSER_NORMAL
 			else:
-				print(f'ERROR IN LINK: {x} --- unmatched [[')
-				return x
+				# ERROR: unmatched [[...], roll back to normal brackets
+				r += f'[[{where}]{x[i]}'
+				state = LINK_PARSER_NORMAL
 		elif state == LINK_PARSER_EXPLICIT:
 			if x[i] == ']':
 				state = LINK_PARSER_EXPLICIT_PRIME
@@ -230,6 +231,7 @@ def link2link(x):
 				where += x[i]
 		elif state == LINK_PARSER_EXPLICIT_PRIME:
 			if x[i] == '(':
+				target = ''
 				state = LINK_PARSER_TARGET
 			else:
 				# ERROR: no target follows [...], roll back to normal brackets
@@ -240,8 +242,7 @@ def link2link(x):
 				r += f'<a href="{get_key(where)}.html">{where}</a>'
 				state = LINK_PARSER_NORMAL
 			else:
-				# theoretically we could collect targets for verification, but we don't need this data
-				pass
+				target += x[i]
 		elif state == LINK_PARSER_FIG_HOPE:
 			if x[i] == '[':
 				state = LINK_PARSER_FIG_ALMOST
@@ -269,6 +270,27 @@ def link2link(x):
 				state = LINK_PARSER_NORMAL
 		else:
 				print(f'ERROR IN LINK: {x} --- lost parser state')
-				return x
+				state = LINK_PARSER_NORMAL
 		i += 1
+	# check if we're in the final state
+	if state == LINK_PARSER_PERHAPS_LINK:
+		r += '['
+	elif state == LINK_PARSER_IMPLICIT:
+		r += f'[[{where}'
+	elif state == LINK_PARSER_IMPLICIT_PRIME:
+		r += f'[[{where}]'
+	elif state == LINK_PARSER_EXPLICIT:
+		r += f'[{where}'
+	elif state == LINK_PARSER_EXPLICIT_PRIME:
+		r += f'[{where}]'
+	elif state == LINK_PARSER_TARGET:
+		r += f'[{where}]({target}'
+	elif state == LINK_PARSER_FIG_HOPE:
+		r += f'!'
+	elif state == LINK_PARSER_FIG_ALMOST:
+		r += f'!['
+	elif state == LINK_PARSER_FIG:
+		r += f'![[{where}'
+	elif state == LINK_PARSER_FIG_PRIME:
+		r += f'![[{where}]'
 	return r
