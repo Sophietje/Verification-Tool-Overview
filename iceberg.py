@@ -140,63 +140,70 @@ class TestConverter(unittest.TestCase):
             'I never finish ![[AnyThing]')
 
     def test_text2text_ee(self):
-        self.assertEqual(hyper.my_md_converter('_'), '_')
+        self.assertEqual(hyper.text2text('_'), '_')
     def test_text2text_eA(self):
-        self.assertEqual(hyper.my_md_converter('_a'), '_a')
+        self.assertEqual(hyper.text2text('_a'), '_a')
     def test_text2text_Ae(self):
-        self.assertEqual(hyper.my_md_converter('a_'), 'a_')
+        self.assertEqual(hyper.text2text('a_'), 'a_')
     def test_text2text_AA(self):
-        self.assertEqual(hyper.my_md_converter('a_b'), 'a_b')
+        self.assertEqual(hyper.text2text('a_b'), 'a_b')
 
     def test_text2text_eee(self):
-        self.assertEqual(hyper.my_md_converter('__'), '__')
+        self.assertEqual(hyper.text2text('__'), '__')
     def test_text2text_eeA(self):
-        self.assertEqual(hyper.my_md_converter('__a'), '__a')
+        self.assertEqual(hyper.text2text('__a'), '__a')
     def test_text2text_eAe(self):
-        self.assertEqual(hyper.my_md_converter('_a_'), '<em>a</em>')
+        self.assertEqual(hyper.text2text('_a_'), '<em>a</em>')
     def test_text2text_eAA(self):
-        self.assertEqual(hyper.my_md_converter('_a_b'), '<em>a</em>b')
+        self.assertEqual(hyper.text2text('_a_b'), '<em>a</em>b')
     def test_text2text_Aee(self):
-        self.assertEqual(hyper.my_md_converter('a__'), 'a__')
+        self.assertEqual(hyper.text2text('a__'), 'a__')
     def test_text2text_AAe(self):
-        self.assertEqual(hyper.my_md_converter('a_b_'), 'a<em>b</em>')
+        self.assertEqual(hyper.text2text('a_b_'), 'a<em>b</em>')
     def test_text2text_AeA(self):
-        self.assertEqual(hyper.my_md_converter('a__b'), 'a__b')
+        self.assertEqual(hyper.text2text('a__b'), 'a__b')
     def test_text2text_AAA(self):
-        self.assertEqual(hyper.my_md_converter('a_b_c'), 'a<em>b</em>c')
+        self.assertEqual(hyper.text2text('a_b_c'), 'a<em>b</em>c')
 
     def test_text2text_eeee(self):
-        self.assertEqual(hyper.my_md_converter('___'), '___')
+        self.assertEqual(hyper.text2text('___'), '___')
     def test_text2text_eeeA(self):
-        self.assertEqual(hyper.my_md_converter('___a'), '___a')
+        self.assertEqual(hyper.text2text('___a'), '___a')
     def test_text2text_eeAe(self):
-        self.assertEqual(hyper.my_md_converter('__a_'), '_<em>a</em>')
+        self.assertEqual(hyper.text2text('__a_'), '_<em>a</em>')
     def test_text2text_eeAA(self):
-        self.assertEqual(hyper.my_md_converter('__a_b'), '_<em>a</em>b')
+        self.assertEqual(hyper.text2text('__a_b'), '_<em>a</em>b')
     def test_text2text_eAee(self):
-        self.assertEqual(hyper.my_md_converter('_a__'), '<em>a</em>_')
+        self.assertEqual(hyper.text2text('_a__'), '<em>a</em>_')
     def test_text2text_eAeA(self):
-        self.assertEqual(hyper.my_md_converter('_a__b'), '<em>a</em>_b')
+        self.assertEqual(hyper.text2text('_a__b'), '<em>a</em>_b')
     def test_text2text_eAAe(self):
-        self.assertEqual(hyper.my_md_converter('_a_b_'), '<em>a</em>b_')
+        self.assertEqual(hyper.text2text('_a_b_'), '<em>a</em>b_')
     def test_text2text_eAAA(self):
-        self.assertEqual(hyper.my_md_converter('_a_b_c'), '<em>a</em>b_c')
+        self.assertEqual(hyper.text2text('_a_b_c'), '<em>a</em>b_c')
     def test_text2text_Aeee(self):
-        self.assertEqual(hyper.my_md_converter('a___'), 'a___')
+        self.assertEqual(hyper.text2text('a___'), 'a___')
     def test_text2text_AeeA(self):
-        self.assertEqual(hyper.my_md_converter('a___b'), 'a___b')
+        self.assertEqual(hyper.text2text('a___b'), 'a___b')
     def test_text2text_AeAe(self):
-        self.assertEqual(hyper.my_md_converter('a__b_'), 'a_<em>b</em>')
+        self.assertEqual(hyper.text2text('a__b_'), 'a_<em>b</em>')
     def test_text2text_AeAA(self):
-        self.assertEqual(hyper.my_md_converter('a__b_c'), 'a_<em>b</em>c')
+        self.assertEqual(hyper.text2text('a__b_c'), 'a_<em>b</em>c')
     def test_text2text_AAee(self):
-        self.assertEqual(hyper.my_md_converter('a_b__'), 'a<em>b</em>_')
+        self.assertEqual(hyper.text2text('a_b__'), 'a<em>b</em>_')
     def test_text2text_AAeA(self):
-        self.assertEqual(hyper.my_md_converter('a_b__c'), 'a<em>b</em>_c')
+        self.assertEqual(hyper.text2text('a_b__c'), 'a<em>b</em>_c')
     def test_text2text_AAAe(self):
-        self.assertEqual(hyper.my_md_converter('a_b_c_'), 'a<em>b</em>c_')
+        self.assertEqual(hyper.text2text('a_b_c_'), 'a<em>b</em>c_')
     def test_text2text_AAAA(self):
-        self.assertEqual(hyper.my_md_converter('a_b_c_d'), 'a<em>b</em>c_d')
+        self.assertEqual(hyper.text2text('a_b_c_d'), 'a<em>b</em>c_d')
+
+def debug():
+    i = 'a__b_'
+    print(f'[$]  INPUT: "{i}"')
+    o = hyper.text2text(i)
+    print(f'[$] OUTPUT: "{o}"')
 
 if __name__ == '__main__':
+    # debug()
     unittest.main()
