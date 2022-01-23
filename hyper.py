@@ -14,12 +14,28 @@ def is_ol_item(line):
 IN_NO_LIST = 0
 IN_UL_LIST = 1
 IN_OL_LIST = 2
+IN_PRE_BLK = 3
 def md2html(md_lines):
 	ret_lines = []
 	stack = [IN_NO_LIST]
 	i = 0
 	while i < len(md_lines):
-		line = md_lines[i]
+		line = md_lines[i].strip()
+		if stack[-1] == IN_PRE_BLK:
+			if line == '```':
+				ret_lines.append('</pre>')
+				stack.pop()
+			else:
+				ret_lines.append(line)
+			i += 1
+			continue
+		else:
+			if line.startswith('```'):
+				ret_lines.append('<pre>')
+				stack.append(IN_PRE_BLK)
+				i += 1
+				continue
+		# all the normal list stuff
 		if stack[-1] == IN_NO_LIST:
 			if is_ul_item(line):
 				ret_lines.append('<ul>')
