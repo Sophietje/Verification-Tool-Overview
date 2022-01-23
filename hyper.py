@@ -69,6 +69,7 @@ def md2html(md_lines):
 def my_md_converter(x):
 	# if not x:
 	# 	return '<br/>'
+	return latex2mathml(text2text(clickable(link2link(x))))
 	return matched2code(clickable(link2link(x)))
 
 def get_key(fn):
@@ -359,14 +360,14 @@ def text2text(x):
 		elif state == TEXT_PARSER_TICK:
 			if x[i] == '`':
 				r += '``'
-				state = LINK_PARSER_NORMAL
+				state = TEXT_PARSER_NORMAL
 			else:
-				content += x[i]
+				content = x[i]
 				state = TEXT_PARSER_TICK_T
 		elif state == TEXT_PARSER_TICK_T:
 			if x[i] == '`':
 				r += f'<code>{content}</code>'
-				state = LINK_PARSER_NORMAL
+				state = TEXT_PARSER_NORMAL
 			else:
 				# inside ticks everything is verbatim
 				content += x[i]
@@ -563,7 +564,7 @@ def text2text(x):
 			elif x[i] == '_':
 				state = TEXT_PARSER_SU
 			else:
-				content = ''
+				content = x[i]
 				state = TEXT_PARSER_ST
 		elif state == TEXT_PARSER_SU:     # *_
 			if x[i] == '*':
@@ -691,6 +692,7 @@ def text2text(x):
 		elif state == TEXT_PARSER_SSTS:   # **a*
 			if x[i] == '*':
 				r += f'<strong>{content}</strong>'
+				state = TEXT_PARSER_NORMAL
 			elif x[i] == '_':
 				content += '*'
 				state = TEXT_PARSER_SSTU
@@ -743,6 +745,7 @@ def text2text(x):
 				state = TEXT_PARSER_STUUT
 
 		else:
+			print('[!] ERROR: Wrong text2text parser state!')
 			# should be empty
 			r += x[i]
 		i += 1
@@ -853,4 +856,10 @@ def text2text(x):
 		# slightly nontrivial
 		r += f'*{content}_<em>{content2}</em>'
 
-	return r.replace('</em><em>','').replace('</strong><strong>','').replace('<em></em>','').replace('<strong></strong>','')
+	return r.\
+		replace('</em><em>','').\
+		replace('<em></em>','').\
+		replace('</code><code>','').\
+		replace('<code></code>','').\
+		replace('</strong><strong>','').\
+		replace('<strong></strong>','')
