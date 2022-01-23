@@ -83,10 +83,7 @@ def md2html(md_lines):
 	return '\n'.join(ret_lines)
 
 def my_md_converter(x):
-	# if not x:
-	# 	return '<br/>'
 	return latex2mathml(text2text(clickable(link2link(x))))
-	return matched2code(clickable(link2link(x)))
 
 def get_key(fn):
 	if fn.endswith('.md'):

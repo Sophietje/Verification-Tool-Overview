@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html version="-//W3C//DTD XHTML 1.1//EN"
+      xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.w3.org/1999/xhtml
+                          http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0"/>
+		<title>ProVerB — SLEBoK</title>
+		<link href="main.css" rel="stylesheet" type="text/css" />
+		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
+		<script type="text/javascript" src="tabber.js" />
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-3743366-7']);
+		  _gaq.push(['_setDomainName', 'github.io']);
+		  _gaq.push(['_setAllowLinker', true]);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="pvs">
+				<h1>
+					<span class="tag"><a href="pv0.html" title="unprocessed">PV0</a></span>
+					<span class="tag"><a href="pv1.html" title="solvers/linters">PV1</a></span>
+					<span class="tag"><a href="pv2.html" title="property checkers">PV2</a></span>
+					<span class="tag"><a href="pv3.html" title="monoverifiers">PV3</a></span>
+					<span class="tag"><a href="pv4.html" title="spec compilers">PV4</a></span>
+					<span class="tag"><a href="pv5.html" title="proof assistants">PV5</a></span>
+				</h1>
+			</div>
+		</div>
+		<div class="left">
+			<a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
+			<h1>ProVerB:</h1>
+			<h2>Program<br/>Verification<br/>Book</h2>
+
+			<p>
+				<a href="index.html">Top</a><br/>
+				<a href="all.html">Tools</a><br/>
+				<a href="tags.html">Tags</a><br/>
+				<a href="index.html">Search</a><br/>
+				<br/>
+				<a href="framework.html">Frameworks</a><br/>
+				<a href="language.html">Languages</a><br/>
+				<br/>
+				<a href="https://github.com/Sophietje/Verification-Tool-Overview/">Backend repo</a><br/>
+				<a href="https://github.com/slebok/slebok.github.io/tree/master/proverb">Frontend repo</a><br/>
+				<br/>
+				<a href="help.html">Help</a><br/>
+			</p>
+		</div>
+		<div class="main">
+		<div class="tabber">
+			<div class="tabbertab"><h2>Help</h2>
+				<h1 class="fbs">ProVerB: Program Verification Book</h1>
+				<br clear="both"/>
+				<p><strong>ProVerB</strong> is a project aimed at explaining program verification tools to practicing software developers, and at helping them to find they way around the available tools, clearly and briefly summarising the main purpose of the tool, its current status, relations to other tools, etc. <a href="help.html" class="nobold">Read more about the project on the help page</a>.</p>
+				<p>We classify all tools in this book as belonging to one of the six levels:</p>
+				<ul>
+					<li>
+						<a href="pv0.html">PV0</a> — tools that manipulate given and produced software artefacts with some degree of rigour. Conceptually such artefacts then may correspond to mathematical and formal entities, but this correspondence is mostly a matter of expectations. This category should be reasonably unpopulated since we mostly avoid to include such tools here.
+					</li>
+					<li>
+						<a href="pv1.html">PV1</a> — tools that encode the formal expectations about the artefacts that they manipulate, and report back to their users about found inconsistencies. A typical resident of this level could be a linter: a tool that analyses your program and complains about places where your program does not conform to its expectations.
+					</li>
+					<li>
+						<a href="pv2.html">PV2</a> — tools that allow the end user to control the properties that are being checked. For instance, it could be a tool that analyses user-written assertions in the code and verifies that they are indeed always respected by the program.
+					</li>
+					<li>
+						<a href="pv3.html">PV3</a> — tools that operate within a particular paradigm and derive their actions, conclusions and even properties that they need to check, from a built-in formal specification. For example, such a tool can guarantee freedom of deadlocks in a multi-threaded application, or data consistency in a database management system.
+					</li>
+					<li>
+						<a href="pv4.html">PV4</a> — tools that allow the end user to write their own specifications and “compile” them to fully formal mathematical representations that can be combined with mathematical representations of programs themselves or their desired properties, and verified together. Such a tool can already help someone make claims and guarantees about correctness, complexity or predicted performance of a novel, previously non-existing, garbage collection algorithm. Some of PV4 tools focus on synthesising a software artefact that satisfies the desired conditions, instead of checking an existing one for conformance.
+					</li>
+					<li>
+						<a href="pv5.html">PV5</a> — tools that can handle different user-written specifications, encode a wide range of different formulae for properties, and are capable of producing proofs of such properties together with inferring the correctness of such proofs.
+					</li>
+				</ul>
+				<p class="red"><strong>NB</strong>: this project is a work in progress, and thus may momentarily contain imperfect or erroneous data! Use at your own risk or <a href="mailto:s.a.m.lathouwers@utwente.nl,v.zaytsev@utwente.nl">get in touch</a>!</p>
+				<p>The PV-hierarchy does not represent how “worthy” or “important” a tool is, merely how much it expects and demands of its end user, and what it can offer back. In many cases having a lower-PV-level tool is more preferable because it is easier in use and is less ambitious about the effort investment. Often tools of a lower PV-level are built “on top” of tools of higher level which they run as a backend.</p>
+			</div>
+		</div>
+		<br/><hr/>
+		<div class="f">
+			Last updated: <strong>January 2022</strong>.
+		</div>
+	</div>
+	</body>
+</html>

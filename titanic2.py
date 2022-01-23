@@ -216,8 +216,8 @@ item_by_name = {}
 indices = {}
 name_by_index = {}
 
-indices['index'] = []
-name_by_index['index'] = 'All tools'
+indices['all'] = []
+name_by_index['all'] = 'All tools'
 indices['tags'] = []
 name_by_index['tags'] = 'All tags'
 for i in range(0,6):
@@ -231,7 +231,7 @@ info(f'{cx} facts are known!')
 
 for f in item_by_key:
 	item_by_key[f].dump_to(os.path.join(sys.argv[1], f + '.html'))
-	indices['index'].append(make_link(f+'.html', item_by_key[f].name))
+	indices['all'].append(make_link(f+'.html', item_by_key[f].name))
 	if item_by_key[f].rank == 0 and not item_by_key[f].subtitle:
 		indices['pv0'].append(make_link(f+'.html', item_by_key[f].name))
 

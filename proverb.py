@@ -15,7 +15,7 @@ TEMPLATE = '''
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
-		<title>{title}</title>
+		<title>{title} — ProVerB — SLEBoK</title>
 		<link href="main.css" rel="stylesheet" type="text/css" />
 		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
 		<script type="text/javascript" src="tabber.js" />
@@ -52,6 +52,7 @@ TEMPLATE = '''
 
 			<p>
 				<a href="index.html">Top</a><br/>
+				<a href="all.html">Tools</a><br/>
 				<a href="tags.html">Tags</a><br/>
 				<a href="index.html">Search</a><br/>
 				<br/>
