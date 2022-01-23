@@ -25,7 +25,7 @@ Dartagnan is a bounded model checker for concurrent programs under weak memory m
 Uses [Z3](../Solvers/SMT/Z3.md).
 
 #### Comments:
-*Note: repository only mentions that it supports programs written in the .litmus or .bpl (Boogie) formats. However, for .bpl files you have to specify the architecture as `none`, `tso`, `power`, `arm` or `arm8`.*
+**Note:** repository only mentions that it supports programs written in the .litmus or .bpl (Boogie) formats. However, for .bpl files you have to specify the architecture as `none`, `tso`, `power`, `arm` or `arm8`.
 
 #### URIs (github, websites, etc.):
 Repository (also contains another tool): https://github.com/hernanponcedeleon/Dat3M

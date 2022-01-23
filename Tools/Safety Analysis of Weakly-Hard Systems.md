@@ -16,7 +16,7 @@ Model file that specifies
 - Weakly-hard constraint $(m,K)$
 - Control law $\pi$
 
-*Optional*: Configuration file of Flow*. This is set by default but can be customized.
+_Optional_: Configuration file of Flow*. This is set by default but can be customized.
 
 #### Expected input format:
 ?

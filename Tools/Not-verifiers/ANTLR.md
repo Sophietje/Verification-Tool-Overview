@@ -16,7 +16,7 @@ Grammar
 `.g4` file(s)
 
 #### Expected output:
-*ALL(\*)* parser/lexer in one of the following target languages: Java, C#, Python, JavaScript, Go, C++, Swift, PHP, Dart.
+_ALL(*)_ parser/lexer in one of the following target languages: Java, C#, Python, JavaScript, Go, C++, Swift, PHP, Dart.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 

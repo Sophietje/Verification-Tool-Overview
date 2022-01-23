@@ -14,8 +14,8 @@ Floating-point program with elementary function calls (e.g. `sin`, `exp`)
 #### Expected input format:
 Input file (one single file) should follow the structure:
 ```scala
-  import daisy.lang.\_
-  import Real.\_
+  import daisy.lang._
+  import Real._
 
   object TestObject {
 

@@ -13,8 +13,8 @@ Model checker
 
 #### Expected input thing:
 - LLVM IR of a program (with assertions)
-- Use single or multicore (with a single queue or with work-sharing) model checker (singlecore_simple, multicore_simple, multicore_bitbetter)
-- How to store states (dtree, treedbsmod, treedbs_cchm, cchm or stdmap)
+- Use single or multicore (with a single queue or with work-sharing) model checker (`singlecore_simple`, `multicore_simple`, `multicore_bitbetter`)
+- How to store states (`dtree`, `treedbsmod`, `treedbs_cchm`, `cchm` or `stdmap`)
 - Number of threads to use
 
 #### Expected input format:

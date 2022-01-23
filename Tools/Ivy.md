@@ -17,7 +17,7 @@ Program
 
 #### Expected output:
 Depends on the mode of operation:
-1. `ivy_check` checks the proof of an ivy program, will return `PASS` or `FAIL``
+1. `ivy_check` checks the proof of an ivy program, will return `PASS` or `FAIL`
 2. `ivy` will allow the user to interactively construct inductive invariants
 3. `ivy_to_cpp` will result in a C++ program extracted from the IVy program
 
