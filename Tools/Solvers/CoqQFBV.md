@@ -42,3 +42,7 @@ https://doi.org/10.1007/978-3-030-81688-9_7 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [Boolector](SMT/Boolector.md), [[Bitwuzla]], [CVC4](SMT/CVC4.md)
+
+#### Meta
+:: SMT
+:: PV4 :: produces a satisfiability formula for a query

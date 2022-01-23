@@ -55,4 +55,10 @@ Online version of `alice-tv` tool: https://alive2.llvm.org/ce/
 #### List of related papers:
 https://doi.org/10.1007/978-3-030-81688-9_35 (CAV '21)
 https://doi.org/10.1145/3453483.3454030 (PLDI '21)
+
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: LLVM
+:: Compiler
+:: PV1 :: formalises LLVM code and transformations and allows to analyse them
