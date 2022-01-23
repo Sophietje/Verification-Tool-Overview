@@ -295,195 +295,562 @@ def link2link(x):
 		r += f'![[{where}]'
 	return r
 
-TEXT_PARSER_NORMAL = 1
-TEXT_PARSER_STAR = 2
-TEXT_PARSER_STAR_STAR = 3
-TEXT_PARSER_STAR_STAR_TEXT = 4
-TEXT_PARSER_STAR_STAR_TEXT_STAR = 5
-TEXT_PARSER_STAR_TEXT = 6
-TEXT_PARSER_STAR_UNDER = 7
-TEXT_PARSER_TICK = 8
-TEXT_PARSER_UNDER = 9
-TEXT_PARSER_UNDER_STAR = 10
-TEXT_PARSER_UNDER_STAR_STAR = 11
-TEXT_PARSER_UNDER_TEXT = 12
-TEXT_PARSER_UNDER_UNDER = 13
-TEXT_PARSER_UNDER_UNDER_STAR = 14
-TEXT_PARSER_UNDER_UNDER_TEXT = 15
-TEXT_PARSER_UNDER_UNDER_TEXT_UNDER = 16
-TEXT_PARSER_UNDER_UNDER_UNDER  = 17
-TEXT_PARSER_UNDER_UNDER_UNDER_TEXT  = 18
-TEXT_PARSER_UNDER_UNDER_UNDER_TEXT_U  = 19
-TEXT_PARSER_UNDER_UNDER_UNDER_TEXT_UU  = 20
+TEXT_PARSER_NORMAL = 100
+TEXT_PARSER_TICK   = 101        
+TEXT_PARSER_TICK_T = 102          
+TEXT_PARSER_U      = 103           # _
+TEXT_PARSER_US     = 104           # _*
+TEXT_PARSER_USS    = 105           # _**
+TEXT_PARSER_USST   = 106           # _**a
+TEXT_PARSER_USSTS  = 107           # _**a*
+TEXT_PARSER_UU     = 108           # __
+TEXT_PARSER_UUS    = 109           # __*
+TEXT_PARSER_UUSU   = 110           # __*_
+TEXT_PARSER_UUST   = 111           # __*a
+TEXT_PARSER_UUSTU  = 112           # __*a_
+TEXT_PARSER_UUT    = 113           # __a
+TEXT_PARSER_UUTS   = 114           # __a*
+TEXT_PARSER_UUTSU  = 115           # __a*_
+TEXT_PARSER_UUTST  = 116           # __a*b
+TEXT_PARSER_UUTSTU = 117           # __a*b_
+TEXT_PARSER_UUTU   = 118           # __a_
+TEXT_PARSER_UT     = 119           # _a
+TEXT_PARSER_UTS    = 120           # _a*
+TEXT_PARSER_UTSS   = 121           # _a**
+TEXT_PARSER_UTSST  = 122           # _a**b
+TEXT_PARSER_UTSSTS = 123           # _a**b*
+TEXT_PARSER_S      = 124           # *
+TEXT_PARSER_SU     = 125           # *_
+TEXT_PARSER_SUU    = 126           # *__
+TEXT_PARSER_SUUT   = 127           # *__a
+TEXT_PARSER_SUUTU  = 128           # *__a_
+TEXT_PARSER_SS     = 129           # **
+TEXT_PARSER_SSU    = 130           # **_
+TEXT_PARSER_SSUS   = 131           # **_*
+TEXT_PARSER_SSUT   = 132           # **_a
+TEXT_PARSER_SSUTS  = 133           # **_a*
+TEXT_PARSER_SST    = 134           # **a
+TEXT_PARSER_SSTU   = 135           # **a_
+TEXT_PARSER_SSTUS  = 136           # **a_*
+TEXT_PARSER_SSTUT  = 137           # **a_b
+TEXT_PARSER_SSTUTS = 138           # **a_b*
+TEXT_PARSER_SSTS   = 139           # **a*
+TEXT_PARSER_ST     = 140           # *a
+TEXT_PARSER_STU    = 141           # *a_
+TEXT_PARSER_STUU   = 142           # *a__
+TEXT_PARSER_STUUT  = 143           # *a__b
+TEXT_PARSER_STUUTU = 144           # *a__b_
 def text2text(x):
 	r = ''
 	i = 0
 	state = TEXT_PARSER_NORMAL
 	content = ''
 	while i < len(x):
-		# print(f'[+] TEXT_PARSER_{state}: "{x[:i]}•{x[i:]}"')
+		# print(f'[+] TEXT_PARSER_{state}: "{x[:i]}•{x[i:]}" -> "{r}"')
 		if state == TEXT_PARSER_NORMAL:
 			if x[i] == '`':
-				content = ''
 				state = TEXT_PARSER_TICK
 			elif x[i] == '_':
-				content = ''
-				state = TEXT_PARSER_UNDER
+				state = TEXT_PARSER_U
 			elif x[i] == '*':
-				content = ''
-				state = TEXT_PARSER_STAR
+				state = TEXT_PARSER_S
 			else:
 				r += x[i]
 		elif state == TEXT_PARSER_TICK:
+			if x[i] == '`':
+				r += '``'
+				state = LINK_PARSER_NORMAL
+			else:
+				content += x[i]
+				state = TEXT_PARSER_TICK_T
+		elif state == TEXT_PARSER_TICK_T:
 			if x[i] == '`':
 				r += f'<code>{content}</code>'
 				state = LINK_PARSER_NORMAL
 			else:
 				# inside ticks everything is verbatim
 				content += x[i]
-		elif state == TEXT_PARSER_UNDER:
+
+		elif state == TEXT_PARSER_U:      # _
 			if x[i] == '_':
-				state = TEXT_PARSER_UNDER_UNDER
+				state = TEXT_PARSER_UU
 			elif x[i] == '*':
-				state = TEXT_PARSER_UNDER_STAR
+				state = TEXT_PARSER_US
 			else:
 				content = x[i]
-				state = TEXT_PARSER_UNDER_TEXT
-		elif state == TEXT_PARSER_UNDER_TEXT:
-			# normal _xxx_
+				state = TEXT_PARSER_UT
+		elif state == TEXT_PARSER_US:     # _*
 			if x[i] == '_':
-				r += f'<em>{content}</em>'
-				state = LINK_PARSER_NORMAL
-			else:
-				content += x[i]
-		elif state == TEXT_PARSER_STAR_TEXT:
-			# normal *xxx*
-			if x[i] == '*':
-				r += f'<em>{content}</em>'
-				state = LINK_PARSER_NORMAL
-			else:
-				content += x[i]
-		elif state == TEXT_PARSER_UNDER_UNDER_TEXT:
-			# normal __xxx__
-			if x[i] == '_':
-				state = TEXT_PARSER_UNDER_UNDER_TEXT_UNDER
-			else:
-				content += x[i]
-		elif state == TEXT_PARSER_UNDER_UNDER_TEXT_UNDER:
-			if x[i] == '_':
-				r += f'<strong>{content}</strong>'
+				r += '<em>*</em>'
 				state = TEXT_PARSER_NORMAL
-			else:
-				r += f'_<em>{content}</em>'
-				state = TEXT_PARSER_NORMAL
-				continue
-		elif state == TEXT_PARSER_STAR_STAR_TEXT:
-			# normal **xxx**
-			if x[i] == '*':
-				state = TEXT_PARSER_STAR_STAR_TEXT_STAR
-			else:
-				content += x[i]
-		elif state == TEXT_PARSER_STAR_STAR_TEXT_STAR:
-			if x[i] == '*':
-				r += f'<strong>{content}</strong>'
-				state = TEXT_PARSER_NORMAL
-			else:
-				r += f'*<em>{content}</em>'
-				state = TEXT_PARSER_NORMAL
-				continue
-		elif state == TEXT_PARSER_UNDER_UNDER:
-			if x[i] == '_':
-				state = TEXT_PARSER_UNDER_UNDER_UNDER
 			elif x[i] == '*':
-				state = TEXT_PARSER_UNDER_UNDER_STAR
+				state = TEXT_PARSER_USS
+			else:
+				content = '*'+x[i]
+				state = TEXT_PARSER_UT
+		elif state == TEXT_PARSER_USS:    # _**
+			if x[i] == '_':
+				r += '<em>**</em>'
+			elif x[i] == '*':
+				content = '*'
+				state = TEXT_PARSER_UTSS
 			else:
 				content = x[i]
-				state = TEXT_PARSER_UNDER_UNDER_TEXT
-		elif state == TEXT_PARSER_UNDER_STAR:
-			if x[i] == '*':
-				state = TEXT_PARSER_UNDER_STAR_STAR
+				state = TEXT_PARSER_USST
+		elif state == TEXT_PARSER_USST:   # _**a
+			if x[i] == '_':
+				r += f'<em>**{content}</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '*':
+				state = TEXT_PARSER_USSTS
 			else:
-				# _*x - we give up
+				content += x[i]
+		elif state == TEXT_PARSER_USSTS:  # _**a*
+			if x[i] == '_':
+				r += f'<em>**{content}*</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '*':
+				content = f'<strong>{content}</strong>'
+				state = TEXT_PARSER_UT
+			else:
+				content += '*'+x[i]
+				state = TEXT_PARSER_USST
+		elif state == TEXT_PARSER_UU:     # __
+			if x[i] == '_':
 				r += '_'
-				state = TEXT_PARSER_STAR
-				continue
-		elif state == TEXT_PARSER_STAR:
+			elif x[i] == '*':
+				state = TEXT_PARSER_UUS
+			else:
+				content = x[i]
+				state = TEXT_PARSER_UUT
+		elif state == TEXT_PARSER_UUS:    # __*
+			if x[i] == '_':
+				state = TEXT_PARSER_UUSU
+			elif x[i] == '*':
+				content = '**'
+				state = TEXT_PARSER_UUT
+			else:
+				content = x[i]
+				state = TEXT_PARSER_UUST
+		elif state == TEXT_PARSER_UUSU:   # __*_
+			if x[i] == '_':
+				r += '<strong>*</strong>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '*':
+				content = '<em>_</em>'
+				state = TEXT_PARSER_UUT
+			else:
+				content = '_'+x[i]
+				state = TEXT_PARSER_UUST
+		elif state == TEXT_PARSER_UUST:   # __*a
+			if x[i] == '_':
+				state = TEXT_PARSER_UUSTU
+			elif x[i] == '*':
+				content = f'<em>{content}</em>'
+				state = TEXT_PARSER_UUT
+			else:
+				content += x[i]
+		elif state == TEXT_PARSER_UUSTU:  # __*a_
+			if x[i] == '_':
+				r += f'<strong>*{content}</strong>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '*':
+				content = f'<em>{content}_</em>'
+				state = TEXT_PARSER_UUT
+			else:
+				content += '_'+x[i]
+				state = TEXT_PARSER_UUST
+		elif state == TEXT_PARSER_UUT:    # __a
+			if x[i] == '_':
+				state = TEXT_PARSER_UUTU
+			elif x[i] == '*':
+				state = TEXT_PARSER_UUTS
+			else:
+				content += x[i]
+		elif state == TEXT_PARSER_UUTS:   # __a*
+			if x[i] == '_':
+				state = TEXT_PARSER_UUTSU
+			elif x[i] == '*':
+				content += '**'
+				state = TEXT_PARSER_UUT
+			else:
+				content2 = x[i]
+				state = TEXT_PARSER_UUTST
+		elif state == TEXT_PARSER_UUTSU:  # __a*_
+			if x[i] == '_':
+				r += f'<strong>{content}*</strong>'
+			elif x[i] == '*':
+				content += '<em>_</em>'
+				state = TEXT_PARSER_UUT
+			else:
+				content2 = '_'+x[i]
+				state = TEXT_PARSER_UUTST
+		elif state == TEXT_PARSER_UUTST:  # __a*b
+			if x[i] == '_':
+				state = TEXT_PARSER_UUTSTU
+			elif x[i] == '*':
+				content += f'<em>{content2}</em>'
+				state = TEXT_PARSER_UUT
+			else:
+				content2 += x[i]
+		elif state == TEXT_PARSER_UUTSTU: # __a*b_
+			if x[i] == '_':
+				r += f'<strong>{content}*{content2}</strong>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '*':
+				content += f'<em>{content2}_</em>'
+			else:
+				content2 ++ '_'+x[i]
+				state = TEXT_PARSER_UUTST
+		elif state == TEXT_PARSER_UUTU:   # __a_
+			if x[i] == '_':
+				r += f'<strong>{content}</strong>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '*':
+				content += '_'
+				state = TEXT_PARSER_UUTS
+			else:
+				content += '_'+x[i]
+				state = TEXT_PARSER_UUT
+		elif state == TEXT_PARSER_UT:     # _a
+			if x[i] == '_':
+				r += f'<em>{content}</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '*':
+				state = TEXT_PARSER_UTS
+			else:
+				content += x[i]
+		elif state == TEXT_PARSER_UTS:    # _a*
+			if x[i] == '_':
+				r += f'<em>{content}*</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '*':
+				state = TEXT_PARSER_UTSS
+			else:
+				content += '*'+x[i]
+				state = TEXT_PARSER_UT
+		elif state == TEXT_PARSER_UTSS:   # _a**
+			if x[i] == '_':
+				r += f'<em>{content}**</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '*':
+				content += '*'
+			else:
+				content2 = x[i]
+				state = TEXT_PARSER_UTSST
+		elif state == TEXT_PARSER_UTSST:  # _a**b
+			if x[i] == '_':
+				r += f'<em>{content}**{content2}</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '*':
+				state = TEXT_PARSER_UTSSTS
+			else:
+				content2 += x[i]
+		elif state == TEXT_PARSER_UTSSTS: # _a**b*
+			if x[i] == '_':
+				r += f'<em>{content}**{content2}*</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '*':
+				content += f'<strong>{content2}</strong>'
+				state = TEXT_PARSER_UT
+			else:
+				content2 += '*'+x[i]
+				state = TEXT_PARSER_UTSST
+
+		elif state == TEXT_PARSER_S:      # *
 			if x[i] == '*':
-				state = TEXT_PARSER_STAR_STAR
+				state = TEXT_PARSER_SS
 			elif x[i] == '_':
-				state = TEXT_PARSER_STAR_UNDER
+				state = TEXT_PARSER_SU
 			else:
-				content += x[i]
-				state = TEXT_PARSER_STAR_TEXT
-		elif state == TEXT_PARSER_UNDER_UNDER_UNDER:
-			if x[i] == '_':
-				# give up the first underscore, keep at three
-				r += '_'
+				content = ''
+				state = TEXT_PARSER_ST
+		elif state == TEXT_PARSER_SU:     # *_
+			if x[i] == '*':
+				r += '<em>_</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '_':
+				state = TEXT_PARSER_SUU
+			else:
+				content = '_'+x[i]
+				state = TEXT_PARSER_ST
+		elif state == TEXT_PARSER_SUU:    # *__
+			if x[i] == '*':
+				r += '<em>__</em>'
+			elif x[i] == '_':
+				content = '_'
+				state = TEXT_PARSER_STUU
 			else:
 				content = x[i]
-				state = TEXT_PARSER_UNDER_UNDER_UNDER_TEXT
-		elif state == TEXT_PARSER_UNDER_UNDER_UNDER_TEXT:
-			if x[i] == '_':
-				state = TEXT_PARSER_UNDER_UNDER_UNDER_TEXT_U
+				state = TEXT_PARSER_SUUT
+		elif state == TEXT_PARSER_SUUT:   # *__a
+			if x[i] == '*':
+				r += f'<em>__{content}</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '_':
+				state = TEXT_PARSER_SUUTU
 			else:
 				content += x[i]
-		elif state == TEXT_PARSER_UNDER_UNDER_UNDER_TEXT_U:
-			if x[i] == '_':
-				state = TEXT_PARSER_UNDER_UNDER_UNDER_TEXT_UU
+		elif state == TEXT_PARSER_SUUTU:  # *__a_
+			if x[i] == '*':
+				r += f'<em>__{content}_</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '_':
+				content = f'<strong>{content}</strong>'
+				state = TEXT_PARSER_ST
 			else:
-				r += f'__<em>{content}</em>'
-				state = TEXT_PARSER_NORMAL
-				continue
-		elif state == TEXT_PARSER_UNDER_UNDER_UNDER_TEXT_UU:
-			if x[i] == '_':
-				r += f'<strong><em>{content}</em></strong>'
-				state = TEXT_PARSER_NORMAL
+				content += '_'+x[i]
+				state = TEXT_PARSER_SUUT
+		elif state == TEXT_PARSER_SS:     # **
+			if x[i] == '*':
+				r += '*'
+			elif x[i] == '_':
+				state = TEXT_PARSER_SSU
 			else:
-				r += f'_<strong>{content}</strong>'
+				content = x[i]
+				state = TEXT_PARSER_SST
+		elif state == TEXT_PARSER_SSU:    # **_
+			if x[i] == '*':
+				state = TEXT_PARSER_SSUS
+			elif x[i] == '_':
+				content = '__'
+				state = TEXT_PARSER_SST
+			else:
+				content = x[i]
+				state = TEXT_PARSER_SSUT
+		elif state == TEXT_PARSER_SSUS:   # **_*
+			if x[i] == '*':
+				r += '<strong>_</strong>'
 				state = TEXT_PARSER_NORMAL
-				continue
+			elif x[i] == '_':
+				content = '<em>*</em>'
+				state = TEXT_PARSER_SST
+			else:
+				content = '*'+x[i]
+				state = TEXT_PARSER_SSUT
+		elif state == TEXT_PARSER_SSUT:   # **_a
+			if x[i] == '*':
+				state = TEXT_PARSER_SSUTS
+			elif x[i] == '_':
+				content = f'<em>{content}</em>'
+				state = TEXT_PARSER_SST
+			else:
+				content += x[i]
+		elif state == TEXT_PARSER_SSUTS:  # **_a*
+			if x[i] == '*':
+				r += f'<strong>_{content}</strong>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '_':
+				content = f'<em>{content}*</em>'
+				state = TEXT_PARSER_SST
+			else:
+				content += '*'+x[i]
+				state = TEXT_PARSER_SSUT
+		elif state == TEXT_PARSER_SST:    # **a
+			if x[i] == '*':
+				state = TEXT_PARSER_SSTS
+			elif x[i] == '_':
+				state = TEXT_PARSER_SSTU
+			else:
+				content += x[i]
+		elif state == TEXT_PARSER_SSTU:   # **a_
+			if x[i] == '*':
+				state = TEXT_PARSER_SSTUS
+			elif x[i] == '_':
+				content += '__'
+				state = TEXT_PARSER_SST
+			else:
+				content2 = x[i]
+				state = TEXT_PARSER_SSTUT
+		elif state == TEXT_PARSER_SSTUS:  # **a_*
+			if x[i] == '*':
+				r += f'<strong>{content}_</strong>'
+			elif x[i] == '_':
+				content += '<em>*</em>'
+				state = TEXT_PARSER_SST
+			else:
+				content2 = '*'+x[i]
+				state = TEXT_PARSER_SSTUT
+		elif state == TEXT_PARSER_SSTUT:  # **a_b
+			if x[i] == '*':
+				state = TEXT_PARSER_SSTUTS
+			elif x[i] == '_':
+				content += f'<em>{content2}</em>'
+				state = TEXT_PARSER_SST
+			else:
+				content2 += x[i]
+		elif state == TEXT_PARSER_SSTUTS: # **a_b*
+			if x[i] == '*':
+				r += f'<strong>{content}_{content2}</strong>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '_':
+				content += f'<em>{content2}*</em>'
+			else:
+				content2 ++ '*'+x[i]
+				state = TEXT_PARSER_SSTUT
+		elif state == TEXT_PARSER_SSTS:   # **a*
+			if x[i] == '*':
+				r += f'<strong>{content}</strong>'
+			elif x[i] == '_':
+				content += '*'
+				state = TEXT_PARSER_SSTU
+			else:
+				content += '*'+x[i]
+				state = TEXT_PARSER_SST
+		elif state == TEXT_PARSER_ST:     # *a
+			if x[i] == '*':
+				r += f'<em>{content}</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '_':
+				state = TEXT_PARSER_STU
+			else:
+				content += x[i]
+		elif state == TEXT_PARSER_STU:    # *a_
+			if x[i] == '*':
+				r += f'<em>{content}_</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '_':
+				state = TEXT_PARSER_STUU
+			else:
+				content += '_'+x[i]
+				state = TEXT_PARSER_ST
+		elif state == TEXT_PARSER_STUU:   # *a__
+			if x[i] == '*':
+				r += f'<em>{content}__</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '_':
+				content += '_'
+			else:
+				content2 = x[i]
+				state = TEXT_PARSER_STUUT
+		elif state == TEXT_PARSER_STUUT:  # *a__b
+			if x[i] == '*':
+				r += f'<em>{content}__{content2}</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '_':
+				state = TEXT_PARSER_STUUTU
+			else:
+				content2 += x[i]
+		elif state == TEXT_PARSER_STUUTU: # *a__b_
+			if x[i] == '*':
+				r += f'<em>{content}__{content2}_</em>'
+				state = TEXT_PARSER_NORMAL
+			elif x[i] == '_':
+				content += f'<strong>{content2}</strong>'
+				state = TEXT_PARSER_ST
+			else:
+				content2 += '_'+x[i]
+				state = TEXT_PARSER_STUUT
+
 		else:
 			# should be empty
 			r += x[i]
 		i += 1
 	# print(f'[*] TEXT_PARSER_{state}: "{x[:i]}•{x[i:]}"')
 	# aftermath
-	if state == TEXT_PARSER_STAR:
-		r += '*'
-	elif state == TEXT_PARSER_STAR_STAR:
-		r += '**'
-	elif state == TEXT_PARSER_STAR_STAR_TEXT:
-		r += f'**{content}'
-	elif state == TEXT_PARSER_STAR_STAR_TEXT_STAR:
-		r += f'*<em>{content}</em>'
-	elif state == TEXT_PARSER_STAR_TEXT:
-		r += f'*{content}'
-	elif state == TEXT_PARSER_STAR_UNDER:
-		r += '*_'
-	elif state == TEXT_PARSER_TICK:
+	if state == TEXT_PARSER_NORMAL: 
+		pass
+	elif state == TEXT_PARSER_TICK:           
+		r += '`'
+	elif state == TEXT_PARSER_TICK_T:           
 		r += f'`{content}'
-	elif state == TEXT_PARSER_UNDER:
+	elif state == TEXT_PARSER_U:      # _
 		r += '_'
-	elif state == TEXT_PARSER_UNDER_STAR:
+	elif state == TEXT_PARSER_US:     # _*
 		r += '_*'
-	elif state == TEXT_PARSER_UNDER_STAR_STAR:
+	elif state == TEXT_PARSER_USS:    # _**
 		r += '_**'
-	elif state == TEXT_PARSER_UNDER_TEXT:
-		r += f'_{content}'
-	elif state == TEXT_PARSER_UNDER_UNDER:
+	elif state == TEXT_PARSER_USST:   # _**a
+		r += f'_**{content}'
+	elif state == TEXT_PARSER_USSTS:  # _**a*
+		# slightly nontrivial
+		r += f'_*<em>{content}</em>'
+	elif state == TEXT_PARSER_UU:     # __
 		r += '__'
-	elif state == TEXT_PARSER_UNDER_UNDER_STAR:
+	elif state == TEXT_PARSER_UUS:    # __*
 		r += '__*'
-	elif state == TEXT_PARSER_UNDER_UNDER_TEXT:
+	elif state == TEXT_PARSER_UUSU:   # __*_
+		# slightly nontrivial
+		r += '_<em>*</em>'
+	elif state == TEXT_PARSER_UUST:   # __*a
+		r += f'__*{content}'
+	elif state == TEXT_PARSER_UUSTU:  # __*a_
+		# slightly nontrivial
+		r += f'_<em>*{content}</em>'
+	elif state == TEXT_PARSER_UUT:    # __a
 		r += f'__{content}'
-	elif state == TEXT_PARSER_UNDER_UNDER_TEXT_UNDER:
+	elif state == TEXT_PARSER_UUTS:   # __a*
+		r += f'__{content}*'
+	elif state == TEXT_PARSER_UUTSU:  # __a*_
+		# slightly nontrivial
+		r += f'_<em>{content}*</em>'
+	elif state == TEXT_PARSER_UUTST:  # __a*b
+		r += f'__{content}*{content2}'
+	elif state == TEXT_PARSER_UUTSTU: # __a*b_
+		# slightly nontrivial
+		r += f'_<em>{content}*{content2}</em>'
+	elif state == TEXT_PARSER_UUTU:   # __a_
+		# slightly nontrivial
 		r += f'_<em>{content}</em>'
-	elif state == TEXT_PARSER_UNDER_UNDER_UNDER:
-		r += '___'
-	elif state == TEXT_PARSER_UNDER_UNDER_UNDER_TEXT:
-		r += f'___{content}'
-	elif state == TEXT_PARSER_UNDER_UNDER_UNDER_TEXT_U:
-		r += f'__<em>{content}</em>'
-	elif state == TEXT_PARSER_UNDER_UNDER_UNDER_TEXT_UU:
-		r += f'_<strong>{content}</strong>'
-	return r
+	elif state == TEXT_PARSER_UT:     # _a
+		r += f'_{content}'
+	elif state == TEXT_PARSER_UTS:    # _a*
+		r += f'_{content}*'
+	elif state == TEXT_PARSER_UTSS:   # _a**
+		r += f'_{content}**'
+	elif state == TEXT_PARSER_UTSST:  # _a**b
+		r += f'_{content}**{content2}'
+	elif state == TEXT_PARSER_UTSSTS: # _a**b*
+		# slightly nontrivial
+		r += f'_{content}*<em>{content2}</em>'
+	elif state == TEXT_PARSER_S:      # *
+		r += '*'
+	elif state == TEXT_PARSER_SU:     # *_
+		r += '*_'
+	elif state == TEXT_PARSER_SUU:    # *__
+		r += '*__'
+	elif state == TEXT_PARSER_SUUT:   # *__a
+		r += f'*__{content}'
+	elif state == TEXT_PARSER_SUUTU:  # *__a_
+		# slightly nontrivial
+		r += f'*_<em>{content}</em>'
+	elif state == TEXT_PARSER_SS:     # **
+		r += '**'
+	elif state == TEXT_PARSER_SSU:    # **_
+		r += '**_'
+	elif state == TEXT_PARSER_SSUS:   # **_*
+		# slightly nontrivial
+		r += '*<em>_<em>'
+	elif state == TEXT_PARSER_SSUT:   # **_a
+		r += f'**_{content}'
+	elif state == TEXT_PARSER_SSUTS:  # **_a*
+		# slightly nontrivial
+		r += f'*<em>_{content}</em>'
+	elif state == TEXT_PARSER_SST:    # **a
+		r += f'**{content}'
+	elif state == TEXT_PARSER_SSTU:   # **a_
+		r += f'**{content}_'
+	elif state == TEXT_PARSER_SSTUS:  # **a_*
+		# slightly nontrivial
+		r += f'*<em>{content}_</em>'
+	elif state == TEXT_PARSER_SSTUT:  # **a_b
+		r += f'**{content}_{content2}'
+	elif state == TEXT_PARSER_SSTUTS: # **a_b*
+		# slightly nontrivial
+		r += f'*<em>{content}_{content2}</em>'
+	elif state == TEXT_PARSER_SSTS:   # **a*
+		# slightly nontrivial
+		r += f'*<em>{content}</em>'
+	elif state == TEXT_PARSER_ST:     # *a
+		r += f'*{content}'
+	elif state == TEXT_PARSER_STU:    # *a_
+		r += f'*{content}_'
+	elif state == TEXT_PARSER_STUU:   # *a__
+		r += f'*{content}__'
+	elif state == TEXT_PARSER_STUUT:  # *a__b
+		r += f'*{content}__{content2}'
+	elif state == TEXT_PARSER_STUUTU: # *a__b_
+		# slightly nontrivial
+		r += f'*{content}_<em>{content2}</em>'
+
+	return r.replace('</em><em>','').replace('</strong><strong>','').replace('<em></em>','').replace('<strong></strong>','')

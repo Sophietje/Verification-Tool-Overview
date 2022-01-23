@@ -198,12 +198,167 @@ class TestConverter(unittest.TestCase):
     def test_text2text_AAAA(self):
         self.assertEqual(hyper.text2text('a_b_c_d'), 'a<em>b</em>c_d')
 
+    def test_text2text_eeeee(self):
+        self.assertEqual(hyper.text2text('____'), '____')
+    def test_text2text_eeeeA(self):
+        self.assertEqual(hyper.text2text('____a'), '____a')
+    def test_text2text_eeeAe(self):
+        self.assertEqual(hyper.text2text('___a_'), '__<em>a</em>')
+    def test_text2text_eeeAA(self):
+        self.assertEqual(hyper.text2text('___a_b'), '__<em>a</em>b')
+    def test_text2text_eeAee(self):
+        self.assertEqual(hyper.text2text('__a__'), '<strong>a</strong>')
+    def test_text2text_eeAeA(self):
+        self.assertEqual(hyper.text2text('__a__b'), '<strong>a</strong>b')
+    def test_text2text_eeAAe(self):
+        # NB: alternative implementation would be   '_<em>a</em>b_'
+        self.assertEqual(hyper.text2text('__a_b_'), '_<em>a_b</em>')
+    def test_text2text_eeAAA(self):
+        self.assertEqual(hyper.text2text('__a_b_c'), '_<em>a</em>b_c')
+    def test_text2text_eAeee(self):
+        self.assertEqual(hyper.text2text('_a___'), '<em>a</em>__')
+    def test_text2text_eAeeA(self):
+        self.assertEqual(hyper.text2text('_a___b'), '<em>a</em>__b')
+    def test_text2text_eAeAe(self):
+        self.assertEqual(hyper.text2text('_a__b_'), '<em>ab</em>')
+    def test_text2text_eAeAA(self):
+        self.assertEqual(hyper.text2text('_a__b_c'), '<em>ab</em>c')
+    def test_text2text_eAAee(self):
+        self.assertEqual(hyper.text2text('_a_b__'), '<em>a</em>b__')
+    def test_text2text_eAAeA(self):
+        self.assertEqual(hyper.text2text('_a_b__c'), '<em>a</em>b__c')
+    def test_text2text_eAAAe(self):
+        self.assertEqual(hyper.text2text('_a_b_c_'), '<em>a</em>b<em>c</em>')
+    def test_text2text_eAAAA(self):
+        self.assertEqual(hyper.text2text('_a_b_c_d'), '<em>a</em>b<em>c</em>d')
+    def test_text2text_Aeeee(self):
+        self.assertEqual(hyper.text2text('a____'), 'a____')
+    def test_text2text_AeeeA(self):
+        self.assertEqual(hyper.text2text('a____b'), 'a____b')
+    def test_text2text_AeeAe(self):
+        self.assertEqual(hyper.text2text('a___b_'), 'a__<em>b</em>')
+    def test_text2text_AeeAA(self):
+        self.assertEqual(hyper.text2text('a___b_c'), 'a__<em>b</em>c')
+    def test_text2text_AeAee(self):
+        self.assertEqual(hyper.text2text('a__b__'), 'a<strong>b</strong>')
+    def test_text2text_AeAeA(self):
+        self.assertEqual(hyper.text2text('a__b__c'), 'a<strong>b</strong>c')
+    def test_text2text_AeAAe(self):
+        # NB: alternative interpretation could be    'a_<em>b</em>c_')
+        self.assertEqual(hyper.text2text('a__b_c_'), 'a_<em>b_c</em>')
+    def test_text2text_AeAAA(self):
+        self.assertEqual(hyper.text2text('a__b_c_d'), 'a_<em>b</em>c_d')
+    def test_text2text_AAeee(self):
+        self.assertEqual(hyper.text2text('a_b___'), 'a<em>b</em>__')
+    def test_text2text_AAeeA(self):
+        self.assertEqual(hyper.text2text('a_b___c'), 'a<em>b</em>__c')
+    def test_text2text_AAeAe(self):
+        self.assertEqual(hyper.text2text('a_b__c_'), 'a<em>bc</em>')
+    def test_text2text_AAeAA(self):
+        self.assertEqual(hyper.text2text('a_b__c_d'), 'a<em>bc</em>d')
+    def test_text2text_AAAee(self):
+        self.assertEqual(hyper.text2text('a_b_c__'), 'a<em>b</em>c__')
+    def test_text2text_AAAeA(self):
+        self.assertEqual(hyper.text2text('a_b_c__d'), 'a<em>b</em>c__d')
+    def test_text2text_AAAAe(self):
+        self.assertEqual(hyper.text2text('a_b_c_d_'), 'a<em>b</em>c<em>d</em>')
+    def test_text2text_AAAAA(self):
+        self.assertEqual(hyper.text2text('a_b_c_d_e'), 'a<em>b</em>c<em>d</em>e')
+
+    def test_text2text_combo_eeeee(self):
+        self.assertEqual(hyper.text2text('_****_'), '<em>****</em>')
+    def test_text2text_combo_eeeeA(self):
+        self.assertEqual(hyper.text2text('_****_a'), '<em>****</em>a')
+    def test_text2text_combo_eeeAe(self):
+        self.assertEqual(hyper.text2text('_****a_'), '<em>****a</em>')
+    def test_text2text_combo_eeeAA(self):
+        self.assertEqual(hyper.text2text('_****a_b'), '<em>****a</em>b')
+    def test_text2text_combo_eeAee(self):
+        self.assertEqual(hyper.text2text('_**a**_'), '<em><strong>a</strong></em>')
+    def test_text2text_combo_eeAeA(self):
+        self.assertEqual(hyper.text2text('_**a**_b'), '<em><strong>a</strong></em>b')
+    def test_text2text_combo_eeAAe(self):
+        self.assertEqual(hyper.text2text('_**a**b_'), '<em><strong>a</strong>b</em>')
+    def test_text2text_combo_eeAAA(self):
+        self.assertEqual(hyper.text2text('_**a**b_c'), '<em><strong>a</strong>b</em>c')
+    def test_text2text_combo_eAeee(self):
+        self.assertEqual(hyper.text2text('_a****_'), '<em>a****</em>')
+    def test_text2text_combo_eAeeA(self):
+        self.assertEqual(hyper.text2text('_a****_b'), '<em>a****</em>b')
+    def test_text2text_combo_eAeAe(self):
+        self.assertEqual(hyper.text2text('_a****b_'), '<em>a****b</em>')
+    def test_text2text_combo_eAeAA(self):
+        self.assertEqual(hyper.text2text('_a****b_c'), '<em>a****b</em>c')
+    def test_text2text_combo_eAAee(self):
+        self.assertEqual(hyper.text2text('_a**b**_'), '<em>a<strong>b</strong></em>')
+    def test_text2text_combo_eAAeA(self):
+        self.assertEqual(hyper.text2text('_a**b**_c'), '<em>a<strong>b</strong></em>c')
+    def test_text2text_combo_eAAAe(self):
+        self.assertEqual(hyper.text2text('_a**b**c_'), '<em>a<strong>b</strong>c</em>')
+    def test_text2text_combo_eAAAA(self):
+        self.assertEqual(hyper.text2text('_a**b**c_d'), '<em>a<strong>b</strong>c</em>d')
+    def test_text2text_combo_Aeeee(self):
+        self.assertEqual(hyper.text2text('a_****_'), 'a<em>****</em>')
+    def test_text2text_combo_AeeeA(self):
+        self.assertEqual(hyper.text2text('a_****_b'), 'a<em>****</em>b')
+    def test_text2text_combo_AeeAe(self):
+        self.assertEqual(hyper.text2text('a_****b_'), 'a<em>****b</em>')
+    def test_text2text_combo_AeeAA(self):
+        self.assertEqual(hyper.text2text('a_****b_c'), 'a<em>****b</em>c')
+    def test_text2text_combo_AeAee(self):
+        self.assertEqual(hyper.text2text('a_**b**_'), 'a<em><strong>b</strong></em>')
+    def test_text2text_combo_AeAeA(self):
+        self.assertEqual(hyper.text2text('a_**b**_c'), 'a<em><strong>b</strong></em>c')
+    def test_text2text_combo_AeAAe(self):
+        self.assertEqual(hyper.text2text('a_**b**c_'), 'a<em><strong>b</strong>c</em>')
+    def test_text2text_combo_AeAAA(self):
+        self.assertEqual(hyper.text2text('a_**b**c_d'), 'a<em><strong>b</strong>c</em>d')
+    def test_text2text_combo_AAeee(self):
+        self.assertEqual(hyper.text2text('a_b****_'), 'a<em>b****</em>')
+    def test_text2text_combo_AAeeA(self):
+        self.assertEqual(hyper.text2text('a_b****_c'), 'a<em>b****</em>c')
+    def test_text2text_combo_AAeAe(self):
+        self.assertEqual(hyper.text2text('a_b****c_'), 'a<em>b****c</em>')
+    def test_text2text_combo_AAeAA(self):
+        self.assertEqual(hyper.text2text('a_b****c_d'), 'a<em>b****c</em>d')
+    def test_text2text_combo_AAAee(self):
+        self.assertEqual(hyper.text2text('a_b**c**_'), 'a<em>b<strong>c</strong></em>')
+    def test_text2text_combo_AAAeA(self):
+        self.assertEqual(hyper.text2text('a_b**c**_d'), 'a<em>b<strong>c</strong></em>d')
+    def test_text2text_combo_AAAAe(self):
+        self.assertEqual(hyper.text2text('a_b**c**d_'), 'a<em>b<strong>c</strong>d</em>')
+    def test_text2text_combo_AAAAA(self):
+        self.assertEqual(hyper.text2text('a_b**c**d_e'), 'a<em>b<strong>c</strong>d</em>e')
+
+
+A = '@'
+def nextA(x):
+    if x != 'A':
+        return ''
+    global A
+    current = A
+    A = chr(ord(A)+1)
+    return current
+
+def gen():
+    global A
+    for i in range(0,32):
+        A = 'a'
+        pattern = bin(i)[2:].replace('0','e').replace('1','A')
+        while len(pattern) < 5:
+            pattern = 'e' + pattern
+        print(f'def test_text2text_combo_{pattern}(self):')
+        # pattern = '_'.join(['a' if s == 'A' else '' for s in pattern])
+        pattern = f'{nextA(pattern[0])}_{nextA(pattern[1])}**{nextA(pattern[2])}**{nextA(pattern[3])}_{nextA(pattern[4])}'
+        print(f"    self.assertEqual(hyper.text2text('{pattern}'), '{hyper.text2text(pattern)}')")
+
 def debug():
-    i = 'a__b_'
+    i = '_a___'
     print(f'[$]  INPUT: "{i}"')
     o = hyper.text2text(i)
     print(f'[$] OUTPUT: "{o}"')
 
 if __name__ == '__main__':
+    # gen()
     # debug()
     unittest.main()
