@@ -22,7 +22,7 @@ The verifier, given a Boogie program, generates verification conditions (VCs) th
 Uses [Z3](../Solvers/SMT/Z3.md), [CVC4](../Solvers/SMT/CVC4.md), [Yices](../Solvers/SMT/Yices.md)
 
 #### Comments:
-Intermediate verification language & verifier
+Intermediate verification **language & verifier**
 It is intended as a layer to build program verifiers on top of.
 
 License: MIT
