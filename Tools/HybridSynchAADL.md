@@ -28,7 +28,7 @@ The formal analyses might give a counterexample if the specification is not sati
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 HybridSynchAADL (the language) is a subset of the avionics modeling standard AADL and its behavioral annex to model control programs, and captures a synchronous subset of AADL with continuous behaviors.
 
-The formal analysis is done using a combination of [Maude](Frameworks/Maude.md) and [Yices](Solvers/SMT/Yices.md). It can do symbolic reachability analysis and randomized simulation. Symbolic reachability analysis can verify that all possible behaviors satisfy a given requirement, if not then a counterexample is generated. Randomized simulation repeatedly executes the model until a counterexample is found.
+The formal analysis is done using a combination of [Maude](../Formats/Maude.md) and [Yices](Solvers/SMT/Yices.md). It can do symbolic reachability analysis and randomized simulation. Symbolic reachability analysis can verify that all possible behaviors satisfy a given requirement, if not then a counterexample is generated. Randomized simulation repeatedly executes the model until a counterexample is found.
 The user can specify time-bounded invariant and reachability properties that should be checked.
 
 The tool can be used to do the following things:

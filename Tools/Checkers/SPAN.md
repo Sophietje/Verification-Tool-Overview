@@ -22,7 +22,7 @@ Model checker
 `true` or `false` indicating whether two randomized security protocols are indistinguishable.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[KISS]], [[AKISS]], [Maude](../Frameworks/Maude.md), [Apfloat](../Libraries/Apfloat.md)
+Uses [[KISS]], [[AKISS]], [Maude](../../Formats/Maude.md), [Apfloat](../Libraries/Apfloat.md)
 
 #### Comments:
 
