@@ -45,5 +45,5 @@ https://doi.org/10.1007/978-3-030-25540-4_6
 -
 
 #### Meta
-:: Automata
+:: Automaton
 :: PV1           :: checks compatibility of communicating automata

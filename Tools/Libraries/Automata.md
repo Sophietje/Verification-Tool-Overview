@@ -40,3 +40,7 @@ Repository: https://github.com/AutomataDotNet/Automata
 https://doi.org/10.1007/978-3-319-63390-9_10 (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Automaton
+:: PV0 :: a library to compose symbolic automata and prepare them for analysis

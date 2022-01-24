@@ -42,3 +42,7 @@ Repository: https://github.com/suguman/DetLP
 https://doi.org/10.1007/978-3-319-96142-2_9
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Automaton
+:: PV1 :: comparator of two weighted automata

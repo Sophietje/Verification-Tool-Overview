@@ -42,3 +42,7 @@ https://doi.org/10.1007/978-3-030-25540-4_4 (CAV 2019)
 #### Related tools (tools mentioned or compared to in the paper):
 Probably related to [QuIP](Checkers/QuIP.md) by the same authors. The authors claim that QuIPFly outperforms QuIP "by at least an order of magnitude in runtime".
 Also compared to [DetLP](DetLP.md) in the CAV 2019 paper. The authors claim that QuIPFly outperforms [DetLP](DetLP.md) both in runtime and number of benchmarks solved.
+
+#### Meta
+:: Automaton
+:: PV1 :: comparator of two weighted automata

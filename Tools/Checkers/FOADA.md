@@ -39,5 +39,5 @@ https://doi.org/10.1007/978-3-030-25543-5_3
 Compared to [[INCLUDER]] in the paper
 
 #### Meta
-:: Automata
+:: Automaton
 :: PV1           :: checks whether the given automaton is empty
