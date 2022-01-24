@@ -339,6 +339,11 @@ class TestConverter(unittest.TestCase):
         self.assertEqual(hyper.text2text('a_b**c**d_'), 'a<em>b<strong>c</strong>d</em>')
     def test_text2text_combo_AAAAA(self):
         self.assertEqual(hyper.text2text('a_b**c**d_e'), 'a<em>b<strong>c</strong>d</em>e')
+    def test_link2link_uri(self):
+        self.assertEqual(hyper.my_md_converter(\
+            'Repository: https://github.com/tanyongkiam/cake_lpr'),\
+            'Repository: <a href="https://github.com/tanyongkiam/cake_lpr"><code>https://github.com/tanyongkiam/cake_lpr</code></a>')
+
 
 
 A = '@'

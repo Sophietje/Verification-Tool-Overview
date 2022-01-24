@@ -361,6 +361,12 @@ def text2text(x):
 	content = ''
 	while i < len(x):
 		# print(f'[+] TEXT_PARSER_{state}: "{x[:i]}•{x[i:]}" -> "{r}"')
+		if x[i:].startswith('<a href="'):
+			j = x.find('</a>', i)
+			if j > i:
+				r += x[i:j+4]
+				i = j+4
+				continue
 		if state == TEXT_PARSER_NORMAL:
 			if x[i] == '`':
 				state = TEXT_PARSER_TICK

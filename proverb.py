@@ -113,4 +113,4 @@ class IndexPage(Page):
 	def __init__(self, cat, size, lst):
 		super(IndexPage, self).__init__('Index')
 		FULL_TITLE = f'<h1 class="fbs">{cat} in ProVerB</h1>'
-		self.tabs['Index'] = FULL_TITLE + lst + f'<p>{size} items on this list.</p>'
+		self.tabs['Index'] = FULL_TITLE + lst + f'\n<p>{size} items on this list.</p>'
