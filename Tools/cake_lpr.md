@@ -32,6 +32,9 @@ Commit: 04.01.2021
 https://doi.org/10.1007/978-3-030-72013-1_12 (TACAS '21)
 
 #### Comments:
-LPR is somewhat weaker than PR
-PR generalises RAT (Resolution Asymmetric Tautology)
-RAT is a de facto standard
+- LPR is somewhat weaker than PR
+- PR generalises RAT (Resolution Asymmetric Tautology)
+- RAT is a de facto standard
+
+#### Meta:
+:: PV3 :: takes a proof and checks whether it satisfies linear propagation redundancy expectations
