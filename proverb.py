@@ -58,7 +58,6 @@ TEMPLATE = '''
 			<a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
 			<h1>ProVerB:</h1>
 			<h2>Program<br/>Verification<br/>Book</h2>
-
 			<p>
 				<a href="index.html">Top</a><br/>
 				<a href="all.html">Tools</a><br/>
@@ -71,7 +70,7 @@ TEMPLATE = '''
 				<a href="https://github.com/Sophietje/Verification-Tool-Overview/">Backend repo</a><br/>
 				<a href="https://github.com/slebok/slebok.github.io/tree/master/proverb">Frontend repo</a><br/>
 				<br/>
-				<a href="help.html">Help</a><br/>
+				<a href="credits.html">Credits</a><br/>
 			</p>
 		</div>
 		<div class="main">
