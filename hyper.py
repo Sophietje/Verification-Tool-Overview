@@ -1,9 +1,6 @@
 #!/Users/grammarware/opt/anaconda3/bin/python
 
-import markdown2
-
-def md2html_generic(md_lines):
-	return markdown2.markdown('\n'.join(md_lines))
+import latex2mathml.converter
 
 def is_ul_item(line):
 	return line.startswith('- ') or line.startswith('* ')
@@ -83,7 +80,7 @@ def md2html(md_lines):
 	return '\n'.join(ret_lines)
 
 def my_md_converter(x):
-	return latex2mathml(text2text(clickable(link2link(x))))
+	return text2text(clickable(link2link(gentle_latex2mathml(x))))
 
 def get_key(fn):
 	if fn.endswith('.md'):
@@ -153,27 +150,7 @@ def make_link(where, what, hover='', why=''):
 		s += f' ({why})'
 	return s
 
-def matched2code(x):
-	for pair in (('`','code'), ('**','strong'), ('__','strong'), ('*','em'), ('_','em')):
-		x = matched2tag(pair[0], pair[1], x) 
-	return latex2mathml(x)
-
-def matched2tag(symbol, tag, x):
-	if x.find(symbol) < 0:
-		# no need to go through the trouble
-		return x
-	xs = x.split(symbol)
-	if len(xs) == 2:
-		# we consider this too few
-		return x
-	if len(xs) % 2 != 0:
-		xs.append('')
-	r = ''
-	for i in range(0, len(xs) // 2):
-		r += f'{xs[2*i]}<{tag}>{xs[2*i+1]}</{tag}>'
-	return r.replace(f'<{tag}></{tag}>', '').replace(f'</{tag}><{tag}>', '')
-
-def latex2mathml(x):
+def gentle_latex2mathml(x):
 	if x.find('$') < 0:
 		# no need to go through the trouble
 		return x
@@ -182,26 +159,9 @@ def latex2mathml(x):
 	if x.endswith('$'):
 		x = x + ' '
 	xs = x.split('$')
-	if len(xs) == 3:
-		return f'{xs[0]}<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>{mathify_symbol(xs[1])}</mi></mrow></math>{xs[2]}'.strip()
-	elif len(xs) == 5:
-		return f'''{xs[0]}
-		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>{mathify_symbol(xs[1])}</mi></mrow></math>
-		{xs[2]}
-		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>{mathify_symbol(xs[3])}</mi></mrow></math>
-		{xs[4]}'''.strip()
-	else:
-		# too complex
-		return x
-
-def mathify_symbol(s):
-	for x in 'alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'eta', 'theta', 'iota', 'kappa', 'lambda', 'mu', 'nu', 'xi', 'omicron', 'pi', 'rho', 'sigma', 'tau', 'upsilon', 'phi', 'chi', 'psi', 'omega':
-		if s == '\\' + x:
-			return f'&{x};'
-		if s.lower() == '\\' + x and s[1].isupper():
-			return f'&{x[0].upper()}{x[1:]};'
-	return s
-
+	for i in range(0,len(xs)//2):
+		xs[2*i+1] = latex2mathml.converter.convert(xs[2*i+1])
+	return ''.join(xs).strip()
 
 LINK_PARSER_NORMAL = 1
 LINK_PARSER_PERHAPS_LINK = 2
