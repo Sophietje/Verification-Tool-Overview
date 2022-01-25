@@ -183,16 +183,24 @@ def latex2mathml(x):
 		x = x + ' '
 	xs = x.split('$')
 	if len(xs) == 3:
-		return f'{xs[0]}<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>{xs[1]}</mi></mrow></math>{xs[2]}'.strip()
+		return f'{xs[0]}<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>{mathify_symbol(xs[1])}</mi></mrow></math>{xs[2]}'.strip()
 	elif len(xs) == 5:
 		return f'''{xs[0]}
-		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>{xs[1]}</mi></mrow></math>
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>{mathify_symbol(xs[1])}</mi></mrow></math>
 		{xs[2]}
-		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>{xs[3]}</mi></mrow></math>
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>{mathify_symbol(xs[3])}</mi></mrow></math>
 		{xs[4]}'''.strip()
 	else:
 		# too complex
 		return x
+
+def mathify_symbol(s):
+	for x in 'alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'eta', 'theta', 'iota', 'kappa', 'lambda', 'mu', 'nu', 'xi', 'omicron', 'pi', 'rho', 'sigma', 'tau', 'upsilon', 'phi', 'chi', 'psi', 'omega':
+		if s == '\\' + x:
+			return f'&{x};'
+		if s.lower() == '\\' + x and s[1].isupper():
+			return f'&{x[0].upper()}{x[1:]};'
+	return s
 
 
 LINK_PARSER_NORMAL = 1
