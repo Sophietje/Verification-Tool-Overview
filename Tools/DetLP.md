@@ -9,16 +9,16 @@ Discounted-Sum automata (DS-automata)
 ?
 
 #### Expected input thing:
-- Weighted automata P
-- Weighted automata Q
-- Discount-factor d > 1
+- Weighted automata $P$
+- Weighted automata $Q$
+- Discount-factor $d > 1$
 
 #### Expected input format:
-- Weighted automata should be in .txt files according to a specific format described in the code.
+- Weighted automata should be in `.txt` files according to a specific format described in the code.
 - The discount-factor can be passed when calling the python script.
 
 #### Expected output:
-True if $P⊆_dQ$
+True if $P\subseteq_dQ$
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Linear-programming based DS-inclusion
