@@ -1,4 +1,41 @@
-Speculoos: Specification Logics for Synthesis
-Given a basic language, can compile it into [AIGER](../Formats/AIGER.md).
+Set of tools for Register Transfer Level hardware description
 
-https://github.com/romainbrenguier/Speculoos
+#### Name:
+Speculoos: SPECification LOgics fOr Synthesis
+
+#### Application domain/field:
+Hardware description
+Synthesis
+
+#### Type of tool (e.g. model checker, test generator):
+Synthesis tool?
+
+#### Expected input thing:
+Description of register updates and output expressions?
+
+#### Expected input format:
+Own language, `.spec` file
+
+#### Expected output:
+[AIGER](../Formats/AIGER.md) circuit
+
+#### Internals (tools used, frameworks, techniques, paradigms, ...):
+Given a basic language, it can generate [AIGER](../Formats/AIGER.md) files.
+
+#### Comments:
+-
+
+#### URIs (github, websites, etc.):
+Repository: https://github.com/romainbrenguier/Speculoos
+
+#### Last commit date:
+29 May 2017
+
+#### Last publication date:
+-
+
+#### List of related papers:
+-
+
+#### Related tools (tools mentioned or compared to in the paper):
+-
