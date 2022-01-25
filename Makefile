@@ -1,6 +1,6 @@
 all:
 	./titanic2.py ../slebok/frontend/proverb
-	cp *.html ../slebok/frontend/proverb/
+	cp help.html ../slebok/frontend/proverb/
 	cp Figures/* ../slebok/frontend/proverb/
 
 test:
