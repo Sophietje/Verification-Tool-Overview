@@ -23,7 +23,7 @@ It is also possible that a time out occurs.
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 **Unrealizability problem**: Given syntax-guided synthesis (SyGuS), establish whether the problem is *unrealizable* (i.e. has no solution)
 
-Given an unrealizability problem of the form `sy = (ψ, G)`, it returns **unrealizable** if no expression-tree in L(G) satisfies ψ. If it returns **realizable**, some e ∈ L(G) satisfies ψ. 
+Given an unrealizability problem of the form $sy = (\psi, G)$, it returns **unrealizable** if no expression-tree in $L(G)$ satisfies $\psi$. If it returns **realizable**, some $e \in L(G)$ satisfies $\psi$. 
 
 Uses [SeaHorn](Checkers/SeaHorn.md), [[ESolver]], [Z3](Solvers/SMT/Z3.md).
 
@@ -43,3 +43,6 @@ Repository (not linked in paper, found via author's webpage): https://github.com
 https://doi.org/10.1007/978-3-030-25540-4_18
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: PV1 :: given a syntax-guided synthesis problem, checks whether it is realisable

@@ -44,3 +44,6 @@ https://doi.org/10.1145/3009837.3009887 (POPL '17)
 https://doi.org/10.1007/978-3-642-39799-8_1 (CAV '13)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: PV3 :: proves a theorem in first order logic

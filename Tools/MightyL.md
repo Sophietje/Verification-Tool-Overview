@@ -44,3 +44,8 @@ https://doi.org/10.1007/978-3-319-63387-9_21 (CAV '17)
 https://dx.doi.org/10.4230/LIPIcs.TIME.2017.7 (TIME '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: MITL
+:: Automaton
+:: PV4 :: compiles a temporal logic formula to a timed automaton

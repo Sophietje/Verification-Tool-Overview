@@ -16,7 +16,7 @@ Framework?
 - Verifier that should be used
 
 #### Expected input format:
-- *Prroperties*: specified in their own property DSL (`.prop` file) called DNNP
+- *Properties*: specified in their own property DSL (`.prop` file) called DNNP
 - *Neural network*: Can be defined in the `.prop` file, in the [ONNX](../Formats/ONNX.md) format
 - *Verifier to be used*: defined as a parameter when calling the DNNV tool
 
@@ -47,3 +47,8 @@ https://doi.org/10.1007/978-3-030-81685-8_6 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to: [[VNNLIB]] and [[SOCRATES]]
+
+#### Meta
+:: DNN
+:: Neural network
+:: PV2 :: verifies if a given property holds for a given neural network according to a given verifier

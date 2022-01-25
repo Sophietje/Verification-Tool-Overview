@@ -53,5 +53,5 @@ https://doi.org/10.1007/978-3-030-53291-8_5
 
 #### Meta
 :: Flow-LTL
-:: Petri Nets    :: also software-defined networks
-:: PV2           :: verifies user-specified properties of Petri nets
+:: Petri nets :: also software-defined networks
+:: PV2 :: verifies user-specified properties of Petri nets

@@ -52,5 +52,5 @@ https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-fogel.pdf
 
 #### Meta
 :: Datalog
-:: Networks
+:: Computer network
 :: PV2           :: checks properties of networks

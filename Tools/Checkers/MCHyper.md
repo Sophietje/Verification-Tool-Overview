@@ -16,7 +16,7 @@ Model checker
 - HyperLTL formula
 
 #### Expected input format:
-- *Circuit*: [[../../Formats/Verilog]] module or [AIGER](../../Formats/AIGER.md) circuit
+- *Circuit*: [Verilog](../../Formats/Verilog.md) module or [AIGER](../../Formats/AIGER.md) circuit
 - *HyperLTL formula*: [EAHyper](../EAHyper.md) or [MCHyper](MCHyper.md) (own) format
 
 #### Expected output:
@@ -28,7 +28,7 @@ MCHyper is a model checker for synchronous HyperLTL properties. It can handle up
 HyperLTL allows the user to specify temporal properties that relate multiple computation traces, also called hyperproperties. Therefore, the user can check a.o. information-flow properties and noninterference between two traces.
 
 It uses [ABC](../Frameworks/ABC.md) as the backend for checking the reachability of a violation.
-If given a Verilog system as input, it will be converted into an Aiger circuit using [[../Yosys]].
+If given a Verilog system as input, it will be converted into an Aiger circuit using [[Yosys]].
 
 #### Comments:
 
@@ -48,3 +48,8 @@ Repository: https://github.com/reactive-systems/MCHyper
 https://doi.org/10.1007/978-3-030-25540-4_7
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Hardware
+:: HyperLTL
+:: PV4 :: proves given properties on a given circuit

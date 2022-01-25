@@ -10,7 +10,7 @@ Benchmarking
 Benchmark/test generator
 
 #### Expected input thing:
-- Seed problem $<n_s, \phi_s>$
+- Seed problem $<n_s, \varphi_s>$
 - Set of factors $F$
 - Constraints $\Gamma$
 - Coverage goal $t$
@@ -40,3 +40,8 @@ Repository: https://github.com/edwardxu0/GDVB
 https://doi.org/10.1007/978-3-030-53288-8_5
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: DNN
+:: Neural network
+:: PV4 :: given a problem and constraints, generates benchmarks

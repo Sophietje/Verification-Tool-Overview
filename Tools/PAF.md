@@ -38,3 +38,7 @@ https://doi.org/10.1007/978-3-030-81688-9_29 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Tools that focus on roundoff errors: [[FPTaylor]], [[PrAn]].
+
+#### Meta
+:: Floating point
+:: PV3 :: computers sound but tight probabilistic bounds to roundoff errors in arithmetic expressions

@@ -49,4 +49,5 @@ Other tools that focus on the verification of neural networks: [NNV](../../NNV.m
 #### Meta
 :: SMT
 :: DNN
+:: Neural network
 :: PV4 :: produces a satisfiability result for a formula

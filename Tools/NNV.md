@@ -25,8 +25,8 @@ If the network is unsafe then it will provide a complete set of counter-examples
 It is possible for the tool to report `UNK` in case the result is unknown.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-NNV consists of a set of reachability algorithms that can be used to reason about deep neural networks (DNNs), specifically for *sequential* FFNNs (feed forward neural networks) and CNNs (convolutional neural networks), as well as NNCS (neural network control systems) with FFNN controllers. 
-These reachability algorithms can be used to compute exact and over-approximate reachable sets of DNNs and neural network control systems (NNCSs).
+- NNV consists of a set of reachability algorithms that can be used to reason about deep neural networks (DNNs), specifically for *sequential* FFNNs (feed forward neural networks) and CNNs (convolutional neural networks), as well as NNCS (neural network control systems) with FFNN controllers. 
+- These reachability algorithms can be used to compute exact and over-approximate reachable sets of DNNs and neural network control systems (NNCSs).
 
 Uses [[MPT]], [[CORA]], [NNMT](NNMT.md), [[HyST]], [[YALMIP]], [[MatConvNet]]
 
@@ -48,3 +48,8 @@ https://doi.org/10.1007/978-3-030-53288-8_1
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other tools for neural network verification: [Reluplex](Solvers/SMT/Reluplex.md), [Marabou](Marabou.md) and [ReluVal](ReluVal).
+
+#### Meta
+:: DNN
+:: Neural network
+:: PV3 :: checks whether the given network is safe
