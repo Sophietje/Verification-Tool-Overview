@@ -60,3 +60,6 @@ https://doi.org/10.1007/978-3-642-03466-4_22 (ICTAC '09)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[HyMITATOR]], extension of IMITATOR for parameter synthesis on hybrid systems.
+
+#### Meta
+:: Automaton

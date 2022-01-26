@@ -41,3 +41,6 @@ https://doi.org/10.1007/978-3-030-81685-8_19 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other tools that can find data races: [[GPUVerify]], [[PUG]], [[GKLEE]], [[SESA]]
+
+#### Meta
+:: CUDA

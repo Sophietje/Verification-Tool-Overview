@@ -7,7 +7,6 @@ COASTAL
 Program analysis
 Concolic execution
 Fuzz testing
-Concurrency
 
 #### Type of tool (e.g. model checker, test generator):
 ?

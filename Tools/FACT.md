@@ -49,3 +49,6 @@ Project page: http://www-users.cs.york.ac.uk/~cap/FACT
 https://doi.org/10.1007/978-3-662-49674-9_32 (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Probabilistic

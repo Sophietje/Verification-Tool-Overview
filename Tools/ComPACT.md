@@ -40,3 +40,6 @@ https://doi.org/10.1145/3453483.3454110 (PLDI '21)
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to in CAV '21 paper: [2LS](2LS.md), [Ultimate Automizer](Ultimate%20Automizer.md) and [CPAchecker](Checkers/CPAchecker.md).
 Compare to in the PLDI '21 paper: [2LS](2LS.md), [Ultimate Automizer](Ultimate%20Automizer.md), [CPAchecker](Checkers/CPAchecker.md) and [[Termite]].
+
+#### Meta
+:: Termination

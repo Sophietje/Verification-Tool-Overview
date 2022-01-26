@@ -36,3 +36,6 @@ Repository: https://github.com/grigoryfedyukovich/aeval/tree/term
 https://doi.org/10.1007/978-3-319-96145-3_7
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Termination

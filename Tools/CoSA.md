@@ -57,3 +57,6 @@ https://doi.org/10.23919/FMCAD.2018.8603014 (FMCAD '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [Pono](Checkers/Pono.md): this tool was developed as the next generation of CoSA.
+
+#### Meta
+:: Hardware

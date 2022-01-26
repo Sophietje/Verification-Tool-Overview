@@ -1,7 +1,7 @@
 GACAL verifies C programs by searching over the space of possible invariants, using traces of the input program to identify potential invariants. 
 
 #### Name:
-GACAL: 
+GACAL
 
 #### Application domain/field:
 Reachability

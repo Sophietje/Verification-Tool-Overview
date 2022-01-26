@@ -45,16 +45,21 @@ Repository: https://github.com/esbmc/esbmc
 Project page: http://esbmc.org/
 
 #### Last commit date:
-11 December 2021
+26 January 2022
 (Last release: 26 October 2021)
 
 #### Last publication date:
-18 May 2020
+8 September 2021
 
 #### List of related papers:
+https://doi.org/10.1002/stvr.1793 (Software Testing, Verification and Reliability, Vol. 32, Issue 1, '21)
 https://doi.org/10.1007/s10009-020-00571-2 (Journal on STTT '20)
 https://doi.org/10.1007/978-3-030-17502-3_15 (TACAS '19)
 https://doi.org/10.1145/3238147.3240481 (ASE '18)
 https://doi.org/10.1007/978-3-642-54862-8_31 (TACAS '14)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: C
+:: C++
