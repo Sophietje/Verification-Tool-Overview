@@ -35,8 +35,14 @@ https://github.com/batchenRothenberg/AllRepair
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_33
-https://doi.org/10.1007/978-3-319-48989-6_36
+https://doi.org/10.1007/978-3-030-53291-8_33 (CAV 2020)
+https://doi.org/10.1007/978-3-319-48989-6_36 (FM 2016)
 
 #### Related tools (tools mentioned or compared to in the paper):
-Automated repair tools: Angelix, GenProg, FoRenSiC, Maple
+Automated repair tools: [[Angelix]], [[GenProg]], [[FoRenSiC]], [[Maple]]
+
+#### Meta
+:: C
+:: SMT
+:: Program repair
+:: PV2 :: proposes minimal repairs to the source code to satisfy properties

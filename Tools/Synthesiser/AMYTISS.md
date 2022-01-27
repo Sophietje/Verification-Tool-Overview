@@ -1,5 +1,5 @@
 #### Name:
-AMYTISS: 
+AMYTISS
 
 #### Application domain/field:
 Stochastic systems
@@ -40,3 +40,9 @@ https://doi.org/10.1145/3365365.3383469
 #### Related tools (tools mentioned or compared to in the paper):
 FAUST2
 StocHy
+
+#### Meta
+:: Probabilistic
+:: LTL
+:: Synthesis
+:: PV4 :: synthesises a spec-conforming controller from a Markov decision process

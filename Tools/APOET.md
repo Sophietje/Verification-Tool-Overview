@@ -40,7 +40,10 @@ Repository (of [POET](POET.md)): https://github.com/marcelosousa/poet
 https://doi.org/10.1007/978-3-319-63390-9_11 (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
+[[AstreeA]], [[Impara]], [[CBMC]]
 
 #### Meta
 :: C
 :: Concurrency
+:: Haskell
+:: PV1 :: analyses a multi-threaded program to see if it conforms to expectations of the tool

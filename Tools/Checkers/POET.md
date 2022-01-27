@@ -1,7 +1,7 @@
 Explicit-state model checker
 
 #### Name:
-POET: Partial Order Exploration Tools
+POET: Partial Order Exploration Tool
 
 #### Application domain/field:
 Partial order reduction
@@ -21,7 +21,10 @@ Multi-threaded C program
 - Supports POSIX threads
 
 #### Expected output:
-?
+It can:
+* "print the result of the front-end" (???)
+* execute the system with a non-deterministic schedule
+* perform explicit-state model checking
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 ?
@@ -40,7 +43,7 @@ Web page for CONCUR '15 paper: https://www.cs.ox.ac.uk/people/marcelo.sousa/poet
 26 August 2015
 
 #### List of related papers:
-https://doi.org/10.4230/LIPIcs.CONCUR.2015.456(CONCUR '15)
+https://doi.org/10.4230/LIPIcs.CONCUR.2015.456 (CONCUR '15)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Second version of POET is called [APOET](../APOET.md).
@@ -48,3 +51,6 @@ Compared to: [Nidhugg](../Nidhugg.md)
 
 #### Meta
 :: C
+:: Haskell
+:: Concurrency
+:: PV1 :: analyses a multi-threaded program to see if it conforms to expectations of the tool

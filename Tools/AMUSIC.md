@@ -9,15 +9,15 @@ Counting tool?
 
 #### Expected input thing:
 - Boolean formula in CNF
-- Tolerance parameter ε > 0
-- Confidence parameter δ ∈(0,1]
+- Tolerance parameter $\varepsilon > 0$
+- Confidence parameter $\delta \in (0,1]$
 
 #### Expected input format:
 A .gcnf or .cnf file for the boolean formula.
 The tolerance and confidence parameter can be set with arguments given to the script.
 
 #### Expected output:
-Estimate of the amount of MUSes guaranteed to be within (1+ε)-multiplicative factor of the exact count with confidence at least 1-δ
+Estimate of the amount of MUSes guaranteed to be within $(1+\varepsilon)$-multiplicative factor of the exact count with confidence at least $1-\delta$
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Uses [CAQE](Solvers/CAQE.md), [CADET](Solvers/CADET.md), [[QRATPre+]], [[muser2]], [UWrMaxSat](Solvers/UWrMaxSat.md), [[pysat]]
@@ -39,3 +39,6 @@ https://doi.org/10.1007/978-3-030-53288-8_21
 
 #### Related tools (tools mentioned or compared to in the paper):
 MUS enumeration techniques: MARCO, MCSMUS, UNIMUS
+
+#### Meta
+:: PV4 :: counts minimal unsatisfiable subsets of a given formula in CNF

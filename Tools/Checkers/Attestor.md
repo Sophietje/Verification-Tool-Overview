@@ -49,3 +49,8 @@ https://doi.org/10.1007/978-3-319-96142-2_1
 
 #### Related tools (tools mentioned or compared to in the paper):
 [Forester](../Forester.md), [[Groove]], [[Infer]], [[HIP/SLEEK]], [[Korat]], [[Juggernaut]], [[Tvla]]
+
+#### Meta
+:: LTL
+:: Java
+:: PV4 :: checks if a property holds for a program, generates additional properties, provides examples and analysis logs
