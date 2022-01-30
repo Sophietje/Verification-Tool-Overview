@@ -239,7 +239,7 @@ for index in indices:
 	with open(os.path.join(sys.argv[1], index + '.html'), 'w', encoding='utf-8') as file:
 		lst = [f'<li>{item}</li>' for item in sorted(indices[index])]
 		text = f'{index.upper()} tools {proverb.PV_text[int(index[2])]}' if index.startswith('pv') else ''
-		text += '<ul>' + '\n'.join(lst) + '</ul>'
+		text += '<ul>\n' + '\n'.join(lst) + '\n</ul>'
 		file.write(proverb.IndexPage(name_by_index[index], len(lst), text).dump())
 info(f'{len(indices)} indices generated!')
 
