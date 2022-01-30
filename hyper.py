@@ -8,6 +8,9 @@ def is_ul_item(line):
 def is_ol_item(line):
 	return len(line) > 3 and line[0].isdigit() and line[1] == '.' and line[2] == ' '
 
+def entitify(s):
+	return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+
 IN_NO_LIST = 0
 IN_UL_LIST = 1
 IN_OL_LIST = 2
@@ -23,7 +26,7 @@ def md2html(md_lines):
 				ret_lines.append('</pre>')
 				stack.pop()
 			else:
-				ret_lines.append(line)
+				ret_lines.append(entitify(md_lines[i]))
 			i += 1
 			continue
 		else:

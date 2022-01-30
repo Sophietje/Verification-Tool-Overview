@@ -39,7 +39,7 @@ It includes several different techniques that can be used to analyse systems, in
 - Symmetry reduction
 
 #### Comments:
-Along with the tool, there also exists a **PRISM language**. This is a simple, state-based language that is also used by other tools. There is also a property specification language which subsumes several probabilistic temporal logics including PCTL, CSL, probabilistic LTL and PCTL*. (See documentation: https://www.prismmodelchecker.org/manual/ThePRISMLanguage/Introduction)
+Along with the tool, there also exists a [PRISM language](../../Formats/PRISM%20language.md).
 
 #### URIs (github, websites, etc.):
 Project page: https://www.prismmodelchecker.org/
@@ -58,3 +58,8 @@ https://doi.org/10.1007/978-3-662-49674-9_20 (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [PRISM-PSY](../PRISM-PSY.md), [PRISM-games](PRISM-games.md)
+
+#### Meta
+:: Automaton
+:: Probabilistic
+:: PV3 :: model checker for probabilistic timed automata

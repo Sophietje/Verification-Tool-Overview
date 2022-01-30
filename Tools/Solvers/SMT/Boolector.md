@@ -12,7 +12,7 @@ SMT formula
 
 #### Expected input format:
 One of the following:
-- BTOR (its own format)
+- [Btor](../../../Formats/Btor.md)/[Btor2](../../../Formats/Btor2.md) (its own formats)
 - [SMT-LIB](../../../Formats/SMT-LIB.md) (version 1.2 or 2.0)
 
 #### Expected output:

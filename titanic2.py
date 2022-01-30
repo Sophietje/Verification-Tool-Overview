@@ -122,7 +122,7 @@ class Item(object):
 			cur_section = SECTION_GEN
 			self.sections[cur_section] = []
 			for line in file.readlines():
-				line = line.strip()
+				# line = line.strip()
 				if line.startswith('#### '):
 					cur_section = line[5:].strip()
 					if cur_section.endswith(':'):
@@ -163,7 +163,7 @@ class Item(object):
 						indices['tags'].append(make_link(tag_key+'.html', tag))
 					indices[tag_key].append(make_link(get_key(self.name)+'.html', self.name, why=desc))
 					continue
-				self.sections[cur_section].append(line.strip())
+				self.sections[cur_section].append(line.rstrip())
 		for key in list(self.sections.keys()):
 			if not self.sections[key]:
 				del self.sections[key]

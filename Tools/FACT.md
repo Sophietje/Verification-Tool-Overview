@@ -17,7 +17,7 @@ Model checker
 - Range of confidence levels
 
 #### Expected input format:
-- *PMC*: Extended version of [PRISM](Checkers/PRISM.md) modelling language
+- *PMC*: Extended version of [PRISM language](../Formats/PRISM%20language.md)
 - *PCTL property*: ?
 - *Range of confidence intervals*: 
 
@@ -30,8 +30,6 @@ FACT uses a four-step approach:
 2. Simultaneous confidence intervals are calculated for each set of parameters
 3. Uses results of step 2 for a convex optimisation problem whose solution represents an $\alpha$ confidence interval for the analysed property
 4. Uses a heuristic to seek alternative confidence intervals. This optimisation might reduce the width of property confidence intervals.
-
-Uses [PRISM](Checkers/PRISM.md)
 
 #### Comments:
 License: GNU General Public LIcense
@@ -52,3 +50,4 @@ https://doi.org/10.1007/978-3-662-49674-9_32 (TACAS '16)
 
 #### Meta
 :: Probabilistic
+:: PV3 :: computes confidence intervals for given properties of timed automata

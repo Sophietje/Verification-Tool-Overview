@@ -12,7 +12,7 @@ Model checker
 ?
 
 #### Expected input format:
-Btor2 model
+[Btor2](../../Formats/Btor2.md) model
 
 #### Expected output:
 ?
@@ -41,3 +41,6 @@ https://doi.org/10.1007/978-3-319-96145-3_32
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to: [Boolector](../Solvers/SMT/Boolector.md), [Yices](../Solvers/SMT/Yices.md)
+
+#### Meta
+:: PV3 :: checks safety properties of models with registers and memories
