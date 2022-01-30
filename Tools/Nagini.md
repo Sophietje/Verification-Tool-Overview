@@ -46,3 +46,8 @@ https://doi.org/10.1007/978-3-030-81685-8_34 (CAV 2021)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Tools that also use Viper as a back end for verification: [Gobra](Gobra.md), [[Prusti]] and [[VerCors]].
+
+#### Meta
+:: Python
+:: Concurrency
+:: PV3 :: verifies general properties like termination and deadlock freedom of Python programs

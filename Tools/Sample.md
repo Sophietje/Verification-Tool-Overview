@@ -27,7 +27,7 @@ Sample infers permission pre- and postconditions for [Viper](Frameworks/Viper.md
 
 The tool first performs a forward numerical analysis to infer over-approximate loop invariants. Then, the tool performs inference and maximum elimination. Finally, it adds the annotations to the input program.
 
-Uses [Apron](Libraries/Apron.md) for numerical analysis.
+Uses [APRON](Libraries/APRON.md) for numerical analysis.
 
 #### Comments:
 -

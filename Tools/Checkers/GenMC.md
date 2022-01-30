@@ -34,7 +34,8 @@ Given a C/C++ program as inputs (that uses C/C++11 atomics and/or concurrency pr
 The verification can be performed with respect to the RC11 memory model (default), or other models such as IMM and LKMM.
 
 #### Comments:
-License: GPL-3.0 License
+- License: GPL-3.0 License
+- GenMC has PV2 features (checks assertions), PV3 features (infers provable properties from goals like data race), and PV4 features (when used with a non-RC11 memory model).
 
 #### URIs (github, websites, etc.):
 Project page: https://plv.mpi-sws.org/genmc/
@@ -50,3 +51,9 @@ Repository: https://github.com/mpi-sws/genmc/
 https://doi.org/10.1007/978-3-030-81685-8_20 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: LLVM
+:: C
+:: C++
+:: PV4 :: given a C program with assertions and a memory model spec, reports safety errors

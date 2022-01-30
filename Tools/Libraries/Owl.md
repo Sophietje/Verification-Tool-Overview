@@ -1,4 +1,4 @@
-"A tool collection and library for Omega-words, ω-automata, and Linear Temporal Logic (LTL)."
+"A tool collection and library for Omega-words, $\omega$-automata, and Linear Temporal Logic (LTL)."
 
 #### Name:
 Owl
@@ -24,7 +24,7 @@ LTL formula or non-deterministic Büchi automaton,
 Depends on how the library is used. See **Internals** below.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-The library can be used to e.g. translate LTL to ω-automata, determinise Büchi automata, or to simplify an LTL formula. A complete list of what Owl can be used for is available on the repository.
+The library can be used to e.g. translate LTL to $\omega$-automata, determinise Büchi automata, or to simplify an LTL formula. A complete list of what Owl can be used for is available on the repository.
 
 #### Comments:
 License: GPL v3.0
@@ -43,3 +43,8 @@ Project page: https://owl.model.in.tum.de/
 https://doi.org/10.1007/978-3-030-01090-4_34 (ATVA '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Automaton
+:: LTL
+:: PV1 :: formally manipulates LTL formulae, Büchi automata and ω-automata
