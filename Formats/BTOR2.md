@@ -1,4 +1,4 @@
-word-level model checking format for capturing models of hardware and potentially software in a bit-precise manner; a non-backward-compatible extension of [Btor](Btor.md), which was tailored towards bit-vectors and one-dimensional bit-vector arrays, Btor2 has explicit sort declarations and register/memory initialisations; inpired by a new [AIGER](AIGER.md) format
+word-level model checking format for capturing models of hardware and potentially software in a bit-precise manner; a non-backward-compatible extension of [BTOR](BTOR.md), which was tailored towards bit-vectors and one-dimensional bit-vector arrays, BTOR2 has explicit sort declarations and register/memory initialisations; inpired by a new [AIGER](AIGER.md) format
 
 ```
 <num>     ::= positive unsigned integer (greater than zero)
