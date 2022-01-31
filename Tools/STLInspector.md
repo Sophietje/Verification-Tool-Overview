@@ -1,6 +1,48 @@
-Tool for the systematic validation of Signal Temporal Logic (STL) specifications against informal textual requirements. It tries to identify typical faults that occur in the process of formalizing requirements by mutating a candidate specification.
+Tool for the systematic validation of Signal Temporal Logic (STL) specifications against informal textual requirements.
 
-License: Apache License 2.0
-Repository: https://github.com/STLInspector/STLInspector (last commit: 30 September 2019)
+#### Name:
+STLInspector
+
+#### Application domain/field:
+Signal Temporal Logic (STL)
+Requirements
+Mutation testing
+
+#### Type of tool (e.g. model checker, test generator):
+Debug/testing tool for STL specifications
+
+#### Expected input thing:
+STL formula
+
+#### Expected input format:
+Own textual format
+
+#### Expected output:
+User is presented with test signals for which needs to be decided whether or not the signal satisfies the informal requirement. If an error was found, the user can change the STL candidate and continue inspection.
+
+#### Internals (tools used, frameworks, techniques, paradigms, ...):
+STLInspector tries to identify typical faults that occur in the process of formalizing requirements by mutating a candidate STL specification.
+The requirements engineer is used as an oracle.
 
 Uses [ANTLR](Not-verifiers/ANTLR.md), [Z3](Solvers/SMT/Z3.md).
+
+#### Comments:
+License: Apache License 2.0
+
+#### URIs (github, websites, etc.):
+Repository: https://github.com/STLInspector/STLInspector
+
+#### Last commit date:
+30 September 2019
+
+#### Last publication date:
+13 July 2017
+
+#### List of related papers:
+https://doi.org/10.1007/978-3-319-63387-9_11 (CAV '17)
+
+#### Related tools (tools mentioned or compared to in the paper):
+Tool to formalize specifications: [[Vispec]]
+Tool to debug specifications (subset of PSL): [[RATSY]]
+
+#### Meta

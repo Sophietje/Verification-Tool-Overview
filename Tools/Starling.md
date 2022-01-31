@@ -1,6 +1,48 @@
-Lightweight logic and automated tool for concurrency verification
+Automated verification tool for concurrent programs.
 
+#### Name:
+Starling
+
+#### Application domain/field:
+Concurrency
+Concurrent algorithms
+
+#### Type of tool (e.g. model checker, test generator):
+?
+
+#### Expected input thing:
+- Program
+- Annotations, expressed as Concurrent Views Framework-style assertions
+- Constraints binding assertions to concrete facts
+
+#### Expected input format:
+- *Program*: C-like language
+- *Annotations*: ?
+- *Constraints*: ?
+
+#### Expected output:
+?
+
+#### Internals (tools used, frameworks, techniques, paradigms, ...):
 Uses [Z3](Solvers/SMT/Z3.md), [GRASShopper](GRASShopper.md).
 
-Repository: https://github.com/septract/starling-tool (last commit: 7 June 2017)
-License: MIT License
+#### Comments:
+License: MIT
+
+#### URIs (github, websites, etc.):
+Repository: https://github.com/septract/starling-tool
+
+#### Last commit date:
+7 June 2017
+
+#### Last publication date:
+13 July 2017
+
+#### List of related papers:
+https://doi.org/10.1007/978-3-319-63387-9_27 (CAV '17)
+
+#### Related tools (tools mentioned or compared to in the paper):
+-
+
+#### Meta
+:: Concurrency
