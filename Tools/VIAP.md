@@ -5,12 +5,13 @@ VIAP (Verifier for Integer Assignment Programs)
 
 #### Application domain/field:
 Recurrence solving
+Safety verification
 
 #### Type of tool (e.g. model checker, test generator):
 Monoverifier
 
 #### Expected input thing:
-C program
+C program with user-provided assertions
 
 #### Expected input format:
 C99
