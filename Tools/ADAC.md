@@ -17,7 +17,7 @@ Framework to design approximate arithmetic circuits
 - File specifying sizes of gates available to the design process
 
 #### Expected input format:
-- Circuit in Verilog format
+- Circuit in [Verilog](../Formats/Verilog.md) format
 - Error metric, threshold on error metric and time limit seem to be specified in a configuration file (.conf)
 
 #### Expected output:

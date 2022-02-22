@@ -13,7 +13,7 @@ Synthesis tool
 $F(X,Y)$ formula
 
 #### Expected input format:
-Either as a qdimacs or verilog input file
+Either as a [QDIMACS](../../Formats/QDIMACS.md) or [Verilog](../../Formats/Verilog.md) input file
 
 #### Expected output:
 Boolean function $\Psi$ such that $\exists F(X,Y) = F(X, \Psi(X))$.

@@ -40,7 +40,7 @@ https://doi.org/10.1007/978-3-030-25540-4_15 (CAV '19)
 https://doi.org/10.1007/978-3-319-63387-9_9 (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
-[τ-DIGITS](τ-DIGITS.md)
+[τ-DIGITS](τ-DIGITS.md): improved version of DIGITS.
 
 #### Meta
 :: Probabilistic

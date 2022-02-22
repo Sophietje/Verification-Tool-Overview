@@ -1,4 +1,4 @@
-VCGEAR  is a tool for checking safety properties (assertions) of Verilog programs
+VCEGAR  is a tool for checking safety properties (assertions) of Verilog programs
 
 #### Name:
 VCEGAR
