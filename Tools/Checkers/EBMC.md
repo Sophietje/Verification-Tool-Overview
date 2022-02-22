@@ -15,7 +15,7 @@ Model checker
 - Safety or liveness property
 
 #### Expected input format:
-- *Hardware design*: [[../../Formats/Verilog]], Netlists (ISCA89 format), System Verilog or SMV file
+- *Hardware design*: [Verilog](../../Formats/Verilog.md), Netlists (ISCA89 format), System Verilog or SMV file
 	- https://www.cprover.org/ebmc/manual/verilog_language_features/ describes the synthesizable subset of Verilog
 - *Property*: SystemVerilog assertions or LTL
 
