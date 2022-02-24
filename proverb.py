@@ -55,9 +55,10 @@ TEMPLATE = '''
 			</div>
 		</div>
 		<div class="left">
-			<a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
-			<h1>ProVerB:</h1>
-			<h2>Program<br/>Verification<br/>Book</h2>
+      <div class="logo">
+			  <a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
+			  <h3>Program<br/>Verification<br/>Book</h3>
+      </div>
 			<p>
 				<a href="index.html">Top</a><br/>
 				<a href="all.html">Tools</a><br/>
