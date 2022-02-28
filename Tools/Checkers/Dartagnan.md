@@ -45,4 +45,4 @@ Other bounded model checkers: [CBMC](CBMC.md), [Nidhugg](../Nidhugg.md)
 
 #### Meta
 :: C
-:: PV2           :: checks assertions in a C program
+:: PV3 :: checks assertions in a C program within a chosen memory spec
