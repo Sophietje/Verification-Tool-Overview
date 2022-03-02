@@ -7,5 +7,5 @@ test:
 	./iceberg.py
 
 clean:
-	rm ../slebok/frontend/proverb/*.html
+	rm -f ../slebok/frontend/proverb/*.html ../slebok/frontend/proberb/.html
 
