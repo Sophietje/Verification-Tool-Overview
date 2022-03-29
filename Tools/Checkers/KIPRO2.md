@@ -47,3 +47,7 @@ Repository: https://github.com/moves-rwth/kipro2
 https://doi.org/10.1007/978-3-030-81688-9_25 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Probabilistic
+:: PV2 :: checks properties of a pCGL program

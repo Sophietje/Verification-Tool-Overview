@@ -51,3 +51,7 @@ https://doi.org/10.1007/978-3-319-96142-2_3
 Compared to [[Kind 2]], [[Zustre]], [Z3](../Solvers/SMT/Z3.md) (generalized PDR) and [nuXmv](nuXmv.md) (IC3) in the paper.
 
 It is used as a back-end in [[SpeAR]], [AGREE](AGREE.md) and [[SIMPAL]].
+
+#### Meta
+:: Lustre
+:: PV3 :: infers invariants and checks user-specified properties for a Lustre system

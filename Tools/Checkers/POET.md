@@ -51,6 +51,5 @@ Compared to: [Nidhugg](../Nidhugg.md)
 
 #### Meta
 :: C
-:: Haskell
 :: Concurrency
 :: PV1 :: analyses a multi-threaded program to see if it conforms to expectations of the tool

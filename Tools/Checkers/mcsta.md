@@ -43,3 +43,7 @@ Project page (of the Modest Toolset): https://www.modestchecker.net/
 https://doi.org/10.1007/978-3-030-53291-8_26 (CAV '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
+:: PV2 :: checks LTL/CTL properties of a model
+:: Automaton
+:: LTL
+:: CTL
