@@ -44,3 +44,6 @@ https://doi.org/10.1007/978-3-030-41600-3_12 (VSTTE '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 SimpleCAR is a rewrite of [[CARChecker]].
+
+#### Meta
+:: Hardware

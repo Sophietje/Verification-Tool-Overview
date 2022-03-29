@@ -46,3 +46,6 @@ Repository: https://github.com/moves-rwth/PrIC3
 https://doi.org/10.1007/978-3-030-53291-8_27
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Probabilistic

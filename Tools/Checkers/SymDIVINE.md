@@ -42,3 +42,6 @@ https://doi.org/10.1007/978-3-319-32582-8_14 (SPIN '16)
 https://doi.org/10.1007/978-3-662-54580-5_29 (TACAS '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Concurrency

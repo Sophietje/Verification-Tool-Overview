@@ -49,3 +49,6 @@ https://doi.org/10.1007/978-3-319-08867-9_22
 #### Related tools (tools mentioned or compared to in the paper):
 Successor of [[NuSMV]].
 [[NuRV]]: nuXmv extension for runtime verification.
+
+#### Meta
+:: PV2 :: checks user-specified properties of a transition system

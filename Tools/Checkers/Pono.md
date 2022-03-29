@@ -57,3 +57,6 @@ Repository: https://github.com/upscale-project/pono
 https://doi.org/10.1007/978-3-030-81688-9_22 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: PV2 :: checks a user-specified property for a transition system

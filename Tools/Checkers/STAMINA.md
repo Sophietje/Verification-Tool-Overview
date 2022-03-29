@@ -43,3 +43,6 @@ Repository: https://github.com/fluentverification/stamina
 https://doi.org/10.1007/978-3-030-25540-4_31 (CAV '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Probabilistic

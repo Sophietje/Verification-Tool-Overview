@@ -48,3 +48,7 @@ Support forum: https://groups.google.com/g/prismmodelchecker
 https://doi.org/10.1007/978-3-030-53291-8_25
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Probabilistic
+:: PV2 :: checks user-specified properties for stochastic multi-player games models
