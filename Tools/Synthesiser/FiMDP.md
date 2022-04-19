@@ -42,3 +42,7 @@ https://github.com/FiMDP/FiMDP
 https://doi.org/10.1007/978-3-030-53291-8_22
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Synthesis
+:: PV4 :: synthesises a controller for a resource-constrained Markov Decision Process

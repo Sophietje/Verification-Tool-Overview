@@ -1,4 +1,4 @@
-Bounded synthesis tool that supports CLT* synthesis
+Bounded synthesis tool that supports CTL* synthesis
 
 #### Name:
 PARTY
@@ -55,3 +55,8 @@ https://doi.org/10.1007/978-3-319-63390-9_18 (CAV '17)
 https://doi.org/10.1007/978-3-642-39799-8_66 (CAV '13)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Automaton
+:: Synthesis
+:: LTL

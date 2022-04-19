@@ -16,7 +16,7 @@ Max-SMT
 Optimizer? Synthesis tool?
 
 #### Expected input thing:
-Stack Functional Specification (SFS). Thisdescribes the source and target stack of the Ethereum Virtual Machine (EVM).
+Stack Functional Specification (SFS). This describes the source and target stack of the Ethereum Virtual Machine (EVM).
 
 #### Expected input format:
 `.json` file
@@ -48,3 +48,8 @@ Repository for examples of the CAV '20 paper: https://github.com/mariaschett/syr
 https://doi.org/10.1007/978-3-030-53288-8_10 (CAV '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Synthesis
+:: Smart contract
+:: PV3 :: generates optimized EVM bytecode to transform the source into the target stack

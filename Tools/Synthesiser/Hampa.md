@@ -37,3 +37,7 @@ Artifact: https://github.com/XiaoLi0614/HampaAE
 https://doi.org/10.1007/978-3-030-53288-8_16
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Synthesis
+:: PV4 :: synthesises a replicated object that guarantees integrity, convergence and recency

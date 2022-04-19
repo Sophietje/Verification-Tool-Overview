@@ -38,3 +38,8 @@ Repository: https://github.com/uw-unsat/jitsynth
 https://doi.org/10.1007/978-3-030-53291-8_29
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Synthesis
+:: Compiler
+:: PV4 :: synthesises a verified just-in-time compiler for in-kernel domain-specific languages

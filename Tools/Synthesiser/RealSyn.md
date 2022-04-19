@@ -51,3 +51,7 @@ https://doi.org/10.1007/978-3-319-96145-3_19 (CAV 2018)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other controller synthesis algorithms: [[CoSyMa]], [[Pessoa]], [[LTLMop]], [[Tulip]], [[SCOTS]]
+
+#### Meta
+:: Synthesis
+:: PV4 :: synthesises a set of controllers that meet the reach-avoid specification

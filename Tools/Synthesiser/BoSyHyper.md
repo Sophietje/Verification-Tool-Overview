@@ -43,4 +43,5 @@ https://doi.org/10.1007/978-3-319-96145-3_16
 
 #### Meta
 :: HyperLTL
-:: PV3 :: proves realisability of a given hyperproperty
+:: PV3 :: proves realizability of a given hyperproperty
+:: Synthesis
