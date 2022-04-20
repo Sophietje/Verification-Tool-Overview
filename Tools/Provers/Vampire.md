@@ -23,6 +23,8 @@ Reason for termination (refutation was found, time/memory limit was reached, sat
 It also prints some statistics about the proof attempt.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
+Vampire uses proof by refutation to try and determine whether a conjecture is correct. If Vampire finds a refutation, then it will show the  inference steps that were taken, i.e. it'll show a proof.
+
 Uses [MiniSat](../Solvers/SAT/MiniSat.md), [Z3](../Solvers/SMT/Z3.md).
 
 #### Comments:
@@ -46,4 +48,4 @@ https://doi.org/10.1007/978-3-642-39799-8_1 (CAV '13)
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: PV3 :: proves a theorem in first order logic
+:: PV5 :: can produce proofs for theorems in first order logic
