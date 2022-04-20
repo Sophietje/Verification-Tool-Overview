@@ -38,3 +38,6 @@ Project page: https://www.gurobi.com/
 -
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Mathematical optimization

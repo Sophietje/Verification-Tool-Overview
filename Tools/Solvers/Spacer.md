@@ -33,3 +33,6 @@ https://doi.org/10.1007/978-3-319-08867-9_2 (CAV '14)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [GSpacer](GSpacer.md): Extension of Spacer
+
+#### Meta
+:: Contrained Horn Clauses (CHC)

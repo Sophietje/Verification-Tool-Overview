@@ -44,3 +44,6 @@ https://doi.org/10.4204/EPTCS.277.7 (GandALF '18)
 https://doi.org/10.1007/978-3-319-40970-2_24 (SAT '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Quantified Boolean Formula (QBF)

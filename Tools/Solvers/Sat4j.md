@@ -45,3 +45,7 @@ https://doi.org/10.1007/978-3-030-51825-7_23 (SAT '20)
 https://content.iospress.com/articles/journal-on-satisfiability-boolean-modeling-and-computation/sat190098 (Journal on Satisfiability, Boolean Modeling and Computation '12)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Mathematical optimization
+:: SAT

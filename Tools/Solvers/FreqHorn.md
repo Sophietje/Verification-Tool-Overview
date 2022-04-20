@@ -38,3 +38,6 @@ Other repository that is also linked: https://github.com/grigoryfedyukovich/aeva
 https://doi.org/10.1007/978-3-030-25540-4_14
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Constrained Horn Clauses (CHC)

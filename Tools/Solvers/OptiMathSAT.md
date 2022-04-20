@@ -50,3 +50,6 @@ https://doi.org/10.1007/978-3-319-21690-4_27 (CAV '15)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other OMT tools: [[Symba]], [[𝜈𝑍]]
+
+#### Meta
+:: Mathematical optimization

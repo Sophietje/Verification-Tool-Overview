@@ -39,5 +39,5 @@ https://doi.org/10.1007/978-3-319-40970-2_23
 
 #### Related tools (tools mentioned or compared to in the paper):
 
-
-
+#### Meta
+:: Quantified Boolean Formula (QBF)

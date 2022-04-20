@@ -35,3 +35,6 @@ This is a stand-alone solver for LP (linear programming) and MIP (mixed integer 
 #### List of related papers:
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Mathematical optimization

@@ -38,3 +38,6 @@ https://doi.org/10.1007/978-3-030-25543-5_5
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other SyGuS solver: [[EUSolver]]
+
+#### Meta
+:: Syntax-guided synthesis (SyGuS)
