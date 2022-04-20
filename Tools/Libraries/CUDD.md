@@ -9,7 +9,7 @@ CUDD: CU Decision Diagram package
 * ZDD = zero-suppressed BDD
 
 #### URIs (github, websites, etc.):
-https://github.com/ivmai/cudd
+Repository: https://github.com/ivmai/cudd
 
 #### Last commit date:
 20 January 2016
