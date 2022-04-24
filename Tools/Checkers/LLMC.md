@@ -47,4 +47,4 @@ Compared to: [DIVINE](../DIVINE.md), [Nidhugg](../Nidhugg.md)
 #### Meta
 :: LLVM
 :: Concurrency
-:: PV2 :: checks assertions in a multi-threaded program
+:: PV3 :: checks assertions in a multi-threaded program

@@ -45,4 +45,4 @@ Automated repair tools: [[Angelix]], [[GenProg]], [[FoRenSiC]], [[Maple]]
 :: C
 :: SMT
 :: Program repair
-:: PV2 :: proposes minimal repairs to the source code to satisfy properties
+:: PV3 :: proposes minimal repairs to the source code to satisfy properties

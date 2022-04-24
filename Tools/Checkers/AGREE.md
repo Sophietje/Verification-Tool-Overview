@@ -45,4 +45,4 @@ https://doi.org/10.1007/978-3-642-28891-3_13 (NFM '12)
 
 #### Meta
 :: AADL
-:: PV2           :: checks properties against an AADL model
+:: PV3           :: checks properties against an AADL model

@@ -48,4 +48,4 @@ https://doi.org/10.1016/j.entcs.2005.07.021 (Electronic Notes in Theoretical Com
 #### Meta
 :: Hardware
 :: LTL           :: also can work with SystemVerilog assertions
-:: PV2           :: checks assertions/properties against a Verilog/Netlists/… spec
+:: PV3           :: checks assertions/properties against a Verilog/Netlists/… spec

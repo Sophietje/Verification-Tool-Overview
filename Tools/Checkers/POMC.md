@@ -50,5 +50,5 @@ https://doi.org/10.1007/978-3-030-81688-9_18 (CAV '21)
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: PV2 :: checks whether a user-specified POTL formula holds for an automaton or MiniProc program
+:: PV3 :: checks whether a user-specified POTL formula holds for an automaton or MiniProc program
 :: Automaton

@@ -46,4 +46,4 @@ https://doi.org/10.1145/1858996.1859035 (ASE '10)
 
 #### Meta
 :: Java
-:: PV2           :: checks properties of annotated Java code with static symbolic execution
+:: PV3           :: checks properties of annotated Java code with static symbolic execution

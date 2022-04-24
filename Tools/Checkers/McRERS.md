@@ -47,5 +47,5 @@ https://doi.org/10.1007/978-3-030-53291-8_6
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: PV2 :: checks interruptible LTL property for a labelled transition system
+:: PV3 :: checks interruptible LTL property for a labelled transition system
 :: LTL

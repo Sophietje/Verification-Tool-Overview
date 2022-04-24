@@ -48,4 +48,4 @@ Other tools that participated in the JavaOverall category of SV-COMP in 2020: [[
 
 #### Meta
 :: Java
-:: PV2           :: checks properties of annotated Java code with dynamic symbolic execution
+:: PV3           :: checks properties of annotated Java code with dynamic symbolic execution

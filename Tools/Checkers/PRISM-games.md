@@ -51,4 +51,4 @@ https://doi.org/10.1007/978-3-030-53291-8_25
 
 #### Meta
 :: Probabilistic
-:: PV2 :: checks user-specified properties for stochastic multi-player games models
+:: PV3 :: checks user-specified properties for stochastic multi-player games models

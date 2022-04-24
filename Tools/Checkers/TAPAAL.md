@@ -50,4 +50,4 @@ https://doi.org/10.1007/978-3-642-28756-5_36 (TACAS '12)
 
 #### Meta
 :: Petri nets
-:: PV2 :: performs queries on Petri nets
+:: PV3 :: performs queries on Petri nets

@@ -51,4 +51,4 @@ Compared to: [[VNNLIB]] and [[SOCRATES]]
 #### Meta
 :: DNN
 :: Neural network
-:: PV2 :: verifies if a given property holds for a given neural network according to a given verifier
+:: PV3 :: verifies if a given property holds for a given neural network according to a given verifier
