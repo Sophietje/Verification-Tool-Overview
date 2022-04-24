@@ -21,6 +21,8 @@ They combine ideas from neural network reachability with ideas from hybrid syste
 Uses [Flow\*](Flow*.md)
 
 #### Comments:
+The CAV'21 paper refers to a _Verisig 2.0_
+
 License: GPL v3.0
 
 #### URIs (github, websites, etc.):
@@ -38,7 +40,7 @@ https://doi.org/10.1007/978-3-030-81685-8_11 (CAV '21)
 https://doi.org/10.1145/3302504.3311806 (HSCC '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
-Compared to in CAV '21 paper: [NNV](NNV.md) and [[ReachNN\*]]
+Compared to in CAV '21 paper: [NNV](NNV.md) and [[ReachNN\*]] (and an older version of Verisig)
 
 #### Meta
 :: Neural network
