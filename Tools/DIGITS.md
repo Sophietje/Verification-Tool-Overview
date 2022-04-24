@@ -1,7 +1,7 @@
 An algorithm & tool for automatically repairing loop-free programs under uncertain inputs and probabilistic postconditions.
 
 #### Name:
-DIGITS: Distribution-guided inductive synthesis
+DIGITS: DIstribution-Guided InducTive Synthesis
 
 #### Application domain/field:
 Probabilistic specifications
@@ -44,3 +44,4 @@ https://doi.org/10.1007/978-3-319-63387-9_9 (CAV '17)
 
 #### Meta
 :: Probabilistic
+:: PV2 :: repairs a given loop-free program from a probabilistic specification of its desired behaviour

@@ -26,7 +26,7 @@ Set of all parameter valuations under which the system satisfies the formula.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Pithya takes as input a parametrised model of a continuous-time dynamical system. This system is described by autonomous ordinary differential equations (ODEs) with sigmoidal functions.
-Pithya then approximates this model into a piecewise multi-affine model and discretises it into a paramtrised direction transition system (PDTS).
+Pithya then approximates this model into a piecewise multi-affine model and discretises it into a parametrised direction transition system (PDTS).
 Using the computed PDTS and the $HUCTL_P$ formula, it computes all parameter valuations under which the PDTS satisfies the formula.
 
 #### Comments:
@@ -47,3 +47,7 @@ Repository: https://github.com/sybila/pithya-core
 https://doi.org/10.1007/978-3-319-63387-9_29 (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Synthesis
+:: PV2 :: provide a set of parameter valuations to satisfy the given formula on a given dynamical system

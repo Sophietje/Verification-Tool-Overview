@@ -1,4 +1,4 @@
-Given a sketch of a program, it will synthesize (if possible) the missing parts such that a user-defined specification is satisfied.
+Given a sketch of a program, it will synthesise (if possible) the missing parts such that a user-defined specification is satisfied.
 
 #### Name:
 PAYNT: Probabilistic progrAm sYNThesizer
@@ -46,3 +46,7 @@ Topology synthesis: [[ProFeat]], [[QFLan]]
 Parameter synthesis: [Storm](Checkers/Storm.md), [PRISM](Checkers/PRISM.md)
 
 Probabilistic model checkers: [Storm](Checkers/Storm.md), [PRISM](Checkers/PRISM.md), [Modest](Frameworks/Modest.md)
+
+#### Meta
+:: Synthesis
+:: PV2 :: synthesise a full program from its sketch and desired properties
