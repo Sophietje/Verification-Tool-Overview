@@ -13,7 +13,7 @@ Counterexample-guided inductive synthesis (CEGIS)
 #### Expected input thing:
 - Synthesis tool
 - SyGuS problem
-- Subgrammars $\mathcal{E}_1..p$ such that $\mathcal{E}_i \subseteq \mathcal{E}$
+- Subgrammars $\mathcal{E}_{1..p}$ such that $\mathcal{E}_i \subseteq \mathcal{E}$
 
 #### Expected input format:
 ?
@@ -28,7 +28,7 @@ The idea behind the tool is that SyGuS tools are sensitive to the choice of gram
 -
 
 #### URIs (github, websites, etc.):
-Artifact of CAV '19 paper: https://github.com/SaswatPadhi/2019_CAV_Artifact_100
+Artefact of CAV '19 paper: https://github.com/SaswatPadhi/2019_CAV_Artifact_100
 
 #### Last commit date:
 -
@@ -40,3 +40,7 @@ Artifact of CAV '19 paper: https://github.com/SaswatPadhi/2019_CAV_Artifact_100
 https://doi.org/10.1007/978-3-030-25540-4_17 (CAV '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: PV2 :: synthesises a program conforming to a subgrammar of a given grammar
+:: Syntax-guided synthesis (SyGuS)

@@ -22,7 +22,7 @@ Adapter, in the form of a transducer
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 This work focuses on the Adapter design pattern where a program implements a Target interface by constructing an Adapter that accesses an existing Adaptee code.
-It aims to, given an Adaptee and a Target (two finite-state transducers), to synthesize an Adapter transducer. This Adapter transducer will, combined with the Adaptee, generate equivalent behavior to the Target's behavior.
+It aims to, given an Adaptee and a Target (two finite-state transducers), to synthesize an Adapter transducer. This Adapter transducer will, combined with the Adaptee, generate equivalent behaviour to the Target's behaviour.
 
 The implementation uses the [CUDD](Libraries/CUDD.md) package for BDD manipulation.
 
@@ -30,7 +30,7 @@ The implementation uses the [CUDD](Libraries/CUDD.md) package for BDD manipulati
 The tool is called a 'prototype tool' in the CAV '21 paper.
 
 #### URIs (github, websites, etc.):
-Artifact for CAV '21 paper: https://zenodo.org/record/4726692
+Artefact for CAV '21 paper: https://zenodo.org/record/4726692
 
 #### Last commit date:
 -
@@ -43,3 +43,6 @@ https://doi.org/10.1007/978-3-030-81685-8_41 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to in the CAV '21 paper: [Strix](Synthesiser/Strix.md)
+
+#### Meta
+:: PV2 :: generates two finite-state transducers to fit with a given artefact into the Adapter design pattern

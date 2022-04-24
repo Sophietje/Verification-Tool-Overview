@@ -41,4 +41,4 @@ Mentioned in the README of the repository: [POET](POET.md), [Nidhugg](../Nidhugg
 #### Meta
 :: C
 :: Concurrency
-:: PV1           :: borderline PV2 (relies on user-driven assertions) but mostly works with assumed properties
+:: PV3 :: detects violations of user-defined and assumed assertions

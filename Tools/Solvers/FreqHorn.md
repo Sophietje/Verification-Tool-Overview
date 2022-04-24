@@ -41,3 +41,5 @@ https://doi.org/10.1007/978-3-030-25540-4_14
 
 #### Meta
 :: Constrained Horn Clauses (CHC)
+:: Syntax-guided synthesis (SyGuS)
+:: PV3 :: proves safety specification conformance by a combination of invariant synthesis and SMT solving

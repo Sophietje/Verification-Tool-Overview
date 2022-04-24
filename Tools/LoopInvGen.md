@@ -43,3 +43,7 @@ http://dx.doi.org/10.1145/2908080.2908099 (about PIE, backbone of LoopInvGen)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -
+
+#### Meta
+:: Syntax-guided synthesis (SyGuS)
+:: PV2 :: transforms program's assertions into an equivalent loop invariant
