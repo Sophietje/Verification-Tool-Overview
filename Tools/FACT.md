@@ -50,4 +50,4 @@ https://doi.org/10.1007/978-3-662-49674-9_32 (TACAS '16)
 
 #### Meta
 :: Probabilistic
-:: PV3 :: computes confidence intervals for given properties of timed automata
+:: PV4 :: computes confidence intervals for given properties of timed automata

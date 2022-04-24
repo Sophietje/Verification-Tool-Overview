@@ -40,4 +40,4 @@ https://doi.org/10.1007/978-3-319-63390-9_12 (CAV '17)
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: PV3 :: translates a consensus algorithm into a PROMELA model and LTL properties
+:: PV4 :: translates a consensus algorithm into a PROMELA model and LTL properties

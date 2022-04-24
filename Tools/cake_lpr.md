@@ -37,4 +37,4 @@ https://doi.org/10.1007/978-3-030-72013-1_12 (TACAS '21)
 - RAT is a de facto standard
 
 #### Meta:
-:: PV3 :: takes a proof and checks whether it satisfies linear propagation redundancy expectations
+:: PV4 :: takes a proof and checks whether it satisfies linear propagation redundancy expectations

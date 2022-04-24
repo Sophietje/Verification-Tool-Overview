@@ -51,5 +51,5 @@ https://doi.org/10.1007/978-3-319-41528-4_19 (CAV '16)
 -
 
 #### Meta
-:: PV3 :: checks user-specified assertions and infers some annotations for Java programs
+:: PV4 :: checks user-specified assertions and infers some annotations for Java programs
 :: Java

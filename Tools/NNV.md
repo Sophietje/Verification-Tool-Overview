@@ -52,4 +52,4 @@ Other tools for neural network verification: [Reluplex](Solvers/SMT/Reluplex.md)
 #### Meta
 :: DNN
 :: Neural network
-:: PV3 :: checks whether the given network is safe
+:: PV4 :: checks whether the given network is safe

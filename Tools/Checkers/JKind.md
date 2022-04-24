@@ -54,4 +54,4 @@ It is used as a back-end in [[SpeAR]], [AGREE](AGREE.md) and [[SIMPAL]].
 
 #### Meta
 :: Lustre
-:: PV3 :: infers invariants and checks user-specified properties for a Lustre system
+:: PV4 :: infers invariants and checks user-specified properties for a Lustre system

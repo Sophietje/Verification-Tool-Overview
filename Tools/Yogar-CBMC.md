@@ -40,4 +40,4 @@ https://doi.org/10.1007/978-3-319-89963-3_25
 #### Meta
 :: C
 :: Concurrency
-:: PV3 :: converts a multi-threaded program into an event order graph and verifies its sequential consistency
+:: PV4 :: converts a multi-threaded program into an event order graph and verifies its sequential consistency
