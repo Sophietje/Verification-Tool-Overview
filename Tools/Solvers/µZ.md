@@ -44,4 +44,4 @@ https://doi.org/10.1007/978-3-642-22110-1_36 (CAV' 11)
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: PV1 :: computers fixed points of a set of constaints
+:: PV1 :: computes fixed points of a set of constraints
