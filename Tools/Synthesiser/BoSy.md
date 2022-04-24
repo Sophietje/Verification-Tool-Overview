@@ -16,7 +16,7 @@ LTL formula
 JSON based format
 
 #### Expected output:
-Whether a specification is realizable. If realizable, then a solution can be extracted.
+Whether a specification is realisable. If realisable, then a solution can be extracted.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Constraint-solving

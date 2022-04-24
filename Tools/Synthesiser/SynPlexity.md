@@ -49,4 +49,4 @@ Compared to: [[Synquid]] and [[ReSyn]]
 
 #### Meta
 :: Synthesis
-:: PV5 :: synthesises recursive functions that satisfy a functional specification and an asymptotic resource bound.
+:: PV2 :: synthesises recursive functions that satisfy a functional specification and an asymptotic resource bound

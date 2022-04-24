@@ -41,4 +41,4 @@ https://doi.org/10.3233/SAT190039 (Journal on Satisfiability, Boolean Modeling a
 
 #### Meta
 :: SAT
-:: PV5 :: produces a satisfiability result for a formula
+:: PV4 :: produces a satisfiability result for a formula

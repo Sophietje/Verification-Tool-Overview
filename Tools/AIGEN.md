@@ -47,4 +47,4 @@ https://doi.org/10.1007/978-3-030-81688-9_20 (CAV '21)
 
 #### Meta
 :: Synthesis
-:: PV5 :: synthesises a transition system from the set of requirements
+:: PV2 :: synthesises a transition system from the set of requirements

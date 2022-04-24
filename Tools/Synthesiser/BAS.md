@@ -41,6 +41,6 @@ https://doi.org/10.1007/978-3-319-96145-3_20
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: PV5 :: synthesises asynchronous programs based on an LTL formula
+:: PV2 :: synthesises asynchronous programs based on an LTL formula
 :: Synthesis
 :: LTL

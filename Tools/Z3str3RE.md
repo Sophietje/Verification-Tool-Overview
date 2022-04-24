@@ -42,4 +42,4 @@ SMT solvers that support theories over regular expression membership predicate a
 
 #### Meta
 :: SMT
-:: PV5 :: part of Z3, produces a satisfiability result for a set of constrains
+:: PV4 :: part of Z3, produces a satisfiability result for a set of constrains

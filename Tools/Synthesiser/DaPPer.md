@@ -44,5 +44,5 @@ https://doi.org/10.1007/978-3-319-63387-9_14 (CAV '17)
 
 #### Meta
 :: Probabilistic
-:: PV5           :: synthesises probabilistic programs from relational datasets
+:: PV2 :: synthesises probabilistic programs from relational datasets
 :: Synthesis

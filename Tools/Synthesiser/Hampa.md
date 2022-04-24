@@ -40,4 +40,4 @@ https://doi.org/10.1007/978-3-030-53288-8_16
 
 #### Meta
 :: Synthesis
-:: PV5 :: synthesises a replicated object that guarantees integrity, convergence and recency
+:: PV2 :: synthesises a replicated object that guarantees integrity, convergence and recency

@@ -53,4 +53,4 @@ Possibly related: [MCHyper](Checkers/MCHyper.md)
 
 #### Meta
 :: HyperLTL
-:: PV5 :: checks satisfiability, implication and equivalence of hyperproperties
+:: PV4 :: checks satisfiability, implication and equivalence of hyperproperties

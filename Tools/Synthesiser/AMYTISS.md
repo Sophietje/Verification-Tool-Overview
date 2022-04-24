@@ -45,4 +45,4 @@ StocHy
 :: Probabilistic
 :: LTL
 :: Synthesis
-:: PV5 :: synthesises a spec-conforming controller from a Markov decision process
+:: PV2 :: synthesises a spec-conforming controller from a Markov decision process

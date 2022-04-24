@@ -45,4 +45,4 @@ https://doi.org/10.1007/978-3-030-81688-9_7 (CAV '21)
 
 #### Meta
 :: SMT
-:: PV5 :: produces a satisfiability formula for a query
+:: PV2 :: produces a satisfiability formula for a query

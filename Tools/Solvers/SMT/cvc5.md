@@ -37,4 +37,4 @@ From the same 'family' of tools: [[CVC]], [[CVC Lite]], [[CVC3]], [CVC4](CVC4.md
 
 #### Meta
 :: SMT
-:: PV5 :: produces a satisfiability result for a formula
+:: PV4 :: produces a satisfiability result for a formula

@@ -45,4 +45,4 @@ https://doi.org/10.1007/978-3-030-53291-8_22
 
 #### Meta
 :: Synthesis
-:: PV5 :: synthesises a controller for a resource-constrained Markov Decision Process
+:: PV2 :: synthesises a controller for a resource-constrained Markov Decision Process

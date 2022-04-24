@@ -42,4 +42,4 @@ https://doi.org/10.1007/978-3-642-02777-2_24 (SAT '09)
 
 #### Meta
 :: SAT
-:: PV5 :: produces a satisfiability result for a formula in CNF
+:: PV4 :: produces a satisfiability result for a formula in CNF

@@ -46,4 +46,4 @@ http://fmv.jku.at/papers/Biere-SAT-Competition-2017-solvers.pdf (SAT Competition
 
 #### Meta
 :: SAT
-:: PV5 :: produces a satisfiability result for a formula
+:: PV4 :: produces a satisfiability result for a formula

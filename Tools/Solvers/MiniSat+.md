@@ -2,4 +2,4 @@ Extension of [MiniSat](SAT/MiniSat.md) which adds support for Pseudo-Boolean con
 
 #### Meta
 :: SMT
-:: PV5 :: produces a satisfiability result for a formula
+:: PV4 :: produces a satisfiability result for a formula

@@ -46,4 +46,4 @@ See also: https://ultimate.informatik.uni-freiburg.de/smtinterpol/publications.h
 
 #### Meta
 :: SMT
-:: PV5 :: produces a satisfiability result for a formula
+:: PV4 :: produces a satisfiability result for a formula

@@ -47,4 +47,4 @@ https://doi.org/10.1007/978-3-030-45093-9_58
 
 #### Meta
 :: Hardware
-:: PV1           :: synthesises an approximate circuit from a given one and a set of constraints
+:: PV2 :: synthesises an approximate circuit from a given one and a set of constraints

@@ -45,4 +45,4 @@ compared to [[Blaze]]
 
 #### Meta
 :: Synthesis
-:: PV3 :: learns abstractions and transformers from a language and a set of synthesis problems
+:: PV2 :: learns abstractions and transformers from a language and a set of synthesis problems

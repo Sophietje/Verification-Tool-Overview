@@ -54,4 +54,4 @@ Other controller synthesis algorithms: [[CoSyMa]], [[Pessoa]], [[LTLMop]], [[Tul
 
 #### Meta
 :: Synthesis
-:: PV5 :: synthesises a set of controllers that meet the reach-avoid specification
+:: PV2 :: synthesises a set of controllers that meet the reach-avoid specification

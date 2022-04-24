@@ -17,26 +17,19 @@ Synthesis tool
 Specification file
 
 #### Expected input format:
-##### elli.py
-Acacia+ or TLSF format
-
-##### star.py
-Python
+- `elli.py`: Acacia+ or TLSF format
+- `star.py`: Python
 
 #### Expected output:
-##### elli.py
-If realizable, PARTY outputs a Mealy or Moore machine in dot or NuSMV format.
-
-##### star.py
-`unknown` or `realizable`?
-If realizable, then an automaton in dot or [AIGER](../../Formats/AIGER.md) format.
+- `elli.py`: If realisable, PARTY outputs a Mealy or Moore machine in dot or NuSMV format.
+- `star.py`: returns `unknown` or `realizable`
+If realisable, then an automaton in dot or [AIGER](../../Formats/AIGER.md) format.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-This tool uses **bounded synthesis**. In bounded synthesis an LTL property is translated to Büchi automata, and the verification of LTL properties can be reduced to deciding emptiness of the product of this automaton and a Kripke structure representing an implementation.
-
-This tool is actually a collection of several tools for bounded synthesis, the most notable being:
-The `elli.py` implements Bounded Synthesis, as explained in the CAV '13 paper.
-The `star.py` extends bounded synthesis to branching logics (CTL*), as explained in the CAV '17 paper.
+- This tool uses **bounded synthesis**. In bounded synthesis an LTL property is translated to Büchi automata, and the verification of LTL properties can be reduced to deciding emptiness of the product of this automaton and a Kripke structure representing an implementation.
+- This tool is actually a collection of several tools for bounded synthesis, the most notable being:
+    - The `elli.py` implements Bounded Synthesis, as explained in the CAV '13 paper.
+    - The `star.py` extends bounded synthesis to branching logics (CTL*), as explained in the CAV '17 paper.
 
 #### Comments:
 -
@@ -60,3 +53,4 @@ https://doi.org/10.1007/978-3-642-39799-8_66 (CAV '13)
 :: Automaton
 :: Synthesis
 :: LTL
+:: PV2 :: generates an automaton from source code or spec

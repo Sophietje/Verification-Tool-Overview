@@ -54,4 +54,4 @@ https://doi.org/10.1007/978-3-030-53288-8_31
 
 #### Meta
 :: Synthesis
-:: PV5 :: synthesises a controller for non-linear systems with reach-avoid requirements
+:: PV2 :: synthesises a controller for non-linear systems with reach-avoid requirements
