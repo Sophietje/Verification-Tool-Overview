@@ -45,4 +45,4 @@ https://doi.org/10.1007/978-3-642-22438-6_11
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: PV5 :: interactive theorem prover
+:: PV6 :: interactive theorem prover

@@ -51,4 +51,4 @@ See also: https://www.cs.utexas.edu/users/moore/publications/acl2-papers.html
 
 #### Meta
 :: LISP
-:: PV5           :: a full-fledged language to write specs and prove their properties
+:: PV6           :: a full-fledged language to write specs and prove their properties

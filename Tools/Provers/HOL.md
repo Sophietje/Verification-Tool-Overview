@@ -46,4 +46,4 @@ Guidebook/manual: https://hol-theorem-prover.org/guidebook/
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: PV5 :: interactive theorem prover
+:: PV6 :: interactive theorem prover

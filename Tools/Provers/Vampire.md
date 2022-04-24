@@ -48,4 +48,4 @@ https://doi.org/10.1007/978-3-642-39799-8_1 (CAV '13)
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: PV5 :: can produce proofs for theorems in first order logic
+:: PV6 :: can produce proofs for theorems in first order logic

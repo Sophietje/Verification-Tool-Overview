@@ -10,6 +10,7 @@ PV_text = (\
 	'allow the end user to control the properties that are being checked. For instance, it could be a tool that analyses user-written assertions in the code and verifies that they are indeed always respected by the program.',
 	'operate within a particular paradigm and derive their actions, conclusions and even properties that they need to check, from a built-in formal specification. For example, such a tool can guarantee freedom of deadlocks in a multi-threaded application, or data consistency in a database management system. Either the specification or the property set is fixed for tools of this level.',
 	'allow the end user to write their own specifications and “compile” them to fully formal mathematical representations that can be combined with mathematical representations of programs themselves or their desired properties, and verified together. Such a tool can already help someone make claims and guarantees about correctness, complexity or predicted performance of a novel, previously non-existing, garbage collection algorithm. Some of PV4 tools focus on synthesising a software artefact that satisfies the desired conditions, instead of checking an existing one for conformance.',
+	'?',
 	'can handle different user-written specifications, encode a wide range of different formulae for properties, and are capable of producing proofs of such properties together with inferring the correctness of such proofs.'
 	)
 
@@ -68,7 +69,7 @@ TEMPLATE = '''
             </li><li>
               <a href="pv4.html" title="spec compilers">PV4</a>
             </li><li>
-              <a href="pv5.html" title="proof assistants">PV5</a>
+              <a href="pv6.html" title="proof assistants">PV6</a>
             </li><li>
               <a href="framework.html">Frameworks</a>
             </li></ul>

@@ -49,4 +49,4 @@ Other solvers: [[CVC3]], [Z3](Z3.md)
 
 #### Meta
 :: SMT
-:: PV5 :: produces a proof for satisfiability of a formula
+:: PV6 :: produces a proof for satisfiability of a formula

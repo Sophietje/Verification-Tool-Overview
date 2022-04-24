@@ -220,7 +220,7 @@ indices['all'] = []
 name_by_index['all'] = 'All tools'
 indices['tags'] = []
 name_by_index['tags'] = 'All tags'
-for i in range(0,6):
+for i in range(0,7):
 	indices[f'pv{i}'] = []
 	name_by_index[f'pv{i}'] = f'PV{i} tools'
 
