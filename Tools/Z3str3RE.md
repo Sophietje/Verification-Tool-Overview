@@ -41,3 +41,5 @@ Other string solvers: [CVC4](Solvers/SMT/CVC4.md), [[OSTRICH]], [[Z3seq]], [[Z3s
 SMT solvers that support theories over regular expression membership predicate and linear arithmetic over length of strings: [CVC4](Solvers/SMT/CVC4.md), [[Z3str3]], [[Norn]], [[S3P]], [[HAMPI]]
 
 #### Meta
+:: SMT
+:: PV4 :: part of Z3, produces a satisfiability result for a set of constrains

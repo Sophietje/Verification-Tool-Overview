@@ -16,9 +16,9 @@ Safety verification
 #### Expected output:
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-They combine ideas from neural network reachability with ideas from hybrid system verification. They approximate neural networks with Taylor models. Moreover, they note that the reachability computation can be parallelized since each neuron in a layer can be analyzed independently.
+They combine ideas from neural network reachability with ideas from hybrid system verification. They approximate neural networks with Taylor models. Moreover, they note that the reachability computation can be parallelised since each neuron in a layer can be analysed independently.
 
-Uses [Flow*](Flow*.md)
+Uses [Flow\*](Flow*.md)
 
 #### Comments:
 License: GPL v3.0
@@ -38,7 +38,7 @@ https://doi.org/10.1007/978-3-030-81685-8_11 (CAV '21)
 https://doi.org/10.1145/3302504.3311806 (HSCC '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
-Compared to in CAV '21 paper: [NNV](NNV.md) and [[ReachNN*]]
+Compared to in CAV '21 paper: [NNV](NNV.md) and [[ReachNN\*]]
 
 #### Meta
 :: Neural network
