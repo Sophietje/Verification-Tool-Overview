@@ -46,4 +46,4 @@ https://doi.org/10.1613/jair.4694 (JAIR '15)
 
 #### Meta
 :: SAT
-:: PV4 :: produces a satisfiability result for a formula
+:: PV5 :: produces a satisfiability result for a formula

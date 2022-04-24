@@ -48,4 +48,4 @@ https://dx.doi.org/10.4230/LIPIcs.TIME.2017.7 (TIME '17)
 #### Meta
 :: MITL
 :: Automaton
-:: PV4 :: compiles a temporal logic formula to a timed automaton
+:: PV5 :: compiles a temporal logic formula to a timed automaton

@@ -52,4 +52,4 @@ https://doi.org/10.1007/978-3-030-25540-4_7
 #### Meta
 :: Hardware
 :: HyperLTL
-:: PV4 :: proves given properties on a given circuit
+:: PV5 :: proves given properties on a given circuit

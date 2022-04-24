@@ -50,4 +50,4 @@ Other tools that focus on the verification of neural networks: [NNV](../../NNV.m
 :: SMT
 :: DNN
 :: Neural network
-:: PV4 :: produces a satisfiability result for a formula
+:: PV5 :: produces a satisfiability result for a formula

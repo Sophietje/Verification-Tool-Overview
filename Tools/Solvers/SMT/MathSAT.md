@@ -43,4 +43,4 @@ Successor of MathSAT 4
 
 #### Meta
 :: SMT
-:: PV4 :: produces a satisfiability result for a formula
+:: PV5 :: produces a satisfiability result for a formula

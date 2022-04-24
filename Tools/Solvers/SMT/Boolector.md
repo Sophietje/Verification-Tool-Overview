@@ -46,4 +46,4 @@ https://doi.org/10.3233/SAT190101
 
 #### Meta
 :: SMT
-:: PV4 :: produces a satisfiability result for a formula
+:: PV5 :: produces a satisfiability result for a formula

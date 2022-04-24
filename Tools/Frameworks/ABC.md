@@ -60,5 +60,5 @@ https://doi.org/10.1007/978-3-642-14295-6_5 (CAV '10)
 
 #### Meta
 :: Framework
-:: PV4           :: versatile verification and synthesis arsenal
+:: PV5           :: versatile verification and synthesis arsenal
 :: Synthesis

@@ -46,4 +46,4 @@ Successor: [cvc5](cvc5.md)
 
 #### Meta
 :: SMT
-:: PV4 :: produces a satisfiability result for a formula
+:: PV5 :: produces a satisfiability result for a formula
