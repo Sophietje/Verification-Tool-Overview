@@ -23,7 +23,7 @@ One of the following:
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 
 #### Comments:
-CVC4 is now **succeeded by [cvc5](cvc5.md)**.
+CVC4 is now **succeeded by** [cvc5](cvc5.md).
 
 #### URIs (github, websites, etc.):
 Repository: https://github.com/CVC4/CVC4-archived
