@@ -1,4 +1,4 @@
-#!/Users/grammarware/opt/anaconda3/bin/python
+#!/usr/local/bin/python3
 import os
 from collections import OrderedDict
 from pathlib import Path
@@ -66,21 +66,21 @@ def markdown_to_html1(sections):
 def markdown_to_html2(sections):
 	lines = []
 	if check_for(sections, SECTION_URI):
-		lines.append(h3(SECTION_URI_))
+		lines.append(h4(SECTION_URI_))
 		lines.append(ul(sections[SECTION_URI]))
 	if check_for(sections, SECTION_LCD):
-		lines.append(h3(SECTION_LCD))
+		lines.append(h4(SECTION_LCD))
 		lines.append(ul(sections[SECTION_LCD]))
-	if check_for(sections, SECTION_LPD):
-		lines.append(h3(SECTION_LPD))
-		lines.append(ul(sections[SECTION_LPD]))
 	if check_for(sections, SECTION_LRP):
-		lines.append(h3(SECTION_LRP))
+		lines.append(h4("Related papers"))
 		lines.append(ul(sections[SECTION_LRP]))
+	if check_for(sections, SECTION_LPD):
+		lines.append(h4(SECTION_LPD))
+		lines.append(ul(sections[SECTION_LPD]))
 	if check_for(sections, SECTION_RTT):
-		lines.append(h3(SECTION_RT_))
+		lines.append(h4(SECTION_RT_))
 		lines.append(ul(sections[SECTION_RTT]))
-	lines.append(h3('ProVerB specific'))
+	lines.append(h4('ProVerB specific'))
 	return '\n'.join(lines)
 
 def cleanup(s,c):

@@ -18,10 +18,10 @@ TEMPLATE = '''
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html version="-//W3C//DTD XHTML 1.1//EN"
-      xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.w3.org/1999/xhtml
-                          http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+			xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.w3.org/1999/xhtml
+													http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0"/>
@@ -30,63 +30,62 @@ TEMPLATE = '''
 		<link href="tabber.css" rel="stylesheet" type="text/css" media="screen" />
 		<script type="text/javascript" src="tabber.js" />
 		<script type="text/javascript">
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-3743366-7']);
-		  _gaq.push(['_setDomainName', 'github.io']);
-		  _gaq.push(['_setAllowLinker', true]);
-		  _gaq.push(['_trackPageview']);
-		  (function() {{
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  }})();
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-3743366-7']);
+			_gaq.push(['_setDomainName', 'github.io']);
+			_gaq.push(['_setAllowLinker', true]);
+			_gaq.push(['_trackPageview']);
+			(function() {{
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			}})();
 		</script>
 	</head>
 	<body>
 		<div class="left">
-      <div class="logo">
-			  <a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
-			  <h3>Program<br/>Verification<br/>Book</h3>
-      </div>
-      <nav>
-      	<ul style="margin: 0;padding: 0;">
-          <li>
-            <a href="index.html">Homepage</a>
-          </li>
-          <li>
-            <a href="all.html">All tools</a>
-          </li>
-          <ul>
-            
-          <li>
-              <a href="pv0.html" title="unprocessed/nonverifying">PV0</a>
-            </li><li>
-              <a href="pv1.html" title="solvers/linters">PV1</a>
-            </li><li>
-              <a href="pv2.html" title="synthesisers">PV2</a>
-            </li><li>
-              <a href="pv3.html" title="property checkers">PV3</a>
-            </li><li>
-              <a href="pv4.html" title="monoverifiers">PV4</a>
-            </li><li>
-              <a href="pv5.html" title="spec compilers">PV5</a>
-            </li><li>
-              <a href="pv6.html" title="proof assistants">PV6</a>
-            </li><li>
-              <a href="framework.html">Frameworks</a>
-            </li></ul>
-          <li>
-              <a href="tags.html">Tags</a>
-            </li><li>
-              <a href="language.html">Languages</a>
-            </li><li>
-            <a href="credits.html">About</a>
-          </li>
-        </ul>
-      </nav>
+			<div class="logo">
+				<a href="index.html"><img src="proverb.png" alt="ProVerB"/></a>
+				<h3>Program<br/>Verification<br/>Book</h3>
+			</div>
+			<nav>
+				<ul style="margin: 0;padding: 0;">
+					<li>
+						<a href="index.html">Homepage</a>
+					</li>
+					<li>
+						<a href="all.html">All tools</a>
+					</li>
+					<ul>
+						
+					<li>
+							<a href="pv0.html" title="unprocessed/nonverifying">PV0</a>
+						</li><li>
+							<a href="pv1.html" title="solvers/linters">PV1</a>
+						</li><li>
+							<a href="pv2.html" title="synthesisers">PV2</a>
+						</li><li>
+							<a href="pv3.html" title="property checkers">PV3</a>
+						</li><li>
+							<a href="pv4.html" title="monoverifiers">PV4</a>
+						</li><li>
+							<a href="pv5.html" title="spec compilers">PV5</a>
+						</li><li>
+							<a href="pv6.html" title="proof assistants">PV6</a>
+						</li><li>
+							<a href="framework.html">Frameworks</a>
+						</li></ul>
+					<li>
+							<a href="tags.html">Tags</a>
+						</li><li>
+							<a href="language.html">Languages</a>
+						</li><li>
+						<a href="credits.html">About</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
 		<div class="main">
-		<div class="tabber">
 			{tabs}
 		</div>
 		<br/><hr/>
@@ -94,7 +93,6 @@ TEMPLATE = '''
 			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
 			Last updated: <strong>{last_updated}</strong>.
 		</div>
-	</div>
 	</body>
 </html>
 '''
@@ -107,7 +105,12 @@ class Page(object):
 	def dump(self):
 		tabber = ''
 		for tab in self.tabs:
-			tabber += f'<div class="tabbertab"><h2>{tab}</h2>{self.tabs[tab]}</div>'
+			if (tab == 'Tool'):
+				tabber += f'<div class="tool-info">{self.tabs[tab]}</div>'
+			elif (tab == 'Meta'):
+				tabber += f'<div class="meta-info">{self.tabs[tab]}</div>'
+			else:
+				tabber += f'<div class="tabbertab">{self.tabs[tab]}</div>'
 		return TEMPLATE.format(title=self.title, tabs=tabber, last_updated=datetime.datetime.now().strftime('%B %Y'))
 
 class ToolPage(Page):
@@ -125,8 +128,8 @@ class ToolPage(Page):
 		# construct tag links
 		TAGS = '<div>' + '\n'.join([f'<span class="tag">{make_link(t+".html", tags[t][0], hover=tags[t][1])}</span>'\
 				for t in sorted(tags)]) + '</div>'
-		EDITLINK = '<ul><li>' + make_link('https://github.com/Sophietje/Verification-Tool-Overview/blob/main/'+self.filename, 'View/edit source', why='Markdown')+'</li></ul>'
-		self.tabs['Tool'] = TAGS + FULL_TITLE + c1
+		EDITLINK = '<p>' + make_link('https://github.com/Sophietje/Verification-Tool-Overview/blob/main/'+self.filename, 'View/edit source', why='Markdown') + '</p>'
+		self.tabs['Tool'] = FULL_TITLE + c1
 		self.tabs['Meta'] = TAGS + c2 + EDITLINK
 
 class IndexPage(Page):
