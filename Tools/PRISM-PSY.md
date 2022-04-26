@@ -49,3 +49,6 @@ https://doi.org/10.1007/978-3-662-49674-9_21 (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Parameter synthesis for discrete-time Markovian models: [[PROPhESY]]
+
+#### Meta
+:: PV2 :: synthesises model parameters such that a property meets a given threshold

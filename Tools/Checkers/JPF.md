@@ -51,3 +51,4 @@ The wiki contains a list of tools that use JPF: https://github.com/javapathfinde
 #### Meta
 :: Java
 :: PV3           :: checks properties of annotated Java code
+:: Model checking

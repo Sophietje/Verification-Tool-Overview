@@ -44,4 +44,5 @@ https://doi.org/10.1007/978-3-319-63387-9_9 (CAV '17)
 
 #### Meta
 :: Probabilistic
+:: Program repair
 :: PV2 :: repairs a given loop-free program from a probabilistic specification of its desired behaviour

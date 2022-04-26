@@ -13,7 +13,9 @@ Bounded model checking
 Model checker
 
 #### Expected input thing:
-Circuit design?
+- Input files describing the hardware
+- Verification problem (e.g. safety or LTL) or equivalence checking
+- *Depending on previous choice you may need to provide*: Property (invariant or LTL property)
 
 #### Expected input format:
 It supports many input formats including:
@@ -23,6 +25,8 @@ It supports many input formats including:
 - [[SystemVerilog]]
 - Symbolic Transition Systems (STS)
 - Explicit states Transition Systems (ETS).
+
+Properties can be defined as a parameter or in some of the input formats mentioned above.
 
 #### Expected output:
 Depends on the type of analysis that you do with the tool.
@@ -60,3 +64,6 @@ https://doi.org/10.23919/FMCAD.2018.8603014 (FMCAD '18)
 
 #### Meta
 :: Hardware
+:: Model checking
+:: LTL
+:: PV3 :: checks user-specified properties for hardware designs

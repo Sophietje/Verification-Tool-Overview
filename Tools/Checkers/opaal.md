@@ -22,6 +22,8 @@ UPPAAL XML format extended with lattice features
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
+"opaal is a distributed/parallel (discrete time) model checker for networks of timed automata..." ([Source](https://opaal-modelchecker.com/architecture/))
+
 Uses [pyuppaal](../Libraries/pyuppaal.md).
 
 #### Comments:
@@ -41,3 +43,7 @@ Source code: https://code.launchpad.net/~opaal-developers/opaal/trunk
 https://doi.org/10.1007/978-3-642-20398-5_37 (NFM '11)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Model checking
+:: Automaton

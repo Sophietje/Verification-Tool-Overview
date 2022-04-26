@@ -52,3 +52,9 @@ https://doi.org/10.1007/978-3-662-46681-0_28 (TACAS '15)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other stateless model checkers: [GenMC](Checkers/GenMC.md), [[RCMC]], [[CDSChecker]]
+
+#### Meta
+:: C
+:: C++
+:: Model checking
+:: Concurrency

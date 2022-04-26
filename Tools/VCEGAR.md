@@ -48,3 +48,4 @@ https://doi.org/10.1145/1065579.1065697 (DAC '05)
 
 #### Meta
 :: Hardware
+:: Model checking

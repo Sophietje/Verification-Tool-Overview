@@ -1,4 +1,4 @@
-EBMC is a Model Checker for hardware designs. It includes both bounded and unbounded analysis, i.e., it can both discover bugs and is also able to prove the absence of bugs.
+EBMC is a model checker for hardware designs. It includes both bounded and unbounded analysis, i.e., it can both discover bugs and is also able to prove the absence of bugs.
 
 #### Name:
 EBMC
@@ -49,3 +49,4 @@ https://doi.org/10.1016/j.entcs.2005.07.021 (Electronic Notes in Theoretical Com
 :: Hardware
 :: LTL           :: also can work with SystemVerilog assertions
 :: PV3           :: checks assertions/properties against a Verilog/Netlists/… spec
+:: Model checking

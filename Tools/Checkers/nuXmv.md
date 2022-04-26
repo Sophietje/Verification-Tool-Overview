@@ -52,3 +52,5 @@ Successor of [[NuSMV]].
 
 #### Meta
 :: PV3 :: checks user-specified properties of a transition system
+:: Model checking
+:: Simulation

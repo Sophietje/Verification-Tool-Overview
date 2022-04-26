@@ -52,3 +52,4 @@ https://doi.org/10.1007/978-3-540-24730-2_15
 :: C
 :: C++
 :: PV3           :: verifies given/parameterised properties of C code
+:: Model checking

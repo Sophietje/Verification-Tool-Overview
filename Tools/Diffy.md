@@ -12,10 +12,11 @@ Invariants
 ?
 
 #### Expected input thing:
-C program, arrays need to be stack allocated instead of malloc'd.
+C program with assertions, arrays need to be stack allocated instead of malloc'd.
 
 #### Expected input format:
-C program: similar format to what is used for SV-COMP
+C program: similar format to what is used for SV-COMP. 
+Assertions are expressed as `__VERIFIER_assert(...)`
 
 #### Expected output:
 `DIFFY_VERIFICATION_SUCCESSFUL` when the given post-condition is verified.
@@ -43,3 +44,7 @@ https://doi.org/10.1007/978-3-030-81688-9_42 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to: [[Vajra]] (part of [VeriAbs](VeriAbs.md))
+
+#### Meta
+:: PV3 :: checks user-specified assertions in a C program
+:: C

@@ -55,3 +55,4 @@ This toolset includes the model checker [mcsta](../Checkers/mcsta.md).
 
 #### Meta
 :: Framework
+:: Model checking

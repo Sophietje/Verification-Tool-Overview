@@ -41,3 +41,4 @@ https://doi.org/10.1007/978-3-030-25543-5_21
 
 #### Meta
 :: PV3 :: takes a model and a property and checks satisfiability within bounds
+:: Model checking

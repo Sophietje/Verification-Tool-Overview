@@ -40,3 +40,5 @@ https://doi.org/10.1007/BFb0020949 (International Hybrid Systems Workshop '95)
 
 #### Meta
 :: Framework
+:: Simulation
+:: Model checking

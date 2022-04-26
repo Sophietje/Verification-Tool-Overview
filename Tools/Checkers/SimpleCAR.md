@@ -47,3 +47,4 @@ SimpleCAR is a rewrite of [[CARChecker]].
 
 #### Meta
 :: Hardware
+:: Model checking

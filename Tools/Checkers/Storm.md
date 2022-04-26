@@ -66,3 +66,4 @@ https://doi.org/10.1007/978-3-319-63390-9_31 (CAV '17)
 #### Meta
 :: Probabilistic
 :: PV5           :: computes how a given property is related to a given specification
+:: Model checking

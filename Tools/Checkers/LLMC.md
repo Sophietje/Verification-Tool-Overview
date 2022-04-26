@@ -48,3 +48,4 @@ Compared to: [DIVINE](../DIVINE.md), [Nidhugg](../Nidhugg.md)
 :: LLVM
 :: Concurrency
 :: PV3 :: checks assertions in a multi-threaded program
+:: Model checking

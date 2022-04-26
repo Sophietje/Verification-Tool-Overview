@@ -44,3 +44,4 @@ Compared to: [Boolector](../Solvers/SMT/Boolector.md), [Yices](../Solvers/SMT/Yi
 
 #### Meta
 :: PV4 :: checks safety properties of models with registers and memories
+:: Model checking

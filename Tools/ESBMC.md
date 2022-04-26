@@ -63,3 +63,5 @@ https://doi.org/10.1007/978-3-642-54862-8_31 (TACAS '14)
 #### Meta
 :: C
 :: C++
+:: Model checking
+:: PV4 :: checks safety properties in C programs, can generate invariants

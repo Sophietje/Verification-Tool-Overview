@@ -42,3 +42,4 @@ MUS enumeration techniques: MARCO, MCSMUS, UNIMUS
 
 #### Meta
 :: PV1 :: counts minimal unsatisfiable subsets of a given formula in CNF
+:: Minimal Unsatisfiable Subsets (MUSes)

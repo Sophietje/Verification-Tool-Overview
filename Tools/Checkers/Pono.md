@@ -60,3 +60,5 @@ https://doi.org/10.1007/978-3-030-81688-9_22 (CAV '21)
 
 #### Meta
 :: PV3 :: checks a user-specified property for a transition system
+:: Hardware
+:: Model checking

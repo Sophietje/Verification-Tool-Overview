@@ -41,3 +41,4 @@ https://doi.org/10.1007/978-3-319-63390-9_12 (CAV '17)
 
 #### Meta
 :: PV4 :: translates a consensus algorithm into a PROMELA model and LTL properties
+:: Model checking

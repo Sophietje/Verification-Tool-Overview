@@ -50,3 +50,8 @@ Old repository (the original, now archived repository, links to the repository a
 https://doi.org/10.1007/978-3-030-53291-8_12
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Model checking
+:: Framework
+:: Protocol

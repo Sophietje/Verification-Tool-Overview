@@ -41,3 +41,7 @@ https://doi.org/10.1007/978-3-030-81688-9_15 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to: [AMUSIC](AMUSIC.md)
+
+#### Meta
+:: Minimal Unsatisfiable Subsets (MUSes)
+:: PV1 :: counts minimal unsatisfiable subsets of a given boolean formula

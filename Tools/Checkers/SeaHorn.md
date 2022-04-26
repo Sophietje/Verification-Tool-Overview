@@ -48,3 +48,5 @@ https://doi.org/10.1007/978-3-662-46681-0_41 (TACAS 2015)
 #### Meta
 :: C
 :: PV3 :: checks assertions in a C program
+:: Constrained Horn Clauses (CHC)
+:: Model checking

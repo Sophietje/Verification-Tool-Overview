@@ -63,3 +63,4 @@ https://doi.org/10.1007/978-3-662-49674-9_20 (TACAS '16)
 :: Automaton
 :: Probabilistic
 :: PV4 :: model checker for probabilistic timed automata
+:: Model checking

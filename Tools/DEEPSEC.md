@@ -47,3 +47,5 @@ Other security verifiers: [[SPEC]], [[APTE]], [[Akiss]], [[Sat-Eq]],
 
 #### Meta
 :: Security
+:: Protocol
+:: PV1 :: checks whether two cryptographic protocols are trace equivalent

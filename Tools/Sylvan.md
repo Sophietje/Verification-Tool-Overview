@@ -47,3 +47,5 @@ https://doi.org/10.1007/978-3-662-46681-0_60 (TACAS '15)
 [CUDD](Libraries/CUDD.md)
 
 #### Meta
+:: Library
+:: BDD

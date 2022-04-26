@@ -62,3 +62,4 @@ https://doi.org/10.1007/978-3-642-14295-6_5 (CAV '10)
 :: Framework
 :: PV5           :: versatile verification and synthesis arsenal
 :: Synthesis
+:: Model checking

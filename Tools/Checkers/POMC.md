@@ -52,3 +52,4 @@ https://doi.org/10.1007/978-3-030-81688-9_18 (CAV '21)
 #### Meta
 :: PV3 :: checks whether a user-specified POTL formula holds for an automaton or MiniProc program
 :: Automaton
+:: Model checking

@@ -51,3 +51,4 @@ https://doi.org/10.1007/978-3-030-81688-9_25 (CAV '21)
 #### Meta
 :: Probabilistic
 :: PV3 :: checks properties of a pCGL program
+:: Model checking

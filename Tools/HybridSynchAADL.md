@@ -33,7 +33,7 @@ The user can specify time-bounded invariant and reachability properties that sho
 
 The tool can be used to do the following things:
 - Constraints checking: validate that the model satisfies all the syntactic constraints of the modelling language
-- Code generation: Synthesize Maude code from the model
+- Code generation: Synthesize [Maude](../Formats/Maude.md) code from the model
 - Formal analysis: 
 	1. *Symbolic reachability* to verify that all possible behaviors satisfy a given requirement, if not then a counterexample is generated. This can guarantee the absence of a counterexample.
 	2. *Randomized simulation*, which repeatedly executes the model until a counterexample of a requirement is found.
@@ -58,3 +58,7 @@ Repository: https://github.com/hybridsynchaadl/HybridSynchAADL
 https://doi.org/10.1007/978-3-030-81685-8_23 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Simulation
+:: Synthesis

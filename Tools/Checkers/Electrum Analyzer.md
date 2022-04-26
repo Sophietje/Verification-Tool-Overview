@@ -50,3 +50,7 @@ Project page: https://haslab.github.io/Electrum/
 https://doi.org/10.1145/3238147.3240475 (ASE '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Model checking
+:: LTL

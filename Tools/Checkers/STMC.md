@@ -44,3 +44,4 @@ Other statistical model checkers: [PRISM](PRISM.md), [[MRMC]], [[VESTA]], [[YMER
 
 #### Meta
 :: Probabilistic
+:: Model checking
