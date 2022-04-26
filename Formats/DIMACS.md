@@ -4,4 +4,4 @@ Description of the format as was given for the SAT competition in 2009: http://w
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

@@ -6,4 +6,4 @@ Behavioral interface specification language that can be used to specify the beha
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

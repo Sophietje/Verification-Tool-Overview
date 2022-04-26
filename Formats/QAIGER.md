@@ -4,4 +4,4 @@ https://github.com/ltentrup/QAIGER
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

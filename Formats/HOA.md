@@ -28,4 +28,4 @@ List of tools that support the format as input or output: https://adl.github.io/
 #### Meta
 :: no PV
 :: Automaton
-:: Language
+:: Specification format

@@ -8,4 +8,4 @@ Repository with a collection of pre-trained models in ONNX format: https://githu
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

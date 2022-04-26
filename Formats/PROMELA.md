@@ -10,4 +10,4 @@ Promela's semantics: https://spinroot.com/spin/Man/Intro.html
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

@@ -6,4 +6,4 @@ https://drops.dagstuhl.de/opus/volltexte/2006/416/
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

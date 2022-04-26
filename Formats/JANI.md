@@ -4,4 +4,4 @@ https://jani-spec.org/
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

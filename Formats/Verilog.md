@@ -17,5 +17,5 @@ Since 2008, Verilog has been merged into [[SystemVerilog]].
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format
 :: Hardware

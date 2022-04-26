@@ -4,4 +4,4 @@ https://www.qbflib.org/qdimacs.html
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

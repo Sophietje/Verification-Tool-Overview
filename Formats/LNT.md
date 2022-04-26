@@ -36,4 +36,4 @@ Used by [[DLC]]
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

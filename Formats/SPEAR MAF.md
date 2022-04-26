@@ -29,4 +29,4 @@ Used in [[SPEAR]]
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

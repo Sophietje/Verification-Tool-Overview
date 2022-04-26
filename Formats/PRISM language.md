@@ -14,4 +14,4 @@ https://www.prismmodelchecker.org/manual/ThePRISMLanguage/Introduction
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

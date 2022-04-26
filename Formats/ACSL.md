@@ -8,4 +8,4 @@ Behavioural specification language for C programs inspired by [[JML]].
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

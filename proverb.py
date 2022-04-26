@@ -78,7 +78,7 @@ TEMPLATE = '''
 					<li>
 							<a href="tags.html">Tags</a>
 						</li><li>
-							<a href="language.html">Languages</a>
+							<a href="specificationformat.html">Specification formats</a>
 						</li><li>
 						<a href="credits.html">About</a>
 					</li>

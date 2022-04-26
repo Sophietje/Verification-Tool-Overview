@@ -5,4 +5,4 @@ https://sygus.org/language/
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

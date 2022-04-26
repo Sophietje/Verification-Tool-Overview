@@ -4,4 +4,4 @@ https://github.com/ocaml-gospel/gospel
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

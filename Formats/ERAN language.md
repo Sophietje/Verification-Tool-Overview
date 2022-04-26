@@ -4,4 +4,4 @@ Repository: https://github.com/eth-sri/eran
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format

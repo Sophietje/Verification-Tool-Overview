@@ -9,4 +9,4 @@ AIGER is a format, library and set of utilities for And-Inverter Graphs (AIGs).
 
 #### Meta
 :: no PV
-:: Language
+:: Specification format
