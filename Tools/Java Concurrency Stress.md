@@ -1,5 +1,7 @@
+Java Concurrency Stress executes tests concurrently and tries to identify reorderings or contract violations for concurrent code.
+
 #### Name:
-Java Concurrency Stress, also known as jcstress
+Java Concurrency Stress (a.k.a. jcstress)
 
 #### Application domain/field:
 Concurrency
@@ -19,7 +21,6 @@ An HTML report with the test results. This includes how many tests failed (eithe
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Testing tool to ensure correctness of concurrency support in the JVM. It has a suite of tests that can be used for research in the correctness of concurrency support in the JVM, class libraries, and hardware. It can be used as a library as well.
-It executes tests concurrently and tries to identify reorderings or contract violations for concurrent code.
 Note that jcstress can require significant time to catch all errors.
 
 #### Comments:
@@ -40,3 +41,6 @@ Project page: https://openjdk.java.net/projects/code-tools/jcstress/
 
 #### Related tools (tools mentioned or compared to in the paper):
 -
+
+#### Meta
+:: Java

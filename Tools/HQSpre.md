@@ -49,3 +49,7 @@ https://doi.org/10.1007/978-3-662-54577-5_21 (TACAS
 #### Related tools (tools mentioned or compared to in the paper):
 QBF solvers: [[AIGSolve]], [[AQuA]], [CAQE](Solvers/CAQE.md), [[DepQBF]], [[Qesto]], [[RAReQS]], [[HQS]]
 Other preprocessors: [[sQueezeBF]], [[Bloqqer]]
+
+#### Meta
+:: PV1 :: simplifies quantified Boolean formulas and dependency quantified Boolean formulas
+:: Quantified Boolean Formula (QBF)

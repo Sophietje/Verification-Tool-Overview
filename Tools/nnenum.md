@@ -44,4 +44,4 @@ Other tools for the verification of neural networks: [Marabou](Marabou.md), [[Ne
 
 #### Meta
 :: Neural network
-:: PV3 :: given an unsafe set an a neural network, checks whether the set overals with the output of the network
+:: PV3 :: given an unsafe set an a neural network, checks whether the set overlaps with the output of the network

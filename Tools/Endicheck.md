@@ -45,4 +45,4 @@ https://doi.org/10.1007/978-3-030-45237-7_15 (TACAS '20)
 [[Sparse]], [Valgrind](Frameworks/Valgrind.md), [[Memcheck]], [[Hobbes]], [[DataFlowSanitizer]]
 
 #### Meta
-:: PV1 :: Detects endianness bugs in annotated C/C++ programs
+:: PV1 :: detects endianness bugs in annotated C/C++ programs
