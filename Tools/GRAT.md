@@ -43,3 +43,7 @@ Last update seems to be from December 2018
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[drat-trim]], [[LRAT]]
+
+#### Meta
+:: SAT
+:: PV1 :: checks correctness of SAT solver certificates

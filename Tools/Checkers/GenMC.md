@@ -35,7 +35,7 @@ The verification can be performed with respect to the RC11 memory model (default
 
 #### Comments:
 - License: GPL-3.0 License
-- GenMC has PV2 features (checks assertions), PV3 features (infers provable properties from goals like data race), and PV4 features (when used with a non-RC11 memory model).
+- GenMC has PV3 features (checks assertions), PV4 features (infers provable properties from goals like data race), and PV5 features (when used with a non-RC11 memory model).
 
 #### URIs (github, websites, etc.):
 Project page: https://plv.mpi-sws.org/genmc/

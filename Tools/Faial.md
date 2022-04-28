@@ -19,7 +19,7 @@ CUDA kernel
 ?
 
 #### Expected output:
-Whether the kernel is data-race free. If note, then it will list specific data-races.
+Whether the kernel is data-race free. If not, then it will list specific data-races.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 -
@@ -29,9 +29,10 @@ Whether the kernel is data-race free. If note, then it will list specific data-r
 
 #### URIs (github, websites, etc.):
 Artifact for CAV '21: https://zenodo.org/record/4726300
+Repository: https://gitlab.com/umb-svl/faial
 
 #### Last commit date:
--
+25 April 2022
 
 #### Last publication date:
 15 July 2021
@@ -44,3 +45,4 @@ Other tools that can find data races: [[GPUVerify]], [[PUG]], [[GKLEE]], [[SESA]
 
 #### Meta
 :: CUDA
+:: PV1 :: checks data-race freedom of GPU kernels

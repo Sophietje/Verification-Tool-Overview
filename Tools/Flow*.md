@@ -12,7 +12,7 @@ Reachability analysis
 
 #### Expected input thing:
 - Hybrid system model file which describes the modes, the polynomial dynamics associated with each mode and the transitions between modes
-- A specification file includes Taylor Model flowpipes with the state space and unsage set specifications
+- A specification file includes Taylor Model flowpipes with the state space and unsafe set specifications
 
 #### Expected input format:
 ?

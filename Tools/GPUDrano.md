@@ -47,3 +47,4 @@ https://doi.org/10.1007/978-3-319-63387-9_25 (CAV '17)
 
 #### Meta
 :: CUDA
+:: PV1 :: detects uncoalesced memory accesses in CUDA programs

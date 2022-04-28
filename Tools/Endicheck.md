@@ -19,7 +19,7 @@ C/C++ program.
 The annotations are written in the program source code using the annotations defined in the C header file endicheck.h
 
 #### Expected output:
-?
+Endicheck will report errors if it detects missing byte-swaps
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 **Endianness**: ordering of bytes used to represent numbers.
@@ -42,4 +42,7 @@ Repository: https://github.com/rkapl/endicheck
 https://doi.org/10.1007/978-3-030-45237-7_15 (TACAS '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
-[[Sparse]], [Valgrind](Frameworks/Valgrind.md), [[Memcheck]], [[Hobbes]], [[DataFlowSanitizer]], 
+[[Sparse]], [Valgrind](Frameworks/Valgrind.md), [[Memcheck]], [[Hobbes]], [[DataFlowSanitizer]]
+
+#### Meta
+:: PV1 :: Detects endianness bugs in annotated C/C++ programs

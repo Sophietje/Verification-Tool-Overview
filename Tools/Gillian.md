@@ -28,7 +28,7 @@ Gillian uses compositional memory models of JS and C.
 Gillian does not seem to support reasoning about concurrent programs.
 
 #### Comments:
-License: no license so far, meaning that nobody can copy distribute or modify it without permission. You need to contact the authors if you want to use it.
+License: BSD-3-Clause
 
 #### URIs (github, websites, etc.):
 Artifact for CAV '21: https://zenodo.org/record/4838116
@@ -36,7 +36,7 @@ Project page: https://gillianplatform.github.io/
 Repository: https://github.com/GillianPlatform/Gillian
 
 #### Last commit date:
-13 December 2021
+23 April 2022
 
 #### Last publication date:
 15 July 2021

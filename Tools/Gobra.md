@@ -21,7 +21,7 @@ Go program with specifications
 Specifications should be written in the form of assertions (preconditions, postconditions, loop invariants, predicates) in the program code.
 
 #### Expected output:
-?
+If verification fails, then it will report on the level of the Go program, what assertions could not be proven.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Gobra takes an annotated Go program as input. It will then encode this annotated program into the intermediate verification language [Viper](Frameworks/Viper.md) and apply an existing SMT-based verifier.
@@ -53,3 +53,4 @@ Other [Viper](Frameworks/Viper.md)-based verifiers: [Nagini](Nagini.md), [[Prust
 
 #### Meta
 :: Go
+:: PV4 :: checks memory safety, crash safety, data-race freedom, and user-provided specifications for Go programs
