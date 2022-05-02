@@ -43,3 +43,8 @@ https://doi.org/10.1007/978-3-030-81688-9_4 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [AProVE](AProVE.md), [iRankFinder](iRankFinder.md), [Ultimate Automizer](Ultimate%20Automizer.md)
+
+#### Meta
+:: Termination
+:: C
+:: PV1 :: checks whether a C program will (non-)terminate

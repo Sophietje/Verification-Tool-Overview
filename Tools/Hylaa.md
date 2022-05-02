@@ -49,3 +49,6 @@ https://doi.org/10.1145/3049797.3049808 (HSCC '17)
 https://doi.org/10.1007/978-3-662-54577-5_32 (TACAS '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Automaton

@@ -1,3 +1,5 @@
+Tool to evaluate relaxed-memory behavior of instruction set architectures w.r.t. arbitrary axiomatic memory models
+
 #### Name:
 Isla
 
@@ -45,3 +47,6 @@ Documentation: https://github.com/rems-project/isla/blob/master/doc/axiomatic.ad
 https://doi.org/10.1007/978-3-030-81685-8_14 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Concurrency

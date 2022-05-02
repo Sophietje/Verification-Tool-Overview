@@ -41,3 +41,6 @@ Project page: http://temporallogic.org/research/CAV19/
 https://doi.org/10.1007/978-3-030-25543-5_1
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: LTL

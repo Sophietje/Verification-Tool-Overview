@@ -16,7 +16,7 @@ Synthesis tool
 - Mapping constraint C
 
 #### Expected input format:
-Alloy model (.als file)?
+[Alloy](Alloy.md) model (.als file)?
 
 #### Expected output:
 If it exists, a maximal set of mappings that ensures that the resulting platform implementation preserves the given property.

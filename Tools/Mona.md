@@ -39,3 +39,7 @@ https://doi.org/10.1007/3-540-60630-0_5 (TACAS 1995)
 https://doi.org/10.1142/S012905410200128X (Journal of Foundations of Computer Science 2002)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Automaton
+:: PV1 :: translates WS1S and WS2S into minimum DFAs and GTAs

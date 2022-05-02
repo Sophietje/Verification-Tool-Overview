@@ -52,3 +52,8 @@ https://doi.org/10.1007/978-3-030-72013-1_11
 
 #### Related tools (tools mentioned or compared to in the paper):
 -
+
+#### Meta
+:: Neural network
+:: DNN
+:: PV3 :: checks user-specified properties of deep neural networks

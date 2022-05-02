@@ -40,6 +40,10 @@ Repository (has a different name but is linked in the paper): https://github.com
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_7
+https://doi.org/10.1007/978-3-030-53288-8_7 (CAV '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Smart contract
+:: PV3 :: checks user-specified properties of Move smart contracts

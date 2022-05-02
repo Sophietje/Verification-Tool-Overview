@@ -31,7 +31,7 @@ IMITATOR implements the following algorithms:
 - On-the-fly computation of the parametric state space
 - Parametric reachability or safety analysis
 - Minimal-time reachability synthesis
-- parametric deadlock freeness checking
+- Parametric deadlock freeness checking
 - Parametric loop synthesis, and non-Zeno loop synthesis
 - Robustness analysis
 - Behavioral cartography algorithm
@@ -63,3 +63,4 @@ https://doi.org/10.1007/978-3-642-03466-4_22 (ICTAC '09)
 
 #### Meta
 :: Automaton
+:: Synthesis

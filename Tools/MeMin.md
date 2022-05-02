@@ -42,3 +42,7 @@ Repository: https://github.com/andreas-abel/MeMin
 https://doi.org/10.1109/ICCAD.2015.7372555 (ICCAD)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Automaton
+:: PV1 :: minimizes Mealy machines
