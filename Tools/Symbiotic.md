@@ -14,7 +14,7 @@ Memory safety
 Bug detector
 
 #### Expected input thing:
-- Instrumented C program. It needs to be instrumented to e.g. assertions or `__VERIFIER_error()`.
+- Instrumented C program. It needs to be instrumented with e.g. assertions or `__VERIFIER_error()`.
 - *Optional*: This can be used to indicate that Symbiotic should look for certain errors aside from assertion violations, e.g. errors in memory manipulations.
 
 #### Expected input format:
@@ -55,3 +55,4 @@ https://doi.org/10.1007/978-3-662-49674-9_67 (TACAS '16)
 Other tools that participated in SV-COMP: [CPAchecker](Checkers/CPAchecker.md), [PeSCo](Metatools/PeSCo.md), [Ultimate Automizer](Ultimate%20Automizer.md), [[SMACK]].
 
 #### Meta
+:: PV4 :: can detect assertion violations and memory-related bugs in C programs

@@ -53,3 +53,4 @@ https://doi.org/10.1007/978-3-030-25540-4_3 (CAV '19, extends TChecker)
 
 #### Meta
 :: Automaton
+:: PV1 :: can compute reachable states and detect syntax errors of timed automata

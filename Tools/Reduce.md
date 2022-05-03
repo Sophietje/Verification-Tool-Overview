@@ -47,3 +47,7 @@ https://doi.org/10.1145/2480359.2429079 (POPL 2013)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Seems to be bundled with [RABIT](RABIT.md)
+
+#### Meta
+:: Automaton
+:: PV1 :: minimizes Büchi automata

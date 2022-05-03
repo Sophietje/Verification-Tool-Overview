@@ -52,3 +52,8 @@ https://doi.org/10.1007/978-3-319-96145-3_30 (CAV 2018)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -
+
+#### Meta
+:: Automaton
+:: LTL
+:: PV1 :: can translate LTL formulae into different types of automata

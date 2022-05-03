@@ -41,7 +41,11 @@ Author's webpage with link to the VM and source code: https://faculty.sist.shang
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_12
+https://doi.org/10.1007/978-3-319-96142-2_12 (CAV '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -
+
+#### Meta
+:: Security
+:: PV1 :: determines whether nodes of a cryptographic program are perfectly masked

@@ -44,3 +44,4 @@ Other type inference tools for Python: [[Pytype]], [[Starkiller]], [[MyPy]], [[P
 
 #### Meta
 :: Python
+:: PV2 :: infers type annotations for Python programs

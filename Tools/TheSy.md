@@ -45,3 +45,5 @@ Compared to in CAV '21 paper: [[Hipster]]
 Tools for theory exploration: [[IsaCoSy]], [[QuickSpec]]
 
 #### Meta
+:: Synthesis
+:: PV2 :: discovers lemmas based on data types and recursive definitions

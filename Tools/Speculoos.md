@@ -39,3 +39,8 @@ Repository: https://github.com/romainbrenguier/Speculoos
 
 #### Related tools (tools mentioned or compared to in the paper):
 -
+
+#### Meta
+:: Synthesis
+:: Hardware
+:: PV2 :: generates AIGER circuits based on descriptions of register updates and output expressions
