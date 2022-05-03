@@ -12,7 +12,7 @@ Infeasibility checks
 Meant to be used in combination with [[CProver/Symex]] framework or maybe as a library?
 
 #### Expected input thing:
-GOTO program
+GOTO program or C program (which is translated into a GOTO program with the [[CProver/Symex]] framework)
 
 #### Expected input format:
 ?
@@ -40,3 +40,7 @@ Repository: https://github.com/sbjoshi/Pinaka
 https://doi.org/10.1007/978-3-030-17502-3_20 (TACAS '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: PV3 :: checks user-specified assertions in GOTO  and C programs
+:: C

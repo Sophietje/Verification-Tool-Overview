@@ -47,3 +47,7 @@ https://doi.org/10.1007/978-3-030-81685-8_13 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to in CAV '21 paper: [[Neurify]], [[Venus]], [nnenum](nnenum.md), [Marabou](Marabou.md)
+
+#### Meta
+:: Neural network
+:: PV1 :: checks whether an image is always classified the same when it's perturbed

@@ -21,6 +21,8 @@ Adversarial perturbations
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
+The goal of PROVER is to establish the robustness of recurrent neural networks against noise-induced perturbations. They specifically focus on Long Short-Term Memory (LSTMs).
+
 Uses [Gurobi](Solvers/Gurobi.md)
 
 #### Comments:
@@ -40,3 +42,6 @@ https://doi.org/10.1007/978-3-030-81685-8_10 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[POPQORN]]
+
+#### Meta
+::  Neural network

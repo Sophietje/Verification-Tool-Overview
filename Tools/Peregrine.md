@@ -29,6 +29,8 @@ Peregrine has several options for analysing a protocol, including:
 - Detection of incorrect executions through simulation
 - Formal verification (only for silent protocols): This proves correctness for all of the infinitely many initial configurations. It verifies that a population protocol computes a given predicate. This predicate needs to be specified by the user in quantifier-free Presburger arithmetic
 
+A protocol *computes a predicate* $\varphi$ if, for every initial configuration $C$, all fair executions from $C$ lead to a lasting consensus $\varphi(C) \in \{0,1\}$.
+
 Uses [Z3](Solvers/SMT/Z3.md) to check satisfiability of Presburger arithmetic formulas.
 
 #### Comments:
@@ -52,3 +54,4 @@ https://doi.org/10.1007/978-3-319-96145-3_34
 #### Meta
 :: Protocol
 :: Simulation
+:: PV1 :: verifies that a population protocol computes a user-specified predicate
