@@ -45,3 +45,4 @@ https://doi.org/10.1007/978-3-030-81685-8_8 (CAV '21)
 #### Meta
 :: Library
 :: BDD
+:: PV1 :: encodes a binarized neural network and input region into a BDD

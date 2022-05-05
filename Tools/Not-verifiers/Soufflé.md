@@ -10,3 +10,6 @@ Datalog
 #### URIs (github, websites, etc.):
 Project page: https://souffle-lang.github.io/
 
+#### Meta
+:: No PV
+

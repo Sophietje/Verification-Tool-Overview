@@ -43,3 +43,6 @@ Repository: https://github.com/ddsmt/ddsmt
 https://doi.org/10.1007/978-3-030-81688-9_11 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: PV1 :: minimizes an input that triggers faulty behavior in an SMT solver
