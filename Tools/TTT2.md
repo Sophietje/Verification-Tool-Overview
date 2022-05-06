@@ -1,3 +1,5 @@
+Tyrolean Termination Tool 2 is a tool for automatically proving and disproving termination of rewrite systems.
+
 #### Name:
 $T_TT_2$: Tyrolean Termination Tool 2
 
@@ -16,7 +18,12 @@ Term rewrite system
 [TPDB](../Formats/TPDB.md) format
 
 #### Expected output:
-?
+Whether the term rewrite system terminates or not (`YES`, `NO`, `MAYBE`)
+
+It also shows the following:
+- Term rewrite system/problem
+- Proof of termination
+- Time it took to find the proof
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Uses [MiniSat](Solvers/SAT/MiniSat.md) and [Yices](Solvers/SMT/Yices.md).
@@ -44,3 +51,4 @@ $T_TT_2$ is used by the following tools: [[CaT]], [[ConCon]], [[KBCV]], [[mkbTT]
 
 #### Meta
 :: Termination
+:: PV6 :: produces a proof of termination for a term rewrite system

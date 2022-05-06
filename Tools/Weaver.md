@@ -46,5 +46,7 @@ https://doi.org/10.1145/3371081 (POPL '20)
 https://doi.org/10.1007/978-3-030-25540-4_11 (CAV '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
+[Synonym](Synonym.md): checks k-safety properties of Java programs
 
 #### Meta
+:: PV3 :: checks user-specified k-safety properties for programs in a simple imperative language

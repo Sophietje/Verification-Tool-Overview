@@ -15,7 +15,7 @@ Fuzzer
 - Safety property 
 
 #### Expected input format:
-- *Program*: ?
+- *Program*: C program
 - *Safety property*: ?
 
 #### Expected output:
@@ -23,9 +23,10 @@ It runs until an error location was reached or until the max. time is over.
 If an error location was found, then it will generate a witness.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-VeriFuzz observes behaviors exhibited during a test run. It then uses evolutionary algorithms to generate newer test-inputs from an initial population of test inputs. 
+VeriFuzz generates new test inputs based on evolutionary algorithms. For each test it will consider whether to add it to the set of test inputs based on the code coverage. This is repeated until a crashing test-input is found that causes the program to reach the error location (indicated with `__VERIFIER_error()`) or when the time budget has elapsed.
 
 It uses [CBMC](Checkers/CBMC.md) for the initial input generation. 
+Built on top of [[afl-fuzz]].
 
 #### Comments:
 -
@@ -45,3 +46,4 @@ https://doi.org/10.1007/978-3-030-17502-3_22 (TACAS '19)
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
+:: PV3 :: checks whether a user-specified error location in C code can be reached

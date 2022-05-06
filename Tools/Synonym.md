@@ -1,4 +1,4 @@
-Prototype for verifying k-safety properties on Java programs
+Prototype for verifying k-safety properties of Java programs
 
 #### Name:
 Synonym

@@ -14,6 +14,13 @@ Web services
 #### Type of tool (e.g. model checker, test generator):
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
+CADP has many functionalities including:
+- compilers for several input formalisms
+- equivalence checking tools
+- model checkers and other verification algorithms
+- tools for visual checking, performance evaluation, etc.
+
+For a complete list of tools, see: https://cadp.inria.fr/tools.html
 
 #### Comments:
 

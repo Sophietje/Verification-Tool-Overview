@@ -11,3 +11,4 @@ Repository: https://github.com/AlloyTools/org.alloytools.alloy
 
 #### Meta
 :: Framework
+:: No PV

@@ -8,7 +8,7 @@ State machines with complex structured state
 Constraint solver
 
 #### Expected input thing:
-Model (with assertions)
+Model (with assertions/properties)
 
 #### Expected input format:
 Alloy language
@@ -37,3 +37,6 @@ Repository: https://github.com/AlloyTools/org.alloytools.alloy
 #### List of related papers:
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: PV3 :: checks user-specified assertions in Alloy models

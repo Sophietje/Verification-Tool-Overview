@@ -45,7 +45,7 @@ Repository: https://github.com/hgoes/vvt
 9 April 2016
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-49674-9_6 (TACAS '16)
+https://doi.org/10.1007/978-3-662-49674-9_69 (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

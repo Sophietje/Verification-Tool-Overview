@@ -45,6 +45,9 @@ Repository: https://github.com/reactive-systems/cabpy
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_42
+https://doi.org/10.1007/978-3-030-81685-8_42 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: PV1 :: solves a two-player reachability game
