@@ -42,3 +42,4 @@ https://doi.org/10.1007/BFb0020949 (International Hybrid Systems Workshop '95)
 :: Framework
 :: Simulation
 :: Model checking
+:: PV5 :: an IDE for modelling, validating and verifying networks of timed automata

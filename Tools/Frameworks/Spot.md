@@ -53,3 +53,4 @@ https://doi.org/10.1007/978-3-319-46520-3_8 (ATVA '16)
 
 #### Meta
 :: Framework
+:: PV1 :: manipulates LTL formulae and ω-automata

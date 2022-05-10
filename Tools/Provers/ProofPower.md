@@ -1,14 +1,12 @@
-Solver for Constrained Horn Clauses (CHC), implemented in [Z3](SMT/Z3.md)
+a suite of tools supporting specification and proof in Higher Order Logic (HOL) and in the Z notation
 
 #### Name:
-Spacer
+ProofPower
 
 #### Application domain/field:
-Constrained Horn Clauses
-CHC solver
 
 #### Type of tool (e.g. model checker, test generator):
-CHC solver
+theorem prover
 
 #### Expected input thing:
 
@@ -17,23 +15,22 @@ CHC solver
 #### Expected output:
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
+implemented in Standard ML
 
 #### Comments:
-Integrated in [Z3](SMT/Z3.md).
 
 #### URIs (github, websites, etc.):
+Project page: http://www.lemma-one.com/ProofPower/index/
+Versions: http://www.lemma-one.com/ProofPower/getting/versions/
 
 #### Last commit date:
+19 June 2017
 
 #### Last publication date:
 
 #### List of related papers:
-https://doi.org/10.1007/s10703-016-0249-4 (Formal Methods in System Design '16)
-https://doi.org/10.1007/978-3-319-08867-9_2 (CAV '14)
 
 #### Related tools (tools mentioned or compared to in the paper):
-[GSpacer](GSpacer.md): Extension of Spacer
 
 #### Meta
-:: Contrained Horn Clauses (CHC)
-:: no PV
+:: PV6 :: theorem prover
