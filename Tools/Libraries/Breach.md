@@ -39,3 +39,4 @@ https://doi.org/10.1007/978-3-642-14295-6_17 (CAV '10)
 :: Library
 :: C++
 :: MITL
+:: PV4 :: aids property investigation in deterministic models of hybrid dynamical systems

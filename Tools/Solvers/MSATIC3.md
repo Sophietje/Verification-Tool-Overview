@@ -1,4 +1,4 @@
-Solver in nuXmv for infinite domains.
+Solver in [[nuXmv]] for infinite domains.
 
 #### Name:
 MSATIC3
@@ -14,20 +14,23 @@ MSATIC3
 #### Expected output:
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-It is used as a back-end of [nuXmv](../Checkers/nuXmv.md) alongside [MathSAT](SMT/MathSAT.md).
-The IC3 most likely refers to an incremental model checking algorithm  for invariance properties.
+It is used as a back-end solver of [nuXmv](../Checkers/nuXmv.md) alongside [MathSAT](SMT/MathSAT.md).
+The IC3 most likely refers to an incremental model checking algorithm for invariance properties.
 
 #### Comments:
-TODO: Maybe need to remove this one? Seems like a back-end of NuSMV that is not available on its own
 
 #### URIs (github, websites, etc.):
+https://nuxmv.fbk.eu/downloads/nuxmv-user-manual.pdf
 
 #### Last commit date:
 
 #### Last publication date:
-2013
+2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-642-36742-7_7 (paper about MathSAT5, TACAS '13)
+https://doi.org/10.1007/978-3-030-25540-4_21 (CAV 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: PV3 :: a dedicated property checker for infinite domains

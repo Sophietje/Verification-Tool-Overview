@@ -51,6 +51,6 @@ Successor of [[NuSMV]].
 [[NuRV]]: nuXmv extension for runtime verification.
 
 #### Meta
-:: PV3 :: checks user-specified properties of a transition system
+:: PV4 :: checks user-specified properties of a transition system, computes 
 :: Model checking
 :: Simulation

@@ -1,9 +1,10 @@
-Python library for working with Metric Temporal Logic (MTL)
+Library to manipulate DBMs (difference bounded matrices) in [[UPPAAL]]
 
 #### Name:
-py-metric-temporal-logic
+UDBM (UPPAAL DBM Library)
 
 #### Application domain/field:
+Difference Bound Matrix
 
 #### Type of tool (e.g. model checker, test generator):
 
@@ -18,9 +19,12 @@ py-metric-temporal-logic
 #### Comments:
 
 #### URIs (github, websites, etc.):
-https://github.com/mvcisback/py-metric-temporal-logic
+https://homes.cs.aau.dk/~adavid/UDBM/python.html
+https://github.com/UPPAALModelChecker/UDBM
+https://github.com/UPPAALModelChecker/UDBM/wiki
 
 #### Last commit date:
+21 April 2022
 
 #### Last publication date:
 
@@ -29,7 +33,6 @@ https://github.com/mvcisback/py-metric-temporal-logic
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: Python
 :: Library
-:: MTL
-:: PV1 :: manipulates and evaluates metric temporal logic formulae
+:: Automaton
+:: PV0 :: library to manipulate difference bounded matrices in UPPAAL

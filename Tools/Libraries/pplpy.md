@@ -7,3 +7,4 @@ Pypi package: https://pypi.org/project/pplpy/
 #### Meta
 :: Python
 :: Library
+:: no PV

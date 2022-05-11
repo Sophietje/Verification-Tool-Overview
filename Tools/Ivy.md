@@ -1,6 +1,5 @@
 #### Name:
-Ivy
-Sometimes stylized as "IVy".
+IVy
 
 #### Application domain/field:
 Protocol verification
@@ -13,11 +12,11 @@ Protocol verifier
 Program
 
 #### Expected input format:
-.ivy file (program specified in the Ivy language)
+.ivy file (program specified in the IVy language)
 
 #### Expected output:
 Depends on the mode of operation:
-1. `ivy_check` checks the proof of an ivy program, will return `PASS` or `FAIL`
+1. `ivy_check` checks the proof of an IVy program, will return `PASS` or `FAIL`
 2. `ivy` will allow the user to interactively construct inductive invariants
 3. `ivy_to_cpp` will result in a C++ program extracted from the IVy program
 
@@ -41,13 +40,13 @@ Repository (linked on project page): https://github.com/kenmcmil/ivy
 Old repository (the original, now archived repository, links to the repository above as the new one): https://github.com/microsoft/ivy
 
 #### Last commit date:
-10 December 2021
+12 February 2022
 
 #### Last publication date:
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_12
+https://doi.org/10.1007/978-3-030-53291-8_12 (CAV 2020)
 
 #### Related tools (tools mentioned or compared to in the paper):
 
@@ -55,3 +54,4 @@ https://doi.org/10.1007/978-3-030-53291-8_12
 :: Model checking
 :: Framework
 :: Protocol
+:: PV6 :: deductively or inductively proves or helps prove program properties

@@ -48,4 +48,5 @@ https://doi.org/10.1007/978-3-030-53288-8_12
 -
 
 #### Meta
+:: Binary level
 :: PV4 :: randomly generates observationally equivalent inputs and checks their equivalence

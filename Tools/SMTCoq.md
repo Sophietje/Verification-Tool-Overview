@@ -13,7 +13,7 @@ Proof certificates
 Metatool
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-SMTCoq is a plugin for the [Coq](Provers/Coq.md) proof assistant. It allows users to use external solvers (SAT or SMT) inside Coq. If these solvers succeed in proving a goal and return a proof witness or certificate, SMTCoq can use this to reconstruct a proof of the goal within Coq automatically.
+SMTCoq is a plugin for the [Coq](Provers/Coq.md) proof assistant. It allows users to use external solvers ([[SAT]] or [[SMT]]) inside Coq. If these solvers succeed in proving a goal and return a proof witness or certificate, SMTCoq can use this to reconstruct a proof of the goal within Coq automatically.
 
 Uses [CVC4](Solvers/SMT/CVC4.md), [zChaff](Solvers/SAT/zChaff.md), [veriT](Solvers/SMT/veriT.md).
 
@@ -36,3 +36,6 @@ Repository: https://github.com/smtcoq/smtcoq
 https://doi.org/10.1007/978-3-319-63390-9_7 (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: PV1 :: imports other solvers' proof witnesses and certificates to Coq

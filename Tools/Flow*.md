@@ -46,3 +46,7 @@ https://doi.org/10.1007/978-3-642-39799-8_18 (CAV '13)
 Other tools for linear hybrid systems analysis: [[HyTech]], [[Checkmate]], [[d/dt]], [[Ariadne]], [[HySAT/iSAT]], [[RealPaver]], [[PHAVer]], [[SpaceEx]].
 Other non-linear analysis tools: [[KeYmaera]], [[Ariadne]], [[HySAT/iSAT]].
 [[VNODE-LP]]
+
+#### Meta
+:: Taylor models
+:: PV2 :: generates flowpipes for non-linear hybrid systems
