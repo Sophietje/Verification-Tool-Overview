@@ -62,7 +62,7 @@ https://doi.org/10.1007/978-3-030-25543-5_11 (CAV '19)
 
 #### Meta
 :: Floating point
-:: Performance optimization
+:: Performance
 :: Synthesis
 :: Scala
 :: C
