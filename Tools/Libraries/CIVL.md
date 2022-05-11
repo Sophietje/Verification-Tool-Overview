@@ -13,11 +13,11 @@ Annotated layered concurrent program
 Boogie program?
 
 #### Expected output:
-- Error for any properties that are violated, including error traces.
+Error for any properties that are violated, including error traces.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Refinement-based verifier for concurrent programs.
-Part of [[Boogie]]
+- Refinement-based verifier for concurrent programs.
+- Part of [[Boogie]]
 
 #### Comments:
 
@@ -38,3 +38,4 @@ https://doi.org/10.1007/978-3-319-96145-3_5
 
 #### Meta
 :: Concurrency
+:: PV3 :: checks if properties of a concurrent program have been violated

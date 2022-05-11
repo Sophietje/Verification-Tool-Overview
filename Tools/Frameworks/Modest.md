@@ -25,16 +25,17 @@ Modest toolset (own) format or [JANI](../../Formats/JANI.md) format.
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 The tool consists of the following tools:
 - [mcsta](../Checkers/mcsta.md): disk-based explicit-state model checker for STA, PTA and MDP
+- moconv: converts models between Modest's input language to the [JANI](../../Formats/JANI.md) format and back
 - [[modes]]: statistical model checker for SHA, STA, PTA and MDP
+- [[modysh]]: probabilistic model checker for MDP based on dynamic search and heuristic planning techniques
+- mosta: generates a graphical representation of a SHA
 - [[prohver]]: safety model checker for SHA
-- [[mosta]]: generates a graphical representation of a SHA
-- [[moconv]]: converts models between Modest's input language to the [JANI](../../Formats/JANI.md) format and back
 
 #### Comments:
-STA: Stochastic Timed Automata
-PTA: Probabilistic Timed Automata
-MDP: Markov Decision Processes
-SHA: Stochastic Hybrid Automata
+- STA: Stochastic Timed Automata
+- PTA: Probabilistic Timed Automata
+- MDP: Markov Decision Processes
+- SHA: Stochastic Hybrid Automata
 
 #### URIs (github, websites, etc.):
 Project page: https://www.modestchecker.net/
@@ -56,3 +57,4 @@ This toolset includes the model checker [mcsta](../Checkers/mcsta.md).
 #### Meta
 :: Framework
 :: Model checking
+:: PV3 :: a collection of stochastic model checkers

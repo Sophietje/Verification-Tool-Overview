@@ -1,4 +1,4 @@
-Tool to evaluate relaxed-memory behavior of instruction set architectures w.r.t. arbitrary axiomatic memory models
+Tool to evaluate relaxed-memory behaviour of instruction set architectures w.r.t. arbitrary axiomatic memory models
 
 #### Name:
 Isla
@@ -14,7 +14,7 @@ Symbolic execution
 ?
 
 #### Expected input thing:
-- Architecture (e.g. aarch64.ir)
+- Architecture (e.g. `aarch64.ir`)
 - Configuration file that defines e.g. the initial state (`.toml` file)
 - Memory model specified in the Cat language (`.cat` file)
 
@@ -50,3 +50,5 @@ https://doi.org/10.1007/978-3-030-81685-8_14 (CAV '21)
 
 #### Meta
 :: Concurrency
+:: Binary level
+:: PV2 :: generates a state graph or a test case from an architecture spec

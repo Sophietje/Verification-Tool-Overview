@@ -10,7 +10,7 @@ Bisimulation
 Symbolic model checking
 
 #### Type of tool (e.g. model checker, test generator):
-Library for Binary Decision Diagrams(BDDs)
+Library for Binary Decision Diagrams (BDDs)
 
 #### Expected input thing:
 -
@@ -49,3 +49,4 @@ https://doi.org/10.1007/978-3-662-46681-0_60 (TACAS '15)
 #### Meta
 :: Library
 :: BDD
+:: PV1 :: implements consistency-preserving transformations of BDDs on multicore

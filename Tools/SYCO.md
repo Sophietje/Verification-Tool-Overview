@@ -22,17 +22,15 @@ ABS program
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-*Actor programs*: Programs consisting of computing entities called actors. Each actor has its own local state and thread of control. The actors communicate by exchanging messages asynchronously.
-
-*Partial Order Reduction (POR)*: Algorithms that are based on the idea that some program interleavings can be considered equivalent, and that you only need to explore one interleaving per equivalence class.
-
-Uses [VeryMax](VeryMax.md)
+- *Actor programs*: Programs consisting of computing entities called actors. Each actor has its own local state and thread of control. The actors communicate by exchanging messages asynchronously.
+- *Partial Order Reduction (POR)*: Algorithms that are based on the idea that some program interleavings can be considered equivalent, and that you only need to explore one interleaving per equivalence class.
+- Uses [VeryMax](VeryMax.md)
 
 #### Comments:
 -
 
 #### URIs (github, websites, etc.):
-Try online: http://costa.fdi.ucm.es/syco/
+Try online: http://costa.fdi.ucm.es/syco/clients/web/
 
 #### Last commit date:
 -
@@ -51,3 +49,5 @@ https://doi.org/10.1007/978-3-319-33693-0_26 (IFM '16)
 -
 
 #### Meta
+:: PV4 :: provides traces of deadlocks in a concurrent system
+:: Concurrency

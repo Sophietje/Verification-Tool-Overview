@@ -1,22 +1,25 @@
+a discrete-event simulator for deterministic STA
+
 #### Name:
-mcsta
+modes
 
 #### Application domain/field:
 Model checking
-Markov decision processes (MDPs)
-Reachability properties
+Nondeterminism
 
 #### Type of tool (e.g. model checker, test generator):
 Model checker
 
 #### Expected input thing:
 One of the following types of models:
-- STA (stochastic timed automaton)
-- PTA (probabilistic timed automaton)
-- MDP (Markov decision process)
-- DTMC (discrete-time Markov chain)
+- Timed automaton (STA or MA)
+- Probabilistic timed automaton (RegionPTA, RepresentativePTA or ZonePTA)
+- Markov decision process (MDP)
 
-And properties that should be checked (LTL or CTL)
+One of the following types of properties:
+- Confidence interval (CI)
+- Approximate probabilistic model checking (APMC)
+- Sequential probability ratio test (SPRT)
 
 #### Expected input format:
 [Modest](../Frameworks/Modest.md) Toolset format or [JANI](../../Formats/JANI.md) format.
@@ -25,7 +28,7 @@ And properties that should be checked (LTL or CTL)
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-This is part of the [Modest](../Frameworks/Modest.md) Toolset. It is described on the project page as a "disk-based explicit-state model checker for STA (stochastic timed automata), PTA (probabilistic timed automata) and MDP (Markov decision processes)."
+This is part of the [Modest](../Frameworks/Modest.md) Toolset. It is described on the project page as a "statistical model checker for SHA, STA, PTA and MDP"
 
 #### Comments:
 -
@@ -34,19 +37,15 @@ This is part of the [Modest](../Frameworks/Modest.md) Toolset. It is described o
 Project page (of the Modest Toolset): https://www.modestchecker.net
 
 #### Last commit date:
-27 August 2021 (last build in changelog)
 
 #### Last publication date:
-14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_26 (CAV '20)
+https://doi.org/10.1007/978-3-319-89963-3_20 (TACAS 2018)
 
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: PV3 :: checks LTL/CTL properties of a model
+:: PV3 :: checks properties of a model in presence of nondeterminism and rare events
 :: Automaton
-:: LTL
-:: CTL
 :: Model checking

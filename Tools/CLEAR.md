@@ -1,4 +1,4 @@
-CLEAR framework for the debugging of concurrent systems.
+framework for debugging of concurrent systems
 
 #### Name:
 CLEAR
@@ -20,7 +20,7 @@ Debugging tool
 - *Property*: MCL logic
 
 #### Expected output:
-- 3D Visual rendering: provides support for visualizing the erroneous part of the LTS
+- 3D Visual rendering: provides support for visualising the erroneous part of the LTS
 - Abstraction techniques results: provides support to simplify counterexamples produced from the LTS and a given property
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
@@ -45,3 +45,4 @@ https://doi.org/10.1007/978-3-030-17462-0_26 (TACAS '19)
 
 #### Meta
 :: Concurrency
+:: PV1 :: checks a labelled transition system and visualises its problematic part
