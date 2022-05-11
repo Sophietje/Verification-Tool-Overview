@@ -1,4 +1,4 @@
-Python wrapper for the [[Parma Polyhedra Library (PPL)]]
+Python wrapper for the Parma Polyhedra Library ([[PPL]])
 
 #### URIs (github, websites, etc.):
 Repository: https://gitlab.com/videlec/pplpy

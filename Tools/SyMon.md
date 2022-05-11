@@ -25,7 +25,7 @@ Monitoring tool
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [Parma Polyhedra Library (PPL)](Libraries/Parma%20Polyhedra%20Library%20(PPL).md)
+Uses [Parma Polyhedra Library (PPL)](Libraries/PPL.md)
 
 #### Comments:
 License: GPL v3.0
