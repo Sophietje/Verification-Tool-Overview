@@ -43,6 +43,7 @@ https://doi.org/10.35011/fmvtr.2016-1
 https://doi.org/10.3233/SAT190101
 
 #### Related tools (tools mentioned or compared to in the paper):
+[[Bitwuzla]] is a successor
 
 #### Meta
 :: SMT
