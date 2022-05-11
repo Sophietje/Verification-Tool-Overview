@@ -50,3 +50,4 @@ https://doi.org/10.1007/978-3-030-81685-8_35 (CAV '21)
 
 #### Meta
 :: Constrained Horn Clauses (CHC)
+:: PV2 :: generates an SMT problem from a pfwCSP spec, requires an external solver

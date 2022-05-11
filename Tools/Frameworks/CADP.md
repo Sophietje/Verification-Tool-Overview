@@ -4,7 +4,7 @@ a toolbox for designing asynchronous concurrent systems
 Construction and Analysis of Distributed Processes (CADP)
 
 #### Application domain/field:
-Aasynchronous concurrent systems
+Asynchronous concurrent systems
 Communication protocols
 Distributed systems
 Asynchronous circuits
@@ -39,3 +39,4 @@ http://cadp.inria.fr/software/
 
 #### Meta
 :: Framework
+:: no PV :: dozens of very different tools

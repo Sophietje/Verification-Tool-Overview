@@ -22,14 +22,14 @@ Electrum language
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Electrum is an extension of [Alloy](../Alloy.md) that enriches its relational logic with LTL operators.
+Electrum is an extension of [Alloy](../Solvers/Alloy%20Analyzer.md) that enriches its relational logic with LTL operators.
 The Electrum Analyzer can do bounded model checking (encoded into SAT) and unbounded model checking (encoding into SMV)
 
 There are two main commands to analyse Electrum models:
 - *run*: searches for instances that satisfy certain properties
 - *check*: searches for counter-examples that break desirable properties
 
-There is a visualizer to inspect the results of the *run* and *check* commands.
+There is a visualiser to inspect the results of the *run* and *check* commands.
 
 #### Comments:
 License: Apache License 2.0
@@ -54,3 +54,4 @@ https://doi.org/10.1145/3238147.3240475 (ASE '18)
 #### Meta
 :: Model checking
 :: LTL
+:: PV4 :: checks assertions and LTL properties in Electrum models with bounded or unbounded model checking
