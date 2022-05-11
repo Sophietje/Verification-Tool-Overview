@@ -227,7 +227,13 @@ def link2link(x):
 				state = LINK_PARSER_NORMAL
 		elif state == LINK_PARSER_TARGET:
 			if x[i] == ')':
-				r += f'<a href="{get_key(where)}.html">{where}</a>'
+				if target.startswith('http'):
+					# external link
+					link_goal = target
+				else:
+					# internal link
+					link_goal = get_key(target.split('/')[-1].replace('%20', ' ')) + '.html'
+				r += f'<a href="{link_goal}">{where}</a>'
 				state = LINK_PARSER_NORMAL
 			else:
 				target += x[i]
