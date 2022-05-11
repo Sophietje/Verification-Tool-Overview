@@ -1,7 +1,7 @@
 SAT solver
 
 #### Name:
-zChaff (sometimes stylized as zCHAFF)
+zChaff (or any alternative capitalisation)
 
 #### Application domain/field:
 SAT solving
