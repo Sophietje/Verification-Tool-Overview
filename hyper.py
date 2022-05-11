@@ -202,6 +202,10 @@ def link2link(x):
 		elif state == LINK_PARSER_IMPLICIT:
 			if x[i] == ']':
 				state = LINK_PARSER_IMPLICIT_PRIME
+			elif x[i] == '\\':
+				# escaping!
+				where += x[i+1]
+				i += 1
 			else:
 				where += x[i]
 		elif state == LINK_PARSER_IMPLICIT_PRIME:
@@ -215,6 +219,10 @@ def link2link(x):
 		elif state == LINK_PARSER_EXPLICIT:
 			if x[i] == ']':
 				state = LINK_PARSER_EXPLICIT_PRIME
+			elif x[i] == '\\':
+				# escaping!
+				where += x[i+1]
+				i += 1
 			else:
 				where += x[i]
 		elif state == LINK_PARSER_EXPLICIT_PRIME:
@@ -348,6 +356,11 @@ def text2text(x):
 				i = j+4
 				continue
 		if state == TEXT_PARSER_NORMAL:
+			if x[i] == '\\':
+				# escaping!
+				r += x[i+1]
+				i += 2
+				continue
 			if x[i] == '`':
 				state = TEXT_PARSER_TICK
 			elif x[i] == '_':
@@ -360,6 +373,11 @@ def text2text(x):
 			if x[i] == '`':
 				r += '``'
 				state = TEXT_PARSER_NORMAL
+			elif x[i] == '\\':
+				# escaping!
+				content = x[i+1]
+				state = TEXT_PARSER_TICK_T
+				i += 1
 			else:
 				content = x[i]
 				state = TEXT_PARSER_TICK_T
@@ -367,10 +385,13 @@ def text2text(x):
 			if x[i] == '`':
 				r += f'<code>{content}</code>'
 				state = TEXT_PARSER_NORMAL
+			elif x[i] == '\\':
+				# escaping inside ticks
+				content += x[i+1]
+				i += 1
 			else:
-				# inside ticks everything is verbatim
+				# inside ticks everything else is verbatim
 				content += x[i]
-
 		elif state == TEXT_PARSER_U:      # _
 			if x[i] == '_':
 				state = TEXT_PARSER_UU
