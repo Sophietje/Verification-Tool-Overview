@@ -47,7 +47,12 @@ Repository: https://github.com/kth-step/HolBA
 8 September 2020
 
 #### List of related papers:
-https://doi.org/10.1016/j.scico.2019.01.001 (Science of Computer Programming '19)
+https://doi.org/10.1016/j.scico.2019.01.001 (SCP 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [Scam-V](Scam-V.md)
+[[Valgrind]]
+
+#### Meta
+:: PV5 :: library for semi-automatic analysis of binary code
+:: Framework

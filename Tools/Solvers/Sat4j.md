@@ -33,7 +33,7 @@ Project page: https://sat4j.org/
 Repository: https://gitlab.ow2.org/sat4j/sat4j/
 
 #### Last commit date:
-18 November 2021
+9 April 2022
 (Last release was on 14 December 2020)
 
 #### Last publication date:
@@ -49,3 +49,4 @@ https://content.iospress.com/articles/journal-on-satisfiability-boolean-modeling
 #### Meta
 :: Mathematical optimization
 :: SAT
+:: PV4 :: produces a satisfiability result for a formula
