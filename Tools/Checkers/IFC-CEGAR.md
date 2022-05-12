@@ -19,10 +19,9 @@ C-program with annotations indicating the secret variables and the locations at 
 `SAFE`, `UNSAFE` or `UNKNOWN`
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Procedure for unbounded verification of secure information flow. It uses taint analysis and self-composition.
-
-Implemented on top of [SeaHorn](SeaHorn.md), uses [Spacer](../Solvers/Spacer.md) ([Z3](../Solvers/SMT/Z3.md)'s CHC solver).
- Note that the paper calls this a 'prototype implementation'.
+- Procedure for unbounded verification of secure information flow. It uses taint analysis and self-composition.
+- Implemented on top of [SeaHorn](SeaHorn.md), uses [Spacer](../Solvers/Spacer.md) ([Z3](../Solvers/SMT/Z3.md)'s CHC solver).
+- Note that the paper calls this a 'prototype implementation'.
 
 #### Comments:
 
@@ -36,7 +35,7 @@ Benchmark files: http://www.cs.princeton.edu/~aartig/benchmarks/ifc_bench.zip
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_11
+https://doi.org/10.1007/978-3-319-96142-2_11 (CAV 2018)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [IFC-BMC](IFC-BMC.md)
@@ -44,3 +43,4 @@ https://doi.org/10.1007/978-3-319-96142-2_11
 #### Meta
 :: C
 :: Security
+:: PV4 :: checks if a program is safe with respect to variables marked secret
