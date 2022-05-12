@@ -375,7 +375,12 @@ def text2text(x):
 				state = TEXT_PARSER_NORMAL
 			elif x[i] == '\\':
 				# escaping!
-				content = x[i+1]
+				if x[i+1] == '<':
+					content = '&lt;'
+				elif x[i+1] == '>':
+					content = '&gt;'
+				else:
+					content = x[i+1]
 				state = TEXT_PARSER_TICK_T
 				i += 1
 			else:
@@ -387,7 +392,12 @@ def text2text(x):
 				state = TEXT_PARSER_NORMAL
 			elif x[i] == '\\':
 				# escaping inside ticks
-				content += x[i+1]
+				if x[i+1] == '<':
+					content += '&lt;'
+				elif x[i+1] == '>':
+					content += '&gt;'
+				else:
+					content += x[i+1]
 				i += 1
 			else:
 				# inside ticks everything else is verbatim
