@@ -4,7 +4,7 @@ Tool to synthesize a set of implementation decisions ensuring that a desired pro
 Mapping Synthesis Tool
 
 #### Application domain/field:
-?
+Event-based behavioural models
 Synthesis
 
 #### Type of tool (e.g. model checker, test generator):
@@ -16,7 +16,7 @@ Synthesis tool
 - Mapping constraint C
 
 #### Expected input format:
-[Alloy](Alloy.md) model (.als file)?
+[Alloy](Alloy.md) model (`.als` file)
 
 #### Expected output:
 If it exists, a maximal set of mappings that ensures that the resulting platform implementation preserves the given property.
@@ -37,7 +37,10 @@ Repository: https://github.com/eskang/MappingSynthesisTool
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_12
+https://doi.org/10.1007/978-3-030-25540-4_12 (CAV 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -
+
+#### Meta
+:: PV2 :: given a high level spec and a low level spec, produces a set of property-preserving mappings
