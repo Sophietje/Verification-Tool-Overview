@@ -48,7 +48,9 @@ https://doi.org/10.1007/978-3-030-81688-9_38 (CAV '21)
 Other multi-language verification frameworks: [[coreStar]], [Viper](Frameworks/Viper.md).
 Verification tools for JS based on separation logic: [[JaVerT]]
 Verification tools for C based on separation logic: [Verifast](Verifast.md)
+The artefact description states that it "works in a close way to [[Klee]]'s"
 
 #### Meta
 :: C
 :: JavaScript
+:: PV5 :: verifies properties of a user-specified memory model

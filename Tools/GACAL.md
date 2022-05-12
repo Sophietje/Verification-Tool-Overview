@@ -43,3 +43,6 @@ SV-COMP 2020 submission/artifact: http://doi.org/10.5281/zenodo.3681607
 https://doi.org/10.1007/978-3-030-45237-7_26 (TACAS '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: PV2 :: generates increasingly stronger invariants for an external prover

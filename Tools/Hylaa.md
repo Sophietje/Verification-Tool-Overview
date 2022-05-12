@@ -1,8 +1,7 @@
 A tool for computing simulation-equivalent reachability for linear systems
 
 #### Name:
-Hylaa: Hybrid Linear Automata Analyzer
-(also sometimes stylized as HyLAA)
+HyLAA: Hybrid Linear Automata Analyzer
 
 #### Application domain/field:
 Hybrid automata
@@ -11,7 +10,7 @@ Simulation-equivalent reachability
 Simulations
 
 #### Type of tool (e.g. model checker, test generator):
-Reachability tool?
+Reachability detector
 
 #### Expected input thing:
 - Hybrid automaton $H$
@@ -23,9 +22,8 @@ Reachability tool?
 Defined in Python
 
 #### Expected output:
-Set of reachable states
-
-Hylaa can produce static visualizations of the reachable set and live animations during the computation.
+- Set of reachable states
+- Hylaa can produce static visualisations of the reachable set and live animations during the computation.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Uses [GLPK](Libraries/GLPK.md)
@@ -52,3 +50,4 @@ https://doi.org/10.1007/978-3-662-54577-5_32 (TACAS '17)
 
 #### Meta
 :: Automaton
+:: PV1 :: computes a set of safe reachable states for a given hybrid automaton
