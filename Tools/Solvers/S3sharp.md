@@ -48,3 +48,6 @@ https://doi.org/10.1145/2660267.2660372 (CCS '14, introduces the first version c
 Earlier versions of the same tool: [[S3]], [[S3P]]
 Later version of the same tool: [[S3N]]
 Other string model counters, compared to in the CAV '17 paper: [[SMC]], [ABC](Frameworks/ABC.md)
+
+#### Meta
+:: PV1 :: calculates the upper bound for the model count for a given formula

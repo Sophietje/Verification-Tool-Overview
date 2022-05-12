@@ -16,7 +16,7 @@ Model file that specifies
 - Weakly-hard constraint $(m,K)$
 - Control law $\pi$
 
-_Optional_: Configuration file of Flow*. This is set by default but can be customized.
+_Optional_: Configuration file of [[Flow\*]]. This is set by default but can be customized.
 
 #### Expected input format:
 ?
@@ -47,3 +47,6 @@ https://doi.org/10.1007/978-3-030-53288-8_26
 
 #### Related tools (tools mentioned or compared to in the paper):
 -
+
+#### Meta
+:: PV2 :: generates several safe regions of weakly hard system

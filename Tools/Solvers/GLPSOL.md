@@ -19,7 +19,7 @@ Optimization solver
 - *Data*: GMPL modeling language (.dat file)
 
 #### Expected output:
-.sol file describing the solution as standard text
+`.sol` file describing the solution as standard text
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 This is a stand-alone solver for LP (linear programming) and MIP (mixed integer programming) that is part of [GLPK](../Libraries/GLPK.md).
@@ -38,3 +38,4 @@ This is a stand-alone solver for LP (linear programming) and MIP (mixed integer 
 
 #### Meta
 :: Mathematical optimization
+:: PV2 :: generates an algorithm description to solve the given problem

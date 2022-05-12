@@ -15,7 +15,7 @@ Statistical model checker
 Probabilistic model
 
 #### Expected input format:
-[PRISM](PRISM.md) (.pm file)
+[PRISM](Formats/PRISM%20language.md) (.pm file)
 
 #### Expected output:
 ? ("Result: true" or "Result: false"?)
@@ -45,3 +45,4 @@ Other statistical model checkers: [PRISM](PRISM.md), [[MRMC]], [[VESTA]], [[YMER
 #### Meta
 :: Probabilistic
 :: Model checking
+:: PV3 :: can verify any property expressible in PRISM against any system expresible in PRISM

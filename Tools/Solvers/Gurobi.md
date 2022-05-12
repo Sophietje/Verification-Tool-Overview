@@ -41,3 +41,4 @@ Project page: https://www.gurobi.com/
 
 #### Meta
 :: Mathematical optimization
+:: PV2 :: generates an optimised algorithm to solve a known problem

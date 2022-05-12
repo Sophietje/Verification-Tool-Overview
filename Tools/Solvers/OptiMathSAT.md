@@ -53,3 +53,5 @@ Other OMT tools: [[Symba]], [[𝜈𝑍]]
 
 #### Meta
 :: Mathematical optimization
+:: PV4 :: produces a satisfiability result and a corresponding model, for a formula
+:: SMT
