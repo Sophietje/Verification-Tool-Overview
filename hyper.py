@@ -2,6 +2,8 @@
 
 import latex2mathml.converter
 
+EXISTENCE = set()
+
 def is_ul_item(line):
 	return line.startswith('- ') or line.startswith('* ')
 
@@ -148,10 +150,12 @@ def ul(items):
 	return '<ul>' + '\n'.join([li(i) for i in cuis]) + '</ul>'
 
 def make_link(where, what, hover='', why=''):
+	in_a = ''
+	if not where.startswith('http') and where not in EXISTENCE:
+		in_a += ' class="broken"'
 	if hover:
-		s = f'<a href="{where}" title="{hover}">{what}</a>'
-	else:
-		s = f'<a href="{where}">{what}</a>'
+		in_a += f' title="{hover}"'
+	s = f'<a href="{where}"{in_a}>{what}</a>'
 	if why:
 		s += f' ({why})'
 	return s
@@ -210,7 +214,7 @@ def link2link(x):
 				where += x[i]
 		elif state == LINK_PARSER_IMPLICIT_PRIME:
 			if x[i] == ']':
-				r += f'<a href="{get_key(where)}.html">{where}</a>'
+				r += make_link(get_key(where)+'.html', where)
 				state = LINK_PARSER_NORMAL
 			else:
 				# ERROR: unmatched [[...], roll back to normal brackets
@@ -241,7 +245,7 @@ def link2link(x):
 				else:
 					# internal link
 					link_goal = get_key(target.split('/')[-1].replace('%20', ' ')) + '.html'
-				r += f'<a href="{link_goal}">{where}</a>'
+				r += make_link(link_goal, where)
 				state = LINK_PARSER_NORMAL
 			else:
 				target += x[i]
