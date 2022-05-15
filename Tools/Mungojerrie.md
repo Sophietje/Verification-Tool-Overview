@@ -44,3 +44,8 @@ https://doi.org/10.1007/978-3-030-81688-9_30 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -
+
+#### Meta
+:: PV3 :: generates a reward scheme from an ω-regular objective and checks it on finite models
+:: Automaton
+:: LTL

@@ -44,7 +44,10 @@ https://github.com/mkhaled87/pFaces-PIRK
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_27
+https://doi.org/10.1007/978-3-030-53288-8_27 (CAV 2020)
 
 #### Related tools (tools mentioned or compared to in the paper):
-Other reachability analysis tools: [[C2E2]], [[CORA]], [[Flow*]], [[Isabelle]], [[SpaceEx]], [[SymReach]].
+Other reachability analysis tools: [[C2E2]], [[CORA]], [[Flow\*]], [Isabelle](Provers/Isabelle-HOL.md), [[SpaceEx]], [[SymReach]].
+
+#### Meta
+:: PV1 :: computes reachable sets of high-dimensional non-linear systems
