@@ -47,4 +47,4 @@ https://doi.org/10.1007/978-3-319-63390-9_1 (CAV '17)
 
 #### Meta
 :: PV2 :: transforms irreversible programs into reversible circuits
-:: Reversible computation
+:: Reversibility
