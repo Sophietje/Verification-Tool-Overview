@@ -11,11 +11,9 @@ Verification conditions
 Deductive verifier/verification infrastructure
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Given a [[WhyML]] program, Why3 will generate verification conditions which can be discharged using automated or interactive theorem provers.
-
-Users can also write [[WhyML]] programs directly and get a correct-by-construction OCaml program.
-
-[[WhyML]] is a language specifically for Why3. It is used as an intermediate language for the verification of C, Java, or Ada programs.
+- Given a [[WhyML]] program, Why3 will generate verification conditions which can be discharged using automated or interactive theorem provers.
+- Users can also write [[WhyML]] programs directly and get a correct-by-construction OCaml program.
+- [[WhyML]] is a language specifically for Why3. It is used as an intermediate language for the verification of C, Java, or Ada programs.
 
 #### URIs (github, websites, etc.):
 Project page: http://why3.lri.fr/
