@@ -24,7 +24,7 @@ Safety verification
 They focus on verifying safety properties of delayed dynamical systems encoded by Delay Differential Equations (DDEs), where safety properties pertain to an infinite domain.
 They present a quantitative method to construct estimations. This reduces the temporally unbounded verification problem to a bounded one.
 
-Implemented in Wolfram Mathematica. Uses [DDE-BIFTOOL](Not-verifiers/DDE-BIFTOOL.md).
+Implemented in [Wolfram Mathematica](https://www.wolfram.com/mathematica/). Uses [DDE-BIFTOOL](Not-verifiers/DDE-BIFTOOL.md).
 
 #### Comments:
 It is called a "prototypical implementation" in the CAV '19 paper.
@@ -39,8 +39,9 @@ Download page: http://lcs.ios.ac.cn/~chenms/tools/
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_37 (CAV '19)
+https://doi.org/10.1007/978-3-030-25540-4_37 (CAV 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
+:: PV2 :: generates a bounded version of the given unbounded verification problem 

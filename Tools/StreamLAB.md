@@ -28,7 +28,7 @@ Monitoring framework
 -
 
 #### URIs (github, websites, etc.):
--
+http://www.stream-lab.org/ (supposed to be the project page, but has no content)
 
 #### Last commit date:
 -
@@ -37,10 +37,12 @@ Monitoring framework
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_24 (CAV '19)
+https://doi.org/10.1007/978-3-030-25540-4_24 (CAV 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -
 
 #### Meta
 :: Monitoring
+:: Rust
+:: PV1 :: analyses input specs and reports on its memory consumption and runtime properties

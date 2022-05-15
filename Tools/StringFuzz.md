@@ -54,3 +54,4 @@ Test suites for solver testing and benchmarking: [[Kaluza]], [[Kausler]].
 [[SMTpp]] pre-processes and simplifies SMT-LIB instances.
 
 #### Meta
+:: PV2 :: generates and transforms SMT-LIB instances
