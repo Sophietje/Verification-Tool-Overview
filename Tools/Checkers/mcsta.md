@@ -31,7 +31,7 @@ This is part of the [Modest](../Frameworks/Modest.md) Toolset. It is described o
 -
 
 #### URIs (github, websites, etc.):
-Project page (of the Modest Toolset): https://www.modestchecker.net/
+Project page (of the Modest Toolset): https://www.modestchecker.net
 
 #### Last commit date:
 27 August 2021 (last build in changelog)
@@ -43,6 +43,8 @@ Project page (of the Modest Toolset): https://www.modestchecker.net/
 https://doi.org/10.1007/978-3-030-53291-8_26 (CAV '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
 :: PV3 :: checks LTL/CTL properties of a model
 :: Automaton
 :: LTL

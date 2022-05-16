@@ -50,3 +50,7 @@ Successor of version 2.0 of DryVR: https://gitlab.engr.illinois.edu/dryvrgroup/d
 https://doi.org/10.1007/978-3-319-63387-9_22 (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Automaton
+:: PV4 :: produces a satisfiability/reachability result for a hybrid control system

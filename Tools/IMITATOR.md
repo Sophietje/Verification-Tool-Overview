@@ -37,7 +37,7 @@ IMITATOR implements the following algorithms:
 - Behavioral cartography algorithm
 - PRP and PRPC
 
-Uses [Parma Polyhedra Library (PPL)](Libraries/Parma%20Polyhedra%20Library%20(PPL).md)
+Uses [Parma Polyhedra Library (PPL)](Libraries/PPL.md)
 
 #### Comments:
 License: GPL v3
@@ -64,3 +64,4 @@ https://doi.org/10.1007/978-3-642-03466-4_22 (ICTAC '09)
 #### Meta
 :: Automaton
 :: Synthesis
+:: PV3 :: can perform a number of actions on a network of automata and a set of desired properties

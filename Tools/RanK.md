@@ -1,0 +1,32 @@
+#### Name:
+RanK
+
+#### Application domain/field:
+
+#### Type of tool (e.g. model checker, test generator):
+
+#### Expected input thing:
+
+#### Expected input format:
+
+#### Expected output:
+
+#### Internals (tools used, frameworks, techniques, paradigms, ...):
+
+#### Comments:
+
+#### URIs (github, websites, etc.):
+https://compsys-tools.ens-lyon.fr/rank/index.php (try online)
+
+#### Last commit date:
+
+#### Last publication date:
+
+#### List of related papers:
+https://doi.org/10.1109/ICSTW.2013.75
+
+#### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: PV1 :: computes termination and worst case computational complexity
+:: C

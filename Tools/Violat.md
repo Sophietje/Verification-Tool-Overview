@@ -23,7 +23,7 @@ Reports test results, signalling any discovered consistency violations.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 In principle Violat outputs a sequence of Java classes which can be tested with off-the-shelf back-end analysis engines.
-It integrates with [JPF](Checkers/JPF.md) and [Java Concurrency Stress](Java%20Concurrency%20Stress.md), thus it is able to provide results directly.
+It integrates with [JPF](Checkers/JPF.md) and [Java Concurrency Stress](jcstress.md), thus it is able to provide results directly.
 
 #### Comments:
 License: MIT
@@ -48,3 +48,4 @@ Test generation for memory consistency: [[TSOtool]], [[LCHECK]], [[CppMem]], [[H
 
 #### Meta
 :: Concurrency
+:: PV2 :: generates classes attempting to violate properties

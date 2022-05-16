@@ -19,7 +19,7 @@ Meta-tool
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Tinker implements PSGraph, a graphical proof strategy language. It supports the theorem provers [[Isabelle]], [[ProofPower]] and [[Rodin]].
+Tinker implements PSGraph, a graphical proof strategy language. It supports the theorem provers [[Isabelle-HOL]], [[ProofPower]] and [[Rodin]].
 
 #### Comments:
 -
@@ -41,3 +41,4 @@ https://doi.org/10.4204/EPTCS.167.5 (EPTCS vol. 167, '14, presents Tinker)
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
+:: PV6 :: interactive theorem prover with various backends

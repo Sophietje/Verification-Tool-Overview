@@ -16,7 +16,7 @@ Model checker
 ?
 
 #### Expected input format:
-UPPAAL XML format extended with lattice features
+[[UPPAAL]] XML format extended with lattice features
 
 #### Expected output:
 ?
@@ -47,3 +47,4 @@ https://doi.org/10.1007/978-3-642-20398-5_37 (NFM '11)
 #### Meta
 :: Model checking
 :: Automaton
+:: PV5 :: a lightweight variant of UPPAAL intended for rapid prototyping

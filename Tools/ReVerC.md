@@ -1,4 +1,4 @@
-Reversible circuit compiler that has been formally verified in F*. It compiles circuits that operate correctly with respect to the input program.
+Reversible circuit compiler that has been formally verified in [F\*](https://www.fstar-lang.org/). It compiles circuits that operate correctly with respect to the input program.
 
 #### Name:
 ReVerC, pronounced as "reverse"
@@ -44,3 +44,7 @@ https://doi.org/10.1007/978-3-319-63390-9_1 (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[Quipper]]
+
+#### Meta
+:: PV2 :: transforms irreversible programs into reversible circuits
+:: Reversibility

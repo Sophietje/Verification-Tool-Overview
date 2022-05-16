@@ -224,6 +224,10 @@ for i in range(0,7):
 	indices[f'pv{i}'] = []
 	name_by_index[f'pv{i}'] = f'PV{i} tools'
 
+for filename in os.listdir(sys.argv[1]):
+	if filename.endswith(".html"):
+		EXISTENCE.add(filename)
+
 traverse_dir('Tools', item_by_key, item_by_name)
 traverse_dir('Formats', item_by_key, item_by_name)
 

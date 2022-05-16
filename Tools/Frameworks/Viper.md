@@ -19,7 +19,8 @@ Given a program and its specification in Viper's intermediate language, it can e
 Uses [Z3](../Solvers/SMT/Z3.md).
 
 #### Comments
-There is a VS Code extension for Viper.
+- If it would only generate verification conditions for Boogie, it would have ended up on PV2.
+- There is a VS Code extension for Viper.
 
 #### URIs (github, websites, etc.):
 Project page: https://www.pm.inf.ethz.ch/research/viper.html
@@ -40,3 +41,4 @@ Tool to infer permission annotations for Viper programs: [Sample](../Sample.md)
 
 #### Meta
 :: Framework
+:: PV3 :: detects inconsistencies between the code and spec with symbolic execution

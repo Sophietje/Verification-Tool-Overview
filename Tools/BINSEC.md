@@ -42,7 +42,11 @@ Project page: https://binsec.github.io/
 
 #### List of related papers:
 
+
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
+:: Framework
 :: Security
+:: Binary level
+:: PV1 :: framework providing abstractions for binary code analysis

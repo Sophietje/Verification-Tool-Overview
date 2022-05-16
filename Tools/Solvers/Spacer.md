@@ -17,6 +17,7 @@ CHC solver
 #### Expected output:
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
+RECMC
 
 #### Comments:
 Integrated in [Z3](SMT/Z3.md).
@@ -36,3 +37,4 @@ https://doi.org/10.1007/978-3-319-08867-9_2 (CAV '14)
 
 #### Meta
 :: Contrained Horn Clauses (CHC)
+:: PV3 :: encodes safety of a C program by converting it to Horn-SMT

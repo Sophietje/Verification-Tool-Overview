@@ -37,7 +37,10 @@ They proposed a framework called: PGFDS (Propagation Graphs over Finite Degradat
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_10 (CAV '21)
+https://doi.org/10.1007/978-3-030-81688-9_10 (CAV 2021)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to in the CAV '21 paper: [xSAP](xSAP.md), [[Emmy]]
+
+#### Meta:
+:: PV2 :: computes a minimal cut set of a hypergraph

@@ -1,5 +1,5 @@
 #### Name:
-Java Pathfinder, also known as jpf-core and JPF.
+Java Pathfinder (aka jpf-core, aka JPF)
 
 #### Application domain/field:
 Model checking

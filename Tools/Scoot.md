@@ -41,3 +41,8 @@ https://doi.org/10.1145/1754405.1754406 (ACM Transactions on design Automation o
 https://doi.org/10.1007/978-3-540-78800-3_36 (TACAS '08)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: C++
+:: SystemC
+:: PV2 :: extracts models from source code for other checkers, generates code that does not rely on SystemC

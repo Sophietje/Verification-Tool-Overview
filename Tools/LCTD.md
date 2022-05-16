@@ -34,7 +34,8 @@ In 2016, it participated in only one category of SV-COMP because it only support
 License: MIT
 
 #### URIs (github, websites, etc.):
--
+http://users.cse.aalto.fi/osaariki/lctd-svcomp/
+https://github.com/OlliSaarikivi/benchexec/blob/master/benchexec/tools/lctd.py
 
 #### Last commit date:
 -
@@ -48,3 +49,8 @@ https://doi.org/10.1016/j.jlamp.2015.10.010 (Journal of Logical and Algebraic Me
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other tools that participated in the BitVectorsReach category of SV-COMP 2016: [2LS](2LS.md), [CBMC](Checkers/CBMC.md), [[Ceagle]], [CPAchecker](Checkers/CPAchecker.md), [ESBMC](ESBMC.md), [[Forest]], [[Impara]], [[PAC-MAN]], [SeaHorn](Checkers/SeaHorn.md), [[SMACK+Coral]], [[Symbiotic]], [Ultimate Automizer](Ultimate%20Automizer.md), [[UKojak]]
+
+#### Meta
+:: C
+:: LLVM
+:: PV4 :: generates increasingly precise tests to pinpoint an error or prove program correct

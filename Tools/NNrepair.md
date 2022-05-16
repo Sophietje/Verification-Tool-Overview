@@ -1,7 +1,7 @@
-Constraint-based technique to repair neural network classifiers.
+Constraint-based technique to repair neural network classifiers
 
 #### Name:
-NNRepair, sometimes stylized as nnrepair
+NNRepair
 
 #### Application domain/field:
 Neural networks
@@ -29,10 +29,10 @@ Repaired neural network.
 NNRepair targets neural networks used for classification.
 First NNrepair uses fault localization to find potentially faulty parameters (weights on edges connecting neurons) in a neural network. Then it performs repair using constraint solving to apply small modifications to the parameters to remedy the defects.
 
-The tool is based on [NeuroSPF](NeuroSPF.md). It uses [Symbolic PathFinder](Symbolic%20PathFinder) and [Z3](Solvers/SMT/Z3.md).
+The tool is based on [NeuroSPF](NeuroSPF.md). It uses [Symbolic PathFinder](SPF.md) and [Z3](Solvers/SMT/Z3.md).
 
 #### Comments:
-?
+A combination of finding a problem (PV1) and suggesting how it can be solved (PV2)
 
 #### URIs (github, websites, etc.):
 Repository (only contains dataset for experiments of the CAV '21 paper, not the tool itself): https://github.com/muhammadusman93/nnrepair
@@ -53,3 +53,4 @@ Tool to generate adversarial examples: [[DeepFault]]
 #### Meta
 :: Neural network
 :: Program repair
+:: PV3 :: repairs neural network classifiers based on examples

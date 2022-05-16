@@ -24,7 +24,7 @@ program
 - dynamic approximation (widening to ensure termination)
 
 #### Comments:
-APRON is a free software under LGPL license, except the wrappers related to the PPL library, which follows the GPL license of the PPL library.
+APRON is a free software under LGPL license, except the wrappers related to the [[PPL]] library, which follows the GPL license of the PPL library.
 
 #### URIs (github, websites, etc.):
 https://antoinemine.github.io/Apron/doc/

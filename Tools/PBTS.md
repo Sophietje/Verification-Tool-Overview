@@ -1,4 +1,4 @@
-Tool to compute Piecewise barrier tubes (PBTs) automatically
+Tool to compute Piecewise Barrier Tubes (PBTs) automatically
 
 #### Name:
 PBTS: Piecewise Barrier Tube Solver
@@ -12,9 +12,9 @@ Nonlinear ordinary differential equations
 ?
 
 #### Expected input thing:
-- Dynamics of the system `M`
-- Initial set `X_0`
-- Length of piecewise barrier tube `N`
+- Dynamics of the system $M$
+- Initial set $X_0$
+- Length of piecewise barrier tube $N$
 - ?
 
 #### Expected input format:
@@ -41,7 +41,10 @@ Uses [Gurobi](Solvers/Gurobi.md) (linear programming solver).
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96145-3_24
+https://doi.org/10.1007/978-3-319-96145-3_24 (CAV 2018)
 
 #### Related tools (tools mentioned or compared to in the paper):
-[[CORA]], [[Flow*]]
+[[CORA]], [[Flow\*]]
+
+#### Meta
+:: PV2 :: compute piecewise barrier tubes configuration from a system spec

@@ -36,11 +36,14 @@ CAV '21 artifact: https://github.com/rivapp/CAV21_repeatability_package
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_11 (CAV '21)
+https://doi.org/10.1007/978-3-030-81685-8_11 (CAV '21; Verisig 2.0)
 https://doi.org/10.1145/3302504.3311806 (HSCC '19)
+https://arxiv.org/abs/1811.01828 (arXiv version of the HSCC paper)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to in CAV '21 paper: [NNV](NNV.md) and [[ReachNN\*]] (and an older version of Verisig)
 
 #### Meta
 :: Neural network
+:: Taylor models
+:: PV1 :: performs reachability analysis on closed-loop systems with neural network controllers

@@ -2,6 +2,8 @@
 
 import latex2mathml.converter
 
+EXISTENCE = set()
+
 def is_ul_item(line):
 	return line.startswith('- ') or line.startswith('* ')
 
@@ -132,7 +134,7 @@ def h3(x):
 	return f'<h3>{x}</h3>'
 
 def h4(x):
-  return f'<h4>{x}</h4>'
+	return f'<h4>{x}</h4>'
 
 def li(x):
 	return f'<li>{my_md_converter(x)}</li>'
@@ -148,10 +150,12 @@ def ul(items):
 	return '<ul>' + '\n'.join([li(i) for i in cuis]) + '</ul>'
 
 def make_link(where, what, hover='', why=''):
+	in_a = ''
+	if not where.startswith('http') and where not in EXISTENCE:
+		in_a += ' class="broken"'
 	if hover:
-		s = f'<a href="{where}" title="{hover}">{what}</a>'
-	else:
-		s = f'<a href="{where}">{what}</a>'
+		in_a += f' title="{hover}"'
+	s = f'<a href="{where}"{in_a}>{what}</a>'
 	if why:
 		s += f' ({why})'
 	return s
@@ -202,11 +206,15 @@ def link2link(x):
 		elif state == LINK_PARSER_IMPLICIT:
 			if x[i] == ']':
 				state = LINK_PARSER_IMPLICIT_PRIME
+			elif x[i] == '\\':
+				# escaping!
+				where += x[i+1]
+				i += 1
 			else:
 				where += x[i]
 		elif state == LINK_PARSER_IMPLICIT_PRIME:
 			if x[i] == ']':
-				r += f'<a href="{get_key(where)}.html">{where}</a>'
+				r += make_link(get_key(where)+'.html', where)
 				state = LINK_PARSER_NORMAL
 			else:
 				# ERROR: unmatched [[...], roll back to normal brackets
@@ -215,6 +223,10 @@ def link2link(x):
 		elif state == LINK_PARSER_EXPLICIT:
 			if x[i] == ']':
 				state = LINK_PARSER_EXPLICIT_PRIME
+			elif x[i] == '\\':
+				# escaping!
+				where += x[i+1]
+				i += 1
 			else:
 				where += x[i]
 		elif state == LINK_PARSER_EXPLICIT_PRIME:
@@ -227,7 +239,13 @@ def link2link(x):
 				state = LINK_PARSER_NORMAL
 		elif state == LINK_PARSER_TARGET:
 			if x[i] == ')':
-				r += f'<a href="{get_key(where)}.html">{where}</a>'
+				if target.startswith('http'):
+					# external link
+					link_goal = target
+				else:
+					# internal link
+					link_goal = get_key(target.split('/')[-1].replace('%20', ' ')) + '.html'
+				r += make_link(link_goal, where)
 				state = LINK_PARSER_NORMAL
 			else:
 				target += x[i]
@@ -342,6 +360,11 @@ def text2text(x):
 				i = j+4
 				continue
 		if state == TEXT_PARSER_NORMAL:
+			if x[i] == '\\':
+				# escaping!
+				r += x[i+1]
+				i += 2
+				continue
 			if x[i] == '`':
 				state = TEXT_PARSER_TICK
 			elif x[i] == '_':
@@ -354,6 +377,16 @@ def text2text(x):
 			if x[i] == '`':
 				r += '``'
 				state = TEXT_PARSER_NORMAL
+			elif x[i] == '\\':
+				# escaping!
+				if x[i+1] == '<':
+					content = '&lt;'
+				elif x[i+1] == '>':
+					content = '&gt;'
+				else:
+					content = x[i+1]
+				state = TEXT_PARSER_TICK_T
+				i += 1
 			else:
 				content = x[i]
 				state = TEXT_PARSER_TICK_T
@@ -361,10 +394,18 @@ def text2text(x):
 			if x[i] == '`':
 				r += f'<code>{content}</code>'
 				state = TEXT_PARSER_NORMAL
+			elif x[i] == '\\':
+				# escaping inside ticks
+				if x[i+1] == '<':
+					content += '&lt;'
+				elif x[i+1] == '>':
+					content += '&gt;'
+				else:
+					content += x[i+1]
+				i += 1
 			else:
-				# inside ticks everything is verbatim
+				# inside ticks everything else is verbatim
 				content += x[i]
-
 		elif state == TEXT_PARSER_U:      # _
 			if x[i] == '_':
 				state = TEXT_PARSER_UU

@@ -46,3 +46,7 @@ Project page: https://aws.amazon.com/iam/
 https://doi.org/10.1007/978-3-030-53288-8_9 (CAV '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
+
+#### Meta
+:: Security
+:: PV2 :: generates findings covering a given access policy

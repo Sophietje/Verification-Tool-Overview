@@ -43,3 +43,5 @@ https://doi.org/10.1007/978-3-030-53291-8_9
 
 #### Meta
 :: Constrained Horn Clauses (CHC)
+:: C
+:: PV2 :: generates invariants from a C or CHC program, requires an external solver

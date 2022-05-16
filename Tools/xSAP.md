@@ -8,7 +8,7 @@ Fault tree analysis
 Model checking
 
 #### Type of tool (e.g. model checker, test generator):
-?
+A toolkit with many features
 
 #### Expected input thing:
 - Nominal model
@@ -36,6 +36,7 @@ xSAP is a re-implementation of FSAP.
 
 #### URIs (github, websites, etc.):
 Project page: https://xsap.fbk.eu/
+Feature list: https://xsap.fbk.eu/pmwiki.php?n=Features.Home
 
 #### Last commit date:
 28 June 2021 (last release date)
@@ -52,3 +53,5 @@ https://doi.org/10.1007/978-3-662-49674-9_31 (TACAS '16)
 Other platforms for model-based safety assessment: [[Altarica/OCAS]], [[Scade]], [[Statemate]]
 
 #### Meta
+:: Framework
+:: PV5 :: safety assessment tool for synchronous finite-state and infinite-state systems

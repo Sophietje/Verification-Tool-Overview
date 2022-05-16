@@ -24,7 +24,7 @@ Depends on how the library is used.
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Includes algorithms for the computation of NTSCD (non-termination sensitive control dependence), DOD (decisive order dependence) and the NTSCD and DOD closure
 
-DG contains several scripts/tools to deal with bitcode. The main interesting tool seems to be `llvm-slicer` which is a static [slicer](Program%20slicing.md) for LLVM bitcode.
+DG contains several scripts/tools to deal with bitcode. The main interesting tool seems to be `llvm-slicer` which is a static slicer for LLVM bitcode.
 
 #### Comments:
 This was made during the re-implementation of the tool [Symbiotic](Symbiotic.md). Its original purpose was for the construction of dependence graphs for LLVM bitcode.
@@ -49,4 +49,4 @@ https://doi.org/10.1016/j.simpa.2020.100038 (Software Impacts '20)
 
 #### Meta
 :: Library
-:: PV0 :: a library that provides data structures and algorithms for  program analysis and slicing
+:: PV0 :: a library that provides data structures and algorithms for program analysis and slicing

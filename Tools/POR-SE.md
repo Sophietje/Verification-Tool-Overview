@@ -24,9 +24,8 @@ C program?
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-POR-SE combines quasi-optimal partial order reduction (POR) with symbolic execution (SE). 
-
-It has been implemented as an extension of [KLEE](KLEE.md).
+- POR-SE combines quasi-optimal partial order reduction (POR) with symbolic execution (SE). 
+- It has been implemented as an extension of [KLEE](KLEE.md) (it is basically a multi-threaded extension of it).
 
 #### Comments:
 -
@@ -49,3 +48,4 @@ https://doi.org/10.1007/978-3-030-53288-8_18
 
 #### Meta
 :: Concurrency
+:: PV3 :: checks properties of multi-threaded programs by symbolic execution

@@ -1,4 +1,4 @@
-Technique to automatically tailor an abstract interpreter to the code under analysis and any given resource constraints
+automatically tailors an abstract interpreter to the code under analysis and any given resource constraints
 
 #### Name:
 tAIlor (tailor)
@@ -42,3 +42,4 @@ https://doi.org/10.1007/978-3-030-81688-9_36 (CAV '21)
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
+:: PV2 :: generates a configuration for an abstract interpreter from constraints

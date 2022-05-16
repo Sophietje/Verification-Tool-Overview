@@ -32,7 +32,7 @@ It also gives some performance metrics and it can visualize various computed rea
 Tool for verifying scenarios involving vehicles executing complex plans in large cluttered workspaces. It converts the scenario verification problem to a standard hybrid system verification problem, and solves it by exploiting structural properties in the plan and vehicle dynamics.
 It uses reachability tools for verification.
 
-Uses [Flow*](Flow*.md), [DryVR](DryVR.md) for reachability analysis.
+Uses [Flow\*](Flow*.md), [DryVR](DryVR.md) for reachability analysis.
 
 #### Comments:
 -
@@ -52,4 +52,7 @@ Repository: https://gitlab.engr.illinois.edu/sibai2/multi-drone_simulator/-/rele
 https://doi.org/10.1007/978-3-030-81685-8_28 (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
-Compared to in CAV '21 paper: [DryVR](DryVR.md), [Flow*](Flow*.md)
+Compared to in CAV '21 paper: [DryVR](DryVR.md), [Flow\*](Flow*.md)
+
+#### Meta
+:: PV2 :: transforms scenarios for hybrid control systems to reachability problems, requires an external solver

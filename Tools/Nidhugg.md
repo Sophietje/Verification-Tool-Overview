@@ -28,9 +28,8 @@ It will indicate an error or state that no errors were found.
 The errors can be either assertion violations or robustness violations (e.g. segmentation faults).
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-It supports the following memory models: SC, TSO, PSO, POWER and ARM.
-
-Nidhugg explores the possible executions to find bugs. It does this such that it will not explore executions that are equivalent to each other. 
+- It supports the following memory models: SC, TSO, PSO, POWER and ARM.
+- Nidhugg explores the possible executions to find bugs. It does this such that it will not explore executions that are equivalent to each other.
 
 #### Comments:
 License: GPL v3.0
@@ -58,3 +57,4 @@ Other stateless model checkers: [GenMC](Checkers/GenMC.md), [[RCMC]], [[CDSCheck
 :: C++
 :: Model checking
 :: Concurrency
+:: PV5 :: given a program and a memory model, reports assertion violations

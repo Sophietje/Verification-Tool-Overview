@@ -1,7 +1,7 @@
 Java Concurrency Stress executes tests concurrently and tries to identify reorderings or contract violations for concurrent code.
 
 #### Name:
-Java Concurrency Stress (a.k.a. jcstress)
+Java Concurrency Stress (jcstress)
 
 #### Application domain/field:
 Concurrency
@@ -45,3 +45,4 @@ Project page: https://openjdk.java.net/projects/code-tools/jcstress/
 #### Meta
 :: Java
 :: Concurrency
+:: PV1 :: executes test cases in an order that may lead to faults

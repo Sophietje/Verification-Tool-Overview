@@ -22,7 +22,7 @@ cvc4sy is integrated in [CVC4](SMT/CVC4.md).
 cvc4sy is based on counterexample-guided inductive synthesis (CEGIS).
 
 #### Comments:
-This solver specifically aims to prove unsatisfiability of formulas like: $\forall f \exists \bar{x}. \neg P[f,\bar{x}]$
+This solver specifically aims to prove unsatisfiability of formulae like: $\forall f \exists \bar{x}. \neg P[f,\bar{x}]$
 
 #### URIs (github, websites, etc.):
 CVC4 repository: https://github.com/CVC4/CVC4-archived/
@@ -41,3 +41,5 @@ Other SyGuS solver: [[EUSolver]]
 
 #### Meta
 :: Syntax-guided synthesis (SyGuS)
+:: SAT
+:: PV3 :: proves unsatisfiability of a narrow class of formulae with counterexample-guided inductive synthesis

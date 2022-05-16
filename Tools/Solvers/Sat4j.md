@@ -19,8 +19,9 @@ Java library that provides access to SAT-related technologies.
 [DIMACS](../../Formats/DIMACS.md), or Aralia formula?
 
 #### Expected output:
-`UNSATISFIABLE` if it is unsatisfiable
-`SATISFIABLE` if satisfiable, or it may cause an exception if e.g. a timeout occurs.
+- `UNSATISFIABLE` if it is unsatisfiable
+- `SATISFIABLE` if satisfiable
+- it may cause an exception if e.g. a timeout occurs
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 ?
@@ -33,7 +34,7 @@ Project page: https://sat4j.org/
 Repository: https://gitlab.ow2.org/sat4j/sat4j/
 
 #### Last commit date:
-18 November 2021
+9 April 2022
 (Last release was on 14 December 2020)
 
 #### Last publication date:
@@ -49,3 +50,5 @@ https://content.iospress.com/articles/journal-on-satisfiability-boolean-modeling
 #### Meta
 :: Mathematical optimization
 :: SAT
+:: PV4 :: produces a satisfiability result for a formula
+:: Java

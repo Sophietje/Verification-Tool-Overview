@@ -1,7 +1,7 @@
 Solver for MaxSAT and pseudo-Boolean problems
 
 #### Name:
-UWrMaxSat (sometimes stylized as uwrmaxsat)
+UWrMaxSat
 
 #### Application domain/field:
 MaxSAT problems
@@ -22,7 +22,8 @@ MaxSAT or pseudo-Boolean problem
 There is an option to print (more verbose) output to a file.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [[COMiniSatPS]]
+Uses [[COMiniSatPS]], which can be replaced with [[CaDiCaL]] or [[Glucose]] or [[mergesat]].
+Integrates the MaxPre preprocessor.
 
 #### Comments:
 This was created as an extension of [MiniSat+](MiniSat+.md). It was extended such that it could deal with MaxSAT instances.
@@ -37,6 +38,10 @@ Repository: https://github.com/marekpiotrow/UWrMaxSat
 November 2020
 
 #### List of related papers:
-https://doi.org/10.1109/ICTAI50040.2020.00031 (ICTAI '20)
+https://doi.org/10.1109/ICTAI50040.2020.00031 (ICTAI 2020)
 
 #### Related tools (tools mentioned or compared to in the paper):
+"Since the version 1.3 you can merge the power of this solver with the [[SCIP]] solver, if you have a licence to use it"
+
+#### Meta
+:: PV4 :: a complete solver for partial weighted MaxSAT instances

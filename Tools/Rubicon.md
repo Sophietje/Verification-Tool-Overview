@@ -1,4 +1,4 @@
-Tool that transpiles [PRISM](Checkers/PRISM.md) to [[Dice]] (probabilistic programming language).
+Tool that transpiles [PRISM](Formats/PRISM%20language.md) to [[Dice]] (probabilistic programming language).
 
 #### Name:
 Rubicon
@@ -17,7 +17,7 @@ Transpiler?
 - Property
 
 #### Expected input format:
-- *Program*: [PRISM](Checkers/PRISM.md) language
+- *Program*: [PRISM language](Formats/PRISM%20language.md)
 - *Property*: Passed as an argument, [PRISM](Checkers/PRISM.md)'s specification language
 
 #### Expected output:
@@ -47,3 +47,4 @@ https://doi.org/10.1007/978-3-030-81688-9_27 (CAV '21)
 
 #### Meta
 :: Model checking
+:: PV2 :: translates properties from PRISM to Dice

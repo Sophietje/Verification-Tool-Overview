@@ -28,3 +28,4 @@ See: https://maude.cs.illinois.edu/w/index.php/Maude_Tools
 
 #### Meta
 :: Framework
+:: PV5 :: a language and system supporting equational and rewriting logic

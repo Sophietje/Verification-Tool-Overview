@@ -21,8 +21,8 @@ Rewriter/Library for ACL2
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-FGL is described as a term rewriter that transforms expressions acting on fixed-size data into Boolean formulas.
-One can then use equivalence checking between two sets of Boolean formulas to show that the implementation result matches the specification.
+FGL is described as a term rewriter that transforms expressions acting on fixed-size data into Boolean formulae.
+One can then use equivalence checking between two sets of Boolean formulae to show that the implementation result matches the specification.
 
 FGL is integrated into [ACL2](ACL2.md).
 
@@ -43,3 +43,7 @@ https://doi.org/10.4204/EPTCS.327.3 (Workshop on the ACL2 Theorem Prover and its
 
 #### Related tools (tools mentioned or compared to in the paper):
 FGL is a rewrite and extension of [[GL]].
+
+#### Meta
+:: PV2 :: transforms expressions into Boolean formulae
+:: Library

@@ -15,7 +15,7 @@ Bounded model checking
 Program
 
 #### Expected input format:
-C/C++ file
+C/C++ and SMTLib2
 
 #### Expected output:
 ?
@@ -50,3 +50,6 @@ https://doi.org/10.1007/978-3-662-49674-9_69 (TACAS '16)
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
+:: C
+:: C++
+:: PV3 :: encodes an LLVM program into a transition relation and checks properties on it

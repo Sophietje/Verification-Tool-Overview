@@ -17,7 +17,7 @@ Monitoring tool
 - *Optional*: Timed word
 
 #### Expected input format:
--*Automaton*: `.dot` file
+- *Automaton*: `.dot` file
 - *Signature*: `.sig` file, own format
 - *Optional timed word*: `.txt` file?
 
@@ -25,7 +25,7 @@ Monitoring tool
 ?
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-Uses [Parma Polyhedra Library (PPL)](Libraries/Parma%20Polyhedra%20Library%20(PPL).md)
+Uses [Parma Polyhedra Library (PPL)](Libraries/PPL.md)
 
 #### Comments:
 License: GPL v3.0
@@ -41,10 +41,12 @@ Try online: https://colab.research.google.com/drive/17WNWuA3RxCA51xkDuVfOVeuUbRq
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_30 (CAV '19)
+https://doi.org/10.1007/978-3-030-25540-4_30 (CAV 2019)
+https://arxiv.org/abs/1905.04486 (arXiv version of the same paper)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Monitoring tools that support reasoning about data: [[MarQ]], [[MonPoly]], [[DejaVu]].
 
 #### Meta
 :: Monitoring
+:: PV4 :: checks whether an event log conforms to the automata specification
