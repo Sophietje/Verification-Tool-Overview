@@ -47,4 +47,4 @@ https://doi.org/10.1007/978-3-030-81688-9_27 (CAV '21)
 
 #### Meta
 :: Model checking
-:: PV1 :: translates properties from PRISM to Dice
+:: PV2 :: translates properties from PRISM to Dice

@@ -42,4 +42,4 @@ https://doi.org/10.1142/S012905410200128X (Journal of Foundations of Computer Sc
 
 #### Meta
 :: Automaton
-:: PV1 :: translates WS1S and WS2S into minimum DFAs and GTAs
+:: PV2 :: translates WS1S and WS2S into minimum DFAs and GTAs

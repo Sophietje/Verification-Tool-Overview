@@ -45,4 +45,4 @@ https://doi.org/10.1007/978-3-030-81688-9_16 (CAV '21)
 
 #### Meta
 :: LTL
-:: PV1 :: transforms first order LTL formulae to Electrum models
+:: PV2 :: transforms first order LTL formulae to Electrum models

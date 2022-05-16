@@ -45,5 +45,5 @@ https://doi.org/10.4204/EPTCS.327.3 (Workshop on the ACL2 Theorem Prover and its
 FGL is a rewrite and extension of [[GL]].
 
 #### Meta
-:: PV1 :: transforms expressions into Boolean formulae
+:: PV2 :: transforms expressions into Boolean formulae
 :: Library

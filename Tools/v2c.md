@@ -45,4 +45,4 @@ https://doi.org/10.1007/978-3-662-49674-9_38 (TACAS '16)
 
 #### Meta
 :: Hardware
-:: PV1 :: translates a Register Transfer Level hardware circuit description into a C program
+:: PV2 :: translates a Register Transfer Level hardware circuit description into a C program

@@ -35,4 +35,4 @@ Repository: https://github.com/pysmt/pysmt
 :: Python
 :: SMT
 :: Library
-:: PV3 :: provides API for creating SMT formulae, manipulating them and converting them for different solvers to use
+:: PV1 :: provides API for creating SMT formulae, manipulating them and converting them for different solvers to use

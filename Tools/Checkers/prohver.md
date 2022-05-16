@@ -36,6 +36,6 @@ http://dx.doi.org/10.1007/s10703-012-0167-z (Formal Methods in System Design, 20
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: PV2 :: computes safe upper bounds for probabilistic reachability probabilities
+:: PV1 :: computes safe upper bounds for probabilistic reachability probabilities
 :: Automaton
 :: Model checking
