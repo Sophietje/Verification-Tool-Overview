@@ -51,4 +51,4 @@ $T_TT_2$ is used by the following tools: [[CaT]], [[ConCon]], [[KBCV]], [[mkbTT]
 
 #### Meta
 :: Termination
-:: PV6 :: produces a proof of termination for a term rewrite system
+:: PV1 :: produces a proof of termination for a term rewrite system
