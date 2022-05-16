@@ -26,6 +26,8 @@ https://github.com/stanford-centaur/smt-switch
 18 April 2022
 
 #### Last publication date:
+https://doi.org/10.1007/978-3-030-80223-3_26 (SAT 2021)
+http://ceur-ws.org/Vol-2854/short3.pdf (SAT 2020)
 
 #### List of related papers:
 

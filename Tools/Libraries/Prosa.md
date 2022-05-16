@@ -32,9 +32,10 @@ https://gitlab.mpi-sws.org/RT-PROOFS/rt-proofs
 December 2021
 
 #### List of related papers:
+https://doi.org/10.1007/978-3-030-25543-5_28 (CAV 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
 :: Library
-:: No PV :: a repository of definitions and proofs for real-time schedulability analysis
+:: PV0 :: a repository of definitions and proofs for real-time schedulability analysis
