@@ -20,7 +20,7 @@ Either an invariant or false if no invariant exists
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 FreqHorn is a satisfiability solver for constrained Horn clauses (CHCs).
-Uses [Z3](SMT/Z3.md), based on [SeaHorn](../Checkers/SeaHorn.md).
+Uses [Z3](SMT/Z3.md) to filter candidates, based on [SeaHorn](../Checkers/SeaHorn.md).
 
 #### Comments:
 
@@ -35,11 +35,12 @@ Other repository that is also linked: https://github.com/grigoryfedyukovich/aeva
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_14
+https://doi.org/10.1007/978-3-030-25540-4_14 (CAV '19)
+https://doi.org/10.23919/FMCAD.2018.8603011 (FMCAD '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
 :: Constrained Horn Clauses (CHC)
 :: Syntax-guided synthesis (SyGuS)
-:: PV3 :: proves safety specification conformance by a combination of invariant synthesis and SMT solving
+:: PV4 :: proves satisfiability of a CHC system by generating invariants

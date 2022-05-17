@@ -39,4 +39,4 @@ https://doi.org/10.1007/978-3-030-53291-8_7
 #### Meta
 :: Constrained Horn Clauses (CHC)
 :: SMT
-:: PV3 :: produces a satisfiability result for a given CHC
+:: PV4 :: produces a satisfiability result for a given CHC
