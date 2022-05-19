@@ -3,7 +3,7 @@
 ### Tools and Case Studies
 -	[🔓](https://doi.org/10.1007/978-3-030-45237-7_13) Verifying OpenJDK's LinkedList using KeY
 	[Hans-Dieter A. Hiep](https://dblp.org/pid/253/3994.html), [Olaf Maathuis](https://dblp.org/pid/254/0876.html), [Jinting Bian](https://dblp.org/pid/254/0868.html), [Frank S. de Boer](https://dblp.org/pid/b/DSsBoer.html), [Marko C. J. D. van Eekelen](https://dblp.org/pid/83/2290.html), [Stijn de Gouw](https://dblp.org/pid/34/11095.html):
-	✅ Expands [[KeY]]
+	✅ Uses [[KeY]]
 -	[🔓](https://doi.org/10.1007/978-3-030-45237-7_14) Analysing installation scenarios of Debian packages
 	[Benedikt F. H. Becker](https://dblp.org/pid/179/5568.html), [Nicolas Jeannerod](https://dblp.org/pid/210/8495.html), [Claude Marché](https://dblp.org/pid/85/1251.html), [Yann Régis-Gianas](https://dblp.org/pid/44/4388.html), [Mihaela Sighireanu](https://dblp.org/pid/27/1531.html), [Ralf Treinen](https://dblp.org/pid/t/RalfTreinen.html):
 	✅ Presents [[CoLiS]]

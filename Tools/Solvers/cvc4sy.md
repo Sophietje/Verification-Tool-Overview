@@ -42,4 +42,4 @@ Other SyGuS solver: [[EUSolver]]
 #### Meta
 :: Syntax-guided synthesis (SyGuS)
 :: SAT
-:: PV3 :: proves unsatisfiability of a narrow class of formulae with counterexample-guided inductive synthesis
+:: PV4 :: proves unsatisfiability of a narrow class of formulae with counterexample-guided inductive synthesis
