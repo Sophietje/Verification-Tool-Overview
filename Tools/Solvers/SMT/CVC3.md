@@ -1,5 +1,5 @@
 #### Name:
-cvc5
+Cooperating Validity Checker (CVC3)
 
 #### Application domain/field:
 SMT solving
@@ -11,33 +11,30 @@ SMT solver
 SMT formula
 
 #### Expected input format:
-?
 
 #### Expected output:
-`sat` or `unsat`
+`sat` or `unsat` which indicates whether the SMT formula was satisfiable or not.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 
 #### Comments:
-Seems like there is no release yet (last release still seems to be a version of [[CVC4]]).
+CVC3 is **succeeded by** [[CVC4]] and [[cvc5]].
 
 #### URIs (github, websites, etc.):
-Repository: https://github.com/cvc5/cvc5
-Project page: https://cvc5.github.io/
+Project page: https://cs.nyu.edu/acsys/cvc3/
+Releases: https://cs.nyu.edu/acsys/cvc3/releases/
 
 #### Last commit date:
-26 May 2022
+7 August 2014 (last release)
 
 #### Last publication date:
-2022
+2007
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-99524-9_24 (TACAS 2022)
-https://doi.org/10.1007/978-3-030-94583-1_24 (VMCAI 2022)
+https://doi.org/10.1007/978-3-540-73368-3_34 (CAV 2007)
 
 #### Related tools (tools mentioned or compared to in the paper):
-From the same 'family' of tools: [[CVC]], [[CVC Lite]], [[CVC3]], [CVC4](CVC4.md)
 
 #### Meta
 :: SMT
-:: PV4 :: produces a satisfiability result for a formula
+:: PV4 :: produces a validity/satisfiability result for a formula

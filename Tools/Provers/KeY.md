@@ -41,9 +41,9 @@ Latest stable release is from 18 December 2020 (https://www.key-project.org/down
 23 March 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-72013-1_13
-https://doi.org/10.1007/978-3-319-49812-6
-https://doi.org/10.1007/978-3-319-12154-3_4
+https://doi.org/10.1007/978-3-030-72013-1_13 (TACAS 2021)
+https://doi.org/10.1007/978-3-319-49812-6 (KeY book, 2016)
+https://doi.org/10.1007/978-3-319-12154-3_4 (VSTTE 2014)
 
 #### Related tools (tools mentioned or compared to in the paper):
 ?
