@@ -4,16 +4,6 @@ from collections import OrderedDict
 from hyper import *
 import datetime
 
-PV_text = (\
-	'manipulate given and produced software artefacts with some degree of rigour. Conceptually such artefacts then may correspond to mathematical and formal entities, but this correspondence is mostly a matter of expectations. This category should be reasonably unpopulated since we mostly avoid to include such tools listed on this website.',
-	'encode the formal expectations about the artefacts that they manipulate, and report back to their users about found inconsistencies. A typical resident of this level could be a linter: a tool that analyses your program and complains about places where your program does not conform to its expectations.',
-	'generate an executable artefact from a formal one that specifies the desired properties and conditions, without necessarily providing means of explicitly verifying the correctness of the synthesised code. For instance, it could be a test data generator that produces a lot of diverse test cases from a model.',
-	'allow the end user to control the properties that are being checked. For instance, it could be a tool that analyses user-written assertions in the code and verifies that they are indeed always respected by the program.',
-	'operate within a particular paradigm and derive their actions, conclusions and even properties that they need to check, from a built-in formal specification. For example, such a tool can guarantee freedom of deadlocks in a multi-threaded application, or data consistency in a database management system. Generated property set cannot be explicitly adjusted for tools of this level.',
-	'allow the end user to write their own specifications and “compile” them together with desired properties to fully formal mathematical representations that can be combined with mathematical representations of programs themselves or their desired properties, and verified together. Such a tool can already help someone make claims and guarantees about correctness, complexity or predicted performance of a novel, previously non-existing, garbage collection algorithm.',
-	'can handle different user-written specifications, encode a wide range of different formulae for properties, and are capable of producing proofs of such properties together with inferring the correctness of such proofs.'
-	)
-
 TEMPLATE = '''
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">

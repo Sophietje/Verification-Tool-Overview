@@ -1,0 +1,1 @@
+PV1 tools encode the formal expectations about the artefacts that they manipulate, and report back to their users about found inconsistencies. A typical resident of this level could be a linter: a tool that analyses your program and complains about places where your program does not conform to its expectations.

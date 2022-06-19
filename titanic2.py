@@ -107,6 +107,9 @@ class Item(object):
 						indices[tag_key] = []
 						name_by_index[tag_key] = tag
 						indices['tags'].append(make_link(tag_key+'.html', tag))
+						if tag_key in tag_by_key:
+							if tag_by_key[tag_key].check_for('Name'):
+								indices['tags'][-1] += ' — ' + tag_by_key[tag_key].sections['Name'][0]
 					indices[tag_key].append(make_link(get_key(self.name)+'.html', self.name, why=desc))
 					continue
 				self.sections[cur_section].append(line.rstrip())
@@ -212,6 +215,8 @@ def traverse_dir(d, by_key, by_name):
 
 item_by_key = {}
 item_by_name = {}
+tag_by_key = {}
+tag_by_name = {}
 indices = {}
 name_by_index = {}
 
@@ -227,8 +232,12 @@ for filename in os.listdir(sys.argv[1]):
 	if filename.endswith(".html"):
 		EXISTENCE.add(filename)
 
+traverse_dir('Tags', tag_by_key, tag_by_name)
 traverse_dir('Tools', item_by_key, item_by_name)
 traverse_dir('Formats', item_by_key, item_by_name)
+print(tag_by_key)
+print(tag_by_name)
+print(indices['tags'])
 
 info(f'{cx} facts are known!')
 
@@ -241,7 +250,14 @@ for f in item_by_key:
 for index in indices:
 	with open(os.path.join(sys.argv[1], index + '.html'), 'w', encoding='utf-8') as file:
 		lst = [f'<li>{item}</li>' for item in sorted(indices[index])]
-		text = f'{index.upper()} tools {proverb.PV_text[int(index[2])]}' if index.startswith('pv') else ''
+		text = ''
+		if index in tag_by_key:
+			if tag_by_key[index].check_for(SECTION_GEN):
+				text += '\n'.join(tag_by_key[index].sections[SECTION_GEN])
+			if tag_by_key[index].check_for(SECTION_URI):
+				text += h4(SECTION_URI_)
+				text += ul(tag_by_key[index].sections[SECTION_URI])
+				text += h3('Tools')
 		text += '<ul>\n' + '\n'.join(lst) + '\n</ul>'
 		file.write(proverb.IndexPage(name_by_index[index], len(lst), text).dump())
 info(f'{len(indices)} indices generated!')
@@ -250,6 +266,7 @@ with open('index.html', 'r', encoding='utf-8') as ifile:
 	with open(os.path.join(sys.argv[1], 'index.html'), 'w', encoding='utf-8') as ofile:
 		for line in ifile.readlines():
 			if line.startswith('<<PV_TEXT$'):
-				ofile.write(f'tools that {proverb.PV_text[int(line.split("$")[1])]}\n')
+				PV_text = tag_by_key[f'pv{int(line.split("$")[1])}'].sections[SECTION_GEN]
+				ofile.write('\n'.join(PV_text)[4:] + '\n')
 			else:
 				ofile.write(line)

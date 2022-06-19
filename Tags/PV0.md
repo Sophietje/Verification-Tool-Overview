@@ -1,0 +1,1 @@
+PV0 tools manipulate given and produced software artefacts with some degree of rigour. Conceptually such artefacts then may correspond to mathematical and formal entities, but this correspondence is mostly a matter of expectations. This category should be reasonably unpopulated since we mostly avoid to include such tools listed on this website.

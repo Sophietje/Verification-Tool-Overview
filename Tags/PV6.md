@@ -1,0 +1,1 @@
+PV6 tools can handle different user-written specifications, encode a wide range of different formulae for properties, and are capable of producing proofs of such properties together with inferring the correctness of such proofs.

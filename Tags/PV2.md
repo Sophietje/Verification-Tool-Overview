@@ -1,0 +1,1 @@
+PV2 tools generate an executable artefact from a formal one that specifies the desired properties and conditions, without necessarily providing means of explicitly verifying the correctness of the synthesised code. For instance, it could be a test data generator that produces a lot of diverse test cases from a model.
