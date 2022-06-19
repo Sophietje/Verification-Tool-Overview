@@ -133,6 +133,7 @@ class Item(object):
 					self.subtitle, \
 					self.rank, \
 					self.tags, \
+					tag_by_key, \
 					self.markdown_to_html1(), \
 					self.markdown_to_html2())
 			file.write(p.dump())

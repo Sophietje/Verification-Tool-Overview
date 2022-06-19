@@ -102,7 +102,7 @@ class Page(object):
 		return TEMPLATE.format(title=self.title, tabs=tabber, last_updated=datetime.datetime.now().strftime('%B %Y'))
 
 class ToolPage(Page):
-	def __init__(self, fn, t, ft, st, rank, tags, c1, c2):
+	def __init__(self, fn, t, ft, st, rank, tags, tags_by_key, c1, c2):
 		super(ToolPage, self).__init__(t)
 		self.filename = fn
 		# construct the title
@@ -114,11 +114,15 @@ class ToolPage(Page):
 			FULL_TITLE += f'<span class="subtitle">{st}</span>'
 		FULL_TITLE += '</h1>'
 		# construct tag links
-		TAGS = '<div>' + '\n'.join([f'<span class="tag">{make_link(t+".html", tags[t][0], hover=tags[t][1])}</span>'\
-				for t in sorted(tags)]) + '</div>'
+		TAGS = '<div>' + '\n'.join([self.format_tag(t, tags, tags_by_key) for t in sorted(tags)]) + '</div>'
 		EDITLINK = '<p>' + make_link('https://github.com/Sophietje/Verification-Tool-Overview/blob/main/'+self.filename, 'View/edit source', why='Markdown') + '</p>'
 		self.tabs['Tool'] = FULL_TITLE + c1
 		self.tabs['Meta'] = TAGS + c2 + EDITLINK
+	def format_tag(self, t, tags1, tags2):
+		hover = tags1[t][1]
+		if not hover and t in tags2 and tags2[t].check_for('Name'):
+			hover = tags2[t].sections['Name'][0]
+		return f'<span class="tag">{make_link(t+".html", tags1[t][0], hover=hover)}</span>'
 
 class IndexPage(Page):
 	def __init__(self, cat, size, lst):
