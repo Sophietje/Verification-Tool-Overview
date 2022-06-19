@@ -79,6 +79,8 @@ class Item(object):
 						self.sections[cur_section] = []
 					continue
 				if cur_section == SECTION_MET:
+					if not line.strip():
+						continue
 					tmp = line.split('::')
 					if len(tmp) == 2:
 						tag = tmp[1].strip()
@@ -235,9 +237,6 @@ for filename in os.listdir(sys.argv[1]):
 traverse_dir('Tags', tag_by_key, tag_by_name)
 traverse_dir('Tools', item_by_key, item_by_name)
 traverse_dir('Formats', item_by_key, item_by_name)
-print(tag_by_key)
-print(tag_by_name)
-print(indices['tags'])
 
 info(f'{cx} facts are known!')
 
@@ -255,9 +254,9 @@ for index in indices:
 			if tag_by_key[index].check_for(SECTION_GEN):
 				text += '\n'.join(tag_by_key[index].sections[SECTION_GEN])
 			if tag_by_key[index].check_for(SECTION_URI):
-				text += h4(SECTION_URI_)
-				text += ul(tag_by_key[index].sections[SECTION_URI])
-				text += h3('Tools')
+				text += '\n' + h4(SECTION_URI_)
+				text += '\n' + ul(tag_by_key[index].sections[SECTION_URI])
+				text += '\n' + h3('Tools')
 		text += '<ul>\n' + '\n'.join(lst) + '\n</ul>'
 		file.write(proverb.IndexPage(name_by_index[index], len(lst), text).dump())
 info(f'{len(indices)} indices generated!')
