@@ -20,7 +20,7 @@ Satisfiability checker (for pfwCSP)
 
 #### Expected input format:
 - `.clp` or `.smt2` file which describes the pfwCSP
-- `.json` file for configuraiton of the solver
+- `.json` file for configuration of the solver
 - "pcsp": textual argument that is given to indicate the solver that should be used
 
 #### Expected output:
@@ -49,5 +49,5 @@ https://doi.org/10.1007/978-3-030-81685-8_35 (CAV '21)
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: Constrained Horn Clauses (CHC)
+:: CHC
 :: PV2 :: generates an SMT problem from a pfwCSP spec, requires an external solver

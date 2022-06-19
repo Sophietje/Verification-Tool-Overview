@@ -6,3 +6,4 @@ https://sygus.org/language/
 #### Meta
 :: no PV
 :: Specification format
+:: SyGuS

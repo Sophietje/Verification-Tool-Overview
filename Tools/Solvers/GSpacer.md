@@ -37,6 +37,6 @@ https://doi.org/10.1007/978-3-030-53291-8_7
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: Constrained Horn Clauses (CHC)
+:: CHC
 :: SMT
 :: PV4 :: produces a satisfiability result for a given CHC

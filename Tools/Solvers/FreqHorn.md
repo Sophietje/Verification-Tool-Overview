@@ -41,6 +41,6 @@ https://doi.org/10.23919/FMCAD.2018.8603011 (FMCAD '18)
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: Constrained Horn Clauses (CHC)
-:: Syntax-guided synthesis (SyGuS)
+:: CHC
+:: SyGuS
 :: PV4 :: proves satisfiability of a CHC system by generating invariants

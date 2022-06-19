@@ -46,5 +46,5 @@ https://doi.org/10.1007/978-3-319-40970-2_24 (SAT '16)
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
-:: Quantified Boolean Formula (QBF)
+:: QBF
 :: PV4 :: produces a satisfiability result for a quantified boolean formula

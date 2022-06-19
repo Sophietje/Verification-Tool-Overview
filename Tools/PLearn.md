@@ -43,4 +43,4 @@ https://doi.org/10.1007/978-3-030-25540-4_17 (CAV '19)
 
 #### Meta
 :: PV2 :: synthesises a program conforming to a subgrammar of a given grammar
-:: Syntax-guided synthesis (SyGuS)
+:: SyGuS
