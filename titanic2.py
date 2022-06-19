@@ -251,7 +251,9 @@ for index in indices:
 	with open(os.path.join(sys.argv[1], index + '.html'), 'w', encoding='utf-8') as file:
 		lst = [f'<li>{item}</li>' for item in sorted(indices[index])]
 		text = ''
+		title = name_by_index[index]
 		if index in tag_by_key:
+			title += '<span class="subtitle">' + tag_by_key[index].sections['Name'][0] + '</span>'
 			if tag_by_key[index].check_for(SECTION_GEN):
 				text += '\n'.join(tag_by_key[index].sections[SECTION_GEN])
 			if tag_by_key[index].check_for(SECTION_URI):
@@ -259,7 +261,7 @@ for index in indices:
 				text += '\n' + ul(tag_by_key[index].sections[SECTION_URI])
 				text += '\n' + h3('Tools')
 		text += '<ul>\n' + '\n'.join(lst) + '\n</ul>'
-		file.write(proverb.IndexPage(name_by_index[index], len(lst), text).dump())
+		file.write(proverb.IndexPage(title, len(lst), text).dump())
 info(f'{len(indices)} indices generated!')
 
 with open('index.html', 'r', encoding='utf-8') as ifile:
