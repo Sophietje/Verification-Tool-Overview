@@ -8,12 +8,6 @@ import sys
 
 cx = 0
 
-def check_for(sections, section_name):
-	return section_name in sections \
-		and len(sections[section_name]) > 0 \
-		and sections[section_name][0]!='?' \
-		and sections[section_name][0]!='-' \
-		and sections[section_name][0]!=''
 
 SECTION_MET = 'Meta'
 SECTION_GEN = 'General'
@@ -34,54 +28,6 @@ SECTION_LPD = 'Last publication date'
 SECTION_LRP = 'List of related papers'
 SECTION_RTT = 'Related tools (tools mentioned or compared to in the paper)'
 SECTION_RT_ = 'Related tools'
-def markdown_to_html1(sections):
-	lines = []
-	if check_for(sections, SECTION_GEN):
-		# usually the only one, for unfilled templates
-		lines.append(md2html(sections[SECTION_GEN]))
-	if check_for(sections, SECTION_ADF):
-		lines.append(h3(SECTION_ADF))
-		lines.append(ul(sections[SECTION_ADF]))
-	if check_for(sections, SECTION_TOT):
-		lines.append(h3(SECTION_TOT_))
-		lines.append(ul(sections[SECTION_TOT]))
-	if check_for(sections, SECTION_EIT) or check_for(sections, SECTION_EIF):
-		lines.append(h3(SECTION_EI_))
-		if check_for(sections, SECTION_EIT):
-			lines.append(md2html(sections[SECTION_EIT]))
-		if check_for(sections, SECTION_EIF):
-			lines.append('<p>Format:</p>')
-			lines.append(md2html(sections[SECTION_EIF]))
-	if check_for(sections, SECTION_EO_):
-		lines.append(h3(SECTION_EO_))
-		lines.append(md2html(sections[SECTION_EO_]))
-	if check_for(sections, SECTION_ITU):
-		lines.append(h3(SECTION_I__))
-		lines.append(md2html(sections[SECTION_ITU]))
-	if check_for(sections, SECTION_COM):
-		lines.append(h3(SECTION_COM))
-		lines.append(md2html(sections[SECTION_COM]))
-	return '\n'.join(lines)
-
-def markdown_to_html2(sections):
-	lines = []
-	if check_for(sections, SECTION_URI):
-		lines.append(h4(SECTION_URI_))
-		lines.append(ul(sections[SECTION_URI]))
-	if check_for(sections, SECTION_LCD):
-		lines.append(h4(SECTION_LCD))
-		lines.append(ul(sections[SECTION_LCD]))
-	if check_for(sections, SECTION_LRP):
-		lines.append(h4("Related papers"))
-		lines.append(ul(sections[SECTION_LRP]))
-	if check_for(sections, SECTION_LPD):
-		lines.append(h4(SECTION_LPD))
-		lines.append(ul(sections[SECTION_LPD]))
-	if check_for(sections, SECTION_RTT):
-		lines.append(h4(SECTION_RT_))
-		lines.append(ul(sections[SECTION_RTT]))
-	lines.append(h4('ProVerB specific'))
-	return '\n'.join(lines)
 
 def cleanup(s,c):
 	return s[len(c):].strip() if s.startswith(c) else s
@@ -182,10 +128,63 @@ class Item(object):
 					self.subtitle, \
 					self.rank, \
 					self.tags, \
-					markdown_to_html1(self.sections), \
-					markdown_to_html2(self.sections))
+					self.markdown_to_html1(), \
+					self.markdown_to_html2())
 			file.write(p.dump())
 		# info(f'{self.name} dumped')
+	def check_for(self, section_name):
+		return section_name in self.sections \
+			and len(self.sections[section_name]) > 0 \
+			and self.sections[section_name][0]!='?' \
+			and self.sections[section_name][0]!='-' \
+			and self.sections[section_name][0]!=''
+	def markdown_to_html1(self):
+		lines = []
+		if self.check_for(SECTION_GEN):
+			# usually the only one, for unfilled templates
+			lines.append(md2html(self.sections[SECTION_GEN]))
+		if self.check_for(SECTION_ADF):
+			lines.append(h3(SECTION_ADF))
+			lines.append(ul(self.sections[SECTION_ADF]))
+		if self.check_for(SECTION_TOT):
+			lines.append(h3(SECTION_TOT_))
+			lines.append(ul(self.sections[SECTION_TOT]))
+		if self.check_for(SECTION_EIT) or self.check_for(SECTION_EIF):
+			lines.append(h3(SECTION_EI_))
+			if self.check_for(SECTION_EIT):
+				lines.append(md2html(self.sections[SECTION_EIT]))
+			if self.check_for(SECTION_EIF):
+				lines.append('<p>Format:</p>')
+				lines.append(md2html(self.sections[SECTION_EIF]))
+		if self.check_for(SECTION_EO_):
+			lines.append(h3(SECTION_EO_))
+			lines.append(md2html(self.sections[SECTION_EO_]))
+		if self.check_for(SECTION_ITU):
+			lines.append(h3(SECTION_I__))
+			lines.append(md2html(self.sections[SECTION_ITU]))
+		if self.check_for(SECTION_COM):
+			lines.append(h3(SECTION_COM))
+			lines.append(md2html(self.sections[SECTION_COM]))
+		return '\n'.join(lines)
+	def markdown_to_html2(self):
+		lines = []
+		if self.check_for(SECTION_URI):
+			lines.append(h4(SECTION_URI_))
+			lines.append(ul(self.sections[SECTION_URI]))
+		if self.check_for(SECTION_LCD):
+			lines.append(h4(SECTION_LCD))
+			lines.append(ul(self.sections[SECTION_LCD]))
+		if self.check_for(SECTION_LRP):
+			lines.append(h4("Related papers"))
+			lines.append(ul(self.sections[SECTION_LRP]))
+		if self.check_for(SECTION_LPD):
+			lines.append(h4(SECTION_LPD))
+			lines.append(ul(self.sections[SECTION_LPD]))
+		if self.check_for(SECTION_RTT):
+			lines.append(h4(SECTION_RT_))
+			lines.append(ul(self.sections[SECTION_RTT]))
+		lines.append(h4('ProVerB specific'))
+		return '\n'.join(lines)
 
 def traverse_dir(d, by_key, by_name):
 	for filename in os.listdir(d):
