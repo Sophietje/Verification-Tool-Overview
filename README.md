@@ -4,7 +4,7 @@ ProVerB is a project aimed at explaining program verification tools to help peop
 
 Browse the data at [https://slebok.github.io/proverb/](https://slebok.github.io/proverb/)!
 
-### Structure of the repo
+## Structure of the repo
 Below you can find a description of what the different directories contain:
 - **Conferences**: Links to all the papers that we have categorised.
 - **Formats**: Each page describes a format/language that is used by verification tools.
@@ -14,5 +14,5 @@ Below you can find a description of what the different directories contain:
 - **Tools/Metatools**: Subdirectory of "Tools". All tools that are metatools are moved to this subdirectory.
 
 
-### Contributing
+## Contributing
 Do you want to add your own tool or fix some inaccuracy in the database? Feel free to create a PR!
