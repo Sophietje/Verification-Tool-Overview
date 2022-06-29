@@ -15,6 +15,6 @@ Below you can find a description of what the different directories contain:
 
 
 ## Contributing
-Do you want to add your own tool or fix some inaccuracy in the database? Feel free to create a PR!
+Do you want to add your own tool or fix some inaccuracy? Feel free to create a PR!
 
 For tool pages we use a template which can be found [here](https://github.com/Sophietje/Verification-Tool-Overview/blob/main/Template%20tool%20page.md).
