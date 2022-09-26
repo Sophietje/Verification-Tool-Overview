@@ -10,7 +10,7 @@ import os
 import re
 md_template = """
 #### Name:
-
+{}
 
 #### Application domain/field:
 
@@ -58,10 +58,11 @@ md_template = """
 def dump_to_markdown(paper_title, doi, conf, year, keywords):
   name = ''.join(e for e in paper_title if e.isalnum())
   filename = "generated/"+name+".md"
+  likely_toolname = identify_likely_toolname(paper_title)
   with open(filename, 'w', encoding='utf-8') as file:
     paper_link = doi + " (" + conf + " "+ year + ")"
     keywords = "".join([":: "+k.replace("-\n", "")+"\n" for k in keywords])
-    p = md_template.format(paper_link, keywords)
+    p = md_template.format(likely_toolname, paper_link, keywords)
     file.write(p)
 
 
@@ -132,6 +133,11 @@ def detect_paper_boundaries(reader, paper_titles):
   # Disregard first element in ends, which refers to the "Open Access" statement in the beginning of the proceedings that is not associated with any specific paper
   return list(zip(beginnings, bibs, ends[1:]))
   
+def identify_likely_toolname(title):
+  x = re.search("^\S+\s?\S*:.*$", title)
+  if x:
+    return title.split(":")[0]
+  return ""
 
 
 for doc in os.listdir("Proceedings/"):
