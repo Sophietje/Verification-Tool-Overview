@@ -46,8 +46,8 @@ Repository (fork of CPAChecker into which PeSCo is integrated): https://github.c
 4 April 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-17502-3_19 (TACAS '19)
-https://doi.org/10.1145/3121257.3121262 (earlier rank prediction approach that was extended in the TACAS '19 paper, SWAN '17)
+[PeSCo: Predicting Sequential Combinations of Verifiers](https://doi.org/10.1007/978-3-030-17502-3_19) (TACAS '19)
+[Predicting rankings of software verification tools](https://doi.org/10.1145/3121257.3121262) (earlier rank prediction approach that was extended in the TACAS '19 paper, SWAN '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

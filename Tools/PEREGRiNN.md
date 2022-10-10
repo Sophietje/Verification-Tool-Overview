@@ -43,7 +43,7 @@ Repository: https://github.com/rcpsl/PeregriNN
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_13 (CAV '21)
+[PEREGRiNN: Penalized-Relaxation Greedy Neural Network Verifier](https://doi.org/10.1007/978-3-030-81685-8_13) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to in CAV '21 paper: [[Neurify]], [[Venus]], [nnenum](nnenum.md), [Marabou](Marabou.md)

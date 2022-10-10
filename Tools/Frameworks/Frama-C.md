@@ -41,9 +41,9 @@ Repository: https://git.frama-c.com/pub/frama-c/
 12 July 2021
 
 #### List of related papers:
-https://doi.org/10.1145/3464974.3468451 (VORTEX 2021)
-https://doi.org/10.1007/978-3-662-54577-5_22 (TACAS 2017)
-https://doi.org/10.1007/s10009-011-0192-z (VSTTE 2009-2010)
+[The e-ACSL perspective on runtime assertion checking](https://doi.org/10.1145/3464974.3468451) (VORTEX 2021)
+[RPP: Automatic Proof of Relational Properties by Self-composition](https://doi.org/10.1007/978-3-662-54577-5_22) (TACAS 2017)
+[Functional dependencies of C functions via weakest pre-conditions](https://doi.org/10.1007/s10009-011-0192-z) (VSTTE 2009-2010)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

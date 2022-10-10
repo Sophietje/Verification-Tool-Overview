@@ -37,7 +37,7 @@ Repository: https://github.com/caterinaurban/Typpete
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_2 (CAV '18)
+[MaxSMT-Based Type Inference for Python 3](https://doi.org/10.1007/978-3-319-96142-2_2) (CAV '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other type inference tools for Python: [[Pytype]], [[Starkiller]], [[MyPy]], [[PyAnnotate]]

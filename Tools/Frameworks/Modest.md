@@ -48,8 +48,8 @@ Tutorial for modelling and analysing Markov automata in Modest: https://doi.org/
 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-642-54862-8_51
-https://doi.org/10.1007/978-3-030-53291-8_26
+[The Modest Toolset: An Integrated Environment for Quantitative Modelling and Verification](https://doi.org/10.1007/978-3-642-54862-8_51)
+[Optimistic Value Iteration](https://doi.org/10.1007/978-3-030-53291-8_26)
 
 #### Related tools (tools mentioned or compared to in the paper):
 This toolset includes the model checker [mcsta](../Checkers/mcsta.md).

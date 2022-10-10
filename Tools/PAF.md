@@ -34,7 +34,7 @@ Repository: https://github.com/soarlab/paf
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_29 (CAV '21)
+[Rigorous Roundoff Error Analysis of Probabilistic Floating-Point Computations](https://doi.org/10.1007/978-3-030-81688-9_29) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Tools that focus on roundoff errors: [[FPTaylor]], [[PrAn]].

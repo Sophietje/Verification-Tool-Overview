@@ -44,7 +44,7 @@ Project page: http://www-users.cs.york.ac.uk/~cap/FACT
 9 April 2016
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-49674-9_32 (TACAS '16)
+[FACT: A Probabilistic Model Checker for Formal Verification with Confidence Intervals](https://doi.org/10.1007/978-3-662-49674-9_32) (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

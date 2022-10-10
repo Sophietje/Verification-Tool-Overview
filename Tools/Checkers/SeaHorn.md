@@ -37,10 +37,10 @@ Repository: https://github.com/seahorn/seahorn
 24 November 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-03592-1_2 (VSTTE 2018)
-https://doi.org/10.1007/978-3-662-49674-9_4 (TACAS 2016)
-https://doi.org/10.1007/978-3-319-21690-4_20 (CAV 2015)
-https://doi.org/10.1007/978-3-662-46681-0_41 (TACAS 2015)
+[Executable Counterexamples in Software Model Checking](https://doi.org/10.1007/978-3-030-03592-1_2) (VSTTE 2018)
+[Synthesizing Ranking Functions from Bits and Pieces](https://doi.org/10.1007/978-3-662-49674-9_4) (TACAS 2016)
+[The SeaHorn Verification Framework](https://doi.org/10.1007/978-3-319-21690-4_20) (CAV 2015)
+[SeaHorn: A Framework for Verifying C Programs (Competition Contribution)](https://doi.org/10.1007/978-3-662-46681-0_41) (TACAS 2015)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

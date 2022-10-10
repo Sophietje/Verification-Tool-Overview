@@ -44,11 +44,11 @@ Project page: http://staticafi.github.io/symbiotic/
 18 May 2020
 
 #### List of related papers:
-https://doi.org/10.1007/s10009-020-00573-0 (Journal on Software Tools for Technology Transfer 23, '20)
-https://doi.org/10.1007/978-3-030-45237-7_31 (TACAS '20)
-https://doi.org/10.1007/978-3-319-89963-3_29 (TACAS '18)
-https://doi.org/10.1007/978-3-662-54580-5_28 (TACAS '17)
-https://doi.org/10.1007/978-3-662-49674-9_67 (TACAS '16)
+[Symbiotic  6: generating test cases by slicing and symbolic execution](https://doi.org/10.1007/s10009-020-00573-0) (Journal on Software Tools for Technology Transfer 23, '20)
+[Symbiotic 7: Integration of Predator and More](https://doi.org/10.1007/978-3-030-45237-7_31) (TACAS '20)
+[Symbiotic 5: Boosted Instrumentation](https://doi.org/10.1007/978-3-319-89963-3_29) (TACAS '18)
+[Symbiotic 4: Beyond Reachability](https://doi.org/10.1007/978-3-662-54580-5_28) (TACAS '17)
+[Symbiotic 3: New Slicer and Error-Witness Generation](https://doi.org/10.1007/978-3-662-49674-9_67) (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [PredatorHP](PredatorHP.md) also participated in SV-COMP in the MemSafety category.

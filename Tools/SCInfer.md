@@ -41,7 +41,7 @@ Author's webpage with link to the VM and source code: https://faculty.sist.shang
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_12 (CAV '18)
+[SCInfer: Refinement-Based Verification of Software Countermeasures Against Side-Channel Attacks](https://doi.org/10.1007/978-3-319-96142-2_12) (CAV '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

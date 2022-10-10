@@ -41,8 +41,9 @@ Project page: https://www.cs.cmu.edu/~modelcheck/vcegar/
 2007
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-540-71209-1_45 (TACAS '07)
-https://doi.org/10.1145/1065579.1065697 (DAC '05)
+[
+              VCEGAR: Verilog CounterExample Guided Abstraction Refinement](https://doi.org/10.1007/978-3-540-71209-1_45) (TACAS '07)
+[Word level predicate abstraction and refinement for verifying RTL verilog](https://doi.org/10.1145/1065579.1065697) (DAC '05)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

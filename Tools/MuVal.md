@@ -39,7 +39,7 @@ Repository?: https://github.com/hiroshi-unno/coar (should include [MuVal](MuVal.
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_4 (CAV '21)
+[Decision Tree Learning in CEGIS-Based Termination Analysis](https://doi.org/10.1007/978-3-030-81688-9_4) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [AProVE](AProVE.md), [iRankFinder](iRankFinder.md), [Ultimate Automizer](Ultimate%20Automizer.md)

@@ -44,8 +44,8 @@ Repository: https://github.com/diffblue/cbmc/tree/develop/jbmc (located in the [
 4 April 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96145-3_10
-https://doi.org/10.1007/978-3-030-17502-3_17
+[JBMC: A Bounded Model Checking Tool for Verifying Java Bytecode](https://doi.org/10.1007/978-3-319-96145-3_10)
+[JBMC: Bounded Model Checking for Java Bytecode](https://doi.org/10.1007/978-3-030-17502-3_17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

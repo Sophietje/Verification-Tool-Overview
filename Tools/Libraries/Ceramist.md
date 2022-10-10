@@ -35,7 +35,7 @@ Artifact: https://zenodo.org/record/3749474
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_16 (CAV '20)
+[Certifying Certainty and Uncertainty in Approximate Membership Query Structures](https://doi.org/10.1007/978-3-030-53291-8_16) (CAV '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

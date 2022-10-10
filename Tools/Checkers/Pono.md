@@ -54,7 +54,7 @@ Repository: https://github.com/upscale-project/pono
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_22 (CAV '21)
+[Pono: A Flexible and Extensible SMT-Based Model Checker](https://doi.org/10.1007/978-3-030-81688-9_22) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -42,7 +42,7 @@ Repository: https://github.com/hbgit/depthk/
 31 March 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-54580-5_23 (TACAS '17)
+[DepthK: A k-Induction Verifier Based on Invariant Inference for C Programs](https://doi.org/10.1007/978-3-662-54580-5_23) (TACAS '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

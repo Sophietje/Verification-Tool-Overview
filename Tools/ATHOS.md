@@ -42,7 +42,7 @@ https://github.com/alexandrumc/async-to-sync-translation
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25543-5_20
+[Communication-Closed Asynchronous Protocols](https://doi.org/10.1007/978-3-030-25543-5_20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

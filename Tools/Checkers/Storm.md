@@ -58,8 +58,8 @@ Repository: https://github.com/moves-rwth/storm
 6 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/s10009-021-00633-z (STTT '21)
-https://doi.org/10.1007/978-3-319-63390-9_31 (CAV '17)
+[The probabilistic model checker Storm](https://doi.org/10.1007/s10009-021-00633-z) (STTT '21)
+[A Storm is Coming: A Modern Probabilistic Model Checker](https://doi.org/10.1007/978-3-319-63390-9_31) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

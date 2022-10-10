@@ -40,7 +40,7 @@ SV-COMP 2020 submission/artifact: http://doi.org/10.5281/zenodo.3681607
 17 April 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-45237-7_26 (TACAS '20)
+[GACAL: Conjecture-Based Verification](https://doi.org/10.1007/978-3-030-45237-7_26) (TACAS '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

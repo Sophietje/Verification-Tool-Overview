@@ -37,10 +37,10 @@ Repository for the UI: https://github.com/DeepSec-prover/deepsec_ui
 4 February 2020
 
 #### List of related papers:
-https://doi.org/10.1109/SP.2018.00033
-https://doi.org/10.1145/3319535.3354260
-https://doi.org/10.1007/978-3-319-96142-2_4
-https://doi.org/10.3233/JCS-191366
+[DEEPSEC: Deciding Equivalence Properties in Security Protocols Theory and Practice](https://doi.org/10.1109/SP.2018.00033)
+[Exploiting Symmetries When Proving Equivalence Properties for Security Protocols](https://doi.org/10.1145/3319535.3354260)
+[The DEEPSEC Prover](https://doi.org/10.1007/978-3-319-96142-2_4)
+[On the semantics of communications when verifying equivalence properties](https://doi.org/10.3233/JCS-191366)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other security verifiers: [[SPEC]], [[APTE]], [[Akiss]], [[Sat-Eq]], 

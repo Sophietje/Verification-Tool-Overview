@@ -37,7 +37,7 @@ Repository (of [POET](POET.md)): https://github.com/marcelosousa/poet
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63390-9_11 (CAV '17)
+[Abstract Interpretation with Unfoldings](https://doi.org/10.1007/978-3-319-63390-9_11) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[AstreeA]], [[Impara]], [[CBMC]]

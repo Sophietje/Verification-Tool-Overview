@@ -39,7 +39,7 @@ Repository: *Cannot find one in the paper or on the first author's website.*
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96145-3_21
+[Syntax-Guided Synthesis with Quantitative Syntactic Objectives](https://doi.org/10.1007/978-3-319-96145-3_21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

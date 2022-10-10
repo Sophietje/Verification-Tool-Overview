@@ -23,7 +23,7 @@ https://compsys-tools.ens-lyon.fr/rank/index.php (try online)
 #### Last publication date:
 
 #### List of related papers:
-https://doi.org/10.1109/ICSTW.2013.75
+[Rank: A Tool to Check Program Termination and Computational Complexity](https://doi.org/10.1109/ICSTW.2013.75)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

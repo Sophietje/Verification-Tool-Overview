@@ -28,7 +28,7 @@ https://nuxmv.fbk.eu/downloads/nuxmv-user-manual.pdf
 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_21 (CAV 2019)
+[Extending nuXmv with Timed Transition Systems and Timed Temporal Properties](https://doi.org/10.1007/978-3-030-25540-4_21) (CAV 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

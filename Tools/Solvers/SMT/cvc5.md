@@ -32,8 +32,8 @@ Project page: https://cvc5.github.io/
 2022
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-99524-9_24 (TACAS 2022)
-https://doi.org/10.1007/978-3-030-94583-1_24 (VMCAI 2022)
+[cvc5: A Versatile and Industrial-Strength SMT Solver](https://doi.org/10.1007/978-3-030-99524-9_24) (TACAS 2022)
+[Bit-Precise Reasoning via Int-Blasting](https://doi.org/10.1007/978-3-030-94583-1_24) (VMCAI 2022)
 
 #### Related tools (tools mentioned or compared to in the paper):
 From the same 'family' of tools: [[CVC]], [[CVC Lite]], [[CVC3]], [CVC4](CVC4.md)

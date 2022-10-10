@@ -38,8 +38,8 @@ Repository: https://github.com/loonwerks/AGREE
 September 2021
 
 #### List of related papers:
-https://doi.org/10.1016/j.ress.2021.107649 (Reliability Engineering & System Safety '21)
-https://doi.org/10.1007/978-3-642-28891-3_13 (NFM '12)
+[AADL-Based safety analysis using formal methods applied to aircraft digital systems](https://doi.org/10.1016/j.ress.2021.107649) (Reliability Engineering & System Safety '21)
+[Compositional Verification of Architectural Models](https://doi.org/10.1007/978-3-642-28891-3_13) (NFM '12)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

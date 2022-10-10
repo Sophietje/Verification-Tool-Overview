@@ -43,10 +43,10 @@ Last release on download page: 27 September 2021
 19 September 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-58942-4_10 (CPAIOR '20)
-https://doi.org/10.1007/s10817-018-09508-6 (Journal of Automated Reasoning '18)
-https://doi.org/10.1007/978-3-662-54580-5_14 (TACAS '17)
-https://doi.org/10.1007/978-3-319-21690-4_27 (CAV '15)
+[From MiniZinc to Optimization Modulo Theories, and Back](https://doi.org/10.1007/978-3-030-58942-4_10) (CPAIOR '20)
+[OptiMathSAT: A Tool for Optimization Modulo Theories](https://doi.org/10.1007/s10817-018-09508-6) (Journal of Automated Reasoning '18)
+[On Optimization Modulo Theories, MaxSMT and Sorting Networks](https://doi.org/10.1007/978-3-662-54580-5_14) (TACAS '17)
+[OptiMathSAT: A Tool for Optimization Modulo Theories](https://doi.org/10.1007/978-3-319-21690-4_27) (CAV '15)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other OMT tools: [[Symba]], [[𝜈𝑍]]

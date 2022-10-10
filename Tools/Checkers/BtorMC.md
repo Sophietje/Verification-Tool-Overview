@@ -37,7 +37,7 @@ Seems to be included in the [Boolector](../Solvers/SMT/Boolector.md) repository:
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96145-3_32
+[Btor2 , BtorMC and Boolector 3.0](https://doi.org/10.1007/978-3-319-96145-3_32)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to: [Boolector](../Solvers/SMT/Boolector.md), [Yices](../Solvers/SMT/Yices.md)

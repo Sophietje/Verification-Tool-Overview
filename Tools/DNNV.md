@@ -43,7 +43,7 @@ Artifact for CAV '21 paper: https://doi.org/10.5281/zenodo.4883626
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_6 (CAV '21)
+[DNNV: A Framework for Deep Neural Network Verification](https://doi.org/10.1007/978-3-030-81685-8_6) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to: [[VNNLIB]] and [[SOCRATES]]

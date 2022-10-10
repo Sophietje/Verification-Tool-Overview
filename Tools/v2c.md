@@ -36,7 +36,7 @@ Project page: https://www.cprover.org/hardware/v2c/
 9 April 2016
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-49674-9_38 (TACAS '16)
+[v2c – A Verilog to C Translator](https://doi.org/10.1007/978-3-662-49674-9_38) (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[HW-CBMC]] for hardware/software co-verification or C-RTL equivalence checking.

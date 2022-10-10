@@ -36,9 +36,9 @@ Project page: https://cvc4.github.io/
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25543-5_2 (CAV '19)
-https://doi.org/10.1007/978-3-319-96142-2_16 (CAV '18)
-https://doi.org/10.1007/978-3-319-63390-9_24 (CAV '17)
+[High-Level Abstractions for Simplifying Extended String Constraints in SMT](https://doi.org/10.1007/978-3-030-25543-5_2) (CAV '19)
+[Solving Quantified Bit-Vectors Using Invertibility Conditions](https://doi.org/10.1007/978-3-319-96142-2_16) (CAV '18)
+[Scaling Up DPLL(T) String Solvers Using Context-Dependent Simplification](https://doi.org/10.1007/978-3-319-63390-9_24) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Predecessors: [[CVC]], [[CVC Lite]], [[CVC3]].

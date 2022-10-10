@@ -39,7 +39,7 @@ Repository: https://github.com/suguman/DetLP
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_9
+[Automata vs Linear-Programming Discounted-Sum Inclusion](https://doi.org/10.1007/978-3-319-96142-2_9)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

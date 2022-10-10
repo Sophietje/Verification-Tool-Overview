@@ -48,7 +48,7 @@ Repository: https://github.com/mpi-sws/genmc/
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_20 (CAV '21)
+[GenMC: A Model Checker for Weak Memory Models](https://doi.org/10.1007/978-3-030-81685-8_20) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

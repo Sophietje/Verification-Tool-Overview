@@ -42,7 +42,7 @@ Repository: https://github.com/Herbping/Synplexity
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_37 (CAV '21)
+[Synthesis with Asymptotic Resource Bounds](https://doi.org/10.1007/978-3-030-81685-8_37) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to: [[Synquid]] and [[ReSyn]]

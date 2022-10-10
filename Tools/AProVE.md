@@ -37,9 +37,11 @@ Project page: http://aprove.informatik.rwth-aachen.de/
 August 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-54580-5_21 (TACAS '17)
-https://doi.org/10.1016/j.jlamp.2018.02.004 (Journal of Logical and Algebraic Methods in Programming '18)
-https://doi.org/10.1007/978-3-319-66845-1_6 (IFM '17)
+[
+      AProVE: Proving and Disproving Termination of Memory-Manipulating C Programs](https://doi.org/10.1007/978-3-662-54580-5_21) (TACAS '17)
+[Termination and complexity analysis for programs with bitvector arithmetic by symbolic execution](https://doi.org/10.1016/j.jlamp.2018.02.004) (Journal of Logical and Algebraic Methods in Programming '18)
+[Complexity Analysis for Java with AProVE
+    ](https://doi.org/10.1007/978-3-319-66845-1_6) (IFM '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -41,7 +41,7 @@ Repository: https://github.com/sjunges/rubicon
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_27 (CAV '21)
+[Model Checking Finite-Horizon Markov Chains with Probabilistic Inference](https://doi.org/10.1007/978-3-030-81688-9_27) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

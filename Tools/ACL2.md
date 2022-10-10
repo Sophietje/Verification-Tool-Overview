@@ -41,10 +41,10 @@ Try ACL2 online: https://new.proofpad.org/
 2014
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-08970-6_35 (ITP '14)
-https://doi.org/10.1007/s10817-007-9095-9 (Journal of Automated Reasoning '08)
-https://doi.org/10.1007/BFb0031816 (FMCAD '96)
-https://doi.org/10.1109/CMPASS.1996.507872 (COMPASS '96)
+[Rough Diamond: An Extension of Equivalence-Based Rewriting](https://doi.org/10.1007/978-3-319-08970-6_35) (ITP '14)
+[Rewriting with Equivalence Relations in ACL2](https://doi.org/10.1007/s10817-007-9095-9) (Journal of Automated Reasoning '08)
+[ACL2 theorems about commercial microprocessors](https://doi.org/10.1007/BFb0031816) (FMCAD '96)
+[ACL2: an industrial strength version of Nqthm](https://doi.org/10.1109/CMPASS.1996.507872) (COMPASS '96)
 See also: https://www.cs.utexas.edu/users/moore/publications/acl2-papers.html
 
 #### Related tools (tools mentioned or compared to in the paper):

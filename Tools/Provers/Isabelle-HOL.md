@@ -37,10 +37,10 @@ February 2021
 2014 (note this is for papers *about* Isabelle, there are a lot of papers that *use* it that have been published later)
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-642-39634-2_10
-https://doi.org/10.1007/978-3-642-39634-2_21
-https://doi.org/10.1007/978-3-319-08970-6_7
-https://doi.org/10.1007/978-3-642-22438-6_11
+[Data Refinement in Isabelle/HOL](https://doi.org/10.1007/978-3-642-39634-2_10)
+[Type Classes and Filters for Mathematical Analysis in Isabelle/HOL](https://doi.org/10.1007/978-3-642-39634-2_21)
+[Truly Modular (Co)datatypes for Isabelle/HOL](https://doi.org/10.1007/978-3-319-08970-6_7)
+[Extending Sledgehammer with SMT Solvers](https://doi.org/10.1007/978-3-642-22438-6_11)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

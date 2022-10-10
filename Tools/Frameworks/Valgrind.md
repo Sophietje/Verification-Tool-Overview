@@ -23,7 +23,7 @@ Repository: https://sourceware.org/git/?p=valgrind.git
 2007
 
 #### List of related papers:
-https://doi.org/10.1145/1273442.1250746 (PLDI '07)
+[Valgrind](https://doi.org/10.1145/1273442.1250746) (PLDI '07)
 
 #### Meta
 :: Framework

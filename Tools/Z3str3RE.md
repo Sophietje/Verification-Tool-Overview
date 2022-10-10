@@ -34,7 +34,7 @@ Artifact/reproduction package for CAV '21 paper: https://figshare.com/s/5ae73a6f
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_14 (CAV '21)
+[An SMT Solver for Regular Expressions and Linear Arithmetic over String Length](https://doi.org/10.1007/978-3-030-81688-9_14) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other string solvers: [CVC4](Solvers/SMT/CVC4.md), [[OSTRICH]], [[Z3seq]], [[Z3str3]], [[Z3-Trau]]

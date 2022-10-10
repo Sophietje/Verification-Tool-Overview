@@ -33,7 +33,7 @@ SV-Comp: https://gitlab.com/sosy-lab/sv-comp/archives/-/blob/master/2018/yogar-c
 14 Apr 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-89963-3_25
+[YOGAR-CBMC: CBMC with Scheduling Constraint Based Abstraction Refinement](https://doi.org/10.1007/978-3-319-89963-3_25)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

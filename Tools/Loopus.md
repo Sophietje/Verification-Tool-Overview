@@ -28,7 +28,6 @@ https://forsyte.at/software/loopus/
 http://dx.doi.org/10.1007/s10817-016-9402-4 (JAR 2017)
 http://katalog.ub.tuwien.ac.at/AC13356888 (PhD thesis, 2016)
 
-
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta

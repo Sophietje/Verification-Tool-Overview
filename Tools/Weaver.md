@@ -42,8 +42,8 @@ Repository: https://github.com/weaver-verifier/weaver
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1145/3371081 (POPL '20)
-https://doi.org/10.1007/978-3-030-25540-4_11 (CAV '19)
+[Reductions for safety proofs](https://doi.org/10.1145/3371081) (POPL '20)
+[Automated Hypersafety Verification](https://doi.org/10.1007/978-3-030-25540-4_11) (CAV '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [Synonym](Synonym.md): checks k-safety properties of Java programs

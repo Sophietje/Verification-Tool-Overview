@@ -27,8 +27,8 @@ Repository: https://gitlab.inria.fr/why3/why3
 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-61362-4_7 (ISoLA '20)
-https://doi.org/10.1007/978-3-642-37036-6_8 (ESOP '13)
+[Abstraction and Genericity in Why3](https://doi.org/10.1007/978-3-030-61362-4_7) (ISoLA '20)
+[Why3 — Where Programs Meet Provers](https://doi.org/10.1007/978-3-642-37036-6_8) (ESOP '13)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Projects that use Why3: [Frama-C](Frama-C.md), [SPARK](../SPARK.md), [[Krakatoa]]

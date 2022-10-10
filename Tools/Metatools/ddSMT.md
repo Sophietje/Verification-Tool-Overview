@@ -40,7 +40,7 @@ Repository: https://github.com/ddsmt/ddsmt
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_11 (CAV '21)
+[ddSMT 2.0: Better Delta Debugging for the SMT-LIBv2 Language and Friends](https://doi.org/10.1007/978-3-030-81688-9_11) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

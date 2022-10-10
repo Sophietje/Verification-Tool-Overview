@@ -46,7 +46,7 @@ Repository: https://github.com/dblotsky/stringfuzz
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_6 (CAV '18)
+[StringFuzz: A Fuzzer for String Solvers](https://doi.org/10.1007/978-3-319-96142-2_6) (CAV '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Test suites for solver testing and benchmarking: [[Kaluza]], [[Kausler]].

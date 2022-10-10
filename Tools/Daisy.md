@@ -56,7 +56,7 @@ Documentation: https://github.com/malyzajko/daisy/blob/master/doc/documentation.
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25543-5_11 (CAV '19)
+[Sound Approximation of Programs with Elementary Functions](https://doi.org/10.1007/978-3-030-25543-5_11) (CAV '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

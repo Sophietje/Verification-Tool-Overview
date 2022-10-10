@@ -5,7 +5,6 @@ pyuppaal
 
 #### Application domain/field:
 
-
 #### Type of tool (e.g. model checker, test generator):
 Library
 

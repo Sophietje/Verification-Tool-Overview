@@ -39,8 +39,8 @@ Project page: http://temporallogic.org/research/CAV18/
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_5 (CAV 2018)
-https://doi.org/10.1007/978-3-030-41600-3_12 (VSTTE 2019)
+[SimpleCAR: An Efficient Bug-Finding Tool Based on Approximate Reachability](https://doi.org/10.1007/978-3-319-96142-2_5) (CAV 2018)
+[Intersection and Rotation of Assumption Literals Boosts Bug-Finding](https://doi.org/10.1007/978-3-030-41600-3_12) (VSTTE 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
 SimpleCAR is a rewrite of [[CARChecker]].

@@ -31,12 +31,13 @@ Project page: https://uppaal.org/
 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-85248-1_9 (FMCIS '21)
-https://doi.org/10.1007/978-3-030-85037-1_6 (FORMATS '21)
-https://doi.org/10.1002/spe.1006 (Software: Practice and Experience, Vol. 41, '11)
-https://doi.org/10.1109/QEST.2006.59 (QEST '06)
-https://doi.org/10.1007/978-3-540-30080-9_7 (Formal Methods for the Design of Real-Time Systems '04)
-https://doi.org/10.1007/BFb0020949 (International Hybrid Systems Workshop '95)
+[Randomized Reachability Analysis in Uppaal: Fast Error Detection in Timed Systems](https://doi.org/10.1007/978-3-030-85248-1_9) (FMCIS '21)
+[An Integer Static Analysis for Better Extrapolation in Uppaal](https://doi.org/10.1007/978-3-030-85037-1_6) (FORMATS '21)
+[Developing UPPAAL over 15 years](https://doi.org/10.1002/spe.1006) (Software: Practice and Experience, Vol. 41, '11)
+[UPPAAL 4.0](https://doi.org/10.1109/QEST.2006.59) (QEST '06)
+[A Tutorial on Uppaal
+                  ](https://doi.org/10.1007/978-3-540-30080-9_7) (Formal Methods for the Design of Real-Time Systems '04)
+[UPPAAL — a tool suite for automatic verification of real-time systems](https://doi.org/10.1007/BFb0020949) (International Hybrid Systems Workshop '95)
 
 #### Meta
 :: Framework

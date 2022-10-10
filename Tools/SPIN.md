@@ -44,11 +44,11 @@ Project page: https://spinroot.com/
 2012
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-642-31759-0_12 (SPIN '12)
-https://doi.org/10.1007/s00165-010-0160-5 (Formal Aspects of Computing, 2011)
+[Parallelizing the Spin Model Checker](https://doi.org/10.1007/978-3-642-31759-0_12) (SPIN '12)
+[Model checking with bounded context switching](https://doi.org/10.1007/s00165-010-0160-5) (Formal Aspects of Computing, 2011)
 Principles of the Spin Model Checker (ISBN: 978-1846287695, 2008)
 The Spin Model Checker: Primer and Reference Manual (ISBN: 978-0321228628, 2003)
-https://doi.org/10.1109/32.588521 (IEEE Trans. on Software Engineering, 1997)
+[The model checker SPIN](https://doi.org/10.1109/32.588521) (IEEE Trans. on Software Engineering, 1997)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

@@ -33,7 +33,7 @@ Project page: https://www.swmath.org/software/20822
 -
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-642-14295-6_17 (CAV '10)
+[Breach, A Toolbox for Verification and Parameter Synthesis of Hybrid Systems](https://doi.org/10.1007/978-3-642-14295-6_17) (CAV '10)
 
 #### Meta
 :: Library

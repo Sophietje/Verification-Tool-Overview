@@ -41,7 +41,7 @@ Uses [Gurobi](Solvers/Gurobi.md) (linear programming solver).
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96145-3_24 (CAV 2018)
+[Reachable Set Over-Approximation for Nonlinear Systems Using Piecewise Barrier Tubes](https://doi.org/10.1007/978-3-319-96145-3_24) (CAV 2018)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[CORA]], [[Flow\*]]

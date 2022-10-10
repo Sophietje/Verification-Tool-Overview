@@ -40,7 +40,7 @@ Repository: https://github.com/upenn-acg/gpudrano-static-analysis_v1.0
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63387-9_25 (CAV '17)
+[GPUDrano: Detecting Uncoalesced Accesses in GPU Programs](https://doi.org/10.1007/978-3-319-63387-9_25) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[GKLEE]], [[PUG]]

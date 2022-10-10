@@ -34,8 +34,8 @@ PLDI '21 Artifact: https://doi.org/10.1145/3410313
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_3 (CAV '21)
-https://doi.org/10.1145/3453483.3454110 (PLDI '21)
+[Reflections on Termination of Linear Loops](https://doi.org/10.1007/978-3-030-81688-9_3) (CAV '21)
+[Termination analysis without the tears](https://doi.org/10.1145/3453483.3454110) (PLDI '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to in CAV '21 paper: [2LS](2LS.md), [Ultimate Automizer](Ultimate%20Automizer.md) and [CPAchecker](Checkers/CPAchecker.md).

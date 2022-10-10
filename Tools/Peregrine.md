@@ -47,7 +47,7 @@ Repository: https://gitlab.lrz.de/ga97cer/peregrine
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96145-3_34
+[Peregrine: A Tool for the Analysis of Population Protocols](https://doi.org/10.1007/978-3-319-96145-3_34)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

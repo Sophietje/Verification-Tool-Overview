@@ -44,7 +44,7 @@ Repository (contains [MuVal](../MuVal.md) and PCSat): https://github.com/hiroshi
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_35 (CAV '21)
+[Constraint-Based Relational Verification](https://doi.org/10.1007/978-3-030-81685-8_35) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

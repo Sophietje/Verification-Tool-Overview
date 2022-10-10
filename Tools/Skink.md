@@ -42,7 +42,7 @@ Project page: https://science.mq.edu.au/%7efcassez/software-verif.html#sec-tool
 31 March 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-54580-5_27 (TACAS '17)
+[Skink: Static Analysis of Programs in LLVM Intermediate Representation](https://doi.org/10.1007/978-3-662-54580-5_27) (TACAS '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

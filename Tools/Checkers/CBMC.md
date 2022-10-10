@@ -43,8 +43,8 @@ Project page: https://www.cprover.org/cbmc/
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_28
-https://doi.org/10.1007/978-3-540-24730-2_15
+[Model Checking Boot Code from AWS Data Centers](https://doi.org/10.1007/978-3-319-96142-2_28)
+[A Tool for Checking ANSI-C Programs](https://doi.org/10.1007/978-3-540-24730-2_15)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -24,8 +24,8 @@ http://web.archive.org/web/20171130171403/http://pagai.forge.imag.fr/ (original 
 #### Last publication date:
 
 #### List of related papers:
-https://doi.org/10.1016/j.entcs.2012.11.003 (TAPAS 2012)
-https://doi.org/10.1007/978-3-642-33125-1_20 (SAS 2012)
+[PAGAI: A Path Sensitive Static Analyser](https://doi.org/10.1016/j.entcs.2012.11.003) (TAPAS 2012)
+[Succinct Representations for Abstract Interpretation](https://doi.org/10.1007/978-3-642-33125-1_20) (SAS 2012)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

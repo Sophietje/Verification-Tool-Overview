@@ -35,7 +35,7 @@ Theorem proving in Lean 4 tutorial: https://leanprover.github.io/theorem_proving
 5 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-79876-5_37 (CADE '21)
+[The Lean 4 Theorem Prover and Programming Language](https://doi.org/10.1007/978-3-030-79876-5_37) (CADE '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

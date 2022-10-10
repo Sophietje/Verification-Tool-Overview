@@ -40,7 +40,7 @@ Artifact for CAV '21, repository: https://github.com/divyeshunadkat/diffy-artifa
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_42 (CAV '21)
+[Diffy: Inductive Reasoning of Array Programs Using Difference Invariants](https://doi.org/10.1007/978-3-030-81688-9_42) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to: [[Vajra]] (part of [VeriAbs](VeriAbs.md))

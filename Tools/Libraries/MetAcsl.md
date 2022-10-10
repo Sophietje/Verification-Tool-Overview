@@ -33,7 +33,7 @@ https://git.frama-c.com/pub/meta
 #### Last publication date:
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-17462-0_22 (TACAS 2019)
+[MetAcsl: Specification and Verification of High-Level Properties](https://doi.org/10.1007/978-3-030-17462-0_22) (TACAS 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

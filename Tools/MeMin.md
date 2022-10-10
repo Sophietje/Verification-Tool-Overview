@@ -39,7 +39,7 @@ Repository: https://github.com/andreas-abel/MeMin
 2015
 
 #### List of related papers:
-https://doi.org/10.1109/ICCAD.2015.7372555 (ICCAD)
+[MEMIN: SAT-based exact minimization of incompletely specified Mealy machines](https://doi.org/10.1109/ICCAD.2015.7372555) (ICCAD)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

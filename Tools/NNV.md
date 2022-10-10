@@ -43,8 +43,8 @@ Repository: https://github.com/verivital/nnv
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_2
-https://doi.org/10.1007/978-3-030-53288-8_1
+[Verification of Deep Convolutional Neural Networks Using ImageStars](https://doi.org/10.1007/978-3-030-53288-8_2)
+[NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems](https://doi.org/10.1007/978-3-030-53288-8_1)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other tools for neural network verification: [Reluplex](Solvers/SMT/Reluplex.md), [Marabou](Marabou.md) and [ReluVal](ReluVal).

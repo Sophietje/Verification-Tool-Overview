@@ -40,7 +40,7 @@ Project page: https://plv.colorado.edu/wwwmungojerrie/
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_30 (CAV '21)
+[Model-Free Reinforcement Learning for Branching Markov Decision Processes](https://doi.org/10.1007/978-3-030-81688-9_30) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

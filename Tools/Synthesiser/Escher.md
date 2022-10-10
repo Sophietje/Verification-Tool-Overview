@@ -33,7 +33,7 @@ Given input-output examples, it synthesizes recursive programs implementing the 
 2013
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-642-39799-8_67
+[Recursive Program Synthesis](https://doi.org/10.1007/978-3-642-39799-8_67)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

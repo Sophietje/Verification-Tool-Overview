@@ -32,7 +32,7 @@ Repository: https://github.com/hgvk94/z3/tree/gspacer-cav-ae
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_7
+[Global Guidance for Local Generalization in Model Checking](https://doi.org/10.1007/978-3-030-53291-8_7)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

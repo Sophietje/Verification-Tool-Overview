@@ -38,7 +38,7 @@ Web interface (currently offline): cerberus.cl.cam.ac.uk/bmc.html
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_22
+[Cerberus-BMC: A Principled Reference Semantics and Exploration Tool for Concurrent and Sequential C](https://doi.org/10.1007/978-3-030-25540-4_22)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -48,8 +48,13 @@ Try online: https://spot-sandbox.lrde.epita.fr/
 21 October 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-31784-3_26 (ATVA '19)
-https://doi.org/10.1007/978-3-319-46520-3_8 (ATVA '16)
+[Generic Emptiness Check for Fun and Profit](https://doi.org/10.1007/978-3-030-31784-3_26) (ATVA '19)
+[Spot 2.0 — A Framework for LTL and 
+                  
+                    
+                  
+                  $$\omega $$
+                -Automata Manipulation](https://doi.org/10.1007/978-3-319-46520-3_8) (ATVA '16)
 
 #### Meta
 :: Framework

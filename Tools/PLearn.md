@@ -37,7 +37,7 @@ Artefact of CAV '19 paper: https://github.com/SaswatPadhi/2019_CAV_Artifact_100
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_17 (CAV '19)
+[Overfitting in Synthesis: Theory and Practice](https://doi.org/10.1007/978-3-030-25540-4_17) (CAV '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

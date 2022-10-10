@@ -41,7 +41,7 @@ Extended version of CAV '20 paper: https://arxiv.org/pdf/2005.06688.pdf
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_18
+[Symbolic Partial-Order Execution for Testing Multi-Threaded Programs](https://doi.org/10.1007/978-3-030-53288-8_18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [Yogar-CBMC](Yogar-CBMC.md)

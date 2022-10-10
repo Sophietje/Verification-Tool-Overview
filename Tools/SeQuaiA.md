@@ -42,8 +42,8 @@ Project page: https://sequaia.model.in.tum.de/
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_32 (CAV '20)
-https://doi.org/10.1007/978-3-030-25540-4_28 (CAV '19)
+[SeQuaiA: A Scalable Tool for Semi-Quantitative Analysis of Chemical Reaction Networks](https://doi.org/10.1007/978-3-030-53288-8_32) (CAV '20)
+[Semi-quantitative Abstraction and Analysis of Chemical Reaction Networks](https://doi.org/10.1007/978-3-030-25540-4_28) (CAV '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

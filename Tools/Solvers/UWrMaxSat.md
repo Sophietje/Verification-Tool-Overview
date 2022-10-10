@@ -38,7 +38,7 @@ Repository: https://github.com/marekpiotrow/UWrMaxSat
 November 2020
 
 #### List of related papers:
-https://doi.org/10.1109/ICTAI50040.2020.00031 (ICTAI 2020)
+[UWrMaxSat: Efficient Solver for MaxSAT and Pseudo-Boolean Problems](https://doi.org/10.1109/ICTAI50040.2020.00031) (ICTAI 2020)
 
 #### Related tools (tools mentioned or compared to in the paper):
 "Since the version 1.3 you can merge the power of this solver with the [[SCIP]] solver, if you have a licence to use it"

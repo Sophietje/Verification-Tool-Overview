@@ -37,7 +37,7 @@ Artifact for CAV '21: https://zenodo.org/record/4719604
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_36 (CAV '21)
+[Automatically Tailoring Abstract Interpretation to Custom Usage Scenarios](https://doi.org/10.1007/978-3-030-81688-9_36) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

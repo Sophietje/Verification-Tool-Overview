@@ -38,7 +38,7 @@ Repository: https://gitlab.com/umb-svl/faial
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_19 (CAV '21)
+[Checking Data-Race Freedom of GPU Kernels, Compositionally](https://doi.org/10.1007/978-3-030-81685-8_19) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other tools that can find data races: [[GPUVerify]], [[PUG]], [[GKLEE]], [[SESA]]

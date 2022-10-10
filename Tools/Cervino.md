@@ -39,7 +39,7 @@ Repository: https://github.com/grayswandyr/cervino
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_16 (CAV '21)
+[Sound Verification Procedures for Temporal Properties of Infinite-State Systems](https://doi.org/10.1007/978-3-030-81688-9_16) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

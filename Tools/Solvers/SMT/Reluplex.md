@@ -39,7 +39,7 @@ Artifact of CAV '17 paper: https://github.com/guykatzz/ReluplexCav2017
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63387-9_5 (CAV '17)
+[Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks](https://doi.org/10.1007/978-3-319-63387-9_5) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other solvers: [CVC4](CVC4.md), [Z3](Z3.md), [Yices](Yices.md), [MathSAT](MathSAT.md), [Gurobi](../Gurobi.md).

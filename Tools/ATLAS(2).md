@@ -36,7 +36,7 @@ Repository: https://github.com/lorenzleutgeb/atlas/
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_5 (CAV '21)
+[ATLAS: Automated Amortised Complexity Analysis of Self-adjusting Data Structures](https://doi.org/10.1007/978-3-030-81688-9_5) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 uses [[Z3]]

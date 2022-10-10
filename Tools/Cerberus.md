@@ -38,8 +38,8 @@ Cerberus synthesizes monitors for security-sensitive workflows. These run-time m
 13 August 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-66197-1_13 (SEFM '17, classification of authorization constraints)
-https://doi.org/10.1007/978-3-662-49674-9_36 (TACAS '16, about the Cerberus tool)
+[On Run-Time Enforcement of Authorization Constraints in Security-Sensitive Workflows](https://doi.org/10.1007/978-3-319-66197-1_13) (SEFM '17, classification of authorization constraints)
+[Cerberus: Automated Synthesis of Enforcement Mechanisms for Security-Sensitive Business Processes](https://doi.org/10.1007/978-3-662-49674-9_36) (TACAS '16, about the Cerberus tool)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

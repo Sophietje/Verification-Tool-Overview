@@ -10,7 +10,6 @@ Model checker
 
 #### Expected input thing:
 
-
 #### Expected input format:
 [Modest](../Frameworks/Modest.md) Toolset format or [JANI](../../Formats/JANI.md) format.
 
@@ -30,7 +29,7 @@ Project page (of the Modest Toolset): https://www.modestchecker.net
 #### Last publication date:
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-85172-9_2 (QEST 2021)
+[A Modest Approach to Dynamic Heuristic Search in Probabilistic Model Checking](https://doi.org/10.1007/978-3-030-85172-9_2) (QEST 2021)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

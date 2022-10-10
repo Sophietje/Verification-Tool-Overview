@@ -36,7 +36,7 @@ Benchmark files: http://www.cs.princeton.edu/~aartig/benchmarks/ifc_bench.zip
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_11 (CAV 2018)
+[Lazy Self-composition for Security Verification](https://doi.org/10.1007/978-3-319-96142-2_11) (CAV 2018)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [IFC-CEGAR](IFC-CEGAR.md)

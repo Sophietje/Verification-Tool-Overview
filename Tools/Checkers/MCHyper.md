@@ -45,7 +45,7 @@ Repository: https://github.com/reactive-systems/MCHyper
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_7
+[Verifying Hyperliveness](https://doi.org/10.1007/978-3-030-25540-4_7)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

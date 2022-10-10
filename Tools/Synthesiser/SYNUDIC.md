@@ -39,8 +39,8 @@ Repository: https://github.com/adriagascon/synudic
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63390-9_5 (CAV '17)
-https://doi.org/10.1007/978-3-319-21401-6_33 (CADE '15)
+[Look for the Proof to Find the Program: Decorated-Component-Based Program Synthesis](https://doi.org/10.1007/978-3-319-63390-9_5) (CAV '17)
+[Program Synthesis Using Dual Interpretation](https://doi.org/10.1007/978-3-319-21401-6_33) (CADE '15)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

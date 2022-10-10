@@ -38,9 +38,9 @@ Repository: https://github.com/michael-emmi/violat
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25543-5_30 (CAV '19)
-https://doi.org/10.1145/3290373 (POPL '19)
-https://doi.org/10.1007/978-3-319-96145-3_26 (CAV '18)
+[Violat: Generating Tests of Observational Refinement for Concurrent Objects](https://doi.org/10.1007/978-3-030-25543-5_30) (CAV '19)
+[Weak-consistency specification via visibility relaxation](https://doi.org/10.1145/3290373) (POPL '19)
+[Monitoring Weak Consistency](https://doi.org/10.1007/978-3-319-96145-3_26) (CAV '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Test generation for concurrent objects: [[Ballerina]], [[ConTeGe]], [[ConSuite]], [[AutoConTest]], [[CovCon]], [[Omen]], [[Narada]], [[Intruder]], [[Minion]]

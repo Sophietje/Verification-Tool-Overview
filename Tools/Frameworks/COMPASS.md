@@ -44,7 +44,7 @@ Last release date: October 2019
 4 April 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-17462-0_25 (TACAS '19)
+[COMPASS 3.0](https://doi.org/10.1007/978-3-030-17462-0_25) (TACAS '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -39,7 +39,7 @@ Uses [[Omega Calculator]] and [Z3](Solvers/SMT/Z3.md).
 31 March 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-54580-5_25 (TACAS '17)
+[HipTNT+: A Termination and Non-termination Analyzer by Second-Order Abduction](https://doi.org/10.1007/978-3-662-54580-5_25) (TACAS '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other tools that participated in the termination division of SV-COMP 2015: [AProVE](AProVE.md), [[FuncTion]], [Ultimate Automizer](Ultimate%20Automizer.md), [SeaHorn](Checkers/SeaHorn.md)

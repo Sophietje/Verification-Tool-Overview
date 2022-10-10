@@ -41,7 +41,7 @@ Compute engine/server: https://github.com/sybila/biodivine-aeon-server
 24 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_28
+[AEON: Attractor Bifurcation Analysis of Parametrised Boolean Networks](https://doi.org/10.1007/978-3-030-53288-8_28)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Tools for non-parametrised BNs: ATLANTIS, Bio Model Analyzer (BMA), BoolNet, PyBoolNet, Inet, The Cell Collective, CellNetAnalyzer, ASSA-PBN.

@@ -42,7 +42,6 @@ Project page: https://binsec.github.io/
 
 #### List of related papers:
 
-
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta

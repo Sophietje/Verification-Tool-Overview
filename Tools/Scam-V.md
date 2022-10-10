@@ -42,7 +42,7 @@ Tutorial: https://github.com/kth-step/HolBA/wiki/HolBA-SCAM-V-tutorial
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_12
+[Validation of Abstract Side-Channel Models for Computer Architectures](https://doi.org/10.1007/978-3-030-53288-8_12)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

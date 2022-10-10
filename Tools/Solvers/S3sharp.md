@@ -39,10 +39,10 @@ Project page: https://trinhmt.github.io/home/S3/
 #### Last publication date:
 
 #### List of related papers:
-https://doi.org/10.1145/3428260 (OOPSLA '20)
-https://doi.org/10.1007/978-3-319-63390-9_21 (CAV '17, introduces the third version called S3#)
-https://doi.org/10.1007/978-3-319-41528-4_12 (CAV '16, introduces the second version called S3P)
-https://doi.org/10.1145/2660267.2660372 (CCS '14, introduces the first version called S3)
+[Inter-theory dependency analysis for SMT string solvers](https://doi.org/10.1145/3428260) (OOPSLA '20)
+[Model Counting for Recursively-Defined Strings](https://doi.org/10.1007/978-3-319-63390-9_21) (CAV '17, introduces the third version called S3#)
+[Progressive Reasoning over Recursively-Defined Strings](https://doi.org/10.1007/978-3-319-41528-4_12) (CAV '16, introduces the second version called S3P)
+[S3](https://doi.org/10.1145/2660267.2660372) (CCS '14, introduces the first version called S3)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Earlier versions of the same tool: [[S3]], [[S3P]]

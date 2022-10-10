@@ -32,7 +32,7 @@ https://gitlab.mpi-sws.org/RT-PROOFS/rt-proofs
 December 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25543-5_28 (CAV 2019)
+[Integrating Formal Schedulability Analysis into a Verified OS Kernel](https://doi.org/10.1007/978-3-030-25543-5_28) (CAV 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

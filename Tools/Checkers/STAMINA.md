@@ -40,7 +40,7 @@ Repository: https://github.com/fluentverification/stamina
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_31 (CAV '19)
+[STAMINA: STochastic Approximate Model-Checker for INfinite-State Analysis](https://doi.org/10.1007/978-3-030-25540-4_31) (CAV '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

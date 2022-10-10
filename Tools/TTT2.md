@@ -42,7 +42,7 @@ Repository: http://cl2-informatik.uibk.ac.at/mercurial.cgi/ttt2/
 2009
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-642-02348-4_21 (RTA '09)
+[Tyrolean Termination Tool 2](https://doi.org/10.1007/978-3-642-02348-4_21) (RTA '09)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Successor of $T_TT$

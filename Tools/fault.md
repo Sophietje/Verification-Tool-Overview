@@ -35,7 +35,7 @@ https://github.com/leonardt/fault
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_19
+[fault: A Python Embedded Domain-Specific Language for Metaprogramming Portable Hardware Verification Components](https://doi.org/10.1007/978-3-030-53288-8_19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

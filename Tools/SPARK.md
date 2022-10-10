@@ -47,8 +47,8 @@ Tutorial: https://learn.adacore.com/courses/intro-to-spark/index.html
 19 December 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-63406-3_4 (ICFEM '20)
-https://doi.org/10.1007/978-3-030-53291-8_11 (CAV '20)
+[Verification of Programs with Pointers in SPARK](https://doi.org/10.1007/978-3-030-63406-3_4) (ICFEM '20)
+[Recursive Data Structures in SPARK](https://doi.org/10.1007/978-3-030-53291-8_11) (CAV '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

@@ -36,7 +36,7 @@ Project page: https://mathsat.fbk.eu/index.html
 2013
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-642-36742-7_7
+[The MathSAT5 SMT Solver](https://doi.org/10.1007/978-3-642-36742-7_7)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Successor of MathSAT 4

@@ -42,8 +42,9 @@ Repository: https://github.com/vprover/vampire
 2017
 
 #### List of related papers:
-https://doi.org/10.1145/3009837.3009887 (POPL '17)
-https://doi.org/10.1007/978-3-642-39799-8_1 (CAV '13)
+[Coming to terms with quantified reasoning](https://doi.org/10.1145/3009837.3009887) (POPL '17)
+[First-Order Theorem Proving and Vampire
+                  ](https://doi.org/10.1007/978-3-642-39799-8_1) (CAV '13)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -41,9 +41,10 @@ Mirror of code on github: https://github.com/paradise-fi/divine
 04 April 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-17502-3_14 (TACAS '19)
-https://doi.org/10.1007/978-3-319-68167-2_14 (ATVA '17)
-https://doi.org/10.1007/978-3-662-49674-9_60 (TACAS  '16)
+[Extending DIVINE with Symbolic Verification Using SMT](https://doi.org/10.1007/978-3-030-17502-3_14) (TACAS '19)
+[Model Checking of C and C++ with DIVINE 4](https://doi.org/10.1007/978-3-319-68167-2_14) (ATVA '17)
+[
+      DIVINE: Explicit-State LTL Model Checker](https://doi.org/10.1007/978-3-662-49674-9_60) (TACAS  '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Tool that is now integrated in DIVINE: [SymDIVINE](Checkers/SymDIVINE.md)

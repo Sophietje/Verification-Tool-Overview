@@ -43,7 +43,7 @@ https://github.com/microsoft/aliveinlean
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25543-5_25
+[AliveInLean: A Verified LLVM Peephole Optimization Verifier](https://doi.org/10.1007/978-3-030-25543-5_25)
 
 #### Related tools (tools mentioned or compared to in the paper):
 AliveInLean is a re-implemented/-engineered version of [[Alive]], a tool for verifying LLVM's peephole optimizations. This has been done because Alive itself was not verified.

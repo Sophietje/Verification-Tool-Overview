@@ -39,7 +39,7 @@ Repository: https://github.com/doganulus/montre
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63387-9_16 (CAV '17)
+[Montre: A Tool for Monitoring Timed Regular Expressions](https://doi.org/10.1007/978-3-319-63387-9_16) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

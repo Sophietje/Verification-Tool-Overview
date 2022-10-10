@@ -37,7 +37,7 @@ https://github.com/reactive-systems/bosy
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96145-3_16
+[Synthesizing Reactive Systems from Hyperproperties](https://doi.org/10.1007/978-3-319-96145-3_16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

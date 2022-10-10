@@ -33,8 +33,8 @@ Project page: http://fmv.jku.at/picosat/
 2008
 
 #### List of related papers:
-https://doi.org/10.1109/FMCAD.2008.ECP.32 (FMCAD '08)
-https://doi.org/10.3233/SAT190039 (Journal on Satisfiability, Boolean Modeling and Computation '08)
+[Consistency Checking of All Different Constraints over Bit-Vectors within a SAT Solver](https://doi.org/10.1109/FMCAD.2008.ECP.32) (FMCAD '08)
+[PicoSAT Essentials](https://doi.org/10.3233/SAT190039) (Journal on Satisfiability, Boolean Modeling and Computation '08)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [zChaff](Tools/Solvers/SAT/zChaff.md), [MiniSat](Tools/Solvers/SAT/MiniSat.md)

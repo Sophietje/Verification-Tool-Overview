@@ -41,7 +41,7 @@ Built on top of [[afl-fuzz]].
 4 April 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-17502-3_22 (TACAS '19)
+[VeriFuzz: Program Aware Fuzzing](https://doi.org/10.1007/978-3-030-17502-3_22) (TACAS '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -33,7 +33,7 @@ Repository: https://github.com/cathiec/FOADA
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25543-5_3
+[Alternating Automata Modulo First Order Theories](https://doi.org/10.1007/978-3-030-25543-5_3)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to [[INCLUDER]] in the paper

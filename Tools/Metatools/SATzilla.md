@@ -38,8 +38,9 @@ Project page: http://www.cs.ubc.ca/labs/beta/Projects/SATzilla
 
 #### List of related papers:
 https://www.cs.ubc.ca/labs/beta/Projects/SATzilla/SATzilla2009.pdf (SAT Competition '09)
-https://doi.org/10.1613/jair.2490 (Journal of Artificial Intelligence Research '08)
-https://doi.org/10.1007/978-3-540-74970-7_50 (CP '07)
+[SATzilla: Portfolio-based Algorithm Selection for SAT](https://doi.org/10.1613/jair.2490) (Journal of Artificial Intelligence Research '08)
+[
+              SATzilla-07: The Design and Analysis of an Algorithm Portfolio for SAT](https://doi.org/10.1007/978-3-540-74970-7_50) (CP '07)
 
 #### Related tools (tools mentioned or compared to in the paper):
 `\*zilla`: newest version of SATzilla.

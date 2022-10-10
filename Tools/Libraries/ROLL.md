@@ -48,10 +48,15 @@ Repository: https://github.com/ISCAS-PMC/roll-library
 December 2021
 
 #### List of related papers:
-https://doi.org/10.1016/j.ic.2020.104678 (Information and Computation, vol. 281, '21)
-https://doi.org/10.1007/978-3-030-59152-6_26 (ATVA '20)
-https://doi.org/10.1007/978-3-030-17462-0_23 (TACAS '19)
-https://doi.org/10.1007/978-3-662-54577-5_12 (TACAS '17)
+[A novel learning algorithm for Büchi automata based on family of DFAs and classification trees](https://doi.org/10.1016/j.ic.2020.104678) (Information and Computation, vol. 281, '21)
+[Proving Non-inclusion of Büchi Automata Based on Monte Carlo Sampling](https://doi.org/10.1007/978-3-030-59152-6_26) (ATVA '20)
+[ROLL 1.0: 
+                  
+                    
+                  
+                  $$\omega $$
+                -Regular Language Learning Library](https://doi.org/10.1007/978-3-030-17462-0_23) (TACAS '19)
+[A Novel Learning Algorithm for Büchi Automata Based on Family of DFAs and Classification Trees](https://doi.org/10.1007/978-3-662-54577-5_12) (TACAS '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Automata learning libraries: [[libalf]], [LearnLib](Libraries/LearnLib.md)

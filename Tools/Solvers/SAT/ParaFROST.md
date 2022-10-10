@@ -38,7 +38,7 @@ Repository: https://github.com/muhos/gpu4bmc
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_21 (CAV '21)
+[GPU Acceleration of Bounded Model Checking with ParaFROST](https://doi.org/10.1007/978-3-030-81688-9_21) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to (in CAV '21 paper): [MiniSat](MiniSat.md), [Glucose](Glucose.md), [[CaDiCaL]]

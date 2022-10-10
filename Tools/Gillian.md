@@ -42,7 +42,7 @@ Repository: https://github.com/GillianPlatform/Gillian
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_38 (CAV '21)
+[Gillian, Part II: Real-World Verification for JavaScript and C](https://doi.org/10.1007/978-3-030-81688-9_38) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other multi-language verification frameworks: [[coreStar]], [Viper](Frameworks/Viper.md).

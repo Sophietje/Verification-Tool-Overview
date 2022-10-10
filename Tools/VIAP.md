@@ -38,9 +38,9 @@ GitHub: https://github.com/VerifierIntegerAssignment/VIAP_ARRAY
 4 Apr 2019
 
 #### List of related papers:
-https://doi.org/10.1109/SYNASC.2017.00032 (SYNASC'17)
-https://doi.org/10.1007/978-3-030-03592-1_3 (VSSTE'18)
-https://doi.org/10.1007/978-3-030-17502-3_23 (TACAS'19)
+[VIAP - Automated System for Verifying Integer Assignment Programs with Loops](https://doi.org/10.1109/SYNASC.2017.00032) (SYNASC'17)
+[Extending VIAP to Handle Array Programs](https://doi.org/10.1007/978-3-030-03592-1_3) (VSSTE'18)
+[VIAP 1.1](https://doi.org/10.1007/978-3-030-17502-3_23) (TACAS'19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

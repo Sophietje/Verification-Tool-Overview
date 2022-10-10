@@ -37,8 +37,8 @@ Repository (also contains another tool): https://github.com/hernanponcedeleon/Da
 23 March 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_19
-https://doi.org/10.1007/978-3-030-72013-1_26
+[BMC for Weak Memory Models: Relation Analysis for Compact SMT Encodings](https://doi.org/10.1007/978-3-030-25540-4_19)
+[Dartagnan: Leveraging Compiler Optimizations and the Price of Precision (Competition Contribution)](https://doi.org/10.1007/978-3-030-72013-1_26)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other bounded model checkers: [CBMC](CBMC.md), [Nidhugg](../Nidhugg.md)

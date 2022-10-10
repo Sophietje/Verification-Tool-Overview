@@ -53,7 +53,7 @@ https://github.com/berkeley-abc/abc
 23 January 2022
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-642-14295-6_5 (CAV '10)
+[ABC: An Academic Industrial-Strength Verification Tool](https://doi.org/10.1007/978-3-642-14295-6_5) (CAV '10)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[SIS]]
