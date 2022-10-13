@@ -36,12 +36,11 @@ Reference manual: https://github.com/binsec/binsec/blob/master/doc/sse/reference
 Project page: https://binsec.github.io/
 
 #### Last commit date:
-26 October 2021
+23 Sep 2022
 
 #### Last publication date:
 
 #### List of related papers:
-
 
 #### Related tools (tools mentioned or compared to in the paper):
 

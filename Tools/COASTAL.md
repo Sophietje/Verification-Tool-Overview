@@ -33,7 +33,7 @@ Repository: https://github.com/DeepseaPlatform/coastal/
 Project page: https://deepseaplatform.github.io/coastal/ (Note: this website seems to be unfinished)
 
 #### Last commit date:
-15 August 2021
+18 Sep 2022
 
 #### Last publication date:
 17 April 2020

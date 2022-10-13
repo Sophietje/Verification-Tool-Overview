@@ -29,7 +29,6 @@ Reduce can be invoked with *one* of the following options:
 
 By default Reduce will reduce Büchi automata. You can switch to NFA semantics by using the option `-finite`.
 
-
 #### Comments:
 -
 

@@ -50,7 +50,7 @@ https://people.eecs.berkeley.edu/~alanmi/abc/
 https://github.com/berkeley-abc/abc
 
 #### Last commit date:
-23 January 2022
+30 Sep 2022
 
 #### List of related papers:
 https://doi.org/10.1007/978-3-642-14295-6_5 (CAV '10)

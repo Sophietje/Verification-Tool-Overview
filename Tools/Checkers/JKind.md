@@ -39,7 +39,7 @@ Repository: https://github.com/loonwerks/jkind
 Project page: https://loonwerks.com/tools/jkind.html
 
 #### Last commit date:
-9 June 2021
+30 Sep 2022
 
 #### Last publication date:
 18 July 2018

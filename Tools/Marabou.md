@@ -41,7 +41,7 @@ Repository (unsure what the difference is): https://github.com/NeuralNetworkVeri
 Project page: https://neuralnetworkverification.github.io/
 
 #### Last commit date:
-13 September 2020
+29 Sep 2022
 
 #### Last publication date:
 23 March 2021

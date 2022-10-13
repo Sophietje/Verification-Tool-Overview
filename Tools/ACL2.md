@@ -34,7 +34,7 @@ Related repository, seems to be where the ACL2 system authors develop ACL2: http
 Try ACL2 online: https://new.proofpad.org/
 
 #### Last commit date:
-14 December 2021
+01 Oct 2022
 (Last release: 8 August 2021)
 
 #### Last publication date:

@@ -24,6 +24,7 @@ Project page: https://bitwuzla.github.io/
 Documentation: https://bitwuzla.github.io/docs/index.html
 
 #### Last commit date:
+01 Oct 2022
 
 #### Last publication date:
 

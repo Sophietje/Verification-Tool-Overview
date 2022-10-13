@@ -5,7 +5,6 @@ Unique
 Gate extraction
 Quantified Boolean Formulas (QBFs)
 
-
 #### Type of tool (e.g. model checker, test generator):
 
 #### Expected input thing:
@@ -30,7 +29,7 @@ Uses [[ItpMiniSat]], a modified version of [[MiniSat]], bundled with the [[ExtAv
 https://github.com/fslivovsky/unique
 
 #### Last commit date:
-23 April 2022
+13 Sep 2022
 
 #### Last publication date:
 14 July 2020

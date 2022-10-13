@@ -18,7 +18,7 @@ https://github.com/mtommila/apfloat (for Java)
 http://www.apfloat.org/apfloat/ (for C++)
 
 #### Last commit date:
-7 August 2021 (Java)
+23 Sep 2022
 28 February 2005 (C++)
 
 #### Meta

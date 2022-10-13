@@ -37,7 +37,7 @@ Repository: https://github.com/HOL-Theorem-Prover/HOL
 Guidebook/manual: https://hol-theorem-prover.org/guidebook/
 
 #### Last commit date:
-18 October 2021
+28 Sep 2022
 
 #### Last publication date:
 

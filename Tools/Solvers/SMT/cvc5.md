@@ -26,7 +26,7 @@ Repository: https://github.com/cvc5/cvc5
 Project page: https://cvc5.github.io/
 
 #### Last commit date:
-26 May 2022
+30 Sep 2022
 
 #### Last publication date:
 2022

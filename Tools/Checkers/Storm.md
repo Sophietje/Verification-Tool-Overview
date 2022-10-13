@@ -52,7 +52,7 @@ Some benchmarks from papers are available via http://www.stormchecker.org/benchm
 Repository: https://github.com/moves-rwth/storm
 
 #### Last commit date:
-7 October 2021
+30 Sep 2022
 
 #### Last publication date:
 6 July 2021

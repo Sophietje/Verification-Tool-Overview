@@ -38,7 +38,7 @@ License: GPL v3.0
 Repository: https://github.com/nidhugg/nidhugg
 
 #### Last commit date:
-13 December 2021
+22 Jul 2022
 
 #### Last publication date:
 15 July 2021

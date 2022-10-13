@@ -24,7 +24,7 @@ License: BSD
 Repository: https://github.com/TAPAAL/verifydtapn
 
 #### Last commit date:
-10 February 2022
+10 Aug 2022
 
 #### Last publication date:
 16 August 2021

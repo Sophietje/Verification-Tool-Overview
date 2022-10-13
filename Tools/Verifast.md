@@ -36,7 +36,7 @@ Repository: https://github.com/verifast/verifast/
 Tutorial: https://doi.org/10.5281/zenodo.1068185
 
 #### Last commit date:
-8 February 2022
+29 Sep 2022
 
 #### Last publication date:
 15 July 2021

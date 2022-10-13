@@ -31,7 +31,7 @@ Uses [[GANAK]], [[RIME]] and [UWrMaxSat](Solvers/UWrMaxSat.md).
 Repository: https://github.com/jar-ben/exactMUSCounter
 
 #### Last commit date:
-26 April 2021
+11 Jun 2021
 
 #### Last publication date:
 15 July 2021

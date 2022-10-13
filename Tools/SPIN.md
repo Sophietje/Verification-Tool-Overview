@@ -38,7 +38,7 @@ Repository: https://github.com/nimble-code/Spin
 Project page: https://spinroot.com/
 
 #### Last commit date:
-15 January 2022
+16 Aug 2022
 
 #### Last publication date:
 2012

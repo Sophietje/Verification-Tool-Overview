@@ -30,7 +30,7 @@ Uses [CUDD](../../Libraries/CUDD.md), [ANTLR](../../Not-verifiers/ANTLR.md), [SM
 Repository: https://github.com/martinjonas/Q3B
 
 #### Last commit date:
-6 March 2019
+02 Jul 2022
 
 #### Last publication date:
 12 July 2019

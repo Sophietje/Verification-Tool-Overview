@@ -33,7 +33,7 @@ Mirror of repository: https://github.com/utwente-fmt/sylvan
 Documentation: https://trolando.github.io/sylvan/
 
 #### Last commit date:
-11 October 2021
+25 Sep 2022
 
 #### Last publication date:
 3 April 2019

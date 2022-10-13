@@ -47,4 +47,4 @@ https://doi.org/10.1007/978-3-662-49674-9_23 (TACAS '16)
 [[D-Finder]]: similar system for untimed systems.
 
 #### Meta
-:: PV4 :: can check deadlock-freedom and user-specified safety properties of RT-BIP models 
+:: PV4 :: can check deadlock-freedom and user-specified safety properties of RT-BIP models

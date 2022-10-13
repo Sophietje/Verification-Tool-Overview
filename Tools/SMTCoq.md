@@ -27,7 +27,7 @@ Project page: https://smtcoq.github.io/
 Repository: https://github.com/smtcoq/smtcoq
 
 #### Last commit date:
-7 December 2021
+30 Sep 2022
 
 #### Last publication date:
 13 July 2017

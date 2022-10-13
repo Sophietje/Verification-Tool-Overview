@@ -29,7 +29,7 @@ Given a basic language, it can generate [AIGER](../Formats/AIGER.md) files.
 Repository: https://github.com/romainbrenguier/Speculoos
 
 #### Last commit date:
-29 May 2017
+11 Jun 2017
 
 #### Last publication date:
 -

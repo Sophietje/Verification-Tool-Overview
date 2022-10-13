@@ -37,7 +37,7 @@ Project page: https://www.fit.vutbr.cz/research/groups/verifit/tools/forester/
 Repository: https://github.com/martinhruska/forester/
 
 #### Last commit date:
-21 July 2013
+29 Oct 2019
 
 #### Last publication date:
 31 March 2017

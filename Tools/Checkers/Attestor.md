@@ -39,7 +39,7 @@ https://moves-rwth.github.io/attestor/
 Examples: https://github.com/moves-rwth/attestor-examples
 
 #### Last commit date:
-7 September 2020
+17 Dec 2021
 
 #### Last publication date:
 18 July 2018

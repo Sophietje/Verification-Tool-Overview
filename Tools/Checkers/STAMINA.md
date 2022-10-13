@@ -34,7 +34,7 @@ Uses [PRISM](PRISM.md)
 Repository: https://github.com/fluentverification/stamina
 
 #### Last commit date:
-27 October 2021
+27 Sep 2022
 
 #### Last publication date:
 12 July 2019

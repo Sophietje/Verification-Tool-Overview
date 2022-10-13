@@ -39,7 +39,7 @@ Zulip organization for discussions: https://gobra.zulipchat.com/login/
 Tutorial: https://github.com/viperproject/gobra/blob/master/docs/tutorial.md
 
 #### Last commit date:
-13 December 2021
+30 Sep 2022
 
 #### Last publication date:
 15 July 2021

@@ -39,7 +39,7 @@ Repository: https://github.com/michiari/POMC]
 Artifact for CAV '21: https://zenodo.org/record/4723741
 
 #### Last commit date:
-21 April 2021
+28 Sep 2022
 
 #### Last publication date:
 15 July 2021

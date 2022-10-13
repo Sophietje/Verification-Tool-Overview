@@ -10,7 +10,6 @@ Model checker
 
 #### Expected input thing:
 
-
 #### Expected input format:
 [Modest](../Frameworks/Modest.md) Toolset format or [JANI](../../Formats/JANI.md) format.
 

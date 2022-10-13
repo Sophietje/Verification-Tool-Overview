@@ -38,7 +38,7 @@ http://users.cse.aalto.fi/osaariki/lctd-svcomp/
 https://github.com/OlliSaarikivi/benchexec/blob/master/benchexec/tools/lctd.py
 
 #### Last commit date:
--
+02 Nov 2015
 
 #### Last publication date:
 9 April 2016

@@ -34,7 +34,7 @@ Artifact for CAV '21: https://figshare.com/articles/software/Diffy_Inductive_Rea
 Artifact for CAV '21, repository: https://github.com/divyeshunadkat/diffy-artifact
 
 #### Last commit date:
-29 April 2021
+05 Nov 2021
 
 #### Last publication date:
 15 July 2021

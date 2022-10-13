@@ -31,7 +31,7 @@ Repository (only has releases, not the code): https://github.com/aprove-develope
 Project page: http://aprove.informatik.rwth-aachen.de/
 
 #### Last commit date:
-4 October 2021
+09 Dec 2021
 
 #### Last publication date:
 August 2017

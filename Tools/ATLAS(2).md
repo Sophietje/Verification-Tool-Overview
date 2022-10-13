@@ -30,7 +30,7 @@ Amortised analysis is a method for the worst-case cost/complexity analysis of da
 Repository: https://github.com/lorenzleutgeb/atlas/
 
 #### Last commit date:
-28 April 2021
+20 May 2022
 
 #### Last publication date:
 15 July 2021

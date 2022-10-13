@@ -22,7 +22,6 @@ Distributed implementation corresponding to the provided parallel composition of
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 
-
 #### Comments:
 -
 

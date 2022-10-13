@@ -37,7 +37,7 @@ https://sf.snu.ac.kr/aliveinlean/
 https://github.com/microsoft/aliveinlean
 
 #### Last commit date:
-20 April 2019
+12 Aug 2022
 
 #### Last publication date:
 12 July 2019

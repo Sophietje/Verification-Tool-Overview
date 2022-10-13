@@ -33,7 +33,7 @@ Artifact for CAV '21 paper: https://github.com/binsec/cav2021-artifacts
 Artifact for CAV '21 paper on Zenodo: https://zenodo.org/record/4721753
 
 #### Last commit date:
--
+26 Apr 2021
 
 #### Last publication date:
 15 July 2021

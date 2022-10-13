@@ -36,7 +36,7 @@ License: MIT
 Repository: https://github.com/ticktac-project/tchecker
 
 #### Last commit date:
-21 December 2021
+05 Jul 2022
 
 #### Last publication date:
 15 July 2021

@@ -42,7 +42,7 @@ Repository: https://github.com/wies/grasshopper
 Project page: https://cs.nyu.edu/~wies/software/grasshopper/
 
 #### Last commit date:
-20 May 2021
+24 Dec 2021
 (Last release: 8 February 2019)
 
 #### Last publication date:

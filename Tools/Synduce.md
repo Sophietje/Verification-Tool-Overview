@@ -37,7 +37,7 @@ License: MIT
 Repository: https://github.com/synduce/Synduce
 
 #### Last commit date:
-16 December 2021
+29 Aug 2022
 
 #### Last publication date:
 15 July 2021

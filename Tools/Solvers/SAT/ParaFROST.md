@@ -32,7 +32,7 @@ Project page: https://gears.win.tue.nl/software/gpu4bmc
 Repository: https://github.com/muhos/gpu4bmc
 
 #### Last commit date:
-3 June 2021
+14 Mar 2022
 
 #### Last publication date:
 15 July 2021

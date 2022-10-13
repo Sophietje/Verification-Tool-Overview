@@ -36,7 +36,7 @@ The Github repository contains examples of configuration files and protocols.
 https://github.com/alexandrumc/async-to-sync-translation
 
 #### Last commit date:
-27 June 2019
+28 Apr 2020
 
 #### Last publication date:
 12 July 2019

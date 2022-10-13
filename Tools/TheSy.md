@@ -32,7 +32,7 @@ License: GPL v3.0
 Repository: https://github.com/eytans/TheSy
 
 #### Last commit date:
-29 April 2021
+07 Sep 2022
 
 #### Last publication date:
 15 July 2021

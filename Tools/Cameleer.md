@@ -34,7 +34,7 @@ Repository: https://github.com/ocaml-gospel/cameleer
 Artifact for CAV '21 paper: https://zenodo.org/record/4724119
 
 #### Last commit date:
-27 September 2021
+05 Sep 2022
 
 #### Last publication date:
 15 July 2021
