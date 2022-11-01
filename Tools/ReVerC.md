@@ -40,7 +40,7 @@ Repository: https://github.com/msr-quarc/ReVerC
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63390-9_1 (CAV '17)
+[Verified Compilation of Space-Efficient Reversible Circuits](https://doi.org/10.1007/978-3-319-63390-9_1) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[Quipper]]

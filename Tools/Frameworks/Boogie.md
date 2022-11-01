@@ -38,8 +38,8 @@ https://boogie-docs.readthedocs.io/en/latest/ (Documentation)
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_33 (CAV '21)
-https://doi.org/10.1007/978-3-319-96145-3_5 (CAV '18)
+[Formally Validating a Practical Verification Condition Generator](https://doi.org/10.1007/978-3-030-81688-9_33) (CAV '21)
+[Layered Concurrent Programs](https://doi.org/10.1007/978-3-319-96145-3_5) (CAV '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

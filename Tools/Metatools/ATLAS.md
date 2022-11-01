@@ -37,7 +37,7 @@ Uses [Z3](../Solvers/SMT/Z3.md), [[JLinAlg]]
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96145-3_22
+[Learning Abstractions for Program Synthesis](https://doi.org/10.1007/978-3-319-96145-3_22)
 https://arxiv.org/abs/1804.04152 (Extended version of CAV paper)
 
 #### Related tools (tools mentioned or compared to in the paper):

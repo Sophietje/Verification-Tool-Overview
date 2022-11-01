@@ -36,7 +36,7 @@ Repository: https://github.com/bauer-matthews/SPAN
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_10
+[Model Checking Indistinguishability of Randomized Security Protocols](https://doi.org/10.1007/978-3-319-96142-2_10)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

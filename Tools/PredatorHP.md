@@ -50,8 +50,8 @@ Repository: https://github.com/versokova/predatorhp
 17 April 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-45237-7_30 (TACAS '20)
-https://doi.org/10.1007/978-3-662-49674-9_66 (TACAS '16)
+[PredatorHP Revamped (Not Only) for Interval-Sized Memory Regions and Memory Reallocation (Competition Contribution)](https://doi.org/10.1007/978-3-030-45237-7_30) (TACAS '20)
+[Optimized PredatorHP and the SV-COMP Heap and Memory Safety Benchmark](https://doi.org/10.1007/978-3-662-49674-9_66) (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -38,7 +38,7 @@ Artifact for CAV '21 paper: https://github.com/choshina/ForeSee
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_29 (CAV '21)
+[Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness](https://doi.org/10.1007/978-3-030-81685-8_29) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to in CAV '21 paper: [Breach](Libraries/Breach.md)

@@ -43,7 +43,7 @@ Try online: https://try-alt-ergo.ocamlpro.com/
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63390-9_22 (CAV '17)
+[A Three-Tier Strategy for Reasoning About Floating-Point Numbers in SMT](https://doi.org/10.1007/978-3-319-63390-9_22) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

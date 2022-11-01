@@ -43,7 +43,7 @@ Wiki: https://github.com/javapathfinder/jpf-core/wiki
 4 April 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-17502-3_18
+[Java Pathfinder at SV-COMP 2019 (Competition Contribution)](https://doi.org/10.1007/978-3-030-17502-3_18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 The wiki contains a list of tools that use JPF: https://github.com/javapathfinder/jpf-core/wiki/Projects

@@ -44,10 +44,10 @@ Repository: https://github.com/nidhugg/nidhugg
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_16 (CAV '21)
-https://doi.org/10.1145/3360576 (OOPSLA '19)
-https://doi.org/10.1007/s00236-016-0275-0 (Extended version of TACAS '15 paper, Acta Informatica '17)
-https://doi.org/10.1007/978-3-662-46681-0_28 (TACAS '15)
+[Stateless Model Checking Under a Reads-Value-From Equivalence](https://doi.org/10.1007/978-3-030-81685-8_16) (CAV '21)
+[Optimal stateless model checking for reads-from equivalence under sequential consistency](https://doi.org/10.1145/3360576) (OOPSLA '19)
+[Stateless model checking for TSO and PSO](https://doi.org/10.1007/s00236-016-0275-0) (Extended version of TACAS '15 paper, Acta Informatica '17)
+[Stateless Model Checking for TSO and PSO](https://doi.org/10.1007/978-3-662-46681-0_28) (TACAS '15)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other stateless model checkers: [GenMC](Checkers/GenMC.md), [[RCMC]], [[CDSChecker]]

@@ -31,7 +31,7 @@ https://barcelogic.com/
 2008
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-540-70545-1_27
+[The Barcelogic SMT Solver](https://doi.org/10.1007/978-3-540-70545-1_27)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -35,8 +35,8 @@ Other repository that is also linked: https://github.com/grigoryfedyukovich/aeva
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_14 (CAV '19)
-https://doi.org/10.23919/FMCAD.2018.8603011 (FMCAD '18)
+[Quantified Invariants via Syntax-Guided Synthesis](https://doi.org/10.1007/978-3-030-25540-4_14) (CAV '19)
+[Solving Constrained Horn Clauses Using Syntax and Data](https://doi.org/10.23919/FMCAD.2018.8603011) (FMCAD '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

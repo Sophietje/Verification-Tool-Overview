@@ -37,7 +37,7 @@ Repository (including case studies): https://github.com/emtst/emtst-proof
 17 April 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-45237-7_17 (TACAS '20)
+[EMTST: Engineering the Meta-theory of Session Types](https://doi.org/10.1007/978-3-030-45237-7_17) (TACAS '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[Metalib]], [[AutoSubst]]

@@ -39,9 +39,9 @@ Documentation: https://trolando.github.io/sylvan/
 3 April 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-17465-1_4 (TACAS '19)
-https://doi.org/10.1007/978-3-662-49674-9_19 (TACAS '16)
-https://doi.org/10.1007/978-3-662-46681-0_60 (TACAS '15)
+[Multi-core On-The-Fly Saturation](https://doi.org/10.1007/978-3-030-17465-1_4) (TACAS '19)
+[Multi-core Symbolic Bisimulation Minimisation](https://doi.org/10.1007/978-3-662-49674-9_19) (TACAS '16)
+[Sylvan: Multi-Core Decision Diagrams](https://doi.org/10.1007/978-3-662-46681-0_60) (TACAS '15)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [CUDD](Libraries/CUDD.md)

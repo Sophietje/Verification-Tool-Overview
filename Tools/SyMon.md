@@ -41,7 +41,7 @@ Try online: https://colab.research.google.com/drive/17WNWuA3RxCA51xkDuVfOVeuUbRq
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_30 (CAV 2019)
+[Symbolic Monitoring Against Specifications Parametric in Time and Data](https://doi.org/10.1007/978-3-030-25540-4_30) (CAV 2019)
 https://arxiv.org/abs/1905.04486 (arXiv version of the same paper)
 
 #### Related tools (tools mentioned or compared to in the paper):

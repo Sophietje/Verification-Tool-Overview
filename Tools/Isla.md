@@ -44,7 +44,7 @@ Documentation: https://github.com/rems-project/isla/blob/master/doc/axiomatic.ad
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_14 (CAV '21)
+[Isla: Integrating Full-Scale ISA Semantics and Axiomatic Concurrency Models](https://doi.org/10.1007/978-3-030-81685-8_14) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

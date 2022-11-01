@@ -37,7 +37,7 @@ Repository: *Not linked in paper, on first author's webpage nor on first author'
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_4 (CAV 2019)
+[Safety and Co-safety Comparator Automata for Discounted-Sum Inclusion](https://doi.org/10.1007/978-3-030-25540-4_4) (CAV 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Probably related to [QuIP](Checkers/QuIP.md) by the same authors. The authors claim that QuIPFly outperforms QuIP "by at least an order of magnitude in runtime".

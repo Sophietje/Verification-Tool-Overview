@@ -37,7 +37,7 @@ Repository: https://github.com/SRI-CSL/yices2
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_13 (CAV '21)
+[Interpolation and Model Checking for Nonlinear Arithmetic](https://doi.org/10.1007/978-3-030-81688-9_13) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

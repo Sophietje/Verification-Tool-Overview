@@ -39,8 +39,8 @@ https://github.com/imatyas/ADAC (this is linked in the paper but it contains ver
 15 April 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96145-3_35
-https://doi.org/10.1007/978-3-030-45093-9_58
+[ADAC: Automated Design of Approximate Circuits](https://doi.org/10.1007/978-3-319-96145-3_35)
+[Approximating Complex Arithmetic Circuits with Guaranteed Worst-Case Relative Error](https://doi.org/10.1007/978-3-030-45093-9_58)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[SALSA]], [[SASIMI]] are mentioned as general-purpose methods for approximating circuits independently of their structure.

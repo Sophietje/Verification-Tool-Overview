@@ -44,8 +44,8 @@ https://github.com/OlliSaarikivi/benchexec/blob/master/benchexec/tools/lctd.py
 9 April 2016
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-49674-9_62 (TACAS '16)
-https://doi.org/10.1016/j.jlamp.2015.10.010 (Journal of Logical and Algebraic Methods in Programming '16, Volume 85 Issue 6)
+[LCTD: Tests-Guided Proofs for C Programs on LLVM](https://doi.org/10.1007/978-3-662-49674-9_62) (TACAS '16)
+[LCTD: Test-guided proofs for C programs on LLVM](https://doi.org/10.1016/j.jlamp.2015.10.010) (Journal of Logical and Algebraic Methods in Programming '16, Volume 85 Issue 6)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other tools that participated in the BitVectorsReach category of SV-COMP 2016: [2LS](2LS.md), [CBMC](Checkers/CBMC.md), [[Ceagle]], [CPAchecker](Checkers/CPAchecker.md), [ESBMC](ESBMC.md), [[Forest]], [[Impara]], [[PAC-MAN]], [SeaHorn](Checkers/SeaHorn.md), [[SMACK+Coral]], [[Symbiotic]], [Ultimate Automizer](Ultimate%20Automizer.md), [[UKojak]]

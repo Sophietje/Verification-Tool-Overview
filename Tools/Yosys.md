@@ -42,8 +42,8 @@ Project page: https://yosyshq.net/yosys/
 2019
 
 #### List of related papers:
-https://doi.org/10.1109/FCCM.2019.00010 (FCCM '19)
-https://doi.org/10.1007/978-3-319-01418-0_12 (Models, Methods, and Tools for Complex Chip Design '13)
+[Yosys+nextpnr: An Open Source Framework from Verilog to Bitstream for Commercial FPGAs](https://doi.org/10.1109/FCCM.2019.00010) (FCCM '19)
+[Methodology and Example-Driven Interconnect Synthesis for Designing Heterogeneous Coarse-Grain Reconfigurable Architectures](https://doi.org/10.1007/978-3-319-01418-0_12) (Models, Methods, and Tools for Complex Chip Design '13)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

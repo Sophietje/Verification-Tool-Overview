@@ -32,7 +32,7 @@ Modular theorem prover
 2008
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-540-73368-3_41 (CAV 2007)
+[Structural Abstraction of Software Verification Conditions](https://doi.org/10.1007/978-3-540-73368-3_41) (CAV 2007)
 http://www.domagoj-babic.com/index.php/Pubs/SAT08 (SAT 2008 Race)
 
 #### Related tools (tools mentioned or compared to in the paper):

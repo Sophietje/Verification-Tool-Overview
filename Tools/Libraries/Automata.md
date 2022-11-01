@@ -37,7 +37,7 @@ Repository: https://github.com/AutomataDotNet/Automata
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63390-9_10 (CAV '17)
+[Minimization of Symbolic Transducers](https://doi.org/10.1007/978-3-319-63390-9_10) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

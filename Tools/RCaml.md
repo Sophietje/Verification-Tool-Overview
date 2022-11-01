@@ -39,7 +39,7 @@ Project page: http://lfp.dip.jp/rcaml/
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63390-9_30 (CAV '17)
+[Automating Induction for Solving Horn Clauses](https://doi.org/10.1007/978-3-319-63390-9_30) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Automated inductive theorem techniques/tools: [ACL2s](Provers/ACL2s.md), [[SPIKE]], [[CLAM]], [[IsaPlanner]], [[Leon]], [Dafny](Dafny.md), [[Zeno]], [[HipSpec]], [CVC4](Solvers/SMT/CVC4.md).

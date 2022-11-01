@@ -44,7 +44,7 @@ Repository: https://github.com/moves-rwth/kipro2
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_25 (CAV '21)
+[Latticed k-Induction with an Application to Probabilistic Programs](https://doi.org/10.1007/978-3-030-81688-9_25) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

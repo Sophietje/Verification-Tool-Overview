@@ -43,7 +43,7 @@ Repository: https://github.com/academic-archive/cav17-pastis
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63390-9_4 (CAV '17)
+[Automated Resource Analysis with Coq Proof Objects](https://doi.org/10.1007/978-3-319-63390-9_4) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Resource-bound analyses for integer programs: [[CAMPY]], [[KoAT]], [[Rank]], [[CoFloCo]], [[COSTA]], [[Loopus]]

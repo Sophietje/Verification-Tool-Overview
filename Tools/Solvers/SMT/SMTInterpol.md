@@ -37,9 +37,9 @@ Repository: https://github.com/ultimate-pa/smtinterpol
 12 January 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-642-36742-7_9 (TACAS '13)
-https://doi.org/10.1007/978-3-319-21668-3_3 (CAV '15)
-https://doi.org/10.1007/978-3-030-67067-2_24 (VMCAI '21)
+[Proof Tree Preserving Interpolation](https://doi.org/10.1007/978-3-642-36742-7_9) (TACAS '13)
+[Cutting the Mix](https://doi.org/10.1007/978-3-319-21668-3_3) (CAV '15)
+[Incremental Search for Conflict and Unit Instances of Quantified Formulas with E-Matching](https://doi.org/10.1007/978-3-030-67067-2_24) (VMCAI '21)
 See also: https://ultimate.informatik.uni-freiburg.de/smtinterpol/publications.html
 
 #### Related tools (tools mentioned or compared to in the paper):

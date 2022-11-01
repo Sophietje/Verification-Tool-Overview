@@ -5,7 +5,6 @@ Unique
 Gate extraction
 Quantified Boolean Formulas (QBFs)
 
-
 #### Type of tool (e.g. model checker, test generator):
 
 #### Expected input thing:
@@ -36,7 +35,7 @@ https://github.com/fslivovsky/unique
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_24 (CAV '20)
+[Interpolation-Based Semantic Gate Extraction and Its Applications to QBF Preprocessing](https://doi.org/10.1007/978-3-030-53288-8_24) (CAV '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

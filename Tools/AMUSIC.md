@@ -35,7 +35,7 @@ https://github.com/jar-ben/amusic
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_21
+[Approximate Counting of Minimal Unsatisfiable Subsets](https://doi.org/10.1007/978-3-030-53288-8_21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 MUS enumeration techniques: MARCO, MCSMUS, UNIMUS

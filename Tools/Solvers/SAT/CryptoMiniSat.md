@@ -36,7 +36,7 @@ Repository: https://github.com/msoos/cryptominisat/
 2009
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-642-02777-2_24 (SAT '09)
+[Extending SAT Solvers to Cryptographic Problems](https://doi.org/10.1007/978-3-642-02777-2_24) (SAT '09)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -36,7 +36,7 @@ Repository: https://github.com/martinjonas/Q3B
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25543-5_4
+[Q3B: An Efficient BDD-based SMT Solver for Quantified Bit-Vectors](https://doi.org/10.1007/978-3-030-25543-5_4)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

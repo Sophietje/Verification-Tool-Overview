@@ -42,8 +42,8 @@ Source code: https://projects.informatik.uni-freiburg.de/projects/dqbf/files
 1 September 2019
 
 #### List of related papers:
-https://doi.org/10.3233/SAT190115 (Journal on Satisfiability, Boolean Modeling and Computation '19)
-https://doi.org/10.1007/978-3-662-54577-5_21 (TACAS 
+[The (D)QBF Preprocessor HQSpre – Underlying Theory and Its Implementation1](https://doi.org/10.3233/SAT190115) (Journal on Satisfiability, Boolean Modeling and Computation '19)
+[HQSpre – An Effective Preprocessor for QBF and DQBF](https://doi.org/10.1007/978-3-662-54577-5_21) (TACAS 
 '17)
 
 #### Related tools (tools mentioned or compared to in the paper):

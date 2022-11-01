@@ -29,7 +29,7 @@ Publication: conf/tacas/TanHM21
 Commit: 04.01.2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-72013-1_12 (TACAS '21)
+[cake_lpr: Verified Propagation Redundancy Checking in CakeML](https://doi.org/10.1007/978-3-030-72013-1_12) (TACAS '21)
 
 #### Comments:
 - LPR is somewhat weaker than PR

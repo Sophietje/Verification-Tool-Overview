@@ -33,7 +33,7 @@ Repository: https://github.com/cesaro/dpu
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_22
+[Quasi-Optimal Partial Order Reduction](https://doi.org/10.1007/978-3-319-96142-2_22)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Mentioned in the README of the repository: [POET](POET.md), [Nidhugg](../Nidhugg.md), [[CHESS]], and [[Maple]]

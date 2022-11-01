@@ -39,7 +39,7 @@ Repository: https://github.com/bergfi/llmc
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_32  (CAV '21)
+[LLMC: Verifying High-Performance Software](https://doi.org/10.1007/978-3-030-81688-9_32)  (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to: [DIVINE](../DIVINE.md), [Nidhugg](../Nidhugg.md)

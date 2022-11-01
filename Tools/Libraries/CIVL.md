@@ -31,8 +31,8 @@ Code (part of [[Boogie]]): https://github.com/boogie-org/boogie
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_14
-https://doi.org/10.1007/978-3-319-96145-3_5
+[Refinement for Structured Concurrent Programs](https://doi.org/10.1007/978-3-030-53288-8_14)
+[Layered Concurrent Programs](https://doi.org/10.1007/978-3-319-96145-3_5)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

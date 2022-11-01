@@ -57,7 +57,7 @@ Repository: https://github.com/cristian-mattarei/CoSA
 2 November 2018
 
 #### List of related papers:
-https://doi.org/10.23919/FMCAD.2018.8603014 (FMCAD '18)
+[CoSA: Integrated Verification for Agile Hardware Design](https://doi.org/10.23919/FMCAD.2018.8603014) (FMCAD '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [Pono](Checkers/Pono.md): this tool was developed as the next generation of CoSA.

@@ -41,9 +41,9 @@ Repository: https://github.com/mchalupa/dg
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_41 (CAV '21)
-https://doi.org/10.1007/978-3-030-59152-6_33 (ATVA '20)
-https://doi.org/10.1016/j.simpa.2020.100038 (Software Impacts '20)
+[Fast Computation of Strong Control Dependencies](https://doi.org/10.1007/978-3-030-81688-9_41) (CAV '21)
+[DG: Analysis and Slicing of LLVM Bitcode](https://doi.org/10.1007/978-3-030-59152-6_33) (ATVA '20)
+[DG: A program analysis library](https://doi.org/10.1016/j.simpa.2020.100038) (Software Impacts '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

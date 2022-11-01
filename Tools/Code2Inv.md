@@ -37,7 +37,7 @@ Repository: https://github.com/PL-ML/code2inv
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_9
+[Code2Inv: A Deep Learning Framework for Program Verification](https://doi.org/10.1007/978-3-030-53291-8_9)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

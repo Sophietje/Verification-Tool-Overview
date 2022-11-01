@@ -39,7 +39,7 @@ Repository: https://github.com/eth-sri/eran
 2021
 
 #### List of related papers:
-https://doi.org/10.1145/3498704 (POPL 2022)
+[PRIMA: general and precise neural network certification via scalable convex hull approximations](https://doi.org/10.1145/3498704) (POPL 2022)
 https://files.sri.inf.ethz.ch/website/papers/mueller2021precise.pdf (open version of POPL 2022)
 https://proceedings.mlsys.org/paper/2021/file/ca46c1b9512a7a8315fa3c5a946e8265-Paper.pdf (MLSys '21)
 https://arxiv.org/abs/2009.09318 (AAAI '21)

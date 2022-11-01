@@ -24,7 +24,7 @@ SAT solver
 #### Last publication date:
 
 #### List of related papers:
-- https://doi.org/10.1016/j.artint.2015.11.002 (Journal of AI, 2016)
+- [SATenstein: Automatically building local search SAT solvers from components](https://doi.org/10.1016/j.artint.2015.11.002) (Journal of AI, 2016)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[gNovelty]] and [[adaptG2WSAT]] in various combinations

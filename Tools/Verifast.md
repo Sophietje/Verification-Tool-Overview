@@ -42,9 +42,9 @@ Tutorial: https://doi.org/10.5281/zenodo.1068185
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_2 (CAV '21)
-https://doi.org/10.1007/978-3-642-20398-5_4 (NFM '11)
-https://doi.org/10.1007/978-3-642-17164-2_21 (APLAS '10)
+[Ghost Signals: Verifying Termination of Busy Waiting](https://doi.org/10.1007/978-3-030-81688-9_2) (CAV '21)
+[VeriFast: A Powerful, Sound, Predictable, Fast Verifier for C and Java](https://doi.org/10.1007/978-3-642-20398-5_4) (NFM '11)
+[A Quick Tour of the VeriFast Program Verifier](https://doi.org/10.1007/978-3-642-17164-2_21) (APLAS '10)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Tools using separation logic: [[Smallfoot]], [[jStar]], [[SpaceInvader]], [[Abductor]]

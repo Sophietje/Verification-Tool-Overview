@@ -44,7 +44,7 @@ Repository: https://github.com/sybila/pithya-core
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63387-9_29 (CAV '17)
+[Pithya: A Parallel Tool for Parameter Synthesis of Piecewise Multi-affine Dynamical Systems](https://doi.org/10.1007/978-3-319-63387-9_29) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

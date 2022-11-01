@@ -47,7 +47,7 @@ Successor of version 2.0 of DryVR: https://gitlab.engr.illinois.edu/dryvrgroup/d
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63387-9_22 (CAV '17)
+[DryVR: Data-Driven Verification and Compositional Reasoning for Automotive Systems](https://doi.org/10.1007/978-3-319-63387-9_22) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

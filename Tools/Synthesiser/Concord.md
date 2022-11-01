@@ -33,7 +33,7 @@ Uses [Z3](../Solvers/SMT/Z3.md).
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_30
+[Program Synthesis Using Deduction-Guided Reinforcement Learning](https://doi.org/10.1007/978-3-030-53291-8_30)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to [[Neo]] and [[DeepCoder]].

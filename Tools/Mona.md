@@ -35,8 +35,8 @@ User manual: https://www.brics.dk/mona/mona14.pdf
 2002
 
 #### List of related papers:
-https://doi.org/10.1007/3-540-60630-0_5 (TACAS 1995)
-https://doi.org/10.1142/S012905410200128X (Journal of Foundations of Computer Science 2002)
+[Mona: Monadic second-order logic in practice](https://doi.org/10.1007/3-540-60630-0_5) (TACAS 1995)
+[MONA IMPLEMENTATION SECRETS](https://doi.org/10.1142/S012905410200128X) (Journal of Foundations of Computer Science 2002)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

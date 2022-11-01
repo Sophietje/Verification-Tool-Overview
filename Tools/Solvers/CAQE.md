@@ -38,7 +38,7 @@ Repository: https://github.com/ltentrup/caqe
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63390-9_25 (CAV '17)
+[On Expansion and Resolution in CEGAR Based QBF Solving](https://doi.org/10.1007/978-3-319-63390-9_25) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

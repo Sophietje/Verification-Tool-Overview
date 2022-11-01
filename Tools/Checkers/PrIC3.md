@@ -43,7 +43,7 @@ Repository: https://github.com/moves-rwth/PrIC3
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_27
+[PrIC3: Property Directed Reachability for MDPs](https://doi.org/10.1007/978-3-030-53291-8_27)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

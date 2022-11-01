@@ -55,8 +55,8 @@ Documentation: https://verifai.readthedocs.io/en/latest/
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_25 (CAV '19)
-https://doi.org/10.1007/978-3-030-53288-8_6 (CAV '20, case study)
+[VerifAI: A Toolkit for the Formal Design and Analysis of Artificial Intelligence-Based Systems](https://doi.org/10.1007/978-3-030-25540-4_25) (CAV '19)
+[Formal Analysis and Redesign of a Neural Network-Based Aircraft Taxiing System with VerifAI](https://doi.org/10.1007/978-3-030-53288-8_6) (CAV '20, case study)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

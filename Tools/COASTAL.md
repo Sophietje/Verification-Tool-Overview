@@ -39,7 +39,7 @@ Project page: https://deepseaplatform.github.io/coastal/ (Note: this website see
 17 April 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-45237-7_23
+[COASTAL: Combining Concolic and Fuzzing for Java (Competition Contribution)](https://doi.org/10.1007/978-3-030-45237-7_23)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

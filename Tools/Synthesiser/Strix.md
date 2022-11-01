@@ -53,7 +53,7 @@ Online demo: https://meyerphi.github.io/strix-demo/
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96145-3_31 (CAV '18)
+[Strix: Explicit Reactive Synthesis Strikes Back!](https://doi.org/10.1007/978-3-319-96145-3_31) (CAV '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to in the CAV '18 paper: [PARTY](PARTY.md), [BoSy](BoSy.md), [[LTLSYNT]]

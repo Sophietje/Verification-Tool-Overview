@@ -41,7 +41,7 @@ Possibly the following repository from the first author's github: https://github
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_9
+[Automata vs Linear-Programming Discounted-Sum Inclusion](https://doi.org/10.1007/978-3-319-96142-2_9)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [DetLP](../DetLP.md)

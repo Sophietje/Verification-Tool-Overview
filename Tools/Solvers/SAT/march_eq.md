@@ -31,7 +31,7 @@ an older version was called `march_eq_100`, apparently a newer one was referred 
 2009
 
 #### List of related papers:
-https://doi.org/10.1007/11527695_26 (SAT'04)
+[March_eq: Implementing Additional Reasoning into an Efficient Look-Ahead SAT Solver](https://doi.org/10.1007/11527695_26) (SAT'04)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[OKsolver]]

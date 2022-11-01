@@ -39,7 +39,7 @@ https://github.com/gbarbon/clear/
 4 April 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-17462-0_26 (TACAS '19)
+[Debugging of Behavioural Models with CLEAR](https://doi.org/10.1007/978-3-030-17462-0_26) (TACAS '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -39,7 +39,8 @@ https://github.com/antoinemine/apron
 
 #### List of related papers:
 http://apron.cri.ensmp.fr/library/flyer.pdf (SAS 2007 poster)
-https://doi.org/10.1007/978-3-642-02658-4_52 (CAV 2009)
+[
+              Apron: A Library of Numerical Abstract Domains for Static Analysis](https://doi.org/10.1007/978-3-642-02658-4_52) (CAV 2009)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

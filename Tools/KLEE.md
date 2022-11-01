@@ -40,9 +40,9 @@ Project page: https://klee.github.io/
 2 June 2020
 
 #### List of related papers:
-https://doi.org/10.1007/s10009-020-00570-3
-https://doi.org/10.1007/978-3-642-34129-8_23
-https://doi.org/10.1109/Trustcom.2015.608
+[KLEE symbolic execution engine in 2019](https://doi.org/10.1007/s10009-020-00570-3)
+[Taint Analysis of Security Code in the KLEE Symbolic Execution Engine](https://doi.org/10.1007/978-3-642-34129-8_23)
+[Parallel SMT Solving and Concurrent Symbolic Execution](https://doi.org/10.1109/Trustcom.2015.608)
 https://llvm.org/pubs/2008-12-OSDI-KLEE.html
 
 #### Related tools (tools mentioned or compared to in the paper):

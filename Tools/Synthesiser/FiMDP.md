@@ -39,7 +39,7 @@ https://github.com/FiMDP/FiMDP
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_22
+[Qualitative Controller Synthesis for Consumption Markov Decision Processes](https://doi.org/10.1007/978-3-030-53291-8_22)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

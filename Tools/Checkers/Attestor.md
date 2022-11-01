@@ -45,7 +45,7 @@ Examples: https://github.com/moves-rwth/attestor-examples
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_1
+[Let this Graph Be Your Witness!](https://doi.org/10.1007/978-3-319-96142-2_1)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [Forester](../Forester.md), [[Groove]], [[Infer]], [[HIP/SLEEK]], [[Korat]], [[Juggernaut]], [[Tvla]]

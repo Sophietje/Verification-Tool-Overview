@@ -40,7 +40,7 @@ Used by Amazon Web Services (AWS). It encodes the semantics of the entire AWS cl
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25543-5_14 (CAV '19)
+[Reachability Analysis for AWS-Based Networks](https://doi.org/10.1007/978-3-030-25543-5_14) (CAV '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Tools that analyse software-defined-network (SDN) programs: [[VeriCon]], [[NICE]], [[VeriFlow]], [[SecGuru]]

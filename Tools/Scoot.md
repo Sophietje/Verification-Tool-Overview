@@ -37,8 +37,9 @@ Project page: http://www.cprover.org/scoot/
 #### Last publication date:
 
 #### List of related papers:
-https://doi.org/10.1145/1754405.1754406 (ACM Transactions on design Automation of Electronic Systems, Vol. 15, '10)
-https://doi.org/10.1007/978-3-540-78800-3_36 (TACAS '08)
+[Race analysis for systemc using model checking](https://doi.org/10.1145/1754405.1754406) (ACM Transactions on design Automation of Electronic Systems, Vol. 15, '10)
+[
+              Scoot: A Tool for the Analysis of SystemC Models](https://doi.org/10.1007/978-3-540-78800-3_36) (TACAS '08)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

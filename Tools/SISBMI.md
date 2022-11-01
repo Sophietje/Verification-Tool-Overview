@@ -40,7 +40,7 @@ Barrier certificate generation is equivalent to solving a bilinear matrix inequa
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_29 (CAV 2020)
+[A Novel Approach for Solving the BMI Problem in Barrier Certificates Generation](https://doi.org/10.1007/978-3-030-53288-8_29) (CAV 2020)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to in the CAV '20 paper: [[PENBMI]], [[SOSTOOLS]]

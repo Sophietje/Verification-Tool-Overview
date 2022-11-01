@@ -43,8 +43,8 @@ User manual: https://nuxmv.fbk.eu/pmwiki.php?n=Documentation.Home
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_21
-https://doi.org/10.1007/978-3-319-08867-9_22
+[Extending nuXmv with Timed Transition Systems and Timed Temporal Properties](https://doi.org/10.1007/978-3-030-25540-4_21)
+[The nuXmv Symbolic Model Checker](https://doi.org/10.1007/978-3-319-08867-9_22)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Successor of [[NuSMV]].

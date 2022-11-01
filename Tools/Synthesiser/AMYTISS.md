@@ -33,9 +33,9 @@ https://github.com/mkhaled87/pFaces-AMYTISS
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_24
+[AMYTISS: Parallelized Automated Controller Synthesis for Large-Scale Stochastic Systems](https://doi.org/10.1007/978-3-030-53291-8_24)
 https://arxiv.org/abs/2005.06191 (extended version of CAV paper)
-https://doi.org/10.1145/3365365.3383469
+[AMYTISS](https://doi.org/10.1145/3365365.3383469)
 
 #### Related tools (tools mentioned or compared to in the paper):
 FAUST2

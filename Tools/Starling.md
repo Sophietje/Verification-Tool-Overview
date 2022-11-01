@@ -39,7 +39,7 @@ Repository: https://github.com/septract/starling-tool
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63387-9_27 (CAV '17)
+[Starling: Lightweight Concurrency Verification with Views](https://doi.org/10.1007/978-3-319-63387-9_27) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

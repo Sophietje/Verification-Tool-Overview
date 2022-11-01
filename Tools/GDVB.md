@@ -37,7 +37,7 @@ Repository: https://github.com/edwardxu0/GDVB
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_5
+[Systematic Generation of Diverse Benchmarks for DNN Verification](https://doi.org/10.1007/978-3-030-53288-8_5)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

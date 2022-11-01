@@ -38,8 +38,8 @@ Repository: https://github.com/acl2/acl2/tree/master/books/centaur/fgl
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_2 (CAV '21)
-https://doi.org/10.4204/EPTCS.327.3 (Workshop on the ACL2 Theorem Prover and its Applications '20)
+[Balancing Automation and Control for Formal Verification of Microprocessors](https://doi.org/10.1007/978-3-030-81685-8_2) (CAV '21)
+[New Rewriter Features in FGL](https://doi.org/10.4204/EPTCS.327.3) (Workshop on the ACL2 Theorem Prover and its Applications '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 FGL is a rewrite and extension of [[GL]].

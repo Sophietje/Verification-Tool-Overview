@@ -34,9 +34,9 @@ Repository: https://github.com/drzchen/movec
 11 July 2021
 
 #### List of related papers:
-https://doi.org/10.1145/3460319.3464807 (ISSTA '21)
-https://doi.org/10.1145/3293882.3330581 (ISSTA '19)
-https://doi.org/10.1007/978-3-662-49674-9_17 (TACAS '16)
+[Runtime detection of memory errors with smart status](https://doi.org/10.1145/3460319.3464807) (ISSTA '21)
+[Detecting memory errors at runtime with source-level instrumentation](https://doi.org/10.1145/3293882.3330581) (ISSTA '19)
+[Parametric Runtime Verification of C Programs](https://doi.org/10.1007/978-3-662-49674-9_17) (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[AspectJ]]

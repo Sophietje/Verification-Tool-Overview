@@ -43,7 +43,7 @@ Web page for CONCUR '15 paper: https://www.cs.ox.ac.uk/people/marcelo.sousa/poet
 26 August 2015
 
 #### List of related papers:
-https://doi.org/10.4230/LIPIcs.CONCUR.2015.456 (CONCUR '15)
+[null](https://doi.org/10.4230/LIPIcs.CONCUR.2015.456) (CONCUR '15)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Second version of POET is called [APOET](../APOET.md).

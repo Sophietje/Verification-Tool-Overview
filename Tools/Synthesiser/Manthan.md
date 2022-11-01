@@ -35,7 +35,7 @@ Repository: https://github.com/meelgroup/manthan
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_31
+[Manthan: A Data-Driven Approach for Boolean Function Synthesis](https://doi.org/10.1007/978-3-030-53291-8_31)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared in the paper to [[C2Syn]], [[BFSS]] and [CADET](../Solvers/CADET.md).

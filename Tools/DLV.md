@@ -40,7 +40,7 @@ Repository: https://github.com/verideep/dlv
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63387-9_1 (CAV '17)
+[Safety Verification of Deep Neural Networks](https://doi.org/10.1007/978-3-319-63387-9_1) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

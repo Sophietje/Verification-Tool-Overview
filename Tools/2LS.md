@@ -42,8 +42,8 @@ Repository: https://github.com/diffblue/2LS
 14 April 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-49674-9_56 (TACAS '16)
-https://doi.org/10.1007/978-3-319-89963-3_24 (TACAS '18)
+[2LS for Program Analysis](https://doi.org/10.1007/978-3-662-49674-9_56) (TACAS '16)
+[2LS: Memory Safety and Non-termination](https://doi.org/10.1007/978-3-319-89963-3_24) (TACAS '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -42,8 +42,8 @@ Repository (new implementation?): https://github.com/jesusjda/pyRankFinder
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-32304-2_22 (SAS '19)
-https://doi.org/10.1007/978-3-319-63390-9_32 (CAV '17)
+[Multiphase-Linear Ranking Functions and Their Relation to Recurrent Sets](https://doi.org/10.1007/978-3-030-32304-2_22) (SAS '19)
+[On Multiphase-Linear Ranking Functions](https://doi.org/10.1007/978-3-319-63390-9_32) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

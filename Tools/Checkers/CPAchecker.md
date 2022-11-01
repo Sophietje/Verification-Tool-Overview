@@ -49,10 +49,12 @@ Repository: https://svn.sosy-lab.org/software/cpachecker/trunk/
 November 2020
 
 #### List of related papers:
-https://doi.org/10.1145/3368089.3409718 (ESEC/FSE '20)
-https://doi.org/10.1007/978-3-662-49674-9_59 (TACAS '16)
-https://doi.org/10.1007/978-3-662-46681-0_34 (TACAS '15)
-https://doi.org/10.1007/978-3-642-22110-1_16 (CAV '11)
+[Domain-independent interprocedural program analysis using block-abstraction memoization](https://doi.org/10.1145/3368089.3409718) (ESEC/FSE '20)
+[CPA-RefSel: CPAchecker with Refinement Selection](https://doi.org/10.1007/978-3-662-49674-9_59) (TACAS '16)
+[
+                CPAchecker with Support for Recursive Programs and Floating-Point Arithmetic](https://doi.org/10.1007/978-3-662-46681-0_34) (TACAS '15)
+[
+            CPAchecker: A Tool for Configurable Software Verification](https://doi.org/10.1007/978-3-642-22110-1_16) (CAV '11)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[BLAST]]

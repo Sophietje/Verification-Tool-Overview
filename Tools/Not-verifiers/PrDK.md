@@ -32,7 +32,7 @@ http://web.archive.org/web/20121127092829/http://reo.project.cwi.nl/reo/ (a very
 9 April 2016
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-49674-9_33 (TACAS 2016)
+[PrDK: Protocol Programming with Automata](https://doi.org/10.1007/978-3-662-49674-9_33) (TACAS 2016)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[Scribble]]

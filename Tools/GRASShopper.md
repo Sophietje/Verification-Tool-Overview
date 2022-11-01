@@ -49,9 +49,11 @@ Project page: https://cs.nyu.edu/~wies/software/grasshopper/
 2014
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-08867-9_47 (CAV '14)
-https://doi.org/10.1007/978-3-642-54862-8_9 (TACAS '14)
-https://doi.org/10.1007/978-3-642-39799-8_54 (CAV '13)
+[Automating Separation Logic with Trees and Data](https://doi.org/10.1007/978-3-319-08867-9_47) (CAV '14)
+[
+              GRASShopper
+            ](https://doi.org/10.1007/978-3-642-54862-8_9) (TACAS '14)
+[Automating Separation Logic Using SMT](https://doi.org/10.1007/978-3-642-39799-8_54) (CAV '13)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

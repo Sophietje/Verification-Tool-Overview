@@ -35,7 +35,7 @@ Last release mentioned on the project page is from 12 March 2007.
 2004
 
 #### List of related papers:
-https://doi.org/10.1007/11527695_27 (SAT '04)
+[Zchaff2004: An Efficient SAT Solver](https://doi.org/10.1007/11527695_27) (SAT '04)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

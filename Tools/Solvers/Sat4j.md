@@ -41,8 +41,8 @@ Repository: https://gitlab.ow2.org/sat4j/sat4j/
 2 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-80223-3_22 (SAT '21)
-https://doi.org/10.1007/978-3-030-51825-7_23 (SAT '20)
+[On Dedicated CDCL Strategies for PB Solvers](https://doi.org/10.1007/978-3-030-80223-3_22) (SAT '21)
+[On Weakening Strategies for PB Solvers](https://doi.org/10.1007/978-3-030-51825-7_23) (SAT '20)
 https://content.iospress.com/articles/journal-on-satisfiability-boolean-modeling-and-computation/sat190098 (Journal on Satisfiability, Boolean Modeling and Computation '12)
 
 #### Related tools (tools mentioned or compared to in the paper):

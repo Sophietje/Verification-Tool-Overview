@@ -33,7 +33,7 @@ Repository: https://github.com/grigoryfedyukovich/aeval/tree/term
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96145-3_7
+[Syntax-Guided Termination Analysis](https://doi.org/10.1007/978-3-319-96145-3_7)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

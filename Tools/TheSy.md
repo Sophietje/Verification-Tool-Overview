@@ -38,7 +38,7 @@ Repository: https://github.com/eytans/TheSy
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_6 (CAV '21)
+[Theory Exploration Powered by Deductive Synthesis](https://doi.org/10.1007/978-3-030-81688-9_6) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to in CAV '21 paper: [[Hipster]]

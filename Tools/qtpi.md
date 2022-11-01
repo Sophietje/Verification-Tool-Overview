@@ -44,7 +44,7 @@ TACAS '20 artifact: https://doi.org/10.6084/m9.figshare.11882592
 17 April 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-45237-7_16 (TACAS '20)
+[Describing and Simulating Concurrent Quantum Systems](https://doi.org/10.1007/978-3-030-45237-7_16) (TACAS '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

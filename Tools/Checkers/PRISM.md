@@ -52,9 +52,9 @@ Repository: https://github.com/prismmodelchecker/prism
 ?
 
 #### List of related papers:
-https://doi.org/10.1007/3-540-46029-2_13 (TOOLS '02)
-https://doi.org/10.1007/978-3-642-22110-1_47 (CAV '11)
-https://doi.org/10.1007/978-3-662-49674-9_20 (TACAS '16)
+[PRISM: Probabilistic Symbolic Model Checker](https://doi.org/10.1007/3-540-46029-2_13) (TOOLS '02)
+[PRISM 4.0: Verification of Probabilistic Real-Time Systems](https://doi.org/10.1007/978-3-642-22110-1_47) (CAV '11)
+[Advances in Symbolic Probabilistic Model Checking with PRISM](https://doi.org/10.1007/978-3-662-49674-9_20) (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [PRISM-PSY](../PRISM-PSY.md), [PRISM-games](PRISM-games.md)

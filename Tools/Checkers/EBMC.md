@@ -40,8 +40,8 @@ Project page: http://www.cprover.org/ebmc/
 2008
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-540-78163-9_10 (VMCAI '08)
-https://doi.org/10.1016/j.entcs.2005.07.021 (Electronic Notes in Theoretical Computer Science '06)
+[Approximation Refinement for Interpolation-Based Model Checking](https://doi.org/10.1007/978-3-540-78163-9_10) (VMCAI '08)
+[Computing Over-Approximations with Bounded Model Checking](https://doi.org/10.1016/j.entcs.2005.07.021) (Electronic Notes in Theoretical Computer Science '06)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -36,7 +36,7 @@ Project page: https://github.com/CSeq/Overview#mu-cseq
 9 April 2016
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-49674-9_65 (TACAS '16)
+[MU-CSeq 0.4: Individual Memory Location Unwindings](https://doi.org/10.1007/978-3-662-49674-9_65) (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

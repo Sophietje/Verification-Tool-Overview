@@ -39,7 +39,7 @@ Source code and data for CAV '21 paper: http://fmv.jku.at/certifaiger/
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_17
+[Progress in Certifying Hardware Model Checking Results](https://doi.org/10.1007/978-3-030-81688-9_17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

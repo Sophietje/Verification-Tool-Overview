@@ -37,7 +37,7 @@ Repository: https://github.com/nima-roohi/STMC
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_23 (CAV '20)
+[STMC: Statistical Model Checker with Stratified and Antithetic Sampling](https://doi.org/10.1007/978-3-030-53291-8_23) (CAV '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other statistical model checkers: [PRISM](PRISM.md), [[MRMC]], [[VESTA]], [[YMER]], [[COSMOS]]

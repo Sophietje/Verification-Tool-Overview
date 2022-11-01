@@ -45,9 +45,9 @@ Feature list: https://xsap.fbk.eu/pmwiki.php?n=Features.Home
 March 2021
 
 #### List of related papers:
-https://doi.org/10.1007/s00165-021-00532-9 ('21, Formal Aspects of Computing, Vol. 33 Iss. 2, case study)
-https://doi.org/10.1007/978-3-030-54549-9_7 (SAFECOMP '20)
-https://doi.org/10.1007/978-3-662-49674-9_31 (TACAS '16)
+[Model-based Safety Assessment of a Triple Modular Generator with xSAP](https://doi.org/10.1007/s00165-021-00532-9) ('21, Formal Aspects of Computing, Vol. 33 Iss. 2, case study)
+[Model-Based Safety Analysis of Mode Transitions](https://doi.org/10.1007/978-3-030-54549-9_7) (SAFECOMP '20)
+[The xSAP Safety Analysis Platform](https://doi.org/10.1007/978-3-662-49674-9_31) (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other platforms for model-based safety assessment: [[Altarica/OCAS]], [[Scade]], [[Statemate]]

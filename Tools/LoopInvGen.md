@@ -38,7 +38,7 @@ Repository: https://github.com/SaswatPadhi/LoopInvGen
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_17
+[Overfitting in Synthesis: Theory and Practice](https://doi.org/10.1007/978-3-030-25540-4_17)
 http://dx.doi.org/10.1145/2908080.2908099 (about PIE, backbone of LoopInvGen)
 
 #### Related tools (tools mentioned or compared to in the paper):

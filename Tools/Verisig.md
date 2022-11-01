@@ -36,8 +36,8 @@ CAV '21 artifact: https://github.com/rivapp/CAV21_repeatability_package
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_11 (CAV '21; Verisig 2.0)
-https://doi.org/10.1145/3302504.3311806 (HSCC '19)
+[Verisig 2.0: Verification of Neural Network Controllers Using Taylor Model Preconditioning](https://doi.org/10.1007/978-3-030-81685-8_11) (CAV '21; Verisig 2.0)
+[Verisig](https://doi.org/10.1145/3302504.3311806) (HSCC '19)
 https://arxiv.org/abs/1811.01828 (arXiv version of the HSCC paper)
 
 #### Related tools (tools mentioned or compared to in the paper):

@@ -41,10 +41,10 @@ Project page: www-verimag.imag.fr/RTD-Finder
 9 April 2016
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-49674-9_23 (TACAS '16)
+[RTD-Finder: A Tool for Compositional Verification of Real-Time Component-Based Systems](https://doi.org/10.1007/978-3-662-49674-9_23) (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[D-Finder]]: similar system for untimed systems.
 
 #### Meta
-:: PV4 :: can check deadlock-freedom and user-specified safety properties of RT-BIP models 
+:: PV4 :: can check deadlock-freedom and user-specified safety properties of RT-BIP models

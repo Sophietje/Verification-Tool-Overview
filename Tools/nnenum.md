@@ -37,7 +37,7 @@ Repository: https://github.com/stanleybak/nnenum
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_4 (CAV 2020)
+[Improved Geometric Path Enumeration for Verifying ReLU Neural Networks](https://doi.org/10.1007/978-3-030-53288-8_4) (CAV 2020)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other tools for the verification of neural networks: [Marabou](Marabou.md), [[Neurify]], [NNV](NNV.md).

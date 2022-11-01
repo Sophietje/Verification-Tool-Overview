@@ -31,7 +31,7 @@ Releases: https://cs.nyu.edu/acsys/cvc3/releases/
 2007
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-540-73368-3_34 (CAV 2007)
+[CVC3](https://doi.org/10.1007/978-3-540-73368-3_34) (CAV 2007)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

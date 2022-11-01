@@ -33,7 +33,7 @@ Repository: https://github.com/smtcoq/smtcoq
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63390-9_7 (CAV '17)
+[SMTCoq: A Plug-In for Integrating SMT Solvers into Coq](https://doi.org/10.1007/978-3-319-63390-9_7) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

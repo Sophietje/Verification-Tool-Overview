@@ -39,7 +39,7 @@ CAV '21 artifact: https://doi.org/10.5281/zenodo.4726056
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_40 (CAV '21)
+[PAYNT: A Tool for Inductive Synthesis of Probabilistic Programs](https://doi.org/10.1007/978-3-030-81685-8_40) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Topology synthesis: [[ProFeat]], [[QFLan]]

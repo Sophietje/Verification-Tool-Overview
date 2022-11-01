@@ -48,7 +48,7 @@ Project page Rabinizer 2: https://www7.in.tum.de/~kretinsk/rabinizer2.html
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96145-3_30 (CAV 2018)
+[Rabinizer 4: From LTL to Your Favourite Deterministic Automaton](https://doi.org/10.1007/978-3-319-96145-3_30) (CAV 2018)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

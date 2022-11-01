@@ -47,8 +47,8 @@ Project page: https://neuralnetworkverification.github.io/
 23 March 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_26
-https://doi.org/10.1007/978-3-030-72013-1_11
+[The Marabou Framework for Verification and Analysis of Deep Neural Networks](https://doi.org/10.1007/978-3-030-25540-4_26)
+[An SMT-Based Approach for Verifying Binarized Neural Networks](https://doi.org/10.1007/978-3-030-72013-1_11)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

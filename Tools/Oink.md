@@ -37,8 +37,8 @@ Repository: https://www.github.com/trolando/oink
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_14
-https://doi.org/10.1007/978-3-319-89960-2_16
+[Attracting Tangles to Solve Parity Games](https://doi.org/10.1007/978-3-319-96142-2_14)
+[Oink: An Implementation and Evaluation of Modern Parity Game Solvers](https://doi.org/10.1007/978-3-319-89960-2_16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -38,9 +38,9 @@ Repository: https://github.com/SymbolicPathFinder/jpf-symbc
 4 April 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-17502-3_21 (TACAS '19)
-https://doi.org/10.1007/s10515-013-0122-2 (ASE '13)
-https://doi.org/10.1145/1858996.1859035 (ASE '10)
+[Symbolic Pathfinder for SV-COMP](https://doi.org/10.1007/978-3-030-17502-3_21) (TACAS '19)
+[Symbolic PathFinder: integrating symbolic execution with model checking for Java bytecode analysis](https://doi.org/10.1007/s10515-013-0122-2) (ASE '13)
+[Symbolic PathFinder](https://doi.org/10.1145/1858996.1859035) (ASE '10)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -27,7 +27,7 @@ SAT solver
 #### Last publication date:
 
 #### List of related papers:
-https://doi.org/10.1007/11527695_26 (SAT'04)
+[March_eq: Implementing Additional Reasoning into an Efficient Look-Ahead SAT Solver](https://doi.org/10.1007/11527695_26) (SAT'04)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

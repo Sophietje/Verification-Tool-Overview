@@ -13,8 +13,8 @@ Domain-specific language to write asynchronous event driven code
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25543-5_22 (CAV '19)
-https://doi.org/10.1145/2499370.2462184 (PLDI '13)
+[Verifying Asynchronous Event-Driven Programs Using Partial Abstract Transformers](https://doi.org/10.1007/978-3-030-25543-5_22) (CAV '19)
+[P](https://doi.org/10.1145/2499370.2462184) (PLDI '13)
 
 #### Meta
 :: Language

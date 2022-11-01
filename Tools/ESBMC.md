@@ -52,11 +52,11 @@ Project page: http://esbmc.org/
 8 September 2021
 
 #### List of related papers:
-https://doi.org/10.1002/stvr.1793 (Software Testing, Verification and Reliability, Vol. 32, Issue 1, '21)
-https://doi.org/10.1007/s10009-020-00571-2 (Journal on STTT '20)
-https://doi.org/10.1007/978-3-030-17502-3_15 (TACAS '19)
-https://doi.org/10.1145/3238147.3240481 (ASE '18)
-https://doi.org/10.1007/978-3-642-54862-8_31 (TACAS '14)
+[Model checking C++ programs](https://doi.org/10.1002/stvr.1793) (Software Testing, Verification and Reliability, Vol. 32, Issue 1, '21)
+[ESBMC 6.1: automated test case generation using bounded model checking](https://doi.org/10.1007/s10009-020-00571-2) (Journal on STTT '20)
+[ESBMC v6.0: Verifying C Programs Using k-Induction and Invariant Inference](https://doi.org/10.1007/978-3-030-17502-3_15) (TACAS '19)
+[ESBMC 5.0: an industrial-strength C model checker](https://doi.org/10.1145/3238147.3240481) (ASE '18)
+[ESBMC 1.22](https://doi.org/10.1007/978-3-642-54862-8_31) (TACAS '14)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

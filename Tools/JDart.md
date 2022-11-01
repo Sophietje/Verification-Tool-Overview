@@ -40,8 +40,8 @@ Repository: https://github.com/tudo-aqua/jdart
 17 April 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-45237-7_28 (TACAS '20)
-https://doi.org/10.1007/978-3-662-49674-9_26 (TACAS '16)
+[JDart: Dynamic Symbolic Execution for Java Bytecode (Competition Contribution)](https://doi.org/10.1007/978-3-030-45237-7_28) (TACAS '20)
+[JDart: A Dynamic Symbolic Analysis Framework](https://doi.org/10.1007/978-3-662-49674-9_26) (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other tools that participated in the JavaOverall category of SV-COMP in 2020: [[Java-Ranger]], [JBMC](Checkers/JBMC.md), [COASTAL](COASTAL.md), [JayHorn](Checkers/JayHorn.md)[SPF](SPF.md)

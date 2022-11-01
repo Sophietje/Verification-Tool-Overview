@@ -38,9 +38,9 @@ Project page: https://www.cs.upc.edu/~albert/VeryMax.html
 31 March 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-54577-5_6 (TACAS '17)
-https://doi.org/10.1007/978-3-319-40970-2_18 (SAT '16)
-https://doi.org/10.1109/FMCAD.2015.7542250 (FMCAD '15)
+[Proving Termination Through Conditional Termination](https://doi.org/10.1007/978-3-662-54577-5_6) (TACAS '17)
+[Speeding up the Constraint-Based Method in Difference Logic](https://doi.org/10.1007/978-3-319-40970-2_18) (SAT '16)
+[Compositional safety verification with Max-SMT](https://doi.org/10.1109/FMCAD.2015.7542250) (FMCAD '15)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other tools that participated in the termination category of SV-COMP 2016: [AProVE](AProVE.md), [[Ctrl]], [HipTNT+](HipTNT+.md), [SeaHorn](Checkers/SeaHorn.md), [[Ultimate]]

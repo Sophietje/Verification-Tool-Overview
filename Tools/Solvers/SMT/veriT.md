@@ -40,9 +40,10 @@ Reference for the veriT proof format: https://www.verit-solver.org/download/tip/
 4 January 2019
 
 #### List of related papers:
-https://doi.org/10.1007/s10817-018-09502-y (Journal of Automated Reasoning '20)
-https://doi.org/10.1007/978-3-662-54580-5_13 (TACAS '17)
-https://doi.org/10.1007/978-3-642-02959-2_12 (CADE '09)
+[Scalable Fine-Grained Proofs for Formula Processing](https://doi.org/10.1007/s10817-018-09502-y) (Journal of Automated Reasoning '20)
+[Congruence Closure with Free Variables](https://doi.org/10.1007/978-3-662-54580-5_13) (TACAS '17)
+[
+              veriT: An Open, Trustable and Efficient SMT-Solver](https://doi.org/10.1007/978-3-642-02959-2_12) (CADE '09)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other solvers: [[CVC3]], [Z3](Z3.md)

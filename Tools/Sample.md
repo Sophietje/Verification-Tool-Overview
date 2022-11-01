@@ -42,7 +42,7 @@ Repository: https://github.com/viperproject/sample
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_7 (CAV 2018)
+[Permission Inference for Array Programs](https://doi.org/10.1007/978-3-319-96142-2_7) (CAV 2018)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

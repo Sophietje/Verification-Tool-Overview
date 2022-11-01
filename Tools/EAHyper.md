@@ -46,7 +46,7 @@ Try EAHyper online: https://www.react.uni-saarland.de/tools/online/EAHyper/
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63390-9_29 (CAV '17)
+[EAHyper: Satisfiability, Implication, and Equivalence Checking of Hyperproperties](https://doi.org/10.1007/978-3-319-63390-9_29) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Possibly related: [MCHyper](Checkers/MCHyper.md)

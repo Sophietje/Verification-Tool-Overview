@@ -47,7 +47,7 @@ Repository: https://github.com/sedrews/digits
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_15 (CAV '19)
+[Efficient Synthesis with Probabilistic Constraints](https://doi.org/10.1007/978-3-030-25540-4_15) (CAV '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

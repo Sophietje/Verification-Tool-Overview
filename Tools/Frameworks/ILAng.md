@@ -33,7 +33,7 @@ Project page/documentation: https://bo-yuan-huang.gitbook.io/ilang/
 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-17462-0_21 (TACAS '19)
+[ILAng: A Modeling and Verification Platform for SoCs Using Instruction-Level Abstractions](https://doi.org/10.1007/978-3-030-17462-0_21) (TACAS '19)
 
 #### Meta
 :: Framework

@@ -37,7 +37,6 @@ Uses [[Tensorflow]] 1.14 for DNN (deep neural network) controller synthesis, and
 
 #### List of related papers:
 
-
 #### Related tools (tools mentioned or compared to in the paper):
 [[nncontroller]]
 

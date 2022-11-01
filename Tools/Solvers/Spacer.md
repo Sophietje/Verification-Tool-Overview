@@ -29,8 +29,8 @@ Integrated in [Z3](SMT/Z3.md).
 #### Last publication date:
 
 #### List of related papers:
-https://doi.org/10.1007/s10703-016-0249-4 (Formal Methods in System Design '16)
-https://doi.org/10.1007/978-3-319-08867-9_2 (CAV '14)
+[SMT-based model checking for recursive programs](https://doi.org/10.1007/s10703-016-0249-4) (Formal Methods in System Design '16)
+[SMT-Based Model Checking for Recursive Programs](https://doi.org/10.1007/978-3-319-08867-9_2) (CAV '14)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [GSpacer](GSpacer.md): Extension of Spacer

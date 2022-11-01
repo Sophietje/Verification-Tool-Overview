@@ -47,7 +47,7 @@ https://figshare.com/articles/code/AdamMC_A_Model_Checker_for_Petri_Nets_with_Tr
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53291-8_5
+[AdamMC: A Model Checker for Petri Nets with Transits against Flow-LTL](https://doi.org/10.1007/978-3-030-53291-8_5)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

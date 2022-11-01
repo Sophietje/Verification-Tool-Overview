@@ -41,7 +41,7 @@ Project page (of the Modest Toolset): https://www.modestchecker.net
 #### Last publication date:
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-89963-3_20 (TACAS 2018)
+[A Statistical Model Checker for Nondeterminism and Rare Events](https://doi.org/10.1007/978-3-319-89963-3_20) (TACAS 2018)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

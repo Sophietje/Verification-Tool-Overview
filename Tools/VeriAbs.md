@@ -41,10 +41,10 @@ GitHub: https://github.com/divyeshunadkat/VAJRA ([[VAJRA]] and [[TILER]] are int
 17 Apr 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-54580-5_32 (TACAS'17 tool)
-https://doi.org/10.1007/978-3-319-89963-3_32 (TACAS'18 tool)
-https://doi.org/10.1007/978-3-030-45237-7_25 (TACAS'20 tool)
-https://doi.org/10.1007/978-3-030-45190-5_2 (TACAS'20 full paper)
+[VeriAbs: Verification by Abstraction (Competition Contribution)](https://doi.org/10.1007/978-3-662-54580-5_32) (TACAS'17 tool)
+[VeriAbs: Verification by Abstraction and Test Generation](https://doi.org/10.1007/978-3-319-89963-3_32) (TACAS'18 tool)
+[VeriAbs : Verification by Abstraction and Test Generation (Competition Contribution)](https://doi.org/10.1007/978-3-030-45237-7_25) (TACAS'20 tool)
+[Verifying Array Manipulating Programs with Full-Program Induction](https://doi.org/10.1007/978-3-030-45190-5_2) (TACAS'20 full paper)
 
 #### Related tools (tools mentioned or compared to in the paper):
 * [[PRISM]]

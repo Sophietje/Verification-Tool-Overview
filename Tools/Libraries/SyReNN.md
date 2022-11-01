@@ -38,7 +38,7 @@ Repository: https://github.com/95616ARG/SyReNN
 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-72013-1_15 (TACAS '21)
+[SyReNN: A Tool for Analyzing Deep Neural Networks](https://doi.org/10.1007/978-3-030-72013-1_15) (TACAS '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

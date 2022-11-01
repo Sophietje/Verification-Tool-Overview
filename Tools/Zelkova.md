@@ -40,7 +40,7 @@ Uses [Z3](Solvers/SMT/Z3.md), [CVC4](Solvers/SMT/CVC4.md) and [[Z3Automata]] (in
 2018
 
 #### List of related papers:
-https://doi.org/10.23919/FMCAD.2018.8602994 (FMCAD '18)
+[Semantic-based Automated Reasoning for AWS Access Policies using SMT](https://doi.org/10.23919/FMCAD.2018.8602994) (FMCAD '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[SecGuru]], [IAM Access Analyzer](IAM%20Access%20Analyzer.md)

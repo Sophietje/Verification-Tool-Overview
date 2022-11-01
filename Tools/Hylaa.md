@@ -42,9 +42,9 @@ Project page: http://stanleybak.com/hylaa
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63387-9_20 (CAV '17)
-https://doi.org/10.1145/3049797.3049808 (HSCC '17)
-https://doi.org/10.1007/978-3-662-54577-5_32 (TACAS '17)
+[Simulation-Equivalent Reachability of Large Linear Systems with Inputs](https://doi.org/10.1007/978-3-319-63387-9_20) (CAV '17)
+[HyLAA](https://doi.org/10.1145/3049797.3049808) (HSCC '17)
+[Rigorous Simulation-Based Analysis of Linear Hybrid Systems](https://doi.org/10.1007/978-3-662-54577-5_32) (TACAS '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

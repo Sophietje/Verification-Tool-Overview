@@ -39,8 +39,8 @@ Project page: http://www.ulb.ac.be/di/verif/mightyl (seems unreachable)
 12 December 2018
 
 #### List of related papers:
-https://doi.org/10.1109/ICECCS2018.2018.00027 (ICECCS '18)
-https://doi.org/10.1007/978-3-319-63387-9_21 (CAV '17)
+[Efficient Algorithms and Tools for MITL Model-Checking and Synthesis](https://doi.org/10.1109/ICECCS2018.2018.00027) (ICECCS '18)
+[MightyL: A Compositional Translation from MITL to Timed Automata](https://doi.org/10.1007/978-3-319-63387-9_21) (CAV '17)
 https://dx.doi.org/10.4230/LIPIcs.TIME.2017.7 (TIME '17)
 
 #### Related tools (tools mentioned or compared to in the paper):

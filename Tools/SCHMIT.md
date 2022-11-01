@@ -41,7 +41,7 @@ Repository: https://github.com/cuplv/Schmit
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_8 (CAV 2019)
+[Quantitative Mitigation of Timing Side Channels](https://doi.org/10.1007/978-3-030-25540-4_8) (CAV 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

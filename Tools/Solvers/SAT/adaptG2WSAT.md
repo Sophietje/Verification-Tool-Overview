@@ -24,7 +24,7 @@ SAT solver
 #### Last publication date:
 
 #### List of related papers:
-- https://doi.org/10.1007/978-3-540-72788-0_15 (SAT 2007)
+- [Combining Adaptive Noise and Look-Ahead in Local Search for SAT ](https://doi.org/10.1007/978-3-540-72788-0_15) (SAT 2007)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[gNovelty]]

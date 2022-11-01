@@ -36,7 +36,7 @@ Repository: https://github.com/claudiacauli/CloudFORMAL
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81685-8_36 (CAV '21)
+[Pre-deployment Security Assessment for Cloud Services Through Semantic Reasoning](https://doi.org/10.1007/978-3-030-81685-8_36) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

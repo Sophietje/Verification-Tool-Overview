@@ -45,8 +45,8 @@ Repository: https://github.com/sen-uni-kn/tartar
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_25 (CAV '20)
-https://doi.org/10.1007/978-3-030-25540-4_5 (CAV '19)
+[TarTar: A Timed Automata Repair Tool](https://doi.org/10.1007/978-3-030-53288-8_25) (CAV '20)
+[Clock Bound Repair for Timed Systems](https://doi.org/10.1007/978-3-030-25540-4_5) (CAV '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other repair tools: [[BugAssist]], [[ReAssert]], [[Angelix]], [[S3]], [[SemFix]], [[SketchFix]].

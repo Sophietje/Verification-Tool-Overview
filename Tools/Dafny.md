@@ -44,14 +44,14 @@ Repository: https://github.com/dafny-lang/dafny
 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-98047-8_12 (Principled Software Development '18)
-https://doi.org/10.1007/978-3-030-02928-9_4 (SETSS '17)
-https://doi.org/10.1109/MS.2017.4121212 (IEEE Software '17)
-https://doi.org/10.1007/978-3-319-41528-4_20 (CAV '16)
-https://doi.org/10.1007/978-3-662-49674-9_25 (TACAS '16)
-https://doi.org/10.29007/rkxm (LPAR '15)
-https://doi.org/10.1109/ICSE.2013.6606754 (ICSE '13)
-https://doi.org/10.1007/978-3-642-17511-4_20 (LPAR '10)
+[Modular Verification Scopes via Export Sets and Translucent Exports](https://doi.org/10.1007/978-3-319-98047-8_12) (Principled Software Development '18)
+[Modeling Concurrency in Dafny](https://doi.org/10.1007/978-3-030-02928-9_4) (SETSS '17)
+[Accessible Software Verification with Dafny](https://doi.org/10.1109/MS.2017.4121212) (IEEE Software '17)
+[Trigger Selection Strategies to Stabilize Program Verifiers](https://doi.org/10.1007/978-3-319-41528-4_20) (CAV '16)
+[Integrated Environment for Diagnosing Verification Errors](https://doi.org/10.1007/978-3-662-49674-9_25) (TACAS '16)
+[Compiling Hilbert's epsilon operator](https://doi.org/10.29007/rkxm) (LPAR '15)
+[Developing verified programs with Dafny](https://doi.org/10.1109/ICSE.2013.6606754) (ICSE '13)
+[Dafny: An Automatic Program Verifier for Functional Correctness](https://doi.org/10.1007/978-3-642-17511-4_20) (LPAR '10)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other auto-active verifiers (i.e. verifiers where the user has no interaction with the solver): [[Spec#]], [Frama-C](Frameworks/Frama-C.md), [SPARK](SPARK.md), [[AutoProof]].

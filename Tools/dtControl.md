@@ -36,8 +36,8 @@ Repository: https://gitlab.lrz.de/i7/dtcontrol
 23 March 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-72013-1_17 (TACAS '21)
-https://doi.org/10.1145/3365365.3382220 (HSCC '20)
+[dtControl 2.0: Explainable Strategy Representation via Decision Tree Learning Steered by Experts](https://doi.org/10.1007/978-3-030-72013-1_17) (TACAS '21)
+[dtControl](https://doi.org/10.1145/3365365.3382220) (HSCC '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

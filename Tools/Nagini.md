@@ -41,8 +41,8 @@ Artifact of CAV 2021 paper: https://zenodo.org/record/4724854
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96145-3_33 (CAV 2018)
-https://doi.org/10.1007/978-3-030-81685-8_34 (CAV 2021)
+[Nagini: A Static Verifier for Python](https://doi.org/10.1007/978-3-319-96145-3_33) (CAV 2018)
+[Product Programs in the Wild: Retrofitting Program Verifiers to Check Information Flow Security](https://doi.org/10.1007/978-3-030-81685-8_34) (CAV 2021)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Tools that also use Viper as a back end for verification: [Gobra](Gobra.md), [[Prusti]] and [[VerCors]].

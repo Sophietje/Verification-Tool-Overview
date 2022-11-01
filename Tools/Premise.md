@@ -44,7 +44,7 @@ Artifact for CAV '21 paper: https://doi.org/10.5281/zenodo.4724623
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_26 (CAV '21)
+[Runtime Monitors for Markov Decision Processes](https://doi.org/10.1007/978-3-030-81688-9_26) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

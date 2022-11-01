@@ -47,7 +47,7 @@ Repository: https://github.com/kth-step/HolBA
 8 September 2020
 
 #### List of related papers:
-https://doi.org/10.1016/j.scico.2019.01.001 (SCP 2019)
+[TrABin: Trustworthy analyses of binaries](https://doi.org/10.1016/j.scico.2019.01.001) (SCP 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [Scam-V](Scam-V.md)

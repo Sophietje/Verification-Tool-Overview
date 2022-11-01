@@ -38,9 +38,9 @@ Download page: https://flowstar.org/dowloads/
 2014
 
 #### List of related papers:
-https://doi.org/10.1109/FMCAD.2014.6987596 (FMCAD '14)
-https://doi.org/10.29007/1w4t (ARCH 14-15)
-https://doi.org/10.1007/978-3-642-39799-8_18 (CAV '13)
+[Under-approximate flowpipes for non-linear continuous systems](https://doi.org/10.1109/FMCAD.2014.6987596) (FMCAD '14)
+[Flow* 1.2: More Effective to Play with Hybrid Systems](https://doi.org/10.29007/1w4t) (ARCH 14-15)
+[Flow*: An Analyzer for Non-linear Hybrid Systems](https://doi.org/10.1007/978-3-642-39799-8_18) (CAV '13)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other tools for linear hybrid systems analysis: [[HyTech]], [[Checkmate]], [[d/dt]], [[Ariadne]], [[HySAT/iSAT]], [[RealPaver]], [[PHAVer]], [[SpaceEx]].

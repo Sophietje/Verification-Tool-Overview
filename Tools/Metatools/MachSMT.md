@@ -39,7 +39,7 @@ Repository (Artifact for TACAS '21): https://github.com/MachSMT/MachSMT
 23 March 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-72013-1_16 (TACAS '21)
+[MachSMT: A Machine Learning-based Algorithm Selector for SMT Solvers](https://doi.org/10.1007/978-3-030-72013-1_16) (TACAS '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [SATzilla](SATzilla.md)

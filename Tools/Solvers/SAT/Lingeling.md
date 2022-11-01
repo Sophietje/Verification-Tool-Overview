@@ -39,7 +39,7 @@ Repository: https://github.com/arminbiere/lingeling
 http://fmv.jku.at/papers/Biere-SAT-Competition-2018-solvers.pdf (SAT Competition '18)
 http://fmv.jku.at/papers/Biere-SAT-Competition-2017-solvers.pdf (SAT Competition '17)
 http://fmv.jku.at/papers/Biere-SAT-Competition-2016-solvers.pdf (SAT Competition '16)
-https://doi.org/10.1613/jair.4694 (JAIR '15)
+[Clause Elimination for SAT and QSAT](https://doi.org/10.1613/jair.4694) (JAIR '15)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [plingeling](plingeling.md): Parallel front-end

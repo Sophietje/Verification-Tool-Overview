@@ -39,7 +39,7 @@ Repository: https://github.com/STLInspector/STLInspector
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63387-9_11 (CAV '17)
+[STLInspector: STL Validation with Guarantees](https://doi.org/10.1007/978-3-319-63387-9_11) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Tool to formalize specifications: [[Vispec]]

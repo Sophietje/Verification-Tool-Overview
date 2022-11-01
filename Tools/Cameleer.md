@@ -40,8 +40,8 @@ Artifact for CAV '21 paper: https://zenodo.org/record/4724119
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_31 (CAV '21)
-https://doi.org/10.1007/978-3-030-30942-8_29 (FM '19, paper that introduces the GOSPEL specification language for OCaml)
+[Cameleer: A Deductive Verification Tool for OCaml](https://doi.org/10.1007/978-3-030-81688-9_31) (CAV '21)
+[GOSPEL—Providing OCaml with a Formal Specification Language](https://doi.org/10.1007/978-3-030-30942-8_29) (FM '19, paper that introduces the GOSPEL specification language for OCaml)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

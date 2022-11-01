@@ -52,9 +52,9 @@ Repository: https://github.com/hbgit/Map2Check
 17 April 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-45237-7_29 (TACAS '20)
-https://doi.org/10.1007/978-3-319-89963-3_28 (TACAS '18)
-https://doi.org/10.1007/978-3-662-49674-9_64 (TACAS '16)
+[Map2Check: Using Symbolic Execution and Fuzzing](https://doi.org/10.1007/978-3-030-45237-7_29) (TACAS '20)
+[Map2Check Using LLVM and KLEE](https://doi.org/10.1007/978-3-319-89963-3_28) (TACAS '18)
+[Hunting Memory Bugs in C Programs with Map2Check](https://doi.org/10.1007/978-3-662-49674-9_64) (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other tools that participated in similar categories of SV-COMP: [CPAchecker](Checkers/CPAchecker.md), [DIVINE](DIVINE.md), [ESBMC](ESBMC.md), [PeSCo](Metatools/PeSCo.md), [Pinaka](Pinaka.md), [Symbiotic](Symbiotic.md), [Ultimate Automizer](Ultimate%20Automizer.md), [[UKojak]], [VeriAbs](VeriAbs.md), [VeriFuzz](VeriFuzz.md)

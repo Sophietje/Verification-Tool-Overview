@@ -44,8 +44,15 @@ Repository: https://github.com/5nizza/party-elli
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63390-9_18 (CAV '17)
-https://doi.org/10.1007/978-3-642-39799-8_66 (CAV '13)
+[Bounded Synthesis for Streett, Rabin, and 
+                  
+                    
+                  
+                  $$\text {CTL}^{*}$$
+                
+    ](https://doi.org/10.1007/978-3-319-63390-9_18) (CAV '17)
+[
+                     PARTY Parameterized Synthesis of Token Rings](https://doi.org/10.1007/978-3-642-39799-8_66) (CAV '13)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

@@ -31,7 +31,7 @@ Demo/comparison: http://termite-analyser.github.io/results/results.html
 #### Last publication date:
 
 #### List of related papers:
-https://doi.org/10.1145/2737924.2737976 (PLDI 2015)
+[Synthesis of ranking functions using extremal counterexamples](https://doi.org/10.1145/2737924.2737976) (PLDI 2015)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to [[Loopus]], [[RanK]], [[AProVE]], 

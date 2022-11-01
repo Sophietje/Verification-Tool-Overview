@@ -46,8 +46,8 @@ Try online: http://colo6-c703.uibk.ac.at/tct/index.php
 9 April 2016
 
 #### List of related papers:
-https://doi.org/10.1016/j.scico.2019.102306 (Science of Computer Programming, Vol. 185, '20)
-https://doi.org/10.1007/978-3-662-49674-9_24 (TACAS '16)
+[Automated amortised resource analysis for term rewrite systems](https://doi.org/10.1016/j.scico.2019.102306) (Science of Computer Programming, Vol. 185, '20)
+[TcT: Tyrolean Complexity Tool](https://doi.org/10.1007/978-3-662-49674-9_24) (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [AProVE](AProVE.md)

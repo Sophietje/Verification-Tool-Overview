@@ -45,7 +45,7 @@ Repository for examples of the CAV '20 paper: https://github.com/mariaschett/syr
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_10 (CAV '20)
+[Synthesis of Super-Optimized Smart Contracts Using Max-SMT](https://doi.org/10.1007/978-3-030-53288-8_10) (CAV '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

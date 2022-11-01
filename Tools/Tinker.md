@@ -35,8 +35,8 @@ Repository: https://github.com/ggrov/tinker
 9 April 2016
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-662-49674-9_37 (TACAS '16, presents Tinker2)
-https://doi.org/10.4204/EPTCS.167.5 (EPTCS vol. 167, '14, presents Tinker)
+[Developing and Debugging Proof Strategies by Tinkering](https://doi.org/10.1007/978-3-662-49674-9_37) (TACAS '16, presents Tinker2)
+[Tinker, tailor, solver, proof](https://doi.org/10.4204/EPTCS.167.5) (EPTCS vol. 167, '14, presents Tinker)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

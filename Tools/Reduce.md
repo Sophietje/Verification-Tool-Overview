@@ -29,7 +29,6 @@ Reduce can be invoked with *one* of the following options:
 
 By default Reduce will reduce Büchi automata. You can switch to NFA semantics by using the option `-finite`.
 
-
 #### Comments:
 -
 
@@ -43,7 +42,7 @@ Repository (Reduce is packaged with [RABIT](RABIT.md)): https://github.com/ISCAS
 January 2013
 
 #### List of related papers:
-https://doi.org/10.1145/2480359.2429079 (POPL 2013)
+[Advanced automata minimization](https://doi.org/10.1145/2480359.2429079) (POPL 2013)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Seems to be bundled with [RABIT](RABIT.md)

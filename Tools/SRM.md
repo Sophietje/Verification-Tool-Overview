@@ -35,7 +35,7 @@ Repository: https://github.com/AutomataDotNet/srm
 4 April 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-17462-0_24 (TACAS '19)
+[Symbolic Regex Matcher](https://doi.org/10.1007/978-3-030-17462-0_24) (TACAS '19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other regex matcher: [[RE2]]

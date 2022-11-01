@@ -45,7 +45,7 @@ Project page: https://loonwerks.com/tools/jkind.html
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_3
+[The JKind Model Checker](https://doi.org/10.1007/978-3-319-96142-2_3)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to [[Kind 2]], [[Zustre]], [Z3](../Solvers/SMT/Z3.md) (generalized PDR) and [nuXmv](nuXmv.md) (IC3) in the paper.

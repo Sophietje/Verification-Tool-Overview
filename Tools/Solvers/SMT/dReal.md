@@ -36,7 +36,7 @@ Collection of related repositories: https://github.com/dreal/
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_15
+[Delta-Decision Procedures for Exists-Forall Problems over the Reals](https://doi.org/10.1007/978-3-319-96142-2_15)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

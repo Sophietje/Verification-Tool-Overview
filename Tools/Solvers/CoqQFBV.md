@@ -38,7 +38,7 @@ Repository: https://github.com/fmlab-iis/coq-qfbv
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_7 (CAV '21)
+[CoqQFBV: A Scalable Certified SMT Quantifier-Free Bit-Vector Solver](https://doi.org/10.1007/978-3-030-81688-9_7) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [Boolector](SMT/Boolector.md), [[Bitwuzla]], [CVC4](SMT/CVC4.md)

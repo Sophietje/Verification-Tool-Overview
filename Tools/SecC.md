@@ -40,7 +40,7 @@ Repository: https://bitbucket.org/covern/secc
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25543-5_13 (CAV 2019)
+[SecCSL: Security Concurrent Separation Logic](https://doi.org/10.1007/978-3-030-25543-5_13) (CAV 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

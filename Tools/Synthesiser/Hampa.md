@@ -34,7 +34,7 @@ Artifact: https://github.com/XiaoLi0614/HampaAE
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_16
+[Hampa: Solver-Aided Recency-Aware Replication](https://doi.org/10.1007/978-3-030-53288-8_16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

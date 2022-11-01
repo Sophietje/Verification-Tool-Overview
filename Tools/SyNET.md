@@ -40,7 +40,7 @@ Repository: https://github.com/nsg-ethz/synet
 13 July 2017
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-63390-9_14 (CAV '17)
+[Network-Wide Configuration Synthesis](https://doi.org/10.1007/978-3-319-63390-9_14) (CAV '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Tools that produce network-wide configurations from routing requirements: [[Propane]], [[Genesis]], [[ConfigAssure]]

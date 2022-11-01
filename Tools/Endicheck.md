@@ -39,7 +39,7 @@ Repository: https://github.com/rkapl/endicheck
 17 April 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-45237-7_15 (TACAS '20)
+[Endicheck: Dynamic Analysis for Detecting Endianness Bugs](https://doi.org/10.1007/978-3-030-45237-7_15) (TACAS '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[Sparse]], [Valgrind](Frameworks/Valgrind.md), [[Memcheck]], [[Hobbes]], [[DataFlowSanitizer]]
