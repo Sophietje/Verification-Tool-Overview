@@ -28,8 +28,7 @@ Repository: https://github.com/adamtool/adam
 18 November 2021
 
 #### List of related papers:
-[
-                                Adam: Causality-Based Synthesis of Distributed Systems](https://doi.org/10.1007/978-3-319-21690-4_25) (CAV '15)
+[Adam: Causality-Based Synthesis of Distributed Systems](https://doi.org/10.1007/978-3-319-21690-4_25) (CAV '15)
 
 #### Meta
 :: Framework

@@ -39,8 +39,7 @@ Repository of [Z3](SMT/Z3.md) (µZ is part of this tool): https://github.com/Z3P
 2011
 
 #### List of related papers:
-[
-            μZ– An Efficient Engine for Fixed Points with Constraints](https://doi.org/10.1007/978-3-642-22110-1_36) (CAV' 11)
+[μZ– An Efficient Engine for Fixed Points with Constraints](https://doi.org/10.1007/978-3-642-22110-1_36) (CAV' 11)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

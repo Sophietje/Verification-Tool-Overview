@@ -39,7 +39,7 @@ July 2019
 
 #### List of related papers:
 [Btor2 , BtorMC and Boolector 3.0](https://doi.org/10.1007/978-3-319-96145-3_32)
-[null](https://doi.org/10.35011/fmvtr.2016-1)
+[Boolector at the SMT Competition 2016](https://doi.org/10.35011/fmvtr.2016-1)
 [Boolector 2.0](https://doi.org/10.3233/SAT190101)
 
 #### Related tools (tools mentioned or compared to in the paper):

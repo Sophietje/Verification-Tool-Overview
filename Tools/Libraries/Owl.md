@@ -40,12 +40,7 @@ Project page: https://owl.model.in.tum.de/
 30 September 2018
 
 #### List of related papers:
-[Owl: A Library for 
-                  
-                    
-                  
-                  $$\omega $$
-                -Words, Automata, and LTL](https://doi.org/10.1007/978-3-030-01090-4_34) (ATVA '18)
+[Owl: A Library for $\omega $-Words, Automata, and LTL](https://doi.org/10.1007/978-3-030-01090-4_34) (ATVA '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

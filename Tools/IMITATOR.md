@@ -56,7 +56,7 @@ Repository: https://github.com/imitator-model-checker/imitator/
 [IMITATOR 3: Synthesis of Timing Parameters Beyond Decidability](https://doi.org/10.1007/978-3-030-81685-8_26) (CAV '21)
 [Minimal-Time Synthesis for Parametric Timed Automata](https://doi.org/10.1007/978-3-030-17465-1_12) (TACAS '19)
 [IMITATOR 2.5: A Tool for Analyzing Robustness in Scheduling Problems](https://doi.org/10.1007/978-3-642-32759-9_6) (FM '12)
-[IMITATOR: A Tool for Synthesizing Constraints on Timing Bounds of Timed Automata ](https://doi.org/10.1007/978-3-642-03466-4_22) (ICTAC '09)
+[IMITATOR: A Tool for Synthesizing Constraints on Timing Bounds of Timed Automata](https://doi.org/10.1007/978-3-642-03466-4_22) (ICTAC '09)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [[HyMITATOR]], extension of IMITATOR for parameter synthesis on hybrid systems.

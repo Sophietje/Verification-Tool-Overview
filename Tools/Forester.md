@@ -43,8 +43,7 @@ Repository: https://github.com/martinhruska/forester/
 31 March 2017
 
 #### List of related papers:
-[
-      Forester: From Heap Shapes to Automata Predicates](https://doi.org/10.1007/978-3-662-54580-5_24) (TACAS '17)
+[Forester: From Heap Shapes to Automata Predicates](https://doi.org/10.1007/978-3-662-54580-5_24) (TACAS '17)
 [Run Forester, Run Backwards!](https://doi.org/10.1007/978-3-662-49674-9_61) (TACAS '16)
 
 #### Related tools (tools mentioned or compared to in the paper):

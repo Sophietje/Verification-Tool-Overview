@@ -41,7 +41,7 @@ Download page: https://www.tapaal.net/download/
 #### List of related papers:
 [Stubborn Set Reduction for Timed Reachability and Safety Games](https://doi.org/10.1007/978-3-030-85037-1_3) (FORMATS '21)
 [Automatic Synthesis of Transiently Correct Network Updates via Petri Games](https://doi.org/10.1007/978-3-030-76983-3_7) (PETRI NETS '21)
-[null](https://doi.org/10.4230/LIPIcs.CONCUR.2019.23) (CONCUR '19)
+[Partial Order Reduction for Reachability Games](https://doi.org/10.4230/LIPIcs.CONCUR.2019.23) (CONCUR '19)
 [Simplification of CTL Formulae for Efficient Model Checking of Petri Nets](https://doi.org/10.1007/978-3-319-91268-4_8) (PETRI NETS '18)
 [Start Pruning When Time Gets Urgent: Partial Order Reduction for Timed Systems](https://doi.org/10.1007/978-3-319-96145-3_28) (CAV '18)
 [TAPAAL 2.0: Integrated Development Environment for Timed-Arc Petri Nets](https://doi.org/10.1007/978-3-642-28756-5_36) (TACAS '12)

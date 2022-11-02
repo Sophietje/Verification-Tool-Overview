@@ -39,7 +39,7 @@ Repository: https://github.com/ISCAS-PMC/RABIT
 September 2011
 
 #### List of related papers:
-[null](https://doi.org/10.23638/LMCS-15(1:12)2019) (Logical Methods in Computer Science 2019)
+[Efficient reduction of nondeterministic automata with application to language inclusion testing](https://doi.org/10.23638/LMCS-15(1:12)2019) (Logical Methods in Computer Science 2019)
 [Advanced automata minimization](https://doi.org/10.1145/2480359.2429079) (POPL 2013)
 [Advanced Ramsey-Based Büchi Automata Inclusion Testing](https://doi.org/10.1007/978-3-642-23217-6_13) (CONCUR 2011)
 [Simulation Subsumption in Ramsey-Based Büchi Automata Universality and Inclusion Testing](https://doi.org/10.1007/978-3-642-14295-6_14) (CAV 2010)

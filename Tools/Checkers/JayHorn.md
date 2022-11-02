@@ -45,8 +45,7 @@ Project page: https://jayhorn.github.io/jayhorn/
 [Towards String Support in JayHorn (Competition Contribution)](https://doi.org/10.1007/978-3-030-72013-1_29) (TACAS '21)
 [JayHorn](https://doi.org/10.1145/3340672.3341113) (FTfJP '19)
 [JayHorn: A Java Model Checker](https://doi.org/10.1007/978-3-030-17502-3_16) (TACAS '19)
-[
-      JayHorn: A Framework for Verifying Java programs](https://doi.org/10.1007/978-3-319-41528-4_19) (CAV '16)
+[JayHorn: A Framework for Verifying Java programs](https://doi.org/10.1007/978-3-319-41528-4_19) (CAV '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

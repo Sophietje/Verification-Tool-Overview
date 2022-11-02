@@ -49,15 +49,7 @@ Repository: https://gitlab.engr.illinois.edu/sibai2/multi-drone_simulator/-/rele
 15 July 2021
 
 #### List of related papers:
-[
-                
-                  
-                
-                $$\mathsf {SceneChecker}$$
-                
-                  SceneChecker
-                
-              : Boosting Scenario Verification Using Symmetry Abstractions](https://doi.org/10.1007/978-3-030-81685-8_28) (CAV '21)
+[$\mathsf {SceneChecker}$: Boosting Scenario Verification Using Symmetry Abstractions](https://doi.org/10.1007/978-3-030-81685-8_28) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to in CAV '21 paper: [DryVR](DryVR.md), [Flow\*](Flow*.md)

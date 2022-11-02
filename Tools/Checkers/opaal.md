@@ -40,8 +40,7 @@ Source code: https://code.launchpad.net/~opaal-developers/opaal/trunk
 2011
 
 #### List of related papers:
-[
-              opaal: A Lattice Model Checker](https://doi.org/10.1007/978-3-642-20398-5_37) (NFM '11)
+[opaal: A Lattice Model Checker](https://doi.org/10.1007/978-3-642-20398-5_37) (NFM '11)
 
 #### Related tools (tools mentioned or compared to in the paper):
 
