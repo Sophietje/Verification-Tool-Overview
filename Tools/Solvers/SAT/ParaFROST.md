@@ -22,14 +22,12 @@ SAT solver
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Based on [[CaDiCaL]], interfaces with [CBMC](../../Checkers/CBMC.md)
 
-#### Comments:
-**NOTE**: Although ParaFROST is presented as a parallel SAT solver, it only seems to be available combined with [CBMC](../../Checkers/CBMC.md) and thus it is unclear whether it can be used individually without [CBMC](../../Checkers/CBMC.md)!
-
 License: GPL-3.0
 
 #### URIs (github, websites, etc.):
 Project page: https://gears.win.tue.nl/software/gpu4bmc
-Repository: https://github.com/muhos/gpu4bmc
+ParaFROST Repository: https://github.com/muhos/ParaFROST
+CBMC Interface Repository: https://github.com/muhos/gpu4bmc
 
 #### Last commit date:
 3 June 2021
@@ -38,6 +36,7 @@ Repository: https://github.com/muhos/gpu4bmc
 15 July 2021
 
 #### List of related papers:
+[SAT Solving with GPU Accelerated Inprocessing](https://doi.org/10.1007/978-3-030-72016-2_8) (TACAS '21)
 [GPU Acceleration of Bounded Model Checking with ParaFROST](https://doi.org/10.1007/978-3-030-81688-9_21) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
