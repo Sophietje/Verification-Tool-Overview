@@ -48,3 +48,4 @@ Compared to: [[Vajra]] (part of [VeriAbs](VeriAbs.md))
 #### Meta
 :: PV3 :: checks user-specified assertions in a C program
 :: C
+:: Source :: https://doi.org/10.1145/3550355.3552426

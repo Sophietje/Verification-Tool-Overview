@@ -33,3 +33,4 @@ http://katalog.ub.tuwien.ac.at/AC13356888 (PhD thesis, 2016)
 #### Meta
 :: C
 :: PV1 :: computes symbolic bounds on loops in a program
+:: Source :: https://doi.org/10.1145/3550355.3552426

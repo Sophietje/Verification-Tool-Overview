@@ -46,3 +46,4 @@ Repository: https://github.com/andreas-abel/MeMin
 #### Meta
 :: Automaton
 :: PV1 :: minimizes Mealy machines
+:: Source :: https://doi.org/10.1145/3550355.3552426

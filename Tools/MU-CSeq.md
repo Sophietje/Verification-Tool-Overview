@@ -43,3 +43,4 @@ Project page: https://github.com/CSeq/Overview#mu-cseq
 #### Meta
 :: PV2 :: sequentialises a parallel C program
 :: C
+:: Source :: https://doi.org/10.1145/3550355.3552426

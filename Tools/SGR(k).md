@@ -46,3 +46,4 @@ Compared to in the CAV '21 paper: [Strix](Synthesiser/Strix.md)
 
 #### Meta
 :: PV2 :: generates two finite-state transducers to fit with a given artefact into the Adapter design pattern
+:: Source :: https://doi.org/10.1145/3550355.3552426

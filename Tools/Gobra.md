@@ -54,3 +54,4 @@ Other [Viper](Frameworks/Viper.md)-based verifiers: [Nagini](Nagini.md), [[Prust
 #### Meta
 :: Go
 :: PV4 :: checks memory safety, crash safety, data-race freedom, and user-provided specifications for Go programs
+:: Source :: https://doi.org/10.1145/3550355.3552426

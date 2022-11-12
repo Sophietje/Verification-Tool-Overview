@@ -46,3 +46,4 @@ Project page: http://www.cprover.org/scoot/
 :: C++
 :: SystemC
 :: PV2 :: extracts models from source code for other checkers, generates code that does not rely on SystemC
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -48,3 +48,4 @@ Repository: https://github.com/msr-quarc/ReVerC
 #### Meta
 :: PV2 :: transforms irreversible programs into reversible circuits
 :: Reversibility
+:: Source :: https://doi.org/10.1145/3550355.3552426

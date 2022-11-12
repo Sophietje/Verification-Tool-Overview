@@ -43,3 +43,4 @@ User manual: https://www.brics.dk/mona/mona14.pdf
 #### Meta
 :: Automaton
 :: PV2 :: translates WS1S and WS2S into minimum DFAs and GTAs
+:: Source :: https://doi.org/10.1145/3550355.3552426

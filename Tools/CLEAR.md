@@ -46,3 +46,4 @@ https://github.com/gbarbon/clear/
 #### Meta
 :: Concurrency
 :: PV1 :: checks a labelled transition system and visualises its problematic part
+:: Source :: https://doi.org/10.1145/3550355.3552426

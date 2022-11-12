@@ -67,3 +67,4 @@ Documentation: https://github.com/malyzajko/daisy/blob/master/doc/documentation.
 :: Scala
 :: C
 :: PV2 :: synthesises a Scala or C program where performance of floating-point operations are optimised
+:: Source :: https://doi.org/10.1145/3550355.3552426

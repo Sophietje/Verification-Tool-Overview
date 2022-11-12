@@ -47,3 +47,4 @@ FGL is a rewrite and extension of [[GL]].
 #### Meta
 :: PV2 :: transforms expressions into Boolean formulae
 :: Library
+:: Source :: https://doi.org/10.1145/3550355.3552426

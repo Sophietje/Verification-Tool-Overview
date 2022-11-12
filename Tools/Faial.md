@@ -46,3 +46,4 @@ Other tools that can find data races: [[GPUVerify]], [[PUG]], [[GKLEE]], [[SESA]
 #### Meta
 :: CUDA
 :: PV1 :: checks data-race freedom of GPU kernels
+:: Source :: https://doi.org/10.1145/3550355.3552426

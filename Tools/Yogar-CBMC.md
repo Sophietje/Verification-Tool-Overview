@@ -41,3 +41,4 @@ SV-Comp: https://gitlab.com/sosy-lab/sv-comp/archives/-/blob/master/2018/yogar-c
 :: C
 :: Concurrency
 :: PV4 :: converts a multi-threaded program into an event order graph and verifies its sequential consistency
+:: Source :: https://doi.org/10.1145/3550355.3552426

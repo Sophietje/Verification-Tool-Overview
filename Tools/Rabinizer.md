@@ -57,3 +57,4 @@ Project page Rabinizer 2: https://www7.in.tum.de/~kretinsk/rabinizer2.html
 :: Automaton
 :: LTL
 :: PV1 :: can translate LTL formulae into different types of automata
+:: Source :: https://doi.org/10.1145/3550355.3552426

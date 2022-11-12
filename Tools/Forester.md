@@ -52,3 +52,4 @@ Repository: https://github.com/martinhruska/forester/
 :: PV3 :: checks user-specified property for a C program
 :: C
 :: LTL
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -48,3 +48,4 @@ Repository: https://github.com/sjunges/rubicon
 #### Meta
 :: Model checking
 :: PV2 :: translates properties from PRISM to Dice
+:: Source :: https://doi.org/10.1145/3550355.3552426

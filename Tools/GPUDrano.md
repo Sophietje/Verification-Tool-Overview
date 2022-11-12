@@ -48,3 +48,4 @@ Repository: https://github.com/upenn-acg/gpudrano-static-analysis_v1.0
 #### Meta
 :: CUDA
 :: PV1 :: detects uncoalesced memory accesses in CUDA programs
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -58,3 +58,4 @@ Repository: https://github.com/versokova/predatorhp
 #### Meta
 :: C
 :: PV4 :: checks memory-related errors and user-specified properties in C programs
+:: Source :: https://doi.org/10.1145/3550355.3552426

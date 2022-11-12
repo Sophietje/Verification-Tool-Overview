@@ -51,3 +51,4 @@ https://github.com/alexandrumc/async-to-sync-translation
 :: C
 :: Protocol
 :: PV2 :: computes the synchronous counterpart of an asynchronous protocol
+:: Source :: https://doi.org/10.1145/3550355.3552426

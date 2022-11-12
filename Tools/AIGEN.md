@@ -48,3 +48,4 @@ Repository: https://github.com/mhdsakr/AIGEN-Tool
 #### Meta
 :: Synthesis
 :: PV2 :: synthesises a transition system from the set of requirements
+:: Source :: https://doi.org/10.1145/3550355.3552426

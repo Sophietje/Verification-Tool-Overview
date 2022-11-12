@@ -31,3 +31,4 @@ https://github.com/termite-analyser/llvm2smt
 :: PV2 :: encodes a control flow graph as an SMT formula
 :: SMT
 :: LLVM
+:: Source :: https://doi.org/10.1145/3550355.3552426

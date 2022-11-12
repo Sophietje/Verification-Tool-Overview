@@ -65,3 +65,4 @@ Repository: https://github.com/imitator-model-checker/imitator/
 :: Automaton
 :: Synthesis
 :: PV3 :: can perform a number of actions on a network of automata and a set of desired properties
+:: Source :: https://doi.org/10.1145/3550355.3552426

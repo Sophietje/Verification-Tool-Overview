@@ -53,3 +53,4 @@ Other preprocessors: [[sQueezeBF]], [[Bloqqer]]
 #### Meta
 :: PV1 :: simplifies quantified Boolean formulas and dependency quantified Boolean formulas
 :: QBF
+:: Source :: https://doi.org/10.1145/3550355.3552426

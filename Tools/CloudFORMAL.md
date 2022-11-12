@@ -43,3 +43,4 @@ Repository: https://github.com/claudiacauli/CloudFORMAL
 #### Meta
 :: Security
 :: PV4 :: checks common security best-practices and user-specified queries of a cloud configuration
+:: Source :: https://doi.org/10.1145/3550355.3552426

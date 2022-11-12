@@ -48,3 +48,4 @@ Project page: www-verimag.imag.fr/RTD-Finder
 
 #### Meta
 :: PV4 :: can check deadlock-freedom and user-specified safety properties of RT-BIP models
+:: Source :: https://doi.org/10.1145/3550355.3552426

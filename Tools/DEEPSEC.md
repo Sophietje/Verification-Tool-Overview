@@ -49,3 +49,4 @@ Other security verifiers: [[SPEC]], [[APTE]], [[Akiss]], [[Sat-Eq]],
 :: Security
 :: Protocol
 :: PV1 :: checks whether two cryptographic protocols are trace equivalent
+:: Source :: https://doi.org/10.1145/3550355.3552426

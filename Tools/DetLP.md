@@ -46,3 +46,4 @@ Repository: https://github.com/suguman/DetLP
 #### Meta
 :: Automaton
 :: PV1 :: comparator of two weighted automata
+:: Source :: https://doi.org/10.1145/3550355.3552426

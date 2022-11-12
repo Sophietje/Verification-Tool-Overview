@@ -48,3 +48,4 @@ Repository: https://github.com/SymbolicPathFinder/jpf-symbc
 :: Java
 :: Binary level
 :: PV3           :: checks properties of annotated Java code with static symbolic execution
+:: Source :: https://doi.org/10.1145/3550355.3552426

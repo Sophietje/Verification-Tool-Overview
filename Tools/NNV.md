@@ -53,3 +53,4 @@ Other tools for neural network verification: [Reluplex](Solvers/SMT/Reluplex.md)
 :: DNN
 :: Neural network
 :: PV4 :: checks whether the given network is safe
+:: Source :: https://doi.org/10.1145/3550355.3552426

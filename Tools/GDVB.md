@@ -45,3 +45,4 @@ Repository: https://github.com/edwardxu0/GDVB
 :: DNN
 :: Neural network
 :: PV2 :: given a problem and constraints, generates benchmarks
+:: Source :: https://doi.org/10.1145/3550355.3552426

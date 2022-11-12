@@ -42,3 +42,4 @@ Tools that focus on roundoff errors: [[FPTaylor]], [[PrAn]].
 #### Meta
 :: Floating point
 :: PV4 :: computers sound but tight probabilistic bounds to roundoff errors in arithmetic expressions
+:: Source :: https://doi.org/10.1145/3550355.3552426

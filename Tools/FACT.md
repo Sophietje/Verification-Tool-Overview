@@ -52,3 +52,4 @@ Project page: http://www-users.cs.york.ac.uk/~cap/FACT
 :: Probabilistic
 :: Model checking
 :: PV4 :: computes confidence intervals for given properties of timed automata
+:: Source :: https://doi.org/10.1145/3550355.3552426

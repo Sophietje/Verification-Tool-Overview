@@ -49,3 +49,4 @@ https://dx.doi.org/10.4230/LIPIcs.TIME.2017.7 (TIME '17)
 :: MITL
 :: Automaton
 :: PV2 :: compiles a temporal logic formula to a timed automaton
+:: Source :: https://doi.org/10.1145/3550355.3552426

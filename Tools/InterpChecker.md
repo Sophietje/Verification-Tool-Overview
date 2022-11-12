@@ -46,3 +46,4 @@ Repository: https://github.com/duanzhao-dz/interpchecker
 #### Meta
 :: C
 :: PV1 :: checks whether unsafe states in C code can be reached
+:: Source :: https://doi.org/10.1145/3550355.3552426

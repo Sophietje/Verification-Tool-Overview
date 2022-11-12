@@ -67,3 +67,4 @@ Repository: https://github.com/cristian-mattarei/CoSA
 :: Model checking
 :: LTL
 :: PV3 :: checks user-specified properties for hardware designs
+:: Source :: https://doi.org/10.1145/3550355.3552426

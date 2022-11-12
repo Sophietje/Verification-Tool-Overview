@@ -55,3 +55,4 @@ Repository: https://gitlab.lrz.de/ga97cer/peregrine
 :: Protocol
 :: Simulation
 :: PV1 :: verifies that a population protocol computes a user-specified predicate
+:: Source :: https://doi.org/10.1145/3550355.3552426

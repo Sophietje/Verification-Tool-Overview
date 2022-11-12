@@ -50,3 +50,4 @@ Tutorial: https://github.com/kth-step/HolBA/wiki/HolBA-SCAM-V-tutorial
 #### Meta
 :: Binary level
 :: PV4 :: randomly generates observationally equivalent inputs and checks their equivalence
+:: Source :: https://doi.org/10.1145/3550355.3552426

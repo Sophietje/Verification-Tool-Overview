@@ -47,3 +47,4 @@ Repository (of [POET](POET.md)): https://github.com/marcelosousa/poet
 :: Concurrency
 :: Haskell
 :: PV1 :: analyses a multi-threaded program to see if it conforms to expectations of the tool
+:: Source :: https://doi.org/10.1145/3550355.3552426

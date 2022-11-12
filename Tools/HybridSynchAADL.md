@@ -63,3 +63,4 @@ Repository: https://github.com/hybridsynchaadl/HybridSynchAADL
 :: Simulation
 :: Synthesis
 :: PV3 :: checks given requirements for HybridSynchAADL models
+:: Source :: https://doi.org/10.1145/3550355.3552426

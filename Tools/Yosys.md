@@ -51,3 +51,4 @@ Project page: https://yosyshq.net/yosys/
 :: Synthesis
 :: Framework
 :: PV2 :: converts from Verilog to various formats and connects to other libraries
+:: Source :: https://doi.org/10.1145/3550355.3552426

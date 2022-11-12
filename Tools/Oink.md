@@ -44,3 +44,4 @@ Repository: https://www.github.com/trolando/oink
 
 #### Meta
 :: PV1 :: solves a parity game
+:: Source :: https://doi.org/10.1145/3550355.3552426

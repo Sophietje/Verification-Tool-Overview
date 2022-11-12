@@ -38,3 +38,4 @@ Commit: 04.01.2021
 
 #### Meta:
 :: PV4 :: takes a proof and checks whether it satisfies linear propagation redundancy expectations
+:: Source :: https://doi.org/10.1145/3550355.3552426

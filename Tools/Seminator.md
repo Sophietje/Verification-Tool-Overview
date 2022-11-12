@@ -45,3 +45,4 @@ Repository: https://github.com/mklokocka/seminator
 #### Meta
 :: Automaton
 :: PV1 :: transforms a transition-based generalised Büchi automaton into an equivalent semi-deterministic one
+:: Source :: https://doi.org/10.1145/3550355.3552426

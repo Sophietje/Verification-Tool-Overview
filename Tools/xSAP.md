@@ -55,3 +55,4 @@ Other platforms for model-based safety assessment: [[Altarica/OCAS]], [[Scade]],
 #### Meta
 :: Framework
 :: PV5 :: safety assessment tool for synchronous finite-state and infinite-state systems
+:: Source :: https://doi.org/10.1145/3550355.3552426

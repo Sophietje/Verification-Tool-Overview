@@ -47,3 +47,4 @@ Repository: https://github.com/davidjpurser/porous-tool
 
 #### Meta
 :: PV2 :: generates invariants for given affine functions
+:: Source :: https://doi.org/10.1145/3550355.3552426

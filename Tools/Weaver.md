@@ -50,3 +50,4 @@ Repository: https://github.com/weaver-verifier/weaver
 
 #### Meta
 :: PV3 :: checks user-specified k-safety properties for programs in a simple imperative language
+:: Source :: https://doi.org/10.1145/3550355.3552426

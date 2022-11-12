@@ -46,3 +46,4 @@ Also compared to [DetLP](DetLP.md) in the CAV 2019 paper. The authors claim that
 #### Meta
 :: Automaton
 :: PV1 :: comparator of two weighted automata
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -52,3 +52,4 @@ Parameter synthesis for discrete-time Markovian models: [[PROPhESY]]
 
 #### Meta
 :: PV2 :: synthesises model parameters such that a property meets a given threshold
+:: Source :: https://doi.org/10.1145/3550355.3552426

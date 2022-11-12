@@ -49,3 +49,4 @@ https://arxiv.org/abs/2009.09318 (AAAI '21)
 #### Meta
 :: Neural network
 :: PV3 :: verifies safety properties of neural networks against input perturbations
+:: Source :: https://doi.org/10.1145/3550355.3552426

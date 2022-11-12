@@ -42,3 +42,4 @@ Other regex matcher: [[RE2]]
 
 #### Meta
 :: PV0 :: quickly generates matches from regular expressions
+:: Source :: https://doi.org/10.1145/3550355.3552426

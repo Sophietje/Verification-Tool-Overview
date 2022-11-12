@@ -40,3 +40,4 @@ Repository: https://github.com/grigoryfedyukovich/aeval/tree/term
 #### Meta
 :: Termination
 :: PV1 :: checks whether the encoded program terminates
+:: Source :: https://doi.org/10.1145/3550355.3552426

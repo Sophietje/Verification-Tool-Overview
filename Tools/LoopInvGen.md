@@ -47,3 +47,4 @@ http://dx.doi.org/10.1145/2908080.2908099 (about PIE, backbone of LoopInvGen)
 #### Meta
 :: SyGuS
 :: PV2 :: transforms program's assertions into an equivalent loop invariant
+:: Source :: https://doi.org/10.1145/3550355.3552426

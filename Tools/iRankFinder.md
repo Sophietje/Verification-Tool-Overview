@@ -49,3 +49,4 @@ Repository (new implementation?): https://github.com/jesusjda/pyRankFinder
 
 #### Meta
 :: PV1 :: infers ranking functions for loops
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -58,3 +58,4 @@ Other stateless model checkers: [GenMC](Checkers/GenMC.md), [[RCMC]], [[CDSCheck
 :: Model checking
 :: Concurrency
 :: PV5 :: given a program and a memory model, reports assertion violations
+:: Source :: https://doi.org/10.1145/3550355.3552426

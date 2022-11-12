@@ -52,3 +52,4 @@ Documentation: https://github.com/rems-project/isla/blob/master/doc/axiomatic.ad
 :: Concurrency
 :: Binary level
 :: PV2 :: generates a state graph or a test case from an architecture spec
+:: Source :: https://doi.org/10.1145/3550355.3552426

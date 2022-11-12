@@ -49,3 +49,4 @@ Repository: https://github.com/viperproject/sample
 
 #### Meta
 :: PV2 :: generates permission pre- and postconditions for Viper programs
+:: Source :: https://doi.org/10.1145/3550355.3552426

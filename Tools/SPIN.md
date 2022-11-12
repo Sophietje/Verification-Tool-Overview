@@ -59,3 +59,4 @@ The Spin Model Checker: Primer and Reference Manual (ISBN: 978-0321228628, 2003)
 :: PV5 :: analyses models of multi-threaded applications with different message passing paradigms or shared memory communication
 :: Simulation
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

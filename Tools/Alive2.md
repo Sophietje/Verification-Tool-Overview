@@ -62,3 +62,4 @@ Online version of `alice-tv` tool: https://alive2.llvm.org/ce/
 :: LLVM
 :: Compiler
 :: PV1 :: formalises LLVM code and transformations and allows to analyse them
+:: Source :: https://doi.org/10.1145/3550355.3552426

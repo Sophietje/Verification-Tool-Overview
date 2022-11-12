@@ -49,3 +49,4 @@ Project page: https://plv.colorado.edu/wwwmungojerrie/
 :: PV3 :: generates a reward scheme from an ω-regular objective and checks it on finite models
 :: Automaton
 :: LTL
+:: Source :: https://doi.org/10.1145/3550355.3552426

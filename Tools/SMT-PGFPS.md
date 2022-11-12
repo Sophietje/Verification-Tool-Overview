@@ -1,5 +1,5 @@
-#### Name:
 SMT-PGFPS
+#### Name:
 
 #### Application domain/field:
 Preliminary Safety Assessment (PSA)
@@ -44,3 +44,4 @@ Compared to in the CAV '21 paper: [xSAP](xSAP.md), [[Emmy]]
 
 #### Meta:
 :: PV2 :: computes a minimal cut set of a hypergraph
+:: Source :: https://doi.org/10.1145/3550355.3552426

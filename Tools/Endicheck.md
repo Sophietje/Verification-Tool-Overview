@@ -46,3 +46,4 @@ Repository: https://github.com/rkapl/endicheck
 
 #### Meta
 :: PV1 :: detects endianness bugs in annotated C/C++ programs
+:: Source :: https://doi.org/10.1145/3550355.3552426

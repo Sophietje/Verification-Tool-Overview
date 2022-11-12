@@ -49,3 +49,4 @@ Extended version of CAV '20 paper: https://arxiv.org/pdf/2005.06688.pdf
 #### Meta
 :: Concurrency
 :: PV3 :: checks properties of multi-threaded programs by symbolic execution
+:: Source :: https://doi.org/10.1145/3550355.3552426

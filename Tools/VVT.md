@@ -53,3 +53,4 @@ Repository: https://github.com/hgoes/vvt
 :: C
 :: C++
 :: PV3 :: encodes an LLVM program into a transition relation and checks properties on it
+:: Source :: https://doi.org/10.1145/3550355.3552426

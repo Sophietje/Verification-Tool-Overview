@@ -45,3 +45,4 @@ Compared to: [AMUSIC](AMUSIC.md)
 #### Meta
 :: Minimal Unsatisfiable Subsets (MUSes)
 :: PV1 :: counts minimal unsatisfiable subsets of a given boolean formula
+:: Source :: https://doi.org/10.1145/3550355.3552426

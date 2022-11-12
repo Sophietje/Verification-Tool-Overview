@@ -43,3 +43,4 @@ Repository: https://gitlab.lrz.de/i7/dtcontrol
 
 #### Meta
 :: PV1 :: visualises a previously synthesised controller
+:: Source :: https://doi.org/10.1145/3550355.3552426

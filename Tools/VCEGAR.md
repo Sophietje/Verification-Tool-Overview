@@ -50,3 +50,4 @@ Project page: https://www.cs.cmu.edu/~modelcheck/vcegar/
 :: Hardware
 :: Model checking
 :: PV3 :: checks user-specified safety properties for Verilog programs
+:: Source :: https://doi.org/10.1145/3550355.3552426

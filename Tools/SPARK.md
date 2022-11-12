@@ -56,3 +56,4 @@ Tutorial: https://learn.adacore.com/courses/intro-to-spark/index.html
 #### Meta
 SPARK        :: Ada
 :: PV4  :: checks user-specified specifications and absence of runtime errors for Ada programs
+:: Source :: https://doi.org/10.1145/3550355.3552426

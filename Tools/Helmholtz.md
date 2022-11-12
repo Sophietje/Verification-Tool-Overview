@@ -48,3 +48,4 @@ Repository (Helmholtz is part of the repository for Octez): https://gitlab.com/a
 #### Meta
 :: Smart contract
 :: PV3 :: verifies properties from program annotations
+:: Source :: https://doi.org/10.1145/3550355.3552426

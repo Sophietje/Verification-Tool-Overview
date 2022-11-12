@@ -52,3 +52,4 @@ Compared to: [[VNNLIB]] and [[SOCRATES]]
 :: DNN
 :: Neural network
 :: PV3 :: verifies if a given property holds for a given neural network according to a given verifier
+:: Source :: https://doi.org/10.1145/3550355.3552426

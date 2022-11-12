@@ -45,3 +45,4 @@ Repository: https://github.com/PL-ML/code2inv
 :: CHC
 :: C
 :: PV2 :: generates invariants from a C or CHC program, requires an external solver
+:: Source :: https://doi.org/10.1145/3550355.3552426

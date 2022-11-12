@@ -49,3 +49,4 @@ Project page: https://binsec.github.io/
 :: Security
 :: Binary level
 :: PV1 :: framework providing abstractions for binary code analysis
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -46,3 +46,4 @@ Repository: https://github.com/grayswandyr/cervino
 #### Meta
 :: LTL
 :: PV2 :: transforms first order LTL formulae to Electrum models
+:: Source :: https://doi.org/10.1145/3550355.3552426

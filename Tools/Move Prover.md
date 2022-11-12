@@ -47,3 +47,4 @@ https://doi.org/10.1007/978-3-030-53288-8_7 (CAV '20)
 #### Meta
 :: Smart contract
 :: PV3 :: checks user-specified properties of Move smart contracts
+:: Source :: https://doi.org/10.1145/3550355.3552426

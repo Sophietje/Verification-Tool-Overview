@@ -48,3 +48,4 @@ Uses [Z3](Solvers/SMT/Z3.md), [CVC4](Solvers/SMT/CVC4.md) and [[Z3Automata]] (in
 #### Meta
 :: PV1 :: performs one of built-in checks on an access policy
 :: Security
+:: Source :: https://doi.org/10.1145/3550355.3552426

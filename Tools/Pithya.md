@@ -51,3 +51,4 @@ Repository: https://github.com/sybila/pithya-core
 #### Meta
 :: Synthesis
 :: PV2 :: provide a set of parameter valuations to satisfy the given formula on a given dynamical system
+:: Source :: https://doi.org/10.1145/3550355.3552426

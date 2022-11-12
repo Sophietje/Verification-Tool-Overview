@@ -49,3 +49,4 @@ Repository: https://github.com/verideep/dlv
 :: DNN
 :: Python
 :: PV1 :: verifies that a neural network has no misclassifications
+:: Source :: https://doi.org/10.1145/3550355.3552426

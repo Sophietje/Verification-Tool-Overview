@@ -45,3 +45,4 @@ Project page: http://temporallogic.org/research/CAV19/
 #### Meta
 :: LTL
 :: PV2 :: given a MLTL formula, generate an equivalent in another LTL dialect to be used with an external solver
+:: Source :: https://doi.org/10.1145/3550355.3552426

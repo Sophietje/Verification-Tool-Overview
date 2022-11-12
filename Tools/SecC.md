@@ -48,3 +48,4 @@ Repository: https://bitbucket.org/covern/secc
 #### Meta
 :: Security
 :: PV3 :: checks user-specified information flow properties of C code
+:: Source :: https://doi.org/10.1145/3550355.3552426

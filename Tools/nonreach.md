@@ -49,3 +49,4 @@ Repository: https://bitbucket.org/fmessner/nonreach/src/master/
 
 #### Meta
 :: PV1 :: determines whether a problem for a rewrite system is nonreachable or infeasible
+:: Source :: https://doi.org/10.1145/3550355.3552426

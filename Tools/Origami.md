@@ -44,3 +44,4 @@ Repository (? linked on author's webpage): https://github.com/NetworkVerificatio
 #### Meta
 :: Computer network
 :: PV1 :: verifies reachability in networks in the presence of faults
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -57,3 +57,4 @@ Project page: https://neuralnetworkverification.github.io/
 :: Neural network
 :: DNN
 :: PV3 :: checks user-specified properties of deep neural networks
+:: Source :: https://doi.org/10.1145/3550355.3552426

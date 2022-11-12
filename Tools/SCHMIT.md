@@ -48,3 +48,4 @@ Repository: https://github.com/cuplv/Schmit
 
 #### Meta:
 :: PV2 :: synthesises a mitigation policy with the highest entropy
+:: Source :: https://doi.org/10.1145/3550355.3552426
