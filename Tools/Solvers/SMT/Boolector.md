@@ -32,7 +32,7 @@ Project page: https://boolector.github.io/
 Documentation: https://boolector.github.io/docs/index.html
 
 #### Last commit date:
-27 May 2021
+02 Aug 2022
 
 #### Last publication date:
 July 2019

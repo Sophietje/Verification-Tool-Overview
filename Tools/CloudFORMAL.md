@@ -30,7 +30,7 @@ Encodes AWS CloudFormation templates into Description Logic models.
 Repository: https://github.com/claudiacauli/CloudFORMAL
 
 #### Last commit date:
-25 February 2021
+30 Sep 2022
 
 #### Last publication date:
 15 July 2021

@@ -31,7 +31,7 @@ Project page: http://fmv.jku.at/lingeling/
 Repository (also contains [Lingeling](Lingeling.md) and [[Treengeling]]): https://github.com/arminbiere/lingeling
 
 #### Last commit date:
- 19 August 2021 (of complete repository)
+15 May 2022
  
 #### Last publication date:
 2020

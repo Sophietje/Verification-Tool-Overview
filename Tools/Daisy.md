@@ -50,7 +50,7 @@ Repository: https://github.com/malyzajko/daisy
 Documentation: https://github.com/malyzajko/daisy/blob/master/doc/documentation.md
 
 #### Last commit date:
-12 February 2021
+26 Apr 2022
 
 #### Last publication date:
 12 July 2019

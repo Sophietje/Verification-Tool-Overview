@@ -33,7 +33,7 @@ Repository: https://github.com/lijwen2748/simplecar/
 Project page: http://temporallogic.org/research/CAV18/
 
 #### Last commit date:
-21 December 2020
+18 Jul 2022
 
 #### Last publication date:
 18 July 2018

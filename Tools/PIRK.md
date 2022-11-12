@@ -38,7 +38,7 @@ From the CAV 2020 paper (emphasis our own): "To the best of our knowledge, PIRK 
 https://github.com/mkhaled87/pFaces-PIRK
 
 #### Last commit date:
-3 June 2021
+26 Dec 2021
 
 #### Last publication date:
 14 July 2020

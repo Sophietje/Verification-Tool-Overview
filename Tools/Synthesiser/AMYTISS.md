@@ -27,7 +27,7 @@ Tool for designing correct-by-construction controllers for large-scale discrete-
 https://github.com/mkhaled87/pFaces-AMYTISS
 
 #### Last commit date:
-17 May 2021
+26 Dec 2021
 
 #### Last publication date:
 14 July 2020

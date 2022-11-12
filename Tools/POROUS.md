@@ -35,7 +35,7 @@ Online web interface: https://porous.mpi-sws.org/
 Repository: https://github.com/davidjpurser/porous-tool
 
 #### Last commit date:
-25 August 2021
+28 Jan 2022
 
 #### Last publication date:
 15 July 2021

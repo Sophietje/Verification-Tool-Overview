@@ -25,7 +25,7 @@ Project page: https://github.com/bencaldwell/pyuppaal
 Old project page: https://launchpad.net/pyuppaal
 
 #### Last commit date:
--
+08 Sep 2015
 
 #### Last publication date:
 8 September 2015

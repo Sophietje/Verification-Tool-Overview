@@ -30,7 +30,7 @@ Repository: https://github.com/dreal/dreal4/
 Collection of related repositories: https://github.com/dreal/
 
 #### Last commit date:
-4 June 2021
+18 Sep 2022
 
 #### Last publication date:
 18 July 2018

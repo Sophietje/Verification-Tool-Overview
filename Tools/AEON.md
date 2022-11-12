@@ -35,7 +35,7 @@ Client: https://github.com/sybila/biodivine-aeon-client
 Compute engine/server: https://github.com/sybila/biodivine-aeon-server
 
 #### Last commit date:
-4 May 2020
+14 Sep 2022
 
 #### Last publication date:
 24 July 2020

@@ -37,7 +37,7 @@ Repository: https://github.com/javapathfinder/jpf-core
 Wiki: https://github.com/javapathfinder/jpf-core/wiki
 
 #### Last commit date:
-11 May 2021
+03 Sep 2022
 
 #### Last publication date:
 4 April 2019

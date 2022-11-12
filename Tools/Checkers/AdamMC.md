@@ -41,7 +41,7 @@ https://github.com/adamtool/adammc
 https://figshare.com/articles/code/AdamMC_A_Model_Checker_for_Petri_Nets_with_Transits_against_Flow-LTL_Artifact_/11676171
 
 #### Last commit date:
-15 May 2020
+31 Oct 2021
 
 #### Last publication date:
 14 July 2020

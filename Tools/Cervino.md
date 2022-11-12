@@ -33,7 +33,7 @@ Artifact for CAV '21 paper: https://zenodo.org/record/4893262
 Repository: https://github.com/grayswandyr/cervino
 
 #### Last commit date:
-2 June 2021
+28 Oct 2021
 
 #### Last publication date:
 15 July 2021

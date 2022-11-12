@@ -27,7 +27,7 @@ Stateless model checker for C programs with POSIX threading
 Repository: https://github.com/cesaro/dpu
 
 #### Last commit date:
-18 March 2018
+07 Feb 2020
 
 #### Last publication date:
 18 July 2018

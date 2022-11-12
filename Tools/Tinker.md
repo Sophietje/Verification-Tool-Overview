@@ -29,7 +29,7 @@ Project page: https://ggrov.github.io/tinker/
 Repository: https://github.com/ggrov/tinker
 
 #### Last commit date:
-5 April 2017
+13 Sep 2017
 
 #### Last publication date:
 9 April 2016

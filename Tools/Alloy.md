@@ -7,7 +7,7 @@ Project page: https://alloytools.org/
 Repository: https://github.com/AlloyTools/org.alloytools.alloy
 
 #### Last commit date:
-3 November 2021
+14 Jun 2022
 
 #### Meta
 :: Framework

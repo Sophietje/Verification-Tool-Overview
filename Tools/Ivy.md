@@ -40,7 +40,7 @@ Repository (linked on project page): https://github.com/kenmcmil/ivy
 Old repository (the original, now archived repository, links to the repository above as the new one): https://github.com/microsoft/ivy
 
 #### Last commit date:
-12 February 2022
+08 Jul 2022
 
 #### Last publication date:
 14 July 2020

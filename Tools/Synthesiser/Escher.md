@@ -27,7 +27,7 @@ Given input-output examples, it synthesizes recursive programs implementing the 
 *Cannot find the original repository but someone else did make an implementation of the algorithm: https://github.com/MrVPlusOne/Escher-Scala*
 
 #### Last commit date:
--
+25 May 2017
 
 #### Last publication date:
 2013

@@ -38,7 +38,7 @@ Repository GUI: https://github.com/sybila/pithya-gui
 Repository: https://github.com/sybila/pithya-core
 
 #### Last commit date:
-15 December 2020
+16 Aug 2022
 
 #### Last publication date:
 13 July 2017

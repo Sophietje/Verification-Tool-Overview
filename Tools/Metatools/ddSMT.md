@@ -34,7 +34,7 @@ Documentation: https://ddsmt.readthedocs.io/
 Repository: https://github.com/ddsmt/ddsmt
 
 #### Last commit date:
-2 September 2021
+19 Sep 2022
 
 #### Last publication date:
 15 July 2021

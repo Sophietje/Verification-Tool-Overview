@@ -23,7 +23,7 @@ Interface
 https://github.com/stanford-centaur/smt-switch
 
 #### Last commit date:
-18 April 2022
+29 Jun 2022
 
 #### Last publication date:
 https://doi.org/10.1007/978-3-030-80223-3_26 (SAT 2021)

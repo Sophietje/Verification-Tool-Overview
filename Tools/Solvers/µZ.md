@@ -33,7 +33,7 @@ Part of [Z3](SMT/Z3.md)
 Repository of [Z3](SMT/Z3.md) (µZ is part of this tool): https://github.com/Z3Prover/z3
 
 #### Last commit date:
--
+30 Sep 2022
 
 #### Last publication date:
 2011

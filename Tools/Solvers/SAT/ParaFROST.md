@@ -30,7 +30,7 @@ ParaFROST Repository: https://github.com/muhos/ParaFROST
 CBMC Interface Repository: https://github.com/muhos/gpu4bmc
 
 #### Last commit date:
-3 June 2021
+14 Mar 2022
 
 #### Last publication date:
 15 July 2021

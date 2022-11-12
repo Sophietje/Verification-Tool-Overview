@@ -32,7 +32,7 @@ It takes a `QF_BV` query in [SMT-LIB](../../Formats/SMT-LIB.md) format. This is 
 Repository: https://github.com/fmlab-iis/coq-qfbv
 
 #### Last commit date:
-9 September 2021
+28 Sep 2022
 
 #### Last publication date:
 15 July 2021

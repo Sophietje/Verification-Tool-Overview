@@ -27,7 +27,7 @@ Repository: https://github.com/Bo-Yuan-Huang/ILAng
 Project page/documentation: https://bo-yuan-huang.gitbook.io/ilang/
 
 #### Last commit date:
-12 October 2021
+22 Apr 2022
 
 #### Last publication date:
 2019

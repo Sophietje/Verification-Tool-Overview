@@ -32,7 +32,7 @@ Uses [Escher](Synthesiser/Escher.md), [Z3](Solvers/SMT/Z3.md)
 Repository: https://github.com/SaswatPadhi/LoopInvGen
 
 #### Last commit date:
-23 April 2020
+22 Jan 2021
 
 #### Last publication date:
 12 July 2019

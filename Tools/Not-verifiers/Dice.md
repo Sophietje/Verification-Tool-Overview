@@ -23,7 +23,7 @@ Language
 https://github.com/SHoltzen/dice
 
 #### Last commit date:
-22 April 2022
+15 Jun 2022
 
 #### Last publication date:
 
