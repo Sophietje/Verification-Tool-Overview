@@ -47,3 +47,4 @@ Cerberus synthesizes monitors for security-sensitive workflows. These run-time m
 #### Meta
 :: Monitoring
 :: PV2 :: synthesises run-time monitors for enforcing authorization policies
+:: Source :: https://doi.org/10.1145/3550355.3552426
