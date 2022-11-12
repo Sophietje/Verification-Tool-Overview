@@ -40,3 +40,4 @@ Repository: https://github.com/hgvk94/z3/tree/gspacer-cav-ae
 :: CHC
 :: SMT
 :: PV4 :: produces a satisfiability result for a given CHC
+:: Source :: https://doi.org/10.1145/3550355.3552426

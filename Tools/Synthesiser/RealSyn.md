@@ -55,3 +55,4 @@ Other controller synthesis algorithms: [[CoSyMa]], [[Pessoa]], [[LTLMop]], [[Tul
 #### Meta
 :: Synthesis
 :: PV2 :: synthesises a set of controllers that meet the reach-avoid specification
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -33,3 +33,4 @@ https://github.com/mvcisback/py-metric-temporal-logic
 :: Library
 :: MTL
 :: PV1 :: manipulates and evaluates metric temporal logic formulae
+:: Source :: https://doi.org/10.1145/3550355.3552426

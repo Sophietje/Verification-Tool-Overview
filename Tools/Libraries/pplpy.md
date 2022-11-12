@@ -8,3 +8,4 @@ Pypi package: https://pypi.org/project/pplpy/
 :: Python
 :: Library
 :: no PV
+:: Source :: https://doi.org/10.1145/3550355.3552426

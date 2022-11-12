@@ -45,3 +45,4 @@ Repository of [Z3](SMT/Z3.md) (µZ is part of this tool): https://github.com/Z3P
 
 #### Meta
 :: PV1 :: computes fixed points of a set of constraints
+:: Source :: https://doi.org/10.1145/3550355.3552426

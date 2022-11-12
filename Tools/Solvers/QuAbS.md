@@ -48,3 +48,4 @@ Repository: https://github.com/ltentrup/quabs
 #### Meta
 :: QBF
 :: PV4 :: produces a satisfiability result for a quantified boolean formula
+:: Source :: https://doi.org/10.1145/3550355.3552426

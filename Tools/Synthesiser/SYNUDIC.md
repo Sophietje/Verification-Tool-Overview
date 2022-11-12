@@ -47,3 +47,4 @@ Repository: https://github.com/adriagascon/synudic
 #### Meta
 :: Synthesis
 :: PV2 :: synthesises a loop-free program based on a sketch of the desired program
+:: Source :: https://doi.org/10.1145/3550355.3552426

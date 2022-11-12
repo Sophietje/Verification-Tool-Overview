@@ -49,3 +49,4 @@ Repository: https://github.com/vprover/vampire
 
 #### Meta
 :: PV6 :: can produce proofs for theorems in first order logic
+:: Source :: https://doi.org/10.1145/3550355.3552426

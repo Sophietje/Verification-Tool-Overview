@@ -34,3 +34,4 @@ Handbook: https://www3.hhu.de/stups/handbook/rodin/
 
 #### Meta
 :: PV6 :: theorem prover
+:: Source :: https://doi.org/10.1145/3550355.3552426

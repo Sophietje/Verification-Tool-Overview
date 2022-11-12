@@ -47,3 +47,4 @@ September 2021
 :: AADL
 :: PV3           :: checks properties against an AADL model
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

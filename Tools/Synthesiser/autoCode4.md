@@ -43,3 +43,4 @@ Last updated: 20 October 2016 on sourceforge
 #### Meta
 :: Synthesis
 :: PV2 :: synthesises a reactive controller based on requirements written in the GXW subset of LTL
+:: Source :: https://doi.org/10.1145/3550355.3552426

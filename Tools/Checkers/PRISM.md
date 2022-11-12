@@ -64,3 +64,4 @@ Repository: https://github.com/prismmodelchecker/prism
 :: Probabilistic
 :: PV4 :: model checker for probabilistic timed automata
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

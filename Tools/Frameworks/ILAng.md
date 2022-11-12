@@ -39,3 +39,4 @@ Project page/documentation: https://bo-yuan-huang.gitbook.io/ilang/
 :: Framework
 :: PV3 :: constructs ILA models, makes them from templates, checks equivalence, verifies properties
 :: Binary level
+:: Source :: https://doi.org/10.1145/3550355.3552426

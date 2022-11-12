@@ -40,3 +40,4 @@ Project page: https://www.swmath.org/software/20822
 :: C++
 :: MITL
 :: PV4 :: aids property investigation in deterministic models of hybrid dynamical systems
+:: Source :: https://doi.org/10.1145/3550355.3552426

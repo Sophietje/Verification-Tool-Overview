@@ -38,3 +38,4 @@ Integrated in [Z3](SMT/Z3.md).
 #### Meta
 :: CHC
 :: PV4 :: produces a satisfiability result for Constrained Horn Clauses
+:: Source :: https://doi.org/10.1145/3550355.3552426

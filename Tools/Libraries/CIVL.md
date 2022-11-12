@@ -39,3 +39,4 @@ Code (part of [[Boogie]]): https://github.com/boogie-org/boogie
 #### Meta
 :: Concurrency
 :: PV3 :: checks if properties of a concurrent program have been violated
+:: Source :: https://doi.org/10.1145/3550355.3552426

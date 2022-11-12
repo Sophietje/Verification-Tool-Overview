@@ -40,3 +40,4 @@ https://github.com/lorisdanto/automatark (benchmarks)
 :: Library
 :: Automaton
 :: PV1 :: supports creating and transforming symbolic automata
+:: Source :: https://doi.org/10.1145/3550355.3552426

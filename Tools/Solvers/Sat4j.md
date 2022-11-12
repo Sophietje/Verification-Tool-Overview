@@ -52,3 +52,4 @@ https://content.iospress.com/articles/journal-on-satisfiability-boolean-modeling
 :: SAT
 :: PV4 :: produces a satisfiability result for a formula
 :: Java
+:: Source :: https://doi.org/10.1145/3550355.3552426

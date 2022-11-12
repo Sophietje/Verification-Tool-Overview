@@ -52,3 +52,4 @@ Repository: https://github.com/moves-rwth/kipro2
 :: Probabilistic
 :: PV3 :: checks properties of a pCGL program
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

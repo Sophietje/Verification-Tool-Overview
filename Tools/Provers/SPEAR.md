@@ -40,3 +40,4 @@ http://www.domagoj-babic.com/index.php/Pubs/SAT08 (SAT 2008 Race)
 #### Meta
 :: SAT
 :: PV4 :: proves a theorem about software verification conditions, formulated in bit-vectors
+:: Source :: https://doi.org/10.1145/3550355.3552426

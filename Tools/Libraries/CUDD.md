@@ -19,3 +19,4 @@ Repository: https://github.com/ivmai/cudd
 :: BDD
 :: ADD
 :: Library
+:: Source :: https://doi.org/10.1145/3550355.3552426

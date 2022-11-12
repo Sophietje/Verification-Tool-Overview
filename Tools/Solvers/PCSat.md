@@ -51,3 +51,4 @@ Repository (contains [MuVal](../MuVal.md) and PCSat): https://github.com/hiroshi
 #### Meta
 :: CHC
 :: PV2 :: generates an SMT problem from a pfwCSP spec, requires an external solver
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -62,3 +62,4 @@ Repository: https://github.com/upscale-project/pono
 :: PV3 :: checks a user-specified property for a transition system
 :: Hardware
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

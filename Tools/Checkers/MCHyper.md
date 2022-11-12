@@ -54,3 +54,4 @@ Repository: https://github.com/reactive-systems/MCHyper
 :: HyperLTL
 :: PV4 :: proves given properties on a given circuit
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -42,3 +42,4 @@ http://web.archive.org/web/20121127092829/http://reo.project.cwi.nl/reo/ (a very
 :: Protocol
 :: Session types
 :: Automaton
+:: Source :: https://doi.org/10.1145/3550355.3552426

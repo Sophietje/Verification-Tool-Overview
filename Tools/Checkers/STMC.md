@@ -46,3 +46,4 @@ Other statistical model checkers: [PRISM](PRISM.md), [[MRMC]], [[VESTA]], [[YMER
 :: Probabilistic
 :: Model checking
 :: PV3 :: can verify any property expressible in PRISM against any system expresible in PRISM
+:: Source :: https://doi.org/10.1145/3550355.3552426

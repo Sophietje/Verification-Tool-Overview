@@ -34,3 +34,4 @@ Versions: http://www.lemma-one.com/ProofPower/getting/versions/
 
 #### Meta
 :: PV6 :: theorem prover
+:: Source :: https://doi.org/10.1145/3550355.3552426

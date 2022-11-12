@@ -55,3 +55,4 @@ Examples: https://github.com/moves-rwth/attestor-examples
 :: Java
 :: PV5 :: checks if a property holds for a program, generates additional properties, provides examples and analysis logs
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

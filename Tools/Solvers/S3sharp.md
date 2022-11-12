@@ -51,3 +51,4 @@ Other string model counters, compared to in the CAV '17 paper: [[SMC]], [ABC](Fr
 
 #### Meta
 :: PV1 :: calculates the upper bound for the model count for a given formula
+:: Source :: https://doi.org/10.1145/3550355.3552426

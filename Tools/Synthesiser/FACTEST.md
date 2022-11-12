@@ -55,3 +55,4 @@ Repository: https://github.com/kmmille/FACTEST
 #### Meta
 :: Synthesis
 :: PV2 :: synthesises a controller for non-linear systems with reach-avoid requirements
+:: Source :: https://doi.org/10.1145/3550355.3552426

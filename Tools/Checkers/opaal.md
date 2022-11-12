@@ -48,3 +48,4 @@ Source code: https://code.launchpad.net/~opaal-developers/opaal/trunk
 :: Model checking
 :: Automaton
 :: PV5 :: a lightweight variant of UPPAAL intended for rapid prototyping
+:: Source :: https://doi.org/10.1145/3550355.3552426

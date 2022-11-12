@@ -53,3 +53,4 @@ Download page: https://www.tapaal.net/download/
 :: PV3 :: performs queries on Petri nets
 :: Model checking
 :: Simulation
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -42,3 +42,4 @@ https://bitbucket.org/arieg/extavy/src/master/
 #### Meta
 :: PV3 :: takes a model and a property and checks satisfiability within bounds
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

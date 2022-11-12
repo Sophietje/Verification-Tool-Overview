@@ -43,3 +43,4 @@ Mentioned in the README of the repository: [POET](POET.md), [Nidhugg](../Nidhugg
 :: Concurrency
 :: PV3 :: detects violations of user-defined and assumed assertions
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

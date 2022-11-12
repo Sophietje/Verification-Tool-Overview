@@ -19,3 +19,4 @@ Since 2008, Verilog has been merged into [[SystemVerilog]].
 :: no PV
 :: Specification format
 :: Hardware
+:: Source :: https://doi.org/10.1145/3550355.3552426

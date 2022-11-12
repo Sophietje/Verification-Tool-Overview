@@ -26,3 +26,4 @@ http://www.apfloat.org/apfloat/ (for C++)
 :: C++
 :: Library
 :: PV0 :: operates on extreme-precision real numbers (with millions of digits)
+:: Source :: https://doi.org/10.1145/3550355.3552426

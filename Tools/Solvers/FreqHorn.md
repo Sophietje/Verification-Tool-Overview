@@ -44,3 +44,4 @@ Other repository that is also linked: https://github.com/grigoryfedyukovich/aeva
 :: CHC
 :: SyGuS
 :: PV4 :: proves satisfiability of a CHC system by generating invariants
+:: Source :: https://doi.org/10.1145/3550355.3552426

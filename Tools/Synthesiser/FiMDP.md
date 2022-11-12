@@ -46,3 +46,4 @@ https://github.com/FiMDP/FiMDP
 #### Meta
 :: Synthesis
 :: PV2 :: synthesises a controller for a resource-constrained Markov Decision Process
+:: Source :: https://doi.org/10.1145/3550355.3552426

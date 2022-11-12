@@ -50,3 +50,4 @@ Project page: http://www.cprover.org/ebmc/
 :: LTL           :: also can work with SystemVerilog assertions
 :: PV3           :: checks assertions/properties against a Verilog/Netlists/… spec
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -43,3 +43,4 @@ Project page: https://uppaal.org/
 :: Simulation
 :: Model checking
 :: PV5 :: an IDE for modelling, validating and verifying networks of timed automata
+:: Source :: https://doi.org/10.1145/3550355.3552426

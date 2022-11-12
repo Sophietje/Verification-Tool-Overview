@@ -47,3 +47,4 @@ Web interface (currently offline): cerberus.cl.cam.ac.uk/bmc.html
 :: C
 :: PV1           :: checks a C program against a predefined concurrency model
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -34,3 +34,4 @@ https://nuxmv.fbk.eu/downloads/nuxmv-user-manual.pdf
 
 #### Meta
 :: PV3 :: a dedicated property checker for infinite domains
+:: Source :: https://doi.org/10.1145/3550355.3552426

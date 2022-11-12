@@ -60,3 +60,4 @@ Automata learning libraries: [[libalf]], [LearnLib](Libraries/LearnLib.md)
 :: Automaton
 :: Library
 :: PV1 :: learns, transforms, inverts, complements Büchi automata
+:: Source :: https://doi.org/10.1145/3550355.3552426

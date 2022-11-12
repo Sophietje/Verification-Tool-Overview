@@ -12,3 +12,4 @@ Project page: https://souffle-lang.github.io/
 
 #### Meta
 :: No PV
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -46,3 +46,4 @@ Repository: https://github.com/fmlab-iis/coq-qfbv
 #### Meta
 :: SMT
 :: PV2 :: produces a satisfiability formula for a query
+:: Source :: https://doi.org/10.1145/3550355.3552426

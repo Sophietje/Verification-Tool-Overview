@@ -46,3 +46,4 @@ Repository: https://github.com/schasins/PPL-synthesis
 :: Probabilistic
 :: PV2 :: synthesises probabilistic programs from relational datasets
 :: Synthesis
+:: Source :: https://doi.org/10.1145/3550355.3552426

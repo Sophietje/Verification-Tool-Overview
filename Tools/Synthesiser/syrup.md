@@ -53,3 +53,4 @@ Repository for examples of the CAV '20 paper: https://github.com/mariaschett/syr
 :: Synthesis
 :: Smart contract
 :: PV2 :: generates optimized EVM bytecode to transform the source into the target stack
+:: Source :: https://doi.org/10.1145/3550355.3552426

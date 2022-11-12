@@ -49,3 +49,4 @@ SimpleCAR is a rewrite of [[CARChecker]].
 :: Hardware
 :: Model checking
 :: PV3 :: checks if a given property holds on a given circuit model
+:: Source :: https://doi.org/10.1145/3550355.3552426

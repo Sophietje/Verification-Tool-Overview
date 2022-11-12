@@ -49,3 +49,4 @@ Compared to: [DIVINE](../DIVINE.md), [Nidhugg](../Nidhugg.md)
 :: Concurrency
 :: PV3 :: checks assertions in a multi-threaded program
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

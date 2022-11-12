@@ -40,3 +40,4 @@ Projects that use Why3: [Frama-C](Frama-C.md), [SPARK](../SPARK.md), [[Krakatoa]
 :: Java
 :: Ada
 :: PV2 :: can generate correct OCaml programs or use external provers to discharge verification conditions
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -47,3 +47,4 @@ Online interface: https://www.react.uni-saarland.de/tools/online/BoSy/
 :: LTL
 :: Synthesis
 :: PV4 :: proves realisability of a given property
+:: Source :: https://doi.org/10.1145/3550355.3552426

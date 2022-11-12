@@ -40,3 +40,4 @@ Repository: https://github.com/AlloyTools/org.alloytools.alloy
 
 #### Meta
 :: PV3 :: checks user-specified assertions in Alloy models
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -47,3 +47,4 @@ Other bounded model checkers: [CBMC](CBMC.md), [Nidhugg](../Nidhugg.md)
 :: C
 :: PV4 :: checks assertions in a C program within a chosen memory spec
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

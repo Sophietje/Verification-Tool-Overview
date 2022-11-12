@@ -54,3 +54,4 @@ Repository: https://github.com/5nizza/party-elli
 :: Synthesis
 :: LTL
 :: PV2 :: generates an automaton from source code or spec
+:: Source :: https://doi.org/10.1145/3550355.3552426

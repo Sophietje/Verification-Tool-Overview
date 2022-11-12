@@ -53,3 +53,4 @@ Project page: https://www.cprover.org/cbmc/
 :: C++
 :: PV3           :: verifies given/parameterised properties of C code
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

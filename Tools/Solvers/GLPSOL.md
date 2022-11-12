@@ -39,3 +39,4 @@ This is a stand-alone solver for LP (linear programming) and MIP (mixed integer 
 #### Meta
 :: Mathematical optimization
 :: PV2 :: generates an algorithm description to solve the given problem
+:: Source :: https://doi.org/10.1145/3550355.3552426

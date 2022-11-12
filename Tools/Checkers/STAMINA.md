@@ -48,3 +48,4 @@ Repository: https://github.com/fluentverification/stamina
 :: Probabilistic
 :: Model checking
 :: PV3 :: checks properties on continuous-time Markov chains
+:: Source :: https://doi.org/10.1145/3550355.3552426

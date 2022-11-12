@@ -58,3 +58,4 @@ Repository: https://github.com/mpi-sws/genmc/
 :: C++
 :: PV5 :: given a C program with assertions and a memory model spec, reports safety errors
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

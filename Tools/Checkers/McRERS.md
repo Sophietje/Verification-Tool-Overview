@@ -50,3 +50,4 @@ Artifact (CAV 2020): https://vsl.cis.udel.edu/cav2020/
 :: PV3 :: checks interruptible LTL property for a labelled transition system
 :: LTL
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

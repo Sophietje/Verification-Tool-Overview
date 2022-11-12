@@ -5,3 +5,4 @@ Description of the format as was given for the SAT competition in 2009: http://w
 #### Meta
 :: no PV
 :: Specification format
+:: Source :: https://doi.org/10.1145/3550355.3552426

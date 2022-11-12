@@ -44,3 +44,4 @@ Uses [[Tensorflow]] 1.14 for DNN (deep neural network) controller synthesis, and
 :: DNN
 :: Synthesis
 :: PV2 :: generates a DNN for a given grid
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -67,3 +67,4 @@ Repository: https://github.com/moves-rwth/storm
 :: Probabilistic
 :: PV5           :: computes how a given property is related to a given specification
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

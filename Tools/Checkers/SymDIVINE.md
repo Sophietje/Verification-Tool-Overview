@@ -50,3 +50,4 @@ Repository: https://github.com/paradise-fi/SymDIVINE
 :: Model checking
 :: LTL
 :: PV3 :: checks an LTL property or an assertion about the code
+:: Source :: https://doi.org/10.1145/3550355.3552426

@@ -44,3 +44,4 @@ Tool to synthesize (i.e. automatic construction from specification) asynchronous
 :: PV2 :: synthesises asynchronous programs based on an LTL formula
 :: Synthesis
 :: LTL
+:: Source :: https://doi.org/10.1145/3550355.3552426

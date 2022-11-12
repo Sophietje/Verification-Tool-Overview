@@ -39,3 +39,4 @@ http://dx.doi.org/10.1007/s10703-012-0167-z (Formal Methods in System Design, 20
 :: PV1 :: computes safe upper bounds for probabilistic reachability probabilities
 :: Automaton
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

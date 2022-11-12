@@ -55,3 +55,4 @@ https://figshare.com/articles/code/AdamMC_A_Model_Checker_for_Petri_Nets_with_Tr
 :: Flow-LTL
 :: Petri nets :: also software-defined networks
 :: PV3 :: verifies user-specified properties of Petri nets
+:: Source :: https://doi.org/10.1145/3550355.3552426

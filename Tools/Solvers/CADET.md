@@ -42,3 +42,4 @@ Repository: https://github.com/MarkusRabe/cadet
 #### Meta
 :: QBF
 :: PV4 :: produces a satisfiability result for a 2QBF
+:: Source :: https://doi.org/10.1145/3550355.3552426

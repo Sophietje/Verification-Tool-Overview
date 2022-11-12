@@ -54,3 +54,4 @@ Successor of [[NuSMV]].
 :: PV4 :: checks user-specified properties of a transition system, computes 
 :: Model checking
 :: Simulation
+:: Source :: https://doi.org/10.1145/3550355.3552426

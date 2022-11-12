@@ -41,3 +41,4 @@ Theorem proving in Lean 4 tutorial: https://leanprover.github.io/theorem_proving
 
 #### Meta
 :: PV6 :: interactive theorem prover
+:: Source :: https://doi.org/10.1145/3550355.3552426

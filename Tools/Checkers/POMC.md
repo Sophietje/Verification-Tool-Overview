@@ -53,3 +53,4 @@ Artifact for CAV '21: https://zenodo.org/record/4723741
 :: PV3 :: checks whether a user-specified POTL formula holds for an automaton or MiniProc program
 :: Automaton
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

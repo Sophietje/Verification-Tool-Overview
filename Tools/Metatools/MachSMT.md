@@ -46,3 +46,4 @@ Repository (Artifact for TACAS '21): https://github.com/MachSMT/MachSMT
 
 #### Meta
 :: PV2 :: decides which solver to call per instance based on pairwise ranking comparators
+:: Source :: https://doi.org/10.1145/3550355.3552426

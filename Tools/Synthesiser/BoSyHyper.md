@@ -45,3 +45,4 @@ https://github.com/reactive-systems/bosy
 :: HyperLTL
 :: PV4 :: proves realizability of a given hyperproperty
 :: Synthesis
+:: Source :: https://doi.org/10.1145/3550355.3552426

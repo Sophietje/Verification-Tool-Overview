@@ -39,3 +39,4 @@ https://git.frama-c.com/pub/meta
 
 #### Meta
 :: PV4 :: checks high-level ACSL requirements by propagating them across the codebase
+:: Source :: https://doi.org/10.1145/3550355.3552426

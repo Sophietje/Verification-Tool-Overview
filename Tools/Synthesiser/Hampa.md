@@ -41,3 +41,4 @@ Artifact: https://github.com/XiaoLi0614/HampaAE
 #### Meta
 :: Synthesis
 :: PV2 :: synthesises a replicated object that guarantees integrity, convergence and recency
+:: Source :: https://doi.org/10.1145/3550355.3552426

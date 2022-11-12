@@ -43,3 +43,4 @@ Repository: https://github.com/uw-unsat/jitsynth
 :: Synthesis
 :: Compiler
 :: PV2 :: synthesises a verified just-in-time compiler for in-kernel domain-specific languages
+:: Source :: https://doi.org/10.1145/3550355.3552426

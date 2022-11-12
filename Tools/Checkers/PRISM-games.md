@@ -53,3 +53,4 @@ Support forum: https://groups.google.com/g/prismmodelchecker
 :: Probabilistic
 :: PV3 :: checks user-specified properties for stochastic multi-player games models
 :: Model checking
+:: Source :: https://doi.org/10.1145/3550355.3552426

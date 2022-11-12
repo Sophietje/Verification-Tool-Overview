@@ -29,3 +29,4 @@ List of tools that support the format as input or output: https://adl.github.io/
 :: no PV
 :: Automaton
 :: Specification format
+:: Source :: https://doi.org/10.1145/3550355.3552426

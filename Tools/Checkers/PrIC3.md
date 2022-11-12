@@ -51,3 +51,4 @@ Repository: https://github.com/moves-rwth/PrIC3
 :: Probabilistic
 :: Model checking
 :: PV1 :: checks if the Markov decision process is safe
+:: Source :: https://doi.org/10.1145/3550355.3552426

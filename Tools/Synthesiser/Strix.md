@@ -63,3 +63,4 @@ Compared to in the CAV '18 paper: [PARTY](PARTY.md), [BoSy](BoSy.md), [[LTLSYNT]
 :: Synthesis
 :: Automaton
 :: PV2 :: synthesises a controller for an LTL formula
+:: Source :: https://doi.org/10.1145/3550355.3552426

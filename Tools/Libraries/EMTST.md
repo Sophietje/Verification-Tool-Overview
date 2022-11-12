@@ -46,3 +46,4 @@ Repository (including case studies): https://github.com/emtst/emtst-proof
 :: Library
 :: Session types
 :: PV0 :: proof assistant library for reasoning about session types
+:: Source :: https://doi.org/10.1145/3550355.3552426

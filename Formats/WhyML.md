@@ -31,3 +31,4 @@ https://why3.lri.fr/manual.pdf (Chapter 7 is "The WhyML Language Reference")
 #### Meta
 :: Specification format
 :: no PV
+:: Source :: https://doi.org/10.1145/3550355.3552426

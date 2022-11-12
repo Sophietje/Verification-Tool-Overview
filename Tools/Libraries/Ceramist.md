@@ -42,3 +42,4 @@ Artifact: https://zenodo.org/record/3749474
 #### Meta
 :: PV0 :: Coq library for reasoning about Approximate Membership Query structures
 :: Library
+:: Source :: https://doi.org/10.1145/3550355.3552426
