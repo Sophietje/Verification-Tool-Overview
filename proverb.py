@@ -79,17 +79,18 @@ TEMPLATE = '''
 		<br/><hr/>
 		<div class="f">
 			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
-			Last updated: <strong>{last_updated}</strong>.
+			Last updated: <strong>{last_updated}</strong>.{source}
 		</div>
 	</body>
 </html>
 '''
 
 class Page(object):
-	def __init__(self, t):
+	def __init__(self, t, src):
 		super(Page, self).__init__()
 		self.title = t
 		self.tabs = OrderedDict()
+		self.src = src
 	def dump(self):
 		tabber = ''
 		for tab in self.tabs:
@@ -99,11 +100,12 @@ class Page(object):
 				tabber += f'<div class="meta-info">{self.tabs[tab]}</div>'
 			else:
 				tabber += f'<div class="tabbertab">{self.tabs[tab]}</div>'
-		return TEMPLATE.format(title=self.title, tabs=tabber, last_updated=datetime.datetime.now().strftime('%B %Y'))
+		return TEMPLATE.format(title=self.title, tabs=tabber, source=self.src,\
+			last_updated=datetime.datetime.now().strftime('%B %Y'))
 
 class ToolPage(Page):
-	def __init__(self, fn, t, ft, st, rank, tags, tags_by_key, c1, c2):
-		super(ToolPage, self).__init__(t)
+	def __init__(self, fn, t, ft, st, rank, tags, tags_by_key, c1, c2, src):
+		super(ToolPage, self).__init__(t, src)
 		self.filename = fn
 		# construct the title
 		if rank < 0:
@@ -126,7 +128,7 @@ class ToolPage(Page):
 
 class IndexPage(Page):
 	def __init__(self, cat, size, lst):
-		super(IndexPage, self).__init__('Index')
+		super(IndexPage, self).__init__('Index', '')
 		if cat.endswith('</span>'):
 			i = cat.index('<span')
 			FULL_TITLE = f'<h1 class="fbs">{cat[:i]} in ProVerB{cat[i:]}</h1>'

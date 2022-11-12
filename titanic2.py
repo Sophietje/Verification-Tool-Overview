@@ -63,6 +63,7 @@ class Item(object):
 		self.name = Path(name).stem
 		self.filename = name
 		self.rank = 0 # default, rewrite with a fact
+		self.source = ''
 		cx_subsections = cx_lines = 0
 		with open(name, 'r', encoding='utf-8') as file:
 			cur_section = SECTION_GEN
@@ -86,6 +87,9 @@ class Item(object):
 						tag = tmp[1].strip()
 						desc = ''
 					elif len(tmp) == 3:
+						if tmp[1].strip().lower() == 'source':
+							self.source = make_link_from_source(tmp[2].strip())
+							continue
 						tag = tmp[1].strip()
 						desc = tmp[2].strip()
 					else:
@@ -135,7 +139,8 @@ class Item(object):
 					self.tags, \
 					tag_by_key, \
 					self.markdown_to_html1(), \
-					self.markdown_to_html2())
+					self.markdown_to_html2(), \
+					self.source)
 			file.write(p.dump())
 		# info(f'{self.name} dumped')
 	def check_for(self, section_name):

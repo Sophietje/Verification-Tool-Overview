@@ -149,6 +149,19 @@ def ul(items):
 		cuis = [i[1:].strip() for i in cuis]
 	return '<ul>' + '\n'.join([li(i) for i in cuis]) + '</ul>'
 
+def make_link_from_source(where):
+	if where == 'https://doi.org/10.4121/20347950.v1' or where == 'https://doi.org/10.1145/3550355.3552426':
+		src = 'the original ProVerB dataset (<a href="https://doi.org/10.1145/3550355.3552426">paper</a> + <a href="https://doi.org/10.4121/20347950.v1">artefact</a>)'
+	elif where.startswith('https://github.com/Sophietje/Verification-Tool-Overview/pull/'):
+		no = where.split('/')[-1]
+		src = make_link(where, f'ProVerB pull request №{no}')
+	else:
+		src = make_link(where, f'<code>{where}</code>')
+	if src:
+		return f'\n<br/>Source of this entry: {src}.'
+	else:
+		return 'FUCK'
+
 def make_link(where, what, hover='', why=''):
 	in_a = ''
 	if not where.startswith('http') and where not in EXISTENCE:
