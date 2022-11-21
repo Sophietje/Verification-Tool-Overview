@@ -45,6 +45,5 @@ Compared to in CAV '21 paper: [NNV](NNV.md) and [[ReachNN\*]] (and an older vers
 
 #### Meta
 :: Neural network
-:: Taylor models
 :: PV1 :: performs reachability analysis on closed-loop systems with neural network controllers
 :: Source :: https://doi.org/10.1145/3550355.3552426
