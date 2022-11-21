@@ -37,6 +37,7 @@ Project page: https://www.swmath.org/software/20822
 
 #### Meta
 :: Library
+:: Hybrid system
 :: C++
 :: MITL
 :: PV4 :: aids property investigation in deterministic models of hybrid dynamical systems

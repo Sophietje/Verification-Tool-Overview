@@ -53,5 +53,6 @@ Successor of version 2.0 of DryVR: https://gitlab.engr.illinois.edu/dryvrgroup/d
 
 #### Meta
 :: Automaton
+:: Hybrid system
 :: PV4 :: produces a satisfiability/reachability result for a hybrid control system
 :: Source :: https://doi.org/10.1145/3550355.3552426

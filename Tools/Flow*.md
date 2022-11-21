@@ -48,5 +48,6 @@ Other non-linear analysis tools: [[KeYmaera]], [[Ariadne]], [[HySAT/iSAT]].
 [[VNODE-LP]]
 
 #### Meta
+:: Hybrid system
 :: PV2 :: generates flowpipes for non-linear hybrid systems
 :: Source :: https://doi.org/10.1145/3550355.3552426

@@ -57,5 +57,6 @@ This toolset includes the model checker [mcsta](../Checkers/mcsta.md).
 #### Meta
 :: Framework
 :: Model checking
+:: Hybrid system
 :: PV3 :: a collection of stochastic model checkers
 :: Source :: https://doi.org/10.1145/3550355.3552426

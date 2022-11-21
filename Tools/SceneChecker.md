@@ -55,5 +55,6 @@ Repository: https://gitlab.engr.illinois.edu/sibai2/multi-drone_simulator/-/rele
 Compared to in CAV '21 paper: [DryVR](DryVR.md), [Flow\*](Flow*.md)
 
 #### Meta
+:: Hybrid system
 :: PV2 :: transforms scenarios for hybrid control systems to reachability problems, requires an external solver
 :: Source :: https://doi.org/10.1145/3550355.3552426

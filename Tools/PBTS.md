@@ -47,5 +47,6 @@ Uses [Gurobi](Solvers/Gurobi.md) (linear programming solver).
 [[CORA]], [[Flow\*]]
 
 #### Meta
+:: Hybrid system
 :: PV2 :: compute piecewise barrier tubes configuration from a system spec
 :: Source :: https://doi.org/10.1145/3550355.3552426
