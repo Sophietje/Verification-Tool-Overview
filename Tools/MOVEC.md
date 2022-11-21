@@ -42,7 +42,6 @@ Repository: https://github.com/drzchen/movec
 [[AspectJ]]
 
 #### Meta
-:: Aspect
 :: C
 :: PV2 :: performs aspect weaving
 :: Source :: https://doi.org/10.1145/3550355.3552426
