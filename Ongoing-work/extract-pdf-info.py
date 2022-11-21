@@ -34,7 +34,7 @@ md_template = """
 
 
 #### URIs (github, websites, etc.):
-
+{}
 
 #### Last commit date:
 
@@ -52,34 +52,38 @@ md_template = """
 {}
 """
 
-#TODO: recognize artifact badges
 
 # Generate a markdown file for all papers found with corresponding titles, keywords and links
-def dump_to_markdown(paper_title, doi, conf, year, keywords):
+def dump_to_markdown(paper_title, doi, conf, year, keywords, links):
   name = ''.join(e for e in paper_title if e.isalnum())
   filename = "generated/"+name+".md"
   likely_toolname = identify_likely_toolname(paper_title)
   with open(filename, 'w', encoding='utf-8') as file:
     paper_link = doi + " (" + conf + " "+ year + ")"
     keywords = "".join([":: "+k.replace("-\n", "")+"\n" for k in keywords])
-    p = md_template.format(likely_toolname, paper_link, keywords)
+    text_links = "- "
+    if not links:
+      text_links = ""
+    else:
+      text_links += "\n- ".join([str(elem) for elem in links])
+    p = md_template.format(likely_toolname, text_links, paper_link, keywords)
     file.write(p)
 
 
 
 # Extracts links from a PDF page by looking for "http" in sentences
-def extract_links_from_pdf(pages):
+def extract_links_from_pdf(main_text):
   links = []
   doi = ""
   artifact = []
-  for page in pages:
+  for page in main_text:
     text = page.extract_text()
     lines = text.split("\n")
     for line in lines:
       # Add line if it contains a link, but not if it is a link in the copyright statement (that refers to the paper itself)
       if "http" in line:
         # If it's a copyright statement then extract the DOI
-        if "artifact" in line.lower() or "code" in line.lower() or "supplement" in line.lower():
+        if "artifact" in line.lower() or "artefact" in line.lower() or "code" in line.lower() or "supplement" in line.lower():
           artifact.append(line)
         elif "The Author(s) 2022" in line or "not under copyright protection" in line:
           if doi == "":
@@ -107,11 +111,11 @@ def extract_keywords_from_pdf(page):
   return keywords
 
 # Extracts keywords and links from a paper (PDF format)
-def extract_keywords_and_links_from_pdf(pages):
+def extract_keywords_and_links_from_pdf(main_text):
   keywords = []
   links = []
-  keywords = extract_keywords_from_pdf(pages[0])
-  doi, artifact, links = extract_links_from_pdf(pages)
+  keywords = extract_keywords_from_pdf(main_text[0])
+  doi, artifact, links = extract_links_from_pdf(main_text)
   return keywords, doi, artifact, links
 
 
@@ -128,16 +132,29 @@ def detect_paper_boundaries(reader, paper_titles):
       beginnings.append(i)
     if "Open Access" in text: # Identify end of papers
       ends.append(i)
-    if "References\n" in text: # Identify beginning of bibliography
+    if "References\n" in text and not" References" in text: # Identify beginning of bibliography
       bibs.append(i)
   # Disregard first element in ends, which refers to the "Open Access" statement in the beginning of the proceedings that is not associated with any specific paper
   return list(zip(beginnings, bibs, ends[1:]))
   
 def identify_likely_toolname(title):
+  # Matches titles with one or two words before a colon.
   x = re.search("^\S+\s?\S*:.*$", title)
   if x:
     return title.split(":")[0]
   return ""
+
+# def identify_tools(pages):
+#   res = []
+#   for page in pages:
+#     text = page.extract_text()
+#     lines = text.split("\n")
+#     for line in lines:
+#       # if "tool" in line or "implement" in line or "prototype" in line:
+#  #        print(line)
+#       # Look for lines that refer to a website or a reference where the tool/artifact might be available
+#       if "artifact" in line and ("http" in line or re.match(".*\[.*\]", line)):
+        #print(line)
 
 
 for doc in os.listdir("Proceedings/"):
@@ -157,7 +174,14 @@ for doc in os.listdir("Proceedings/"):
   i = 0
   while (i < len(paper_titles)):
     begin, bib, end = paper_pages[i]
-    keywords, doi, artifact, links = extract_keywords_and_links_from_pdf(reader.pages[begin:end+1])
+    if (begin <= bib and bib <= end):
+      text_pages = reader.pages[begin:bib]
+      bib_pages = reader.pages[bib:end+1]
+    else:
+      text_pages = reader.pages[begin:end+1]
+      bib_pages = None
+    #identify_tools(reader.pages[begin:end+1])
+    keywords, doi, artifact, links = extract_keywords_and_links_from_pdf(text_pages)
     conf = "TACAS" if "TACAS" in doc else "CAV"
-    dump_to_markdown(paper_titles[i], doi, conf, "2022", keywords)
+    dump_to_markdown(paper_titles[i], doi, conf, "2022", keywords, artifact+links)
     i += 1
