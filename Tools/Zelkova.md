@@ -11,16 +11,14 @@ Security
 #### Type of tool (e.g. model checker, test generator):
 
 #### Expected input thing:
-Two AWS policies to compare **or** one AWS policy and the name of a built-in Zelkova check.
+AWS policy
 
 #### Expected input format:
 - *AWS policy/policies*: AWS policy language, in JSON structure
-- *Name of Zelkova check*: passed as an argument
 
 #### Expected output:
-*When comparing policies*: it returns whether the first policy in the payload is less permissive, more permissive, equivalent or incomparable with respect to the second policy
-
-*For built-in Zelkova check*: returns `true` or `false` based on whether the check is satisfied. It can also return `unknown` if it could not handle a construct in the policy or the solver times out.
+Set of declarative statements about what is true of the system.
+The user should check whether these findings are acceptable or not.
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Tool that encodes access policies as logical formulas and uses SMT solvers to answer questions about these policies.
@@ -28,7 +26,7 @@ Tool that encodes access policies as logical formulas and uses SMT solvers to an
 Uses [Z3](Solvers/SMT/Z3.md), [CVC4](Solvers/SMT/CVC4.md) and [[Z3Automata]] (in-house extension of Z3 to deal with regex).
 
 #### Comments:
--
+The way this tool should be used has significantly changed since the CAV '22 paper. The tool now returns a detailed set of findings about the system instead of letting the user write specifications.
 
 #### URIs (github, websites, etc.):
 -
@@ -37,9 +35,10 @@ Uses [Z3](Solvers/SMT/Z3.md), [CVC4](Solvers/SMT/CVC4.md) and [[Z3Automata]] (in
 -
 
 #### Last publication date:
-2018
+2022
 
 #### List of related papers:
+[A Billion SMT Queries a Day](https://doi.org/10.1007/978-3-031-13185-1_1) (CAV 2022)
 [Semantic-based Automated Reasoning for AWS Access Policies using SMT](https://doi.org/10.23919/FMCAD.2018.8602994) (FMCAD '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
