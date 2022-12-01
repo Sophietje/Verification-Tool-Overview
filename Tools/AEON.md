@@ -51,4 +51,4 @@ Tool to control cell behaviour through BNs: ViSiBooL.
 #### Meta
 :: BDD
 :: PV1           :: analyses bifurcations of a parametrised Boolean network
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-53291-8 :: https://doi.org/10.1145/3550355.3552426

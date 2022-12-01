@@ -51,4 +51,4 @@ August 2017
 :: Java
 :: Prolog
 :: PV1 :: analyses programs for termination
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-662-54577-5 :: https://doi.org/10.1145/3550355.3552426

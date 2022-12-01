@@ -45,4 +45,4 @@ November 2020
 
 #### Meta
 :: PV4 :: a complete solver for partial weighted MaxSAT instances
-:: Source :: extension of [[MaxSat+]] :: https://doi.org/10.1145/3550355.3552426
+:: Source :: extension of [[MiniSat+]] :: https://doi.org/10.1145/3550355.3552426
