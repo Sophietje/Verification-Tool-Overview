@@ -28,7 +28,7 @@ Exist will execute the program multiple times on a set of input states. It uses 
 -
 
 #### URIs (github, websites, etc.):
-- Repository: https://github.com/JialuJialu/Exist.
+Repository: https://github.com/JialuJialu/Exist
 
 #### Last commit date:
 12 June 2022
