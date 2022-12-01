@@ -3,8 +3,22 @@
 import latex2mathml.converter
 
 KNOWN_VENUES = {
+	'https://doi.org/10.1007/978-3-319-63390-9': 'CAV 2017',
 	'https://doi.org/10.1007/978-3-319-96142-2': 'CAV 2018',
+	'https://doi.org/10.1007/978-3-030-25543-5': 'CAV 2019',
+	'https://doi.org/10.1007/978-3-030-53291-8': 'CAV 2020',
+	'https://doi.org/10.1007/978-3-030-81688-9': 'CAV 2021',
 	'https://doi.org/10.1007/978-3-031-13185-1': 'CAV 2022',
+	'https://doi.org/10.1007/978-3-642-36742-7': 'TACAS 2013',
+	'https://doi.org/10.1007/978-3-642-54862-8': 'TACAS 2014',
+	'https://doi.org/10.1007/978-3-662-46681-0': 'TACAS 2015',
+	'https://doi.org/10.1007/978-3-662-49674-9': 'TACAS 2016',
+	'https://doi.org/10.1007/978-3-662-54577-5': 'TACAS 2017',
+	'https://doi.org/10.1007/978-3-319-89960-2': 'TACAS 2018',
+	'https://doi.org/10.1007/978-3-030-17462-0': 'TACAS 2019',
+	'https://doi.org/10.1007/978-3-030-45237-7': 'TACAS 2020',
+	'https://doi.org/10.1007/978-3-030-72016-2': 'TACAS 2021',
+	'https://doi.org/10.1007/978-3-030-99524-9': 'TACAS 2022',
 }
 
 EXISTENCE = set()
