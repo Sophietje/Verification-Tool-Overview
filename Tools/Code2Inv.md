@@ -31,7 +31,8 @@ Given a verification task and proof checker as input, it automatically learns a 
 Repository: https://github.com/PL-ML/code2inv
 
 #### Last commit date:
-26 January 2021
+26 Jan 2021 (default branch)
+26 Jan 2021 (last activity)
 
 #### Last publication date:
 14 July 2020

@@ -32,7 +32,8 @@ http://apron.cri.ensmp.fr/library/
 https://github.com/antoinemine/apron
 
 #### Last commit date:
-1 September 2021
+14 Oct 2022 (default branch)
+10 Nov 2022 (last activity)
 
 #### Last publication date:
 2009

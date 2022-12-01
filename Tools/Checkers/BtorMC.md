@@ -32,6 +32,7 @@ Seems to be included in the [Boolector](../Solvers/SMT/Boolector.md) repository:
 
 #### Last commit date:
 27 May 2021
+11 Oct 2022 (last activity)
 
 #### Last publication date:
 18 July 2018

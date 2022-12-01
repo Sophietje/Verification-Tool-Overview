@@ -29,7 +29,8 @@ Uses [[ItpMiniSat]], a modified version of [[MiniSat]], bundled with the [[ExtAv
 https://github.com/fslivovsky/unique
 
 #### Last commit date:
-23 April 2022
+13 Sep 2022 (default branch)
+13 Sep 2022 (last activity)
 
 #### Last publication date:
 14 July 2020

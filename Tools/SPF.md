@@ -32,7 +32,8 @@ License: Apache License v2.0
 Repository: https://github.com/SymbolicPathFinder/jpf-symbc
 
 #### Last commit date:
-4 August 2021
+05 Oct 2022 (default branch)
+28 Nov 2022 (last activity)
 
 #### Last publication date:
 4 April 2019

@@ -29,7 +29,8 @@ Documentation: https://leanprover.github.io/lean4/doc/
 Theorem proving in Lean 4 tutorial: https://leanprover.github.io/theorem_proving_in_lean4/
 
 #### Last commit date:
-22 February 2022
+01 Dec 2022 (default branch)
+01 Dec 2022 (last activity)
 
 #### Last publication date:
 5 July 2021

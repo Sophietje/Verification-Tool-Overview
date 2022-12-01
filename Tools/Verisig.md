@@ -30,8 +30,8 @@ Repository: https://github.com/Verisig/verisig
 CAV '21 artifact: https://github.com/rivapp/CAV21_repeatability_package
 
 #### Last commit date:
-CAV21_repeatability_package: 27 Apr 2021 (default branch)
 verisig: 09 Jun 2021 (default branch)
+CAV21_repeatability_package: 27 Apr 2021 (default branch)
 09 Jun 2021 (last activity)
 
 #### Last publication date:

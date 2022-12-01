@@ -35,7 +35,8 @@ Repository: https://github.com/por-se/por-se
 Extended version of CAV '20 paper: https://arxiv.org/pdf/2005.06688.pdf
 
 #### Last commit date:
-15 July 2020
+15 Dec 2021 (default branch)
+16 Dec 2021 (last activity)
 
 #### Last publication date:
 14 July 2020

@@ -25,10 +25,8 @@ Github group/project: https://github.com/adamtool/
 Repository: https://github.com/adamtool/adam
 
 #### Last commit date:
-18 November 2021
-30 Nov 2020 (last activity)
-30 Nov 2020 (last activity)
-30 Nov 2020 (last activity)
+04 May 2022 (default branch)
+04 May 2022 (last activity)
 
 #### List of related papers:
 [Adam: Causality-Based Synthesis of Distributed Systems](https://doi.org/10.1007/978-3-319-21690-4_25) (CAV '15)

@@ -12,7 +12,8 @@ CUDD: CU Decision Diagram package
 Repository: https://github.com/ivmai/cudd
 
 #### Last commit date:
-20 January 2016
+01 Jan 2016 (default branch)
+21 Jan 2016 (last activity)
 
 #### Meta
 :: PV0 :: a C package for manipulating decision diagrams
