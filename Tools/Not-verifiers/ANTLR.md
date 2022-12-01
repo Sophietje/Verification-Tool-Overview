@@ -37,4 +37,4 @@ Repository: https://github.com/antlr/antlr4
 
 #### Meta
 :: PV0           :: works with grammars which are relatively strictly structured
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: used by [[STLInspector]], [[Q3B]], etc :: https://doi.org/10.1145/3550355.3552426

@@ -36,4 +36,4 @@ https://github.com/UPPAALModelChecker/UDBM/wiki
 :: Library
 :: Automaton
 :: PV0 :: library to manipulate difference bounded matrices in UPPAAL
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: used by [[UPPAAL]] :: https://doi.org/10.1145/3550355.3552426

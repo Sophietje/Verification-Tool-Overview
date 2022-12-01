@@ -45,3 +45,4 @@ Repository: https://github.com/martinjonas/Q3B
 :: SMT
 :: BDD
 :: PV4 :: produces a satisfiability result for a formula
+:: Source :: https://doi.org/10.1007/978-3-030-25543-5 :: https://doi.org/10.1145/3550355.3552426

@@ -39,4 +39,4 @@ December 2021
 #### Meta
 :: Library
 :: PV0 :: a repository of definitions and proofs for real-time schedulability analysis
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-25543-5 :: https://doi.org/10.1145/3550355.3552426

@@ -42,3 +42,4 @@ Project page: http://fmv.jku.at/picosat/
 #### Meta
 :: SAT
 :: PV4 :: produces a satisfiability result for a formula
+:: Source :: used by [[SATzilla]] :: https://doi.org/10.1145/3550355.3552426

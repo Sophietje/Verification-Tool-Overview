@@ -32,3 +32,4 @@ SAT solver
 #### Meta
 :: SAT
 :: PV4 :: produces a satisfiability result for a formula with lookahead and adaptive noise
+:: Source :: used by [[SATzilla]] :: https://doi.org/10.1145/3550355.3552426

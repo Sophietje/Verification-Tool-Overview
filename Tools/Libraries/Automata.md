@@ -45,4 +45,4 @@ Repository: https://github.com/AutomataDotNet/Automata
 :: Automaton
 :: PV0 :: a library to compose symbolic automata and prepare them for analysis
 :: Library
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-63390-9 :: https://doi.org/10.1145/3550355.3552426

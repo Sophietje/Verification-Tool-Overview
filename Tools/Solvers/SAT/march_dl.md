@@ -34,3 +34,4 @@ SAT solver
 #### Meta
 :: SAT
 :: PV4 :: produces a satisfiability result with equivalence reasoning and double lookahead heuristics
+:: Source :: used by [[SATzilla]] :: https://doi.org/10.1145/3550355.3552426
