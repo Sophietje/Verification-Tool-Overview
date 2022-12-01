@@ -31,7 +31,8 @@ Project page: https://nima-roohi.github.io/STMC/
 Repository: https://github.com/nima-roohi/STMC
 
 #### Last commit date:
-13 January 2020
+13 Jan 2020 (default branch)
+06 Apr 2020 (last activity)
 
 #### Last publication date:
 14 July 2020

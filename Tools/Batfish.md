@@ -40,7 +40,8 @@ https://www.batfish.org/
 https://github.com/batfish/batfish
 
 #### Last commit date:
-28 May 2021
+30 Nov 2022 (default branch)
+30 Nov 2022 (last activity)
 
 #### Last publication date:
 2015

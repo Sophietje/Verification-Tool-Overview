@@ -33,6 +33,8 @@ FGL is integrated into [ACL2](ACL2.md).
 Repository: https://github.com/acl2/acl2/tree/master/books/centaur/fgl
 
 #### Last commit date:
+01 Dec 2022 (default branch)
+01 Dec 2022 (last activity)
 
 #### Last publication date:
 15 July 2021

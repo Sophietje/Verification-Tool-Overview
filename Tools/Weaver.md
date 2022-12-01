@@ -36,7 +36,8 @@ Uses [Z3](Solvers/SMT/Z3.md),  [MathSAT](Solvers/SMT/MathSAT.md), [Yices](Solver
 Repository: https://github.com/weaver-verifier/weaver
 
 #### Last commit date:
-25 February 2021
+25 Feb 2021 (default branch)
+25 Feb 2021 (last activity)
 
 #### Last publication date:
 12 July 2019

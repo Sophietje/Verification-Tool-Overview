@@ -35,7 +35,8 @@ SV-Comp'19: https://gitlab.com/sosy-lab/sv-comp/archives-2020/tree/master/2020/v
 GitHub: https://github.com/divyeshunadkat/VAJRA ([[VAJRA]] and [[TILER]] are integrated and are claimed as the source of success of VeriAbs at SV-Comp'20)
 
 #### Last commit date:
-20 Feb 2020
+20 Feb 2020 (default branch)
+20 Feb 2020 (last activity)
 
 #### Last publication date:
 17 Apr 2020

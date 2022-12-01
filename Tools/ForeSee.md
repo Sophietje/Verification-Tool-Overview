@@ -32,7 +32,8 @@ License: GPL-3.0
 Artifact for CAV '21 paper: https://github.com/choshina/ForeSee
 
 #### Last commit date:
-30 May 2021
+30 May 2021 (default branch)
+10 Aug 2022 (last activity)
 
 #### Last publication date:
 15 July 2021

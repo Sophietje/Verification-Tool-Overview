@@ -34,7 +34,8 @@ Project page: https://www.react.uni-saarland.de/tools/quabs/
 Repository: https://github.com/ltentrup/quabs
 
 #### Last commit date:
-24 October 2020
+24 Oct 2020 (default branch)
+24 Oct 2020 (last activity)
 
 #### Last publication date:
 2018

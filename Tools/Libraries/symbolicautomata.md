@@ -28,7 +28,9 @@ https://github.com/lorisdanto/symbolicautomata (main repo)
 https://github.com/lorisdanto/automatark (benchmarks)
 
 #### Last commit date:
-9 September 2021
+symbolicautomata: 17 Aug 2022 (default branch)
+automatark: 24 Jun 2018 (default branch)
+17 Aug 2022 (last activity)
 
 #### Last publication date:
 

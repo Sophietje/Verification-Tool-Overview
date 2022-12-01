@@ -46,7 +46,8 @@ Project page: https://map2check.github.io/
 Repository: https://github.com/hbgit/Map2Check
 
 #### Last commit date:
-13 February 2020
+13 Feb 2020 (default branch)
+13 Nov 2020 (last activity)
 
 #### Last publication date:
 17 April 2020

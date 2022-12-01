@@ -31,6 +31,9 @@ MU-CSeq 0.4/Artifact of TACAS '16 paper: http://users.ecs.soton.ac.uk/gp4/cseq/m
 Project page: https://github.com/CSeq/Overview#mu-cseq
 
 #### Last commit date:
+29 May 2021 (last activity)
+29 May 2021 (last activity)
+29 May 2021 (last activity)
 
 #### Last publication date:
 9 April 2016

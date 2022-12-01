@@ -8,7 +8,8 @@ On the github repository it is described as "An LLVM-style hardware compiler wit
 Repository: https://github.com/rdaly525/coreir
 
 #### Last commit date:
-3 December 2021
+27 Jun 2022 (default branch)
+27 Jun 2022 (last activity)
 
 #### Meta
 :: No PV

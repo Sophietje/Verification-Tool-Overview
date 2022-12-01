@@ -31,7 +31,8 @@ Project page: https://yices.csl.sri.com/
 Repository: https://github.com/SRI-CSL/yices2
 
 #### Last commit date:
-3 December 2021
+25 Nov 2022 (default branch)
+25 Nov 2022 (last activity)
 
 #### Last publication date:
 15 July 2021

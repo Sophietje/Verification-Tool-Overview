@@ -38,7 +38,8 @@ Repository: https://github.com/mdxtoc/qtpi
 TACAS '20 artifact: https://doi.org/10.6084/m9.figshare.11882592
 
 #### Last commit date:
-7 December 2021
+23 Nov 2022 (default branch)
+23 Nov 2022 (last activity)
 
 #### Last publication date:
 17 April 2020

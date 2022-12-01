@@ -34,7 +34,8 @@ There exist SyGuS problems for which the algorithm cannot prove unrealizability 
 Repository (not linked in paper, found via author's webpage): https://github.com/Herbping/Nope
 
 #### Last commit date:
-27 March 2020
+27 Mar 2020 (default branch)
+27 Mar 2020 (last activity)
 
 #### Last publication date:
 12 July 2019

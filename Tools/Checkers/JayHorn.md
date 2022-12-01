@@ -36,7 +36,8 @@ Repository: https://github.com/jayhorn/jayhorn
 Project page: https://jayhorn.github.io/jayhorn/
 
 #### Last commit date:
-27 May 2021
+27 May 2021 (default branch)
+14 Dec 2021 (last activity)
 
 #### Last publication date:
 23 March 2021

@@ -37,7 +37,8 @@ The repository calls it a "Matlab Toolbox for Neural Network Verification". It r
 Repository: https://github.com/verivital/nnv
 
 #### Last commit date:
-20 July 2021
+26 Sep 2022 (default branch)
+22 Nov 2022 (last activity)
 
 #### Last publication date:
 14 July 2020

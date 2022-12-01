@@ -43,7 +43,8 @@ Repository (mirror): https://github.com/sosy-lab/cpachecker
 Repository: https://svn.sosy-lab.org/software/cpachecker/trunk/
 
 #### Last commit date:
-25 October 2021
+30 Nov 2022 (default branch)
+30 Nov 2022 (last activity)
 
 #### Last publication date:
 November 2020

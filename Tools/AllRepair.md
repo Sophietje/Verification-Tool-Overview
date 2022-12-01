@@ -29,7 +29,8 @@ The proposed repairs are minimal in the number of changes applied to the program
 https://github.com/batchenRothenberg/AllRepair
 
 #### Last commit date:
-8 March 2021
+08 Mar 2021 (default branch)
+08 Mar 2021 (last activity)
 
 #### Last publication date:
 14 July 2020

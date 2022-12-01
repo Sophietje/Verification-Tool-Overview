@@ -51,7 +51,8 @@ License: Modified BSD (3-clause BSD) license
 Repository: https://github.com/cristian-mattarei/CoSA
 
 #### Last commit date:
-27 October 2020
+27 Oct 2020 (default branch)
+27 Oct 2020 (last activity)
 
 #### Last publication date:
 2 November 2018

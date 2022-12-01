@@ -33,7 +33,8 @@ Artifact TACAS '21: https://zenodo.org/record/4458699
 Repository (Artifact for TACAS '21): https://github.com/MachSMT/MachSMT
 
 #### Last commit date:
-29 June 2021 (for the repository with the TACAS '21 artifact)
+28 Nov 2022 (default branch)
+29 Nov 2022 (last activity)
 
 #### Last publication date:
 23 March 2021

@@ -32,7 +32,8 @@ Project page: https://boolector.github.io/
 Documentation: https://boolector.github.io/docs/index.html
 
 #### Last commit date:
-27 May 2021
+11 Oct 2022 (default branch)
+11 Oct 2022 (last activity)
 
 #### Last publication date:
 July 2019

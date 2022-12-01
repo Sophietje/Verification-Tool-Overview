@@ -23,6 +23,8 @@ The same paper has a tool to convert PR to LPR
 Repository: https://github.com/tanyongkiam/cake_lpr
 
 #### Last commit date:
+01 Nov 2022 (default branch)
+01 Nov 2022 (last activity)
 
 #### Last publication date:
 Publication: conf/tacas/TanHM21

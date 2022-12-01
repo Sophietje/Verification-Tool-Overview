@@ -34,7 +34,8 @@ Documentation (from original repository): https://github.com/psycopaths/jdart/wi
 Repository: https://github.com/tudo-aqua/jdart
 
 #### Last commit date:
-26 November 2019
+17 Sep 2018 (default branch)
+02 Jun 2019 (last activity)
 
 #### Last publication date:
 17 April 2020

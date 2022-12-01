@@ -29,7 +29,8 @@ License: MIT
 Repository: https://github.com/AutomataDotNet/srm
 
 #### Last commit date:
-15 April 2021
+15 Apr 2021 (default branch)
+23 Sep 2021 (last activity)
 
 #### Last publication date:
 4 April 2019

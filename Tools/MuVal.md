@@ -33,7 +33,8 @@ License: Apache-2.0
 Repository?: https://github.com/hiroshi-unno/coar (should include [MuVal](MuVal.md) and [PCSat](Solvers/PCSat.md))
 
 #### Last commit date:
-11 May 2021
+11 May 2021 (default branch)
+11 May 2021 (last activity)
 
 #### Last publication date:
 15 July 2021

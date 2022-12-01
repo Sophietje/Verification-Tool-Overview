@@ -31,7 +31,8 @@ Transforms transition-based generalised Büchi automata (TGBAs) into equivalent 
 Repository: https://github.com/mklokocka/seminator
 
 #### Last commit date:
-12 March 2021
+12 Mar 2021 (default branch)
+08 Jul 2021 (last activity)
 
 #### Last publication date:
 14 July 2020

@@ -31,7 +31,8 @@ nnenum focuses on the verification of fully-connected, feedforward neural networ
 Repository: https://github.com/stanleybak/nnenum
 
 #### Last commit date:
-15 June 2021
+02 Nov 2022 (default branch)
+02 Nov 2022 (last activity)
 
 #### Last publication date:
 14 July 2020

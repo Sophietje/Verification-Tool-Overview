@@ -29,7 +29,8 @@ Uses [[Rosette]]
 Repository: https://github.com/uw-unsat/jitsynth
 
 #### Last commit date:
-1 May 2020
+01 May 2020 (default branch)
+01 May 2020 (last activity)
 
 #### Last publication date:
 14 July 2020

@@ -31,7 +31,8 @@ Repository: https://github.com/openjdk/jcstress
 Project page: https://openjdk.java.net/projects/code-tools/jcstress/
 
 #### Last commit date:
-12 July 2021
+19 Oct 2022 (default branch)
+20 Nov 2022 (last activity)
 
 #### Last publication date:
 -

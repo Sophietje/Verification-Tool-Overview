@@ -39,7 +39,8 @@ License: MIT License
 Repository: https://github.com/reactive-systems/cabpy
 
 #### Last commit date:
-28 May 2021
+28 May 2021 (default branch)
+28 May 2021 (last activity)
 
 #### Last publication date:
 15 July 2021

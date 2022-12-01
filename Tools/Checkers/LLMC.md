@@ -33,7 +33,8 @@ License: GNU General Public License 3.0
 Repository: https://github.com/bergfi/llmc
 
 #### Last commit date:
-1 June 2021
+01 Jun 2021 (default branch)
+01 Jun 2021 (last activity)
 
 #### Last publication date:
 15 July 2021
