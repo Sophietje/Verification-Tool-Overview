@@ -86,10 +86,10 @@ class Item(object):
 					if len(tmp) == 2:
 						tag = tmp[1].strip()
 						desc = ''
+					elif len(tmp) >= 3 and tmp[1].strip().lower() == 'source':
+						self.source = '\n<br/>Source of this entry: ' + \
+									  '; '.join([make_link_from_source(part.strip()) for part in tmp[2:]]) + '.'
 					elif len(tmp) == 3:
-						if tmp[1].strip().lower() == 'source':
-							self.source = make_link_from_source(tmp[2].strip())
-							continue
 						tag = tmp[1].strip()
 						desc = tmp[2].strip()
 					else:

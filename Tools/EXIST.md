@@ -1,4 +1,3 @@
-
 #### Name:
 EXIST
 
@@ -47,4 +46,4 @@ Tool for computing expected values after probabilistic loops: [[MORA]]
 #### Meta
 :: Probabilistic programs
 :: Synthesis
-:: Source :: [CAV '22](https://doi.org/10.1007/978-3-031-13185-1)
+:: Source :: https://doi.org/10.1007/978-3-031-13185-1

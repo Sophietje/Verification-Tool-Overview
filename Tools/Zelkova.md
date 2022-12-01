@@ -26,7 +26,7 @@ Tool that encodes access policies as logical formulas and uses SMT solvers to an
 Uses [Z3](Solvers/SMT/Z3.md), [CVC4](Solvers/SMT/CVC4.md) and [[Z3Automata]] (in-house extension of Z3 to deal with regex).
 
 #### Comments:
-The way this tool should be used has significantly changed since the CAV '22 paper. The tool now returns a detailed set of findings about the system instead of letting the user write specifications.
+The way this tool should be used has significantly changed by the CAV '22 paper. The tool now returns a detailed set of findings about the system instead of letting the user write specifications.
 
 #### URIs (github, websites, etc.):
 -
@@ -47,4 +47,4 @@ The way this tool should be used has significantly changed since the CAV '22 pap
 #### Meta
 :: PV1 :: performs one of built-in checks on an access policy
 :: Security
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: used by [[IAM Access Analyzer]] :: https://doi.org/10.1145/3550355.3552426

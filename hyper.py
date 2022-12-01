@@ -2,6 +2,11 @@
 
 import latex2mathml.converter
 
+KNOWN_VENUES = {
+	'https://doi.org/10.1007/978-3-319-96142-2': 'CAV 2018',
+	'https://doi.org/10.1007/978-3-031-13185-1': 'CAV 2022',
+}
+
 EXISTENCE = set()
 
 def is_ul_item(line):
@@ -151,16 +156,19 @@ def ul(items):
 
 def make_link_from_source(where):
 	if where == 'https://doi.org/10.4121/20347950.v1' or where == 'https://doi.org/10.1145/3550355.3552426':
-		src = 'the original ProVerB dataset (<a href="https://doi.org/10.1145/3550355.3552426">paper</a> + <a href="https://doi.org/10.4121/20347950.v1">artefact</a>)'
+		src = 'see the original ProVerB dataset (<a href="https://doi.org/10.1145/3550355.3552426">paper</a> + <a href="https://doi.org/10.4121/20347950.v1">artefact</a>)'
+	elif where in KNOWN_VENUES:
+		src = f'<a class="sic" href="{where}">{KNOWN_VENUES[where]}</a>'
 	elif where.startswith('https://github.com/Sophietje/Verification-Tool-Overview/pull/'):
 		no = where.split('/')[-1]
 		src = make_link(where, f'ProVerB pull request №{no}')
 	else:
-		src = make_link(where, f'<code>{where}</code>')
+		# src = make_link(where, f'<code>{where}</code>')
+		src = link2link(where)
 	if src:
-		return f'\n<br/>Source of this entry: {src}.'
+		return src
 	else:
-		return 'FUCK'
+		return 'OOPS'
 
 def make_link(where, what, hover='', why=''):
 	in_a = ''

@@ -1,4 +1,3 @@
-
 #### Name:
 SolCMC
 
@@ -57,4 +56,4 @@ Other tools for analyzing Solidity programs: [[Solc-verify]], [[Verisol]], [[Sma
 #### Meta
 :: Smart contract
 :: Model checking
-:: Source :: [CAV '22](https://doi.org/10.1007/978-3-031-13185-1)
+:: Source :: https://doi.org/10.1007/978-3-031-13185-1
