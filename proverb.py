@@ -99,7 +99,7 @@ class Page(object):
 			elif (tab == 'Meta'):
 				tabber += f'<div class="meta-info">{self.tabs[tab]}</div>'
 			else:
-				tabber += f'<div class="tabbertab">{self.tabs[tab]}</div>'
+				tabber += self.tabs[tab]
 		return TEMPLATE.format(title=self.title, tabs=tabber, source=self.src,\
 			last_updated=datetime.datetime.now().strftime('%B %Y'))
 
