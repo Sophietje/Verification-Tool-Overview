@@ -46,4 +46,4 @@ The tool is called a "prototype tool" in the CAV '21 paper.
 :: Library
 :: BDD
 :: PV1 :: encodes a binarized neural network and input region into a BDD
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-81685-8 :: https://doi.org/10.1145/3550355.3552426

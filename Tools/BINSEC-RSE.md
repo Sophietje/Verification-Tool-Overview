@@ -48,4 +48,4 @@ Artifact for CAV '21 paper on Zenodo: https://zenodo.org/record/4721753
 :: Security
 :: Binary level
 :: PV4 :: a symbolic verifier of binary code dedicated to robust reachability
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-81685-8 :: https://doi.org/10.1145/3550355.3552426

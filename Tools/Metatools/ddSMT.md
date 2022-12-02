@@ -47,4 +47,4 @@ Repository: https://github.com/ddsmt/ddsmt
 
 #### Meta
 :: PV1 :: minimizes an input that triggers faulty behavior in an SMT solver
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-81688-9 :: https://doi.org/10.1145/3550355.3552426
