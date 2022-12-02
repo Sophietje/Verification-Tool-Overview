@@ -32,3 +32,4 @@ SAT solver
 #### Meta
 :: SAT
 :: PV4 :: produces a satisfiability result with a custom built solver
+:: Source :: used by [[SATzilla]] :: https://doi.org/10.1145/3550355.3552426

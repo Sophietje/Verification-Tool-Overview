@@ -50,4 +50,4 @@ LEVEL-UP is a prototype built on top of [Storm](../../Tools/Checkers/Storm.md).
 #### Meta
 :: MDP
 :: Probabilistic programs
-:: Source :: [CAV '22](https://doi.org/10.1007/978-3-031-13185-1)
+:: Source :: https://doi.org/10.1007/978-3-031-13185-1

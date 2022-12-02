@@ -10,7 +10,6 @@ Floating point arithmetic
 Library
 
 #### Comments:
-Used by [[SPAN]]
 
 #### URIs (github, websites, etc.):
 http://www.apfloat.org/apfloat_java/ (for Java)
@@ -26,4 +25,4 @@ http://www.apfloat.org/apfloat/ (for C++)
 :: C++
 :: Library
 :: PV0 :: operates on extreme-precision real numbers (with millions of digits)
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: used by [[SPAN]] :: https://doi.org/10.1145/3550355.3552426

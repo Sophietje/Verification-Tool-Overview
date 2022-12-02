@@ -2,6 +2,26 @@
 
 import latex2mathml.converter
 
+KNOWN_VENUES = {
+	'https://doi.org/10.1007/978-3-319-63390-9': 'CAV 2017',
+	'https://doi.org/10.1007/978-3-319-96142-2': 'CAV 2018',
+	'https://doi.org/10.1007/978-3-030-25543-5': 'CAV 2019',
+	'https://doi.org/10.1007/978-3-030-53291-8': 'CAV 2020',
+	'https://doi.org/10.1007/978-3-030-53288-8': 'CAV 2020',
+	'https://doi.org/10.1007/978-3-030-81688-9': 'CAV 2021',
+	'https://doi.org/10.1007/978-3-031-13185-1': 'CAV 2022',
+	'https://doi.org/10.1007/978-3-642-36742-7': 'TACAS 2013',
+	'https://doi.org/10.1007/978-3-642-54862-8': 'TACAS 2014',
+	'https://doi.org/10.1007/978-3-662-46681-0': 'TACAS 2015',
+	'https://doi.org/10.1007/978-3-662-49674-9': 'TACAS 2016',
+	'https://doi.org/10.1007/978-3-662-54577-5': 'TACAS 2017',
+	'https://doi.org/10.1007/978-3-319-89960-2': 'TACAS 2018',
+	'https://doi.org/10.1007/978-3-030-17462-0': 'TACAS 2019',
+	'https://doi.org/10.1007/978-3-030-45237-7': 'TACAS 2020',
+	'https://doi.org/10.1007/978-3-030-72016-2': 'TACAS 2021',
+	'https://doi.org/10.1007/978-3-030-99524-9': 'TACAS 2022',
+}
+
 EXISTENCE = set()
 
 def is_ul_item(line):
@@ -151,16 +171,19 @@ def ul(items):
 
 def make_link_from_source(where):
 	if where == 'https://doi.org/10.4121/20347950.v1' or where == 'https://doi.org/10.1145/3550355.3552426':
-		src = 'the original ProVerB dataset (<a href="https://doi.org/10.1145/3550355.3552426">paper</a> + <a href="https://doi.org/10.4121/20347950.v1">artefact</a>)'
+		src = 'see the original ProVerB dataset (<a href="https://doi.org/10.1145/3550355.3552426">paper</a> + <a href="https://doi.org/10.4121/20347950.v1">artefact</a>)'
+	elif where in KNOWN_VENUES:
+		src = f'<a class="sic" href="{where}">{KNOWN_VENUES[where]}</a>'
 	elif where.startswith('https://github.com/Sophietje/Verification-Tool-Overview/pull/'):
 		no = where.split('/')[-1]
 		src = make_link(where, f'ProVerB pull request №{no}')
 	else:
-		src = make_link(where, f'<code>{where}</code>')
+		# src = make_link(where, f'<code>{where}</code>')
+		src = link2link(where)
 	if src:
-		return f'\n<br/>Source of this entry: {src}.'
+		return src
 	else:
-		return 'FUCK'
+		return 'OOPS'
 
 def make_link(where, what, hover='', why=''):
 	in_a = ''

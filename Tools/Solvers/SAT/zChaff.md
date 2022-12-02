@@ -42,3 +42,4 @@ Last release mentioned on the project page is from 12 March 2007.
 #### Meta
 :: SAT
 :: PV4 :: produces a satisfiability result for a formula in CNF
+:: Source :: used by [[SATzilla]] :: https://doi.org/10.1145/3550355.3552426

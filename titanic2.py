@@ -86,10 +86,10 @@ class Item(object):
 					if len(tmp) == 2:
 						tag = tmp[1].strip()
 						desc = ''
+					elif len(tmp) >= 3 and tmp[1].strip().lower() == 'source':
+						self.source = '\n<br/>Source of this entry: ' + \
+									  '; '.join([make_link_from_source(part.strip()) for part in tmp[2:]]) + '.'
 					elif len(tmp) == 3:
-						if tmp[1].strip().lower() == 'source':
-							self.source = make_link_from_source(tmp[2].strip())
-							continue
 						tag = tmp[1].strip()
 						desc = tmp[2].strip()
 					else:
@@ -104,19 +104,20 @@ class Item(object):
 						# PV level
 						self.rank = int(tag[2])
 						self.subtitle = desc
-						indices[tag.lower()].append(make_link(get_key(self.name)+'.html', self.name, why=desc))
+						indices[tag.lower()].add(make_link(get_key(self.name)+'.html', self.name, why=desc))
 						continue
 					# other tags
 					tag_key = get_key(tag)
 					self.add_tag(tag_key, tag, desc)
 					if tag_key not in indices:
-						indices[tag_key] = []
+						indices[tag_key] = set()
 						name_by_index[tag_key] = tag
-						indices['tags'].append(make_link(tag_key+'.html', tag))
+						tag_to_add = make_link(tag_key+'.html', tag)
 						if tag_key in tag_by_key:
 							if tag_by_key[tag_key].check_for('Name'):
-								indices['tags'][-1] += ' — ' + tag_by_key[tag_key].sections['Name'][0]
-					indices[tag_key].append(make_link(get_key(self.name)+'.html', self.name, why=desc))
+								tag_to_add += ' — ' + tag_by_key[tag_key].sections['Name'][0]
+						indices['tags'].add(tag_to_add)
+					indices[tag_key].add(make_link(get_key(self.name)+'.html', self.name, why=desc))
 					continue
 				self.sections[cur_section].append(line.rstrip())
 		for key in list(self.sections.keys()):
@@ -228,12 +229,12 @@ tag_by_name = {}
 indices = {}
 name_by_index = {}
 
-indices['all'] = []
+indices['all'] = set()
 name_by_index['all'] = 'All tools'
-indices['tags'] = []
+indices['tags'] = set()
 name_by_index['tags'] = 'All tags'
 for i in range(0,7):
-	indices[f'pv{i}'] = []
+	indices[f'pv{i}'] = set()
 	name_by_index[f'pv{i}'] = f'PV{i} tools'
 
 for filename in os.listdir(sys.argv[1]):
@@ -248,9 +249,9 @@ info(f'{cx} facts are known!')
 
 for f in item_by_key:
 	item_by_key[f].dump_to(os.path.join(sys.argv[1], f + '.html'))
-	indices['all'].append(make_link(f+'.html', item_by_key[f].name))
+	indices['all'].add(make_link(f+'.html', item_by_key[f].name))
 	if item_by_key[f].rank == 0 and not item_by_key[f].subtitle:
-		indices['pv0'].append(make_link(f+'.html', item_by_key[f].name))
+		indices['pv0'].add(make_link(f+'.html', item_by_key[f].name))
 
 for index in indices:
 	with open(os.path.join(sys.argv[1], index + '.html'), 'w', encoding='utf-8') as file:

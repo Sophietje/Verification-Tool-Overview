@@ -52,4 +52,4 @@ AliveInLean is a re-implemented/-engineered version of [[Alive]], a tool for ver
 #### Meta
 :: Compiler
 :: PV1 :: verifies its own expectations of a given compiler optimisation
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-25543-5 :: https://doi.org/10.1145/3550355.3552426

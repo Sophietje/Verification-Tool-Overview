@@ -51,4 +51,4 @@ Repository: https://github.com/mchalupa/dg
 #### Meta
 :: Library
 :: PV0 :: a library that provides data structures and algorithms for program analysis and slicing
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-81688-9 :: https://doi.org/10.1145/3550355.3552426

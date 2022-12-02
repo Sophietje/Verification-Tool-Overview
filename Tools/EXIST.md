@@ -28,7 +28,7 @@ Exist will execute the program multiple times on a set of input states. It uses 
 -
 
 #### URIs (github, websites, etc.):
-- Repository: https://github.com/JialuJialu/Exist.
+Repository: https://github.com/JialuJialu/Exist
 
 #### Last commit date:
 12 June 2022
@@ -46,4 +46,4 @@ Tool for computing expected values after probabilistic loops: [[MORA]]
 #### Meta
 :: Probabilistic programs
 :: Synthesis
-:: Source :: [CAV '22](https://doi.org/10.1007/978-3-031-13185-1)
+:: Source :: https://doi.org/10.1007/978-3-031-13185-1

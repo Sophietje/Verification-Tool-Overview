@@ -99,7 +99,7 @@ class Page(object):
 			elif (tab == 'Meta'):
 				tabber += f'<div class="meta-info">{self.tabs[tab]}</div>'
 			else:
-				tabber += f'<div class="tabbertab">{self.tabs[tab]}</div>'
+				tabber += self.tabs[tab]
 		return TEMPLATE.format(title=self.title, tabs=tabber, source=self.src,\
 			last_updated=datetime.datetime.now().strftime('%B %Y'))
 
@@ -117,7 +117,7 @@ class ToolPage(Page):
 		FULL_TITLE += '</h1>'
 		# construct tag links
 		TAGS = '<div>' + '\n'.join([self.format_tag(t, tags, tags_by_key) for t in sorted(tags)]) + '</div>'
-		EDITLINK = '<p>' + make_link('https://github.com/Sophietje/Verification-Tool-Overview/blob/main/'+self.filename, 'View/edit source', why='Markdown') + '</p>'
+		EDITLINK = '<p>' + make_link('https://github.com/Sophietje/Verification-Tool-Overview/blob/main/'+self.filename, 'View/edit description', why='Markdown') + '</p>'
 		self.tabs['Tool'] = FULL_TITLE + c1
 		self.tabs['Meta'] = TAGS + c2 + EDITLINK
 	def format_tag(self, t, tags1, tags2):

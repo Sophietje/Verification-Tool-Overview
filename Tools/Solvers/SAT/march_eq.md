@@ -39,3 +39,4 @@ an older version was called `march_eq_100`, apparently a newer one was referred 
 #### Meta
 :: SAT
 :: PV4 :: produces a satisfiability result with equivalence reasoning and lookahead heuristics
+:: Source :: used by [[SATzilla]] :: https://doi.org/10.1145/3550355.3552426

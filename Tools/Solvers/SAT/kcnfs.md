@@ -32,3 +32,4 @@ https://dl.acm.org/doi/abs/10.5555/1642090.1642124 (IJCAI'01)
 #### Meta
 :: SAT
 :: PV4 :: produces a satisfiability result for a formula based on its backbone
+:: Source :: used by [[SATzilla]] :: https://doi.org/10.1145/3550355.3552426

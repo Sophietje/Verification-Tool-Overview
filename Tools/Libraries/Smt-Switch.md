@@ -39,4 +39,4 @@ http://ceur-ws.org/Vol-2854/short3.pdf (SAT 2020)
 :: C++
 :: Library
 :: PV0 :: a collection of abstract classes useful for SMT solving
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: used by [[Pono]] :: https://doi.org/10.1145/3550355.3552426
