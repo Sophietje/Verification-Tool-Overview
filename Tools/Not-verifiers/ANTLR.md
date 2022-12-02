@@ -27,7 +27,8 @@ Project page: https://www.antlr.org/
 Repository: https://github.com/antlr/antlr4
 
 #### Last commit date:
-30 September 2021
+20 Nov 2022 (default branch)
+30 Nov 2022 (last activity)
 
 #### Last publication date:
 

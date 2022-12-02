@@ -31,7 +31,8 @@ Uses [[R4V]] and [DNNV](DNNV.md).
 Repository: https://github.com/edwardxu0/GDVB
 
 #### Last commit date:
-22 July 2020
+22 Jul 2020 (default branch)
+21 Nov 2022 (last activity)
 
 #### Last publication date:
 14 July 2020

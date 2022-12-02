@@ -31,7 +31,8 @@ Project page: https://seahorn.github.io/
 Repository: https://github.com/seahorn/seahorn
 
 #### Last commit date:
-11 January 2021
+05 Nov 2022 (default branch)
+30 Nov 2022 (last activity)
 
 #### Last publication date:
 24 November 2018

@@ -36,7 +36,8 @@ License: MIT license
 Repository: https://github.com/Herbping/Synplexity
 
 #### Last commit date:
-27 May 2021
+27 May 2021 (default branch)
+27 May 2021 (last activity)
 
 #### Last publication date:
 15 July 2021

@@ -29,7 +29,9 @@ Repository: https://github.com/freqhorn/freqhorn
 Other repository that is also linked: https://github.com/grigoryfedyukovich/aeval/tree/rnd
 
 #### Last commit date:
-11 June 2021
+aeval: 09 Aug 2022 (default branch)
+freqhorn: 09 Aug 2022 (default branch)
+26 Nov 2022 (last activity)
 
 #### Last publication date:
 12 July 2019

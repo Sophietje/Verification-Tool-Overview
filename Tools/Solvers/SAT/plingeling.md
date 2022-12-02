@@ -31,10 +31,8 @@ Project page: http://fmv.jku.at/lingeling/
 Repository (also contains [Lingeling](Lingeling.md) and [[Treengeling]]): https://github.com/arminbiere/lingeling
 
 #### Last commit date:
- 19 August 2021 (of complete repository)
- 
-#### Last publication date:
-2020
+15 May 2022 (default branch)
+15 May 2022 (last activity)
 
 #### List of related papers:
 http://fmv.jku.at/papers/BiereFazekasFleuryHeisinger-SAT-Competition-2020-solvers.pdf (SAT Competition '20)

@@ -39,7 +39,9 @@ Zulip organization for discussions: https://gobra.zulipchat.com/login/
 Tutorial: https://github.com/viperproject/gobra/blob/master/docs/tutorial.md
 
 #### Last commit date:
-13 December 2021
+gobra: 01 Dec 2022 (default branch)
+gobra-ide: 01 Dec 2022 (default branch)
+01 Dec 2022 (last activity)
 
 #### Last publication date:
 15 July 2021

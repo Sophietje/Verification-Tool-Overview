@@ -37,7 +37,8 @@ Built on top of [[Descartes]]
 Repository: https://github.com/lmpick/synonym
 
 #### Last commit date:
-15 December 2018
+15 Dec 2018 (default branch)
+15 Dec 2018 (last activity)
 
 #### Last publication date:
 18 July 2018

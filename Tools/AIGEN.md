@@ -35,7 +35,8 @@ Uses [ABC](Frameworks/ABC.md), [AIGER](../Formats/AIGER.md)
 Repository: https://github.com/mhdsakr/AIGEN-Tool
 
 #### Last commit date:
-2 June 2021
+02 Jun 2021 (default branch)
+02 Jun 2021 (last activity)
 
 #### Last publication date:
 15 July 2021

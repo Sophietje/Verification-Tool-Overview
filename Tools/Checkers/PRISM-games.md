@@ -39,7 +39,8 @@ Repository: https://github.com/prismmodelchecker/prism-games
 Support forum: https://groups.google.com/g/prismmodelchecker
 
 #### Last commit date:
-22 July 2021
+13 May 2022 (default branch)
+28 Jul 2022 (last activity)
 
 #### Last publication date:
 14 July 2020

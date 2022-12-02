@@ -33,7 +33,8 @@ License: MIT
 Repository: https://github.com/septract/starling-tool
 
 #### Last commit date:
-7 June 2017
+07 Jun 2017 (default branch)
+21 Jul 2017 (last activity)
 
 #### Last publication date:
 13 July 2017

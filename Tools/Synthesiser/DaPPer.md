@@ -31,7 +31,8 @@ It uses simulated annealing (SA) to synthesize PPL (probabilistic programming la
 Repository: https://github.com/schasins/PPL-synthesis
 
 #### Last commit date:
-21 January 2017
+21 Jan 2017 (default branch)
+21 Jan 2017 (last activity)
 
 #### Last publication date:
 13 July 2017

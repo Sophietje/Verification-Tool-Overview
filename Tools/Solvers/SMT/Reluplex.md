@@ -33,7 +33,8 @@ Verifying DNNs is difficult because it is beyond the reach of general-purpose to
 Artifact of CAV '17 paper: https://github.com/guykatzz/ReluplexCav2017
 
 #### Last commit date:
-8 July 2020
+08 Jul 2020 (default branch)
+08 Jul 2020 (last activity)
 
 #### Last publication date:
 13 July 2017

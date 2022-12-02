@@ -40,7 +40,8 @@ Repository: https://github.com/reactive-systems/eahyper
 Try EAHyper online: https://www.react.uni-saarland.de/tools/online/EAHyper/
 
 #### Last commit date:
-18 July 2018
+18 Jul 2018 (default branch)
+18 Jul 2018 (last activity)
 
 #### Last publication date:
 13 July 2017

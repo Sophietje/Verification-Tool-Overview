@@ -33,7 +33,8 @@ License: GPL-3.0
 Repository: https://github.com/doganulus/montre
 
 #### Last commit date:
-21 October 2019
+21 Oct 2019 (default branch)
+21 Oct 2019 (last activity)
 
 #### Last publication date:
 13 July 2017

@@ -30,8 +30,8 @@ License: GPL-3.0
 Repository (including case studies): https://github.com/emtst/emtst-proof
 
 #### Last commit date:
-15 June 2021
-(Last tool release on 22 October 2019)
+15 Jun 2021 (default branch)
+15 Jun 2021 (last activity)
 
 #### Last publication date:
 17 April 2020

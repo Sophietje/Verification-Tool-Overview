@@ -37,7 +37,8 @@ License: MIT, however it relies on [[Gurobi]] which is a commercial tool. It is 
 Repository: https://github.com/rcpsl/PeregriNN
 
 #### Last commit date:
-5 May 2021
+05 May 2021 (default branch)
+09 Jul 2022 (last activity)
 
 #### Last publication date:
 15 July 2021

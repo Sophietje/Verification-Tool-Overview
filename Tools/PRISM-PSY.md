@@ -39,7 +39,8 @@ Project page: http://www.prismmodelchecker.org/psy/
 Repository: https://github.com/Palmik/prism-pse
 
 #### Last commit date:
-8 August 2014
+08 Aug 2014 (default branch)
+05 Dec 2015 (last activity)
 
 #### Last publication date:
 9 April 2016

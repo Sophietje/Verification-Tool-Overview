@@ -31,7 +31,7 @@ It is called a 'reference' bounded model checker in the paper.
 Seems to be included in the [Boolector](../Solvers/SMT/Boolector.md) repository: https://github.com/Boolector/boolector/tree/ad16fd1b47fdce57cc55ca5f1b2f4f7c95b2f631
 
 #### Last commit date:
-27 May 2021
+11 Oct 2022 (last activity)
 
 #### Last publication date:
 18 July 2018

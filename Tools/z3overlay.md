@@ -20,7 +20,8 @@ an overlay to official binding to [[Z3]]
 https://github.com/termite-analyser/z3overlay
 
 #### Last commit date:
-3 July 2021
+18 Oct 2022 (default branch)
+18 Oct 2022 (last activity)
 
 #### Last publication date:
 

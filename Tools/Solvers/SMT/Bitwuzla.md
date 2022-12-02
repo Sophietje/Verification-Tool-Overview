@@ -24,6 +24,8 @@ Project page: https://bitwuzla.github.io/
 Documentation: https://bitwuzla.github.io/docs/index.html
 
 #### Last commit date:
+07 Oct 2022 (default branch)
+29 Nov 2022 (last activity)
 
 #### Last publication date:
 

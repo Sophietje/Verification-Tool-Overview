@@ -29,7 +29,8 @@ Project page: http://fmv.jku.at/kissat/
 Repository: https://github.com/arminbiere/kissat
 
 #### Last commit date:
-28 October 2021
+07 Jul 2022 (default branch)
+07 Jul 2022 (last activity)
 
 #### Last publication date:
 2021

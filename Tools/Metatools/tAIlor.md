@@ -31,7 +31,8 @@ Repository: https://github.com/Practical-Formal-Methods/tailor
 Artifact for CAV '21: https://zenodo.org/record/4719604
 
 #### Last commit date:
-24 November 2021
+24 Nov 2021 (default branch)
+24 Nov 2021 (last activity)
 
 #### Last publication date:
 15 July 2021

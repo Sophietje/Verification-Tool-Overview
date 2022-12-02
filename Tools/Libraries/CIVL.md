@@ -25,7 +25,8 @@ Error for any properties that are violated, including error traces.
 Code (part of [[Boogie]]): https://github.com/boogie-org/boogie
 
 #### Last commit date:
-4 June 2021 (31 March 2021 if only looking at boogie/Source/Concurrency where CIVL is located)
+28 Nov 2022 (default branch)
+29 Nov 2022 (last activity)
 
 #### Last publication date:
 14 July 2020

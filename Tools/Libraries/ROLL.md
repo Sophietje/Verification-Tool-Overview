@@ -42,7 +42,8 @@ Project page: http://iscasmc.ios.ac.cn/roll/
 Repository: https://github.com/ISCAS-PMC/roll-library
 
 #### Last commit date:
-12 July 2021
+12 Jul 2021 (default branch)
+12 Jul 2021 (last activity)
 
 #### Last publication date:
 December 2021

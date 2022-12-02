@@ -41,7 +41,8 @@ Repository: https://github.com/AdaCore/spark2014
 Tutorial: https://learn.adacore.com/courses/intro-to-spark/index.html
 
 #### Last commit date:
-25 January 2022
+01 Dec 2022 (default branch)
+01 Dec 2022 (last activity)
 
 #### Last publication date:
 19 December 2020

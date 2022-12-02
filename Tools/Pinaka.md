@@ -31,7 +31,8 @@ The TACAS '19 paper mentions that Pinaka is the result of the rewriting and refa
 Repository: https://github.com/sbjoshi/Pinaka
 
 #### Last commit date:
-19 October 2020
+19 Oct 2020 (default branch)
+19 Oct 2020 (last activity)
 
 #### Last publication date:
 4 April 2019

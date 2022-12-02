@@ -38,7 +38,8 @@ Repository: https://github.com/rems-project/isla
 Documentation: https://github.com/rems-project/isla/blob/master/doc/axiomatic.adoc
 
 #### Last commit date:
-14 December 2021
+28 Nov 2022 (default branch)
+28 Nov 2022 (last activity)
 
 #### Last publication date:
 15 July 2021

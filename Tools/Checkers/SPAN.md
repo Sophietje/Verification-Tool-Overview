@@ -30,7 +30,8 @@ Uses [[KISS]], [[AKISS]], [Maude](../../Formats/Maude.md), [Apfloat](../Librarie
 Repository: https://github.com/bauer-matthews/SPAN
 
 #### Last commit date:
-20 April 2018
+20 Apr 2018 (default branch)
+22 May 2019 (last activity)
 
 #### Last publication date:
 18 July 2018

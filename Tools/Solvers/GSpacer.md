@@ -26,7 +26,7 @@ Extension of [Spacer](Spacer.md), a CHC (Constrained Horn Clause) solver in [Z3]
 Repository: https://github.com/hgvk94/z3/tree/gspacer-cav-ae
 
 #### Last commit date:
-19 December 2019
+23 Nov 2022 (last activity)
 
 #### Last publication date:
 14 July 2020

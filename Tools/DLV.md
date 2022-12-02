@@ -34,7 +34,8 @@ License: GNU General Public License v3.0
 Repository: https://github.com/verideep/dlv 
 
 #### Last commit date:
-5 February 2018
+05 Feb 2018 (default branch)
+05 Feb 2018 (last activity)
 
 #### Last publication date:
 13 July 2017

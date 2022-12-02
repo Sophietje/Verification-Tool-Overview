@@ -36,7 +36,8 @@ Repository: https://github.com/sambayless/monosat
 Tutorial showing how to use MonoSAT in Python: https://github.com/sambayless/monosat/blob/master/TUTORIAL.md
 
 #### Last commit date:
-11 November 2021
+16 Jun 2022 (default branch)
+16 Jun 2022 (last activity)
 
 #### Last publication date:
 2015

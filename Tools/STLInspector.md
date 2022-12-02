@@ -33,7 +33,8 @@ License: Apache License 2.0
 Repository: https://github.com/STLInspector/STLInspector
 
 #### Last commit date:
-30 September 2019
+30 Sep 2019 (default branch)
+30 Sep 2019 (last activity)
 
 #### Last publication date:
 13 July 2017

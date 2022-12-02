@@ -35,7 +35,8 @@ Uses [RABIT](../RABIT.md) to check language inclusion and [Reduce](../Reduce.md)
 Possibly the following repository from the first author's github: https://github.com/suguman/QIP/ (*not linked in the paper or on the first author's website*)
 
 #### Last commit date:
-26 September 2018
+26 Sep 2018 (default branch)
+26 Sep 2018 (last activity)
 
 #### Last publication date:
 18 July 2018

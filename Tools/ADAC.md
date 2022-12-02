@@ -33,7 +33,8 @@ Uses [[Yosys]], [[iprove]], [MiniSat](Solvers/SAT/MiniSat.md).
 https://github.com/imatyas/ADAC (this is linked in the paper but it contains very little useful information)
 
 #### Last commit date:
-2 February 2018
+02 Feb 2018 (default branch)
+02 Feb 2018 (last activity)
 
 #### Last publication date:
 15 April 2020

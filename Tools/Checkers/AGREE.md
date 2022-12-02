@@ -32,7 +32,8 @@ Project page: http://loonwerks.com/tools/agree.html
 Repository: https://github.com/loonwerks/AGREE
 
 #### Last commit date:
-6 October 2021
+29 Sep 2022 (default branch)
+29 Sep 2022 (last activity)
 
 #### Last publication date:
 September 2021

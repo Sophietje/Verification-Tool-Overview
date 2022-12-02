@@ -29,7 +29,8 @@ Repository:
 https://github.com/leonardt/fault
 
 #### Last commit date:
-16 April 2021
+13 Oct 2022 (default branch)
+13 Oct 2022 (last activity)
 
 #### Last publication date:
 14 July 2020

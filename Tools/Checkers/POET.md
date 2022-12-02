@@ -37,7 +37,8 @@ Repository: https://github.com/marcelosousa/poet
 Web page for CONCUR '15 paper: https://www.cs.ox.ac.uk/people/marcelo.sousa/poet/
 
 #### Last commit date:
-19 October 2018
+19 Oct 2018 (default branch)
+19 Oct 2018 (last activity)
 
 #### Last publication date:
 26 August 2015

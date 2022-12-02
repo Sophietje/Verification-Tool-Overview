@@ -30,7 +30,8 @@ License: MIT
 Paper doesn't seem to link to the implementation. Link found on first author's webpage: https://github.com/sedrews/digits
 
 #### Last commit date:
-14 October 2019
+14 Oct 2019 (default branch)
+14 Oct 2019 (last activity)
 
 #### Last publication date:
 12 July 2019

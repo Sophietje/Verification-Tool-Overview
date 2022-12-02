@@ -33,7 +33,8 @@ False negatives may occur for programs with recursive functions since recursive 
 Repository: https://github.com/duanzhao-dz/interpchecker
 
 #### Last commit date:
-22 November 2017
+22 Nov 2017 (default branch)
+22 Nov 2017 (last activity)
 
 #### Last publication date:
 14 April 2018

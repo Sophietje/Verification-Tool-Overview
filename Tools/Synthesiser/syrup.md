@@ -39,7 +39,9 @@ Repository (of the backend): https://github.com/mariaschett/syrup-backend
 Repository for examples of the CAV '20 paper: https://github.com/mariaschett/syrup-backend/tree/master/examples/cav2020
 
 #### Last commit date:
-14 May 2020
+syrup-backend: 14 May 2020 (default branch)
+syrup-backend: 14 May 2020 (default branch)
+14 May 2020 (last activity)
 
 #### Last publication date:
 14 July 2020

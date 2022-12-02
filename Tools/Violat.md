@@ -32,7 +32,8 @@ License: MIT
 Repository: https://github.com/michael-emmi/violat
 
 #### Last commit date:
-1 February 2022
+10 Apr 2022 (default branch)
+10 Apr 2022 (last activity)
 
 #### Last publication date:
 12 July 2019

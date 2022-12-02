@@ -38,7 +38,8 @@ Repository: https://github.com/staticafi/symbiotic
 Project page: http://staticafi.github.io/symbiotic/
 
 #### Last commit date:
-8 December 2021
+30 Nov 2022 (default branch)
+30 Nov 2022 (last activity)
 
 #### Last publication date:
 18 May 2020

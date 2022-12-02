@@ -30,7 +30,8 @@ Repository: https://github.com/CVC4/CVC4-archived
 Project page: https://cvc4.github.io/
 
 #### Last commit date:
-6 May 2021
+05 May 2021 (default branch)
+06 May 2021 (last activity)
 
 #### Last publication date:
 12 July 2019

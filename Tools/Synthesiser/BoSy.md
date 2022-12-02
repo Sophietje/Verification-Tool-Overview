@@ -31,7 +31,8 @@ Repository: https://github.com/reactive-systems/bosy
 Online interface: https://www.react.uni-saarland.de/tools/online/BoSy/
 
 #### Last commit date:
-17 May 2021
+21 Jul 2022 (default branch)
+21 Jul 2022 (last activity)
 
 #### Last publication date:
 14 July 2020

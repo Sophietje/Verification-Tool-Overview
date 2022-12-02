@@ -34,7 +34,8 @@ License: MIT
 Repository: https://github.com/msr-quarc/ReVerC
 
 #### Last commit date:
-5 March 2019
+05 Mar 2019 (default branch)
+05 Mar 2019 (last activity)
 
 #### Last publication date:
 13 July 2017

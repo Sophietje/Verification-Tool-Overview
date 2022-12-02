@@ -27,7 +27,8 @@ Uses [Z3](Tools/Solvers/SMT/Z3.md), [JavaSMT](Tools/Libraries/JavaSMT.md)
 Repository: https://github.com/cathiec/FOADA
 
 #### Last commit date:
-16 February 2020
+16 Feb 2020 (default branch)
+16 Feb 2020 (last activity)
 
 #### Last publication date:
 12 July 2019

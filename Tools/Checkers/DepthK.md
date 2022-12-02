@@ -36,7 +36,8 @@ Uses [CPAchecker](CPAchecker.md), [Ultimate Automizer](../Ultimate%20Automizer.m
 Repository: https://github.com/hbgit/depthk/
 
 #### Last commit date:
-9 January 2019
+09 Jan 2019 (default branch)
+20 Apr 2020 (last activity)
 
 #### Last publication date:
 31 March 2017

@@ -36,7 +36,9 @@ Repository?: https://github.com/costa-group/iRankFinder
 Repository (new implementation?): https://github.com/jesusjda/pyRankFinder
 
 #### Last commit date:
--
+pyRankFinder: 09 Oct 2020 (default branch)
+iRankFinder: 18 Oct 2020 (default branch)
+18 Oct 2020 (last activity)
 
 #### Last publication date:
 13 July 2017

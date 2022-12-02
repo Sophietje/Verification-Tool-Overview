@@ -31,7 +31,9 @@ Repository: https://github.com/DeepSec-prover/deepsec
 Repository for the UI: https://github.com/DeepSec-prover/deepsec_ui
 
 #### Last commit date:
-23 July 2020
+deepsec: 23 Jul 2020 (default branch)
+deepsec_ui: 03 May 2020 (default branch)
+10 Nov 2022 (last activity)
 
 #### Last publication date:
 4 February 2020

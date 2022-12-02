@@ -32,7 +32,8 @@ https://github.com/boogie-org/boogie
 https://boogie-docs.readthedocs.io/en/latest/ (Documentation)
 
 #### Last commit date:
-6 May 2021
+28 Nov 2022 (default branch)
+29 Nov 2022 (last activity)
 
 #### Last publication date:
 15 July 2021

@@ -28,7 +28,8 @@ Project page: https://drzchen.github.io/projects/movec/
 Repository: https://github.com/drzchen/movec
 
 #### Last commit date:
-10 December 2021
+10 Dec 2021 (default branch)
+10 Dec 2021 (last activity)
 
 #### Last publication date:
 11 July 2021

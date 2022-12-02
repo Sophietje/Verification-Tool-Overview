@@ -38,7 +38,8 @@ Repository: https://github.com/monitoring-MDPs/premise
 Artifact for CAV '21 paper: https://doi.org/10.5281/zenodo.4724623
 
 #### Last commit date:
-28 April 2021
+28 Apr 2021 (default branch)
+28 Apr 2021 (last activity)
 
 #### Last publication date:
 15 July 2021

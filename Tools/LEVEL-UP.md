@@ -32,7 +32,6 @@ LEVEL-UP is a prototype built on top of [Storm](../../Tools/Checkers/Storm.md).
 
 #### Comments:
 
-
 #### URIs (github, websites, etc.):
 - The source code and executables, the benchmarks, logﬁles and utilities are all available in an archived Docker container: https://doi.org/10.5281/zenodo.6524787.
 - Repository: https://github.com/sjunges/level-up
@@ -47,7 +46,6 @@ LEVEL-UP is a prototype built on top of [Storm](../../Tools/Checkers/Storm.md).
 [Abstraction-Refinement for Hierarchical Probabilistic Models](https://doi.org/10.1007/978-3-031-13185-1_6) (CAV 2022)
 
 #### Related tools (tools mentioned or compared to in the paper):
-
 
 #### Meta
 :: MDP

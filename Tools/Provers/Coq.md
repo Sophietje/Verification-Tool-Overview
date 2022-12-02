@@ -26,7 +26,8 @@ Repository: https://github.com/coq/coq
 Project page: https://coq.inria.fr/
 
 #### Last commit date:
-22 February 2022
+30 Nov 2022 (default branch)
+01 Dec 2022 (last activity)
 
 #### Last publication date:
 

@@ -36,7 +36,8 @@ Repository: https://github.com/kth-step/HolBA
 Tutorial: https://github.com/kth-step/HolBA/wiki/HolBA-SCAM-V-tutorial
 
 #### Last commit date:
-2 August 2021 (the scamv subdirectory in the repository has last been updated on 4 February 2021)
+29 Sep 2022 (default branch)
+01 Dec 2022 (last activity)
 
 #### Last publication date:
 14 July 2020
