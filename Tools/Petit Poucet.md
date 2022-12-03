@@ -41,4 +41,4 @@ https://doi.org/10.1007/978-3-030-81688-9_24 (CAV '21)
 #### Meta
 :: Library
 :: PV1 :: operates with functions and their combinations formally and explainably
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-81688-9 :: https://doi.org/10.1145/3550355.3552426

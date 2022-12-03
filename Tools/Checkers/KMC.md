@@ -47,4 +47,4 @@ Repository: https://bitbucket.org/julien-lange/kmc-cav19/src/master/
 #### Meta
 :: Automaton
 :: PV1           :: checks compatibility of communicating automata
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-25540-4 :: https://doi.org/10.1145/3550355.3552426

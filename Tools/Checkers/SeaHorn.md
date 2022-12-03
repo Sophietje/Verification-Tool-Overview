@@ -51,4 +51,4 @@ Repository: https://github.com/seahorn/seahorn
 :: PV3 :: checks assertions in a C program
 :: CHC
 :: Model checking
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-662-49674-9 :: https://doi.org/10.1145/3550355.3552426

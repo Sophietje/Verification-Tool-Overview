@@ -17,7 +17,7 @@ LTL synthesis tool
 LTL formula(s)
 
 #### Expected input format:
-[Owl](../Libraries/Owl.md) format (https://gitlab.lrz.de/i7/owl/blob/master/doc/FORMATS.md)
+[Owl](../Libraries/Owl.md) format, see https://gitlab.lrz.de/i7/owl/blob/master/doc/FORMATS.md
 
 #### Expected output:
 `REALIZABLE` or `UNREALIZABLE`.
@@ -64,4 +64,4 @@ Compared to in the CAV '18 paper: [PARTY](PARTY.md), [BoSy](BoSy.md), [[LTLSYNT]
 :: Synthesis
 :: Automaton
 :: PV2 :: synthesises a controller for an LTL formula
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-96145-3 :: https://doi.org/10.1145/3550355.3552426

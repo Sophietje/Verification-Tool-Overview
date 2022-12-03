@@ -59,4 +59,4 @@ This toolset includes the model checker [mcsta](../Checkers/mcsta.md).
 :: Model checking
 :: Hybrid system
 :: PV3 :: a collection of stochastic model checkers
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-53291-8 :: https://doi.org/10.1145/3550355.3552426

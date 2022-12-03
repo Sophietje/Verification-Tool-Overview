@@ -47,4 +47,4 @@ Other tools that participated in the termination division of SV-COMP 2015: [APro
 #### Meta
 :: Termination
 :: PV1 :: analyses imperative programs for termination
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-662-54580-5 :: https://doi.org/10.1145/3550355.3552426

@@ -47,4 +47,4 @@ Last update seems to be from December 2018
 #### Meta
 :: SAT
 :: PV1 :: checks correctness of SAT solver certificates
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: used by [[CoqQFBV]] :: https://doi.org/10.1145/3550355.3552426

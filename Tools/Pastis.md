@@ -51,4 +51,4 @@ Resource-bound analyses for integer programs: [[CAMPY]], [[KoAT]], [[Rank]], [[C
 
 #### Meta
 :: PV1 :: can compute and produce proofs for resource bounds of imperative programs
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-63390-9 :: https://doi.org/10.1145/3550355.3552426

@@ -41,3 +41,4 @@ Compared to [[Loopus]], [[RanK]], [[AProVE]],
 :: C
 :: LLVM
 :: PV1 :: computes a ranking function for a given program
+:: Source :: compared to [[ComPACT]] :: https://doi.org/10.1145/3550355.3552426

@@ -49,4 +49,4 @@ poet: 19 Oct 2018 (default branch)
 :: Concurrency
 :: Haskell
 :: PV1 :: analyses a multi-threaded program to see if it conforms to expectations of the tool
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-63390-9 :: https://doi.org/10.1145/3550355.3552426

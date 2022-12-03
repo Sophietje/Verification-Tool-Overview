@@ -49,4 +49,4 @@ Repository?: https://github.com/hiroshi-unno/coar (should include [MuVal](MuVal.
 :: Termination
 :: C
 :: PV1 :: checks whether a C program will (non-)terminate
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-81688-9 :: https://doi.org/10.1145/3550355.3552426

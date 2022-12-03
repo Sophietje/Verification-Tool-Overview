@@ -50,4 +50,4 @@ Project page (of the Modest Toolset): https://www.modestchecker.net
 :: LTL
 :: CTL
 :: Model checking
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: part of [[Modest]] :: https://doi.org/10.1145/3550355.3552426

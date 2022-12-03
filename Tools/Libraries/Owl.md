@@ -48,4 +48,4 @@ Project page: https://owl.model.in.tum.de/
 :: Automaton
 :: LTL
 :: PV1 :: formally manipulates LTL formulae, Büchi automata and ω-automata
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: bundled with [[Rabinizer]] :: https://doi.org/10.1145/3550355.3552426

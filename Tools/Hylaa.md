@@ -52,4 +52,4 @@ Project page: http://stanleybak.com/hylaa
 #### Meta
 :: Automaton
 :: PV1 :: computes a set of safe reachable states for a given hybrid automaton
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-63387-9 :: https://doi.org/10.1145/3550355.3552426

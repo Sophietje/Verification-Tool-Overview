@@ -41,10 +41,10 @@ Repository (not linked in paper, found via author's webpage): https://github.com
 12 July 2019
 
 #### List of related papers:
-[Proving Unrealizability for Syntax-Guided Synthesis](https://doi.org/10.1007/978-3-030-25540-4_18)
+[Proving Unrealizability for Syntax-Guided Synthesis](https://doi.org/10.1007/978-3-030-25540-4_18) (CAV'19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 
 #### Meta
 :: PV1 :: given a syntax-guided synthesis problem, checks whether it is realisable
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-25540-4 :: https://doi.org/10.1145/3550355.3552426

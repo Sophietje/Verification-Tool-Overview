@@ -43,8 +43,7 @@ Source code: https://projects.informatik.uni-freiburg.de/projects/dqbf/files
 
 #### List of related papers:
 [The (D)QBF Preprocessor HQSpre – Underlying Theory and Its Implementation1](https://doi.org/10.3233/SAT190115) (Journal on Satisfiability, Boolean Modeling and Computation '19)
-[HQSpre – An Effective Preprocessor for QBF and DQBF](https://doi.org/10.1007/978-3-662-54577-5_21) (TACAS 
-'17)
+[HQSpre – An Effective Preprocessor for QBF and DQBF](https://doi.org/10.1007/978-3-662-54577-5_21) (TACAS '17)
 
 #### Related tools (tools mentioned or compared to in the paper):
 QBF solvers: [[AIGSolve]], [[AQuA]], [CAQE](Solvers/CAQE.md), [[DepQBF]], [[Qesto]], [[RAReQS]], [[HQS]]
@@ -53,4 +52,4 @@ Other preprocessors: [[sQueezeBF]], [[Bloqqer]]
 #### Meta
 :: PV1 :: simplifies quantified Boolean formulas and dependency quantified Boolean formulas
 :: QBF
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-662-54577-5 :: https://doi.org/10.1145/3550355.3552426

@@ -50,4 +50,4 @@ Test generation for memory consistency: [[TSOtool]], [[LCHECK]], [[CppMem]], [[H
 #### Meta
 :: Concurrency
 :: PV2 :: generates classes attempting to violate properties
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-96145-3 :: https://doi.org/10.1145/3550355.3552426
