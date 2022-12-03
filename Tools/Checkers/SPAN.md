@@ -45,4 +45,4 @@ Repository: https://github.com/bauer-matthews/SPAN
 :: Security
 :: PV1           :: computes whether two protocols are indistinguishable
 :: Protocol
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-96142-2 :: https://doi.org/10.1145/3550355.3552426

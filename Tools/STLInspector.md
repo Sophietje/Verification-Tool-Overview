@@ -49,4 +49,4 @@ Tool to debug specifications (subset of PSL): [[RATSY]]
 #### Meta
 :: STL
 :: PV1 :: aids the creation of signal temporal logic specs
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-63387-9 :: https://doi.org/10.1145/3550355.3552426

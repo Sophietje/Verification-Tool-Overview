@@ -52,3 +52,4 @@ sylvan: 04 Sep 2022 (default branch)
 :: Library
 :: BDD
 :: PV1 :: implements consistency-preserving transformations of BDDs on multicore
+:: Source :: https://doi.org/10.1007/978-3-030-17465-1 :: https://doi.org/10.1145/3550355.3552426

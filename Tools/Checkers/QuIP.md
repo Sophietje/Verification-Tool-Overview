@@ -50,4 +50,4 @@ Possibly the following repository from the first author's github: https://github
 #### Meta
 :: Automaton
 :: PV1 :: comparator of two weighted automata
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-96142-2 :: https://doi.org/10.1145/3550355.3552426

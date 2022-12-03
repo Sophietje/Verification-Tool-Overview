@@ -50,4 +50,4 @@ Project page: https://sequaia.model.in.tum.de/
 #### Meta
 :: PV1 :: handles and analyses chemical reaction networks
 :: Simulation
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-53288-8 :: https://doi.org/10.1145/3550355.3552426

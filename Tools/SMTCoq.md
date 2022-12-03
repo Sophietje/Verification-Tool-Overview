@@ -40,4 +40,4 @@ Repository: https://github.com/smtcoq/smtcoq
 
 #### Meta
 :: PV1 :: imports other solvers' proof witnesses and certificates to Coq
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-63390-9 :: https://doi.org/10.1145/3550355.3552426

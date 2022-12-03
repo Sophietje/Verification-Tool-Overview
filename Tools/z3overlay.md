@@ -33,4 +33,4 @@ https://github.com/termite-analyser/z3overlay
 :: PV1 :: enables type-safe creation of SMT formulae
 :: SMT
 :: Library
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: used by [[Termite]] :: https://doi.org/10.1145/3550355.3552426

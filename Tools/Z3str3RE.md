@@ -1,5 +1,5 @@
 #### Name:
-Z3str3RE: 
+Z3str3RE 
 
 #### Application domain/field:
 SMT solving
@@ -38,9 +38,9 @@ Artifact/reproduction package for CAV '21 paper: https://figshare.com/s/5ae73a6f
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other string solvers: [CVC4](Solvers/SMT/CVC4.md), [[OSTRICH]], [[Z3seq]], [[Z3str3]], [[Z3-Trau]]
-SMT solvers that support theories over regular expression membership predicate and linear arithmetic over length of strings: [CVC4](Solvers/SMT/CVC4.md), [[Z3str3]], [[Norn]], [[S3P]], [[HAMPI]]
+SMT solvers that support theories over regular expression membership predicate and linear arithmetic over length of strings: [CVC4](Solvers/SMT/CVC4.md), [[Z3str3]], [[Norn]], [[S3]]P, [[HAMPI]]
 
 #### Meta
 :: SMT
 :: PV4 :: part of Z3, produces a satisfiability result for a set of constrains
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-81688-9 :: https://doi.org/10.1145/3550355.3552426
