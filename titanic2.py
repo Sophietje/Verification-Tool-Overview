@@ -16,6 +16,7 @@ SECTION_TOT = 'Type of tool (e.g. model checker, test generator)'
 SECTION_TOT_= 'Type of tool'
 SECTION_EIT = 'Expected input thing'
 SECTION_EIF = 'Expected input format'
+SECTION_FMT = 'Format'
 SECTION_EI_ = 'Expected input'
 SECTION_EO_ = 'Expected output'
 SECTION_ITU = 'Internals (tools used, frameworks, techniques, paradigms, ...)'
@@ -25,9 +26,11 @@ SECTION_URI = 'URIs (github, websites, etc.)'
 SECTION_URI_= 'Links'
 SECTION_LCD = 'Last commit date'
 SECTION_LPD = 'Last publication date'
+SECTION_JRP = 'Related papers'
 SECTION_LRP = 'List of related papers'
 SECTION_RTT = 'Related tools (tools mentioned or compared to in the paper)'
 SECTION_RT_ = 'Related tools'
+SECTION_T__ = 'Tools'
 
 def cleanup(s,c):
 	return s[len(c):].strip() if s.startswith(c) else s
@@ -138,8 +141,8 @@ class Item(object):
 					self.rank, \
 					self.tags, \
 					tag_by_key, \
-					self.markdown_to_html1(), \
-					self.markdown_to_html2(), \
+					self._markdown_to_html1(), \
+					self._markdown_to_html2(), \
 					self.source)
 			file.write(p.dump())
 		# info(f'{self.name} dumped')
@@ -149,42 +152,37 @@ class Item(object):
 			and self.sections[section_name][0]!='?' \
 			and self.sections[section_name][0]!='-' \
 			and self.sections[section_name][0]!=''
-	def markdown_to_html1(self):
+	def _markdown_to_html1(self):
 		lines = []
 		if self.check_for(SECTION_GEN):
 			# usually the only one, for unfilled templates
-			lines.append(md2html(self.sections[SECTION_GEN]))
+			self._h3_md(lines, '', SECTION_GEN)
 		if self.check_for(SECTION_ADF):
-			lines.append(h3(SECTION_ADF))
-			lines.append(ul(self.sections[SECTION_ADF]))
+			self._h3_ul(lines, SECTION_ADF, SECTION_ADF)
 		if self.check_for(SECTION_TOT):
-			lines.append(h3(SECTION_TOT_))
-			lines.append(ul(self.sections[SECTION_TOT]))
+			self._h3_ul(lines, SECTION_TOT_, SECTION_TOT)
 		if self.check_for(SECTION_EIT) or self.check_for(SECTION_EIF):
 			lines.append(h3(SECTION_EI_))
 			if self.check_for(SECTION_EIT):
 				lines.append(md2html(self.sections[SECTION_EIT]))
 			if self.check_for(SECTION_EIF):
-				lines.append('<p>Format:</p>')
+				lines.append(f'<p>{SECTION_FMT}:</p>')
 				lines.append(md2html(self.sections[SECTION_EIF]))
 		if self.check_for(SECTION_EO_):
-			lines.append(h3(SECTION_EO_))
-			lines.append(md2html(self.sections[SECTION_EO_]))
+			self._h3_md(lines, SECTION_EO_, SECTION_EO_)
 		if self.check_for(SECTION_ITU):
-			lines.append(h3(SECTION_I__))
-			lines.append(md2html(self.sections[SECTION_ITU]))
+			self._h3_md(lines, SECTION_I__, SECTION_ITU)
 		if self.check_for(SECTION_COM):
-			lines.append(h3(SECTION_COM))
-			lines.append(md2html(self.sections[SECTION_COM]))
+			self._h3_md(lines, SECTION_COM, SECTION_COM)
 		return '\n'.join(lines)
-	def markdown_to_html2(self):
+	def _markdown_to_html2(self):
 		lines = []
 		if self.check_for(SECTION_URI):
 			self._h4_ul(lines, SECTION_URI_, SECTION_URI)
 		if self.check_for(SECTION_LCD):
 			self._h4_ul(lines, SECTION_LCD, SECTION_LCD)
 		if self.check_for(SECTION_LRP):
-			self._h4_ul(lines, 'Related papers', SECTION_LRP)
+			self._h4_ul(lines, SECTION_JRP, SECTION_LRP)
 		if self.check_for(SECTION_LPD):
 			self._h4_ul(lines, SECTION_LPD, SECTION_LPD)
 		if self.check_for(SECTION_RTT):
@@ -194,6 +192,14 @@ class Item(object):
 		LIST = ul(self.sections[key2])
 		lines.append(h4(key1, 'hasul' if LIST.startswith('<ul>') else ''))
 		lines.append(LIST)
+	def _h3_ul(self, lines, key1, key2):
+		if key1:
+			lines.append(h3(key1))
+		lines.append(ul(self.sections[key2]))
+	def _h3_md(self, lines, key1, key2):
+			if key1:
+				lines.append(h3(key1))
+			lines.append(md2html(self.sections[key2]))
 
 def traverse_dir(d, by_key, by_name):
 	for filename in os.listdir(d):
@@ -262,7 +268,7 @@ for index in indices:
 			if tag_by_key[index].check_for(SECTION_URI):
 				text += '\n' + h4(SECTION_URI_)
 				text += '\n' + ul(tag_by_key[index].sections[SECTION_URI])
-				text += '\n' + h3('Tools')
+				text += '\n' + h3(SECTION_T__)
 		text += '<ul>\n' + '\n'.join(lst) + '\n</ul>'
 		file.write(proverb.IndexPage(title, len(lst), text).dump())
 info(f'{len(indices)} indices generated!')
