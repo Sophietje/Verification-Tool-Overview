@@ -1,30 +1,7 @@
 #!/Users/grammarware/opt/anaconda3/bin/python
 
 import latex2mathml.converter
-
-KNOWN_VENUES = {
-	'https://doi.org/10.1007/978-3-319-63387-9': 'CAV 2017',
-	'https://doi.org/10.1007/978-3-319-63390-9': 'CAV 2017',
-	'https://doi.org/10.1007/978-3-319-96142-2': 'CAV 2018',
-	'https://doi.org/10.1007/978-3-030-25540-4': 'CAV 2019',
-	'https://doi.org/10.1007/978-3-030-25543-5': 'CAV 2019',
-	'https://doi.org/10.1007/978-3-030-53288-8': 'CAV 2020',
-	'https://doi.org/10.1007/978-3-030-53291-8': 'CAV 2020',
-	'https://doi.org/10.1007/978-3-030-81685-8': 'CAV 2021',
-	'https://doi.org/10.1007/978-3-030-81688-9': 'CAV 2021',
-	'https://doi.org/10.1007/978-3-031-13185-1': 'CAV 2022',
-	'https://doi.org/10.1007/978-3-642-36742-7': 'TACAS 2013',
-	'https://doi.org/10.1007/978-3-642-54862-8': 'TACAS 2014',
-	'https://doi.org/10.1007/978-3-662-46681-0': 'TACAS 2015',
-	'https://doi.org/10.1007/978-3-662-49674-9': 'TACAS 2016',
-	'https://doi.org/10.1007/978-3-662-54577-5': 'TACAS 2017',
-	'https://doi.org/10.1007/978-3-319-89960-2': 'TACAS 2018',
-	'https://doi.org/10.1007/978-3-030-17462-0': 'TACAS 2019',
-	'https://doi.org/10.1007/978-3-030-45237-7': 'TACAS 2020',
-	'https://doi.org/10.1007/978-3-030-72013-1': 'TACAS 2021',
-	'https://doi.org/10.1007/978-3-030-72016-2': 'TACAS 2021',
-	'https://doi.org/10.1007/978-3-030-99524-9': 'TACAS 2022',
-}
+from terminology import *
 
 EXISTENCE = set()
 
@@ -177,16 +154,16 @@ def ul(items):
 	return '<ul>' + '\n'.join([li(i) for i in cuis]) + '</ul>'
 
 def make_link_from_source(where):
-	if where == 'https://doi.org/10.4121/20347950.v1' or where == 'https://doi.org/10.1145/3550355.3552426':
-		src = 'Contained in the ProVerB22 dataset (<a href="https://doi.org/10.1145/3550355.3552426">paper</a> + <a href="https://doi.org/10.4121/20347950.v1">artefact</a>)'
+	if where == DS22_PAPER or where == DS22_ARTEFACT:
+		src = DS22_CONTAINED
 	elif where in KNOWN_VENUES:
-		src = f'Source of this entry: <a class="sic" href="{where}">{KNOWN_VENUES[where]}</a>'
+		src = REASON + f'<a class="sic" href="{where}">{KNOWN_VENUES[where]}</a>'
 	elif where.startswith('https://github.com/Sophietje/Verification-Tool-Overview/pull/'):
 		no = where.split('/')[-1]
-		src = 'Source of this entry: '+ make_link(where, f'pull request №{no}')
+		src = REASON + make_link(where, f'pull request №{no}')
 	else:
 		# src = make_link(where, f'<code>{where}</code>')
-		src = link2link(where)
+		src = REASON + link2link(where)
 	if src:
 		return src
 	else:

@@ -5,32 +5,9 @@ from pathlib import Path
 import proverb
 from hyper import *
 import sys
+from terminology import *
 
 cx = 0
-
-
-SECTION_MET = 'Meta'
-SECTION_GEN = 'General'
-SECTION_ADF = 'Application domain/field'
-SECTION_TOT = 'Type of tool (e.g. model checker, test generator)'
-SECTION_TOT_= 'Type of tool'
-SECTION_EIT = 'Expected input thing'
-SECTION_EIF = 'Expected input format'
-SECTION_FMT = 'Format'
-SECTION_EI_ = 'Expected input'
-SECTION_EO_ = 'Expected output'
-SECTION_ITU = 'Internals (tools used, frameworks, techniques, paradigms, ...)'
-SECTION_I__ = 'Internals'
-SECTION_COM = 'Comments'
-SECTION_URI = 'URIs (github, websites, etc.)'
-SECTION_URI_= 'Links'
-SECTION_LCD = 'Last commit date'
-SECTION_LPD = 'Last publication date'
-SECTION_JRP = 'Related papers'
-SECTION_LRP = 'List of related papers'
-SECTION_RTT = 'Related tools (tools mentioned or compared to in the paper)'
-SECTION_RT_ = 'Related tools'
-SECTION_T__ = 'Tools'
 
 def cleanup(s,c):
 	return s[len(c):].strip() if s.startswith(c) else s
