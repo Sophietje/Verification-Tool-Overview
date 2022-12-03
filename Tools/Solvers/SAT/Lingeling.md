@@ -48,3 +48,4 @@ http://fmv.jku.at/papers/Biere-SAT-Competition-2016-solvers.pdf (SAT Competition
 #### Meta
 :: SAT
 :: PV4 :: produces a satisfiability result for a formula
+:: Source :: used by [[Alloy Analyzer]] :: https://doi.org/10.1145/3550355.3552426

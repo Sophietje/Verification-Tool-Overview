@@ -11,7 +11,7 @@ Constraint solver
 Model (with assertions/properties)
 
 #### Expected input format:
-Alloy language
+[[Alloy]] language
 
 #### Expected output:
 Counterexample or "assertion may be valid"
@@ -40,4 +40,4 @@ Repository: https://github.com/AlloyTools/org.alloytools.alloy
 
 #### Meta
 :: PV3 :: checks user-specified assertions in Alloy models
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: used by [[Mapping Synthesis Tool]] :: https://doi.org/10.1145/3550355.3552426
