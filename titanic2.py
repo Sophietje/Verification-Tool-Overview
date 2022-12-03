@@ -63,7 +63,7 @@ class Item(object):
 		self.name = Path(name).stem
 		self.filename = name
 		self.rank = 0 # default, rewrite with a fact
-		self.source = ''
+		self.source = []
 		cx_subsections = cx_lines = 0
 		with open(name, 'r', encoding='utf-8') as file:
 			cur_section = SECTION_GEN
@@ -87,8 +87,7 @@ class Item(object):
 						tag = tmp[1].strip()
 						desc = ''
 					elif len(tmp) >= 3 and tmp[1].strip().lower() == 'source':
-						self.source = '\n<br/>Source of this entry: ' + \
-									  '; '.join([make_link_from_source(part.strip()) for part in tmp[2:]]) + '.'
+						self.source.extend([make_link_from_source(part.strip()) for part in tmp[2:]])
 					elif len(tmp) == 3:
 						tag = tmp[1].strip()
 						desc = tmp[2].strip()
@@ -181,22 +180,20 @@ class Item(object):
 	def markdown_to_html2(self):
 		lines = []
 		if self.check_for(SECTION_URI):
-			lines.append(h4(SECTION_URI_))
-			lines.append(ul(self.sections[SECTION_URI]))
+			self._h4_ul(lines, SECTION_URI_, SECTION_URI)
 		if self.check_for(SECTION_LCD):
-			lines.append(h4(SECTION_LCD))
-			lines.append(ul(self.sections[SECTION_LCD]))
+			self._h4_ul(lines, SECTION_LCD, SECTION_LCD)
 		if self.check_for(SECTION_LRP):
-			lines.append(h4("Related papers"))
-			lines.append(ul(self.sections[SECTION_LRP]))
+			self._h4_ul(lines, 'Related papers', SECTION_LRP)
 		if self.check_for(SECTION_LPD):
-			lines.append(h4(SECTION_LPD))
-			lines.append(ul(self.sections[SECTION_LPD]))
+			self._h4_ul(lines, SECTION_LPD, SECTION_LPD)
 		if self.check_for(SECTION_RTT):
-			lines.append(h4(SECTION_RT_))
-			lines.append(ul(self.sections[SECTION_RTT]))
-		lines.append(h4('ProVerB specific'))
+			self._h4_ul(lines, SECTION_RT_, SECTION_RTT)
 		return '\n'.join(lines)
+	def _h4_ul(self, lines, key1, key2):
+		LIST = ul(self.sections[key2])
+		lines.append(h4(key1, 'hasul' if LIST.startswith('<ul>') else ''))
+		lines.append(LIST)
 
 def traverse_dir(d, by_key, by_name):
 	for filename in os.listdir(d):

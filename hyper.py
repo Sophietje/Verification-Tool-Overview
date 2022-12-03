@@ -157,8 +157,11 @@ def clickable(http):
 def h3(x):
 	return f'<h3>{x}</h3>'
 
-def h4(x):
-	return f'<h4>{x}</h4>'
+def h4(x, c=None):
+	if c:
+		return f'<h4 class="{c}">{x}</h4>'
+	else:
+		return f'<h4>{x}</h4>'
 
 def li(x):
 	return f'<li>{my_md_converter(x)}</li>'
@@ -175,12 +178,12 @@ def ul(items):
 
 def make_link_from_source(where):
 	if where == 'https://doi.org/10.4121/20347950.v1' or where == 'https://doi.org/10.1145/3550355.3552426':
-		src = 'see the original ProVerB dataset (<a href="https://doi.org/10.1145/3550355.3552426">paper</a> + <a href="https://doi.org/10.4121/20347950.v1">artefact</a>)'
+		src = 'Contained in the ProVerB22 dataset (<a href="https://doi.org/10.1145/3550355.3552426">paper</a> + <a href="https://doi.org/10.4121/20347950.v1">artefact</a>)'
 	elif where in KNOWN_VENUES:
-		src = f'<a class="sic" href="{where}">{KNOWN_VENUES[where]}</a>'
+		src = f'Source of this entry: <a class="sic" href="{where}">{KNOWN_VENUES[where]}</a>'
 	elif where.startswith('https://github.com/Sophietje/Verification-Tool-Overview/pull/'):
 		no = where.split('/')[-1]
-		src = make_link(where, f'ProVerB pull request №{no}')
+		src = 'Source of this entry: '+ make_link(where, f'pull request №{no}')
 	else:
 		# src = make_link(where, f'<code>{where}</code>')
 		src = link2link(where)
