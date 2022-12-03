@@ -25,8 +25,8 @@ Error for any properties that are violated, including error traces.
 Code (part of [[Boogie]]): https://github.com/boogie-org/boogie
 
 #### Last commit date:
-28 Nov 2022 (default branch)
-29 Nov 2022 (last activity)
+02 Dec 2022 (default branch)
+02 Dec 2022 (last activity)
 
 #### Last publication date:
 14 July 2020

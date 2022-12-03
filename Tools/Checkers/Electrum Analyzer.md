@@ -36,12 +36,14 @@ License: Apache License 2.0
 
 #### URIs (github, websites, etc.):
 Repository: https://github.com/haslab/Electrum2
-Repository of Electrum Analyzer version 1 (no longer maintained): https://github.com/haslab/electrum
+Repository of Electrum Analyzer version 1 (no longer maintained): https://github.com/haslab/Electrum
 Electrum examples: https://github.com/haslab/Electrum/wiki/Examples
 Project page: https://haslab.github.io/Electrum/
 
 #### Last commit date:
-21 April 2021
+haslab/Electrum: 08 Oct 2019 (default branch)
+haslab/Electrum2: 21 Apr 2021 (default branch)
+13 Sep 2021 (last activity)
 
 #### Last publication date:
 3 September 2018

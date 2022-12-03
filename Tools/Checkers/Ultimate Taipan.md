@@ -42,7 +42,8 @@ Try online: https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=int
 Repository (of the Ultimate framework): https://github.com/ultimate-pa/ultimate/
 
 #### Last commit date:
-10 October 2021 (this is for the complete Ultimate framework, it is unclear when the Taipan part is last updated)
+03 Dec 2022 (default branch)
+03 Dec 2022 (last activity)
 
 #### Last publication date:
 17 April 2020

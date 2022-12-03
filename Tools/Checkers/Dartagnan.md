@@ -32,7 +32,7 @@ Repository (also contains another tool): https://github.com/hernanponcedeleon/Da
 
 #### Last commit date:
 30 Nov 2022 (default branch)
-01 Dec 2022 (last activity)
+02 Dec 2022 (last activity)
 
 #### Last publication date:
 23 March 2021

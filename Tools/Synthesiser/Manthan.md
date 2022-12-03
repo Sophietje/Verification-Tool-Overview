@@ -30,7 +30,8 @@ It uses [ABC](../Frameworks/ABC.md), [PicoSAT](../Solvers/SAT/PicoSAT.md), [[Ope
 Repository: https://github.com/meelgroup/manthan
 
 #### Last commit date:
-8 February 2021
+21 Jul 2022 (default branch)
+21 Jul 2022 (last activity)
 
 #### Last publication date:
 14 July 2020

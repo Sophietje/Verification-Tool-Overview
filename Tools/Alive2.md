@@ -47,8 +47,8 @@ Repository: https://github.com/AliveToolkit/alive2
 Online version of `alice-tv` tool: https://alive2.llvm.org/ce/
 
 #### Last commit date:
-01 Dec 2022 (default branch)
-01 Dec 2022 (last activity)
+03 Dec 2022 (default branch)
+03 Dec 2022 (last activity)
 
 #### Last publication date:
 15 July 2021

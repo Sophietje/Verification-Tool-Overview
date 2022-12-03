@@ -37,7 +37,7 @@ Repository: https://github.com/vprover/vampire
 
 #### Last commit date:
 21 Nov 2022 (default branch)
-30 Nov 2022 (last activity)
+01 Dec 2022 (last activity)
 
 #### Last publication date:
 2017

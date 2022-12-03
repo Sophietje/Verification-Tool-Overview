@@ -30,7 +30,8 @@ Project page: https://alloytools.org/
 Repository: https://github.com/AlloyTools/org.alloytools.alloy
 
 #### Last commit date:
-24 February 2021
+04 Nov 2022 (default branch)
+04 Nov 2022 (last activity)
 
 #### Last publication date:
 

@@ -31,7 +31,8 @@ Note the authors themselves call this a "prototype implementation" and it doesn'
 Repository: https://github.com/eskang/MappingSynthesisTool
 
 #### Last commit date:
-3 February 2019
+03 Feb 2019 (default branch)
+02 May 2019 (last activity)
 
 #### Last publication date:
 12 July 2019

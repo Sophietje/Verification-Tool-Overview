@@ -28,7 +28,8 @@ Explanation graph of the user-defined function.
 Repository: https://github.com/liflab/petitpoucet
 
 #### Last commit date:
-9 January 2021
+18 Nov 2022 (default branch)
+18 Nov 2022 (last activity)
 
 #### Last publication date:
 15 July 2021

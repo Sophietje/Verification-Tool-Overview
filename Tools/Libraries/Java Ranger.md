@@ -35,7 +35,8 @@ Repository: https://github.com/vaibhavbsharma/java-ranger
 Project page: https://vaibhavbsharma.github.io/java-ranger/
 
 #### Last commit date:
-7 December 2021
+07 Dec 2021 (default branch)
+01 Dec 2022 (last activity)
 
 #### Last publication date:
 -

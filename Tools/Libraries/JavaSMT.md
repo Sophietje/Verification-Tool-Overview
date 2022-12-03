@@ -22,7 +22,8 @@ Uses [[Boolector]], [[CVC4]], [[CVC5]], [[MathSAT]]5, [[OptiMathSAT]], [[Princes
 https://github.com/sosy-lab/java-smt
 
 #### Last commit date:
-Nov 2022
+16 Nov 2022 (default branch)
+27 Nov 2022 (last activity)
 
 #### Last publication date:
 2021

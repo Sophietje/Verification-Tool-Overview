@@ -37,8 +37,8 @@ Repository: https://github.com/diffblue/cbmc
 Project page: https://www.cprover.org/cbmc/
 
 #### Last commit date:
-30 Nov 2022 (default branch)
-01 Dec 2022 (last activity)
+02 Dec 2022 (default branch)
+02 Dec 2022 (last activity)
 
 #### Last publication date:
 18 July 2018

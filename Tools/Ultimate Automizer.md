@@ -43,7 +43,8 @@ Try online: https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=int
 Ultimate repository (Ultimate Automizer is a part of this): https://github.com/ultimate-pa/ultimate
 
 #### Last commit date:
-7 February 2022
+03 Dec 2022 (default branch)
+03 Dec 2022 (last activity)
 
 #### Last publication date:
 14 April 2018

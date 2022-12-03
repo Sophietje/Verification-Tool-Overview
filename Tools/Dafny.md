@@ -38,8 +38,8 @@ Documentation: https://dafny-lang.github.io/dafny/
 Repository: https://github.com/dafny-lang/dafny
 
 #### Last commit date:
-30 Nov 2022 (default branch)
-01 Dec 2022 (last activity)
+02 Dec 2022 (default branch)
+03 Dec 2022 (last activity)
 
 #### Last publication date:
 2018

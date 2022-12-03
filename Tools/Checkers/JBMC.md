@@ -38,8 +38,8 @@ Project page: https://www.cprover.org/jbmc/
 Repository: https://github.com/diffblue/cbmc/tree/develop/jbmc (located in the [CBMC](CBMC.md) repository)
 
 #### Last commit date:
-30 Nov 2022 (default branch)
-01 Dec 2022 (last activity)
+02 Dec 2022 (default branch)
+02 Dec 2022 (last activity)
 
 #### Last publication date:
 4 April 2019

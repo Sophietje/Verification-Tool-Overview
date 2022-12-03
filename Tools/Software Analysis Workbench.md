@@ -39,7 +39,8 @@ Tutorial: https://saw.galois.com/tutorial.html
 Manual: https://saw.galois.com/manual.html
 
 #### Last commit date:
-4 September 2021
+22 Nov 2022 (default branch)
+03 Dec 2022 (last activity)
 
 #### Last publication date:
 8 November 2016

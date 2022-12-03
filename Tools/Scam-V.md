@@ -37,7 +37,7 @@ Tutorial: https://github.com/kth-step/HolBA/wiki/HolBA-SCAM-V-tutorial
 
 #### Last commit date:
 29 Sep 2022 (default branch)
-01 Dec 2022 (last activity)
+02 Dec 2022 (last activity)
 
 #### Last publication date:
 14 July 2020

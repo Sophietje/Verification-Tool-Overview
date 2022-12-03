@@ -41,8 +41,8 @@ Successor/version 2.0 of DryVR: https://github.com/qibolun/DryVR_0.2 (last commi
 Successor of version 2.0 of DryVR: https://gitlab.engr.illinois.edu/dryvrgroup/dryvrtool
 
 #### Last commit date:
-DryVR_0.2: 27 Sep 2021 (default branch)
-DryVR: 27 Sep 2021 (default branch)
+qibolun/DryVR_0.2: 27 Sep 2021 (default branch)
+qibolun/DryVR: 27 Sep 2021 (default branch)
 27 Sep 2021 (last activity)
 
 #### Last publication date:
