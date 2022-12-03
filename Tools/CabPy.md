@@ -52,4 +52,4 @@ Repository: https://github.com/reactive-systems/cabpy
 
 #### Meta
 :: PV1 :: solves a two-player reachability game
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-81685-8 :: https://doi.org/10.1145/3550355.3552426
