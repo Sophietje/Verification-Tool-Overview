@@ -24,7 +24,7 @@ Metatool?
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 GRAT is supposed to be used as follows: you provide a certificate, if this is verified, then you have strong formal guarantees that the solution produced by the SAT solver was actually correct.
 
-GRAT consists of two programs [[gratgen]] and [[gratchk]]. gratgen converts a DRAT certificate to a GRAT certificate. gratchk will check the output of gratgen against the original formula.
+GRAT consists of two programs [[GRATgen]] and [[GRATchk]]. GRATgen converts a DRAT certificate to a GRAT certificate. GRATchk will check the output of GRATgen against the original formula.
 
 The soundness of gratchk has been formally proven in [Isabelle/HOL](Provers/Isabelle-HOL.md).
 
