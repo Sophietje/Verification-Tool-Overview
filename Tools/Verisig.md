@@ -48,4 +48,4 @@ Compared to in CAV '21 paper: [NNV](NNV.md) and [[ReachNN\*]] (and an older vers
 #### Meta
 :: Neural network
 :: PV1 :: performs reachability analysis on closed-loop systems with neural network controllers
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-81685-8 :: https://doi.org/10.1145/3550355.3552426

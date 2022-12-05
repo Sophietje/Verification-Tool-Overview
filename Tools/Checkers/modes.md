@@ -49,4 +49,4 @@ Project page (of the Modest Toolset): https://www.modestchecker.net
 :: PV3 :: checks properties of a model in presence of nondeterminism and rare events
 :: Automaton
 :: Model checking
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: part of [[Modest]] :: https://doi.org/10.1145/3550355.3552426

@@ -40,4 +40,4 @@ http://dx.doi.org/10.1007/s10703-012-0167-z (Formal Methods in System Design, 20
 :: Automaton
 :: Hybrid system
 :: Model checking
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: part of [[Modest]] :: https://doi.org/10.1145/3550355.3552426

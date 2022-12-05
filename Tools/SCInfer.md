@@ -49,4 +49,4 @@ Author's webpage with link to the VM and source code: https://faculty.sist.shang
 #### Meta
 :: Security
 :: PV1 :: determines whether nodes of a cryptographic program are perfectly masked
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-96142-2 :: https://doi.org/10.1145/3550355.3552426

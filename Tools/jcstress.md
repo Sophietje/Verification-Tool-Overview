@@ -47,4 +47,4 @@ Project page: https://openjdk.java.net/projects/code-tools/jcstress/
 :: Java
 :: Concurrency
 :: PV1 :: executes test cases in an order that may lead to faults
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: integrated into [[Violat]] :: https://doi.org/10.1145/3550355.3552426

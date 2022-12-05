@@ -45,4 +45,4 @@ https://doi.org/10.1007/978-3-030-25540-4_12 (CAV 2019)
 
 #### Meta
 :: PV2 :: given a high level spec and a low level spec, produces a set of property-preserving mappings
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-25540-4 :: https://doi.org/10.1145/3550355.3552426

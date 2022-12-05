@@ -1,6 +1,7 @@
 Open-source library for symbolic automata
 
 #### Name:
+SVPALib
 
 #### Application domain/field:
 Symbolic automata
@@ -18,7 +19,6 @@ Library
 #### Expected output:
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
-the main library is called SVPALib
 
 #### Comments:
 
@@ -35,6 +35,7 @@ lorisdanto/automatark: 24 Jun 2018 (default branch)
 #### Last publication date:
 
 #### List of related papers:
+[The Learnability of Symbolic Automata](https://doi.org/10.1007/978-3-319-96145-3_23) (CAV'18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 
@@ -42,4 +43,4 @@ lorisdanto/automatark: 24 Jun 2018 (default branch)
 :: Library
 :: Automaton
 :: PV1 :: supports creating and transforming symbolic automata
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-96145-3 :: https://doi.org/10.1145/3550355.3552426

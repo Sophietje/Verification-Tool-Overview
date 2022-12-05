@@ -1,5 +1,5 @@
 #### Name:
-$T_CT$: Tyrolean Complexity Tool
+TcT: Tyrolean Complexity Tool
 
 #### Application domain/field:
 Complexity analysis
@@ -32,6 +32,8 @@ $T_CT$ has several instances which provide automated complexity analysis for dif
 - `tct-jbc` for Jinja bytecode. Uses [Yices](Solvers/SMT/Yices.md), [[MiniSmt]]
 
 #### Comments:
+Also spellt as $T_CT$.
+
 License: BSD3
 
 #### URIs (github, websites, etc.):
@@ -55,3 +57,4 @@ Try online: http://colo6-c703.uibk.ac.at/tct/index.php
 #### Meta
 :: Complexity
 :: PV1 :: determines the complexity, including proof, of a given integer transition system or term rewrite system
+:: Source :: https://doi.org/10.1007/978-3-662-49674-9 :: https://doi.org/10.1145/3550355.3552426

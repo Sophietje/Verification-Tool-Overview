@@ -1,7 +1,7 @@
 Tyrolean Termination Tool 2 is a tool for automatically proving and disproving termination of rewrite systems.
 
 #### Name:
-$T_TT_2$: Tyrolean Termination Tool 2
+TTT2: Tyrolean Termination Tool 2
 
 #### Application domain/field:
 Term rewriting
@@ -29,6 +29,8 @@ It also shows the following:
 Uses [MiniSat](Solvers/SAT/MiniSat.md) and [Yices](Solvers/SMT/Yices.md).
 
 #### Comments:
+Also spellt as $T_TT_2$.
+
 License: GNU LGPL V3.0?
 
 #### URIs (github, websites, etc.):
@@ -52,3 +54,4 @@ $T_TT_2$ is used by the following tools: [[CaT]], [[ConCon]], [[KBCV]], [[mkbTT]
 #### Meta
 :: Termination
 :: PV1 :: produces a proof of termination for a term rewrite system
+:: Source :: compared to [[nonreach]] :: https://doi.org/10.1145/3550355.3552426

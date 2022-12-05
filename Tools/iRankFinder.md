@@ -51,4 +51,4 @@ costa-group/iRankFinder: 18 Oct 2020 (default branch)
 
 #### Meta
 :: PV1 :: infers ranking functions for loops
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-63390-9 :: https://doi.org/10.1145/3550355.3552426

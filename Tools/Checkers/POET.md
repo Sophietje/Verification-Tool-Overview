@@ -55,4 +55,4 @@ Compared to: [Nidhugg](../Nidhugg.md)
 :: Concurrency
 :: PV1 :: analyses a multi-threaded program to see if it conforms to expectations of the tool
 :: Model checking
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: compared to [[Nidhugg]] :: https://doi.org/10.1145/3550355.3552426

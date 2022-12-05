@@ -47,4 +47,4 @@ Repository: https://github.com/95616ARG/SyReNN
 :: DNN
 :: Library
 :: PV1 :: computes a symbolic representation of a neural network as linear functions
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-72013-1 :: https://doi.org/10.1145/3550355.3552426

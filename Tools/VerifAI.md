@@ -65,4 +65,4 @@ Documentation: https://verifai.readthedocs.io/en/latest/
 :: Synthesis
 :: Framework
 :: PV3 :: checks built-in and user-defined properties of system models
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-25540-4 :: https://doi.org/10.1145/3550355.3552426

@@ -1,7 +1,7 @@
 Quantum protocol programming language & simulator
 
 #### Name:
-qtpi, sometimes stylized as Qtpi
+qtpi, sometimes stylised as Qtpi
 
 #### Application domain/field:
 Quantum cryptographic protocols
@@ -53,4 +53,4 @@ TACAS '20 artifact: https://doi.org/10.6084/m9.figshare.11882592
 :: Simulation
 :: Protocol
 :: PV1 :: checks that quantum programs obey real-world restrictions and simulates quantum programs
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-45237-7 :: https://doi.org/10.1145/3550355.3552426

@@ -51,4 +51,4 @@ Seems to be bundled with [RABIT](RABIT.md)
 #### Meta
 :: Automaton
 :: PV1 :: minimizes Büchi automata
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: used by [[DetLP]] and [[QuIP]] :: https://doi.org/10.1145/3550355.3552426

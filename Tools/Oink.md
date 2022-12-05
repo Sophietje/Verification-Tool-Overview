@@ -13,7 +13,7 @@ Parity game
 
 #### Expected input format:
 PGSolver format
-The file may be zipped using gzip (.gz) or bzip2 (.bz2).
+The file may be zipped using gzip (`.gz`) or bzip2 (`.bz2`).
 
 #### Expected output:
 Solution to the parity game (i.e. who is the winner of the game starting from the initial vertex)
@@ -45,4 +45,4 @@ Repository: https://www.github.com/trolando/oink
 
 #### Meta
 :: PV1 :: solves a parity game
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-89960-2 :: https://doi.org/10.1145/3550355.3552426

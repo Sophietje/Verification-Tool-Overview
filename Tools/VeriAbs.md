@@ -58,4 +58,4 @@ GitHub: https://github.com/divyeshunadkat/VAJRA ([[VAJRA]] and [[TILER]] are int
 :: C
 :: PV1           :: performs several predefined analyses on C programs to make them compatible with a bounded model checker
 :: Model checking
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-45190-5 :: https://doi.org/10.1145/3550355.3552426

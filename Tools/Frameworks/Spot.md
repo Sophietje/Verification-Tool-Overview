@@ -54,4 +54,4 @@ Try online: https://spot-sandbox.lrde.epita.fr/
 #### Meta
 :: Framework
 :: PV1 :: manipulates LTL formulae and ω-automata
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: used by [[McRERS]] :: https://doi.org/10.1145/3550355.3552426

@@ -52,4 +52,4 @@ Other reachability analysis tools: [[C2E2]], [[CORA]], [[Flow\*]], [Isabelle](Pr
 
 #### Meta
 :: PV1 :: computes reachable sets of high-dimensional non-linear systems
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-53288-8 :: https://doi.org/10.1145/3550355.3552426

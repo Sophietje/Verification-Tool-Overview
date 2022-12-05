@@ -5,4 +5,4 @@ https://smtlib.cs.uiowa.edu/
 #### Meta
 :: no PV
 :: Specification format
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: used by many (most?) solvers :: https://doi.org/10.1145/3550355.3552426

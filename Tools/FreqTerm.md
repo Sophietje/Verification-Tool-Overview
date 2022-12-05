@@ -19,7 +19,7 @@ Program encoded as a system of linear constrained Horn clauses (CHCs).
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Tool to prove program termination and non-termination using syntax-guided synthesis.
-Uses [Spacer](Solvers/Spacer.md)]3, [µZ](Solvers/µZ.md) [[AE-VAL]], [Z3](Solvers/SMT/Z3.md). It is developed on top of [FreqHorn](Solvers/FreqHorn.md).
+Uses [Spacer](Solvers/Spacer.md)3, [µZ](Solvers/µZ.md) [[AE-VAL]], [Z3](Solvers/SMT/Z3.md). It is developed on top of [FreqHorn](Solvers/FreqHorn.md).
 
 #### Comments:
 
@@ -41,4 +41,4 @@ Repository: https://github.com/grigoryfedyukovich/aeval/tree/term
 #### Meta
 :: Termination
 :: PV1 :: checks whether the encoded program terminates
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-96145-3 :: https://doi.org/10.1145/3550355.3552426

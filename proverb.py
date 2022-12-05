@@ -74,38 +74,37 @@ TEMPLATE = '''
 			</nav>
 		</div>
 		<div class="main">
-			{tabs}
+			{main}
 		</div>
 		<br/><hr/>
 		<div class="f">
-			<a href="help.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
-			Last updated: <strong>{last_updated}</strong>.{source}
+			<a href="index.html">ProVerB</a> is a part of <a href="https://slebok.github.io/">SLEBoK</a>.
+			Last updated: <strong>{last_updated}</strong>.
 		</div>
 	</body>
 </html>
 '''
 
 class Page(object):
-	def __init__(self, t, src):
+	def __init__(self, t):
 		super(Page, self).__init__()
 		self.title = t
 		self.tabs = OrderedDict()
-		self.src = src
 	def dump(self):
-		tabber = ''
+		content = ''
 		for tab in self.tabs:
 			if (tab == 'Tool'):
-				tabber += f'<div class="tool-info">{self.tabs[tab]}</div>'
+				content += f'<div class="tool-info">{self.tabs[tab]}</div>'
 			elif (tab == 'Meta'):
-				tabber += f'<div class="meta-info">{self.tabs[tab]}</div>'
+				content += f'<div class="meta-info">{self.tabs[tab]}</div>'
 			else:
-				tabber += self.tabs[tab]
-		return TEMPLATE.format(title=self.title, tabs=tabber, source=self.src,\
+				content += self.tabs[tab]
+		return TEMPLATE.format(title=self.title, main=content,\
 			last_updated=datetime.datetime.now().strftime('%B %Y'))
 
 class ToolPage(Page):
 	def __init__(self, fn, t, ft, st, rank, tags, tags_by_key, c1, c2, src):
-		super(ToolPage, self).__init__(t, src)
+		super(ToolPage, self).__init__(t)
 		self.filename = fn
 		# construct the title
 		if rank < 0:
@@ -116,19 +115,28 @@ class ToolPage(Page):
 			FULL_TITLE += f'<span class="subtitle">{st}</span>'
 		FULL_TITLE += '</h1>'
 		# construct tag links
-		TAGS = '<div>' + '\n'.join([self.format_tag(t, tags, tags_by_key) for t in sorted(tags)]) + '</div>'
-		EDITLINK = '<p>' + make_link('https://github.com/Sophietje/Verification-Tool-Overview/blob/main/'+self.filename, 'View/edit description', why='Markdown') + '</p>'
+		TAGS = '<div>' + '\n'.join([self._format_tag(t, tags, tags_by_key) for t in sorted(tags)]) + '</div>'
+		SPECIFIC = [self._format_editlink()]
+		SPECIFIC.extend(src)
 		self.tabs['Tool'] = FULL_TITLE + c1
-		self.tabs['Meta'] = TAGS + c2 + EDITLINK
-	def format_tag(self, t, tags1, tags2):
+		self.tabs['Meta'] = TAGS + c2 + self._format_specifics(SPECIFIC)
+	def _format_tag(self, t, tags1, tags2):
 		hover = tags1[t][1]
 		if not hover and t in tags2 and tags2[t].check_for('Name'):
 			hover = tags2[t].sections['Name'][0]
 		return f'<span class="tag">{make_link(t+".html", tags1[t][0], hover=hover)}</span>'
+	def _format_editlink(self):
+		return 'Markdown description: ' + make_link('https://github.com/Sophietje/Verification-Tool-Overview/blob/main/'+self.filename, 'view/edit')
+	def _format_specifics(self, lst):
+		if len(lst) == 1:
+			return h4('ProVerB specific') + f'<p>{lst[0]}</p>'
+		else:
+			return h4('ProVerB specific', 'hasul') + \
+					'<ul>\n' + '\n'.join([f'<li>{x}</li>' for x in lst]) + '\n</ul>'
 
 class IndexPage(Page):
 	def __init__(self, cat, size, lst):
-		super(IndexPage, self).__init__('Index', '')
+		super(IndexPage, self).__init__('Index')
 		if cat.endswith('</span>'):
 			i = cat.index('<span')
 			FULL_TITLE = f'<h1 class="fbs">{cat[:i]} in ProVerB{cat[i:]}</h1>'
