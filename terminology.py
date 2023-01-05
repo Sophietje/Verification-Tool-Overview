@@ -22,6 +22,8 @@ SECTION_LRP = 'List of related papers'
 SECTION_RTT = 'Related tools (tools mentioned or compared to in the paper)'
 SECTION_RT_ = 'Related tools'
 SECTION_T__ = 'Tools'
+SECTION_REP = 'Repository: '
+GITHUB_URL  = '<a href="https://github.com/'
 
 REASON = 'Reason for this entry: '
 DS22_PAPER     = 'https://doi.org/10.1145/3550355.3552426'

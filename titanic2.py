@@ -154,9 +154,51 @@ class Item(object):
 		return '\n'.join(lines)
 	def _markdown_to_html2(self):
 		lines = []
-		if self.check_for(SECTION_URI):
-			self._h4_ul(lines, SECTION_URI_, SECTION_URI)
+		LAST = {}
+		LAST_V = []
 		if self.check_for(SECTION_LCD):
+			for line in self.sections[SECTION_LCD]:
+				if not line:
+					continue
+				lineP = self._parse_last_commit(line)
+				if lineP:
+					if lineP[0] not in LAST.keys():
+						LAST[lineP[0]] = ' '.join(lineP[1:])
+					else:
+						LAST_V.append(' '.join(lineP))
+				else:
+					LAST_V.append(line)
+			# self._h4_ul(lines, SECTION_LCD, SECTION_LCD)
+		if self.check_for(SECTION_URI):
+			# self._h4_ul(lines, SECTION_URI_, SECTION_URI)
+			LIST_FLAT = ul(self.sections[SECTION_URI])
+			LIST = []
+			if LIST_FLAT.startswith('<ul>'):
+				LIST_FLAT = LIST_FLAT[len('<ul><li>'):-len('</li></ul>')]
+			LIST_ELEMS = LIST_FLAT.split('</li>\n<li>')
+			FLAG_ONEREPO_EXPLICIT = [x.find(SECTION_REP)>-1 for x in LIST_ELEMS].count(True) == 1
+			FLAG_ONEREPO_IMPLICIT = [x.startswith(GITHUB_URL) for x in LIST_ELEMS].count(True) == 1
+			for line in LIST_ELEMS:
+				for key in LAST:
+					if line.find(key) > -1:
+						line += f'<ul><li>{SECTION_LCD}: {LAST[key]}</li></ul>'
+				if FLAG_ONEREPO_EXPLICIT and line.find(SECTION_REP)>-1 or FLAG_ONEREPO_IMPLICIT and line.startswith(GITHUB_URL):
+					line += '<ul>'
+					for line2 in LAST_V:
+						line += f'<li>{SECTION_LCD}: {line2}</li>'
+					line += '</ul>'
+				LIST.append(line)
+			lines.append(h4(SECTION_URI_, 'hasul' if len(LIST)>1 else ''))
+			if not (FLAG_ONEREPO_EXPLICIT or FLAG_ONEREPO_IMPLICIT):
+				for line in LAST_V:
+					LIST.append(f'{SECTION_LCD}: {line}')
+			if len(LIST) == 1:
+				lines.append(LIST[0])
+			elif len(LIST) > 1:
+				lines.append('<ul><li>' + '</li>\n<li>'.join(LIST) + '</li></ul>')
+			# lines.append(ul(LIST))
+		elif self.check_for(SECTION_LCD):
+			# Just last commits without URI is weird, better stay away
 			self._h4_ul(lines, SECTION_LCD, SECTION_LCD)
 		if self.check_for(SECTION_LRP):
 			self._h4_ul(lines, SECTION_JRP, SECTION_LRP)
@@ -177,6 +219,20 @@ class Item(object):
 			if key1:
 				lines.append(h3(key1))
 			lines.append(md2html(self.sections[key2]))
+	def _parse_last_commit(self, line):
+		# if line.find(':') < 0:
+		# 	line = SECTION_LCD + ': ' + line
+		name = date = just = ''
+		tmp1 = line.split(': ')
+		if len(tmp1) != 2:
+			return None
+		name = tmp1[0]
+		tmp1 = tmp1[1].split('(')
+		if len(tmp1) != 2:
+			return None
+		date = tmp1[0].strip()
+		just = '(' + tmp1[1]
+		return name,date,just
 
 def traverse_dir(d, by_key, by_name):
 	for filename in os.listdir(d):
