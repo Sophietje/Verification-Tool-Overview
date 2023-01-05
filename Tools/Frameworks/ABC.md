@@ -14,7 +14,7 @@ Model checking
 Equivalence checking
 
 #### Type of tool (e.g. model checker, test generator):
-Framework for synthesis and verification of boolean networks
+Framework for synthesis and verification of Boolean networks
 
 #### Expected input thing:
 Binary logic circuit/network

@@ -10,11 +10,11 @@ Probabilistic model checker
 
 #### Expected input thing:
 - Input model: 
-	- DTMCs (discrete time markov chains)
-	- CTMCs (continuous time markov chains)
+	- DTMCs (discrete time Markov chains)
+	- CTMCs (continuous time Markov chains)
 	- MDPs (Markov decision processes)
-	- GSPN (Generalized Stochastic Petri nets)
-	- DFTs (Dynamic fault trees)
+	- GSPN (generalised stochastic Petri nets)
+	- DFTs (dynamic fault trees)
 	- cpGCL (conditional probabilistic guarded command language) program
 	- Explicit model
 
@@ -26,14 +26,14 @@ Probabilistic model checker
 #### Expected input format:
 Storm supports many different input formats:
 - *Input model*: 
-	- [PRISM](PRISM.md) for DTMCs, CTMCs and MDPs
+	- [PRISM](../../Formats/PRISM%20language.md) for DTMCs, CTMCs and MDPs
 	- [JANI](../../Formats/JANI.md) for DTMCs, CTMCs and MDPs
 	- [[PNML]] or [[GreatSPN]] for GSPNs
 	- [[Galileo]] format for DFTs
 	- [[cpGCL]]
 	- Explicit format
 - *Specification*:  
-	- "Extended subset" of the [PRISM](PRISM.md) property language
+	- "Extended subset" of the [PRISM property language](../../Formats/PRISM%20language.md)
 	- Embedded in the JANI model
 
 #### Expected output:
@@ -66,6 +66,6 @@ Repository: https://github.com/moves-rwth/storm
 
 #### Meta
 :: Probabilistic
-:: PV5           :: computes how a given property is related to a given specification
+:: PV3           :: computes how a given property is related to a given specification
 :: Model checking
 :: Source :: https://doi.org/10.1145/3550355.3552426

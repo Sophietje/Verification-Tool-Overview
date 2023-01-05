@@ -46,4 +46,4 @@ compared to [[Blaze]]
 #### Meta
 :: Synthesis
 :: PV2 :: learns abstractions and transformers from a language and a set of synthesis problems
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-319-96145-3 :: https://doi.org/10.1145/3550355.3552426

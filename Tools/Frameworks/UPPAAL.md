@@ -23,9 +23,10 @@ Some features of UPPAAL include:
 
 #### URIs (github, websites, etc.):
 Project page: https://uppaal.org/
+GitHub account with documentation and some libraries: https://github.com/UPPAALModelChecker
 
 #### Last commit date:
-2 December 2021
+
 
 #### Last publication date:
 2021

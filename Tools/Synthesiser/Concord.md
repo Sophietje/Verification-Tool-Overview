@@ -41,4 +41,4 @@ Compared to [[Neo]] and [[DeepCoder]].
 #### Meta
 :: Synthesis
 :: PV2 :: given a domain-specific language and specification, it synthesises a program that satisfies the specification
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-53291-8 :: https://doi.org/10.1145/3550355.3552426

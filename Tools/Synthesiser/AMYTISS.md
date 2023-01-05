@@ -47,4 +47,4 @@ StocHy
 :: LTL
 :: Synthesis
 :: PV2 :: synthesises a spec-conforming controller from a Markov decision process
-:: Source :: https://doi.org/10.1145/3550355.3552426
+:: Source :: https://doi.org/10.1007/978-3-030-53291-8 :: https://doi.org/10.1145/3550355.3552426

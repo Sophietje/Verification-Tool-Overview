@@ -47,4 +47,4 @@ Compared to (in CAV '21 paper): [MiniSat](MiniSat.md), [Glucose](Glucose.md), [[
 #### Meta
 :: SAT
 :: PV4 :: produces a satisfiability result for a formula
-:: Source :: https://github.com/Sophietje/Verification-Tool-Overview/pull/3
+:: Source :: https://github.com/Sophietje/Verification-Tool-Overview/pull/3 :: https://doi.org/10.1145/3550355.3552426
