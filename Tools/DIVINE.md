@@ -33,7 +33,7 @@ License; ISC license (2-clause BSD)
 
 #### URIs (github, websites, etc.):
 Project page: https://divine.fi.muni.cz/index.html
-Mirror of code on github: https://github.com/paradise-fi/divine
+Repository: https://github.com/paradise-fi/divine (mirror)
 
 #### Last commit date:
 21 Mar 2021 (default branch)

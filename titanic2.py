@@ -181,7 +181,7 @@ class Item(object):
 			for line in LIST_ELEMS:
 				for key in LAST:
 					if line.find(key) > -1:
-						line += f'<ul><li>{SECTION_LCD}: {LAST[key]}</li></ul>'
+						line += f'\n<ul><li>{SECTION_LCD}: {LAST[key]}</li></ul>'
 				if FLAG_ONEREPO_EXPLICIT and line.find(SECTION_REP)>-1 or FLAG_ONEREPO_IMPLICIT and line.startswith(GITHUB_URL):
 					line += '<ul>'
 					for line2 in LAST_V:
