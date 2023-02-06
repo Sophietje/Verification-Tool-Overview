@@ -41,5 +41,5 @@ Repository: https://github.com/meelgroup/ganak
 -
 
 #### Meta
-:: Source :: Used by [CountMUST](Tools/CountMUST.md) and [EntropyEstimation](Tools/EntropyEstimation.md)
 :: PV1 :: Counts number of possible solutions for a Boolean formula
+:: Source :: Used by [CountMUST](Tools/CountMUST.md) and [EntropyEstimation](Tools/EntropyEstimation.md)

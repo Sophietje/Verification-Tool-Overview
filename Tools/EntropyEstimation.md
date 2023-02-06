@@ -46,6 +46,6 @@ https://doi.org/10.1007/978-3-031-13185-1_18 (CAV 2022)
 -
 
 #### Meta
-:: PV1 :: computes the Shannon entropy for a given program
 :: Security
+:: PV1 :: computes the Shannon entropy for a given program
 :: Source :: https://doi.org/10.1007/978-3-031-13185-1
