@@ -36,7 +36,7 @@ VS Code extension: https://github.com/viperproject/viper-ide
 [Automatic Verification of Iterated Separating Conjunctions Using Symbolic Execution](https://doi.org/10.1007/978-3-319-41528-4_22) (CAV '16)
 
 #### Related tools (tools mentioned or compared to in the paper):
-Verifiers built on top of Viper: [Gobra](../Gobra.md), [Nagini](../Nagini.md), [[Prusti]], [[Chalice]], [[VerCors]]
+Verifiers built on top of Viper: [Gobra](../Gobra.md), [Nagini](../Nagini.md), [[Prusti]], [[Chalice]], [VerCors](../VerCors.md)
 Tool to infer permission annotations for Viper programs: [Sample](../Sample.md)
 
 #### Meta

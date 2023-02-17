@@ -51,7 +51,7 @@ viperproject/gobra-ide: 03 Dec 2022 (default branch)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Other verification approaches for Go: [[Perennial]]
-Other [Viper](Frameworks/Viper.md)-based verifiers: [Nagini](Nagini.md), [[Prusti]], [[VerCors]].
+Other [Viper](Frameworks/Viper.md)-based verifiers: [Nagini](Nagini.md), [[Prusti]], [VerCors](VerCors.md).
 
 #### Meta
 :: Go

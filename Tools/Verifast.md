@@ -51,7 +51,7 @@ Tutorial: https://doi.org/10.5281/zenodo.1068185
 Tools using separation logic: [[Smallfoot]], [[jStar]], [[SpaceInvader]], [[Abductor]]
 Tools for Java Card programs: [[ESC/Java]], [[KeY]]
 Tools for C programs: [[BLAST]], [[SLAM/SDV]], [[VCC]]
-Other deductive verifiers: [[VerCors]], [[OpenJML]]
+Other deductive verifiers: [VerCors](VerCors.md), [[OpenJML]]
 
 #### Meta
 :: PV4 :: checks for illegal memory accesses, data races and user-written specifications in C/Java code

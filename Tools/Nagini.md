@@ -46,7 +46,7 @@ Artifact of CAV 2021 paper: https://zenodo.org/record/4724854
 [Product Programs in the Wild: Retrofitting Program Verifiers to Check Information Flow Security](https://doi.org/10.1007/978-3-030-81685-8_34) (CAV 2021)
 
 #### Related tools (tools mentioned or compared to in the paper):
-Tools that also use Viper as a back end for verification: [Gobra](Gobra.md), [[Prusti]] and [[VerCors]].
+Tools that also use Viper as a back end for verification: [Gobra](Gobra.md), [[Prusti]] and [VerCors](VerCors.md).
 
 #### Meta
 :: Python
