@@ -31,6 +31,7 @@ VS Code extension: https://github.com/viperproject/viper-ide
 2018
 
 #### List of related papers:
+[Sound Automation of Magic Wands](https://doi.org/10.1007/978-3-031-13188-2_7)
 [Automating Deductive Verification for Weak-Memory Programs](https://doi.org/10.1007/978-3-319-89960-2_11) (TACAS '18)
 [Viper: A Verification Infrastructure for Permission-Based Reasoning](https://doi.org/10.1007/978-3-662-49122-5_2) (VMCAI '16)
 [Automatic Verification of Iterated Separating Conjunctions Using Symbolic Execution](https://doi.org/10.1007/978-3-319-41528-4_22) (CAV '16)

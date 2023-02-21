@@ -48,8 +48,12 @@ Try online: https://spot-sandbox.lrde.epita.fr/
 21 October 2019
 
 #### List of related papers:
+[From Spot 2.0 to Spot 2.10: What's New?](https://doi.org/10.1007/978-3-031-13188-2_9) (CAV '22)
 [Generic Emptiness Check for Fun and Profit](https://doi.org/10.1007/978-3-030-31784-3_26) (ATVA '19)
 [Spot 2.0 — A Framework for LTL and $\omega$-Automata Manipulation](https://doi.org/10.1007/978-3-319-46520-3_8) (ATVA '16)
+
+#### Related tools (tools mentioned or compared to in the paper):
+[[GOAL]], [Owl](../Libraries/Owl.md)
 
 #### Meta
 :: Framework
