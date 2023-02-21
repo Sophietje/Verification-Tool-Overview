@@ -18,7 +18,7 @@ Library for automata learning
 
 #### Expected input format:
 - *Command*: Argument that is passed when calling ROLL
-- *Büchi automata*: Hanoi Omega Automata ([HOA](../../Formats/HOA.md)) format and the BA format used by [RABIT](RABIT.md)
+- *Büchi automata*: Hanoi Omega Automata ([HOA](../../Formats/HOA.md)) format and the [ba](../../Formats/ba.md) format
 
 #### Expected output:
 Depends on how the library is used. Typically it will output a learned or complement automaton along with some execution information.

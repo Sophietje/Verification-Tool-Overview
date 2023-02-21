@@ -17,7 +17,7 @@ Property checker/language inclusion solver
 - The metagraph $M^I_{A,B}$?
 
 #### Expected input format:
-[[BA]] format
+[[../Formats/ba]] format
 
 #### Expected output:
 Returns `TRUE` iff $L(A) \subseteq L(B)$ otherwise `FALSE`

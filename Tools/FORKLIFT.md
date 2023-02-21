@@ -14,7 +14,7 @@ Inclusion checker for Büchi automata
 Two Büchi automata A & B
 
 #### Expected input format:
-Two `.ba` files (see: http://languageinclusion.org/doku.php?id=tools#the_ba_format)
+Two `.ba` files ([ba](../Formats/ba.md))
 
 #### Expected output:
 0 if the language of automata A is a subset of the language of automata B.

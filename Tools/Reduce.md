@@ -15,7 +15,7 @@ Automata translator?
 Büchi automaton (BA) or nondeterministic finite automaton (NFA)
 
 #### Expected input format:
-[[BA]] format
+[[../Formats/ba]] format
 
 #### Expected output:
 Minimized automaton?
