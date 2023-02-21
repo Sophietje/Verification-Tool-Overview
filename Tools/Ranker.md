@@ -14,7 +14,7 @@ Complementation
 Büchi automata
 
 #### Expected input format:
-[HOA](../../Formats/HOA.md) or [[../../Formats/ba]] format
+[HOA](../../Formats/HOA.md) or [ba](../Formats/ba.md) format
 
 #### Expected output:
 Complement of the Büchi automaton
