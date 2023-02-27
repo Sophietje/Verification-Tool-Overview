@@ -18,25 +18,29 @@ Model checking
 - Confidence level
 
 #### Expected input format:
-- *CTMC*: model file, they support the [PRISM language](../../Formats/PRISM%20language.md) for parametric CTMCs and the [[Galileo]] format for parametric fault trees.
+- *CTMC*: model file, in the [PRISM language](../../Formats/PRISM%20language.md) for parametric CTMCs and the [[Galileo]] format for parametric fault trees.
 - *Parameter probability distribution file*: Excel or CSV (semi-colon separated) file
 - *Property definition file*: Excel or CSV (semi-colon separated) file
 - Others are passed as parameters when executing the python script.
 
 #### Expected output:
-?
+Prediction region (as image(s))
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Uses [Storm](../../Tools/Checkers/Storm.md)
+
+SLURF computes prediction regions. This is useful since there are many cases where you are not sure what the exact transition rates or probabilities are. 
+The prediction regions can depict how the uncertainty in the input influences the output. Intuitively this gives some feeling for the robustness of the output for some uncertain input.
 
 #### Comments:
 -
 
 #### URIs (github, websites, etc.):
 - Artifact: https://doi.org/10.5281/zenodo.6523863.
+- Repository: https://github.com/LAVA-LAB/slurf
 
 #### Last commit date:
--
+22 September 2022
 
 #### Last publication date:
 7 August 2022
