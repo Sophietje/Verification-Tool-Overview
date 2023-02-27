@@ -51,7 +51,7 @@ Project page: https://loonwerks.com/tools/jkind.html
 #### Related tools (tools mentioned or compared to in the paper):
 Compared to [[Kind 2]], [[Zustre]], [Z3](../Solvers/SMT/Z3.md) (generalized PDR) and [nuXmv](nuXmv.md) (IC3) in the paper.
 
-It is used as a back-end in [[SpeAR]], [AGREE](AGREE.md) and [[SIMPAL]].
+It is used as a back-end in [[../Provers/SPEAR]], [AGREE](AGREE.md) and [[SIMPAL]].
 
 #### Meta
 :: Lustre

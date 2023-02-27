@@ -23,6 +23,10 @@ Complexity analyser
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 Amortised analysis is a method for the worst-case cost/complexity analysis of data structures. In this paper they present a technique to do this amortised cost analysis of self-adjusting data-structures fully automated.
 
+In the CAV '22 paper they extended the tool to deal with probabilistic data structures such as randomised splay trees, randomised meldable heaps and randomised analysis of a binary search tree.
+
+Uses [Z3](Solvers/SMT/Z3.md)
+
 #### Comments:
 -
 
@@ -34,9 +38,10 @@ Repository: https://github.com/lorenzleutgeb/atlas/
 15 Nov 2022 (last activity)
 
 #### Last publication date:
-15 July 2021
+6 August 2022
 
 #### List of related papers:
+[Automated Expected Amortised Cost Analysis of Probabilistic Data Structures](https://doi.org/10.1007/978-3-031-13188-2_4) (CAV '22)
 [ATLAS: Automated Amortised Complexity Analysis of Self-adjusting Data Structures](https://doi.org/10.1007/978-3-030-81688-9_5) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):

@@ -6,7 +6,7 @@ Theorem proving
 Arithmetic
 
 #### Type of tool (e.g. model checker, test generator):
-Format for the [[SPEAR]] theorem prover
+Format for the [SPEAR](../Tools/Provers/SPEAR.md) theorem prover
 
 #### Internals (tools used, frameworks, techniques, paradigms, ...):
 - supports bit-vectors only up to 64 bits
@@ -25,7 +25,7 @@ Documentation: https://www.cs.ubc.ca/~babic/doc/spear_modarith.pdf
 https://doi.org/10.1007/978-3-540-73368-3_41 (CAV 2007)
 
 #### Related tools (tools mentioned or compared to in the paper):
-Used in [[SPEAR]]
+Used in [SPEAR](../Tools/Provers/SPEAR.md)
 
 #### Meta
 :: no PV
