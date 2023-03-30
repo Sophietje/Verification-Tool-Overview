@@ -35,7 +35,6 @@ Artifact for CAV '21: https://zenodo.org/record/4726264
 Repository: https://github.com/sjunges/rubicon
 
 #### Last commit date:
-10 Jun 2021 (default branch)
 10 Jun 2021 (last activity)
 
 #### Last publication date:

@@ -39,7 +39,6 @@ https://moves-rwth.github.io/attestor/
 Examples: https://github.com/moves-rwth/attestor-examples
 
 #### Last commit date:
-17 Dec 2021 (default branch)
 17 Dec 2021 (last activity)
 
 #### Last publication date:

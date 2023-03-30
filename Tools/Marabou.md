@@ -41,9 +41,8 @@ Repository (unsure what the difference is): https://github.com/NeuralNetworkVeri
 Project page: https://neuralnetworkverification.github.io/
 
 #### Last commit date:
-NeuralNetworkVerification/Marabou: 29 Nov 2022 (default branch)
-guykatzz/Marabou: 24 Sep 2021 (default branch)
-02 Dec 2022 (last activity)
+NeuralNetworkVerification/Marabou: 28 Mar 2023 (last activity)
+guykatzz/Marabou: 09 Oct 2021 (last activity)
 
 #### Last publication date:
 23 March 2021

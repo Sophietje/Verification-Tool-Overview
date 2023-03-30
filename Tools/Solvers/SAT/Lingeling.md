@@ -30,7 +30,6 @@ Project page: http://fmv.jku.at/lingeling/
 Repository: https://github.com/arminbiere/lingeling
 
 #### Last commit date:
-15 May 2022 (default branch)
 15 May 2022 (last activity)
 
 #### Last publication date:

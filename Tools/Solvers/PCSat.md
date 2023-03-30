@@ -38,8 +38,7 @@ Note: the authors sometimes call PCSat a (second-order) constraint solver
 Repository (contains [MuVal](../MuVal.md) and PCSat): https://github.com/hiroshi-unno/coar
 
 #### Last commit date:
-11 May 2021 (default branch)
-11 May 2021 (last activity)
+27 Feb 2023 (last activity)
 
 #### Last publication date:
 15 July 2021

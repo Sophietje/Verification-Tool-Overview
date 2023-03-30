@@ -24,8 +24,7 @@ https://github.com/UPPAALModelChecker/UDBM
 https://github.com/UPPAALModelChecker/UDBM/wiki
 
 #### Last commit date:
-28 Nov 2022 (default branch)
-02 Dec 2022 (last activity)
+07 Dec 2022 (last activity)
 
 #### Last publication date:
 

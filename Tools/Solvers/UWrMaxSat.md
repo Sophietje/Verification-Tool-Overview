@@ -32,8 +32,7 @@ This was created as an extension of [MiniSat+](MiniSat+.md). It was extended suc
 Repository: https://github.com/marekpiotrow/UWrMaxSat
 
 #### Last commit date:
-28 Sep 2022 (default branch)
-28 Sep 2022 (last activity)
+18 Mar 2023 (last activity)
 
 #### Last publication date:
 November 2020

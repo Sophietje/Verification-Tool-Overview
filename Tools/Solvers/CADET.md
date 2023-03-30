@@ -28,7 +28,6 @@ CADET is a 2QBF (Quantified Boolean formulas with forall-exists quantifier alter
 Repository: https://github.com/MarkusRabe/cadet
 
 #### Last commit date:
-27 Jan 2021 (default branch)
 27 Jan 2021 (last activity)
 
 #### Last publication date:

@@ -36,7 +36,6 @@ Uses [APRON](Libraries/APRON.md) for numerical analysis.
 Repository: https://github.com/viperproject/sample
 
 #### Last commit date:
-05 Jun 2020 (default branch)
 05 Jun 2020 (last activity)
 
 #### Last publication date:

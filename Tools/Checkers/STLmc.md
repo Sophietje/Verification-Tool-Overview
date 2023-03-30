@@ -1,4 +1,3 @@
-
 #### Name:
 STLmc
 
@@ -37,6 +36,7 @@ It uses SMT solvers such as [Z3](../../Tools/Solvers/SMT/Z3.md), [Yices](../../T
 
 #### Last commit date:
 2 February 2023
+13 Feb 2023 (last activity)
 
 #### Last publication date:
 7 August 2022

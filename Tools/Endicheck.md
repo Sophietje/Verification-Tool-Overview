@@ -33,7 +33,6 @@ License: GPL
 Repository: https://github.com/rkapl/endicheck
 
 #### Last commit date:
-30 Jan 2020 (default branch)
 30 Jan 2020 (last activity)
 
 #### Last publication date:

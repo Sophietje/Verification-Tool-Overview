@@ -35,8 +35,7 @@ Information about the specification language: https://github.com/marcoeilers/nag
 Artifact of CAV 2021 paper: https://zenodo.org/record/4724854
 
 #### Last commit date:
-18 Feb 2022 (default branch)
-11 Aug 2022 (last activity)
+29 Jan 2023 (last activity)
 
 #### Last publication date:
 18 July 2018

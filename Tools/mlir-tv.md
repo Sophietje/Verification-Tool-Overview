@@ -1,4 +1,3 @@
-
 #### Name:
 mlir-tv
 
@@ -39,6 +38,7 @@ Uses [Z3](../../Tools/Solvers/SMT/Z3.md)
 
 #### Last commit date:
 24 October 2022
+15 Nov 2022 (last activity)
 
 #### Last publication date:
 6 August 2022

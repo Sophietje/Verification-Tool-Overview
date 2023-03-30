@@ -31,9 +31,7 @@ Repository (CAV '17 release): https://github.com/marcelosousa/poet/tree/RELEASE-
 Repository (of [POET](POET.md)): https://github.com/marcelosousa/poet
 
 #### Last commit date:
-marcelosousa/poet: 19 Oct 2018 (default branch)
-marcelosousa/poet: 19 Oct 2018 (default branch)
-19 Oct 2018 (last activity)
+marcelosousa/poet: 19 Oct 2018 (last activity)
 
 #### Last publication date:
 13 July 2017

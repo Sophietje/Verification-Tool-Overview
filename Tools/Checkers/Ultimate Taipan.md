@@ -42,16 +42,15 @@ Try online: https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=int
 Repository (of the Ultimate framework): https://github.com/ultimate-pa/ultimate/
 
 #### Last commit date:
-03 Dec 2022 (default branch)
-03 Dec 2022 (last activity)
+30 Mar 2023 (last activity)
 
 #### Last publication date:
 17 April 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-45237-7_32 (TACAS '20, Competition contribution)
-https://doi.org/10.1007/978-3-319-89963-3_31 (TACAS '18, Competition contribution)
-https://doi.org/10.1007/978-3-662-54580-5_31 (TACAS '17, Competition contribution)
+[Ultimate Taipan with Symbolic Interpretation and Fluid Abstractions](https://doi.org/10.1007/978-3-030-45237-7_32) (TACAS '20, Competition contribution)
+[Ultimate Taipan with Dynamic Block Encoding](https://doi.org/10.1007/978-3-319-89963-3_31) (TACAS '18, Competition contribution)
+[Ultimate Taipan: Trace Abstraction and Abstract Interpretation](https://doi.org/10.1007/978-3-662-54580-5_31) (TACAS '17, Competition contribution)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

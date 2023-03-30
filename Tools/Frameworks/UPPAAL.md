@@ -27,7 +27,6 @@ GitHub account with documentation and some libraries: https://github.com/UPPAALM
 
 #### Last commit date:
 
-
 #### Last publication date:
 2021
 

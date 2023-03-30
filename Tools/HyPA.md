@@ -46,6 +46,7 @@ Repository: https://github.com/hypa-tool/hypa
 
 #### Last commit date:
 26 August 2022
+26 Aug 2022 (last activity)
 
 #### Last publication date:
 7 August 2022

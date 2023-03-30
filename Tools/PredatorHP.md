@@ -44,7 +44,6 @@ Project page: https://www.fit.vutbr.cz/research/groups/verifit/tools/predator-hp
 Repository: https://github.com/versokova/predatorhp
 
 #### Last commit date:
-20 Nov 2019 (default branch)
 20 Nov 2019 (last activity)
 
 #### Last publication date:

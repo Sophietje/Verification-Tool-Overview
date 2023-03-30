@@ -34,7 +34,6 @@ Project page: https://synet.ethz.ch/
 Repository: https://github.com/nsg-ethz/synet
 
 #### Last commit date:
-07 Dec 2017 (default branch)
 07 Dec 2017 (last activity)
 
 #### Last publication date:

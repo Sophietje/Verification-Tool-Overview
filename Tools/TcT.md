@@ -42,7 +42,6 @@ Collection of repositories: https://github.com/ComputationWithBoundedResources
 Try online: http://colo6-c703.uibk.ac.at/tct/index.php
 
 #### Last commit date:
-16 Feb 2017 (last activity)
 
 #### Last publication date:
 9 April 2016

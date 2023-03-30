@@ -39,7 +39,6 @@ Project page: https://vvt.forsyte.at/
 Repository: https://github.com/hgoes/vvt
 
 #### Last commit date:
-08 Feb 2018 (default branch)
 09 Feb 2018 (last activity)
 
 #### Last publication date:

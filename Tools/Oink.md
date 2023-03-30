@@ -31,7 +31,6 @@ Uses the [[Lace]] work-stealing framework.
 Repository: https://www.github.com/trolando/oink
 
 #### Last commit date:
-04 Sep 2022 (default branch)
 04 Sep 2022 (last activity)
 
 #### Last publication date:

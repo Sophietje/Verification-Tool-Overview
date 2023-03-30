@@ -32,8 +32,7 @@ A DNN is piecewise-linear if its input domain can be precisely partitioned into 
 Repository: https://github.com/95616ARG/SyReNN
 
 #### Last commit date:
-10 Sep 2021 (default branch)
-22 Nov 2022 (last activity)
+20 Mar 2023 (last activity)
 
 #### Last publication date:
 2021

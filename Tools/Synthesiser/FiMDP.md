@@ -33,8 +33,7 @@ Repository:
 https://github.com/FiMDP/FiMDP
 
 #### Last commit date:
-11 Nov 2021 (default branch)
-16 Aug 2022 (last activity)
+15 Feb 2023 (last activity)
 
 #### Last publication date:
 14 July 2020

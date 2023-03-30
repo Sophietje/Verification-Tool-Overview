@@ -33,7 +33,6 @@ Project page: https://benjamin.farinier.org/cav2018/
 Repository: https://github.com/binsec/tfml
 
 #### Last commit date:
-17 Jul 2018 (default branch)
 27 Aug 2018 (last activity)
 
 #### Last publication date:

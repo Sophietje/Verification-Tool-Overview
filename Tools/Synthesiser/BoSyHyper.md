@@ -31,7 +31,6 @@ https://www.react.uni-saarland.de/tools/bosy/
 https://github.com/reactive-systems/bosy
 
 #### Last commit date:
-21 Jul 2022 (default branch)
 21 Jul 2022 (last activity)
 
 #### Last publication date:

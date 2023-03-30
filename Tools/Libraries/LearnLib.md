@@ -21,7 +21,6 @@ https://learnlib.de/
 https://github.com/Learnlib/learnlib
 
 #### Last commit date:
-12 Sep 2022 (default branch)
 12 Sep 2022 (last activity)
 
 #### Last publication date:

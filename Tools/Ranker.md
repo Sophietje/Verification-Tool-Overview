@@ -1,4 +1,3 @@
-
 #### Name:
 Ranker
 
@@ -32,6 +31,7 @@ Ranker supports several types of $\omega$-automata:
 
 #### Last commit date:
 30 December 2022
+30 Dec 2022 (last activity)
 
 #### Last publication date:
 6 August 2022

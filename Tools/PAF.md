@@ -28,7 +28,6 @@ License: MIT
 Repository: https://github.com/soarlab/paf
 
 #### Last commit date:
-07 Dec 2021 (default branch)
 07 Dec 2021 (last activity)
 
 #### Last publication date:

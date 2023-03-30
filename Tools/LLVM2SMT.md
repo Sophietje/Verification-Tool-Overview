@@ -19,7 +19,6 @@ LLVM to SMT
 https://github.com/termite-analyser/llvm2smt
 
 #### Last commit date:
-21 Apr 2018 (default branch)
 21 Apr 2018 (last activity)
 
 #### Last publication date:

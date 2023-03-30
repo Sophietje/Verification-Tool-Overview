@@ -28,7 +28,6 @@ This solver specifically aims to prove unsatisfiability of formulae like: $\fora
 CVC4 repository: https://github.com/CVC4/CVC4-archived/
 
 #### Last commit date:
-05 May 2021 (default branch)
 06 May 2021 (last activity)
 
 #### Last publication date:

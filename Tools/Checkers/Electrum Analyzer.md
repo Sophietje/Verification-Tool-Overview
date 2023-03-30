@@ -41,15 +41,14 @@ Electrum examples: https://github.com/haslab/Electrum/wiki/Examples
 Project page: https://haslab.github.io/Electrum/
 
 #### Last commit date:
-haslab/Electrum: 08 Oct 2019 (default branch)
-haslab/Electrum2: 21 Apr 2021 (default branch)
-13 Sep 2021 (last activity)
+haslab/Electrum: 06 Jul 2021 (last activity)
+haslab/Electrum2: 30 Jan 2023 (last activity)
 
 #### Last publication date:
 3 September 2018
 
 #### List of related papers:
-https://doi.org/10.1145/3238147.3240475 (ASE '18)
+[The electrum analyzer: model checking relational first-order temporal specifications](https://doi.org/10.1145/3238147.3240475) (ASE '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

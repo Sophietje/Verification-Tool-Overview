@@ -28,14 +28,13 @@ Explanation graph of the user-defined function.
 Repository: https://github.com/liflab/petitpoucet
 
 #### Last commit date:
-18 Nov 2022 (default branch)
-18 Nov 2022 (last activity)
+16 Mar 2023 (last activity)
 
 #### Last publication date:
 15 July 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_24 (CAV '21)
+[Foundations of Fine-Grained Explainability](https://doi.org/10.1007/978-3-030-81688-9_24) (CAV '21)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

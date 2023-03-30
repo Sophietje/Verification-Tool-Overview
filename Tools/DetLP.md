@@ -33,7 +33,6 @@ Uses [GLPSOL](Solvers/GLPSOL.md), [Reduce](Reduce.md).
 Repository: https://github.com/suguman/DetLP
 
 #### Last commit date:
-07 Oct 2017 (default branch)
 07 Oct 2017 (last activity)
 
 #### Last publication date:

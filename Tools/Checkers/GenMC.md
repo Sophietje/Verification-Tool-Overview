@@ -42,8 +42,7 @@ Project page: https://plv.mpi-sws.org/genmc/
 Repository: https://github.com/mpi-sws/genmc/
 
 #### Last commit date:
-22 Feb 2022 (default branch)
-22 Feb 2022 (last activity)
+26 Dec 2022 (last activity)
 
 #### Last publication date:
 15 July 2021

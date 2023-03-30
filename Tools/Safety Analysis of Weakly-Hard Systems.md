@@ -37,14 +37,13 @@ SAW computes a tight estimation of the safe initial set for infinite-time safety
 Repository: https://github.com/551100kk/SAW
 
 #### Last commit date:
-29 Jan 2020 (default branch)
 29 Jan 2020 (last activity)
 
 #### Last publication date:
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_26
+[SAW: A Tool for Safety Analysis of Weakly-Hard Systems](https://doi.org/10.1007/978-3-030-53288-8_26)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

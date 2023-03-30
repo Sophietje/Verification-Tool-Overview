@@ -39,14 +39,13 @@ Tutorial: https://saw.galois.com/tutorial.html
 Manual: https://saw.galois.com/manual.html
 
 #### Last commit date:
-22 Nov 2022 (default branch)
-03 Dec 2022 (last activity)
+29 Mar 2023 (last activity)
 
 #### Last publication date:
 8 November 2016
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-48869-1_5 (VSTTE 2016)
+[Constructing Semantic Models of Programs with the Software Analysis Workbench](https://doi.org/10.1007/978-3-319-48869-1_5) (VSTTE 2016)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

@@ -1,4 +1,3 @@
-
 #### Name:
 COLA
 
@@ -36,6 +35,7 @@ COLA supports the following operations on Büchi automata:
 
 #### Last commit date:
 21 June 2022
+15 Jul 2022 (last activity)
 
 #### Last publication date:
 6 August 2022

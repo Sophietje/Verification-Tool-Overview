@@ -31,8 +31,7 @@ Exist will execute the program multiple times on a set of input states. It uses 
 Repository: https://github.com/JialuJialu/Exist
 
 #### Last commit date:
-12 Jun 2022 (default branch)
-12 Jun 2022 (last activity)
+03 Feb 2023 (last activity)
 
 #### Last publication date:
 2022

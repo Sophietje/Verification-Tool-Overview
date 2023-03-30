@@ -1,4 +1,3 @@
-
 #### Name:
 MoGym
 
@@ -36,6 +35,7 @@ Based on [[Momba]]
 
 #### Last commit date:
 28 November 2022
+28 Nov 2022 (last activity)
 
 #### Last publication date:
 6 August 2022

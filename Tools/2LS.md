@@ -36,8 +36,7 @@ Model checker?? / Program analyser
 Repository: https://github.com/diffblue/2LS
 
 #### Last commit date:
-17 Nov 2022 (default branch)
-21 Nov 2022 (last activity)
+25 Jan 2023 (last activity)
 
 #### Last publication date:
 14 April 2018

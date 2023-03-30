@@ -33,7 +33,6 @@ SYNUDIC converts the input file into a (EF-)Yices formula or an exists SMT formu
 Repository: https://github.com/adriagascon/synudic
 
 #### Last commit date:
-21 Sep 2017 (default branch)
 21 Sep 2017 (last activity)
 
 #### Last publication date:

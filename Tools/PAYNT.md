@@ -33,8 +33,7 @@ Repository: https://github.com/gargantophob/synthesis
 CAV '21 artifact: https://doi.org/10.5281/zenodo.4726056
 
 #### Last commit date:
-30 Nov 2022 (default branch)
-01 Dec 2022 (last activity)
+13 Feb 2023 (last activity)
 
 #### Last publication date:
 15 July 2021

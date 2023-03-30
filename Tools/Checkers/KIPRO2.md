@@ -38,7 +38,6 @@ License: Apache-2.0 license
 Repository: https://github.com/moves-rwth/kipro2
 
 #### Last commit date:
-29 Jul 2021 (default branch)
 29 Jul 2021 (last activity)
 
 #### Last publication date:

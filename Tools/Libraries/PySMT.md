@@ -23,8 +23,7 @@ It supports the following solvers: [MathSAT](../Solvers/SMT/MathSAT.md), [Z3](..
 Repository: https://github.com/pysmt/pysmt
 
 #### Last commit date:
-28 Oct 2022 (default branch)
-28 Oct 2022 (last activity)
+04 Mar 2023 (last activity)
 
 #### Last publication date:
 

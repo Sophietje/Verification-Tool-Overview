@@ -31,7 +31,6 @@ Uses [Z3](Solvers/SMT/Z3.md).
 Repository: https://github.com/caterinaurban/Typpete
 
 #### Last commit date:
-06 Dec 2018 (default branch)
 12 Sep 2019 (last activity)
 
 #### Last publication date:

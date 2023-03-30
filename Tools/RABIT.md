@@ -33,7 +33,6 @@ Project page: http://www.languageinclusion.org/doku.php?id=tools#rabit_and_reduc
 Repository: https://github.com/ISCAS-PMC/RABIT
 
 #### Last commit date:
-09 Jan 2019 (default branch)
 09 Jan 2019 (last activity)
 
 #### Last publication date:

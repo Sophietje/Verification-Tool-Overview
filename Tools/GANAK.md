@@ -30,6 +30,7 @@ Repository: https://github.com/meelgroup/ganak
 
 #### Last commit date:
 18 November 2022
+16 Mar 2023 (last activity)
 
 #### Last publication date:
 10 August 2019

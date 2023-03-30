@@ -32,7 +32,6 @@ Uses [Gurobi](Solvers/Gurobi.md)
 Repository: https://github.com/eth-sri/prover
 
 #### Last commit date:
-29 Jun 2021 (default branch)
 29 Jun 2021 (last activity)
 
 #### Last publication date:

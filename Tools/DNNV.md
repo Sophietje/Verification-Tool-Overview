@@ -37,8 +37,7 @@ Documentation: https://dnnv.readthedocs.io/
 Artifact for CAV '21 paper: https://doi.org/10.5281/zenodo.4883626
 
 #### Last commit date:
-02 Aug 2022 (default branch)
-06 Sep 2022 (last activity)
+27 Mar 2023 (last activity)
 
 #### Last publication date:
 15 July 2021

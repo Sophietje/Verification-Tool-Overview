@@ -1,4 +1,3 @@
-
 #### Name:
 SLURF
 
@@ -41,6 +40,7 @@ The prediction regions can depict how the uncertainty in the input influences th
 
 #### Last commit date:
 22 September 2022
+21 Nov 2022 (last activity)
 
 #### Last publication date:
 7 August 2022

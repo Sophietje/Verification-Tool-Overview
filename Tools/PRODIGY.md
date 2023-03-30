@@ -1,4 +1,3 @@
-
 #### Name:
 PRODIGY: PRObability DIstributions via GeneratingfunctionologY
 
@@ -28,6 +27,7 @@ The tool Probably (https://github.com/Philipp15b/Probably) forms the basis of th
 
 #### Last commit date:
 30 June 2022
+30 Mar 2023 (last activity)
 
 #### Last publication date:
 7 August 2022

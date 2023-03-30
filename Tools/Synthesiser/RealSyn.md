@@ -41,7 +41,6 @@ Uses [Z3](../Solvers/SMT/Z3.md), [CVC4](../Solvers/SMT/CVC4.md), [Yices](../Solv
 Repository: https://github.com/umangm/realsyn
 
 #### Last commit date:
-28 Jun 2018 (default branch)
 28 Jun 2018 (last activity)
 
 #### Last publication date:
