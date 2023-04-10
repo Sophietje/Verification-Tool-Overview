@@ -20,6 +20,9 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
 
+      - name: setup tmate session
+        uses: mxschmitt/action-tmate@v3
+
       # Convert
       - name: Enrichment
         run: |
