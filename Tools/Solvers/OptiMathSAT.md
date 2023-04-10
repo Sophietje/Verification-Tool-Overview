@@ -37,7 +37,6 @@ Project page: https://optimathsat.disi.unitn.it/
 Repository with examples using OptiMathSAT's Python API: https://github.com/PatrickTrentin88/omt_python_examples
 
 #### Last commit date:
-12 Aug 2020 (default branch)
 12 Aug 2020 (last activity)
 
 #### Last publication date:

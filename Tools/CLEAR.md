@@ -33,7 +33,6 @@ Debugging tool
 https://github.com/gbarbon/clear/
 
 #### Last commit date:
-21 Nov 2018 (default branch)
 21 Nov 2018 (last activity)
 
 #### Last publication date:

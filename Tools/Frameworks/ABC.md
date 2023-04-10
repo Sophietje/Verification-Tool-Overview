@@ -50,8 +50,7 @@ https://people.eecs.berkeley.edu/~alanmi/abc/
 https://github.com/berkeley-abc/abc
 
 #### Last commit date:
-29 Nov 2022 (default branch)
-29 Nov 2022 (last activity)
+04 Apr 2023 (last activity)
 
 #### List of related papers:
 [ABC: An Academic Industrial-Strength Verification Tool](https://doi.org/10.1007/978-3-642-14295-6_5) (CAV '10)

@@ -34,14 +34,13 @@ The Move Prover seems to be an auto-active verifier though this is not mentioned
 Repository (has a different name but is linked in the paper): https://github.com/diem/diem
 
 #### Last commit date:
-02 Aug 2021 (default branch)
-02 Dec 2022 (last activity)
+07 Apr 2023 (last activity)
 
 #### Last publication date:
 14 July 2020
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-53288-8_7 (CAV '20)
+[The Move Prover](https://doi.org/10.1007/978-3-030-53288-8_7) (CAV '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

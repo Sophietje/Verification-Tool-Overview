@@ -29,7 +29,6 @@ Repository: https://github.com/certichain/ceramist
 Artifact: https://zenodo.org/record/3749474
 
 #### Last commit date:
-13 Apr 2020 (default branch)
 13 Apr 2020 (last activity)
 
 #### Last publication date:

@@ -38,7 +38,6 @@ If realisable, then an automaton in dot or [AIGER](../../Formats/AIGER.md) forma
 Repository: https://github.com/5nizza/party-elli
 
 #### Last commit date:
-12 Apr 2020 (default branch)
 12 Apr 2020 (last activity)
 
 #### Last publication date:

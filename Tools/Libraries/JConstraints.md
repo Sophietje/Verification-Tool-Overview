@@ -22,7 +22,7 @@ JConstraints
 #### Last publication date:
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-22348-9_19
+[JConstraints: A Library for Working with Logic Expressions in Java](https://doi.org/10.1007/978-3-030-22348-9_19)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

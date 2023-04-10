@@ -36,8 +36,7 @@ License: MIT
 Repository: https://github.com/ticktac-project/tchecker
 
 #### Last commit date:
-24 Nov 2022 (default branch)
-24 Nov 2022 (last activity)
+20 Mar 2023 (last activity)
 
 #### Last publication date:
 15 July 2021
@@ -45,8 +44,8 @@ Repository: https://github.com/ticktac-project/tchecker
 #### List of related papers:
 [Certifying Emptiness of Timed Büchi Automata](https://doi.org/10.1007/978-3-030-57628-8_4) (FORMATS '20)
 [Why Liveness for Timed Automata Is Hard, and What We Can Do About It](https://doi.org/10.1145/3372310) (ACM Trans. on Computational Logic, Vol. 21, Iss. 3, '20)
-https://doi.org/10.1007/978-3-030-81685-8_30 (CAV '21, extends TChecker)
-https://doi.org/10.1007/978-3-030-25540-4_3 (CAV '19, extends TChecker)
+[Fast Zone-Based Algorithms for Reachability in Pushdown Timed Automata](https://doi.org/10.1007/978-3-030-81685-8_30) (CAV '21, extends TChecker)
+[Fast Algorithms for Handling Diagonal Constraints in Timed Automata](https://doi.org/10.1007/978-3-030-25540-4_3) (CAV '19, extends TChecker)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [UPPAAL](Frameworks/UPPAAL.md)

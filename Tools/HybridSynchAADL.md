@@ -49,7 +49,6 @@ Project page: https://hybridsynchaadl.github.io/
 Repository: https://github.com/hybridsynchaadl/HybridSynchAADL
 
 #### Last commit date:
-05 May 2021 (default branch)
 05 May 2021 (last activity)
 
 #### Last publication date:

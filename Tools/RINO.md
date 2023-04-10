@@ -1,4 +1,3 @@
-
 #### Name:
 RINO
 
@@ -37,6 +36,7 @@ Repository: https://github.com/cosynus-lix/RINO
 
 #### Last commit date:
 22 September 2022
+22 Sep 2022 (last activity)
 
 #### Last publication date:
 7 August 2022

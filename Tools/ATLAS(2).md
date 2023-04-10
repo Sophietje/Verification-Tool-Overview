@@ -34,8 +34,7 @@ Uses [Z3](Solvers/SMT/Z3.md)
 Repository: https://github.com/lorenzleutgeb/atlas/
 
 #### Last commit date:
-03 Nov 2022 (default branch)
-15 Nov 2022 (last activity)
+02 Mar 2023 (last activity)
 
 #### Last publication date:
 6 August 2022

@@ -26,7 +26,6 @@ Repository: https://github.com/termite-analyser/termite
 Demo/comparison: http://termite-analyser.github.io/results/results.html
 
 #### Last commit date:
-21 Apr 2018 (default branch)
 21 Apr 2018 (last activity)
 
 #### Last publication date:

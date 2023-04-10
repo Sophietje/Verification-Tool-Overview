@@ -31,8 +31,7 @@ Try online: https://ultimate.informatik.uni-freiburg.de/smtinterpol/online/
 Repository: https://github.com/ultimate-pa/smtinterpol
 
 #### Last commit date:
-24 Nov 2022 (default branch)
-24 Nov 2022 (last activity)
+05 Apr 2023 (last activity)
 
 #### Last publication date:
 12 January 2021

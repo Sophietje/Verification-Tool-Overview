@@ -27,6 +27,7 @@ Repository: https://github.com/lgwagner/SpeAR
 
 #### Last commit date:
 10 March 2021
+10 Mar 2021 (last activity)
 
 #### Last publication date:
 9 April 2017

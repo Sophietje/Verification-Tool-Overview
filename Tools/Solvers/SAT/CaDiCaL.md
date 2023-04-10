@@ -29,6 +29,7 @@ Repository: https://github.com/arminbiere/cadical
 
 #### Last commit date:
 17 Aug 2022
+11 Mar 2023 (last activity)
 
 #### Last publication date:
 2019

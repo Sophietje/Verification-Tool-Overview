@@ -40,7 +40,6 @@ PeSCo is integrated in [CPAchecker](../Checkers/CPAchecker.md).
 Repository (fork of CPAChecker into which PeSCo is integrated): https://github.com/cedricrupb/cpachecker
 
 #### Last commit date:
-23 Nov 2022 (default branch)
 23 Nov 2022 (last activity)
 
 #### Last publication date:

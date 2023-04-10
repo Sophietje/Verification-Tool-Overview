@@ -42,7 +42,6 @@ Project page: https://kmmille.github.io/FACTEST/index.html
 Repository: https://github.com/kmmille/FACTEST
 
 #### Last commit date:
-01 Dec 2020 (default branch)
 01 Dec 2020 (last activity)
 
 #### Last publication date:

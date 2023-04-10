@@ -34,7 +34,6 @@ GPUDrano tries to find uncoalesced accesses. Uncoalesced memory accesses occur w
 Repository: https://github.com/upenn-acg/gpudrano-static-analysis_v1.0
 
 #### Last commit date:
-16 Nov 2018 (default branch)
 16 Nov 2018 (last activity)
 
 #### Last publication date:

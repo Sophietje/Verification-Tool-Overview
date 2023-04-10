@@ -1,4 +1,3 @@
-
 #### Name:
 FRET (Formal Requirements Elicitation tool)
 
@@ -32,6 +31,7 @@ Repository: https://github.com/NASA-SW-VnV/fret
 
 #### Last commit date:
 25 January 2023
+25 Jan 2023 (last activity)
 
 #### Last publication date:
 6 August 2022

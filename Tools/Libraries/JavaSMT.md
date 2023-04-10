@@ -22,14 +22,13 @@ Uses [[Boolector]], [[CVC4]], [[CVC5]], [[MathSAT]]5, [[OptiMathSAT]], [[Princes
 https://github.com/sosy-lab/java-smt
 
 #### Last commit date:
-16 Nov 2022 (default branch)
-27 Nov 2022 (last activity)
+09 Apr 2023 (last activity)
 
 #### Last publication date:
 2021
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-81688-9_9
+[JavaSMT 3: Interacting with SMT Solvers in Java](https://doi.org/10.1007/978-3-030-81688-9_9)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

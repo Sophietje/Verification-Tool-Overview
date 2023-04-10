@@ -21,8 +21,7 @@ py-metric-temporal-logic
 https://github.com/mvcisback/py-metric-temporal-logic
 
 #### Last commit date:
-24 Sep 2022 (default branch)
-24 Sep 2022 (last activity)
+20 Feb 2023 (last activity)
 
 #### Last publication date:
 

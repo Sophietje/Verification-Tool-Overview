@@ -28,7 +28,6 @@ Uses [CVC4](../Solvers/SMT/CVC4.md).
 Artifact: https://github.com/XiaoLi0614/HampaAE
 
 #### Last commit date:
-22 Apr 2020 (default branch)
 22 Apr 2020 (last activity)
 
 #### Last publication date:

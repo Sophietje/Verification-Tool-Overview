@@ -1,4 +1,3 @@
-
 #### Name:
 FORKLIFT
 
@@ -33,6 +32,7 @@ FORKLIFT is an inclusion checker for Büchi automata.
 
 #### Last commit date:
 7 June 2022
+07 Jun 2022 (last activity)
 
 #### Last publication date:
 6 August 2022

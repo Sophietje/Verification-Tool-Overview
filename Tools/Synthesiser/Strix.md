@@ -47,7 +47,6 @@ Repository: https://github.com/meyerphi/strix
 Online demo: https://meyerphi.github.io/strix-demo/
 
 #### Last commit date:
-16 Sep 2022 (default branch)
 16 Sep 2022 (last activity)
 
 #### Last publication date:

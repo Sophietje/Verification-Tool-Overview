@@ -37,7 +37,6 @@ It is called a 'prototypical implementation' in the CAV '20 paper.
 Repository: https://github.com/moves-rwth/PrIC3
 
 #### Last commit date:
-30 Sep 2020 (default branch)
 30 Sep 2020 (last activity)
 
 #### Last publication date:

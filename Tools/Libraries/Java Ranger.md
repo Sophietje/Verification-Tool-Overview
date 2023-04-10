@@ -35,14 +35,13 @@ Repository: https://github.com/vaibhavbsharma/java-ranger
 Project page: https://vaibhavbsharma.github.io/java-ranger/
 
 #### Last commit date:
-07 Dec 2021 (default branch)
-01 Dec 2022 (last activity)
+20 Dec 2022 (last activity)
 
 #### Last publication date:
 -
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-45237-7_27 (TACAS '20)
+[Java Ranger at SV-COMP 2020 (Competition Contribution)](https://doi.org/10.1007/978-3-030-45237-7_27) (TACAS '20)
 
 #### Related tools (tools mentioned or compared to in the paper):
 [Symbolic PathFinder](Symbolic%20PathFinder)

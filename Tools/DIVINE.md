@@ -36,7 +36,6 @@ Project page: https://divine.fi.muni.cz/index.html
 Repository: https://github.com/paradise-fi/divine (mirror)
 
 #### Last commit date:
-21 Mar 2021 (default branch)
 21 Mar 2021 (last activity)
 
 #### Last publication date:

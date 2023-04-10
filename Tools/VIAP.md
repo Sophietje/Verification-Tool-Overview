@@ -32,7 +32,6 @@ SV-Comp: https://gitlab.com/sosy-lab/sv-comp/archives/-/blob/master/2018/viap.zi
 GitHub: https://github.com/VerifierIntegerAssignment/VIAP_ARRAY
 
 #### Last commit date:
-06 Apr 2019 (default branch)
 06 Apr 2019 (last activity)
 
 #### Last publication date:

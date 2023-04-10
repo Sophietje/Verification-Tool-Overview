@@ -27,8 +27,6 @@ Uses [Spacer](Solvers/Spacer.md)3, [µZ](Solvers/µZ.md) [[AE-VAL]], [Z3](Solver
 Repository: https://github.com/grigoryfedyukovich/aeval/tree/term
 
 #### Last commit date:
-10 Feb 2018 (default branch)
-03 Oct 2022 (last activity)
 
 #### Last publication date:
 18 July 2018

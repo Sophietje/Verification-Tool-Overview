@@ -35,7 +35,6 @@ Uses [Gurobi](Solvers/Gurobi.md), [[Javassist]], [[Scipy]]
 Repository: https://github.com/cuplv/Schmit
 
 #### Last commit date:
-12 Nov 2021 (default branch)
 12 Nov 2021 (last activity)
 
 #### Last publication date:

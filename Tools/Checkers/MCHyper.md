@@ -39,7 +39,6 @@ Project page: https://www.react.uni-saarland.de/tools/mchyper/
 Repository: https://github.com/reactive-systems/MCHyper
 
 #### Last commit date:
-28 May 2021 (default branch)
 28 May 2021 (last activity)
 
 #### Last publication date:

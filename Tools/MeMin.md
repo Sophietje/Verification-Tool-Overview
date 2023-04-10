@@ -33,7 +33,6 @@ Project page: http://embedded.cs.uni-saarland.de/MeMin.php
 Repository: https://github.com/andreas-abel/MeMin
 
 #### Last commit date:
-08 May 2018 (default branch)
 08 May 2018 (last activity)
 
 #### Last publication date:

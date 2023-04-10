@@ -1,4 +1,3 @@
-
 A tool for semi-determinization and complementaiton of Transition-based generalised Büchi automata (TGBAs).
 
 #### Name:
@@ -32,7 +31,6 @@ Transforms transition-based generalised Büchi automata (TGBAs) into equivalent 
 Repository: https://github.com/mklokocka/seminator
 
 #### Last commit date:
-12 Mar 2021 (default branch)
 08 Jul 2021 (last activity)
 
 #### Last publication date:

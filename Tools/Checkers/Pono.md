@@ -48,8 +48,7 @@ Pono was developed as the next generation of [CoSA](../CoSA.md) and was original
 Repository: https://github.com/upscale-project/pono
 
 #### Last commit date:
-26 Oct 2022 (default branch)
-26 Oct 2022 (last activity)
+25 Feb 2023 (last activity)
 
 #### Last publication date:
 15 July 2021

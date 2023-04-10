@@ -1,4 +1,3 @@
-
 #### Name:
 PoS4MPC: Policy Synthesis for MPC
 
@@ -31,12 +30,13 @@ Uses [KLEE](../../Tools/KLEE.md) as symbolic execution engine.
 
 #### Last commit date:
 20 January 2022
+20 Jan 2022 (last activity)
 
 #### Last publication date:
 7 August 2022
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-031-13185-1 (CAV 2022)
+[Computer Aided Verification](https://doi.org/10.1007/978-3-031-13185-1) (CAV 2022)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

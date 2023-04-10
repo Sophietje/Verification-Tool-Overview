@@ -36,8 +36,7 @@ Repository: https://github.com/stanleybak/hylaa
 Project page: http://stanleybak.com/hylaa
 
 #### Last commit date:
-15 Jun 2021 (default branch)
-15 Jun 2021 (last activity)
+21 Mar 2023 (last activity)
 
 #### Last publication date:
 13 July 2017

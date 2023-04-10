@@ -1,4 +1,3 @@
-
 #### Name:
 VeriQFair
 
@@ -35,6 +34,7 @@ This tool can be used to compute the Lipschitz constant of a quantum decision mo
 
 #### Last commit date:
 4 June 2022
+04 Jun 2022 (last activity)
 
 #### Last publication date:
 6 August 2022

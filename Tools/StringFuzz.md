@@ -40,7 +40,6 @@ Project page: http://stringfuzz.dmitryblotsky.com/
 Repository: https://github.com/dblotsky/stringfuzz
 
 #### Last commit date:
-11 Jun 2018 (default branch)
 17 Dec 2021 (last activity)
 
 #### Last publication date:

@@ -32,7 +32,6 @@ The repo is archived and no longer maintained. It is now integrated into [DIVINE
 Repository: https://github.com/paradise-fi/SymDIVINE
 
 #### Last commit date:
-19 Mar 2019 (default branch)
 19 Mar 2019 (last activity)
 
 #### Last publication date:

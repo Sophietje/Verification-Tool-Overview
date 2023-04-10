@@ -32,8 +32,7 @@ License: GPL v3.0
 Repository: https://github.com/eytans/TheSy
 
 #### Last commit date:
-29 Apr 2021 (default branch)
-20 Nov 2022 (last activity)
+09 Apr 2023 (last activity)
 
 #### Last publication date:
 15 July 2021

@@ -1,4 +1,3 @@
-
 #### Name:
 EntropyEstimation
 
@@ -35,12 +34,13 @@ Uses [[GANAK]] for model counting queries and [[SPUR]] for sampling queries.
 
 #### Last commit date:
 4 June 2022
+04 Jun 2022 (last activity)
 
 #### Last publication date:
 7 August 2022
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-031-13185-1_18 (CAV 2022)
+[A Scalable Shannon Entropy Estimator](https://doi.org/10.1007/978-3-031-13185-1_18) (CAV 2022)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

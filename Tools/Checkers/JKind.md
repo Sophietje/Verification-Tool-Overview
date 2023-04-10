@@ -39,7 +39,6 @@ Repository: https://github.com/loonwerks/jkind
 Project page: https://loonwerks.com/tools/jkind.html
 
 #### Last commit date:
-30 Sep 2022 (default branch)
 30 Sep 2022 (last activity)
 
 #### Last publication date:

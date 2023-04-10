@@ -31,7 +31,6 @@ License: MIT License
 Repository: https://github.com/AutomataDotNet/Automata
 
 #### Last commit date:
-30 May 2020 (default branch)
 21 Jul 2020 (last activity)
 
 #### Last publication date:

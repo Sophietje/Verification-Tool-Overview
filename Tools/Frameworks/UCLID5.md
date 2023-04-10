@@ -35,6 +35,7 @@ UCLID5 can also be used to synthesize function bodies for user-declared function
 
 #### Last commit date:
 18 January 2023
+07 Apr 2023 (last activity)
 
 #### Last publication date:
 7 August 2022

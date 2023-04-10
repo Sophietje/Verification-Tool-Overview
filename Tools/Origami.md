@@ -32,8 +32,7 @@ The goal of Origami is **scalability**, they want to be able to analyze large ne
 Repository (? linked on author's webpage): https://github.com/NetworkVerification/nv
 
 #### Last commit date:
-22 Nov 2022 (default branch)
-28 Nov 2022 (last activity)
+20 Feb 2023 (last activity)
 
 #### Last publication date:
 12 July 2019

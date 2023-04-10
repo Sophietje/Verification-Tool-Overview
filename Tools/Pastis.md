@@ -37,7 +37,6 @@ Pastis also automatically generates proof certificates of the validity of its bo
 Repository: https://github.com/academic-archive/cav17-pastis
 
 #### Last commit date:
-01 Jul 2021 (default branch)
 01 Jul 2021 (last activity)
 
 #### Last publication date:

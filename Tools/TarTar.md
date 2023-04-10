@@ -39,8 +39,7 @@ License: MIT
 Repository: https://github.com/sen-uni-kn/tartar
 
 #### Last commit date:
-02 May 2022 (default branch)
-02 May 2022 (last activity)
+09 Mar 2023 (last activity)
 
 #### Last publication date:
 14 July 2020

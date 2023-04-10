@@ -31,7 +31,6 @@ The idea behind the tool is that SyGuS tools are sensitive to the choice of gram
 Artefact of CAV '19 paper: https://github.com/SaswatPadhi/2019_CAV_Artifact_100
 
 #### Last commit date:
-07 May 2019 (default branch)
 07 May 2019 (last activity)
 
 #### Last publication date:

@@ -36,7 +36,6 @@ By default Reduce will reduce Büchi automata. You can switch to NFA semantics b
 Repository (Reduce is packaged with [RABIT](RABIT.md)): https://github.com/ISCAS-PMC/RABIT
 
 #### Last commit date:
-09 Jan 2019 (default branch)
 09 Jan 2019 (last activity)
 
 #### Last publication date:

@@ -29,7 +29,6 @@ Tool for approximate counting of minimal unsatisfiable subsets of a given Boolea
 https://github.com/jar-ben/amusic
 
 #### Last commit date:
-22 Dec 2021 (default branch)
 22 Dec 2021 (last activity)
 
 #### Last publication date:

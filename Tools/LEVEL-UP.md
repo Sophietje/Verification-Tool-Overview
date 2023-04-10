@@ -37,7 +37,6 @@ LEVEL-UP is a prototype built on top of [Storm](../../Tools/Checkers/Storm.md).
 - Repository: https://github.com/sjunges/level-up
 
 #### Last commit date:
-15 Aug 2022 (default branch)
 15 Aug 2022 (last activity)
 
 #### Last publication date:

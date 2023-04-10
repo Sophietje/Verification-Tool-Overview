@@ -35,8 +35,7 @@ License: MIT license
 Repository: https://github.com/mchalupa/dg
 
 #### Last commit date:
-17 May 2022 (default branch)
-29 Jun 2022 (last activity)
+05 Jan 2023 (last activity)
 
 #### Last publication date:
 15 July 2021

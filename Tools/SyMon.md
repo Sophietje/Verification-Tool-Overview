@@ -35,7 +35,6 @@ Repository: https://github.com/MasWag/symon
 Try online: https://colab.research.google.com/drive/17WNWuA3RxCA51xkDuVfOVeuUbRqHetDz
 
 #### Last commit date:
-08 Jun 2022 (default branch)
 17 Sep 2022 (last activity)
 
 #### Last publication date:

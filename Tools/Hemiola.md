@@ -1,4 +1,3 @@
-
 #### Name:
 Hemiola
 
@@ -39,12 +38,13 @@ The framework seems to provide the following options:
 
 #### Last commit date:
 4 May 2022
+07 May 2022 (last activity)
 
 #### Last publication date:
 6 August 2022
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-031-13188-2_16 (CAV 2022)
+[Hemiola: A DSL and Verification Tools to Guide Design and Proof of Hierarchical Cache-Coherence Protocols](https://doi.org/10.1007/978-3-031-13188-2_16) (CAV 2022)
 
 #### Related tools (tools mentioned or compared to in the paper):
 Rule-based hardware language: [[Bluespec]]

@@ -41,9 +41,7 @@ Shipped with Ethereum Foundation's Solidity compiler. Used to be called SMTCheck
 - Repository: https://github.com/ethereum/solidity/tree/develop/libsolidity/formal
 
 #### Last commit date:
-leonardoalt/cav_2022_artifact: 07 Jun 2022 (default branch)
-ethereum/solidity: 02 Dec 2022 (default branch)
-03 Dec 2022 (last activity)
+leonardoalt/cav_2022_artifact: 07 Jun 2022 (last activity)
 
 #### Last publication date:
 2022

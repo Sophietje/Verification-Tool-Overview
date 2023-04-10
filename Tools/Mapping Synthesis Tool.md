@@ -31,14 +31,13 @@ Note the authors themselves call this a "prototype implementation" and it doesn'
 Repository: https://github.com/eskang/MappingSynthesisTool
 
 #### Last commit date:
-03 Feb 2019 (default branch)
 02 May 2019 (last activity)
 
 #### Last publication date:
 12 July 2019
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-030-25540-4_12 (CAV 2019)
+[Automated Synthesis of Secure Platform Mappings](https://doi.org/10.1007/978-3-030-25540-4_12) (CAV 2019)
 
 #### Related tools (tools mentioned or compared to in the paper):
 -

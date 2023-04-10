@@ -49,8 +49,7 @@ Repository: https://github.com/BerkeleyLearnVerify/VerifAI
 Documentation: https://verifai.readthedocs.io/en/latest/
 
 #### Last commit date:
-02 Sep 2022 (default branch)
-30 Sep 2022 (last activity)
+07 Apr 2023 (last activity)
 
 #### Last publication date:
 12 July 2019

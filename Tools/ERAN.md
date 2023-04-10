@@ -33,8 +33,7 @@ License: Apache-2.0
 Repository: https://github.com/eth-sri/eran
 
 #### Last commit date:
-30 May 2022 (default branch)
-30 May 2022 (last activity)
+27 Jan 2023 (last activity)
 
 #### Last publication date:
 2021

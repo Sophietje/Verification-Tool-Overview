@@ -32,7 +32,6 @@ Project page: https://www.react.uni-saarland.de/tools/caqe/
 Repository: https://github.com/ltentrup/caqe
 
 #### Last commit date:
-06 Jun 2022 (default branch)
 06 Jun 2022 (last activity)
 
 #### Last publication date:

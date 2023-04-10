@@ -1,4 +1,3 @@
-
 #### Name:
 NIS (Numerical Invariant Synthesizer)
 

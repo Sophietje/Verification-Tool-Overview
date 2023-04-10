@@ -47,8 +47,7 @@ Project page: https://www.imitator.fr/
 Repository: https://github.com/imitator-model-checker/imitator/
 
 #### Last commit date:
-04 Oct 2022 (default branch)
-02 Dec 2022 (last activity)
+07 Apr 2023 (last activity)
 
 #### Last publication date:
 15 July 2021

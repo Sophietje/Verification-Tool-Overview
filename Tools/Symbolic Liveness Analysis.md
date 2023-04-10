@@ -30,14 +30,13 @@ Symbolic Liveness Analysis was implemented as an extension of [KLEE](KLEE.md). I
 Repository: https://github.com/COMSYS/SymbolicLivenessAnalysis
 
 #### Last commit date:
-15 Dec 2021 (default branch)
 16 Dec 2021 (last activity)
 
 #### Last publication date:
 18 July 2018
 
 #### List of related papers:
-https://doi.org/10.1007/978-3-319-96142-2_27 (CAV '18)
+[Symbolic Liveness Analysis of Real-World Software](https://doi.org/10.1007/978-3-319-96142-2_27) (CAV '18)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

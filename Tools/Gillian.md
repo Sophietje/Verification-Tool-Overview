@@ -36,8 +36,7 @@ Project page: https://gillianplatform.github.io/
 Repository: https://github.com/GillianPlatform/Gillian
 
 #### Last commit date:
-01 Dec 2022 (default branch)
-02 Dec 2022 (last activity)
+08 Apr 2023 (last activity)
 
 #### Last publication date:
 15 July 2021

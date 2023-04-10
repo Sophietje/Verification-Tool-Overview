@@ -1,4 +1,3 @@
-
 #### Name:
 Trainify
 
@@ -31,6 +30,7 @@ The tool builds a finite abstract state space using the trained neural network.
 
 #### Last commit date:
 16 June 2022
+16 Jun 2022 (last activity)
 
 #### Last publication date:
 7 August 2022
