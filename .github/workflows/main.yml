@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Download ProVerBMate's artifacts
         run: gh release download --repo Sophietje/ProVerBMate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       # Set Java environment
       - name: Set up JDK 11
