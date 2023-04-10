@@ -1,1 +1,30 @@
+name: Manual Enrichment
 
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download ProVerBMate's artifacts
+        uses: dawidd6/action-download-artifact@v2
+        repo: https://github.com/Sophietje/ProVerBMate
+          
+      # Set Java environment
+      - name: Set up JDK 11
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+
+      # Convert
+      - name: Enrichment
+        run: |
+          chmod 0755 ProVerBMate-1.6.0.jar
+          java -jar ProVerBMate-1.6.0.jar --spring.profiles.active=daily --github-token=${{secrets.GIT_API}} --springer-key=${{secrets.SPRINGER_KEY}} --cross-ref.mailto=${{secrets.CROSS_REF}}
+          echo Enrichment success.
+      
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v5
