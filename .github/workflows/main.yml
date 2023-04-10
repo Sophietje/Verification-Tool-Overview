@@ -20,6 +20,9 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
 
+      - name: Checkout Verification-Tool-Overview repository
+        uses: actions/checkout@v3
+
       # Convert
       - name: Enrichment
         run: |
