@@ -42,7 +42,7 @@ Try online: https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=int
 Repository (of the Ultimate framework): https://github.com/ultimate-pa/ultimate/
 
 #### Last commit date:
-30 Mar 2023 (last activity)
+09 Apr 2023 (last activity)
 
 #### Last publication date:
 17 April 2020

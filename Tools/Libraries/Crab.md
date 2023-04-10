@@ -29,7 +29,7 @@ Own CFG-based intermediate representation (CrabIR)
 Repository: https://github.com/seahorn/crab
 
 #### Last commit date:
-30 Mar 2023 (last activity)
+08 Apr 2023 (last activity)
 
 #### Last publication date:
 

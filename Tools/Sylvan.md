@@ -34,7 +34,7 @@ Documentation: https://trolando.github.io/sylvan/
 
 #### Last commit date:
 utwente-fmt/sylvan: 03 Sep 2022 (last activity)
-trolando/sylvan: 29 Mar 2023 (last activity)
+trolando/sylvan: 01 Apr 2023 (last activity)
 
 #### Last publication date:
 3 April 2019

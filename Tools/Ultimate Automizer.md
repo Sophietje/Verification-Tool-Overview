@@ -43,7 +43,7 @@ Try online: https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=int
 Ultimate repository (Ultimate Automizer is a part of this): https://github.com/ultimate-pa/ultimate
 
 #### Last commit date:
-30 Mar 2023 (last activity)
+09 Apr 2023 (last activity)
 
 #### Last publication date:
 14 April 2018
@@ -53,7 +53,8 @@ Ultimate repository (Ultimate Automizer is a part of this): https://github.com/u
 [Ultimate Automizer with an On-Demand Construction of Floyd-Hoare Automata](https://doi.org/10.1007/978-3-662-54580-5_30) (TACAS '17)
 [Ultimate Automizer with Two-track Proofs](https://doi.org/10.1007/978-3-662-49674-9_68) (TACAS '16)
 [
-                Ultimate Automizer with Array Interpolation](https://doi.org/10.1007/978-3-662-46681-0_43) (TACAS '15)
+                Ultimate Automizer with Array Interpolation]([
+                Ultimate Automizer with Array Interpolation](https://doi.org/10.1007/978-3-662-46681-0_43)) (TACAS '15)
 
 #### Related tools (tools mentioned or compared to in the paper):
 

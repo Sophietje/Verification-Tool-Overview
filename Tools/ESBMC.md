@@ -45,7 +45,7 @@ Repository: https://github.com/esbmc/esbmc
 Project page: http://esbmc.org/
 
 #### Last commit date:
-30 Mar 2023 (last activity)
+08 Apr 2023 (last activity)
 
 #### Last publication date:
 8 September 2021

@@ -36,7 +36,7 @@ Repository: https://github.com/YosysHQ/yosys
 Project page: https://yosyshq.net/yosys/
 
 #### Last commit date:
-29 Mar 2023 (last activity)
+10 Apr 2023 (last activity)
 
 #### Last publication date:
 2019

@@ -41,7 +41,7 @@ It has the following tools:
 Repository: https://github.com/kth-step/HolBA
 
 #### Last commit date:
-29 Mar 2023 (last activity)
+07 Apr 2023 (last activity)
 
 #### Last publication date:
 8 September 2020

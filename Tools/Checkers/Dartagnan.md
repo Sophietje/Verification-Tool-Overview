@@ -31,7 +31,7 @@ Uses [Z3](../Solvers/SMT/Z3.md).
 Repository (also contains another tool): https://github.com/hernanponcedeleon/Dat3M
 
 #### Last commit date:
-28 Mar 2023 (last activity)
+30 Mar 2023 (last activity)
 
 #### Last publication date:
 23 March 2021

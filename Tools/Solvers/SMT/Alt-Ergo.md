@@ -37,7 +37,7 @@ Documentation: https://ocamlpro.github.io/alt-ergo/index.html
 Try online: https://try-alt-ergo.ocamlpro.com/
 
 #### Last commit date:
-30 Mar 2023 (last activity)
+09 Apr 2023 (last activity)
 
 #### Last publication date:
 13 July 2017

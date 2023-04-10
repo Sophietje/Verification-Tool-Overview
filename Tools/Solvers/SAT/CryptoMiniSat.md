@@ -30,7 +30,7 @@ Project page: https://www.msoos.org/cryptominisat5/
 Repository: https://github.com/msoos/cryptominisat/
 
 #### Last commit date:
-29 Mar 2023 (last activity)
+08 Apr 2023 (last activity)
 
 #### Last publication date:
 2009

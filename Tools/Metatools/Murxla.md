@@ -41,7 +41,7 @@ Murxla also provides options to replay and minimize traces.
 
 #### Last commit date:
 24 February 2023
-14 Mar 2023 (last activity)
+06 Apr 2023 (last activity)
 
 #### Last publication date:
 6 August 2022

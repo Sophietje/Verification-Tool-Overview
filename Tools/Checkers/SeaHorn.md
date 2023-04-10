@@ -31,7 +31,7 @@ Project page: https://seahorn.github.io/
 Repository: https://github.com/seahorn/seahorn
 
 #### Last commit date:
-29 Mar 2023 (last activity)
+05 Apr 2023 (last activity)
 
 #### Last publication date:
 24 November 2018

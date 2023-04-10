@@ -39,7 +39,7 @@ Tutorial: https://saw.galois.com/tutorial.html
 Manual: https://saw.galois.com/manual.html
 
 #### Last commit date:
-29 Mar 2023 (last activity)
+07 Apr 2023 (last activity)
 
 #### Last publication date:
 8 November 2016

@@ -34,7 +34,7 @@ Repository: https://github.com/klee/klee/
 Project page: https://klee.github.io/
 
 #### Last commit date:
-30 Mar 2023 (last activity)
+06 Apr 2023 (last activity)
 
 #### Last publication date:
 2 June 2020

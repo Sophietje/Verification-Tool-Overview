@@ -34,7 +34,7 @@ Uses [Z3](../../Tools/Solvers/SMT/Z3.md) to solve SMT queries.
 
 #### Last commit date:
 6 May 2022 (branch: legion)
-22 Mar 2023 (last activity)
+10 Apr 2023 (last activity)
 
 #### Last publication date:
 7 August 2022

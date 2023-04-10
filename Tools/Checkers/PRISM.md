@@ -46,7 +46,7 @@ Project page: https://www.prismmodelchecker.org/
 Repository: https://github.com/prismmodelchecker/prism
 
 #### Last commit date:
-20 Mar 2023 (last activity)
+03 Apr 2023 (last activity)
 
 #### Last publication date:
 ?
