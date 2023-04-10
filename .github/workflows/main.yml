@@ -9,9 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download ProVerBMate's artifacts
-        uses: dawidd6/action-download-artifact@v2
-        with:
-          repo: Sophietje/ProVerBMate
+        run: gh release download --repo Sophietje/ProVerBMate
           
       # Set Java environment
       - name: Set up JDK 11
