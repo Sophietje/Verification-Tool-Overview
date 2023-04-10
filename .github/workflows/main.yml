@@ -11,7 +11,7 @@ jobs:
       - name: Download ProVerBMate's artifacts
         uses: dawidd6/action-download-artifact@v2
         with:
-          repo: https://github.com/Sophietje/ProVerBMate
+          repo: Sophietje/ProVerBMate
           
       # Set Java environment
       - name: Set up JDK 11
