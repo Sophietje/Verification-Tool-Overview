@@ -23,9 +23,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup tmate
-        uses: mxschmitt/action-tmate@v3
-
       # Convert
       - name: Enrichment
         run: |
