@@ -17,6 +17,8 @@ jobs:
 
       - name: Checkout Verification-Tool-Overview repository
         uses: actions/checkout@v3
+        with:
+          path: Verification-Tool-Overview
       
       - name: Download ProVerBMate's artifacts
         run: gh release download --repo Sophietje/ProVerBMate -p "*.jar" -p "*.owl"
@@ -30,5 +32,9 @@ jobs:
           java -jar ProVerBMate-1.6.0.jar --spring.profiles.active=daily --github-token=${{secrets.GIT_API}} --springer-key=${{secrets.SPRINGER_KEY}} --cross-ref.mailto=${{secrets.CROSS_REF}}
           echo Enrichment success.
       
-      - name: Create PR
-        uses: peter-evans/create-pull-request@v5
+      - name: Tmate session
+        uses: mxschmitt/action-tmate@v3
+      #- name: Remove downloaded files
+      #  run: rm -f ProVerBMate-1.6.0.jar ProVerB_1.6.0.owl enriched_ProVerB_1.6.0.owl extracted_ProVerB_1.6.0.owl
+      #- name: Create PR
+      #  uses: peter-evans/create-pull-request@v5
