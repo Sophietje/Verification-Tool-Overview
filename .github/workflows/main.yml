@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download ProVerBMate's artifacts
-        run: gh release download --repo Sophietje/ProVerBMate
+        run: gh release download --repo Sophietje/ProVerBMate -p "*.jar" -p ".owl"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
