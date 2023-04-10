@@ -1,0 +1,122 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:gh="https://github.com"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ontology="http://slebok.github.io/proverb/ontology#"
+    xmlns:doi="https://doi.org"
+    xmlns="http://slebok.github.io/proverb#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://slebok.github.io/proverb/ontology">
+    <owl:versionIRI rdf:resource="http://slebok.github.io/proverb/ontology/1.6.0"/>
+  </owl:Ontology>
+  <owl:Class rdf:about="http://slebok.github.io/proverb/ontology#Format"/>
+  <owl:Class rdf:about="http://slebok.github.io/proverb/ontology#Writer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://slebok.github.io/proverb/ontology#Person"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://slebok.github.io/proverb/ontology#Tool"/>
+  <owl:Class rdf:about="http://slebok.github.io/proverb/ontology#Concept"/>
+  <owl:Class rdf:about="http://slebok.github.io/proverb/ontology#CodeContributor">
+    <rdfs:subClassOf rdf:resource="http://slebok.github.io/proverb/ontology#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slebok.github.io/proverb/ontology#Article"/>
+  <owl:Class rdf:about="http://slebok.github.io/proverb/ontology#PV">
+    <rdfs:subClassOf rdf:resource="http://slebok.github.io/proverb/ontology#Concept"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://slebok.github.io/proverb/ontology#Repository"/>
+  <owl:Class rdf:about="http://slebok.github.io/proverb/ontology#Conference">
+    <owl:disjointWith rdf:resource="http://slebok.github.io/proverb/ontology#PV"/>
+    <rdfs:subClassOf rdf:resource="http://slebok.github.io/proverb/ontology#Concept"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://slebok.github.io/proverb/ontology#owner">
+    <rdfs:range rdf:resource="http://slebok.github.io/proverb/ontology#Person"/>
+    <rdfs:domain rdf:resource="http://slebok.github.io/proverb/ontology#Repository"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://slebok.github.io/proverb/ontology#contributor">
+    <rdfs:range rdf:resource="http://slebok.github.io/proverb/ontology#Person"/>
+    <rdfs:domain rdf:resource="http://slebok.github.io/proverb/ontology#Repository"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://slebok.github.io/proverb/ontology#relatedpaper">
+    <rdfs:range rdf:resource="http://slebok.github.io/proverb/ontology#Article"/>
+    <rdfs:domain rdf:resource="http://slebok.github.io/proverb/ontology#Tool"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://slebok.github.io/proverb/ontology#category">
+    <rdfs:range rdf:resource="http://slebok.github.io/proverb/ontology#Concept"/>
+    <rdfs:domain rdf:resource="http://slebok.github.io/proverb/ontology#Tool"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://slebok.github.io/proverb/ontology#repository">
+    <rdfs:range rdf:resource="http://slebok.github.io/proverb/ontology#Repository"/>
+    <rdfs:domain rdf:resource="http://slebok.github.io/proverb/ontology#Tool"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://slebok.github.io/proverb/ontology#author">
+    <rdfs:range rdf:resource="http://slebok.github.io/proverb/ontology#Person"/>
+    <rdfs:domain rdf:resource="http://slebok.github.io/proverb/ontology#Article"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://slebok.github.io/proverb/ontology#lastActivityDate"/>
+  <owl:DatatypeProperty rdf:about="http://slebok.github.io/proverb/ontology#lastPublicationDate">
+    <rdfs:domain rdf:resource="http://slebok.github.io/proverb/ontology#Article"/>
+    <rdfs:subPropertyOf rdf:resource="http://slebok.github.io/proverb/ontology#lastActivityDate"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://slebok.github.io/proverb/ontology#username"/>
+  <owl:DatatypeProperty rdf:about="http://slebok.github.io/proverb/ontology#abstract">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://slebok.github.io/proverb/ontology#lastCommitDate">
+    <rdfs:domain rdf:resource="http://slebok.github.io/proverb/ontology#Repository"/>
+    <rdfs:subPropertyOf rdf:resource="http://slebok.github.io/proverb/ontology#lastActivityDate"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://slebok.github.io/proverb/ontology#email">
+    <rdfs:domain rdf:resource="http://slebok.github.io/proverb/ontology#Writer"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://slebok.github.io/proverb/ontology#name">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:DatatypeProperty>
+  <ontology:Tool rdf:about="http://slebok.github.io/proverb/ontology#ACL2"/>
+  <owl:AllDifferent>
+    <owl:distinctMembers rdf:parseType="Collection">
+      <ontology:PV rdf:about="http://slebok.github.io/proverb/ontology#PV0">
+        <ontology:name xml:lang="en">PV0</ontology:name>
+        <ontology:abstract xml:lang="en">PV0 tools manipulate given and produced software artefacts with some degree of rigour. Conceptually such artefacts then may correspond to mathematical and formal entities, but this correspondence is mostly a matter of expectations. This category should be reasonably unpopulated since we mostly avoid to include such tools listed on this website.</ontology:abstract>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      </ontology:PV>
+      <ontology:PV rdf:about="http://slebok.github.io/proverb/ontology#PV1">
+        <ontology:name xml:lang="en">PV1</ontology:name>
+        <ontology:abstract xml:lang="en">PV1 tools encode the formal expectations about the artefacts that they manipulate, and report back to their users about found inconsistencies. A typical resident of this level could be a linter: a tool that analyses your program and complains about places where your program does not conform to its expectations.</ontology:abstract>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      </ontology:PV>
+      <ontology:PV rdf:about="http://slebok.github.io/proverb/ontology#PV2">
+        <ontology:name xml:lang="en">PV2</ontology:name>
+        <ontology:abstract xml:lang="en">PV2 tools generate an executable artefact from a formal one that specifies the desired properties and conditions, without necessarily providing means of explicitly verifying the correctness of the synthesised code. For instance, it could be a test data generator that produces a lot of diverse test cases from a model.</ontology:abstract>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      </ontology:PV>
+      <ontology:PV rdf:about="http://slebok.github.io/proverb/ontology#PV3">
+        <ontology:name xml:lang="en">PV3</ontology:name>
+        <ontology:abstract xml:lang="en">PV3 tools allow the end user to control the properties that are being checked. For instance, it could be a tool that analyses user-written assertions in the code and verifies that they are indeed always respected by the program.</ontology:abstract>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      </ontology:PV>
+      <ontology:PV rdf:about="http://slebok.github.io/proverb/ontology#PV4">
+        <ontology:name xml:lang="en">PV4</ontology:name>
+        <ontology:abstract xml:lang="en">PV4 tools operate within a particular paradigm and derive their actions, conclusions and even properties that they need to check, from a built-in formal specification. For example, such a tool can guarantee freedom of deadlocks in a multi-threaded application, or data consistency in a database management system. Generated property set cannot be explicitly adjusted for tools of this level.</ontology:abstract>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      </ontology:PV>
+      <ontology:PV rdf:about="http://slebok.github.io/proverb/ontology#PV5">
+        <ontology:name xml:lang="en">PV5</ontology:name>
+        <ontology:abstract xml:lang="en">PV5 tools allow the end user to write their own specifications and “compile” them together with desired properties to fully formal mathematical representations that can be combined with mathematical representations of programs themselves or their desired properties, and verified together. Such a tool can already help someone make claims and guarantees about correctness, complexity or predicted performance of a novel, previously non-existing, garbage collection algorithm.</ontology:abstract>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      </ontology:PV>
+      <ontology:PV rdf:about="http://slebok.github.io/proverb/ontology#PV6">
+        <ontology:name xml:lang="en">PV6</ontology:name>
+        <ontology:abstract xml:lang="en">PV6 tools can handle different user-written specifications, encode a wide range of different formulae for properties, and are capable of producing proofs of such properties together with inferring the correctness of such proofs.</ontology:abstract>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      </ontology:PV>
+    </owl:distinctMembers>
+  </owl:AllDifferent>
+</rdf:RDF>
